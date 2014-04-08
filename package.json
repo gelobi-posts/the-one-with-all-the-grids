@@ -1,0 +1,9 @@
+{
+  "name": "tiny-filmmaking-studio-template",
+  "private": true,
+  "version": "0.0.0",
+  "description": "(work in progress)",
+  "dependencies": {
+    "tiny-filmmaking-studio": "*"
+  }
+}
