@@ -1,13 +1,96 @@
 {
   mainBox:
-    height: 400
+    height: 531
     _isVisible: true
 
   timeControl:
-    t: 730.2631578947369
+    t: 272.12918660287085
     _focus:
       from: 0
       to: 1000
 
     _lastPlayedTickAt: 0
+
+  workspaces:
+    workspaces: [
+      name: "Stuff"
+      propHolders: [
+        id: "no-id-Slideshows-Slideshow-Slide"
+        _expanded: true
+        actorPropId: "no-id-Slideshows-Slideshow-Slide"
+        _height: 195
+      ]
+    ]
+    _activeWorkspaceName: "Stuff"
+
+  timeline:
+    _allProps:
+      "no-id-Slideshows-Slideshow-Slide":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 224.2822966507177
+          chronology:
+            points: [
+              {
+                t: 24.521531100478512
+                value: 0
+                id: "no-id-Slideshows-Slideshow-Slide-point-0"
+                handler: [
+                  30.023921966552734
+                  1.7630478143692017
+                  12.081337928771973
+                  1.316975474357605
+                ]
+              }
+              {
+                t: 75.35885167464114
+                value: 1
+                id: "no-id-Slideshows-Slideshow-Slide-point-2"
+                handler: [
+                  17.464113235473633
+                  0.33837011456489563
+                  22.846887588500977
+                  0.5574586987495422
+                ]
+              }
+              {
+                t: 122.00956937799043
+                value: 2
+                id: "no-id-Slideshows-Slideshow-Slide-point-3"
+                handler: [
+                  18.66028594970703
+                  0.38705646991729736
+                  17.464113235473633
+                  0.2896837890148163
+                ]
+              }
+              {
+                t: 175.23923444976077
+                value: 3
+                id: "no-id-Slideshows-Slideshow-Slide-point-1"
+                handler: [
+                  16.86602783203125
+                  0.7731920480728149
+                  13.875596046447754
+                  0.6882259249687195
+                ]
+              }
+              {
+                t: 224.2822966507177
+                value: 4
+                id: "no-id-Slideshows-Slideshow-Slide-point-1"
+                handler: [
+                  16.86602783203125
+                  0.7731920480728149
+                  13.875596046447754
+                  0.6882259249687195
+                ]
+              }
+            ]
+            connectors: []
+
+  timelineEditor:
+    scrollTop: 1
+    guides:
+      _list: []
 }
