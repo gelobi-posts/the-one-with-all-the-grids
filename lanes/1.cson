@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 531
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 272.12918660287085
+    t: 349.88038277511964
     _focus:
       from: 0
       to: 1000
@@ -28,7 +28,7 @@
       "no-id-Slideshows-Slideshow-Slide":
         pacs:
           _idCounter: 3
-          chronologyLength: 224.2822966507177
+          chronologyLength: 266.1483253588517
           chronology:
             points: [
               {
@@ -78,6 +78,17 @@
               {
                 t: 224.2822966507177
                 value: 4
+                id: "no-id-Slideshows-Slideshow-Slide-point-1"
+                handler: [
+                  16.86602783203125
+                  0.7731920480728149
+                  13.875596046447754
+                  0.6882259249687195
+                ]
+              }
+              {
+                t: 266.1483253588517
+                value: 5
                 id: "no-id-Slideshows-Slideshow-Slide-point-1"
                 handler: [
                   16.86602783203125
