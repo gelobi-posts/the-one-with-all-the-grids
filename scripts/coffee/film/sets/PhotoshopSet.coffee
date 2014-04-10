@@ -11,14 +11,25 @@ module.exports = class IntroSet extends Set
 		container = @_makeEl '#photoshop-container'
 		.inside @film.display.stageEl
 
-		@_setupDomEl 'Photoshop', 'Frame', frame, [
-			'translation', 'scale', 'wysihwyg', 'opacity'
+		bg = @_makeEl '#photoshop-bg'
+		.inside container
+
+		@_setupDomEl 'Photoshop', 'BG', bg, [
+			'translation', 'scale', 'opacity'
 		]
 
 		tools = @_makeEl '#photoshop-tools'
 		.inside container
 
+		@_setupDomEl 'Photoshop', 'Tools', tools, [
+			'translation', 'scale', 'opacity'
+		]
+
 		layers = @_makeEl '#photoshop-layers'
 		.inside container
+
+		@_setupDomEl 'Photoshop', 'Layers', layers, [
+			'translation', 'scale', 'opacity'
+		]
 
 
