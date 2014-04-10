@@ -8,5 +8,13 @@ module.exports = class IntroSet extends Set
 
 		@id = 'photoshop'
 
-		bg = @_makeEl '#photoshop-bg'
+		container = @_makeEl '#photoshop-container'
 		.inside @film.display.stageEl
+
+		tools = @_makeEl '#photoshop-tools'
+		.inside container
+
+		layers = @_makeEl '#photoshop-layers'
+		.inside container
+
+
