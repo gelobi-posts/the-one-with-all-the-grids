@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 269
+    height: 129
     _isVisible: true
 
   timeControl:
-    t: 21177.373062321112
+    t: 20993.79343767339
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -30,7 +30,7 @@
             id: "no-id-Photoshop-BG-Scale X"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale X"
-            _height: 103
+            _height: 197
           }
           {
             id: "no-id-Photoshop-BG-Scale Y"
@@ -223,8 +223,8 @@
                 value: 0.9
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
-                  15.271965026855469
-                  0.721875011920929
+                  36.932308197021484
+                  0.17931927740573883
                   606.5302124023438
                   0
                 ]
@@ -234,7 +234,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  503.3336486816406
+                  554.5308227539062
                   0
                   100
                   0.048124998807907104
@@ -258,7 +258,7 @@
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
                   15.271965026855469
-                  0.721875011920929
+                  0.16472315788269043
                   604.165283203125
                   0
                 ]
@@ -268,7 +268,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  506.4902038574219
+                  553.7491455078125
                   0
                   100
                   0.048124998807907104
@@ -315,7 +315,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 267
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868
