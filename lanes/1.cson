@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 420
-    _isVisible: false
+    height: 571
+    _isVisible: true
 
   timeControl:
-    t: 19864.175883172462
+    t: 21314.740854722568
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -30,7 +30,7 @@
             id: "no-id-Photoshop-BG-Scale X"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale X"
-            _height: 80
+            _height: 245
           }
           {
             id: "no-id-Photoshop-BG-Scale Y"
@@ -111,8 +111,8 @@
 
       "no-id-Photoshop-BG-Opacity":
         pacs:
-          _idCounter: 6
-          chronologyLength: 20801.478086039264
+          _idCounter: 8
+          chronologyLength: 20784.923605808315
           chronology:
             points: [
               {
@@ -127,11 +127,11 @@
                 ]
               }
               {
-                t: 20801.478086039264
+                t: 20784.923605808315
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  590.3114624023438
+                  467.3353271484375
                   0
                   100
                   0.048124998807907104
@@ -140,7 +140,7 @@
             ]
             connectors: [
               t: 19992.677824267776
-              id: "no-id-Photoshop-BG-Opacity-connector-6"
+              id: "no-id-Photoshop-BG-Opacity-connector-8"
             ]
 
       "no-id-Photoshop-Tools-Opacity":
@@ -209,7 +209,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  590.3114624023438
+                  434.75079345703125
                   0
                   100
                   0.048124998807907104
@@ -228,7 +228,7 @@
           chronology:
             points: [
               {
-                t: 19996.107075592787
+                t: 19998.07619786772
                 value: 0.85
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
@@ -243,7 +243,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  590.3114624023438
+                  430.81256103515625
                   0
                   100
                   0.048124998807907104
@@ -251,8 +251,8 @@
               }
             ]
             connectors: [
-              t: 19996.107075592787
-              id: "no-id-Photoshop-BG-Scale Y-connector-0"
+              t: 19998.07619786772
+              id: "no-id-Photoshop-BG-Scale X-connector-2"
             ]
 
   timelineEditor:
