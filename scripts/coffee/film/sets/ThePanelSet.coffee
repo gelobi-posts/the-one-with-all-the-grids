@@ -6,6 +6,11 @@ module.exports = class ThePanelSet extends Set
 
 		super
 
+		container = @_makeEl '.container'
+		.inside @film.display.stageEl
+
+		@id = 'the-panel'
+
 		panelHtml = """
 		<div style="width: 246px">
 
@@ -72,3 +77,7 @@ module.exports = class ThePanelSet extends Set
 
 		</div>
 		"""
+
+		@panelContainer = @_makeEl '#the-panel'
+		.html panelHtml
+		.inside container
