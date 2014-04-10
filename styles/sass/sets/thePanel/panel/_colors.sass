@@ -109,143 +109,55 @@
 
 // 		@return black
 
-// @mixin btn_normal
+@mixin btn_normal
 
-// 	text-decoration: none
+	text-decoration: none
 
-// 	border: 1px solid #323232
+	border: 1px solid #323232
 
-// 	-webkit-box-shadow: none !important
+	-webkit-box-shadow: none !important
 
-// 	-webkit-border-radius: 3px !important
+	-webkit-border-radius: 3px !important
 
-// 	cursor: default
+	cursor: default
 
-// 	@include colors
+	border-color: #242424
 
-// 		@if $dark1 == true
+	-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
 
-// 			border-color: #242424
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #505050), color-stop(1, #404040))
 
-// 			-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
+@mixin btn_hover
 
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #505050), color-stop(1, #404040))
+	border-color: #242424
 
-// 		@else if $dark2 == true
+	-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
 
-// 			border-color: #2a2a2a
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, lighten(#505050, 10%)), color-stop(1, lighten(#404040, 1%)))
 
-// 			-webkit-box-shadow: 0 1px 0 #6a6a6a, inset 0 1px 0 #919191
+	color: black
 
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666), color-stop(1, #555))
+@mixin btn_active
 
-// 			color: #EEE
+	border-color: #242424
 
-// 		@else if $light1 == true
+	-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
 
-// 			border-color: #5e5e5e
+	background: #333
 
-// 			-webkit-box-shadow: 0 1px 0 #c7c7c7, inset 0 1px 0 #f7f7f7
+	color: black
 
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e7e7e7), color-stop(1, #bdbdbd))
+@mixin btn
 
-// 		@else if $light2 == true
+	@include btn_normal
 
-// 			border-color: #888888
+	&:hover
 
-// 			-webkit-box-shadow: 0 1px 0 #f7f7f7, inset 0 1px 0 #ffffff
+		@include btn_hover
 
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e7e7e7), color-stop(1, #bdbdbd))
+	&:active
 
-// @mixin btn_hover
-
-// 	@include colors
-
-// 		@if $dark1 == true
-
-// 			border-color: #242424
-
-// 			-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
-
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, lighten(#505050, 10%)), color-stop(1, lighten(#404040, 1%)))
-
-// 			color: color_text_invert()
-
-// 		@else if $dark2 == true
-
-// 			border-color: #2a2a2a
-
-// 			-webkit-box-shadow: 0 1px 0 #6a6a6a, inset 0 1px 0 #919191
-
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, lighten(#767676, 10%)), color-stop(1, lighten(#636363, 1%)))
-
-// 			color: #111
-
-// 		@else if $light1 == true
-
-// 			border-color: #5e5e5e
-
-// 			-webkit-box-shadow: 0 1px 0 #c7c7c7, inset 0 1px 0 #f7f7f7
-
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, lighten(#e7e7e7, 10%)), color-stop(1, lighten(#bdbdbd, 1%)))
-
-// 		@else if $light2 == true
-
-// 			border-color: #888888
-
-// 			-webkit-box-shadow: 0 1px 0 #f7f7f7, inset 0 1px 0 #ffffff
-
-// 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, lighten(#e7e7e7, 10%)), color-stop(1, lighten(#bdbdbd, 1%)))
-
-// @mixin btn_active
-
-// 	@include colors
-
-// 		@if $dark1 == true
-
-// 			border-color: #242424
-
-// 			-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #464646
-
-// 			background: #333
-
-// 			color: color_text_invert()
-
-// 		@else if $dark2 == true
-
-// 			border-color: #2a2a2a
-
-// 			-webkit-box-shadow: 0 1px 0 #6a6a6a, inset 0 1px 0 #919191
-
-// 			background: #444
-
-// 		@else if $light1 == true
-
-// 			border-color: #5e5e5e
-
-// 			-webkit-box-shadow: 0 1px 0 #c7c7c7, inset 0 1px 0 #f7f7f7
-
-// 			background: #BBB
-
-// 		@else if $light2 == true
-
-// 			border-color: #888888
-
-// 			-webkit-box-shadow: 0 1px 0 #f7f7f7, inset 0 1px 0 #ffffff
-
-// 			background: #BBB
-
-// @mixin btn
-
-// 	@include btn_normal
-
-// 	&:hover
-
-// 		@include btn_hover
-
-// 	&:active
-
-// 		@include btn_active
+		@include btn_active
 
 // @mixin colors
 
