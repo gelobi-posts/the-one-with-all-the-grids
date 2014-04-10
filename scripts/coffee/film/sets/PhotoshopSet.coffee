@@ -6,4 +6,7 @@ module.exports = class IntroSet extends Set
 
 		super
 
+		@id = 'photoshop'
 
+		bg = @_makeEl '#photoshop-bg'
+		.inside @film.display.stageEl
