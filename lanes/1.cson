@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 531
+    height: 123
     _isVisible: true
 
   timeControl:
-    t: 170.2261306532665
+    t: 334.1708542713571
     _focus:
       from: 0
       to: 1000.0000000000009
@@ -13,15 +13,16 @@
 
   workspaces:
     workspaces: [
-      name: "Stuff"
-      propHolders: [
-        id: "no-id-Slideshows-Slideshow-Slide"
-        _expanded: true
-        actorPropId: "no-id-Slideshows-Slideshow-Slide"
-        _height: 195
-      ]
+      {
+        name: "Stuff"
+        propHolders: []
+      }
+      {
+        name: "Photoshop"
+        propHolders: []
+      }
     ]
-    _activeWorkspaceName: "Stuff"
+    _activeWorkspaceName: "Photoshop"
 
   timeline:
     _allProps:

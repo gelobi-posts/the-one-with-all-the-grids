@@ -5,3 +5,5 @@ module.exports = class IntroSet extends Set
 	constructor: ->
 
 		super
+
+
