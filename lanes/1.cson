@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 272.12918660287085
+    t: 170.2261306532665
     _focus:
       from: 0
-      to: 1000
+      to: 1000.0000000000009
 
     _lastPlayedTickAt: 0
 
@@ -28,7 +28,7 @@
       "no-id-Slideshows-Slideshow-Slide":
         pacs:
           _idCounter: 3
-          chronologyLength: 224.2822966507177
+          chronologyLength: 662.7245077059946
           chronology:
             points: [
               {
@@ -43,7 +43,7 @@
                 ]
               }
               {
-                t: 75.35885167464114
+                t: 162.67040946358594
                 value: 1
                 id: "no-id-Slideshows-Slideshow-Slide-point-2"
                 handler: [
@@ -54,7 +54,7 @@
                 ]
               }
               {
-                t: 122.00956937799043
+                t: 314.2206246543725
                 value: 2
                 id: "no-id-Slideshows-Slideshow-Slide-point-3"
                 handler: [
@@ -65,7 +65,7 @@
                 ]
               }
               {
-                t: 175.23923444976077
+                t: 478.00305354523846
                 value: 3
                 id: "no-id-Slideshows-Slideshow-Slide-point-1"
                 handler: [
@@ -76,7 +76,7 @@
                 ]
               }
               {
-                t: 224.2822966507177
+                t: 662.7245077059946
                 value: 4
                 id: "no-id-Slideshows-Slideshow-Slide-point-1"
                 handler: [
