@@ -1,8 +1,10 @@
 IntroSet = require '../sets/IntroSet'
+ThePanelSet = require '../sets/ThePanelSet'
 
 module.exports = (film) ->
 
 	film.addSet new IntroSet film
+	film.addSet new ThePanelSet film
 
 	sh = film.createDullSlideshow 'Slideshows', 'Slideshow', '../images/dev/slides/', '.png'
 
