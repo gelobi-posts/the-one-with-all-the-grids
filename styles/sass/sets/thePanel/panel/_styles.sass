@@ -1,0 +1,44 @@
+input, select, textarea, button, a
+
+	color: #cacaca
+
+button
+
+	font-size: inherit
+
+input[type=text], textarea
+
+	outline: none
+
+	font-size: inherit
+
+	font-family: Monaco, "Courier New", monospace
+
+	border: 1px solid
+
+	background: #212121
+	border-color: #111111
+	-webkit-box-shadow: 0 1px 0 #464646, inset 0 1px 0 #1e1e1e
+
+	&:focus
+
+		background: white
+
+		color: black
+
+		border-color: rgb(0, 189, 255)
+
+		-webkit-box-shadow: 0 0 4px -1px black !important
+
+
+button, input[type=submit], a.button
+
+	@include btn
+
+input[type=text], textarea, select, button, a.button
+
+	-webkit-border-radius: 2px
+
+select
+
+	color: color_select() !important

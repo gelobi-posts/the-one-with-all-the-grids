@@ -1,10 +1,18 @@
 {
   mainBox:
+<<<<<<< HEAD
     height: 129
     _isVisible: true
 
   timeControl:
     t: 20993.79343767339
+=======
+    height: 531
+    _isVisible: false
+
+  timeControl:
+    t: 349.88038277511964
+>>>>>>> origin/arias
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -60,7 +68,11 @@
       "no-id-Slideshows-Slideshow-Slide":
         pacs:
           _idCounter: 3
+<<<<<<< HEAD
           chronologyLength: 662.7245077059946
+=======
+          chronologyLength: 266.1483253588517
+>>>>>>> origin/arias
           chronology:
             points: [
               {
@@ -110,6 +122,17 @@
               {
                 t: 662.7245077059946
                 value: 4
+                id: "no-id-Slideshows-Slideshow-Slide-point-1"
+                handler: [
+                  16.86602783203125
+                  0.7731920480728149
+                  13.875596046447754
+                  0.6882259249687195
+                ]
+              }
+              {
+                t: 266.1483253588517
+                value: 5
                 id: "no-id-Slideshows-Slideshow-Slide-point-1"
                 handler: [
                   16.86602783203125

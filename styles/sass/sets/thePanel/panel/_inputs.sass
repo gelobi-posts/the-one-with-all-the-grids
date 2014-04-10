@@ -1,0 +1,35 @@
+@mixin el
+
+	position: relative
+	display: inline-block
+
+	margin-bottom: 8px
+	margin-right: 5px
+
+	vertical-align: bottom
+	line-height: 16px
+
+	height: 22px
+	width: 70px
+
+	&.big
+
+		width: 140px
+
+.noMargin
+
+	margin-right: 0
+
+label, input, textarea, select, .select, button, a.button, .el
+
+	@include el
+
+input[type=text]
+
+	padding-left: 4px
+	padding-right: 4px
+
+@import "./inputs/button"
+@import "./inputs/rotator"
+@import "./inputs/direction"
+@import "./inputs/orientation"
