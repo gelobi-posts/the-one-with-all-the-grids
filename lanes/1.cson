@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 20949.461695620463
+    t: 21409.194848099964
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -45,9 +45,9 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Tools-Rotation X"
+            id: "no-id-Photoshop-Tools-Rotation Y"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Rotation X"
+            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
             _height: 80
           }
         ]
@@ -282,8 +282,8 @@
 
       "no-id-Photoshop-BG-Rotation Y":
         pacs:
-          _idCounter: 0
-          chronologyLength: 20598.678281895067
+          _idCounter: 1
+          chronologyLength: 20370.24030782954
           chronology:
             points: []
             connectors: []
@@ -293,15 +293,23 @@
           _idCounter: 0
           chronologyLength: 20496.264133425073
           chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Tools-Rotation Y":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 20675.45426044373
+          chronology:
             points: [
-              t: 20496.264133425073
-              value: 2.5
-              id: "no-id-Photoshop-Tools-Rotation X-point-0"
+              t: 20675.45426044373
+              value: 50
+              id: "no-id-Photoshop-Tools-Rotation Y-point-1"
               handler: [
                 100
-                0.25
+                1
                 100
-                0.25
+                1
               ]
             ]
             connectors: []
