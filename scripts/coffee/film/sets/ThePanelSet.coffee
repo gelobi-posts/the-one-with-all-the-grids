@@ -72,4 +72,7 @@ module.exports = class ThePanelSet extends Set
 
 		@panelBody = @_makeEl '.body'
 		.html panelHtml
-		.inside @thePanel
+
+		Rotator.applyTo @panelBody.node
+
+		@panelBody.inside @thePanel
