@@ -82,5 +82,5 @@ module.exports = class ThePanelSet extends Set
 		.inside container
 
 		@panelBody = @_makeEl '.body'
-		.html panelHtml
+		# .html panelHtml
 		.inside @thePanel
