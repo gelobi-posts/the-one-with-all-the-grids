@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 371
+    height: 153
     _isVisible: true
 
   timeControl:
-    t: 21384.338279418625
+    t: 20901.157607334764
     _focus:
-      from: 18688.609885039088
-      to: 22453.57167470576
+      from: 18690.57900731402
+      to: 22455.54079698069
 
     _lastPlayedTickAt: 0
 
@@ -20,24 +20,10 @@
       {
         name: "Photoshop"
         propHolders: [
-          {
-            id: "no-id-Photoshop-BG-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Tools-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Layers-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Opacity"
-            _height: 80
-          }
+          id: "no-id-Photoshop-BG-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Photoshop-BG-Opacity"
+          _height: 80
         ]
       }
     ]
@@ -122,7 +108,7 @@
                 handler: [
                   15.271965026855469
                   0.721875011920929
-                  217.16845703125
+                  762.6152954101562
                   0
                 ]
               }
@@ -131,7 +117,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  243.7459259033203
+                  590.3114624023438
                   0
                   100
                   0.048124998807907104
@@ -146,73 +132,41 @@
       "no-id-Photoshop-Tools-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 21003.78868713223
+          chronologyLength: 19996.107075592783
           chronology:
             points: [
-              {
-                t: 19996.107075592783
-                value: 0
-                id: "no-id-Photoshop-BG-Opacity-point-3"
-                handler: [
-                  15.271965026855469
-                  0.721875011920929
-                  217.16845703125
-                  0
-                ]
-              }
-              {
-                t: 21003.78868713223
-                value: 1
-                id: "no-id-Photoshop-BG-Opacity-point-4"
-                handler: [
-                  243.7459259033203
-                  0
-                  100
-                  0.048124998807907104
-                ]
-              }
-            ]
-            connectors: [
               t: 19996.107075592783
-              id: "no-id-Photoshop-BG-Opacity-connector-5"
+              value: 0
+              id: "no-id-Photoshop-BG-Opacity-point-3"
+              handler: [
+                15.271965026855469
+                0.721875011920929
+                217.16845703125
+                0
+              ]
             ]
+            connectors: []
 
       "no-id-Photoshop-Layers-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 21003.78868713223
+          chronologyLength: 19996.107075592783
           chronology:
             points: [
-              {
-                t: 19996.107075592783
-                value: 0
-                id: "no-id-Photoshop-BG-Opacity-point-3"
-                handler: [
-                  15.271965026855469
-                  0.721875011920929
-                  217.16845703125
-                  0
-                ]
-              }
-              {
-                t: 21003.78868713223
-                value: 1
-                id: "no-id-Photoshop-BG-Opacity-point-4"
-                handler: [
-                  243.7459259033203
-                  0
-                  100
-                  0.048124998807907104
-                ]
-              }
-            ]
-            connectors: [
               t: 19996.107075592783
-              id: "no-id-Photoshop-BG-Opacity-connector-5"
+              value: 0
+              id: "no-id-Photoshop-BG-Opacity-point-3"
+              handler: [
+                15.271965026855469
+                0.721875011920929
+                217.16845703125
+                0
+              ]
             ]
+            connectors: []
 
   timelineEditor:
-    scrollTop: -4
+    scrollTop: -5
     guides:
       _list: [
         19993.636315890868
