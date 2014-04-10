@@ -1,7 +1,7 @@
 {
   mainBox:
     height: 269
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
     t: 20949.461695620463
@@ -37,6 +37,18 @@
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale Y"
             _height: 189
+          }
+          {
+            id: "no-id-Photoshop-Tools-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Tools-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Rotation X"
+            _height: 80
           }
         ]
       }
@@ -145,19 +157,32 @@
 
       "no-id-Photoshop-Tools-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 19996.107075592783
+          _idCounter: 1
+          chronologyLength: 20498.233255700005
           chronology:
             points: [
-              t: 19996.107075592783
-              value: 0
-              id: "no-id-Photoshop-BG-Opacity-point-3"
-              handler: [
-                15.271965026855469
-                0.721875011920929
-                217.16845703125
-                0
-              ]
+              {
+                t: 19996.107075592783
+                value: 0
+                id: "no-id-Photoshop-BG-Opacity-point-3"
+                handler: [
+                  15.271965026855469
+                  0.721875011920929
+                  217.16845703125
+                  0
+                ]
+              }
+              {
+                t: 20498.233255700005
+                value: 1
+                id: "no-id-Photoshop-Tools-Opacity-point-1"
+                handler: [
+                  100
+                  0.0397031269967556
+                  100
+                  0.0397031269967556
+                ]
+              }
             ]
             connectors: []
 
@@ -263,8 +288,26 @@
             points: []
             connectors: []
 
+      "no-id-Photoshop-Tools-Rotation X":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 20496.264133425073
+          chronology:
+            points: [
+              t: 20496.264133425073
+              value: 2.5
+              id: "no-id-Photoshop-Tools-Rotation X-point-0"
+              handler: [
+                100
+                0.25
+                100
+                0.25
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 103
+    scrollTop: 267
     guides:
       _list: [
         19993.636315890868
