@@ -1,4 +1,5 @@
 Set = require('tiny-filmmaking-studio').Set
+Rotator = require './thePanelSet/Rotator'
 
 module.exports = class ThePanelSet extends Set
 
@@ -16,8 +17,6 @@ module.exports = class ThePanelSet extends Set
 
 		<section>
 
-			<form>
-
 			<div>
 
 				<input type="text" name="spacing" placeholder="Spacing" class="big">
@@ -28,15 +27,11 @@ module.exports = class ThePanelSet extends Set
 
 			</div>
 
-			</form>
-
 			<hr>
 
 		</section>
 
 		<section>
-
-			<form>
 
 			<div>
 
@@ -48,16 +43,12 @@ module.exports = class ThePanelSet extends Set
 
 			</div>
 
-			</form>
-
 			<hr>
 
 
 		</section>
 
 		<section>
-
-			<form>
 
 			<div>
 
@@ -69,8 +60,6 @@ module.exports = class ThePanelSet extends Set
 
 			</div>
 
-			</form>
-
 		</section>
 
 		<script src="./scripts/dist/panel.js"></script>
@@ -78,9 +67,9 @@ module.exports = class ThePanelSet extends Set
 		</div>
 		"""
 
-		@thePanel = @_makeEl '#the-panel'
+		@thePanel = @_makeEl '#thePanel'
 		.inside container
 
 		@panelBody = @_makeEl '.body'
-		# .html panelHtml
+		.html panelHtml
 		.inside @thePanel
