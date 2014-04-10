@@ -78,6 +78,9 @@ module.exports = class ThePanelSet extends Set
 		</div>
 		"""
 
-		@panelContainer = @_makeEl '#the-panel'
-		.html panelHtml
+		@thePanel = @_makeEl '#the-panel'
 		.inside container
+
+		@panelBody = @_makeEl '.body'
+		.html panelHtml
+		.inside @thePanel
