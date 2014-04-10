@@ -15,7 +15,7 @@ module.exports = class IntroSet extends Set
 		.inside container
 
 		@_setupDomEl 'Photoshop', 'BG', bg, [
-			'translation', 'scale', 'opacity'
+			'translation', 'scale', 'opacity', 'rotation'
 		]
 
 		tools = @_makeEl '#photoshop-tools'
