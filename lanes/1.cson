@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 571
-    _isVisible: true
+    height: 269
+    _isVisible: false
 
   timeControl:
-    t: 21314.740854722568
+    t: 20949.461695620463
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -30,13 +30,13 @@
             id: "no-id-Photoshop-BG-Scale X"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale X"
-            _height: 245
+            _height: 103
           }
           {
             id: "no-id-Photoshop-BG-Scale Y"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale Y"
-            _height: 80
+            _height: 189
           }
         ]
       }
@@ -181,8 +181,8 @@
 
       "no-id-Photoshop-BG-Rotation X":
         pacs:
-          _idCounter: 0
-          chronologyLength: 19992.168831042927
+          _idCounter: 3
+          chronologyLength: 20995.98580743778
           chronology:
             points: []
             connectors: []
@@ -195,12 +195,12 @@
             points: [
               {
                 t: 19998.07619786772
-                value: 0.85
+                value: 0.9
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
                   15.271965026855469
                   0.721875011920929
-                  762.6152954101562
+                  606.5302124023438
                   0
                 ]
               }
@@ -209,7 +209,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  434.75079345703125
+                  503.3336486816406
                   0
                   100
                   0.048124998807907104
@@ -229,12 +229,12 @@
             points: [
               {
                 t: 19998.07619786772
-                value: 0.85
+                value: 0.9
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
                   15.271965026855469
                   0.721875011920929
-                  762.6152954101562
+                  604.165283203125
                   0
                 ]
               }
@@ -243,7 +243,7 @@
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
-                  430.81256103515625
+                  506.4902038574219
                   0
                   100
                   0.048124998807907104
@@ -255,8 +255,16 @@
               id: "no-id-Photoshop-BG-Scale X-connector-2"
             ]
 
+      "no-id-Photoshop-BG-Rotation Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 20598.678281895067
+          chronology:
+            points: []
+            connectors: []
+
   timelineEditor:
-    scrollTop: -4
+    scrollTop: 103
     guides:
       _list: [
         19993.636315890868
