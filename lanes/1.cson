@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 21138.19799505234
+    t: 21384.338279418625
     _focus:
-      from: 18692.548129588948
-      to: 22457.50991925562
+      from: 18688.609885039088
+      to: 22453.57167470576
 
     _lastPlayedTickAt: 0
 
@@ -111,60 +111,108 @@
 
       "no-id-Photoshop-BG-Opacity":
         pacs:
-          _idCounter: 3
-          chronologyLength: 19992.677824267776
+          _idCounter: 5
+          chronologyLength: 21000.359435807222
           chronology:
             points: [
-              t: 19992.677824267776
-              value: 0
-              id: "no-id-Photoshop-BG-Opacity-point-3"
-              handler: [
-                15.271965026855469
-                0.721875011920929
-                16.317989349365234
-                0.875
-              ]
+              {
+                t: 19992.677824267776
+                value: 0
+                id: "no-id-Photoshop-BG-Opacity-point-3"
+                handler: [
+                  15.271965026855469
+                  0.721875011920929
+                  217.16845703125
+                  0
+                ]
+              }
+              {
+                t: 21000.359435807222
+                value: 1
+                id: "no-id-Photoshop-BG-Opacity-point-4"
+                handler: [
+                  243.7459259033203
+                  0
+                  100
+                  0.048124998807907104
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 19992.677824267776
+              id: "no-id-Photoshop-BG-Opacity-connector-5"
+            ]
 
       "no-id-Photoshop-Tools-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 19993.113303338567
+          chronologyLength: 21003.78868713223
           chronology:
             points: [
-              t: 19993.113303338567
-              value: 0
-              id: "no-id-Photoshop-Tools-Opacity-point-0"
-              handler: [
-                14.225939750671387
-                0.01530937384814024
-                10.041839599609375
-                0.017249999567866325
-              ]
+              {
+                t: 19996.107075592783
+                value: 0
+                id: "no-id-Photoshop-BG-Opacity-point-3"
+                handler: [
+                  15.271965026855469
+                  0.721875011920929
+                  217.16845703125
+                  0
+                ]
+              }
+              {
+                t: 21003.78868713223
+                value: 1
+                id: "no-id-Photoshop-BG-Opacity-point-4"
+                handler: [
+                  243.7459259033203
+                  0
+                  100
+                  0.048124998807907104
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 19996.107075592783
+              id: "no-id-Photoshop-BG-Opacity-connector-5"
+            ]
 
       "no-id-Photoshop-Layers-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 19992.590290786266
+          chronologyLength: 21003.78868713223
           chronology:
             points: [
-              t: 19992.590290786266
-              value: 0
-              id: "no-id-Photoshop-Layers-Opacity-point-0"
-              handler: [
-                19.456066131591797
-                0.04319531098008156
-                17.364015579223633
-                0.053437501192092896
-              ]
+              {
+                t: 19996.107075592783
+                value: 0
+                id: "no-id-Photoshop-BG-Opacity-point-3"
+                handler: [
+                  15.271965026855469
+                  0.721875011920929
+                  217.16845703125
+                  0
+                ]
+              }
+              {
+                t: 21003.78868713223
+                value: 1
+                id: "no-id-Photoshop-BG-Opacity-point-4"
+                handler: [
+                  243.7459259033203
+                  0
+                  100
+                  0.048124998807907104
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 19996.107075592783
+              id: "no-id-Photoshop-BG-Opacity-connector-5"
+            ]
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -4
     guides:
       _list: [
         19993.636315890868
