@@ -10,7 +10,6 @@ module.exports = class IntroSet extends Set
 
 		container = @_makeEl '#photoshop-container'
 		.inside @film.display.stageEl
-		.perspective 1000
 
 		bg = @_makeEl '#photoshop-bg'
 		.inside container
@@ -21,6 +20,7 @@ module.exports = class IntroSet extends Set
 
 		tools = @_makeEl '#photoshop-tools'
 		.inside container
+		.perspective 1000
 
 		@_setupDomEl 'Photoshop', 'Tools', tools, [
 			'translation', 'scale', 'opacity', 'rotation'
