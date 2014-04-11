@@ -39,6 +39,8 @@ module.exports = class IntroSet extends Set
 		guides = @_makeEl '#photoshop-guides'
 		.inside container
 
+		@_setupDomEl 'Photoshop', 'Guides', guides, ['opacity']
+
 		tools = @_makeEl '#photoshop-tools'
 		.inside container
 		.perspective 1000

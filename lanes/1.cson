@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24903.016074086863
+    t: 26208.755550987553
     _focus:
       from: 22458.983013342906
       to: 30529.779580082886
@@ -36,6 +36,12 @@
             id: "no-id-Photoshop-Extensions-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Extensions-Opacity"
+            _height: 79
+          }
+          {
+            id: "no-id-Photoshop-Guides-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Guides-Opacity"
             _height: 80
           }
         ]
@@ -500,21 +506,71 @@
 
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 25920.307900752312
+          _idCounter: 2
+          chronologyLength: 25886.538877460513
           chronology:
             points: [
-              t: 25920.307900752312
-              value: 0.1
-              id: "no-id-Photoshop-Extensions-Opacity-point-0"
-              handler: [
-                100
-                0.17000000178813934
-                100
-                0.17000000178813934
-              ]
+              {
+                t: 25430.657063021226
+                value: 0
+                id: "no-id-Photoshop-Extensions-Opacity-point-0"
+                handler: [
+                  0
+                  0.0687674954533577
+                  243.5183563232422
+                  0
+                ]
+              }
+              {
+                t: 25886.538877460513
+                value: 1
+                id: "no-id-Photoshop-Extensions-Opacity-point-1"
+                handler: [
+                  230.85496520996094
+                  0
+                  100
+                  0.012325000017881393
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 25430.657063021226
+              id: "no-id-Photoshop-Extensions-Opacity-connector-2"
+            ]
+
+      "no-id-Photoshop-Guides-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 25890.760005371987
+          chronology:
+            points: [
+              {
+                t: 25434.8781909327
+                value: 0
+                id: "no-id-Photoshop-Extensions-Opacity-point-0"
+                handler: [
+                  0
+                  0.0687674954533577
+                  243.5183563232422
+                  0
+                ]
+              }
+              {
+                t: 25890.760005371987
+                value: 1
+                id: "no-id-Photoshop-Extensions-Opacity-point-1"
+                handler: [
+                  230.85496520996094
+                  0
+                  100
+                  0.012325000017881393
+                ]
+              }
+            ]
+            connectors: [
+              t: 25434.8781909327
+              id: "no-id-Photoshop-Extensions-Opacity-connector-2"
+            ]
 
   timelineEditor:
     scrollTop: 0
