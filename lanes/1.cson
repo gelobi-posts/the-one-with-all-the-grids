@@ -1,11 +1,10 @@
 {
   mainBox:
-    height: 129
+    height: 397
     _isVisible: true
 
   timeControl:
-    t: 20993.79343767339
-
+    t: 20622.287959020614
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -22,24 +21,6 @@
         name: "Photoshop"
         propHolders: [
           {
-            id: "no-id-Photoshop-BG-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-BG-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Scale X"
-            _height: 197
-          }
-          {
-            id: "no-id-Photoshop-BG-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Scale Y"
-            _height: 189
-          }
-          {
             id: "no-id-Photoshop-Tools-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Tools-Opacity"
@@ -49,6 +30,12 @@
             id: "no-id-Photoshop-Tools-Rotation Y"
             _expanded: true
             actorPropId: "no-id-Photoshop-Tools-Rotation Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Tools-Z"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Z"
             _height: 80
           }
         ]
@@ -61,9 +48,7 @@
       "no-id-Slideshows-Slideshow-Slide":
         pacs:
           _idCounter: 3
-
           chronologyLength: 662.7245077059946
-
           chronology:
             points: [
               {
@@ -171,12 +156,12 @@
 
       "no-id-Photoshop-Tools-Opacity":
         pacs:
-          _idCounter: 1
-          chronologyLength: 20498.233255700005
+          _idCounter: 6
+          chronologyLength: 20805.416330589127
           chronology:
             points: [
               {
-                t: 19996.107075592783
+                t: 20417.49924242786
                 value: 0
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
@@ -187,7 +172,7 @@
                 ]
               }
               {
-                t: 20498.233255700005
+                t: 20805.416330589127
                 value: 1
                 id: "no-id-Photoshop-Tools-Opacity-point-1"
                 handler: [
@@ -198,7 +183,10 @@
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              t: 20417.49924242786
+              id: "no-id-Photoshop-Tools-Opacity-connector-6"
+            ]
 
       "no-id-Photoshop-Layers-Opacity":
         pacs:
@@ -312,18 +300,52 @@
 
       "no-id-Photoshop-Tools-Rotation Y":
         pacs:
-          _idCounter: 1
-          chronologyLength: 20675.45426044373
+          _idCounter: 3
+          chronologyLength: 20815.261941963778
           chronology:
             points: [
-              t: 20675.45426044373
-              value: 50
-              id: "no-id-Photoshop-Tools-Rotation Y-point-1"
+              {
+                t: 20419.468364702796
+                value: 50
+                id: "no-id-Photoshop-Tools-Rotation Y-point-1"
+                handler: [
+                  100
+                  1
+                  100
+                  1
+                ]
+              }
+              {
+                t: 20815.261941963778
+                value: 0
+                id: "no-id-Photoshop-Tools-Rotation Y-point-2"
+                handler: [
+                  100
+                  5.087500095367432
+                  100
+                  5.087500095367432
+                ]
+              }
+            ]
+            connectors: [
+              t: 20419.468364702796
+              id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
+            ]
+
+      "no-id-Photoshop-Tools-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 20423.406609252655
+          chronology:
+            points: [
+              t: 20423.406609252655
+              value: 10
+              id: "no-id-Photoshop-Tools-Z-point-0"
               handler: [
                 100
-                1
+                5
                 100
-                1
+                5
               ]
             ]
             connectors: []
