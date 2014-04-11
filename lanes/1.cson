@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 28168.714320451203
+    t: 28689.272187509174
     _focus:
-      from: 22461.749384137154
-      to: 30532.54595087714
+      from: 22470.191639960103
+      to: 30540.988206700087
 
     _lastPlayedTickAt: 0
 
@@ -30,7 +30,7 @@
             id: "no-id-Photoshop-Window Highlight-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
-            _height: 80
+            _height: 228
           }
           {
             id: "no-id-Photoshop-Window-Opacity"
@@ -419,7 +419,7 @@
       "no-id-Photoshop-Window-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 28270.021390326598
+          chronologyLength: 28156.050936716776
           chronology:
             points: [
               {
@@ -467,18 +467,18 @@
                 ]
               }
               {
-                t: 28029.41709937253
+                t: 27915.44664576271
                 value: 0.5
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
                 handler: [
-                  100
-                  0.0693218782544136
+                  0
+                  0.4862039089202881
                   188.64369201660156
                   0
                 ]
               }
               {
-                t: 28270.021390326598
+                t: 28156.050936716776
                 value: 0
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
                 handler: [
@@ -499,7 +499,7 @@
                 id: "no-id-Photoshop-Window-Opacity-connector-4"
               }
               {
-                t: 28029.41709937253
+                t: 27915.44664576271
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -573,7 +573,7 @@
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 26170.750288253836
+          chronologyLength: 56409.187815397476
           chronology:
             points: [
               {
@@ -620,6 +620,50 @@
                   0.09955000132322311
                 ]
               }
+              {
+                t: 27915.44664576271
+                value: 0.5
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  100
+                  0.0693218782544136
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 28156.050936716776
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
+              {
+                t: 56168.58352444341
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  100
+                  0.0693218782544136
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 56409.187815397476
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
             connectors: [
               {
@@ -630,12 +674,20 @@
                 t: 25715.657185903776
                 id: "no-id-Photoshop-Window-Opacity-connector-4"
               }
+              {
+                t: 27915.44664576271
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
+              }
+              {
+                t: 56168.58352444341
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
+              }
             ]
 
       "no-id-Photoshop-Guides-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 25544.627516631044
+          chronologyLength: 28151.8298088053
           chronology:
             points: [
               {
@@ -660,16 +712,44 @@
                   0.012325000017881393
                 ]
               }
+              {
+                t: 27915.44664576271
+                value: 1
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
+                handler: [
+                  100
+                  0.09220000356435776
+                  129.5478973388672
+                  0
+                ]
+              }
+              {
+                t: 28151.8298088053
+                value: 0
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
+                handler: [
+                  167.53805541992188
+                  0
+                  100
+                  -0.008643750101327896
+                ]
+              }
             ]
             connectors: [
-              t: 25236.48517909338
-              id: "no-id-Photoshop-Guides-Opacity-connector-5"
+              {
+                t: 25236.48517909338
+                id: "no-id-Photoshop-Guides-Opacity-connector-5"
+              }
+              {
+                t: 27915.44664576271
+                id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
+              }
             ]
 
       "no-id-Photoshop-Extension-Heighlight-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 24754.941736834997
+          chronologyLength: 28151.8298088053
           chronology:
             points: [
               {
@@ -694,8 +774,33 @@
                   0.00419999985024333
                 ]
               }
+              {
+                t: 27915.44664576271
+                value: 1
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
+                handler: [
+                  100
+                  0.09220000356435776
+                  129.5478973388672
+                  0
+                ]
+              }
+              {
+                t: 28151.8298088053
+                value: 0
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
+                handler: [
+                  167.53805541992188
+                  0
+                  100
+                  -0.008643750101327896
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 27915.44664576271
+              id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
+            ]
 
       "no-id-Photoshop-Menu Bar-Opacity":
         pacs:
@@ -787,8 +892,8 @@
 
       "no-id-Photoshop-Window Highlight-Opacity":
         pacs:
-          _idCounter: 1
-          chronologyLength: 24048.26450002499
+          _idCounter: 4
+          chronologyLength: 28151.8298088053
           chronology:
             points: [
               {
@@ -813,11 +918,36 @@
                   0.1525000035762787
                 ]
               }
+              {
+                t: 27915.44664576271
+                value: 1
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
+                handler: [
+                  100
+                  0.09220000356435776
+                  129.5478973388672
+                  0
+                ]
+              }
+              {
+                t: 28151.8298088053
+                value: 0
+                id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
+                handler: [
+                  167.53805541992188
+                  0
+                  100
+                  -0.008643750101327896
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 27915.44664576271
+              id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
+            ]
 
   timelineEditor:
-    scrollTop: 103
+    scrollTop: 251
     guides:
       _list: [
         19993.636315890868
