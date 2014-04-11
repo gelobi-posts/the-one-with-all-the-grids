@@ -21,6 +21,8 @@ module.exports = class IntroSet extends Set
 		menubar = @_makeEl '#photoshop-menu-bar'
 		.inside container
 
+		@_setupDomEl 'Photoshop', 'Menu Bar', menubar, ['opacity']
+
 		windowmenu = @_makeEl '#photoshop-window'
 		.inside container
 
