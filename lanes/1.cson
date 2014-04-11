@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 26208.755550987553
+    t: 24755.276597185242
     _focus:
       from: 22458.983013342906
       to: 30529.779580082886
@@ -472,12 +472,12 @@
 
       "no-id-Photoshop-Extension-Heighlight-X":
         pacs:
-          _idCounter: 4
-          chronologyLength: 25599.502179480223
+          _idCounter: 7
+          chronologyLength: 25540.406388719573
           chronology:
             points: [
               {
-                t: 25135.178109217984
+                t: 25080.303446368813
                 value: 0
                 id: "no-id-Photoshop-Extension-Heighlight-X-point-0"
                 handler: [
@@ -488,11 +488,11 @@
                 ]
               }
               {
-                t: 25599.502179480223
+                t: 25540.406388719573
                 value: 5
                 id: "no-id-Photoshop-Extension-Heighlight-X-point-1"
                 handler: [
-                  209.74932861328125
+                  353.2676696777344
                   0
                   100
                   0.1274999976158142
@@ -500,18 +500,18 @@
               }
             ]
             connectors: [
-              t: 25135.178109217984
-              id: "no-id-Photoshop-Extension-Heighlight-X-connector-4"
+              t: 25080.303446368813
+              id: "no-id-Photoshop-Extension-Heighlight-X-connector-7"
             ]
 
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 25886.538877460513
+          _idCounter: 4
+          chronologyLength: 25612.165563214647
           chronology:
             points: [
               {
-                t: 25430.657063021226
+                t: 25240.706307004857
                 value: 0
                 id: "no-id-Photoshop-Extensions-Opacity-point-0"
                 handler: [
@@ -522,7 +522,7 @@
                 ]
               }
               {
-                t: 25886.538877460513
+                t: 25612.165563214647
                 value: 1
                 id: "no-id-Photoshop-Extensions-Opacity-point-1"
                 handler: [
@@ -534,18 +534,18 @@
               }
             ]
             connectors: [
-              t: 25430.657063021226
-              id: "no-id-Photoshop-Extensions-Opacity-connector-2"
+              t: 25240.706307004857
+              id: "no-id-Photoshop-Extensions-Opacity-connector-4"
             ]
 
       "no-id-Photoshop-Guides-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 25890.760005371987
+          _idCounter: 4
+          chronologyLength: 25612.165563214643
           chronology:
             points: [
               {
-                t: 25434.8781909327
+                t: 25236.48517909338
                 value: 0
                 id: "no-id-Photoshop-Extensions-Opacity-point-0"
                 handler: [
@@ -556,7 +556,7 @@
                 ]
               }
               {
-                t: 25890.760005371987
+                t: 25612.165563214643
                 value: 1
                 id: "no-id-Photoshop-Extensions-Opacity-point-1"
                 handler: [
@@ -568,8 +568,8 @@
               }
             ]
             connectors: [
-              t: 25434.8781909327
-              id: "no-id-Photoshop-Extensions-Opacity-connector-2"
+              t: 25236.48517909338
+              id: "no-id-Photoshop-Guides-Opacity-connector-4"
             ]
 
   timelineEditor:
