@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 25924.529028663786
+    t: 24903.016074086863
     _focus:
       from: 22458.983013342906
       to: 30529.779580082886
@@ -30,6 +30,12 @@
             id: "no-id-Photoshop-Extension-Heighlight-X"
             _expanded: true
             actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Extensions-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Extensions-Opacity"
             _height: 80
           }
         ]
@@ -491,6 +497,24 @@
               t: 25135.178109217984
               id: "no-id-Photoshop-Extension-Heighlight-X-connector-4"
             ]
+
+      "no-id-Photoshop-Extensions-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 25920.307900752312
+          chronology:
+            points: [
+              t: 25920.307900752312
+              value: 0.1
+              id: "no-id-Photoshop-Extensions-Opacity-point-0"
+              handler: [
+                100
+                0.17000000178813934
+                100
+                0.17000000178813934
+              ]
+            ]
+            connectors: []
 
   timelineEditor:
     scrollTop: 0

@@ -24,18 +24,19 @@ module.exports = class IntroSet extends Set
 		windowmenu = @_makeEl '#photoshop-window'
 		.inside container
 
-		@_setupDomEl 'Photoshop', 'Window', windowmenu, [
-			'opacity'
-		]
+		@_setupDomEl 'Photoshop', 'Window', windowmenu, ['opacity']
 
 		extensionsHighlight = @_makeEl '#photoshop-extensions-selected'
 		.inside container
 
-		@_setupDomEl 'Photoshop', 'Extension-Heighlight', extensionsHighlight, [
-			'translation'
-		]
+		@_setupDomEl 'Photoshop', 'Extension-Heighlight', extensionsHighlight, ['translation']
 
 		extensions = @_makeEl '#photoshop-extensions'
+		.inside container
+
+		@_setupDomEl 'Photoshop', 'Extensions', extensions, ['opacity']
+
+		guides = @_makeEl '#photoshop-guides'
 		.inside container
 
 		tools = @_makeEl '#photoshop-tools'
