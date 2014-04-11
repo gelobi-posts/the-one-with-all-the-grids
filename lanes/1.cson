@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 584
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 26649.899277397883
+    t: 28168.714320451203
     _focus:
-      from: 20586.939612615584
-      to: 28657.73617935557
+      from: 22461.749384137154
+      to: 30532.54595087714
 
     _lastPlayedTickAt: 0
 
@@ -21,27 +21,21 @@
         name: "Photoshop"
         propHolders: [
           {
+            id: "no-id-Photoshop-Menu Bar-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
+            _height: 283
+          }
+          {
+            id: "no-id-Photoshop-Window Highlight-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
+            _height: 80
+          }
+          {
             id: "no-id-Photoshop-Window-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Window-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extension-Heighlight-X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extensions-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extensions-Opacity"
-            _height: 79
-          }
-          {
-            id: "no-id-Photoshop-Guides-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Guides-Opacity"
             _height: 80
           }
           {
@@ -51,15 +45,15 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Menu Bar-Opacity"
+            id: "no-id-Photoshop-Extensions-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
+            actorPropId: "no-id-Photoshop-Extensions-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Window Highlight-Opacity"
+            id: "no-id-Photoshop-Guides-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
+            actorPropId: "no-id-Photoshop-Guides-Opacity"
             _height: 80
           }
         ]
@@ -425,7 +419,7 @@
       "no-id-Photoshop-Window-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 25455.983830490073
+          chronologyLength: 28270.021390326598
           chronology:
             points: [
               {
@@ -472,6 +466,28 @@
                   0.09955000132322311
                 ]
               }
+              {
+                t: 28029.41709937253
+                value: 0.5
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  100
+                  0.0693218782544136
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 28270.021390326598
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
             connectors: [
               {
@@ -481,6 +497,10 @@
               {
                 t: 25000.890728140013
                 id: "no-id-Photoshop-Window-Opacity-connector-4"
+              }
+              {
+                t: 28029.41709937253
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
 
@@ -679,8 +699,8 @@
 
       "no-id-Photoshop-Menu Bar-Opacity":
         pacs:
-          _idCounter: 4
-          chronologyLength: 24432.387139969207
+          _idCounter: 8
+          chronologyLength: 28151.8298088053
           chronology:
             points: [
               {
@@ -727,6 +747,28 @@
                   -0.0027728748973459005
                 ]
               }
+              {
+                t: 27911.225517851235
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  100
+                  0.0693218782544136
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 28151.8298088053
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
             connectors: [
               {
@@ -736,6 +778,10 @@
               {
                 t: 24229.77300021841
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-4"
+              }
+              {
+                t: 27911.225517851235
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
 
@@ -771,7 +817,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 103
     guides:
       _list: [
         19993.636315890868
