@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 479
-    _isVisible: true
+    height: 584
+    _isVisible: false
 
   timeControl:
-    t: 20419.468364702796
+    t: 20163.48246896186
     _focus:
-      from: 18692.54812958895
-      to: 22457.509919255623
+      from: 18694.517251863883
+      to: 22459.479041530554
 
     _lastPlayedTickAt: 0
 
@@ -39,9 +39,9 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Layers-Y"
+            id: "no-id-Photoshop-Layers-Rotation Y"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Y"
+            actorPropId: "no-id-Photoshop-Layers-Rotation Y"
             _height: 80
           }
         ]
@@ -361,6 +361,48 @@
           chronology:
             points: []
             connectors: []
+
+      "no-id-Photoshop-Layers-Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 20815.261941963778
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Layers-Rotation Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 20815.26194196378
+          chronology:
+            points: [
+              {
+                t: 20419.4683647028
+                value: 30
+                id: "no-id-Photoshop-Tools-Rotation Y-point-1"
+                handler: [
+                  100
+                  1
+                  226.02381896972656
+                  0
+                ]
+              }
+              {
+                t: 20815.26194196378
+                value: 1
+                id: "no-id-Photoshop-Tools-Rotation Y-point-2"
+                handler: [
+                  355.98590087890625
+                  0
+                  100
+                  5.087500095367432
+                ]
+              }
+            ]
+            connectors: [
+              t: 20419.4683647028
+              id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
+            ]
 
   timelineEditor:
     scrollTop: 0

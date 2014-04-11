@@ -28,9 +28,10 @@ module.exports = class IntroSet extends Set
 
 		layers = @_makeEl '#photoshop-layers'
 		.inside container
+		.perspective 1000
 
 		@_setupDomEl 'Photoshop', 'Layers', layers, [
-			'translation', 'scale', 'opacity'
+			'translation', 'scale', 'opacity', 'rotation'
 		]
 
 
