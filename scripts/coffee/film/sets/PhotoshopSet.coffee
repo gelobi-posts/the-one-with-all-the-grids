@@ -24,6 +24,9 @@ module.exports = class IntroSet extends Set
 		windowmenu = @_makeEl '#photoshop-window'
 		.inside container
 
+		extensionsHighlight = @_makeEl '#photoshop-extensions-selected'
+		.inside container
+
 		tools = @_makeEl '#photoshop-tools'
 		.inside container
 		.perspective 1000
