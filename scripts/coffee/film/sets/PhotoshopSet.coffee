@@ -18,7 +18,10 @@ module.exports = class IntroSet extends Set
 			'translation', 'scale', 'opacity', 'rotation'
 		]
 
-		menu = @_makeEl '#photoshop-menu'
+		menubar = @_makeEl '#photoshop-menu-bar'
+		.inside container
+
+		windowmenu = @_makeEl '#photoshop-window'
 		.inside container
 
 		tools = @_makeEl '#photoshop-tools'
