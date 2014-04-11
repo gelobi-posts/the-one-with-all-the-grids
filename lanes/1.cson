@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 24755.276597185242
+    t: 26137.20859437615
     _focus:
-      from: 22458.983013342906
-      to: 30529.779580082886
+      from: 19001.54439349473
+      to: 27072.34096023471
 
     _lastPlayedTickAt: 0
 
@@ -42,6 +42,12 @@
             id: "no-id-Photoshop-Guides-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Guides-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Extension-Heighlight-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Extension-Heighlight-Opacity"
             _height: 80
           }
         ]
@@ -406,10 +412,32 @@
 
       "no-id-Photoshop-Window-Opacity":
         pacs:
-          _idCounter: 4
+          _idCounter: 8
           chronologyLength: 25455.983830490073
           chronology:
             points: [
+              {
+                t: 24278.28914318858
+                value: 0
+                id: "no-id-Photoshop-Window-Opacity-point-5"
+                handler: [
+                  100
+                  0.034699998795986176
+                  197.08595275878906
+                  0
+                ]
+              }
+              {
+                t: 24569.212108730106
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-6"
+                handler: [
+                  180.20143127441406
+                  0
+                  100
+                  0.1091499999165535
+                ]
+              }
               {
                 t: 25000.890728140013
                 value: 1
@@ -434,8 +462,14 @@
               }
             ]
             connectors: [
-              t: 25000.890728140013
-              id: "no-id-Photoshop-Window-Opacity-connector-4"
+              {
+                t: 24278.28914318858
+                id: "no-id-Photoshop-Window-Opacity-connector-8"
+              }
+              {
+                t: 25000.890728140013
+                id: "no-id-Photoshop-Window-Opacity-connector-4"
+              }
             ]
 
       "no-id-Photoshop-Window-Scale X":
@@ -506,8 +540,8 @@
 
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
-          _idCounter: 4
-          chronologyLength: 25612.165563214647
+          _idCounter: 6
+          chronologyLength: 25548.848644542522
           chronology:
             points: [
               {
@@ -522,7 +556,7 @@
                 ]
               }
               {
-                t: 25612.165563214647
+                t: 25548.848644542522
                 value: 1
                 id: "no-id-Photoshop-Extensions-Opacity-point-1"
                 handler: [
@@ -535,13 +569,13 @@
             ]
             connectors: [
               t: 25240.706307004857
-              id: "no-id-Photoshop-Extensions-Opacity-connector-4"
+              id: "no-id-Photoshop-Extensions-Opacity-connector-5"
             ]
 
       "no-id-Photoshop-Guides-Opacity":
         pacs:
-          _idCounter: 4
-          chronologyLength: 25612.165563214643
+          _idCounter: 5
+          chronologyLength: 25544.627516631044
           chronology:
             points: [
               {
@@ -556,7 +590,7 @@
                 ]
               }
               {
-                t: 25612.165563214643
+                t: 25544.627516631044
                 value: 1
                 id: "no-id-Photoshop-Extensions-Opacity-point-1"
                 handler: [
@@ -569,8 +603,39 @@
             ]
             connectors: [
               t: 25236.48517909338
-              id: "no-id-Photoshop-Guides-Opacity-connector-4"
+              id: "no-id-Photoshop-Guides-Opacity-connector-5"
             ]
+
+      "no-id-Photoshop-Extension-Heighlight-Opacity":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 24754.941736834997
+          chronology:
+            points: [
+              {
+                t: 24062.676759353115
+                value: 0
+                id: "no-id-Photoshop-Extension-Heighlight-Opacity-point-0"
+                handler: [
+                  100
+                  0.14000000059604645
+                  100
+                  0.14000000059604645
+                ]
+              }
+              {
+                t: 24754.941736834997
+                value: 1
+                id: "no-id-Photoshop-Extension-Heighlight-Opacity-point-1"
+                handler: [
+                  100
+                  0.00419999985024333
+                  100
+                  0.00419999985024333
+                ]
+              }
+            ]
+            connectors: []
 
   timelineEditor:
     scrollTop: 0
