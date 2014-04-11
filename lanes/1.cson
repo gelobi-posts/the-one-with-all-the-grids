@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 584
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 25997.170957628306
+    t: 25892.03131729527
     _focus:
       from: 22458.983013342906
       to: 30529.779580082886
@@ -27,15 +27,9 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Window-Scale X"
+            id: "no-id-Photoshop-Extension-Heighlight-X"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Window-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Window-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window-Scale Y"
+            actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
             _height: 80
           }
         ]
@@ -437,67 +431,65 @@
           _idCounter: 2
           chronologyLength: 25540.406388719573
           chronology:
-            points: [
-              {
-                t: 24995.880888139312
-                value: 1
-                id: "no-id-Photoshop-Window-Scale X-point-0"
-                handler: [
-                  100
-                  0.1899999976158142
-                  365.9310607910156
-                  0
-                ]
-              }
-              {
-                t: 25540.406388719573
-                value: 0.9
-                id: "no-id-Photoshop-Window-Scale X-point-1"
-                handler: [
-                  340.60430908203125
-                  0
-                  100
-                  0.1033250018954277
-                ]
-              }
-            ]
-            connectors: [
-              t: 24995.880888139312
-              id: "no-id-Photoshop-Window-Scale X-connector-2"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Photoshop-Window-Scale Y":
         pacs:
           _idCounter: -1
           chronologyLength: 25548.848644542522
           chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Extension-Heighlight-Scale X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 25000.102016050787
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Extension-Heighlight-Scale Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 25548.848644542522
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Extension-Heighlight-X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 25544.627516631048
+          chronology:
             points: [
               {
-                t: 25004.32314396226
-                value: 1
-                id: "no-id-Photoshop-Window-Scale X-point-0"
+                t: 24995.880888139312
+                value: 0
+                id: "no-id-Photoshop-Extension-Heighlight-X-point-0"
                 handler: [
                   100
-                  0.1899999976158142
-                  365.9310607910156
+                  1.5
+                  256.1817321777344
                   0
                 ]
               }
               {
-                t: 25548.848644542522
-                value: 0.9
-                id: "no-id-Photoshop-Window-Scale X-point-1"
+                t: 25544.627516631048
+                value: 5
+                id: "no-id-Photoshop-Extension-Heighlight-X-point-1"
                 handler: [
-                  340.60430908203125
+                  209.74932861328125
                   0
                   100
-                  0.1033250018954277
+                  0.1274999976158142
                 ]
               }
             ]
             connectors: [
-              t: 25004.32314396226
-              id: "no-id-Photoshop-Window-Scale X-connector-2"
+              t: 24995.880888139312
+              id: "no-id-Photoshop-Extension-Heighlight-X-connector-2"
             ]
 
   timelineEditor:

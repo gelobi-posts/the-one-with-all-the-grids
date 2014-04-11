@@ -25,11 +25,15 @@ module.exports = class IntroSet extends Set
 		.inside container
 
 		@_setupDomEl 'Photoshop', 'Window', windowmenu, [
-			'opacity', 'scale'
+			'opacity'
 		]
 
 		extensionsHighlight = @_makeEl '#photoshop-extensions-selected'
 		.inside container
+
+		@_setupDomEl 'Photoshop', 'Extension-Heighlight', extensionsHighlight, [
+			'opacity', 'translation'
+		]
 
 		tools = @_makeEl '#photoshop-tools'
 		.inside container
