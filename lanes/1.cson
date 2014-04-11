@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 584
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 22070.00942156753
+    t: 25997.170957628306
     _focus:
-      from: 19045.93041490481
-      to: 22810.892204571486
+      from: 22458.983013342906
+      to: 30529.779580082886
 
     _lastPlayedTickAt: 0
 
@@ -21,27 +21,21 @@
         name: "Photoshop"
         propHolders: [
           {
-            id: "no-id-Photoshop-Tools-Opacity"
+            id: "no-id-Photoshop-Window-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Opacity"
+            actorPropId: "no-id-Photoshop-Window-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Tools-Rotation Y"
+            id: "no-id-Photoshop-Window-Scale X"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
+            actorPropId: "no-id-Photoshop-Window-Scale X"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Layers-Opacity"
+            id: "no-id-Photoshop-Window-Scale Y"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Layers-Rotation Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Rotation Y"
+            actorPropId: "no-id-Photoshop-Window-Scale Y"
             _height: 80
           }
         ]
@@ -404,11 +398,115 @@
               id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
             ]
 
+      "no-id-Photoshop-Window-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 25536.185260808095
+          chronology:
+            points: [
+              {
+                t: 25000.890728140013
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-0"
+                handler: [
+                  100
+                  0.18000000715255737
+                  425.02685546875
+                  0
+                ]
+              }
+              {
+                t: 25536.185260808095
+                value: 0.5
+                id: "no-id-Photoshop-Window-Opacity-point-1"
+                handler: [
+                  353.2676696777344
+                  0
+                  100
+                  0.09955000132322311
+                ]
+              }
+            ]
+            connectors: [
+              t: 25000.890728140013
+              id: "no-id-Photoshop-Window-Opacity-connector-3"
+            ]
+
+      "no-id-Photoshop-Window-Scale X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 25540.406388719573
+          chronology:
+            points: [
+              {
+                t: 24995.880888139312
+                value: 1
+                id: "no-id-Photoshop-Window-Scale X-point-0"
+                handler: [
+                  100
+                  0.1899999976158142
+                  365.9310607910156
+                  0
+                ]
+              }
+              {
+                t: 25540.406388719573
+                value: 0.9
+                id: "no-id-Photoshop-Window-Scale X-point-1"
+                handler: [
+                  340.60430908203125
+                  0
+                  100
+                  0.1033250018954277
+                ]
+              }
+            ]
+            connectors: [
+              t: 24995.880888139312
+              id: "no-id-Photoshop-Window-Scale X-connector-2"
+            ]
+
+      "no-id-Photoshop-Window-Scale Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 25548.848644542522
+          chronology:
+            points: [
+              {
+                t: 25004.32314396226
+                value: 1
+                id: "no-id-Photoshop-Window-Scale X-point-0"
+                handler: [
+                  100
+                  0.1899999976158142
+                  365.9310607910156
+                  0
+                ]
+              }
+              {
+                t: 25548.848644542522
+                value: 0.9
+                id: "no-id-Photoshop-Window-Scale X-point-1"
+                handler: [
+                  340.60430908203125
+                  0
+                  100
+                  0.1033250018954277
+                ]
+              }
+            ]
+            connectors: [
+              t: 25004.32314396226
+              id: "no-id-Photoshop-Window-Scale X-connector-2"
+            ]
+
   timelineEditor:
     scrollTop: 0
     guides:
       _list: [
         19993.636315890868
         21000
+        25000
+        25891.54871746121
       ]
 }
