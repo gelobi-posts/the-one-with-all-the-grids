@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 397
+    height: 479
     _isVisible: true
 
   timeControl:
-    t: 20622.287959020614
+    t: 20419.468364702796
     _focus:
       from: 18692.54812958895
       to: 22457.509919255623
@@ -33,9 +33,15 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Tools-Z"
+            id: "no-id-Photoshop-Layers-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Z"
+            actorPropId: "no-id-Photoshop-Layers-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Layers-Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Layers-Y"
             _height: 80
           }
         ]
@@ -191,20 +197,36 @@
       "no-id-Photoshop-Layers-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 19996.107075592783
+          chronologyLength: 20807.385452864062
           chronology:
             points: [
-              t: 19996.107075592783
-              value: 0
-              id: "no-id-Photoshop-BG-Opacity-point-3"
-              handler: [
-                15.271965026855469
-                0.721875011920929
-                217.16845703125
-                0
-              ]
+              {
+                t: 20419.468364702796
+                value: 0
+                id: "no-id-Photoshop-BG-Opacity-point-3"
+                handler: [
+                  15.271965026855469
+                  0.721875011920929
+                  217.16845703125
+                  0
+                ]
+              }
+              {
+                t: 20807.385452864062
+                value: 1
+                id: "no-id-Photoshop-Tools-Opacity-point-1"
+                handler: [
+                  100
+                  0.0397031269967556
+                  100
+                  0.0397031269967556
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 20419.468364702796
+              id: "no-id-Photoshop-Tools-Opacity-connector-6"
+            ]
 
       "no-id-Photoshop-BG-Rotation X":
         pacs:
@@ -306,22 +328,22 @@
             points: [
               {
                 t: 20419.468364702796
-                value: 50
+                value: -50
                 id: "no-id-Photoshop-Tools-Rotation Y-point-1"
                 handler: [
                   100
                   1
-                  100
-                  1
+                  226.02381896972656
+                  0
                 ]
               }
               {
                 t: 20815.261941963778
-                value: 0
+                value: -1
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
-                  100
-                  5.087500095367432
+                  355.98590087890625
+                  0
                   100
                   5.087500095367432
                 ]
@@ -337,17 +359,7 @@
           _idCounter: 0
           chronologyLength: 20423.406609252655
           chronology:
-            points: [
-              t: 20423.406609252655
-              value: 10
-              id: "no-id-Photoshop-Tools-Z-point-0"
-              handler: [
-                100
-                5
-                100
-                5
-              ]
-            ]
+            points: []
             connectors: []
 
   timelineEditor:
