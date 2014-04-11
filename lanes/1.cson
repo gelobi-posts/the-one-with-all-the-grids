@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 584
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 25892.03131729527
+    t: 25924.529028663786
     _focus:
       from: 22458.983013342906
       to: 30529.779580082886
@@ -394,8 +394,8 @@
 
       "no-id-Photoshop-Window-Opacity":
         pacs:
-          _idCounter: 3
-          chronologyLength: 25536.185260808095
+          _idCounter: 4
+          chronologyLength: 25455.983830490073
           chronology:
             points: [
               {
@@ -405,12 +405,12 @@
                 handler: [
                   100
                   0.18000000715255737
-                  425.02685546875
+                  268.8451232910156
                   0
                 ]
               }
               {
-                t: 25536.185260808095
+                t: 25455.983830490073
                 value: 0.5
                 id: "no-id-Photoshop-Window-Opacity-point-1"
                 handler: [
@@ -423,7 +423,7 @@
             ]
             connectors: [
               t: 25000.890728140013
-              id: "no-id-Photoshop-Window-Opacity-connector-3"
+              id: "no-id-Photoshop-Window-Opacity-connector-4"
             ]
 
       "no-id-Photoshop-Window-Scale X":
@@ -460,12 +460,12 @@
 
       "no-id-Photoshop-Extension-Heighlight-X":
         pacs:
-          _idCounter: 2
-          chronologyLength: 25544.627516631048
+          _idCounter: 4
+          chronologyLength: 25599.502179480223
           chronology:
             points: [
               {
-                t: 24995.880888139312
+                t: 25135.178109217984
                 value: 0
                 id: "no-id-Photoshop-Extension-Heighlight-X-point-0"
                 handler: [
@@ -476,7 +476,7 @@
                 ]
               }
               {
-                t: 25544.627516631048
+                t: 25599.502179480223
                 value: 5
                 id: "no-id-Photoshop-Extension-Heighlight-X-point-1"
                 handler: [
@@ -488,8 +488,8 @@
               }
             ]
             connectors: [
-              t: 24995.880888139312
-              id: "no-id-Photoshop-Extension-Heighlight-X-connector-2"
+              t: 25135.178109217984
+              id: "no-id-Photoshop-Extension-Heighlight-X-connector-4"
             ]
 
   timelineEditor:
