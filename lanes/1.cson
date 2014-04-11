@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 584
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 26625.265035918826
+    t: 30610.000000000204
     _focus:
-      from: 22470.191639960103
-      to: 30540.988206700087
+      from: 24805.185984014566
+      to: 32875.98255075453
 
     _lastPlayedTickAt: 0
 
@@ -753,25 +753,25 @@
           chronology:
             points: [
               {
-                t: 24062.676759353115
+                t: 24289.363008397777
                 value: 0
-                id: "no-id-Photoshop-Extension-Heighlight-Opacity-point-0"
+                id: "no-id-Photoshop-Window-Opacity-point-5"
                 handler: [
                   100
-                  0.14000000059604645
-                  100
-                  0.14000000059604645
+                  0.034699998795986176
+                  197.08595275878906
+                  0
                 ]
               }
               {
-                t: 24754.941736834997
+                t: 24580.285973939302
                 value: 1
-                id: "no-id-Photoshop-Extension-Heighlight-Opacity-point-1"
+                id: "no-id-Photoshop-Window-Opacity-point-6"
                 handler: [
+                  180.20143127441406
+                  0
                   100
-                  0.00419999985024333
-                  100
-                  0.00419999985024333
+                  0.1091499999165535
                 ]
               }
               {
@@ -798,8 +798,14 @@
               }
             ]
             connectors: [
-              t: 27915.44664576271
-              id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
+              {
+                t: 24289.363008397777
+                id: "no-id-Photoshop-Window-Opacity-connector-8"
+              }
+              {
+                t: 27915.44664576271
+                id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
+              }
             ]
 
       "no-id-Photoshop-Menu Bar-Opacity":
@@ -954,5 +960,6 @@
         21000
         25000
         25891.54871746121
+        30000
       ]
 }
