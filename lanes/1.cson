@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 30758.518395885127
+    t: 30785.122775049706
     _focus:
       from: 24232.860808334175
       to: 32303.657375074108
@@ -30,6 +30,12 @@
             id: "no-id-Photoshop-Grids-Scale X"
             _expanded: true
             actorPropId: "no-id-Photoshop-Grids-Scale X"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Grids-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Grids-Scale Y"
             _height: 80
           }
         ]
@@ -964,21 +970,10 @@
 
       "no-id-Photoshop-Grids-Scale X":
         pacs:
-          _idCounter: 0
-          chronologyLength: 30438.046108390507
+          _idCounter: 1
+          chronologyLength: 30980.4928625621
           chronology:
             points: [
-              {
-                t: 30002.060866719883
-                value: 0
-                id: "no-id-Photoshop-Grids-Opacity-point-0"
-                handler: [
-                  100
-                  0.10249999910593033
-                  236.87908935546875
-                  0
-                ]
-              }
               {
                 t: 30438.046108390507
                 value: 1
@@ -990,11 +985,30 @@
                   0.004100000020116568
                 ]
               }
+              {
+                t: 30980.4928625621
+                value: 0.5
+                id: "no-id-Photoshop-Grids-Opacity-point-0"
+                handler: [
+                  0
+                  0.10249999165534973
+                  236.87908935546875
+                  0
+                ]
+              }
             ]
             connectors: [
-              t: 30002.060866719883
-              id: "no-id-Photoshop-Grids-Opacity-connector-2"
+              t: 30438.046108390507
+              id: "no-id-Photoshop-Grids-Scale X-connector-1"
             ]
+
+      "no-id-Photoshop-Grids-Scale Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 30002.060866719883
+          chronology:
+            points: []
+            connectors: []
 
   timelineEditor:
     scrollTop: 0
