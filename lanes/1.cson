@@ -4,7 +4,7 @@
     _isVisible: false
 
   timeControl:
-    t: 30930.632995876345
+    t: 30767.60726254913
     _focus:
       from: 24232.860808334175
       to: 32303.657375074108
@@ -976,7 +976,7 @@
             points: [
               {
                 t: 29996.991270886505
-                value: 1
+                value: 1.05
                 id: "no-id-Photoshop-Grids-Opacity-point-0"
                 handler: [
                   0
@@ -1010,7 +1010,7 @@
             points: [
               {
                 t: 30007.13046255326
-                value: 0.95
+                value: 1.05
                 id: "no-id-Photoshop-Grids-Opacity-point-0"
                 handler: [
                   0
