@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 584
-    _isVisible: false
+    height: 324
+    _isVisible: true
 
   timeControl:
-    t: 26177.000000001135
+    t: 30758.518395885127
     _focus:
-      from: 24243.00000000093
-      to: 32313.796566740864
+      from: 24232.860808334175
+      to: 32303.657375074108
 
     _lastPlayedTickAt: 0
 
@@ -21,39 +21,15 @@
         name: "Photoshop"
         propHolders: [
           {
-            id: "no-id-Photoshop-Menu Bar-Opacity"
+            id: "no-id-Photoshop-Grids-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
-            _height: 283
-          }
-          {
-            id: "no-id-Photoshop-Window Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
-            _height: 228
-          }
-          {
-            id: "no-id-Photoshop-Window-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window-Opacity"
+            actorPropId: "no-id-Photoshop-Grids-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Extension-Heighlight-Opacity"
+            id: "no-id-Photoshop-Grids-Scale X"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Extension-Heighlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extensions-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extensions-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Guides-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Guides-Opacity"
+            actorPropId: "no-id-Photoshop-Grids-Scale X"
             _height: 80
           }
         ]
@@ -952,8 +928,76 @@
               id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
             ]
 
+      "no-id-Photoshop-Grids-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 30438.046108390503
+          chronology:
+            points: [
+              {
+                t: 30002.06086671988
+                value: 0
+                id: "no-id-Photoshop-Grids-Opacity-point-0"
+                handler: [
+                  100
+                  0.10249999910593033
+                  236.87908935546875
+                  0
+                ]
+              }
+              {
+                t: 30438.046108390503
+                value: 1
+                id: "no-id-Photoshop-Grids-Opacity-point-1"
+                handler: [
+                  216.6007080078125
+                  0
+                  100
+                  0.004100000020116568
+                ]
+              }
+            ]
+            connectors: [
+              t: 30002.06086671988
+              id: "no-id-Photoshop-Grids-Opacity-connector-2"
+            ]
+
+      "no-id-Photoshop-Grids-Scale X":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 30438.046108390507
+          chronology:
+            points: [
+              {
+                t: 30002.060866719883
+                value: 0
+                id: "no-id-Photoshop-Grids-Opacity-point-0"
+                handler: [
+                  100
+                  0.10249999910593033
+                  236.87908935546875
+                  0
+                ]
+              }
+              {
+                t: 30438.046108390507
+                value: 1
+                id: "no-id-Photoshop-Grids-Opacity-point-1"
+                handler: [
+                  216.6007080078125
+                  0
+                  100
+                  0.004100000020116568
+                ]
+              }
+            ]
+            connectors: [
+              t: 30002.060866719883
+              id: "no-id-Photoshop-Grids-Opacity-connector-2"
+            ]
+
   timelineEditor:
-    scrollTop: 251
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868

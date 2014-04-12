@@ -66,4 +66,11 @@ module.exports = class IntroSet extends Set
 			'translation', 'scale', 'opacity', 'rotation'
 		]
 
+		grids = @_makeEl '#photoshop-grids'
+		.inside container
+
+		@_setupDomEl 'Photoshop', 'Grids', grids, [
+			'scale', 'opacity'
+		]
+
 
