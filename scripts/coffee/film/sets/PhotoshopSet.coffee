@@ -78,4 +78,4 @@ module.exports = class IntroSet extends Set
 
 		t.addValues ['abc', 'abcd', 'abcde']
 
-		t.type(4)
+		t.type(5)
