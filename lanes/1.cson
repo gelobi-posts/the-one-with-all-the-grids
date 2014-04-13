@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 28237.841516703866
+    t: 30452.591615962883
     _focus:
       from: 24232.860808334175
       to: 32303.657375074108
@@ -973,68 +973,16 @@
           _idCounter: 2
           chronologyLength: 30438.046108390507
           chronology:
-            points: [
-              {
-                t: 29996.991270886505
-                value: 1.05
-                id: "no-id-Photoshop-Grids-Opacity-point-0"
-                handler: [
-                  0
-                  0.10249999165534973
-                  236.87908935546875
-                  0
-                ]
-              }
-              {
-                t: 30438.046108390507
-                value: 1
-                id: "no-id-Photoshop-Grids-Opacity-point-1"
-                handler: [
-                  216.6007080078125
-                  0
-                  100
-                  0.004100000020116568
-                ]
-              }
-            ]
-            connectors: [
-              t: 29996.991270886505
-              id: "no-id-Photoshop-Grids-Scale X-connector-2"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Photoshop-Grids-Scale Y":
         pacs:
           _idCounter: -1
           chronologyLength: 30448.185300057263
           chronology:
-            points: [
-              {
-                t: 30007.13046255326
-                value: 1.05
-                id: "no-id-Photoshop-Grids-Opacity-point-0"
-                handler: [
-                  0
-                  0.10249999165534973
-                  236.87908935546875
-                  0
-                ]
-              }
-              {
-                t: 30448.185300057263
-                value: 1
-                id: "no-id-Photoshop-Grids-Opacity-point-1"
-                handler: [
-                  216.6007080078125
-                  0
-                  100
-                  0.004100000020116568
-                ]
-              }
-            ]
-            connectors: [
-              t: 30007.13046255326
-              id: "no-id-Photoshop-Grids-Scale X-connector-2"
-            ]
+            points: []
+            connectors: []
 
   timelineEditor:
     scrollTop: 0
