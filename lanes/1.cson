@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 29035.97462929027
+    t: 28229.908891782954
     _focus:
       from: 24387.155250081403
       to: 32457.951816821333
@@ -980,8 +980,8 @@
 
       "no-id-Qwerty-Qwerty-Focus":
         pacs:
-          _idCounter: 3
-          chronologyLength: 29426.333508460477
+          _idCounter: 6
+          chronologyLength: 30582.20135847097
           chronology:
             points: [
               {
@@ -1007,14 +1007,36 @@
                 ]
               }
               {
-                t: 29426.333508460477
-                value: 3
-                id: "no-id-Qwerty-Qwerty-Focus-point-3"
+                t: 29365.49835845993
+                value: 0.807
+                id: "no-id-Qwerty-Qwerty-Focus-point-4"
                 handler: [
                   100
-                  0.1668187528848648
+                  0.0807187482714653
                   100
-                  0.1668187528848648
+                  0.0807187482714653
+                ]
+              }
+              {
+                t: 29745.71804596338
+                value: 3
+                id: "no-id-Qwerty-Qwerty-Focus-point-5"
+                handler: [
+                  100
+                  0.09148125350475311
+                  100
+                  0.09148125350475311
+                ]
+              }
+              {
+                t: 30582.20135847097
+                value: 0
+                id: "no-id-Qwerty-Qwerty-Focus-point-6"
+                handler: [
+                  100
+                  0.14684535562992096
+                  100
+                  0.14684535562992096
                 ]
               }
             ]
@@ -1022,8 +1044,8 @@
 
       "no-id-Qwerty-Qwerty-Type":
         pacs:
-          _idCounter: 53
-          chronologyLength: 30419.974291802835
+          _idCounter: 56
+          chronologyLength: 30338.860758468763
           chronology:
             points: [
               {
@@ -1060,36 +1082,36 @@
                 ]
               }
               {
-                t: 29284.38482512586
+                t: 29613.908554295514
                 value: 0
-                id: "no-id-Qwerty-Qwerty-Type-point-52"
+                id: "no-id-Qwerty-Qwerty-Type-point-54"
                 handler: [
                   100
-                  -0.0755416750907898
+                  -0.0032999999821186066
                   100
-                  -0.0755416750907898
+                  -0.0032999999821186066
                 ]
               }
               {
-                t: 29664.60451262931
+                t: 29902.87551679814
                 value: 3
-                id: "no-id-Qwerty-Qwerty-Type-point-50"
+                id: "no-id-Qwerty-Qwerty-Type-point-55"
                 handler: [
                   100
-                  -0.07079999893903732
+                  -0.025800000876188278
                   100
-                  -0.07079999893903732
+                  -0.025800000876188278
                 ]
               }
               {
-                t: 30419.974291802835
+                t: 30338.860758468763
                 value: 4
-                id: "no-id-Qwerty-Qwerty-Type-point-51"
+                id: "no-id-Qwerty-Qwerty-Type-point-56"
                 handler: [
                   100
-                  0.2636699974536896
+                  0.04569000005722046
                   100
-                  0.2636699974536896
+                  0.04569000005722046
                 ]
               }
             ]
