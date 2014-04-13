@@ -73,4 +73,3 @@ module.exports = class IntroSet extends Set
 			'scale', 'opacity'
 		]
 
-
