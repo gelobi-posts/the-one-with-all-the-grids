@@ -21,12 +21,14 @@ module.exports = class Typist
 
 	addValues: (@_values) ->
 
-		for v, i in @_values
+		@_lengths[0] = 0
 
-			@_lengths[i + 1] = @_lengths[i] + v.length
+		for i in [1..@_values.length]
 
-		@_totalLength = @_lengths[@_lengths.length - 1]
+			@_lengths[i] = @_lengths[i - 1] + @_values[i].length
 
+		@_totalLength = @_lengths.length
+		console.log @_lengths
 		return
 
 	focusOn: (index) ->
