@@ -35,7 +35,7 @@ module.exports = class ThePanelSet extends Set
 
 			<div>
 
-				<input type="text" name="divisions" placeholder="Divisions" class="big">
+				<input id="test" type="text" name="divisions" placeholder="Divisions" class="big">
 
 				<div data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
