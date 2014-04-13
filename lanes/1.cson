@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 30000.775480446882
+    t: 29345.219975126412
     _focus:
-      from: 26624.42465541623
-      to: 34695.221222156164
+      from: 24387.155250081403
+      to: 32457.951816821333
 
     _lastPlayedTickAt: 0
 
@@ -19,7 +19,20 @@
       }
       {
         name: "Photoshop"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Qwerty-Qwerty-Type"
+            _expanded: true
+            actorPropId: "no-id-Qwerty-Qwerty-Type"
+            _height: 80
+          }
+          {
+            id: "no-id-Qwerty-Qwerty-Focus"
+            _expanded: true
+            actorPropId: "no-id-Qwerty-Qwerty-Focus"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -964,6 +977,115 @@
           chronology:
             points: []
             connectors: []
+
+      "no-id-Qwerty-Qwerty-Focus":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 29477.029466794273
+          chronology:
+            points: [
+              {
+                t: 27444.121537609153
+                value: 0
+                id: "no-id-Qwerty-Qwerty-Focus-point-2"
+                handler: [
+                  100
+                  0.20076249539852142
+                  100
+                  0.20076249539852142
+                ]
+              }
+              {
+                t: 27785.362101260103
+                value: 2
+                id: "no-id-Qwerty-Qwerty-Focus-point-1"
+                handler: [
+                  100
+                  0.1525000035762787
+                  100
+                  0.1525000035762787
+                ]
+              }
+              {
+                t: 29477.029466794273
+                value: 3
+                id: "no-id-Qwerty-Qwerty-Focus-point-3"
+                handler: [
+                  100
+                  0.1668187528848648
+                  100
+                  0.1668187528848648
+                ]
+              }
+            ]
+            connectors: []
+
+      "no-id-Qwerty-Qwerty-Type":
+        pacs:
+          _idCounter: 51
+          chronologyLength: 30419.974291802835
+          chronology:
+            points: [
+              {
+                t: 27510.026283443083
+                value: 0
+                id: "no-id-Qwerty-Qwerty-Type-point-1"
+                handler: [
+                  100
+                  0.44749999046325684
+                  100
+                  0.44749999046325684
+                ]
+              }
+              {
+                t: 28297.391280431413
+                value: -0.633
+                id: "no-id-Qwerty-Qwerty-Type-point-0"
+                handler: [
+                  100
+                  3
+                  241.9486846923828
+                  1.1347501277923584
+                ]
+              }
+              {
+                t: 28980.209075123097
+                value: 2
+                id: "no-id-Qwerty-Qwerty-Type-point-2"
+                handler: [
+                  160.8351593017578
+                  -0.5509999990463257
+                  100
+                  0.2175000011920929
+                ]
+              }
+              {
+                t: 29664.60451262931
+                value: 3
+                id: "no-id-Qwerty-Qwerty-Type-point-50"
+                handler: [
+                  100
+                  -0.07079999893903732
+                  100
+                  -0.07079999893903732
+                ]
+              }
+              {
+                t: 30419.974291802835
+                value: 4
+                id: "no-id-Qwerty-Qwerty-Type-point-51"
+                handler: [
+                  100
+                  0.2636699974536896
+                  100
+                  0.2636699974536896
+                ]
+              }
+            ]
+            connectors: [
+              t: 28297.391280431413
+              id: "no-id-Qwerty-Qwerty-Type-connector-49"
+            ]
 
   timelineEditor:
     scrollTop: 0

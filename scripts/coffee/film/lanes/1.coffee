@@ -1,6 +1,5 @@
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
-Qwerty = require('./Qwerty')
 
 module.exports = (film) ->
 
@@ -8,7 +7,7 @@ module.exports = (film) ->
 
 	film.addSet new ThePanelSet film
 
-	q = new Qwerty
+	q = film.createQwerty 'Qwerty', 'Qwerty'
 
 	q.addInputs [document.getElementById('griddify-input'),
 					 document.getElementById('divide-input'),
