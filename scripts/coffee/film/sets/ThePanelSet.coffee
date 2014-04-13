@@ -86,18 +86,9 @@ module.exports = class ThePanelSet extends Set
 
 		t.addValues ['abc', 'abcd', 'abcde']
 
-		setTimeout =>
+		t.focusOn 2
 
-			t.focusOn(0)
-
-		, 500
-
-		setTimeout =>
-
-			t.focusOn(2)
-
-		, 1000
-
+		t.type 5
 		# for i in [0..12]
 		# 	console.log "i = " + i
 		# 	t.type(i)

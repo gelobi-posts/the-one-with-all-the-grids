@@ -35,11 +35,11 @@ module.exports = class Typist
 
 		return
 
-	focusOn: (index) ->
+	focusOn: (@_index) ->
 
 		document.activeElement.blur()
 
-		@_inputs[index].focus()
+		@_inputs[@_index].focus()
 
 		return
 
@@ -53,9 +53,7 @@ module.exports = class Typist
 
 				break
 
-		value = @_values[i - 1].substring(0, index)
-
-		console.log value
+		@_inputs[@_index].value = @_values[i - 1].substring(0, index)
 
 		return
 
