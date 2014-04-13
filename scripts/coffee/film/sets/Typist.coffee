@@ -25,10 +25,10 @@ module.exports = class Typist
 
 		for i in [1..@_values.length]
 
-			@_lengths[i] = @_lengths[i - 1] + @_values[i].length
+			@_lengths[i] = @_lengths[i - 1] + @_values[i - 1].length
 
 		@_totalLength = @_lengths.length
-		console.log @_lengths
+
 		return
 
 	focusOn: (index) ->
@@ -45,7 +45,7 @@ module.exports = class Typist
 
 			if progress <= @_lengths[i]
 
-				index = progress % @_lengths[i - 1]
+				index = progress - @_lengths[i - 1]
 
 				break
 
