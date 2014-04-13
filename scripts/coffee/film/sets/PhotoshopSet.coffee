@@ -1,5 +1,4 @@
 Set = require('tiny-filmmaking-studio').Set
-Qwerty = require './PhotoshopSet/Qwerty'
 
 module.exports = class IntroSet extends Set
 
@@ -74,10 +73,3 @@ module.exports = class IntroSet extends Set
 			'scale', 'opacity'
 		]
 
-		q = new Qwerty film, 'Qwerty', 'Qwerty'
-
-		q.addInputs [document.getElementById('griddify-input'),
-						 document.getElementById('divide-input'),
-						 document.getElementById('wrap-input')]
-
-		q.addValues ['10', '10', '10 20', '10']
