@@ -1,4 +1,5 @@
 Set = require('tiny-filmmaking-studio').Set
+Typ = require('./Typist')
 
 module.exports = class IntroSet extends Set
 
@@ -72,3 +73,7 @@ module.exports = class IntroSet extends Set
 		@_setupDomEl 'Photoshop', 'Grids', grids, [
 			'scale', 'opacity'
 		]
+
+		t = new Typ
+
+		console.log t
