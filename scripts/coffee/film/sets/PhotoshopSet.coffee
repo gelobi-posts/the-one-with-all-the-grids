@@ -76,4 +76,6 @@ module.exports = class IntroSet extends Set
 
 		t = new Typ
 
-		console.log t
+		t.addValues ['abc', 'abcd', 'abcde']
+
+		t.type(4)
