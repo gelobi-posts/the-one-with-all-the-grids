@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 29203.27129179179
+    t: 29035.97462929027
     _focus:
       from: 24387.155250081403
       to: 32457.951816821333
@@ -981,7 +981,7 @@
       "no-id-Qwerty-Qwerty-Focus":
         pacs:
           _idCounter: 3
-          chronologyLength: 29309.73280429275
+          chronologyLength: 29426.333508460477
           chronology:
             points: [
               {
@@ -1007,7 +1007,7 @@
                 ]
               }
               {
-                t: 29309.73280429275
+                t: 29426.333508460477
                 value: 3
                 id: "no-id-Qwerty-Qwerty-Focus-point-3"
                 handler: [
@@ -1060,7 +1060,7 @@
                 ]
               }
               {
-                t: 29228.619270958687
+                t: 29284.38482512586
                 value: 0
                 id: "no-id-Qwerty-Qwerty-Type-point-52"
                 handler: [
