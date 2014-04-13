@@ -1,6 +1,6 @@
 Set = require('tiny-filmmaking-studio').Set
 Rotator = require './thePanelSet/Rotator'
-Typ = require('./Typist')
+QWERTY = require('./QWERTY')
 
 module.exports = class ThePanelSet extends Set
 
@@ -78,17 +78,17 @@ module.exports = class ThePanelSet extends Set
 
 		@panelBody.inside @thePanel
 
-		t = new Typ
+		q = new QWERTY
 
-		t.addInputs [document.getElementById('test-1'),
+		q.addInputs [document.getElementById('test-1'),
 						 document.getElementById('test-2'),
 						 document.getElementById('test-3')]
 
-		t.addValues ['abc', 'abcd', 'abcde']
+		q.addValues ['abc', 'abcd', 'abcde']
 
-		t.focusOn 2
+		q.focusOn 2
 
-		t.type 5
+		q.type 7
 		# for i in [0..12]
 		# 	console.log "i = " + i
 		# 	t.type(i)

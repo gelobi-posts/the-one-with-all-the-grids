@@ -1,4 +1,4 @@
-module.exports = class Typist
+module.exports = class QWERTY
 
 	constructor: (object) ->
 
