@@ -72,7 +72,3 @@ module.exports = class IntroSet extends Set
 		@_setupDomEl 'Photoshop', 'Grids', grids, [
 			'scale', 'opacity'
 		]
-
-		a = ['']
-
-		document.body.focus()
