@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24241.303064157124
+    t: 26630.461462051895
     _focus:
       from: 24232.860808334175
       to: 32303.657375074108
@@ -19,26 +19,7 @@
       }
       {
         name: "Photoshop"
-        propHolders: [
-          {
-            id: "no-id-Photoshop-Grids-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Grids-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Grids-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Grids-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Grids-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Grids-Scale Y"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Photoshop"
