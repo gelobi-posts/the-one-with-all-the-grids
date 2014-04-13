@@ -15,7 +15,11 @@ module.exports = class Typist
 
 		return
 
-	addInputs: (@_inputs) ->
+	addInputs: (inputs) ->
+
+		for i in inputs
+
+			@_inputs.push i
 
 		return
 
