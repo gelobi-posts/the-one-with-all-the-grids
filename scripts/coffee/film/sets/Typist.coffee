@@ -21,11 +21,9 @@ module.exports = class Typist
 
 	addValues: (@_values) ->
 
-		@_lengths[0] = 0
-
 		for v, i in @_values
 
-			@_lengths[i] = @_lengths[i - 1] + v.length
+			@_lengths[i + 1] = @_lengths[i] + v.length
 
 		@_totalLength = @_lengths[@_lengths.length - 1]
 
@@ -37,19 +35,23 @@ module.exports = class Typist
 
 		@_inputs[index].focus()
 
+		return
+
 	type: (progress) ->
 
-		for i in []
+		for i in [1..@_totalLength]
 
-			if progress <= l
+			if progress <= @_lengths[i]
 
 				index = progress % @_lengths[i - 1]
 
 				break
 
-		value = @_values[i].substring(0, index)
+		value = @_values[i - 1].substring(0, index)
 
 		console.log value
+
+		return
 
 
 

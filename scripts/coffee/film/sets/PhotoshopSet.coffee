@@ -78,4 +78,6 @@ module.exports = class IntroSet extends Set
 
 		t.addValues ['abc', 'abcd', 'abcde']
 
-		t.type(5)
+		for i in [0..12]
+			console.log "i = " + i
+			t.type(i)
