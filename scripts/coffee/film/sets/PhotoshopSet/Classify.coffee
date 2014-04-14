@@ -46,6 +46,6 @@ module.exports = class Classify
 
 		if fracTo is .5 then @_el.classList.add 'hover' else @_el.classList.remove 'hover'
 
-		@_current = to
+		@_current = intTo
 
 		return
