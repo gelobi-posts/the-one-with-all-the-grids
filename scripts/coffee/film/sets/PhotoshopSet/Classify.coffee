@@ -31,7 +31,7 @@ module.exports = class Classify
 
 		@_length = @_classes.length
 
-			return
+		return
 
 	setTo: (to) ->
 

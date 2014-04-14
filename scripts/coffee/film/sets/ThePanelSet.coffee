@@ -21,7 +21,7 @@ module.exports = class ThePanelSet extends Set
 
 				<input id="griddify-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
-				<div data-type="rotator" data-options="right, down, left, up" data-name="direction" class="direction"></div>
+				<div id="griddify-direction" data-type="rotator" data-options="right, down, left, up" data-name="direction" class="direction"></div>
 
 				<button style="width: 54px" class="noMargin">Griddify</button>
 
