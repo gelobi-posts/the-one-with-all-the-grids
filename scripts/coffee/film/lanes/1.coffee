@@ -8,11 +8,16 @@ module.exports = (film) ->
 
 	film.addSet new ThePanelSet film
 
-	q = new Qwerty film, 'Qwerty', 'Qwerty'
+	gridQ = new Qwerty film, 'Qwerty', 'Griddify'
 
-	q.addInputs [document.getElementById('griddify-input'),
-					 document.getElementById('divide-input'),
-					 document.getElementById('wrap-input')]
+	gridQ.addInput document.getElementById('griddify-input')
 
-	q.addValues ['10', '20', '30 40', '50']
+	gridQ.addValues ['10', '20', '30 40', '50']
 
+	divideQ = new Qwerty film, 'Qwerty', 'Divide'
+
+	divideQ.addInput document.getElementById('divide-input')
+
+	wrapQ = new Qwerty film, 'Qwerty', 'Wrap'
+
+	wrapQ.addInput document.getElementById('wrap-input')

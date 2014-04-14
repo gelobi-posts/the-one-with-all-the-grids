@@ -15,7 +15,7 @@ module.exports = class Qwerty
 		@film.theatre.timeline.addObject @objName, @
 
 		@actor.addPropOfObject 'Type', @objName, 'type', 0
-		@actor.addPropOfObject 'Focus', @objName, 'focusOn', 0
+		@actor.addPropOfObject 'Focus', @objName, 'focus', 0
 
 		return
 
@@ -24,9 +24,6 @@ module.exports = class Qwerty
 		@_values = []
 		@_lengths = []
 		@_totalLength = 0
-		@_index = 0
-
-		@_inputs.push document.body
 
 		return
 
@@ -52,7 +49,7 @@ module.exports = class Qwerty
 
 	type: (progress) ->
 
-		if @_index is 0 then return
+		unless @_values? then return
 
 		progress = progress|0
 
@@ -64,7 +61,7 @@ module.exports = class Qwerty
 
 				break
 
-		@_inputs[@_index].value = @_values[i - 1].substring(0, index)
+		@_input.value = @_values[i - 1].substring(0, index)
 
 		return
 
