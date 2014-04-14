@@ -6,5 +6,10 @@ module.exports = (film) ->
 
 	gridDir.addElement document.getElementById 'griddify-direction'
 
-	gridDir.addClasses ['right', 'down', 'left', 'up']
+	gridDir.addClasses [
+							  'right', ['right-hover', 'hover],
+							  'down', ['down-hover', 'hover],
+							  'left', 'left-hover',
+							  'up' , 'up-hover'
+							 ]
 
