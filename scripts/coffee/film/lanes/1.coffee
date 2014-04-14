@@ -18,6 +18,8 @@ module.exports = (film) ->
 
 	divideQ.addInput document.getElementById('divide-input')
 
+	divideQ.addValues ['10', '20', '30 40', '50']
+
 	wrapQ = new Qwerty film, 'Qwerty', 'Wrap'
 
 	wrapQ.addInput document.getElementById('wrap-input')
