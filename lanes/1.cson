@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 29879.668462415524
+    t: 31288.56866252314
     _focus:
-      from: 24387.155250081403
-      to: 32457.951816821333
+      from: 24416.703145461724
+      to: 32487.499712201654
 
     _lastPlayedTickAt: 0
 
@@ -992,36 +992,64 @@
 
       "no-id-Qwerty-Griddify-Type":
         pacs:
-          _idCounter: 3
-          chronologyLength: 29321.65377859551
+          _idCounter: 10
+          chronologyLength: 29908.390558290506
           chronology:
             points: [
               {
-                t: 28346.573231044822
+                t: 28363.45774269072
                 value: 0
                 id: "no-id-Qwerty-Griddify-Type-point-1"
                 handler: [
                   100
                   2
-                  454.57476806640625
-                  1.9270572662353516
+                  184.42257690429688
+                  0.7050740718841553
                 ]
               }
               {
-                t: 29321.65377859551
-                value: 5
+                t: 28882.656475802123
+                value: 2
                 id: "no-id-Qwerty-Griddify-Type-point-2"
                 handler: [
-                  260.4028625488281
-                  -1.057971477508545
+                  150.65354919433594
+                  -0.5666587948799133
+                  180.20143127441406
+                  -0.6268435716629028
+                ]
+              }
+              {
+                t: 29262.557987834865
+                value: 2
+                id: "no-id-Qwerty-Griddify-Type-point-9"
+                handler: [
+                  100
+                  0.20660334825515747
+                  218.19158935546875
+                  -0.7384748458862305
+                ]
+              }
+              {
+                t: 29908.390558290506
+                value: 0
+                id: "no-id-Qwerty-Griddify-Type-point-2"
+                handler: [
+                  171.75918579101562
+                  0.5023640394210815
                   100
                   0.2549999952316284
                 ]
               }
             ]
             connectors: [
-              t: 28346.573231044822
-              id: "no-id-Qwerty-Griddify-Type-connector-3"
+              {
+                t: 28363.45774269072
+                id: "no-id-Qwerty-Griddify-Type-connector-6"
+              }
+              {
+                t: 29262.557987834865
+                id: "no-id-Qwerty-Griddify-Type-connector-10"
+              }
             ]
 
       "no-id-Qwerty-Griddify-Focus":
@@ -1055,8 +1083,73 @@
             ]
             connectors: []
 
+      "no-id-Qwerty-Divide-Focus":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 30229.196279562606
+          chronology:
+            points: [
+              {
+                t: 28578.735266175936
+                value: -0.444
+                id: "no-id-Qwerty-Divide-Focus-point-1"
+                handler: [
+                  100
+                  -0.04437499865889549
+                  100
+                  -0.04437499865889549
+                ]
+              }
+              {
+                t: 30229.196279562606
+                value: 1
+                id: "no-id-Qwerty-Divide-Focus-point-0"
+                handler: [
+                  100
+                  5.25
+                  100
+                  5.25
+                ]
+              }
+            ]
+            connectors: []
+
+      "no-id-Qwerty-Divide-Type":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 31115.633140972324
+          chronology:
+            points: [
+              {
+                t: 30714.625989382213
+                value: 0
+                id: "no-id-Qwerty-Divide-Type-point-0"
+                handler: [
+                  100
+                  -1.25
+                  100
+                  -1.25
+                ]
+              }
+              {
+                t: 31115.633140972324
+                value: 2
+                id: "no-id-Qwerty-Divide-Type-point-1"
+                handler: [
+                  100
+                  -0.00937500037252903
+                  100
+                  -0.00937500037252903
+                ]
+              }
+            ]
+            connectors: [
+              t: 30714.625989382213
+              id: "no-id-Qwerty-Divide-Type-connector-2"
+            ]
+
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 139
     guides:
       _list: [
         19993.636315890868
