@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 31288.56866252314
+    t: 32420.03405449209
     _focus:
-      from: 24416.703145461724
-      to: 32487.499712201654
+      from: 25586.151413001182
+      to: 33656.94797974113
 
     _lastPlayedTickAt: 0
 
@@ -1054,8 +1054,8 @@
 
       "no-id-Qwerty-Griddify-Focus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 28160.843602939927
+          _idCounter: 2
+          chronologyLength: 30208.286476066165
           chronology:
             points: [
               {
@@ -1080,13 +1080,24 @@
                   -0.75
                 ]
               }
+              {
+                t: 30208.286476066165
+                value: 0
+                id: "no-id-Qwerty-Griddify-Focus-point-2"
+                handler: [
+                  100
+                  -0.02500000037252903
+                  100
+                  -0.02500000037252903
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwerty-Divide-Focus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 30229.196279562606
+          _idCounter: 2
+          chronologyLength: 31487.09239718211
           chronology:
             points: [
               {
@@ -1111,13 +1122,24 @@
                   5.25
                 ]
               }
+              {
+                t: 31487.09239718211
+                value: 0
+                id: "no-id-Qwerty-Divide-Focus-point-2"
+                handler: [
+                  100
+                  0.0690840631723404
+                  100
+                  0.0690840631723404
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwerty-Divide-Type":
         pacs:
-          _idCounter: 2
-          chronologyLength: 31115.633140972324
+          _idCounter: 3
+          chronologyLength: 31930.310827886973
           chronology:
             points: [
               {
@@ -1140,6 +1162,17 @@
                   -0.00937500037252903
                   100
                   -0.00937500037252903
+                ]
+              }
+              {
+                t: 31930.310827886973
+                value: 0
+                id: "no-id-Qwerty-Divide-Type-point-3"
+                handler: [
+                  100
+                  -0.0925000011920929
+                  100
+                  -0.0925000011920929
                 ]
               }
             ]
