@@ -37,7 +37,7 @@ module.exports = class ThePanelSet extends Set
 
 				<input id="divide-input" type="text" name="divisions" placeholder="Divisions" class="big">
 
-				<div data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
+				<div id="divide-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
 				<button style="width: 54px" class="noMargin">Divide</button>
 
@@ -54,7 +54,7 @@ module.exports = class ThePanelSet extends Set
 
 				<input id="wrap-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
-				<div data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
+				<div id="wrap-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
 				<button style="width: 54px" class="noMargin">Wrap</button>
 
