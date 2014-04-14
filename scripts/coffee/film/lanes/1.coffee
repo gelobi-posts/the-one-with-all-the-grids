@@ -1,7 +1,7 @@
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
-Qwertify = require '../sets/PhotoshopSet/Qwertify'
-Classify = require '../sets/PhotoshopSet/Classify'
+implementQwertify = require '../sets/PhotoshopSet/implementQwertify'
+implementClassify = require '../sets/PhotoshopSet/implementClassify'
 
 module.exports = (film) ->
 
@@ -12,4 +12,6 @@ module.exports = (film) ->
 	implementQwertify film
 
 	implementClassify film
+
+	return
 

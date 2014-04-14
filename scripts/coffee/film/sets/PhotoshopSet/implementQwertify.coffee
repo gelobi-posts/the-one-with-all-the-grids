@@ -1,4 +1,4 @@
-Qwertify = require '../sets/PhotoshopSet/Qwertify'
+Qwertify = require './Qwertify'
 
 module.exports = (film) ->
 
