@@ -1,4 +1,4 @@
-module.exports = class Qwerty
+module.exports = class Qwertify
 
 	constructor: (@film, @groupName, @actorName) ->
 
