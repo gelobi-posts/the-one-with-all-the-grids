@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 37665.37730240587
+    t: 37256.47543031526
     _focus:
       from: 31800.38504310201
       to: 39871.181609841966
@@ -20,10 +20,24 @@
       {
         name: "Photoshop"
         propHolders: [
-          id: "no-id-Classify-Griddify Direction-Set To"
-          _expanded: true
-          actorPropId: "no-id-Classify-Griddify Direction-Set To"
-          _height: 154
+          {
+            id: "no-id-Classify-Griddify Direction-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Griddify Direction-Set To"
+            _height: 154
+          }
+          {
+            id: "no-id-Classify-Divide Orientation-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Divide Orientation-Set To"
+            _height: 80
+          }
+          {
+            id: "no-id-Classify-Wrap Orientation-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
+            _height: 80
+          }
         ]
       }
     ]
@@ -1040,6 +1054,112 @@
                   0.17405356466770172
                   100
                   0.17405356466770172
+                ]
+              }
+            ]
+            connectors: []
+
+      "no-id-Classify-Divide Orientation-Set To":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 36781.31597864236
+          chronology:
+            points: [
+              {
+                t: 35417.891663235976
+                value: 0
+                id: "no-id-Classify-Divide Orientation-Set To-point-0"
+                handler: [
+                  100
+                  0.5
+                  100
+                  0.5
+                ]
+              }
+              {
+                t: 36156.58904774408
+                value: 1
+                id: "no-id-Classify-Divide Orientation-Set To-point-1"
+                handler: [
+                  100
+                  0.036249998956918716
+                  100
+                  0.036249998956918716
+                ]
+              }
+              {
+                t: 36781.31597864236
+                value: 2
+                id: "no-id-Classify-Divide Orientation-Set To-point-2"
+                handler: [
+                  100
+                  0.06476562470197678
+                  100
+                  0.06476562470197678
+                ]
+              }
+            ]
+            connectors: []
+
+      "no-id-Classify-Wrap Orientation-Set To":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 36789.758234465306
+          chronology:
+            points: [
+              {
+                t: 35422.112791147454
+                value: 0
+                id: "no-id-Classify-Wrap Orientation-Set To-point-0"
+                handler: [
+                  100
+                  0.25
+                  100
+                  0.25
+                ]
+              }
+              {
+                t: 35709.14948912774
+                value: 0.3
+                id: "no-id-Classify-Wrap Orientation-Set To-point-3"
+                handler: [
+                  100
+                  0.05770973861217499
+                  100
+                  0.05770973861217499
+                ]
+              }
+              {
+                t: 35911.763628878536
+                value: 0.6
+                id: "no-id-Classify-Wrap Orientation-Set To-point-4"
+                handler: [
+                  100
+                  0.0629560798406601
+                  100
+                  0.0629560798406601
+                ]
+              }
+              {
+                t: 36148.14679192113
+                value: 1
+                id: "no-id-Classify-Wrap Orientation-Set To-point-1"
+                handler: [
+                  100
+                  0.010625000111758709
+                  100
+                  0.010625000111758709
+                ]
+              }
+              {
+                t: 36789.758234465306
+                value: 2
+                id: "no-id-Classify-Wrap Orientation-Set To-point-2"
+                handler: [
+                  100
+                  0.0985359400510788
+                  100
+                  0.0985359400510788
                 ]
               }
             ]
