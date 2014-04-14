@@ -36,7 +36,7 @@ module.exports = class Classify
 	setTo: (to) ->
 
 		intTo = to | 0
-		fracTo = to % 1
+		fracTo = parseInt((to % 1).toPrecision(1)*10)/10
 
 		intTo = intTo % @_length
 
