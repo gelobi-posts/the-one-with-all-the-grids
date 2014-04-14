@@ -22,6 +22,7 @@ module.exports = class Classify
 
 		@_current = 0
 		@_length = 0
+		@_classes = []
 
 		return
 

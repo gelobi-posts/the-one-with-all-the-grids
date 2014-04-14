@@ -23,7 +23,7 @@ module.exports = class ThePanelSet extends Set
 
 				<div id="griddify-direction" data-type="rotator" data-options="right, down, left, up" data-name="direction" class="direction"></div>
 
-				<button style="width: 54px" class="noMargin">Griddify</button>
+				<button id="griddify-button" style="width: 54px" class="noMargin">Griddify</button>
 
 			</div>
 
@@ -39,7 +39,7 @@ module.exports = class ThePanelSet extends Set
 
 				<div id="divide-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
-				<button style="width: 54px" class="noMargin">Divide</button>
+				<button id="divide-button" style="width: 54px" class="noMargin">Divide</button>
 
 			</div>
 
@@ -56,7 +56,7 @@ module.exports = class ThePanelSet extends Set
 
 				<div id="wrap-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
-				<button style="width: 54px" class="noMargin">Wrap</button>
+				<button id="wrap-button" style="width: 54px" class="noMargin">Wrap</button>
 
 			</div>
 
