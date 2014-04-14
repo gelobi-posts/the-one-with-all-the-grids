@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 32686.484775378285
+    t: 35000
     _focus:
-      from: 25586.151413001182
-      to: 33656.94797974113
+      from: 35000
+      to: 43070.796566739955
 
     _lastPlayedTickAt: 0
 
@@ -24,7 +24,7 @@
             id: "no-id-Qwerty-Griddify-Type"
             _expanded: true
             actorPropId: "no-id-Qwerty-Griddify-Type"
-            _height: 219
+            _height: 220
           }
           {
             id: "no-id-Qwerty-Griddify-Focus"
@@ -992,8 +992,8 @@
 
       "no-id-Qwerty-Griddify-Type":
         pacs:
-          _idCounter: 10
-          chronologyLength: 29908.390558290506
+          _idCounter: 11
+          chronologyLength: 29916.832814113455
           chronology:
             points: [
               {
@@ -1030,7 +1030,7 @@
                 ]
               }
               {
-                t: 29908.390558290506
+                t: 29916.832814113455
                 value: 0
                 id: "no-id-Qwerty-Griddify-Type-point-2"
                 handler: [
@@ -1048,7 +1048,7 @@
               }
               {
                 t: 29262.557987834865
-                id: "no-id-Qwerty-Griddify-Type-connector-10"
+                id: "no-id-Qwerty-Griddify-Type-connector-11"
               }
             ]
 
