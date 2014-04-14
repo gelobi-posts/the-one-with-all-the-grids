@@ -44,7 +44,19 @@ module.exports = class Classify
 
 		@_el.classList.add "#{@_classes[intTo]}"
 
-		if fracTo is .5 then @_el.classList.add 'hover' else @_el.classList.remove 'hover'
+		if fracTo is .3
+
+			@_el.classList.add 'hover'
+
+		else if fracTo is .6
+
+			@_el.classList.add 'hover'
+			@_el.classList.add 'active'
+
+		else
+
+			@_el.classList.remove 'hover'
+			@_el.classList.remove 'active'
 
 		@_current = intTo
 
