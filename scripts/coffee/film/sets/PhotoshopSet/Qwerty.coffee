@@ -17,9 +17,10 @@ module.exports = class Qwerty
 		@actor.addPropOfObject 'Type', @objName, 'type', 0
 		@actor.addPropOfObject 'Focus', @objName, 'focusOn', 0
 
+		return
+
 	_defineVars: ->
 
-		@_inputs = []
 		@_values = []
 		@_lengths = []
 		@_totalLength = 0
@@ -29,13 +30,7 @@ module.exports = class Qwerty
 
 		return
 
-	addInputs: (inputs) ->
-
-		for i in inputs
-
-			@_inputs.push i
-
-		return
+	addInput: (@_input) ->
 
 	addValues: (@_values) ->
 
@@ -49,13 +44,9 @@ module.exports = class Qwerty
 
 		return
 
-	focusOn: (index) ->
+	focus: (state) ->
 
-		@_index = index|0
-
-		document.activeElement.blur()
-
-		@_inputs[@_index].focus()
+		if state is 1 then @_input.focus() else @_input.blur()
 
 		return
 
