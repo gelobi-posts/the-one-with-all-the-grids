@@ -40,9 +40,11 @@ module.exports = class Classify
 
 		intTo = intTo % @_length
 
-		@_el.classList.remove "#{@_classes[@_current]}"
+		unless @_classes is []
 
-		@_el.classList.add "#{@_classes[intTo]}"
+			@_el.classList.remove "#{@_classes[@_current]}"
+
+			@_el.classList.add "#{@_classes[intTo]}"
 
 		if fracTo is .3
 
