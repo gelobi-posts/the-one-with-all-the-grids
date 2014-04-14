@@ -49,8 +49,6 @@ module.exports = class Qwerty
 
 	type: (progress) ->
 
-		unless @_values? then return
-
 		progress = progress|0
 
 		for i in [1..@_totalLength]
@@ -60,7 +58,7 @@ module.exports = class Qwerty
 				index = progress - @_lengths[i - 1]
 
 				break
-
+		console.log i
 		@_input.value = @_values[i - 1].substring(0, index)
 
 		return
