@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 44881.40150051857
+    t: 45069.101061541
     _focus:
-      from: 41338.57352983518
-      to: 47564.572684197905
+      from: 42825.52709848874
+      to: 49051.526252851465
 
     _lastPlayedTickAt: 0
 
@@ -24,7 +24,7 @@
             id: "no-id-Qwertify-Griddify-Type"
             _expanded: true
             actorPropId: "no-id-Qwertify-Griddify-Type"
-            _height: 80
+            _height: 273
           }
           {
             id: "no-id-Qwertify-Griddify-Focus"
@@ -1073,11 +1073,11 @@
       "no-id-Classify-Griddify Button-Set To":
         pacs:
           _idCounter: 10
-          chronologyLength: 40325.27525674227
+          chronologyLength: 46629.2146159307
           chronology:
             points: [
               {
-                t: 35364.511756858396
+                t: 36015.766898528134
                 value: 0
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
@@ -1088,7 +1088,7 @@
                 ]
               }
               {
-                t: 36022.27944994483
+                t: 36673.53459161457
                 value: 1
                 id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
@@ -1120,14 +1120,40 @@
                   0.11375000327825546
                 ]
               }
+              {
+                t: 45971.44692284427
+                value: 0
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
+                handler: [
+                  100
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
+                ]
+              }
+              {
+                t: 46629.2146159307
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
+                handler: [
+                  181.40689086914062
+                  -0.28093087673187256
+                  100
+                  0.11375000327825546
+                ]
+              }
             ]
             connectors: [
               {
-                t: 35364.511756858396
+                t: 36015.766898528134
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
               {
                 t: 39667.50756365584
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
+              {
+                t: 45971.44692284427
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
             ]
@@ -1433,8 +1459,8 @@
 
       "no-id-Qwertify-Griddify-Focus":
         pacs:
-          _idCounter: 2
-          chronologyLength: 36518.50931371999
+          _idCounter: 4
+          chronologyLength: 46470.46404619274
           chronology:
             points: [
               {
@@ -1460,7 +1486,7 @@
                 ]
               }
               {
-                t: 36518.50931371999
+                t: 36508.74048659494
                 value: 0
                 id: "no-id-Qwertify-Griddify-Focus-point-2"
                 handler: [
@@ -1470,13 +1496,35 @@
                   0
                 ]
               }
+              {
+                t: 45334.023823979034
+                value: 1
+                id: "no-id-Qwertify-Griddify-Focus-point-3"
+                handler: [
+                  100
+                  0.11249999701976776
+                  100
+                  0.11249999701976776
+                ]
+              }
+              {
+                t: 46470.46404619274
+                value: 0
+                id: "no-id-Qwertify-Griddify-Focus-point-4"
+                handler: [
+                  100
+                  0.03750000149011612
+                  100
+                  0.03750000149011612
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwertify-Griddify-Type":
         pacs:
-          _idCounter: 5
-          chronologyLength: 45545.681745021706
+          _idCounter: 7
+          chronologyLength: 46040.63565269071
           chronology:
             points: [
               {
@@ -1524,29 +1572,32 @@
                 ]
               }
               {
-                t: 44884.65777622692
-                value: 3
+                t: 45630.34491343878
+                value: 4
                 id: "no-id-Qwertify-Griddify-Type-point-4"
                 handler: [
                   100
                   -0.05322974920272827
-                  100
-                  -0.05322974920272827
+                  119.53765106201172
+                  0.5362697839736938
                 ]
               }
               {
-                t: 45545.681745021706
-                value: 2.4333600014448167
+                t: 46040.63565269071
+                value: 6
                 id: "no-id-Qwertify-Griddify-Type-point-5"
                 handler: [
-                  100
-                  0.2433360069990158
+                  109.76881408691406
+                  -0.560526967048645
                   100
                   0.2433360069990158
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              t: 45630.34491343878
+              id: "no-id-Qwertify-Griddify-Type-connector-7"
+            ]
 
       "no-id-Grids-Grids 3-Opacity":
         pacs:
@@ -1720,7 +1771,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 490
     guides:
       _list: [
         19993.636315890868
