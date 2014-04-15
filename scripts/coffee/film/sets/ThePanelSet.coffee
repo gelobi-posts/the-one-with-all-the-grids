@@ -17,7 +17,7 @@ module.exports = class ThePanelSet extends Set
 		panelHtml = """
 		<div style="width: 246px">
 
-		<section>
+		<section class="griddify-section">
 
 			<div>
 
@@ -33,7 +33,7 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section>
+		<section class="divide-section">
 
 			<div>
 
@@ -50,7 +50,7 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section>
+		<section class="wrap-section">
 
 			<div>
 
@@ -76,6 +76,10 @@ module.exports = class ThePanelSet extends Set
 		.html panelHtml
 
 		@_setupDomEl 'The Panel', 'Panel', @thePanel, ['opacity']
+
+		@griddifySection = @panelBody.node.querySelector '.griddify-section'
+		@divideSection = @panelBody.node.querySelector '.divide-section'
+		@wrapSection = @panelBody.node.querySelector '.wrap-section'
 
 		Rotator.applyTo @panelBody.node
 

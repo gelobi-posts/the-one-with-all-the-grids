@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 650
-    _isVisible: false
+    height: 234
+    _isVisible: true
 
   timeControl:
-    t: 28135.470187008537
+    t: 30166.416759398828
     _focus:
-      from: 22535.282976221868
-      to: 30606.079542961794
+      from: 26013.492375277154
+      to: 34084.288942017076
 
     _lastPlayedTickAt: 0
 
@@ -19,20 +19,7 @@
       }
       {
         name: "Photoshop"
-        propHolders: [
-          {
-            id: "no-id-Photoshop-Guides-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Guides-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-The Panel-Panel-Opacity"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Panel-Opacity"
-            _height: 338
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -930,37 +917,21 @@
 
       "no-id-Photoshop-Grids-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 30438.046108390503
+          _idCounter: 3
+          chronologyLength: 29470.59613477506
           chronology:
             points: [
-              {
-                t: 30002.06086671988
-                value: 0
-                id: "no-id-Photoshop-Grids-Opacity-point-0"
-                handler: [
-                  100
-                  0.10249999910593033
-                  236.87908935546875
-                  0
-                ]
-              }
-              {
-                t: 30438.046108390503
-                value: 1
-                id: "no-id-Photoshop-Grids-Opacity-point-1"
-                handler: [
-                  216.6007080078125
-                  0
-                  100
-                  0.004100000020116568
-                ]
-              }
+              t: 29470.59613477506
+              value: 0
+              id: "no-id-Photoshop-Grids-Opacity-point-3"
+              handler: [
+                100
+                3
+                100
+                3
+              ]
             ]
-            connectors: [
-              t: 30002.06086671988
-              id: "no-id-Photoshop-Grids-Opacity-connector-2"
-            ]
+            connectors: []
 
       "no-id-Photoshop-Grids-Scale X":
         pacs:
@@ -1305,7 +1276,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -23
     guides:
       _list: [
         19993.636315890868
