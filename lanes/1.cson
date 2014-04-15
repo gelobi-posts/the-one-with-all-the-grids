@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 234
+    height: 412
     _isVisible: true
 
   timeControl:
-    t: 30166.416759398828
+    t: 30834.020450181437
     _focus:
       from: 26013.492375277154
       to: 34084.288942017076
@@ -19,7 +19,26 @@
       }
       {
         name: "Photoshop"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-The Panel-Griddify Section-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Griddify Section-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Divide Section-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Divide Section-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Wrap Section-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Wrap Section-Opacity"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -1273,6 +1292,190 @@
             connectors: [
               t: 27106.764504349136
               id: "no-id-The Panel-Panel-Opacity-connector-5"
+            ]
+
+      "no-id-The Panel-Griddify Section-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 30644.069694165068
+          chronology:
+            points: [
+              {
+                t: 30433.013298591326
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 30644.069694165068
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+            ]
+            connectors: [
+              t: 30433.013298591326
+              id: "no-id-The Panel-Divide Section-Opacity-connector-2"
+            ]
+
+      "no-id-The Panel-Divide Section-Opacity":
+        pacs:
+          _idCounter: 5
+          chronologyLength: 31045.07684575518
+          chronology:
+            points: [
+              {
+                t: 29998.237123709416
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 30209.293519283157
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+              {
+                t: 30441.45555441428
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 30648.290822076546
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+              {
+                t: 30834.020450181437
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 31045.07684575518
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 29998.237123709416
+                id: "no-id-The Panel-Divide Section-Opacity-connector-2"
+              }
+              {
+                t: 30441.45555441428
+                id: "no-id-The Panel-Divide Section-Opacity-connector-5"
+              }
+              {
+                t: 30834.020450181437
+                id: "no-id-The Panel-Divide Section-Opacity-connector-2"
+              }
+            ]
+
+      "no-id-The Panel-Wrap Section-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 31040.855717843704
+          chronology:
+            points: [
+              {
+                t: 30002.45825162089
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 30213.514647194632
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+              {
+                t: 30834.020450181437
+                value: 0.3
+                id: "no-id-The Panel-Divide Section-Opacity-point-0"
+                handler: [
+                  100
+                  0.12999999523162842
+                  100.00000762939453
+                  0
+                ]
+              }
+              {
+                t: 31040.855717843704
+                value: 1
+                id: "no-id-The Panel-Divide Section-Opacity-point-1"
+                handler: [
+                  116.88451385498047
+                  0
+                  100
+                  0.09642499685287476
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 30002.45825162089
+                id: "no-id-The Panel-Divide Section-Opacity-connector-2"
+              }
+              {
+                t: 30834.020450181437
+                id: "no-id-The Panel-Divide Section-Opacity-connector-5"
+              }
             ]
 
   timelineEditor:

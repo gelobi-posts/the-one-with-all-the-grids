@@ -77,9 +77,13 @@ module.exports = class ThePanelSet extends Set
 
 		@_setupDomEl 'The Panel', 'Panel', @thePanel, ['opacity']
 
-		@griddifySection = @panelBody.node.querySelector '.griddify-section'
-		@divideSection = @panelBody.node.querySelector '.divide-section'
-		@wrapSection = @panelBody.node.querySelector '.wrap-section'
+		@griddifySection = @_makeEl @panelBody.node.querySelector '.griddify-section'
+		@divideSection = @_makeEl @panelBody.node.querySelector '.divide-section'
+		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
+
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity']
 
 		Rotator.applyTo @panelBody.node
 
