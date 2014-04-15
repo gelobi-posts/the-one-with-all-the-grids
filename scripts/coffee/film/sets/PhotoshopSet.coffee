@@ -87,3 +87,10 @@ module.exports = class PhotoshopSet extends Set
 			'opacity'
 		]
 
+		grids4 = @_makeEl '#photoshop-grids .four'
+		.inside @container
+
+		@_setupDomEl 'Grids', 'Grids 4', grids4, [
+			'opacity'
+		]
+
