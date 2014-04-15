@@ -7,10 +7,12 @@ module.exports = class ThePanelSet extends Set
 
 		super
 
-		container = @_makeEl '.container'
-		.inside @film.display.stageEl
-
 		@id = 'the-panel'
+
+		# container = @_makeEl '.container'
+		# .inside @film.display.stageEl
+
+		container = @film.sets.photoshop.container
 
 		panelHtml = """
 		<div style="width: 246px">

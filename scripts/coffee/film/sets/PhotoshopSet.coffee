@@ -1,6 +1,6 @@
 Set = require('tiny-filmmaking-studio').Set
 
-module.exports = class IntroSet extends Set
+module.exports = class PhotoshopSet extends Set
 
 	constructor: ->
 
@@ -8,50 +8,50 @@ module.exports = class IntroSet extends Set
 
 		@id = 'photoshop'
 
-		container = @_makeEl '#photoshop-container'
+		@container = @_makeEl '#photoshop-container'
 		.inside @film.display.stageEl
 
 		bg = @_makeEl '#photoshop-bg'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'BG', bg, [
 			'translation', 'scale', 'opacity', 'rotation'
 		]
 
 		menubar = @_makeEl '#photoshop-menu-bar'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Menu Bar', menubar, ['opacity']
 
 		windowHl = @_makeEl '#photoshop-window-selected'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Window Highlight', windowHl, ['opacity']
 
 		windowmenu = @_makeEl '#photoshop-window'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Window', windowmenu, ['opacity']
 
 		extensionsHighlight = @_makeEl '#photoshop-extensions-selected'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Extension-Heighlight', extensionsHighlight, [
 			'translation', 'opacity'
 		]
 
 		extensions = @_makeEl '#photoshop-extensions'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Extensions', extensions, ['opacity']
 
 		guides = @_makeEl '#photoshop-guides'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Guides', guides, ['opacity']
 
 		tools = @_makeEl '#photoshop-tools'
-		.inside container
+		.inside @container
 		.perspective 1000
 
 		@_setupDomEl 'Photoshop', 'Tools', tools, [
@@ -59,7 +59,7 @@ module.exports = class IntroSet extends Set
 		]
 
 		layers = @_makeEl '#photoshop-layers'
-		.inside container
+		.inside @container
 		.perspective 1000
 
 		@_setupDomEl 'Photoshop', 'Layers', layers, [
@@ -67,7 +67,7 @@ module.exports = class IntroSet extends Set
 		]
 
 		grids = @_makeEl '#photoshop-grids'
-		.inside container
+		.inside @container
 
 		@_setupDomEl 'Photoshop', 'Grids', grids, [
 			'scale', 'opacity'
