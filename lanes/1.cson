@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 35209.502371514085
+    t: 36045.19239419468
     _focus:
-      from: 30456.512343193383
-      to: 38527.30890993333
+      from: 34165.63302440196
+      to: 36592.180975140436
 
     _lastPlayedTickAt: 0
 
@@ -42,6 +42,12 @@
             id: "no-id-Classify-Griddify Button-Set To"
             _expanded: true
             actorPropId: "no-id-Classify-Griddify Button-Set To"
+            _height: 152
+          }
+          {
+            id: "no-id-Classify-Divide Button-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Divide Button-Set To"
             _height: 80
           }
         ]
@@ -1090,10 +1096,66 @@
 
       "no-id-Classify-Griddify Button-Set To":
         pacs:
-          _idCounter: 3
-          chronologyLength: 35244.825418865505
+          _idCounter: 8
+          chronologyLength: 36381.62351596046
           chronology:
-            points: []
+            points: [
+              {
+                t: 35407.8953833534
+                value: 0
+                id: "no-id-Classify-Griddify Button-Set To-point-5"
+                handler: [
+                  100
+                  -0.10562500357627869
+                  100
+                  -0.10562500357627869
+                ]
+              }
+              {
+                t: 35927.09411646481
+                value: 0.3
+                id: "no-id-Classify-Griddify Button-Set To-point-4"
+                handler: [
+                  100
+                  -1.75
+                  100
+                  -1.75
+                ]
+              }
+              {
+                t: 36070.61246545496
+                value: 0.6
+                id: "no-id-Classify-Griddify Button-Set To-point-6"
+                handler: [
+                  100
+                  0.0037499999161809683
+                  100
+                  0.0037499999161809683
+                ]
+              }
+              {
+                t: 36238.5189497708
+                value: 0.3
+                id: "no-id-Classify-Griddify Button-Set To-point-7"
+                handler: [
+                  100
+                  0.024434374645352364
+                  100
+                  0.024434374645352364
+                ]
+              }
+              {
+                t: 36381.62351596046
+                value: 0
+                id: "no-id-Classify-Griddify Button-Set To-point-8"
+                handler: [
+                  100
+                  -0.14499999582767487
+                  100
+                  -0.14499999582767487
+                ]
+              }
+            ]
             connectors: []
 
       "no-id-Classify-Divide Button-Set To":
@@ -1101,17 +1163,7 @@
           _idCounter: 0
           chronologyLength: 35628.94805880972
           chronology:
-            points: [
-              t: 35628.94805880972
-              value: 0.3
-              id: "no-id-Classify-Divide Button-Set To-point-0"
-              handler: [
-                100
-                5.75
-                100
-                5.75
-              ]
-            ]
+            points: []
             connectors: []
 
       "no-id-Classify-Wrap Button-Set To":
@@ -1417,8 +1469,8 @@
 
       "no-id-Qwertify-Griddify-Focus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 34998.44597594034
+          _idCounter: 2
+          chronologyLength: 36070.61246545496
           chronology:
             points: [
               {
@@ -1441,6 +1493,70 @@
                   0.23250000178813934
                   100
                   0.23250000178813934
+                ]
+              }
+              {
+                t: 36070.61246545496
+                value: 0
+                id: "no-id-Qwertify-Griddify-Focus-point-2"
+                handler: [
+                  100
+                  0
+                  100
+                  0
+                ]
+              }
+            ]
+            connectors: []
+
+      "no-id-Qwertify-Griddify-Type":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 35754.027872094346
+          chronology:
+            points: [
+              {
+                t: 34909.802289799365
+                value: 0
+                id: "no-id-Qwertify-Griddify-Type-point-1"
+                handler: [
+                  100
+                  0.10000000149011612
+                  100
+                  0.10000000149011612
+                ]
+              }
+              {
+                t: 35466.99117411405
+                value: 1
+                id: "no-id-Qwertify-Griddify-Type-point-0"
+                handler: [
+                  100
+                  0
+                  100
+                  0
+                ]
+              }
+              {
+                t: 35627.3940347501
+                value: 2
+                id: "no-id-Qwertify-Griddify-Type-point-2"
+                handler: [
+                  100.00000762939453
+                  0.08500000089406967
+                  100
+                  0.08500000089406967
+                ]
+              }
+              {
+                t: 35754.027872094346
+                value: 3
+                id: "no-id-Qwertify-Griddify-Type-point-3"
+                handler: [
+                  100
+                  0.04170000180602074
+                  100
+                  0.04170000180602074
                 ]
               }
             ]

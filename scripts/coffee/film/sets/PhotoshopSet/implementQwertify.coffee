@@ -12,8 +12,10 @@ module.exports = (film) ->
 
 	divideQ.addInput document.getElementById('divide-input')
 
-	divideQ.addValues ['10', '20', '30 40', '50']
+	divideQ.addValues ['4']
 
 	wrapQ = new Qwertify film, 'Qwertify', 'Wrap'
 
 	wrapQ.addInput document.getElementById('wrap-input')
+
+	wrapQ.addValues ['0', '10 50']
