@@ -50,6 +50,7 @@ module.exports = class Classify
 		if fracTo is .3
 
 			@_el.classList.add 'hover'
+			@_el.classList.remove 'active'
 
 		else if fracTo is .6
 

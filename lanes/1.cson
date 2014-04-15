@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 36045.19239419468
+    t: 37167.63079243328
     _focus:
-      from: 34165.63302440196
-      to: 36592.180975140436
+      from: 32803.502801046954
+      to: 39029.50195540968
 
     _lastPlayedTickAt: 0
 
@@ -1097,7 +1097,7 @@
       "no-id-Classify-Griddify Button-Set To":
         pacs:
           _idCounter: 8
-          chronologyLength: 36381.62351596046
+          chronologyLength: 36769.50441842489
           chronology:
             points: [
               {
@@ -1123,7 +1123,7 @@
                 ]
               }
               {
-                t: 36070.61246545496
+                t: 36517.240198682994
                 value: 0.6
                 id: "no-id-Classify-Griddify Button-Set To-point-6"
                 handler: [
@@ -1134,18 +1134,7 @@
                 ]
               }
               {
-                t: 36238.5189497708
-                value: 0.3
-                id: "no-id-Classify-Griddify Button-Set To-point-7"
-                handler: [
-                  100
-                  0.024434374645352364
-                  100
-                  0.024434374645352364
-                ]
-              }
-              {
-                t: 36381.62351596046
+                t: 36769.50441842489
                 value: 0
                 id: "no-id-Classify-Griddify Button-Set To-point-8"
                 handler: [
@@ -1470,7 +1459,7 @@
       "no-id-Qwertify-Griddify-Focus":
         pacs:
           _idCounter: 2
-          chronologyLength: 36070.61246545496
+          chronologyLength: 36518.50931371999
           chronology:
             points: [
               {
@@ -1496,7 +1485,7 @@
                 ]
               }
               {
-                t: 36070.61246545496
+                t: 36518.50931371999
                 value: 0
                 id: "no-id-Qwertify-Griddify-Focus-point-2"
                 handler: [
