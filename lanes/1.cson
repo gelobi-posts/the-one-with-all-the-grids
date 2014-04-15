@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 21293.27828388103
+    t: 23028.14459054281
     _focus:
       from: 16561.376630163333
       to: 24632.17319690326
@@ -20,42 +20,10 @@
       {
         name: "Photoshop"
         propHolders: [
-          {
-            id: "no-id-Classify-Griddify Direction-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Griddify Direction-Set To"
-            _height: 154
-          }
-          {
-            id: "no-id-Classify-Divide Orientation-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Divide Orientation-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Wrap Orientation-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Griddify Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Griddify Button-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Divide Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Divide Button-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Wrap Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Wrap Button-Set To"
-            _height: 80
-          }
+          id: "no-id-The Panel-Panel-Opacity"
+          _expanded: true
+          actorPropId: "no-id-The Panel-Panel-Opacity"
+          _height: 80
         ]
       }
     ]
@@ -1283,8 +1251,26 @@
             ]
             connectors: []
 
+      "no-id-The Panel-Panel-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 22048.842915080648
+          chronology:
+            points: [
+              t: 22048.842915080648
+              value: 0
+              id: "no-id-The Panel-Panel-Opacity-point-0"
+              handler: [
+                100
+                0.14000000059604645
+                100
+                0.14000000059604645
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 234
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868

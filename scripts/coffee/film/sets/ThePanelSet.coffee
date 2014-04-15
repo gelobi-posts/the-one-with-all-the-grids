@@ -75,7 +75,7 @@ module.exports = class ThePanelSet extends Set
 		@panelBody = @_makeEl '.body'
 		.html panelHtml
 
-
+		@_setupDomEl 'The Panel', 'Panel', @thePanel, ['opacity']
 
 		Rotator.applyTo @panelBody.node
 
