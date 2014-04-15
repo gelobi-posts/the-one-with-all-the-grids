@@ -66,10 +66,24 @@ module.exports = class PhotoshopSet extends Set
 			'translation', 'scale', 'opacity', 'rotation'
 		]
 
-		griddifyGrids1 = @_makeEl '#photoshop-griddify-grids-1'
+		grids1 = @_makeEl '#photoshop-grids .one'
 		.inside @container
 
-		@_setupDomEl 'Photoshop', 'Griddify Grids 1', griddifyGrids1, [
+		@_setupDomEl 'Photoshop', 'Grids 1', grids1, [
+			'opacity'
+		]
+
+		grids2 = @_makeEl '#photoshop-grids .two'
+		.inside @container
+
+		@_setupDomEl 'Photoshop', 'Grids 2', grids2, [
+			'opacity'
+		]
+
+		grids3 = @_makeEl '#photoshop-grids .three'
+		.inside @container
+
+		@_setupDomEl 'Photoshop', 'Grids 3', grids3, [
 			'opacity'
 		]
 
