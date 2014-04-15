@@ -6,7 +6,7 @@ module.exports = (film) ->
 
 	gridQ.addInput document.getElementById('griddify-input')
 
-	gridQ.addValues ['10', '20', '30 40', '50']
+	gridQ.addValues ['100 20 40']
 
 	divideQ = new Qwertify film, 'Qwertify', 'Divide'
 
