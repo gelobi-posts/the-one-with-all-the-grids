@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 36240.42916688226
+    t: 40738.629176772556
     _focus:
-      from: 35276.57155721104
-      to: 41502.57071157377
+      from: 37364.22700072629
+      to: 43590.22615508902
 
     _lastPlayedTickAt: 0
 
@@ -994,12 +994,12 @@
 
       "no-id-Classify-Griddify Direction-Set To":
         pacs:
-          _idCounter: 26
+          _idCounter: 27
           chronologyLength: 39581.36804364803
           chronology:
             points: [
               {
-                t: 38920.344074853245
+                t: 38923.600350561595
                 value: 0
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
@@ -1022,8 +1022,8 @@
               }
             ]
             connectors: [
-              t: 38920.344074853245
-              id: "no-id-Classify-Griddify Direction-Set To-connector-26"
+              t: 38923.600350561595
+              id: "no-id-Classify-Griddify Direction-Set To-connector-27"
             ]
 
       "no-id-Classify-Divide Orientation-Set To":
@@ -1044,89 +1044,65 @@
 
       "no-id-Classify-Griddify Button-Set To":
         pacs:
-          _idCounter: 8
-          chronologyLength: 40755.91846785968
+          _idCounter: 10
+          chronologyLength: 40325.27525674227
           chronology:
             points: [
               {
-                t: 35407.8953833534
+                t: 35364.511756858396
                 value: 0
-                id: "no-id-Classify-Griddify Button-Set To-point-5"
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
                   100
-                  -0.10562500357627869
-                  100
-                  -0.10562500357627869
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
                 ]
               }
               {
-                t: 35927.09411646481
-                value: 0.4
-                id: "no-id-Classify-Griddify Button-Set To-point-4"
+                t: 36022.27944994483
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
+                  181.40689086914062
+                  -0.28093087673187256
                   100
-                  -1.75
-                  100
-                  -1.75
+                  0.11375000327825546
                 ]
               }
               {
-                t: 36510.7276472663
-                value: 0.7
-                id: "no-id-Classify-Griddify Button-Set To-point-6"
-                handler: [
-                  100
-                  0.0037499999161809683
-                  100
-                  0.0037499999161809683
-                ]
-              }
-              {
-                t: 36769.50441842489
+                t: 39667.50756365584
                 value: 0
-                id: "no-id-Classify-Griddify Button-Set To-point-8"
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
                   100
-                  -0.14499999582767487
-                  100
-                  -0.14499999582767487
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
                 ]
               }
               {
-                t: 39913.5081658996
-                value: 0.3
-                id: "no-id-Classify-Griddify Button-Set To-point-4"
+                t: 40325.27525674227
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
+                  181.40689086914062
+                  -0.28093087673187256
                   100
-                  -1.75
-                  100
-                  -1.75
-                ]
-              }
-              {
-                t: 40503.65424811778
-                value: 0.6
-                id: "no-id-Classify-Griddify Button-Set To-point-6"
-                handler: [
-                  100
-                  0.0037499999161809683
-                  100
-                  0.0037499999161809683
-                ]
-              }
-              {
-                t: 40755.91846785968
-                value: 0
-                id: "no-id-Classify-Griddify Button-Set To-point-8"
-                handler: [
-                  100
-                  -0.14499999582767487
-                  100
-                  -0.14499999582767487
+                  0.11375000327825546
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              {
+                t: 35364.511756858396
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
+              {
+                t: 39667.50756365584
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
+            ]
 
       "no-id-Classify-Divide Button-Set To":
         pacs:
