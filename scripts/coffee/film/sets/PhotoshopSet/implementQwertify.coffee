@@ -12,7 +12,7 @@ module.exports = (film) ->
 
 	divideQ.addInput document.getElementById('divide-input')
 
-	divideQ.addValues ['4']
+	divideQ.addValues ['3']
 
 	wrapQ = new Qwertify film, 'Qwertify', 'Wrap'
 

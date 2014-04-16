@@ -32,3 +32,7 @@ module.exports = (set) ->
 	.inside grids4
 
 	set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
+
+	grids5html = """
+
+		<div id="photoshop-grids-5"
