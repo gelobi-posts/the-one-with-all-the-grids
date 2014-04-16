@@ -1,7 +1,7 @@
 {
   mainBox:
     height: 534
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
     t: 50790.8044208673
@@ -60,6 +60,12 @@
             id: "no-id-Grids-Grids 4-Opacity"
             _expanded: true
             actorPropId: "no-id-Grids-Grids 4-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4 BG-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4 BG-Opacity"
             _height: 80
           }
         ]
@@ -1939,8 +1945,26 @@
               id: "no-id-Grids-Grids 1-Opacity-connector-3"
             ]
 
+      "no-id-Grids-Grids 4 BG-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 50639.32842404059
+          chronology:
+            points: [
+              t: 50639.32842404059
+              value: 0
+              id: "no-id-Grids-Grids 4 BG-Opacity-point-0"
+              handler: [
+                100
+                0.11249999701976776
+                100
+                0.11249999701976776
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 490
+    scrollTop: 570
     guides:
       _list: [
         19993.636315890868

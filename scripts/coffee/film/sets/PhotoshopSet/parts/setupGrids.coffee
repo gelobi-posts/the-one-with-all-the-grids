@@ -25,5 +25,10 @@ module.exports = (set) ->
 	.inside set.container
 
 	set._setupDomEl 'Grids', 'Grids 4', grids4, [
-		'opacity'
+		'opacity', 'scale'
 	]
+
+	grid4bg = set._makeEl '.grid-bg'
+	.inside grids4
+
+	set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
