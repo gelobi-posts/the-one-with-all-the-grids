@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 80258.40924292647
+    t: 72497.76215725315
     _focus:
-      from: 77663.27880900264
-      to: 83889.27796336525
+      from: 66271.76300289054
+      to: 72497.76215725315
 
     _lastPlayedTickAt: 0
 
@@ -54,6 +54,24 @@
             id: "no-id-Classify-Wrap Button-Set To"
             _expanded: true
             actorPropId: "no-id-Classify-Wrap Button-Set To"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Scale X"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Scale X"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Scale Y"
             _height: 80
           }
         ]
@@ -2969,8 +2987,39 @@
             ]
             connectors: []
 
+      "no-id-Qwertify-Wrap-Type":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 80186.89248297285
+          chronology:
+            points: [
+              {
+                t: 79939.41552913835
+                value: 0
+                id: "no-id-Qwertify-Wrap-Type-point-0"
+                handler: [
+                  100
+                  1.25
+                  100
+                  1.25
+                ]
+              }
+              {
+                t: 80186.89248297285
+                value: 1
+                id: "no-id-Qwertify-Wrap-Type-point-1"
+                handler: [
+                  100
+                  0.04062499850988388
+                  100
+                  0.04062499850988388
+                ]
+              }
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 315
     guides:
       _list: [
         19993.636315890868
