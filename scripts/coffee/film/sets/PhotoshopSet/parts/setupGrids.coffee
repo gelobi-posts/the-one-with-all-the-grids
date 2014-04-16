@@ -33,7 +33,7 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
 
-	grids5html = """
+	grids5htmlH = """
 
 		<ul>
 
@@ -44,8 +44,25 @@ module.exports = (set) ->
 		</ul>
 	"""
 
-	grids5h = set._makeEl '#photoshop-grids .five'
+	grids5h = set._makeEl '#photoshop-grids .five .h'
 	.inside set.container
-	.html grids5html
+	.html grids5htmlH
 
 	set._setupDomEl 'Grids', 'Grids 5 Horizontal', grids5h, ['opacity']
+
+	grids5htmlV = """
+
+		<ul>
+
+			<li>
+			<li>
+			<li>
+
+		</ul>
+	"""
+
+	grids5v = set._makeEl '#photoshop-grids .five .v'
+	.inside set.container
+	.html grids5htmlV
+
+	set._setupDomEl 'Grids', 'Grids 5 Vertical', grids5v, ['opacity']

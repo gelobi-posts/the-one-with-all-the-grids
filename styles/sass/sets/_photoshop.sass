@@ -155,17 +155,20 @@
 
 			background: url('../../images/photoshop/grids/4.png')
 
-	&.five-horizontal
+	&.five
 
-		> ul
+		&.v > ul > li
 
-			list-style: none
+			float: left
 
-			> li
+			border-right: 1px solid #00ffcc
 
-				width: 25vw
-				height: 100%
+			width: 25vw
+			height: 100%
 
-				float: left
+		&.h > ul > li
 
-				border-right: 1px solid #00ffcc
+			border-bottom: 1px solid #00ffcc
+
+			width: 100%
+			height: 25vh
