@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 67149.98807133554
+    t: 68493.9473591325
     _focus:
-      from: 61994.77740915252
-      to: 68220.77656351516
+      from: 64404.52113736851
+      to: 70630.52029173117
 
     _lastPlayedTickAt: 0
 
@@ -37,18 +37,6 @@
             _expanded: true
             actorPropId: "no-id-Classify-Divide Orientation-Set To"
             _height: 214
-          }
-          {
-            id: "no-id-Grids-Grids 5 Horizontal-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids 5 Horizontal-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Griddify Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Griddify Button-Set To"
-            _height: 249
           }
           {
             id: "no-id-Qwertify-Divide-Type"
@@ -2355,7 +2343,7 @@
       "no-id-Grids-Grids 5 Horizontal-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 67469.10309075372
+          chronologyLength: 68254.581378551
           chronology:
             points: [
               {
@@ -2435,6 +2423,28 @@
                   0.01353750005364418
                 ]
               }
+              {
+                t: 67935.46635913281
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 68254.581378551
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
             ]
             connectors: [
               {
@@ -2448,6 +2458,10 @@
               {
                 t: 67149.98807133554
                 id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 67935.46635913281
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
             ]
 
@@ -2535,6 +2549,28 @@
                 ]
               }
               {
+                t: 67935.46635913281
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 68254.581378551
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
                 t: 134299.97614267108
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
@@ -2569,6 +2605,10 @@
               {
                 t: 67149.98807133554
                 id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 67935.46635913281
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
               {
                 t: 134299.97614267108
