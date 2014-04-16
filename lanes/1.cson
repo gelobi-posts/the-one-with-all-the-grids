@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 586
+    height: 473
     _isVisible: true
 
   timeControl:
-    t: 71722.41761463437
+    t: 71785.9503643894
     _focus:
       from: 66194.92497315478
       to: 72420.92412751738
@@ -72,6 +72,18 @@
             id: "no-id-Grids-Grids Divide Selection-Opacity"
             _expanded: true
             actorPropId: "no-id-Grids-Grids Divide Selection-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids Divide Half-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids Divide Half-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids Divide Rule of Third-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids Divide Rule of Third-Opacity"
             _height: 80
           }
         ]
@@ -2832,8 +2844,44 @@
               }
             ]
 
+      "no-id-Grids-Grids Divide Half-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 71616.62402755527
+          chronology:
+            points: [
+              t: 71616.62402755527
+              value: 1
+              id: "no-id-Grids-Grids Divide Half-Opacity-point-0"
+              handler: [
+                100
+                0.08250000327825546
+                100
+                0.08250000327825546
+              ]
+            ]
+            connectors: []
+
+      "no-id-Grids-Grids Divide Rule of Third-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 71629.64913038866
+          chronology:
+            points: [
+              t: 71629.64913038866
+              value: 1
+              id: "no-id-Grids-Grids Divide Rule of Third-Opacity-point-0"
+              handler: [
+                100
+                0.10499999672174454
+                100
+                0.10499999672174454
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 272
+    scrollTop: 545
     guides:
       _list: [
         19993.636315890868

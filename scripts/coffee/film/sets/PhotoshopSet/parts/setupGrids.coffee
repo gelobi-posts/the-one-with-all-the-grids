@@ -84,7 +84,7 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Grids Divide Half', grid7, ['opacity']
 
-	grid8 = set._makeEl '.divide-ruleofthird'
+	grid8 = set._makeEl '.photoshop-grids .divide-ruleofthird'
 	.inside set.container
 	.html """
 
