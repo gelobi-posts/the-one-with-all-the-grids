@@ -1,4 +1,4 @@
-Classify = require './Classify'
+Classify = require './tools/Classify'
 
 module.exports = (film) ->
 

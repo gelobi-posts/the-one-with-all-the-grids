@@ -1,4 +1,4 @@
-Qwertify = require './Qwertify'
+Qwertify = require './tools/Qwertify'
 
 module.exports = (film) ->
 
