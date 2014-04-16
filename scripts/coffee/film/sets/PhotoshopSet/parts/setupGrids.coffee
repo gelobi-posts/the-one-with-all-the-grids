@@ -120,10 +120,10 @@ module.exports = (set) ->
 	.inside grids4
 	.html """
 
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div class="h t"></div>
+		<div class="h b"></div>
+		<div class="v l"></div>
+		<div class="v r"></div>
 
 	"""
 
