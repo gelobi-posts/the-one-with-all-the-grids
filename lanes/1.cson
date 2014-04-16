@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 71320.30293809554
+    t: 71722.41761463437
     _focus:
       from: 66194.92497315478
       to: 72420.92412751738
@@ -2165,6 +2165,28 @@
                 ]
               }
               {
+                t: 71326.81548951224
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 71645.93050893043
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
                 t: 100576.18794290906
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
@@ -2190,6 +2212,10 @@
             connectors: [
               {
                 t: 53796.65962268039
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+              {
+                t: 71326.81548951224
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
               {

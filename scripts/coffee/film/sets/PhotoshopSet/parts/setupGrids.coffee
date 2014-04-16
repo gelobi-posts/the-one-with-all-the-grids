@@ -72,3 +72,11 @@ module.exports = (set) ->
 	.html grids5htmlV+grids5htmlH
 
 	set._setupDomEl 'Grids', 'Grids Divide Selection', grid6bg, [ 'opacity' ]
+
+	grid7bg = set._makeEl '.divide-half'
+	.inside set.container
+	.html """
+
+		<ul>
+
+		</ul>
