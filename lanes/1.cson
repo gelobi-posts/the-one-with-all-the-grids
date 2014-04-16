@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 257
+    height: 741
     _isVisible: true
 
   timeControl:
-    t: 60858.52498419469
+    t: 61596.93475019484
     _focus:
-      from: 58615.38568302394
-      to: 64841.384837386635
+      from: 57169.59926851718
+      to: 63395.59842287988
 
     _lastPlayedTickAt: 0
 
@@ -43,6 +43,12 @@
             _expanded: true
             actorPropId: "no-id-Qwertify-Divide-Focus"
             _height: 80
+          }
+          {
+            id: "no-id-Classify-Griddify Button-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Griddify Button-Set To"
+            _height: 249
           }
         ]
       }
@@ -1195,10 +1201,36 @@
       "no-id-Classify-Divide Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 35628.94805880972
+          chronologyLength: 61213.89369828625
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 60556.12600519982
+                value: 0
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
+                handler: [
+                  100
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
+                ]
+              }
+              {
+                t: 61213.89369828625
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
+                handler: [
+                  181.40689086914062
+                  -0.28093087673187256
+                  100
+                  0.11375000327825546
+                ]
+              }
+            ]
+            connectors: [
+              t: 60556.12600519982
+              id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+            ]
 
       "no-id-Classify-Wrap Button-Set To":
         pacs:
@@ -2107,8 +2139,8 @@
 
       "no-id-Qwertify-Divide-Focus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 59999.30285907213
+          _idCounter: 2
+          chronologyLength: 61047.823637160465
           chronology:
             points: [
               {
@@ -2131,6 +2163,17 @@
                   7.5
                   100
                   7.5
+                ]
+              }
+              {
+                t: 61047.823637160465
+                value: 0
+                id: "no-id-Qwertify-Divide-Focus-point-2"
+                handler: [
+                  100
+                  0.042500000447034836
+                  100
+                  0.042500000447034836
                 ]
               }
             ]
@@ -2168,7 +2211,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 67
+    scrollTop: 40
     guides:
       _list: [
         19993.636315890868
