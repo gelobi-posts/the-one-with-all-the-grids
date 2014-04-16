@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 53504.85801457735
+    t: 55587.877624685825
     _focus:
-      from: 51990.689810195225
-      to: 58216.68896455786
+      from: 49361.878470323216
+      to: 55587.877624685825
 
     _lastPlayedTickAt: 0
 
@@ -48,6 +48,24 @@
             id: "no-id-Qwertify-Divide-Focus"
             _expanded: true
             actorPropId: "no-id-Qwertify-Divide-Focus"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Scale X"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Scale X"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 4-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Scale Y"
             _height: 80
           }
         ]
@@ -2617,7 +2635,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 284
     guides:
       _list: [
         19993.636315890868
