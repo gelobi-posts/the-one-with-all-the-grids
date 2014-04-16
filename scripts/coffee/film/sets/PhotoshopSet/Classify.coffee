@@ -47,14 +47,13 @@ module.exports = class Classify
 
 			@_el.classList.add "#{@_classes[intTo]}"
 
-		if  .33 <= fracTo < .8
+		if  .33 <=
 
 			@_el.classList.add 'hover'
 			@_el.classList.remove 'active'
 
 		else if .8 <= fracTo
 
-			@_el.classList.add 'hover'
 			@_el.classList.add 'active'
 
 		else
