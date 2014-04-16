@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 72497.76215725315
+    t: 83842.08027376176
     _focus:
-      from: 66271.76300289054
-      to: 72497.76215725315
+      from: 77616.08111939915
+      to: 83842.08027376176
 
     _lastPlayedTickAt: 0
 
@@ -20,12 +20,6 @@
       {
         name: "Photoshop"
         propHolders: [
-          {
-            id: "no-id-Classify-Divide Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Divide Button-Set To"
-            _height: 80
-          }
           {
             id: "no-id-Grids-Grids 5 Vertical-Opacity"
             _expanded: true
@@ -1415,10 +1409,36 @@
       "no-id-Classify-Wrap Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 36148.14679192113
+          chronologyLength: 82507.44589852591
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 81849.67820543947
+                value: 0
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
+                handler: [
+                  100
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
+                ]
+              }
+              {
+                t: 82507.44589852591
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
+                handler: [
+                  181.40689086914062
+                  -0.28093087673187256
+                  100
+                  0.11375000327825546
+                ]
+              }
+            ]
+            connectors: [
+              t: 81849.67820543947
+              id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+            ]
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
@@ -2105,7 +2125,7 @@
 
       "no-id-Grids-Grids 4-Opacity":
         pacs:
-          _idCounter: 5
+          _idCounter: 6
           chronologyLength: 100895.30296232723
           chronology:
             points: [
@@ -2184,6 +2204,17 @@
                   0
                   100
                   0.01353750005364418
+                ]
+              }
+              {
+                t: 80695.43635159348
+                value: 1
+                id: "no-id-Grids-Grids 4-Opacity-point-6"
+                handler: [
+                  100
+                  0.04284375160932541
+                  100
+                  0.04284375160932541
                 ]
               }
               {
@@ -2289,7 +2320,7 @@
       "no-id-Grids-Grids 4-Scale X":
         pacs:
           _idCounter: 4
-          chronologyLength: 69317.73246643251
+          chronologyLength: 81416.39239330092
           chronology:
             points: [
               {
@@ -2336,6 +2367,28 @@
                   0.01531249936670065
                 ]
               }
+              {
+                t: 80690.24291033916
+                value: 0
+                id: "no-id-Grids-Grids 4-Scale X-point-0"
+                handler: [
+                  100
+                  0.17499999701976776
+                  393.0648193359375
+                  0
+                ]
+              }
+              {
+                t: 81416.39239330092
+                value: 1
+                id: "no-id-Grids-Grids 4-Scale X-point-1"
+                handler: [
+                  350.73321533203125
+                  0
+                  100
+                  0.01531249936670065
+                ]
+              }
             ]
             connectors: [
               {
@@ -2346,12 +2399,16 @@
                 t: 68591.58298347075
                 id: "no-id-Grids-Grids 4-Scale X-connector-4"
               }
+              {
+                t: 80690.24291033916
+                id: "no-id-Grids-Grids 4-Scale X-connector-4"
+              }
             ]
 
       "no-id-Grids-Grids 4-Scale Y":
         pacs:
           _idCounter: 1
-          chronologyLength: 69317.73246643251
+          chronologyLength: 162106.6353036401
           chronology:
             points: [
               {
@@ -2398,6 +2455,50 @@
                   0.01531249936670065
                 ]
               }
+              {
+                t: 80695.43635159348
+                value: 0
+                id: "no-id-Grids-Grids 4-Scale X-point-0"
+                handler: [
+                  100
+                  0.17499999701976776
+                  393.0648193359375
+                  0
+                ]
+              }
+              {
+                t: 81421.58583455524
+                value: 1
+                id: "no-id-Grids-Grids 4-Scale X-point-1"
+                handler: [
+                  350.73321533203125
+                  0
+                  100
+                  0.01531249936670065
+                ]
+              }
+              {
+                t: 161380.48582067832
+                value: 0
+                id: "no-id-Grids-Grids 4-Scale X-point-0"
+                handler: [
+                  100
+                  0.17499999701976776
+                  393.0648193359375
+                  0
+                ]
+              }
+              {
+                t: 162106.6353036401
+                value: 1
+                id: "no-id-Grids-Grids 4-Scale X-point-1"
+                handler: [
+                  350.73321533203125
+                  0
+                  100
+                  0.01531249936670065
+                ]
+              }
             ]
             connectors: [
               {
@@ -2406,6 +2507,14 @@
               }
               {
                 t: 68591.58298347075
+                id: "no-id-Grids-Grids 4-Scale X-connector-4"
+              }
+              {
+                t: 80695.43635159348
+                id: "no-id-Grids-Grids 4-Scale X-connector-4"
+              }
+              {
+                t: 161380.48582067832
                 id: "no-id-Grids-Grids 4-Scale X-connector-4"
               }
             ]
@@ -2958,8 +3067,8 @@
 
       "no-id-Qwertify-Wrap-Focus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 79994.77221618028
+          _idCounter: 2
+          chronologyLength: 80692.18007588513
           chronology:
             points: [
               {
@@ -2982,6 +3091,17 @@
                   2.5
                   100
                   2.5
+                ]
+              }
+              {
+                t: 80692.18007588513
+                value: 0
+                id: "no-id-Qwertify-Wrap-Focus-point-2"
+                handler: [
+                  100
+                  0.061250001192092896
+                  100
+                  0.061250001192092896
                 ]
               }
             ]
@@ -3019,7 +3139,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 315
+    scrollTop: 235
     guides:
       _list: [
         19993.636315890868
