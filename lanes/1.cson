@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 55737.069056032364
+    t: 61348.44533758408
     _focus:
-      from: 53703.819056031956
-      to: 59929.81821039465
+      from: 57968.431152318146
+      to: 64194.43030668083
 
     _lastPlayedTickAt: 0
 
@@ -1980,7 +1980,7 @@
                 ]
               }
               {
-                t: 61327.863348078456
+                t: 61624.184437538184
                 value: 1
                 id: "no-id-Grids-Grids 4-Opacity-point-4"
                 handler: [
