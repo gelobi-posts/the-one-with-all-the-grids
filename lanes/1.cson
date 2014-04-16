@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 618
-    _isVisible: true
+    height: 193
+    _isVisible: false
 
   timeControl:
-    t: 96248.0145092002
+    t: 19158.265284589037
     _focus:
-      from: 86116.70686842364
-      to: 99384.55632675569
+      from: 17409.573828783767
+      to: 30677.423287115824
 
     _lastPlayedTickAt: 0
 
@@ -19,68 +19,7 @@
       }
       {
         name: "Photoshop"
-        propHolders: [
-          {
-            id: "no-id-Qwertify-Wrap-Type"
-            _expanded: false
-            actorPropId: "no-id-Qwertify-Wrap-Type"
-            _height: 248
-          }
-          {
-            id: "no-id-Qwertify-Wrap-Focus"
-            _expanded: true
-            actorPropId: "no-id-Qwertify-Wrap-Focus"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Wrap Orientation-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Wrap Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Wrap Button-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids 4-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids 4-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Wrap 0-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Wrap 0-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Wrap 10 Ver-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Wrap 10 Ver-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Wrap 10 Hor-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Wrap 10 Hor-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Wrap 50 Ver-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Wrap 50 Ver-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Wrap 50 Hor-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Wrap 50 Hor-Opacity"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -597,7 +536,7 @@
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 56409.187815397476
+          chronologyLength: 27138.759110051335
           chronology:
             points: [
               {
@@ -666,28 +605,6 @@
                   -0.011091499589383602
                 ]
               }
-              {
-                t: 56168.58352444341
-                value: 0.3
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
-                handler: [
-                  100
-                  0.0693218782544136
-                  188.64369201660156
-                  0
-                ]
-              }
-              {
-                t: 56409.187815397476
-                value: 0
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
-                handler: [
-                  146.43240356445312
-                  0
-                  100
-                  -0.011091499589383602
-                ]
-              }
             ]
             connectors: [
               {
@@ -700,10 +617,6 @@
               }
               {
                 t: 26898.154819097268
-                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
-              }
-              {
-                t: 56168.58352444341
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -2360,6 +2273,28 @@
                 ]
               }
               {
+                t: 96248.0145092002
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 96567.12952861839
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
                 t: 100576.18794290906
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
@@ -2389,6 +2324,10 @@
               }
               {
                 t: 71785.95036438941
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+              {
+                t: 96248.0145092002
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
               {
@@ -4306,7 +4245,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 136
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868
