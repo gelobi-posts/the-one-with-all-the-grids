@@ -121,28 +121,36 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Grids Wrap 10 Ver', grid10v, ['opacity']
 
-	# grid10v = set._makeEl '.photoshop-grids .wrap-2'
-	# .inside grids4
-	# .html """
+	grid10h = set._makeEl '.photoshop-grids .wrap-2 .h'
+	.inside grids4
+	.html """
 
-	# 	<div class="h t"></div>
-	# 	<div class="h b"></div>
-	# 	<div class="v l"></div>
-	# 	<div class="v r"></div>
+		<div class="t"></div>
+		<div class="b"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 10', grid10, ['opacity']
+	set._setupDomEl 'Grids', 'Grids Wrap 10 Hor', grid10h, ['opacity']
 
-	# grid11v = set._makeEl '.photoshop-grids .wrap-3'
-	# .inside grids4
-	# .html """
+	grid11v = set._makeEl '.photoshop-grids .wrap-3 .v'
+	.inside grids4
+	.html """
 
-	# 	<div class="h t"></div>
-	# 	<div class="h b"></div>
-	# 	<div class="v l"></div>
-	# 	<div class="v r"></div>
+		<div class="l"></div>
+		<div class="r"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 50', grid11, ['opacity']
+	set._setupDomEl 'Grids', 'Grids Wrap 50 Ver', grid11v, ['opacity']
+
+	grid11h = set._makeEl '.photoshop-grids .wrap-3 .h'
+	.inside grids4
+	.html """
+
+		<div class="t"></div>
+		<div class="b"></div>
+
+	"""
+
+	set._setupDomEl 'Grids', 'Grids Wrap 50 Hor', grid11h, ['opacity']
+
