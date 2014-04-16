@@ -35,4 +35,17 @@ module.exports = (set) ->
 
 	grids5html = """
 
-		<div id="photoshop-grids-5"
+		<ul>
+
+			<li>
+			<li>
+			<li>
+
+		</ul>
+	"""
+
+	grids5h = set._makeEl '#photoshop-grids .five'
+	.inside set.container
+	.html grids5html
+
+	set._setupDomEl 'Grids', 'Grids 5 Horizontal', grids5h, ['opacity']
