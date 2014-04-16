@@ -1,7 +1,7 @@
 {
   mainBox:
     height: 534
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
     t: 50790.8044208673
@@ -1885,7 +1885,7 @@
 
       "no-id-Grids-Grids 4-Opacity":
         pacs:
-          _idCounter: 2
+          _idCounter: 3
           chronologyLength: 100895.30296232723
           chronology:
             points: [
@@ -1898,6 +1898,17 @@
                   0.14749999344348907
                   100
                   0.14749999344348907
+                ]
+              }
+              {
+                t: 50587.22801270701
+                value: 1
+                id: "no-id-Grids-Grids 4-Opacity-point-3"
+                handler: [
+                  100
+                  0.08854375034570694
+                  100
+                  0.08854375034570694
                 ]
               }
               {
