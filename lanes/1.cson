@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 61348.44533758408
+    t: 62587.55629874684
     _focus:
-      from: 57968.431152318146
-      to: 64194.43030668083
+      from: 58548.04822840418
+      to: 64774.04738276686
 
     _lastPlayedTickAt: 0
 
@@ -51,9 +51,15 @@
             _height: 249
           }
           {
-            id: "no-id-Grids-Grids 4-Opacity"
+            id: "no-id-Grids-Grids 5 Horizontal-Opacity"
             _expanded: true
-            actorPropId: "no-id-Grids-Grids 4-Opacity"
+            actorPropId: "no-id-Grids-Grids 5 Horizontal-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids 5 Vertical-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 5 Vertical-Opacity"
             _height: 80
           }
         ]
@@ -1980,17 +1986,6 @@
                 ]
               }
               {
-                t: 61624.184437538184
-                value: 1
-                id: "no-id-Grids-Grids 4-Opacity-point-4"
-                handler: [
-                  100
-                  0.059981249272823334
-                  100
-                  0.059981249272823334
-                ]
-              }
-              {
                 t: 100576.18794290906
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
@@ -2227,8 +2222,99 @@
             ]
             connectors: []
 
+      "no-id-Grids-Grids 5 Horizontal-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 59788.68927328506
+          chronology:
+            points: [
+              t: 59788.68927328506
+              value: 0
+              id: "no-id-Grids-Grids 5 Horizontal-Opacity-point-0"
+              handler: [
+                100
+                0.1550000011920929
+                100
+                0.1550000011920929
+              ]
+            ]
+            connectors: []
+
+      "no-id-Grids-Grids 5 Vertical-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 62484.885559797796
+          chronology:
+            points: [
+              {
+                t: 59801.714376118456
+                value: 0
+                id: "no-id-Grids-Grids 5 Vertical-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  100
+                  0.09749999642372131
+                ]
+              }
+              {
+                t: 61322.395131917314
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 61641.51015133549
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 62165.77054037962
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 62484.885559797796
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 61322.395131917314
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 62165.77054037962
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
+
   timelineEditor:
-    scrollTop: 159
+    scrollTop: 323
     guides:
       _list: [
         19993.636315890868
