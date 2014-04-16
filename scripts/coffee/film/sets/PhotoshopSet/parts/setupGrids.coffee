@@ -110,7 +110,7 @@ module.exports = (set) ->
 	.html """
 
 		<div></div>
-		<siv></div>
+		<div></div>
 
 	"""
 
