@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 409
+    height: 746
     _isVisible: false
 
   timeControl:
-    t: 87206.89809290755
+    t: 87367.41908708813
     _focus:
       from: 81219.24198453469
       to: 94487.09144286673
@@ -22,7 +22,7 @@
         propHolders: [
           {
             id: "no-id-Qwertify-Wrap-Type"
-            _expanded: true
+            _expanded: false
             actorPropId: "no-id-Qwertify-Wrap-Type"
             _height: 248
           }
@@ -54,6 +54,12 @@
             id: "no-id-Grids-Grids Wrap 0-Opacity"
             _expanded: true
             actorPropId: "no-id-Grids-Grids Wrap 0-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Grids Wrap 10 Ver-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids Wrap 10 Ver-Opacity"
             _height: 80
           }
         ]
@@ -1397,7 +1403,7 @@
       "no-id-Classify-Wrap Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 86774.76780203514
+          chronologyLength: 90384.53239514993
           chronology:
             points: [
               {
@@ -1444,6 +1450,28 @@
                   0.11375000327825546
                 ]
               }
+              {
+                t: 89726.76470206349
+                value: 0
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
+                handler: [
+                  100
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
+                ]
+              }
+              {
+                t: 90384.53239514993
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
+                handler: [
+                  181.40689086914062
+                  -0.28093087673187256
+                  100
+                  0.11375000327825546
+                ]
+              }
             ]
             connectors: [
               {
@@ -1452,6 +1480,10 @@
               }
               {
                 t: 86117.0001089487
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
+              {
+                t: 89726.76470206349
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
             ]
@@ -3083,8 +3115,8 @@
 
       "no-id-Qwertify-Wrap-Focus":
         pacs:
-          _idCounter: 4
-          chronologyLength: 86604.10138812552
+          _idCounter: 6
+          chronologyLength: 90212.51232867606
           chronology:
             points: [
               {
@@ -3142,13 +3174,35 @@
                   0.026249999180436134
                 ]
               }
+              {
+                t: 88602.60590904583
+                value: 1
+                id: "no-id-Qwertify-Wrap-Focus-point-5"
+                handler: [
+                  100
+                  0.061250001192092896
+                  100
+                  0.061250001192092896
+                ]
+              }
+              {
+                t: 90212.51232867606
+                value: 0
+                id: "no-id-Qwertify-Wrap-Focus-point-6"
+                handler: [
+                  100
+                  0
+                  100
+                  0
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwertify-Wrap-Type":
         pacs:
-          _idCounter: 8
-          chronologyLength: 85425.74286400253
+          _idCounter: 12
+          chronologyLength: 89504.70864418347
           chronology:
             points: [
               {
@@ -3217,6 +3271,28 @@
                   0.11562500149011612
                 ]
               }
+              {
+                t: 88692.81618255959
+                value: 3
+                id: "no-id-Qwertify-Wrap-Type-point-10"
+                handler: [
+                  100
+                  0.18579477071762085
+                  287.35980224609375
+                  0.6819106936454773
+                ]
+              }
+              {
+                t: 89504.70864418347
+                value: 6
+                id: "no-id-Qwertify-Wrap-Type-point-11"
+                handler: [
+                  252.66354370117188
+                  -0.6892926692962646
+                  100
+                  0.2768278419971466
+                ]
+              }
             ]
             connectors: [
               {
@@ -3226,6 +3302,10 @@
               {
                 t: 85086.32944559798
                 id: "no-id-Qwertify-Wrap-Type-connector-8"
+              }
+              {
+                t: 88692.81618255959
+                id: "no-id-Qwertify-Wrap-Type-connector-12"
               }
             ]
 
@@ -3291,8 +3371,298 @@
               }
             ]
 
+      "no-id-Grids-Grids Wrap 10-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 91762.71887904823
+          chronology:
+            points: [
+              {
+                t: 87013.51724484183
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 87332.63226426001
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 87798.9955326391
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 88118.11055205729
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 90658.12557183277
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 90977.24059125096
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 91443.60385963005
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 91762.71887904823
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 87013.51724484183
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 87798.9955326391
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+              {
+                t: 90658.12557183277
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 91443.60385963005
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
+
+      "no-id-Grids-Grids Wrap 50-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 182420.844450881
+          chronology:
+            points: [
+              {
+                t: 90658.12557183277
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 90977.24059125096
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 91443.60385963005
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 91762.71887904823
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 181316.25114366555
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 181635.36616308373
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 182101.72943146282
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 182420.844450881
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 90658.12557183277
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 91443.60385963005
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+              {
+                t: 181316.25114366555
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 182101.72943146282
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
+
+      "no-id-Grids-Grids Wrap 10 Ver-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 87995.64940594079
+          chronology:
+            points: [
+              {
+                t: 86891.05609872533
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 87210.17111814351
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 87676.5343865226
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 87995.64940594079
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 86891.05609872533
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 87676.5343865226
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
+
   timelineEditor:
-    scrollTop: 243
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868
