@@ -142,6 +142,8 @@
 
 		border: 1px dashed #000
 
+		box-sizing: border-box
+
 		-webkit-transform-origin: left top
 
 		ul
@@ -160,7 +162,12 @@
 			background: url('../../images/photoshop/grids/4.png')
 
 		> .divide-selection-grid
+
 			position: absolute
+
+			width: 100%
+			height: 100%
+
 			> ul:nth-child(1) > li
 
 				float: left
@@ -174,6 +181,8 @@
 
 			> ul:nth-child(2) > li
 
+				display: block
+
 				border-bottom: 1px solid #00ffcc
 
 				width: 100vw
@@ -185,6 +194,9 @@
 
 			position: absolute
 
+			width: 100%
+			height: 100%
+
 			> div:nth-child(1)
 
 				position: absolute
@@ -192,9 +204,9 @@
 				width: 100%
 				height: 100vh
 
-				// top: -20vh
+				top: -20vh
 
-				// box-sizing: border-box
+				box-sizing: border-box
 
 				border: 1px solid #00ffcc
 
