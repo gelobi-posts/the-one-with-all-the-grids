@@ -106,7 +106,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Grids Divide Rule of Third', grid8, ['opacity']
 
 	grid9 = set._makeEl '.photoshop-grids .wrap-1'
-	.inside grid4
+	.inside grids4
 	.html """
 
 		<div></div>
