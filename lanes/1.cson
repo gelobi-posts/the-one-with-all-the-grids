@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 71785.9503643894
+    t: 74833.54560125005
     _focus:
-      from: 66194.92497315478
-      to: 72420.92412751738
+      from: 74766.51360125103
+      to: 80992.51275561364
 
     _lastPlayedTickAt: 0
 
@@ -2847,38 +2847,126 @@
       "no-id-Grids-Grids Divide Half-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 71616.62402755527
+          chronologyLength: 73264.81625709715
           chronology:
             points: [
-              t: 71616.62402755527
-              value: 1
-              id: "no-id-Grids-Grids Divide Half-Opacity-point-0"
-              handler: [
-                100
-                0.08250000327825546
-                100
-                0.08250000327825546
-              ]
+              {
+                t: 72088.36961017633
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 72407.48462959452
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 72945.70123767896
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 73264.81625709715
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              {
+                t: 72088.36961017633
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 72945.70123767896
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
 
       "no-id-Grids-Grids Divide Rule of Third-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 71629.64913038866
+          chronologyLength: 74706.47602338807
           chronology:
             points: [
-              t: 71629.64913038866
-              value: 1
-              id: "no-id-Grids-Grids Divide Rule of Third-Opacity-point-0"
-              handler: [
-                100
-                0.10499999672174454
-                100
-                0.10499999672174454
-              ]
+              {
+                t: 73530.02937646725
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 73849.14439588544
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 74387.36100396988
+                value: 1
+                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 74706.47602338807
+                value: 0
+                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              {
+                t: 73530.02937646725
+                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+              }
+              {
+                t: 74387.36100396988
+                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+              }
+            ]
 
   timelineEditor:
     scrollTop: 545
