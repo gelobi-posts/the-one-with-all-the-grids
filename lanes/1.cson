@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 61584.393526696986
+    t: 55737.069056032364
     _focus:
-      from: 57169.59926851718
-      to: 63395.59842287988
+      from: 53703.819056031956
+      to: 59929.81821039465
 
     _lastPlayedTickAt: 0
 
@@ -49,6 +49,12 @@
             _expanded: true
             actorPropId: "no-id-Classify-Griddify Button-Set To"
             _height: 249
+          }
+          {
+            id: "no-id-Grids-Grids 4-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Grids 4-Opacity"
+            _height: 80
           }
         ]
       }
@@ -1925,7 +1931,7 @@
 
       "no-id-Grids-Grids 4-Opacity":
         pacs:
-          _idCounter: 3
+          _idCounter: 4
           chronologyLength: 100895.30296232723
           chronology:
             points: [
@@ -1971,6 +1977,17 @@
                   0
                   100
                   0.01353750005364418
+                ]
+              }
+              {
+                t: 61327.863348078456
+                value: 1
+                id: "no-id-Grids-Grids 4-Opacity-point-4"
+                handler: [
+                  100
+                  0.059981249272823334
+                  100
+                  0.059981249272823334
                 ]
               }
               {
@@ -2211,7 +2228,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 40
+    scrollTop: 159
     guides:
       _list: [
         19993.636315890868

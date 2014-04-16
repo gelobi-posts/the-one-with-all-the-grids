@@ -144,6 +144,10 @@
 
 		-webkit-transform-origin: left top
 
+		ul
+
+			list-style: none
+
 		> .grid-bg
 
 			position: absolute
@@ -154,6 +158,24 @@
 			left: -7vw
 
 			background: url('../../images/photoshop/grids/4.png')
+
+		> .divide-selection-grid
+
+			> ul:nth-child(1) > li
+
+				float: left
+
+				border-right: 1px solid #00ffcc
+
+				width: 25%
+				height: 100%
+
+			> ul:nth-child(2) > li
+
+				border-bottom: 1px solid #00ffcc
+
+				width: 100%
+				height: 25%
 
 	&.five
 
