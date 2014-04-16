@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 473
+    height: 409
     _isVisible: true
 
   timeControl:
-    t: 74833.54560125005
+    t: 80258.40924292647
     _focus:
-      from: 74766.51360125103
-      to: 80992.51275561364
+      from: 77663.27880900264
+      to: 83889.27796336525
 
     _lastPlayedTickAt: 0
 
@@ -33,57 +33,27 @@
             _height: 80
           }
           {
-            id: "no-id-Classify-Divide Orientation-Set To"
+            id: "no-id-Qwertify-Wrap-Type"
             _expanded: true
-            actorPropId: "no-id-Classify-Divide Orientation-Set To"
-            _height: 214
-          }
-          {
-            id: "no-id-Qwertify-Divide-Type"
-            _expanded: true
-            actorPropId: "no-id-Qwertify-Divide-Type"
+            actorPropId: "no-id-Qwertify-Wrap-Type"
             _height: 80
           }
           {
-            id: "no-id-Qwertify-Divide-Focus"
+            id: "no-id-Qwertify-Wrap-Focus"
             _expanded: true
-            actorPropId: "no-id-Qwertify-Divide-Focus"
+            actorPropId: "no-id-Qwertify-Wrap-Focus"
             _height: 80
           }
           {
-            id: "no-id-Grids-Grids 4-Opacity"
+            id: "no-id-Classify-Wrap Orientation-Set To"
             _expanded: true
-            actorPropId: "no-id-Grids-Grids 4-Opacity"
+            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
             _height: 80
           }
           {
-            id: "no-id-Grids-Grids 4-Scale X"
+            id: "no-id-Classify-Wrap Button-Set To"
             _expanded: true
-            actorPropId: "no-id-Grids-Grids 4-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids 4-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids 4-Scale Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Divide Selection-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Divide Selection-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Divide Half-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Divide Half-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Grids Divide Rule of Third-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Grids Divide Rule of Third-Opacity"
+            actorPropId: "no-id-Classify-Wrap Button-Set To"
             _height: 80
           }
         ]
@@ -2177,7 +2147,7 @@
                 ]
               }
               {
-                t: 71326.81548951224
+                t: 71785.95036438941
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2188,7 +2158,7 @@
                 ]
               }
               {
-                t: 71645.93050893043
+                t: 72105.0653838076
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2227,7 +2197,7 @@
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
               {
-                t: 71326.81548951224
+                t: 71785.95036438941
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
               {
@@ -2774,7 +2744,7 @@
       "no-id-Grids-Grids Divide Selection-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 71640.23351913091
+          chronologyLength: 72099.36839400808
           chronology:
             points: [
               {
@@ -2811,7 +2781,7 @@
                 ]
               }
               {
-                t: 71321.11849971273
+                t: 71780.2533745899
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2822,7 +2792,7 @@
                 ]
               }
               {
-                t: 71640.23351913091
+                t: 72099.36839400808
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2839,7 +2809,7 @@
                 id: "no-id-Grids-Grids 1-Opacity-connector-2"
               }
               {
-                t: 71321.11849971273
+                t: 71780.2533745899
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
             ]
@@ -2847,11 +2817,11 @@
       "no-id-Grids-Grids Divide Half-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 73264.81625709715
+          chronologyLength: 73723.95113197432
           chronology:
             points: [
               {
-                t: 72088.36961017633
+                t: 72547.5044850535
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2862,7 +2832,7 @@
                 ]
               }
               {
-                t: 72407.48462959452
+                t: 72866.61950447169
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2873,7 +2843,7 @@
                 ]
               }
               {
-                t: 72945.70123767896
+                t: 73404.83611255614
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2884,7 +2854,7 @@
                 ]
               }
               {
-                t: 73264.81625709715
+                t: 73723.95113197432
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2897,11 +2867,11 @@
             ]
             connectors: [
               {
-                t: 72088.36961017633
+                t: 72547.5044850535
                 id: "no-id-Grids-Grids 1-Opacity-connector-2"
               }
               {
-                t: 72945.70123767896
+                t: 73404.83611255614
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
             ]
@@ -2909,11 +2879,11 @@
       "no-id-Grids-Grids Divide Rule of Third-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 74706.47602338807
+          chronologyLength: 75165.61089826524
           chronology:
             points: [
               {
-                t: 73530.02937646725
+                t: 73989.16425134442
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2924,7 +2894,7 @@
                 ]
               }
               {
-                t: 73849.14439588544
+                t: 74308.2792707626
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2935,7 +2905,7 @@
                 ]
               }
               {
-                t: 74387.36100396988
+                t: 74846.49587884705
                 value: 1
                 id: "no-id-Grids-Grids 1-Opacity-point-0"
                 handler: [
@@ -2946,7 +2916,7 @@
                 ]
               }
               {
-                t: 74706.47602338807
+                t: 75165.61089826524
                 value: 0
                 id: "no-id-Grids-Grids 1-Opacity-point-1"
                 handler: [
@@ -2959,17 +2929,48 @@
             ]
             connectors: [
               {
-                t: 73530.02937646725
+                t: 73989.16425134442
                 id: "no-id-Grids-Grids 1-Opacity-connector-2"
               }
               {
-                t: 74387.36100396988
+                t: 74846.49587884705
                 id: "no-id-Grids-Grids 1-Opacity-connector-3"
               }
             ]
 
+      "no-id-Qwertify-Wrap-Focus":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 79994.77221618028
+          chronology:
+            points: [
+              {
+                t: 79838.47098217954
+                value: 0
+                id: "no-id-Qwertify-Wrap-Focus-point-1"
+                handler: [
+                  100
+                  0.04374999925494194
+                  100
+                  0.04374999925494194
+                ]
+              }
+              {
+                t: 79994.77221618028
+                value: 1
+                id: "no-id-Qwertify-Wrap-Focus-point-0"
+                handler: [
+                  100
+                  2.5
+                  100
+                  2.5
+                ]
+              }
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 545
+    scrollTop: 0
     guides:
       _list: [
         19993.636315890868
@@ -2980,5 +2981,7 @@
         35000
         38614.25415826842
         60000
+        75173.88271356249
+        80000
       ]
 }
