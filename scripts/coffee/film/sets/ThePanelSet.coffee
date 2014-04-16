@@ -9,9 +9,6 @@ module.exports = class ThePanelSet extends Set
 
 		@id = 'the-panel'
 
-		# container = @_makeEl '.container'
-		# .inside @film.display.stageEl
-
 		container = @film.sets.photoshop.container
 
 		panelHtml = """
