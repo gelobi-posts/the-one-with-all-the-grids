@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 84117.89045511582
+    t: 87206.89809290755
     _focus:
-      from: 83864.53722076371
-      to: 85297.70699615199
+      from: 81219.24198453469
+      to: 94487.09144286673
 
     _lastPlayedTickAt: 0
 
@@ -1397,7 +1397,7 @@
       "no-id-Classify-Wrap Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 82722.36009527692
+          chronologyLength: 86774.76780203514
           chronology:
             points: [
               {
@@ -1422,10 +1422,38 @@
                   0.11375000327825546
                 ]
               }
+              {
+                t: 86117.0001089487
+                value: 0
+                id: "no-id-Classify-Griddify Direction-Set To-point-21"
+                handler: [
+                  100
+                  1.75
+                  213.96966552734375
+                  0.34255319833755493
+                ]
+              }
+              {
+                t: 86774.76780203514
+                value: 1
+                id: "no-id-Classify-Griddify Direction-Set To-point-24"
+                handler: [
+                  181.40689086914062
+                  -0.28093087673187256
+                  100
+                  0.11375000327825546
+                ]
+              }
             ]
             connectors: [
-              t: 82064.59240219048
-              id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              {
+                t: 82064.59240219048
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
+              {
+                t: 86117.0001089487
+                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
+              }
             ]
 
       "no-id-The Panel-Panel-Opacity":
@@ -3055,8 +3083,8 @@
 
       "no-id-Qwertify-Wrap-Focus":
         pacs:
-          _idCounter: 3
-          chronologyLength: 84459.09183176943
+          _idCounter: 4
+          chronologyLength: 86604.10138812552
           chronology:
             points: [
               {
@@ -3093,7 +3121,7 @@
                 ]
               }
               {
-                t: 84459.09183176943
+                t: 84348.06380282942
                 value: 1
                 id: "no-id-Qwertify-Wrap-Focus-point-3"
                 handler: [
@@ -3103,13 +3131,24 @@
                   0.09624999761581421
                 ]
               }
+              {
+                t: 86604.10138812552
+                value: 0
+                id: "no-id-Qwertify-Wrap-Focus-point-4"
+                handler: [
+                  100
+                  0.026249999180436134
+                  100
+                  0.026249999180436134
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwertify-Wrap-Type":
         pacs:
-          _idCounter: 6
-          chronologyLength: 85041.96518356384
+          _idCounter: 8
+          chronologyLength: 85425.74286400253
           chronology:
             points: [
               {
@@ -3135,7 +3174,7 @@
                 ]
               }
               {
-                t: 84540.49872447815
+                t: 84658.18055226892
                 value: 1
                 id: "no-id-Qwertify-Wrap-Type-point-2"
                 handler: [
@@ -3146,7 +3185,7 @@
                 ]
               }
               {
-                t: 84807.66227835772
+                t: 84925.34410614849
                 value: 0
                 id: "no-id-Qwertify-Wrap-Type-point-4"
                 handler: [
@@ -3157,20 +3196,37 @@
                 ]
               }
               {
-                t: 85041.96518356384
-                value: 4
-                id: "no-id-Qwertify-Wrap-Type-point-3"
+                t: 85086.32944559798
+                value: 2
+                id: "no-id-Qwertify-Wrap-Type-point-7"
                 handler: [
                   100
-                  0.11562500149011612
+                  0.13237275183200836
+                  77.51302337646484
+                  0.5018885731697083
+                ]
+              }
+              {
+                t: 85425.74286400253
+                value: 3
+                id: "no-id-Qwertify-Wrap-Type-point-3"
+                handler: [
+                  94.00347137451172
+                  -0.5618207454681396
                   100
                   0.11562500149011612
                 ]
               }
             ]
             connectors: [
-              t: 84540.49872447815
-              id: "no-id-Qwertify-Wrap-Type-connector-6"
+              {
+                t: 84658.18055226892
+                id: "no-id-Qwertify-Wrap-Type-connector-6"
+              }
+              {
+                t: 85086.32944559798
+                id: "no-id-Qwertify-Wrap-Type-connector-8"
+              }
             ]
 
       "no-id-Grids-Grids Wrap 0-Opacity":
@@ -3236,7 +3292,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 100
+    scrollTop: 243
     guides:
       _list: [
         19993.636315890868

@@ -115,3 +115,16 @@ module.exports = (set) ->
 	"""
 
 	set._setupDomEl 'Grids', 'Grids Wrap 0', grid9, ['opacity']
+
+	grid10 = set._makeEl '.photoshop-grids .wrap-2'
+	.inside grids4
+	.html """
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+	"""
+
+	set._setupDomEl 'Grids', 'Grids Wrap 10', grid10, ['opacity']
