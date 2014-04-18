@@ -13,24 +13,24 @@ module.exports = (set) ->
 	griddifyContainer = set._makeEl '#griddify-container'
 	.inside container
 
-	griddifyHundredVEr = set._makeEl '#hundred'
+	griddifyHundredVer = set._makeEl '#hundred-v'
 	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Griddify - 100', griddifyHundred, [
+	set._setupDomEl 'Grids', 'Griddify 100 v', griddifyHundredVer, [
+		'opacity'
+	]
+
+	griddifyHundredHor = set._makeEl '#hundred-h'
+	.inside griddifyContainer
+
+	set._setupDomEl 'Grids', 'Griddify 100 h', griddifyHundredHor, [
 		'opacity'
 	]
 
 	griddifyTwenty = set._makeEl '#twenty'
 	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Grids 2', griddifyTwenty, [
-		'opacity'
-	]
-
-	griddifyForty = set._makeEl '#forty'
-	.inside griddifyContainer
-
-	set._setupDomEl 'Grids', 'Grids 3', griddifyForty, [
+	set._setupDomEl 'Grids', 'Griddify 20', griddifyTwenty, [
 		'opacity'
 	]
 
