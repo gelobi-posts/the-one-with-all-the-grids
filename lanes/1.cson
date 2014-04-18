@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 70843.48590967934
+    t: 68726.22144691943
     _focus:
       from: 57968.68478330096
       to: 72191.46483305791
@@ -19,12 +19,7 @@
       }
       {
         name: "Photoshop"
-        propHolders: [
-          id: "no-id-Grids-Divide 4 h-Opacity"
-          _expanded: true
-          actorPropId: "no-id-Grids-Divide 4 h-Opacity"
-          _height: 171
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Photoshop"
