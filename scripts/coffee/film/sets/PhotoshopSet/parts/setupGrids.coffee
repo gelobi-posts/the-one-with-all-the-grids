@@ -107,10 +107,10 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Divide 3', divideRuleOgThird, ['opacity']
 
-	# grid9 = set._makeEl '.wrap-1'
-	# .inside grids4
+	wrapZero = set._makeEl '#zero'
+	.inside selection
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 0', grid9, ['opacity']
+	set._setupDomEl 'Grids', 'Wrap 0', wrapZero, ['opacity']
 
 	# grid10v = set._makeEl '.wrap-2 .v'
 	# .inside grids4
