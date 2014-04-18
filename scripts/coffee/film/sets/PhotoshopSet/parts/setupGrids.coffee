@@ -54,13 +54,6 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Divide 4 v', divideThreeVer, ['opacity']
 
-
-	# grids5v = set._makeEl '.five .v'
-	# .inside container
-	# .html grids5html
-
-	# set._setupDomEl 'Grids', 'Grids 5 Vertical', grids5v, ['opacity']
-
 	# grid6bg = set._makeEl '.divide-selection-grid'
 	# .inside grids4
 	# .html grids5html + grids5html
