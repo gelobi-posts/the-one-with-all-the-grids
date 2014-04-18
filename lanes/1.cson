@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 96322.43600682264
+    t: 109528.17678128378
     _focus:
-      from: 87454.2260086515
-      to: 101677.00605840863
+      from: 107678.14278128464
+      to: 121900.92283104177
 
     _lastPlayedTickAt: 0
 
@@ -19,20 +19,7 @@
       }
       {
         name: "Photoshop"
-        propHolders: [
-          {
-            id: "no-id-Grids-Divide 2-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Divide 2-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 10 h-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 10 h-Opacity"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -2194,7 +2181,7 @@
       "no-id-Grids-Selection-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 100895.30296232723
+          chronologyLength: 96567.12952861839
           chronology:
             points: [
               {
@@ -2307,28 +2294,6 @@
                   0.01353750005364418
                 ]
               }
-              {
-                t: 100576.18794290906
-                value: 1
-                id: "no-id-Grids-Selection-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 100895.30296232723
-                value: 0
-                id: "no-id-Grids-Selection-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
             ]
             connectors: [
               {
@@ -2341,10 +2306,6 @@
               }
               {
                 t: 96248.0145092002
-                id: "no-id-Grids-Selection-Opacity-connector-3"
-              }
-              {
-                t: 100576.18794290906
                 id: "no-id-Grids-Selection-Opacity-connector-3"
               }
             ]
