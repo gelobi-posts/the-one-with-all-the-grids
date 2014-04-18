@@ -42,23 +42,23 @@ module.exports = (set) ->
 	divideContainer = set._makeEl '#divide-container'
 	.inside container
 
-	divideThreeHor = set._makeEl '#three-h'
+	divideFourHor = set._makeEl '#four-h'
 	.inside divideContainer
 	.html """<div></div><div></div><div></div>"""
 
-	set._setupDomEl 'Grids', 'Divide 4 h', divideThreeHor, ['opacity']
+	set._setupDomEl 'Grids', 'Divide 4 h', divideFourHor, ['opacity']
 
-	divideThreeVer = set._makeEl '#three-v'
+	divideFourVer = set._makeEl '#four-v'
 	.inside divideContainer
 	.html """<div></div><div></div><div></div>"""
 
-	set._setupDomEl 'Grids', 'Divide 4 v', divideThreeVer, ['opacity']
+	set._setupDomEl 'Grids', 'Divide 4 v', divideFourVer, ['opacity']
 
-	# grid6bg = set._makeEl '.divide-selection-grid'
-	# .inside grids4
-	# .html grids5html + grids5html
+	divideFourSel = set._makeEl '#divide-four'
+	.inside selection
+	.html """<div></div><div></div><div></div><div></div><div></div><div></div>"""
 
-	# set._setupDomEl 'Grids', 'Grids Divide Selection', grid6bg, [ 'opacity' ]
+	set._setupDomEl 'Grids', 'Divide 4 -s', divideFourSel, [ 'opacity' ]
 
 	# grid7 = set._makeEl '.divide-half'
 	# .inside container

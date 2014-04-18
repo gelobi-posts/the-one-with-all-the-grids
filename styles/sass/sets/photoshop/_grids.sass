@@ -32,6 +32,32 @@
 
 			background: url('../../images/photoshop/grids/4.png')
 
+		> #divide-four
+
+			@include full-screen
+
+				> div:nth-child(1) > div
+
+					float: left
+
+					border-right: 1px solid #00ffcc
+
+					width: 25%
+					height: 100vw
+
+					margin-top: -20vh
+
+				> div:nth-child(2) > div
+
+					display: block
+
+					border-bottom: 1px solid #00ffcc
+
+					width: 100vw
+					height: 25%
+
+					margin-left: -7vw
+
 	> #griddify-container
 
 		> #hundred-v
@@ -54,7 +80,7 @@
 
 	> #divide-container
 
-		> #three-h
+		> #four-h
 
 			@include full-screen
 
@@ -65,7 +91,7 @@
 				width: 100%
 				height: 25vh
 
-		> #three-v
+		> #four-v
 
 			@include full-screen
 
@@ -122,32 +148,7 @@
 
 // 	> .divide-selection-grid
 
-// 		position: absolute
-
-// 		width: 100%
-// 		height: 100%
-
-// 		> div:nth-child(1) > div
-
-// 			float: left
-
-// 			border-right: 1px solid #00ffcc
-
-// 			width: 25%
-// 			height: 100vw
-
-// 			margin-top: -20vh
-
-// 		> div:nth-child(2) > div
-
-// 			display: block
-
-// 			border-bottom: 1px solid #00ffcc
-
-// 			width: 100vw
-// 			height: 25%
-
-// 			margin-left: -7vw
+//
 
 // 	> .wrap-1
 

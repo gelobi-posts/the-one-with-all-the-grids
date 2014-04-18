@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 72171.53444691928
+    t: 69455.6841455387
     _focus:
-      from: 57968.68478330096
-      to: 72191.46483305791
+      from: 67819.17179671727
+      to: 82041.9518464744
 
     _lastPlayedTickAt: 0
 
@@ -2949,7 +2949,7 @@
               }
             ]
 
-      "no-id-Grids-Grids Divide Selection-Opacity":
+      "no-id-Grids-Divide 4 -s-Opacity":
         pacs:
           _idCounter: 0
           chronologyLength: 72099.36839400808
@@ -2958,7 +2958,7 @@
               {
                 t: 68303.52963484965
                 value: 0
-                id: "no-id-Grids-Grids Divide Selection-Opacity-point-0"
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-0"
                 handler: [
                   100
                   0.11500000208616257
@@ -2969,7 +2969,7 @@
               {
                 t: 70463.7868722101
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -2980,7 +2980,7 @@
               {
                 t: 70782.90189162828
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -2991,7 +2991,7 @@
               {
                 t: 71780.2533745899
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3002,7 +3002,7 @@
               {
                 t: 72099.36839400808
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3014,11 +3014,11 @@
             connectors: [
               {
                 t: 70463.7868722101
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Divide 4 -s-Opacity-connector-2"
               }
               {
                 t: 71780.2533745899
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Divide 4 -s-Opacity-connector-3"
               }
             ]
 
