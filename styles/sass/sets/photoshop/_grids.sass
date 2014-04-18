@@ -1,3 +1,10 @@
+@mixin full-screen
+
+	width: 100%
+	height: 100%
+
+	position: absolute
+
 #grids
 
 	> #selection
@@ -29,44 +36,27 @@
 
 		> #hundred-v
 
-			position: absolute
-
-			width: 100%
-			height: 100%
+			@include full-screen
 
 			background: url('../../images/photoshop/grids/1.png')
 
 		> #hundred-h
 
-			position: absolute
-
-			width: 100%
-			height: 100%
+			@include full-screen
 
 			background: url('../../images/photoshop/grids/2.png')
 
 		> #twenty
 
-			position: absolute
-
-			width: 100%
-			height: 100%
+			@include full-screen
 
 			background: url('../../images/photoshop/grids/3.png')
 
 	> #divide-container
 
-		width: 100%
-		height: 100%
-
-		position: absolute
-
 		> #three-h
 
-			width: 100%
-			height: 100%
-
-			position: absolute
+			@include full-screen
 
 			> div
 
@@ -77,10 +67,7 @@
 
 		> #three-v
 
-			width: 100%
-			height: 100%
-
-			position: absolute
+			@include full-screen
 
 			> div
 
