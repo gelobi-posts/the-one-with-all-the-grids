@@ -39,19 +39,14 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Griddify 40 -s', griddifyForty, [ 'opacity' ]
 
-	# grids5html = """
+	divideContainer = set._makeEl '#divide-container'
+	.inside container
 
-	# 	<div>
-	# 	<div>
-	# 	<div>
+	divideThreeHor = set._makeEl '#three-h'
+	.inside divideContainer
+	.html """<div></div><div></div><div></div>"""
 
-	# """
-
-	# grids5h = set._makeEl '.five .h'
-	# .inside container
-	# .html grids5html
-
-	# set._setupDomEl 'Grids', 'Grids 5 Horizontal', grids5h, ['opacity']
+	set._setupDomEl 'Grids', 'Grids 5 Horizontal', divideThreeHor, ['opacity']
 
 
 	# grids5v = set._makeEl '.five .v'
