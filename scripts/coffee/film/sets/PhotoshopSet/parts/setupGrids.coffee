@@ -56,20 +56,33 @@ module.exports = (set) ->
 
 	divideFourSel = set._makeEl '#divide-four'
 	.inside selection
-	.html """<div></div><div></div><div></div><div></div><div></div><div></div>"""
+	.html """
+
+			<div class="h">
+
+				<div></div><div></div><div></div>
+
+			</div>
+			<div class="v">
+
+				<div></div><div></div><div></div>
+
+			</div>
+
+	"""
 
 	set._setupDomEl 'Grids', 'Divide 4 -s', divideFourSel, [ 'opacity' ]
 
-	# grid7 = set._makeEl '.divide-half'
-	# .inside container
-	# .html """
+	divideHalf = set._makeEl '#two'
+	.inside container
+	.html """
 
-	# 	<div class="v"></div>
-	# 	<div class="h"></div>
+		<div class="v"></div>
+		<div class="h"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Divide Half', grid7, ['opacity']
+	set._setupDomEl 'Grids', 'Divide 2', divideHalf, ['opacity']
 
 	# grid8 = set._makeEl '.divide-ruleofthird'
 	# .inside container

@@ -34,9 +34,11 @@
 
 		> #divide-four
 
-			@include full-screen
+			> .v
 
-				> div:nth-child(1) > div
+				@include full-screen
+
+				> div
 
 					float: left
 
@@ -47,9 +49,11 @@
 
 					margin-top: -20vh
 
-				> div:nth-child(2) > div
+			> .h
 
-					display: block
+				@include full-screen
+
+				> div
 
 					border-bottom: 1px solid #00ffcc
 
