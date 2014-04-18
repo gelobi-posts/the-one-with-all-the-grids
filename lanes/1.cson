@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 98385.48592448274
+    t: 96322.43600682264
     _focus:
-      from: 96106.713924478
-      to: 110329.49397423513
+      from: 87454.2260086515
+      to: 101677.00605840863
 
     _lastPlayedTickAt: 0
 
@@ -20,10 +20,18 @@
       {
         name: "Photoshop"
         propHolders: [
-          id: "no-id-Grids-Divide 2-Opacity"
-          _expanded: true
-          actorPropId: "no-id-Grids-Divide 2-Opacity"
-          _height: 80
+          {
+            id: "no-id-Grids-Divide 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Divide 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Wrap 10 h-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Wrap 10 h-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
@@ -3689,7 +3697,7 @@
               }
             ]
 
-      "no-id-Grids-Grids Wrap 50 Ver-Opacity":
+      "no-id-Grids-Wrap 50 v-Opacity":
         pacs:
           _idCounter: -1
           chronologyLength: 182279.0571599127
@@ -3698,7 +3706,7 @@
               {
                 t: 90587.23192634863
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3709,7 +3717,7 @@
               {
                 t: 90906.34694576681
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3720,7 +3728,7 @@
               {
                 t: 91372.7102141459
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3731,7 +3739,7 @@
               {
                 t: 91691.82523356409
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3742,7 +3750,7 @@
               {
                 t: 95451.38903168707
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3753,7 +3761,7 @@
               {
                 t: 95770.50405110525
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3764,7 +3772,7 @@
               {
                 t: 96236.86731948434
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3775,7 +3783,7 @@
               {
                 t: 96555.98233890253
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3786,7 +3794,7 @@
               {
                 t: 181174.46385269726
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3797,7 +3805,7 @@
               {
                 t: 181493.57887211544
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3808,7 +3816,7 @@
               {
                 t: 181959.94214049453
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3819,7 +3827,7 @@
               {
                 t: 182279.0571599127
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 v-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3831,31 +3839,31 @@
             connectors: [
               {
                 t: 90587.23192634863
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-2"
               }
               {
                 t: 91372.7102141459
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-3"
               }
               {
                 t: 95451.38903168707
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-2"
               }
               {
                 t: 96236.86731948434
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-3"
               }
               {
                 t: 181174.46385269726
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-2"
               }
               {
                 t: 181959.94214049453
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 v-Opacity-connector-3"
               }
             ]
 
-      "no-id-Grids-Grids Wrap 50 Hor-Opacity":
+      "no-id-Grids-Wrap 50 h-Opacity":
         pacs:
           _idCounter: -1
           chronologyLength: 192007.3713705896
@@ -3864,7 +3872,7 @@
               {
                 t: 93126.99808835152
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3875,7 +3883,7 @@
               {
                 t: 93446.1131077697
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3886,7 +3894,7 @@
               {
                 t: 93912.4763761488
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3897,7 +3905,7 @@
               {
                 t: 94231.59139556698
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3908,7 +3916,7 @@
               {
                 t: 95450.00055119384
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3919,7 +3927,7 @@
               {
                 t: 95769.11557061202
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3930,7 +3938,7 @@
               {
                 t: 96235.47883899111
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3941,7 +3949,7 @@
               {
                 t: 96554.5938584093
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3952,7 +3960,7 @@
               {
                 t: 190902.77806337413
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3963,7 +3971,7 @@
               {
                 t: 191221.89308279232
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3974,7 +3982,7 @@
               {
                 t: 191688.2563511714
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3985,7 +3993,7 @@
               {
                 t: 192007.3713705896
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Wrap 50 h-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3997,27 +4005,27 @@
             connectors: [
               {
                 t: 93126.99808835152
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-2"
               }
               {
                 t: 93912.4763761488
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-3"
               }
               {
                 t: 95450.00055119384
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-2"
               }
               {
                 t: 96235.47883899111
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-3"
               }
               {
                 t: 190902.77806337413
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-2"
               }
               {
                 t: 191688.2563511714
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Wrap 50 h-Opacity-connector-3"
               }
             ]
 

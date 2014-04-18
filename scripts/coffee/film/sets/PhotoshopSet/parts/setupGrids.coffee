@@ -123,7 +123,7 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Wrap 10 v', wrap10Ver, ['opacity']
 
-	wrap10Hor = set._makeEl '#wrap-ten-v'
+	wrap10Hor = set._makeEl '#wrap-ten-h'
 	.inside selection
 	.html """
 
@@ -134,25 +134,25 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Wrap 10 h', wrap10Hor, ['opacity']
 
-	# grid11v = set._makeEl '.wrap-3 .v'
-	# .inside grids4
-	# .html """
+	wrap50Ver = set._makeEl '#wrap-fifty-v'
+	.inside selection
+	.html """
 
-	# 	<div class="l"></div>
-	# 	<div class="r"></div>
+		<div class="l"></div>
+		<div class="r"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 50 Ver', grid11v, ['opacity']
+	set._setupDomEl 'Grids', 'Wrap 50 v', wrap50Ver, ['opacity']
 
-	# grid11h = set._makeEl '.wrap-3 .h'
-	# .inside grids4
-	# .html """
+	wrap50Hor = set._makeEl '#wrap-fifty-h'
+	.inside selection
+	.html """
 
-	# 	<div class="t"></div>
-	# 	<div class="b"></div>
+		<div class="t"></div>
+		<div class="b"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 50 Hor', grid11h, ['opacity']
+	set._setupDomEl 'Grids', 'Wrap 50 h', wrap50Hor, ['opacity']
 
