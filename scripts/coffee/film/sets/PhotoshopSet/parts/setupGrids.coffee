@@ -46,7 +46,7 @@ module.exports = (set) ->
 	.inside divideContainer
 	.html """<div></div><div></div><div></div>"""
 
-	set._setupDomEl 'Grids', 'Divide 3 h', divideThreeHor, ['opacity']
+	set._setupDomEl 'Grids', 'Divide 3 h', div ideThreeHor, ['opacity']
 
 
 	# grids5v = set._makeEl '.five .v'

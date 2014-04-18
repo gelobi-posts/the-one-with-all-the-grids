@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 59668.80147644498
+    t: 59225.823814895586
     _focus:
       from: 57968.68478330096
-      to: 71236.53424163311
+      to: 72191.46483305791
 
     _lastPlayedTickAt: 0
 
@@ -23,7 +23,7 @@
           id: "no-id-Grids-Divide 3 h-Opacity"
           _expanded: true
           actorPropId: "no-id-Grids-Divide 3 h-Opacity"
-          _height: 80
+          _height: 171
         ]
       }
     ]
