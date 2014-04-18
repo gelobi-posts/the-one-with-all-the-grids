@@ -123,16 +123,16 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Wrap 10 v', wrap10Ver, ['opacity']
 
-	# grid10h = set._makeEl '.wrap-2 .h'
-	# .inside grids4
-	# .html """
+	wrap10Hor = set._makeEl '#wrap-ten-v'
+	.inside selection
+	.html """
 
-	# 	<div class="t"></div>
-	# 	<div class="b"></div>
+		<div class="t"></div>
+		<div class="b"></div>
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Wrap 10 Hor', grid10h, ['opacity']
+	set._setupDomEl 'Grids', 'Wrap 10 h', wrap10Hor, ['opacity']
 
 	# grid11v = set._makeEl '.wrap-3 .v'
 	# .inside grids4
