@@ -34,10 +34,10 @@ module.exports = (set) ->
 		'opacity'
 	]
 
-	# grid4bg = set._makeEl '.grid-bg'
-	# .inside grids4
+	griddifyForty = set._makeEl '#griddify-forty'
+	.inside selection
 
-	# set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
+	set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
 
 	# grids5html = """
 
