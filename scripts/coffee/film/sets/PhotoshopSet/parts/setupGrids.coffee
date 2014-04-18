@@ -6,7 +6,7 @@ module.exports = (set) ->
 	selection = set._makeEl '#selection'
 	.inside container
 
-	set._setupDomEl 'Grids', 'Grids 4', selection, [
+	set._setupDomEl 'Grids', 'Selection', selection, [
 		'opacity', 'scale'
 	]
 
@@ -16,14 +16,14 @@ module.exports = (set) ->
 	griddifyHundred = set._makeEl '#hundred'
 	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Grids 1', griddifyHundred, [
+	set._setupDomEl 'Grids', 'Griddify - 100', griddifyHundred, [
 		'opacity'
 	]
 
 	griddifyTwenty = set._makeEl '#twenty'
 	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Grids 2', griddifyTwenty, [
+	set._setupDomEl 'Grids', 'Gridify - 20', griddifyTwenty, [
 		'opacity'
 	]
 
