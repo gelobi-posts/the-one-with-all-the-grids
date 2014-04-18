@@ -4,6 +4,7 @@ module.exports = (set) ->
 	.inside set.container
 
 	griddifyContainer = set._makeEl '#griddify-container'
+	.inside container
 
 	griddifyHundred = set._makeEl '#hundred'
 	.inside griddifyContainer
