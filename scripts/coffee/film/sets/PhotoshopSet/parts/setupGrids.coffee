@@ -3,24 +3,26 @@ module.exports = (set) ->
 	container = set._makeEl '#grids'
 	.inside set.container
 
-	grids1 = set._makeEl '.one'
-	.inside container
+	griddifyContainer = set._makeEl '#griddify-container'
 
-	set._setupDomEl 'Grids', 'Grids 1', grids1, [
+	griddifyHundred = set._makeEl '#hundred'
+	.inside griddifyContainer
+
+	set._setupDomEl 'Grids', 'Grids 1', griddifyHundred, [
 		'opacity'
 	]
 
-	grids2 = set._makeEl '.two'
-	.inside container
+	griddifyTwenty = set._makeEl '#twenty'
+	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Grids 2', grids2, [
+	set._setupDomEl 'Grids', 'Grids 2', griddifyTwenty, [
 		'opacity'
 	]
 
-	grids3 = set._makeEl '.three'
-	.inside container
+	griddifyForty = set._makeEl '#forty'
+	.inside griddifyContainer
 
-	set._setupDomEl 'Grids', 'Grids 3', grids3, [
+	set._setupDomEl 'Grids', 'Grids 3', griddifyForty, [
 		'opacity'
 	]
 
