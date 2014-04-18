@@ -37,7 +37,7 @@ module.exports = (set) ->
 	griddifyForty = set._makeEl '#griddify-forty'
 	.inside selection
 
-	set._setupDomEl 'Grids', 'Grids 4 BG', grid4bg, [ 'opacity' ]
+	set._setupDomEl 'Grids', 'Griddify 40 -s', griddifyForty, [ 'opacity' ]
 
 	# grids5html = """
 
