@@ -1,0 +1,261 @@
+.photoshop-grids
+
+	position: absolute
+
+	width: 100%
+	height: 100%
+
+	&.one
+
+		background: url('../../images/photoshop/grids/1.png')
+
+	&.two
+
+		background: url('../../images/photoshop/grids/2.png')
+
+	&.three
+
+		background: url('../../images/photoshop/grids/3.png')
+
+	&.four
+
+		width: 50vh
+		height: 50vh
+
+		top: 20vh
+		left: 7vw
+
+		border: 1px dashed #000
+
+		-webkit-transform-origin: left top
+
+		ul
+
+			list-style: none
+
+		> .grid-bg
+
+			position: absolute
+
+			width: 100vw
+			height: 100%
+
+			left: -7vw
+
+			background: url('../../images/photoshop/grids/4.png')
+
+		> .divide-selection-grid
+
+			position: absolute
+
+			width: 100%
+			height: 100%
+
+			> ul:nth-child(1) > li
+
+				float: left
+
+				border-right: 1px solid #00ffcc
+
+				width: 25%
+				height: 100vw
+
+				margin-top: -20vh
+
+			> ul:nth-child(2) > li
+
+				display: block
+
+				border-bottom: 1px solid #00ffcc
+
+				width: 100vw
+				height: 25%
+
+				margin-left: -7vw
+
+		> .wrap-1
+
+			position: absolute
+
+			width: 100%
+			height: 100vh
+
+			top: -20vh
+
+			border-left: 1px solid #00ffcc
+			border-right: 1px solid #00ffcc
+
+		> .wrap-2
+
+			position: absolute
+
+			width: 100%
+			height: 100%
+
+			&.h
+
+				position: absolute
+
+				width: 100%
+				height: 100%
+
+				> div
+
+					position: absolute
+
+					width: 100vw
+					height: 10px
+
+					left: -7vw
+
+					&.t
+
+						border-bottom: 1px solid #00ffcc
+
+					&.b
+
+						bottom: 0
+
+						border-top: 1px solid #00ffcc
+
+			&.v
+
+				position: absolute
+
+				width: 100%
+				height: 100%
+
+				> div
+
+					position: absolute
+
+					width: 10px
+					height: 100vh
+
+					top: -20vh
+
+					&.l
+
+						border-right: 1px solid #00ffcc
+
+					&.r
+
+						right: 0
+
+						border-left: 1px solid #00ffcc
+
+		> .wrap-3
+
+			position: absolute
+
+			width: 100%
+			height: 100%
+
+			&.h
+
+				position: absolute
+
+				width: 100%
+				height: 100%
+
+				> div
+
+					position: absolute
+
+					width: 100vw
+					height: 50px
+
+					left: -7vw
+
+					&.t
+
+						border-bottom: 1px solid #00ffcc
+
+					&.b
+
+						bottom: 0
+
+						border-top: 1px solid #00ffcc
+
+			&.v
+
+				position: absolute
+
+				width: 100%
+				height: 100%
+
+				> div
+
+					position: absolute
+
+					width: 50px
+					height: 100vh
+
+					top: -20vh
+
+					&.l
+
+						border-right: 1px solid #00ffcc
+
+					&.r
+
+						right: 0
+
+						border-left: 1px solid #00ffcc
+
+
+	&.five
+
+		&.v > div
+
+			float: left
+
+			border-right: 1px solid #00ffcc
+
+			width: 25vw
+			height: 100%
+
+		&.h > div
+
+			border-bottom: 1px solid #00ffcc
+
+			width: 100%
+			height: 25vh
+
+	&.divide-half
+
+		> div:nth-child(1)
+
+			position: absolute
+
+			width: 50vw
+			height: 100%
+
+			border-right: 1px solid #00ffcc
+
+		> div:nth-child(2)
+
+			position: absolute
+
+			width: 100%
+			height: 50vh
+
+			border-bottom: 1px solid #00ffcc
+
+	&.divide-ruleofthird
+
+		> .v > div
+
+			float: left
+
+			width: 33.3vw
+			height: 100%
+
+			border-right: 1px solid #00ffcc
+
+		> .h > div
+
+			width: 100%
+			height: 33.3vh
+
+			border-bottom: 1px solid #00ffcc
