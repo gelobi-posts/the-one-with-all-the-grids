@@ -1,28 +1,31 @@
 module.exports = (set) ->
 
+	container = set._makeEl '.grids'
+	.inside container
+
 	grids1 = set._makeEl '.photoshop-grids .one'
-	.inside set.container
+	.inside container
 
 	set._setupDomEl 'Grids', 'Grids 1', grids1, [
 		'opacity'
 	]
 
 	grids2 = set._makeEl '.photoshop-grids .two'
-	.inside set.container
+	.inside container
 
 	set._setupDomEl 'Grids', 'Grids 2', grids2, [
 		'opacity'
 	]
 
 	grids3 = set._makeEl '.photoshop-grids .three'
-	.inside set.container
+	.inside container
 
 	set._setupDomEl 'Grids', 'Grids 3', grids3, [
 		'opacity'
 	]
 
 	grids4 = set._makeEl '.photoshop-grids .four'
-	.inside set.container
+	.inside container
 
 	set._setupDomEl 'Grids', 'Grids 4', grids4, [
 		'opacity', 'scale'
@@ -42,14 +45,14 @@ module.exports = (set) ->
 	"""
 
 	grids5h = set._makeEl '.photoshop-grids .five .h'
-	.inside set.container
+	.inside container
 	.html grids5html
 
 	set._setupDomEl 'Grids', 'Grids 5 Horizontal', grids5h, ['opacity']
 
 
 	grids5v = set._makeEl '.photoshop-grids .five .v'
-	.inside set.container
+	.inside container
 	.html grids5html
 
 	set._setupDomEl 'Grids', 'Grids 5 Vertical', grids5v, ['opacity']
@@ -61,7 +64,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Grids Divide Selection', grid6bg, [ 'opacity' ]
 
 	grid7 = set._makeEl '.photoshop-grids .divide-half'
-	.inside set.container
+	.inside container
 	.html """
 
 		<div class="v"></div>
@@ -72,7 +75,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Grids Divide Half', grid7, ['opacity']
 
 	grid8 = set._makeEl '.photoshop-grids .divide-ruleofthird'
-	.inside set.container
+	.inside container
 	.html """
 
 		<div class="v">
