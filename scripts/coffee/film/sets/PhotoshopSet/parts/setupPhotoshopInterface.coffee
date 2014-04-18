@@ -1,6 +1,6 @@
 module.exports = (set) ->
 
-	container = set._makeEl '.interface'
+	container = set._makeEl '#interface'
 	.inside set.container
 
 	bg = set._makeEl '#photoshop-bg'
