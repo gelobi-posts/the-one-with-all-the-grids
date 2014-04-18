@@ -56,7 +56,7 @@ module.exports = (set) ->
 
 	grid6bg = set._makeEl '.divide-selection-grid'
 	.inside grids4
-	.html grids5htmlV+grids5htmlH
+	.html grids5html + grids5html
 
 	set._setupDomEl 'Grids', 'Grids Divide Selection', grid6bg, [ 'opacity' ]
 
@@ -64,8 +64,8 @@ module.exports = (set) ->
 	.inside set.container
 	.html """
 
-		<div></div>
-		<div></div>
+		<div class="v"></div>
+		<div class="h"></div>
 
 	"""
 
@@ -75,18 +75,20 @@ module.exports = (set) ->
 	.inside set.container
 	.html """
 
-		<ul>
+		<div class="v">
 
-			<li></li>
-			<li></li>
+			<div></div>
+			<div></div>
 
-		</ul>
-		<ul>
+		</div>
 
-			<li></li>
-			<li></li>
+		<div class="h">
 
-		</ul>
+			<div></div>
+			<div></div>
+
+		</div>
+
 
 	"""
 
