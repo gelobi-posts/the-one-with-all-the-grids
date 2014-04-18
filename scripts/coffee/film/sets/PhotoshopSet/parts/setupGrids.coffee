@@ -74,7 +74,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Divide 4 -s', divideFourSel, [ 'opacity' ]
 
 	divideHalf = set._makeEl '#two'
-	.inside container
+	.inside divideContainer
 	.html """
 
 		<div class="v"></div>
@@ -84,28 +84,28 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Divide 2', divideHalf, ['opacity']
 
-	# grid8 = set._makeEl '.divide-ruleofthird'
-	# .inside container
-	# .html """
+	divideRuleOgThird = set._makeEl '#three'
+	.inside divideContainer
+	.html """
 
-	# 	<div class="v">
+		<div class="v">
 
-	# 		<div></div>
-	# 		<div></div>
+			<div></div>
+			<div></div>
 
-	# 	</div>
+		</div>
 
-	# 	<div class="h">
+		<div class="h">
 
-	# 		<div></div>
-	# 		<div></div>
+			<div></div>
+			<div></div>
 
-	# 	</div>
+		</div>
 
 
-	# """
+	"""
 
-	# set._setupDomEl 'Grids', 'Grids Divide Rule of Third', grid8, ['opacity']
+	set._setupDomEl 'Grids', 'Divide 3', divideRuleOgThird, ['opacity']
 
 	# grid9 = set._makeEl '.wrap-1'
 	# .inside grids4

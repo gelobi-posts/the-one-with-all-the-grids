@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 68804.69765633342
+    t: 81927.9656809241
     _focus:
       from: 67819.17179671727
       to: 82041.9518464744
@@ -19,7 +19,12 @@
       }
       {
         name: "Photoshop"
-        propHolders: []
+        propHolders: [
+          id: "no-id-Grids-Divide 2-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Grids-Divide 2-Opacity"
+          _height: 80
+        ]
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -3031,7 +3036,7 @@
               {
                 t: 72547.5044850535
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 2-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3042,7 +3047,7 @@
               {
                 t: 72866.61950447169
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 2-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3053,7 +3058,7 @@
               {
                 t: 73404.83611255614
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 2-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3064,7 +3069,7 @@
               {
                 t: 73723.95113197432
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 2-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3076,15 +3081,15 @@
             connectors: [
               {
                 t: 72547.5044850535
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Divide 2-Opacity-connector-2"
               }
               {
                 t: 73404.83611255614
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Divide 2-Opacity-connector-3"
               }
             ]
 
-      "no-id-Grids-Grids Divide Rule of Third-Opacity":
+      "no-id-Grids-Divide 3-Opacity":
         pacs:
           _idCounter: 0
           chronologyLength: 75165.61089826524
@@ -3093,7 +3098,7 @@
               {
                 t: 73989.16425134442
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 3-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3104,7 +3109,7 @@
               {
                 t: 74308.2792707626
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 3-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3115,7 +3120,7 @@
               {
                 t: 74846.49587884705
                 value: 1
-                id: "no-id-Grids-Grids 1-Opacity-point-0"
+                id: "no-id-Grids-Divide 3-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
@@ -3126,7 +3131,7 @@
               {
                 t: 75165.61089826524
                 value: 0
-                id: "no-id-Grids-Grids 1-Opacity-point-1"
+                id: "no-id-Grids-Divide 3-Opacity-point-1"
                 handler: [
                   155.356689453125
                   0
@@ -3138,11 +3143,11 @@
             connectors: [
               {
                 t: 73989.16425134442
-                id: "no-id-Grids-Grids 1-Opacity-connector-2"
+                id: "no-id-Grids-Divide 3-Opacity-connector-2"
               }
               {
                 t: 74846.49587884705
-                id: "no-id-Grids-Grids 1-Opacity-connector-3"
+                id: "no-id-Grids-Divide 3-Opacity-connector-3"
               }
             ]
 
