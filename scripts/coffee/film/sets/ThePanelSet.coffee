@@ -7,23 +7,22 @@ module.exports = class ThePanelSet extends Set
 
 		super
 
-		container = @_makeEl '.container'
-		.inside @film.display.stageEl
-
 		@id = 'the-panel'
+
+		container = @film.sets.photoshop.container
 
 		panelHtml = """
 		<div style="width: 246px">
 
-		<section>
+		<section class="griddify-section">
 
 			<div>
 
-				<input type="text" name="spacing" placeholder="Spacing" class="big">
+				<input id="griddify-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
-				<div data-type="rotator" data-options="right, down, left, up" data-name="direction" class="direction"></div>
+				<div id="griddify-direction" data-type="rotator" data-options="right, down, left, up" data-name="direction" class="direction"></div>
 
-				<button style="width: 54px" class="noMargin">Griddify</button>
+				<button id="griddify-button" style="width: 54px" class="noMargin">Griddify</button>
 
 			</div>
 
@@ -31,15 +30,15 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section>
+		<section class="divide-section">
 
 			<div>
 
-				<input type="text" name="divisions" placeholder="Divisions" class="big">
+				<input id="divide-input" type="text" name="divisions" placeholder="Divisions" class="big">
 
-				<div data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
+				<div id="divide-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
-				<button style="width: 54px" class="noMargin">Divide</button>
+				<button id="divide-button" style="width: 54px" class="noMargin">Divide</button>
 
 			</div>
 
@@ -48,15 +47,15 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section>
+		<section class="wrap-section">
 
 			<div>
 
-				<input type="text" name="spacing" placeholder="Spacing" class="big">
+				<input id="wrap-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
-				<div data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
+				<div id="wrap-orientation" data-type="rotator" data-options="vertical, horizontal, both" data-name="orientation" class="orientation"></div>
 
-				<button style="width: 54px" class="noMargin">Wrap</button>
+				<button id="wrap-button" style="width: 54px" class="noMargin">Wrap</button>
 
 			</div>
 
@@ -73,6 +72,18 @@ module.exports = class ThePanelSet extends Set
 		@panelBody = @_makeEl '.body'
 		.html panelHtml
 
+		@_setupDomEl 'The Panel', 'Panel', @thePanel, ['opacity']
+
+		@griddifySection = @_makeEl @panelBody.node.querySelector '.griddify-section'
+		@divideSection = @_makeEl @panelBody.node.querySelector '.divide-section'
+		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
+
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity']
+
 		Rotator.applyTo @panelBody.node
 
 		@panelBody.inside @thePanel
+
+

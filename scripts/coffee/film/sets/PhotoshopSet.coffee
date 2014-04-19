@@ -1,6 +1,8 @@
 Set = require('tiny-filmmaking-studio').Set
+setupGrids = require './PhotoshopSet/parts/setupGrids'
+setupPhotoshopInterface = require './PhotoshopSet/parts/setupPhotoshopInterface'
 
-module.exports = class IntroSet extends Set
+module.exports = class PhotoshopSet extends Set
 
 	constructor: ->
 
@@ -8,29 +10,12 @@ module.exports = class IntroSet extends Set
 
 		@id = 'photoshop'
 
-		container = @_makeEl '#photoshop-container'
+		@container = @_makeEl '#photoshop-container'
 		.inside @film.display.stageEl
 
-		bg = @_makeEl '#photoshop-bg'
-		.inside container
+		setupPhotoshopInterface @
 
-		@_setupDomEl 'Photoshop', 'BG', bg, [
-			'translation', 'scale', 'opacity', 'rotation'
-		]
+		setupGrids @
 
-		tools = @_makeEl '#photoshop-tools'
-		.inside container
-		.perspective 1000
-
-		@_setupDomEl 'Photoshop', 'Tools', tools, [
-			'translation', 'scale', 'opacity', 'rotation'
-		]
-
-		layers = @_makeEl '#photoshop-layers'
-		.inside container
-
-		@_setupDomEl 'Photoshop', 'Layers', layers, [
-			'translation', 'scale', 'opacity'
-		]
 
 
