@@ -4,8 +4,6 @@ module.exports = class ScrollbarAgnosticContainer
 
 	constructor: (node, @vertical = yes, @horizontal = no) ->
 
-		console.log node
-
 		@scrollbarLength = self.getScrolbarLength()
 
 		@el = El node
@@ -25,7 +23,6 @@ module.exports = class ScrollbarAgnosticContainer
 			@el.height window.innerHeight - @scrollbarLength
 
 		return
-
 
 	@_scrollbarLength: null
 
