@@ -10,8 +10,8 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
-		@container = @_makeEl '#photoshop-container'
-		.inside @film.display.stageEl
+		@container = @film.display.makeSetContainer()
+		.set 'id', 'photoshop-container'
 
 		setupPhotoshopInterface @
 

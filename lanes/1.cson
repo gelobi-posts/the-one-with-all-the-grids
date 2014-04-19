@@ -1,15 +1,13 @@
 {
   mainBox:
-    height: 193
-    _isVisible: false
+    height: 263
+    _isVisible: true
 
   timeControl:
-
-    t: 98544.58195876291
-
+    t: 106086.38366287971
     _focus:
-      from: 89012.49295876252
-      to: 103235.27300851967
+      from: 102200.38366288111
+      to: 116423.16371263824
 
     _lastPlayedTickAt: 0
 
@@ -21,7 +19,38 @@
       }
       {
         name: "Photoshop"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Photoshop-Window-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Window-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Window Highlight-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Layers-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Layers-Rotation X"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Layers-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Layers-Rotation Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Tools-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Photoshop"
@@ -316,7 +345,7 @@
               }
               {
                 t: 20815.261941963778
-                value: -1
+                value: 0
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
                   355.98590087890625
@@ -366,7 +395,7 @@
               }
               {
                 t: 20815.26194196378
-                value: 1
+                value: 0
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
                   355.98590087890625
@@ -3993,7 +4022,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 206
     guides:
       _list: [
         19993.636315890868
