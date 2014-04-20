@@ -9,6 +9,10 @@ module.exports = class ThePanelSet extends Set
 
 		@id = 'the-panel'
 
+		@film.loader
+		.loadImage '../images/thePanel/bg.png', 2276
+		.loadImage '../images/thePanel/direction.png', 1030
+
 		container = @film.sets.photoshop.container
 
 		panelHtml = """
@@ -85,5 +89,3 @@ module.exports = class ThePanelSet extends Set
 		Rotator.applyTo @panelBody.node
 
 		@panelBody.inside @thePanel
-
-
