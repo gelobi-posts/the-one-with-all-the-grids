@@ -5,6 +5,8 @@
   "description": "(work in progress)",
   "dependencies": {
     "tiny-filmmaking-studio": "*",
-    "stupid-dom-interface": "*"
+    "stupid-dom-interface": "*",
+    "moosh": "*",
+    "kilid": "*"
   }
 }

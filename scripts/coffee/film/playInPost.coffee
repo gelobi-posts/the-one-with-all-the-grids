@@ -1,4 +1,5 @@
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
+SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
 FinishedFilm = require 'tiny-filmmaking-studio/scripts/js/lib/FinishedFilm'
 setupLane1 = require './lanes/1'
 laneData = require "../../../lanes/1.json"
@@ -12,6 +13,8 @@ film = new FinishedFilm
 display = new ResponsiveRestorableDisplay document.body, document.getElementById 'filmSpace'
 
 film.display = display
+
+player = new SimplePlayer film
 
 setupLane1 film
 
