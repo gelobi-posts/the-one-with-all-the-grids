@@ -7,6 +7,8 @@ node_modules
 pg
 scripts/dist
 
+lanes/*.json
+
 -p
 
 npm-debug.log
