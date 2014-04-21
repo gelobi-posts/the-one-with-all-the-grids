@@ -6,7 +6,7 @@
   "dependencies": {
     "tiny-filmmaking-studio": "*",
     "stupid-dom-interface": "*",
-    "moosh": "*",
+    "moosh": "~0.1.0-beta.15",
     "kilid": "*"
   }
 }
