@@ -26,11 +26,3 @@ player = new SimplePlayer film
 setupLane1 film
 
 film.run()
-
-# setTimeout =>
-
-# 	do display.fullscreen
-
-# 	player.timeControl.play()
-
-# , 1000
