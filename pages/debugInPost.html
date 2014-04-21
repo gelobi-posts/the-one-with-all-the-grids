@@ -14,6 +14,17 @@
 				return typeof value === 'number' && window.isFinite(value);
 			}
 		}
+
+		if (typeof window.performance === 'undefined') {
+			(function(){
+				var startTime = Date.now();
+
+				var now = function(){
+					return Date.now()	 - startTime;
+				};
+				window.performance = {"now": now};
+			})();
+		}
 	</script>
 
 	<script src="http://192.168.1.2:6853/target/target-script-min.js#anonymous"></script>
