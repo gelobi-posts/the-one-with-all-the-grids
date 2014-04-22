@@ -47,7 +47,7 @@ module.exports = (set) ->
 	.perspective 1000
 
 	set._setupDomEl 'Photoshop', 'Tools', tools, [
-		'translation', 'scale', 'opacity', 'rotation'
+		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
 	layers = set._makeEl '#photoshop-layers'
@@ -55,5 +55,5 @@ module.exports = (set) ->
 	.perspective 1000
 
 	set._setupDomEl 'Photoshop', 'Layers', layers, [
-		'translation', 'scale', 'opacity', 'rotation'
+		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
