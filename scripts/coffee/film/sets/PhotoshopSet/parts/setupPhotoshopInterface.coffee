@@ -7,7 +7,7 @@ module.exports = (set) ->
 	.inside container
 
 	set._setupDomEl 'Photoshop', 'BG', bg, [
-		'translation', 'scale', 'opacity', 'rotation'
+		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
 	menubar = set._makeEl '#photoshop-menu-bar'
