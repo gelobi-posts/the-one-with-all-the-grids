@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 197
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 22468.52482070468
+    t: 17849.087208525667
     _focus:
-      from: 18546.580405730474
-      to: 24589.112145245705
+      from: 16331.226364867538
+      to: 22373.75810438276
 
     _lastPlayedTickAt: 0
 
@@ -24,7 +24,7 @@
             id: "no-id-Photoshop-Layers-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Layers-Opacity"
-            _height: 110
+            _height: 177
           }
           {
             id: "no-id-Photoshop-Layers-X"
@@ -4138,7 +4138,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: -462
+    scrollTop: -596
     guides:
       _list: [
         19993.636315890868
