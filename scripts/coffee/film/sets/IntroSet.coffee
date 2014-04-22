@@ -24,6 +24,14 @@ module.exports = class IntroSet extends Set
 			'opacity', 'translation'
 		]
 
-		for letter in 'gelobi'
+		for letter, i in 'gelobi'
 
-			console.log letter
+			el = @_makeEl '#intro-gelobiContainer-' + letter + '.letter'
+			.html letter
+			.inside gelobiContainer
+
+			@_setupDomEl 'Intro', 'Gelobi Letter ' + letter, el, [
+				'opacity', 'translation'
+			]
+
+		return
