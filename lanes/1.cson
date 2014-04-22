@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 23277.680408538803
+    t: 23243.152615418432
     _focus:
-      from: 16145.543599826395
-      to: 27412.93933461336
+      from: 13785.977882641737
+      to: 40906.322319594634
 
     _lastPlayedTickAt: 0
 
@@ -30,13 +30,13 @@
             id: "no-id-Photoshop-Tools-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Tools-Opacity"
-            _height: 80
+            _height: 74
           }
           {
             id: "no-id-Photoshop-BG-Scale"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Scale"
-            _height: 80
+            _height: 159
           }
           {
             id: "no-id-Photoshop-BG-Opacity"
@@ -3994,8 +3994,8 @@
                 handler: [
                   100
                   0.10999999940395355
-                  201.08309936523438
-                  -0.09143437445163727
+                  146.35968017578125
+                  -0.40719905495643616
                 ]
               }
               {
@@ -4016,7 +4016,7 @@
             ]
 
   timelineEditor:
-    scrollTop: -261
+    scrollTop: -144
     guides:
       _list: [
         19993.636315890868
