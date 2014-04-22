@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 517
+    height: 359
     _isVisible: true
 
   timeControl:
-    t: 21361.174844687368
+    t: 19600.66555216401
     _focus:
-      from: 19153.838708610256
-      to: 22060.821130485256
+      from: 19117.327565751777
+      to: 22024.309987626777
 
     _lastPlayedTickAt: 0
 
@@ -24,24 +24,12 @@
             id: "no-id-Photoshop-Layers-Rotation Y"
             _expanded: true
             actorPropId: "no-id-Photoshop-Layers-Rotation Y"
-            _height: 107
+            _height: 73
           }
           {
-            id: "no-id-Photoshop-Tools-Rotation Y"
+            id: "no-id-Photoshop-Layers-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-BG-Z"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-BG-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Opacity"
+            actorPropId: "no-id-Photoshop-Layers-Opacity"
             _height: 80
           }
           {
@@ -51,9 +39,9 @@
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Layers-Opacity"
+            id: "no-id-Photoshop-Tools-Rotation Y"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Opacity"
+            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
             _height: 80
           }
         ]
@@ -4046,7 +4034,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: -370
+    scrollTop: -308
     guides:
       _list: [
         19993.636315890868
