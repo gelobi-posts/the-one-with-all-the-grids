@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 20174.412082797233
+    t: 21361.174844687368
     _focus:
       from: 19153.838708610256
       to: 22060.821130485256
@@ -335,11 +335,11 @@
       "no-id-Photoshop-Tools-Rotation Y":
         pacs:
           _idCounter: 3
-          chronologyLength: 20828.413006995386
+          chronologyLength: 20809.28812264094
           chronology:
             points: [
               {
-                t: 20432.619429734405
+                t: 20413.49454537996
                 value: -50
                 id: "no-id-Photoshop-Tools-Rotation Y-point-1"
                 handler: [
@@ -350,7 +350,7 @@
                 ]
               }
               {
-                t: 20828.413006995386
+                t: 20809.28812264094
                 value: 0
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
@@ -362,7 +362,7 @@
               }
             ]
             connectors: [
-              t: 20432.619429734405
+              t: 20413.49454537996
               id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
             ]
 
