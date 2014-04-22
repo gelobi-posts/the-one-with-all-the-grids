@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 514
-    _isVisible: false
+    height: 517
+    _isVisible: true
 
   timeControl:
-    t: 21257.612048052084
+    t: 20174.412082797233
     _focus:
-      from: 9331.572795803575
-      to: 23554.352845560716
+      from: 19153.838708610256
+      to: 22060.821130485256
 
     _lastPlayedTickAt: 0
 
@@ -21,28 +21,10 @@
         name: "Photoshop"
         propHolders: [
           {
-            id: "no-id-Photoshop-Window-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Window Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Layers-Rotation X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Rotation X"
-            _height: 80
-          }
-          {
             id: "no-id-Photoshop-Layers-Rotation Y"
             _expanded: true
             actorPropId: "no-id-Photoshop-Layers-Rotation Y"
-            _height: 80
+            _height: 107
           }
           {
             id: "no-id-Photoshop-Tools-Rotation Y"
@@ -60,6 +42,18 @@
             id: "no-id-Photoshop-BG-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Tools-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Layers-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Layers-Opacity"
             _height: 80
           }
         ]
@@ -341,22 +335,22 @@
       "no-id-Photoshop-Tools-Rotation Y":
         pacs:
           _idCounter: 3
-          chronologyLength: 20815.261941963778
+          chronologyLength: 20828.413006995386
           chronology:
             points: [
               {
-                t: 20419.468364702796
+                t: 20432.619429734405
                 value: -50
                 id: "no-id-Photoshop-Tools-Rotation Y-point-1"
                 handler: [
-                  100
-                  1
+                  80.8751220703125
+                  9.2631254196167
                   226.02381896972656
                   0
                 ]
               }
               {
-                t: 20815.261941963778
+                t: 20828.413006995386
                 value: 0
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
@@ -368,7 +362,7 @@
               }
             ]
             connectors: [
-              t: 20419.468364702796
+              t: 20432.619429734405
               id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
             ]
 
@@ -391,11 +385,11 @@
       "no-id-Photoshop-Layers-Rotation Y":
         pacs:
           _idCounter: -1
-          chronologyLength: 20815.26194196378
+          chronologyLength: 20808.91475893327
           chronology:
             points: [
               {
-                t: 20419.4683647028
+                t: 20413.12118167229
                 value: 30
                 id: "no-id-Photoshop-Tools-Rotation Y-point-1"
                 handler: [
@@ -406,7 +400,7 @@
                 ]
               }
               {
-                t: 20815.26194196378
+                t: 20808.91475893327
                 value: 0
                 id: "no-id-Photoshop-Tools-Rotation Y-point-2"
                 handler: [
@@ -418,7 +412,7 @@
               }
             ]
             connectors: [
-              t: 20419.4683647028
+              t: 20413.12118167229
               id: "no-id-Photoshop-Tools-Rotation Y-connector-3"
             ]
 
@@ -4052,7 +4046,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 191
+    scrollTop: -370
     guides:
       _list: [
         19993.636315890868
