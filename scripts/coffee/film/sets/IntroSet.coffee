@@ -17,6 +17,14 @@ module.exports = class IntroSet extends Set
 			'opacity', 'translation', 'wysihwyg'
 		]
 
+		griddify = @_makeEl '#intro-griddify'
+		.html 'Griddify'
+		.inside @container
+
+		@_setupDomEl 'Intro', "Griddify", griddify, [
+			'opacity', 'translation', 'wysihwyg'
+		]
+
 		gelobiContainer = @_makeEl '#intro-gelobiContainer'
 		.inside @container
 
