@@ -72,6 +72,30 @@
 	-moz-box-sizing: $stuff
 	box-sizing: $stuff
 
+@mixin box-shadow($stuff)
+
+	-webkit-box-shadow: $stuff
+	-moz-box-shadow: $stuff
+	box-shadow: $stuff
+
+@mixin border-radius($stuff)
+
+	-webkit-border-radius: $stuff
+	-moz-border-radius: $stuff
+	border-radius: $stuff
+
+@mixin gradient($from, $to)
+
+	background: $from
+	background: -moz-linear-gradient(top,  $from 0%, $to 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to))
+	background: -webkit-linear-gradient(top,  $from 0%,$to 100%)
+	background: -o-linear-gradient(top,  $from 0%,$to 100%)
+	background: -ms-linear-gradient(top,  $from 0%,$to 100%)
+	background: linear-gradient(to bottom,  $from 0%,$to 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=0 )
+
+
 @mixin psuedo
 
 	display: block
