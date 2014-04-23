@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 23610.62644820231
+    t: 112593.68752258999
     _focus:
-      from: 18346.84936962459
-      to: 24389.381109139813
+      from: 0
+      to: 112593.68752258999
 
     _lastPlayedTickAt: 0
 
@@ -93,8 +93,12 @@
           }
         ]
       }
+      {
+        name: "The Panel"
+        propHolders: []
+      }
     ]
-    _activeWorkspaceName: "Intro"
+    _activeWorkspaceName: "The Panel"
 
   timeline:
     _allProps:
@@ -4353,7 +4357,7 @@
             ]
 
   timelineEditor:
-    scrollTop: -488
+    scrollTop: 0
     guides:
       _list: [
         1062.5025905606908
