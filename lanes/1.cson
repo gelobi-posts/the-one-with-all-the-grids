@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 964.9258220398111
+    t: 1087.8002712883265
     _focus:
       from: 0
       to: 6042.5317395152215
@@ -62,10 +62,33 @@
             actorPropId: "no-id-Photoshop-Layers-Z"
             _height: 80
           }
+          {
+            id: "no-id-Intro-Gelobi Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Container-Opacity"
+            _height: 80
+          }
+        ]
+      }
+      {
+        name: "Intro"
+        propHolders: [
+          {
+            id: "no-id-Intro-I'm-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-I'm-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Container-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
-    _activeWorkspaceName: "Photoshop"
+    _activeWorkspaceName: "Intro"
 
   timeline:
     _allProps:
@@ -4136,6 +4159,58 @@
               ]
             ]
             connectors: []
+
+      "no-id-Intro-I'm-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 928.786278143189
+          chronology:
+            points: [
+              t: 928.786278143189
+              value: 0
+              id: "no-id-Intro-I'm-Opacity-point-0"
+              handler: [
+                100
+                0.06499999761581421
+                100
+                0.06499999761581421
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Container-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 1344.3910329543435
+          chronology:
+            points: [
+              {
+                t: 1069.7304993400153
+                value: 0
+                id: "no-id-Intro-Gelobi Container-Opacity-point-0"
+                handler: [
+                  100
+                  0.07249999791383743
+                  100
+                  0.07249999791383743
+                ]
+              }
+              {
+                t: 1344.3910329543435
+                value: 1
+                id: "no-id-Intro-Gelobi Container-Opacity-point-1"
+                handler: [
+                  100
+                  0.001449999981559813
+                  100
+                  0.001449999981559813
+                ]
+              }
+            ]
+            connectors: [
+              t: 1069.7304993400153
+              id: "no-id-Intro-Gelobi Container-Opacity-connector-2"
+            ]
 
   timelineEditor:
     scrollTop: -596
