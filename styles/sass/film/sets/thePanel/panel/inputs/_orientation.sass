@@ -8,9 +8,9 @@
 
 		position: absolute
 
-		-webkit-transition: all 0.21s
+		@include transition(all 0.21s)
 
-		-webkit-box-sizing: border-box
+		@include box-sizing(border-box)
 
 		opacity: 0.67
 
@@ -32,7 +32,7 @@
 
 		position: absolute
 
-		-webkit-transition: all 0.21s
+		@include transition(all 0.21s)
 
 		opacity: 0
 
@@ -74,19 +74,19 @@
 
 			opacity: 1
 
-			-webkit-transform: translateX(0)
+			@include transform(translateX(0))
 
 		> .n3
 
 			opacity: 0
 
-			-webkit-transform: translateY(10px)
+			@include transform(translateY(10px))
 
 		> .n4
 
 			opacity: 0
 
-			-webkit-transform: translateY(-10px)
+			@include transform(translateY(-10px))
 
 	&.horizontal
 
@@ -94,19 +94,19 @@
 
 			opacity: 1
 
-			-webkit-transform: translateY(0)
+			@include transform(translateY(0))
 
 		> .n1
 
 			opacity: 0
 
-			-webkit-transform: translateX(10px)
+			@include transform(translateX(10px))
 
 		> .n2
 
 			opacity: 0
 
-			-webkit-transform: translateX(-10px)
+			@include transform(translateX(-10px))
 
 	&.both
 
@@ -114,4 +114,4 @@
 
 			opacity: 1
 
-			-webkit-transform: translateX(0px)
+			@include transform(translateX(0px))
