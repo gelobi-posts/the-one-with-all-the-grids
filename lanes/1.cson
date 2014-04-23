@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 98003.92173388167
+    t: 112204.44383367401
     _focus:
-      from: 87700.02813275771
-      to: 104361.6433175539
+      from: 85348.4326089795
+      to: 161844.60086739383
 
     _lastPlayedTickAt: 0
 
@@ -118,6 +118,24 @@
             id: "no-id-Grids-Wrap 10 v-Opacity"
             _expanded: true
             actorPropId: "no-id-Grids-Wrap 10 v-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Divide 4 v-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Divide 4 v-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Divide 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Divide 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Divide 3-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Divide 3-Opacity"
             _height: 80
           }
         ]
@@ -2834,7 +2852,7 @@
       "no-id-Grids-Divide 4 v-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 134619.09116208926
+          chronologyLength: 68254.581378551
           chronology:
             points: [
               {
@@ -2936,28 +2954,6 @@
                   0.01353750005364418
                 ]
               }
-              {
-                t: 134299.97614267108
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 134619.09116208926
-                value: 1
-                id: "no-id-Grids-Divide 4 v-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
             ]
             connectors: [
               {
@@ -2975,10 +2971,6 @@
               {
                 t: 67935.46635913281
                 id: "no-id-Grids-Divide 4 v-Opacity-connector-3"
-              }
-              {
-                t: 134299.97614267108
-                id: "no-id-Grids-Divide 4 v-Opacity-connector-2"
               }
             ]
 
@@ -4278,7 +4270,7 @@
             ]
 
   timelineEditor:
-    scrollTop: -348
+    scrollTop: 0
     guides:
       _list: [
         1062.5025905606908
@@ -4294,5 +4286,6 @@
         60000
         75173.88271356249
         80000
+        100156.37919794625
       ]
 }
