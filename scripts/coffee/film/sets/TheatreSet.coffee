@@ -15,6 +15,8 @@ module.exports = class TheatreSet extends Set
 
 		do @_prepareFakeTheatre
 
+		do @_prepareTheBall
+
 	_prepareBrowserMockup: ->
 
 		@_browserMockup = @_makeEl '#theatre-browserMockup'
@@ -38,3 +40,8 @@ module.exports = class TheatreSet extends Set
 
 		@fakeTheatre = @_makeEl '#theatre-fakeTheatre'
 		.inside @browserViewport
+
+	_prepareTheBall: ->
+
+		@theBall = @_makeEl '#theatre-theBall'
+		.inside @container
