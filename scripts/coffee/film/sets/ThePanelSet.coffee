@@ -7,7 +7,7 @@ module.exports = class ThePanelSet extends Set
 
 		super
 
-		@id = 'the-panel'
+		@id = 'thePanel'
 
 		@film.loader
 		.loadImage '../images/thePanel/bg.png', 2276

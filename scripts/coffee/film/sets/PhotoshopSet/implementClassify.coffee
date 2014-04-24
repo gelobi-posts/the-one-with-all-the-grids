@@ -2,25 +2,27 @@ Classify = require './tools/Classify'
 
 module.exports = (film) ->
 
+	film.sets.thePanel.thePanel
+
 	gridDir = new Classify film, 'Classify', 'Griddify Direction'
-	gridDir.addElement document.getElementById 'griddify-direction'
+	gridDir.addElement thePanelEl.querySelector '#griddify-direction'
 	gridDir.addClasses ['right', 'down', 'left', 'up']
 
 	divOri = new Classify film, 'Classify', 'Divide Orientation'
-	divOri.addElement document.getElementById 'divide-orientation'
+	divOri.addElement thePanelEl.querySelector '#divide-orientation'
 	divOri.addClasses ['vertical', 'horizontal', 'both']
 
 	wraOri = new Classify film, 'Classify', 'Wrap Orientation'
-	wraOri.addElement document.getElementById 'wrap-orientation'
+	wraOri.addElement thePanelEl.querySelector '#wrap-orientation'
 	wraOri.addClasses ['vertical', 'horizontal', 'both']
 
 	gridBtn = new Classify film, 'Classify', 'Griddify Button'
-	gridBtn.addElement document.getElementById 'griddify-button'
+	gridBtn.addElement thePanelEl.querySelector '#griddify-button'
 
 	divBtn = new Classify film, 'Classify', 'Divide Button'
-	divBtn.addElement document.getElementById 'divide-button'
+	divBtn.addElement thePanelEl.querySelector '#divide-button'
 
 	wraBtn = new Classify film, 'Classify', 'Wrap Button'
-	wraBtn.addElement document.getElementById 'wrap-button'
+	wraBtn.addElement thePanelEl.querySelector '#wrap-button'
 
 
