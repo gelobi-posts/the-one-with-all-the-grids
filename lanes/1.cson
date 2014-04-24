@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 161
+    height: 807
     _isVisible: true
 
   timeControl:
-    t: 4640.260577874595
+    t: 4243.900483185252
     _focus:
       from: 2350.6720979372703
       to: 6584.41791383685
@@ -4376,8 +4376,8 @@
                 handler: [
                   100
                   9.178082466125488
-                  950.2071533203125
-                  0
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
@@ -4614,22 +4614,22 @@
       "no-id-Intro-Gelobi Letter e-X":
         pacs:
           _idCounter: 5
-          chronologyLength: 5282.446538326121
+          chronologyLength: 5290.115122339504
           chronology:
             points: [
               {
-                t: 3990.444354420376
+                t: 3998.112938433759
                 value: 50
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
                   9.178082466125488
-                  950.2071533203125
-                  0
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
-                t: 5282.446538326121
+                t: 5290.115122339504
                 value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
@@ -4641,29 +4641,29 @@
               }
             ]
             connectors: [
-              t: 3990.444354420376
+              t: 3998.112938433759
               id: "no-id-Intro-Gelobi Letter g-X-connector-14"
             ]
 
       "no-id-Intro-Gelobi Letter l-X":
         pacs:
           _idCounter: 7
-          chronologyLength: 5335.589791245362
+          chronologyLength: 5338.829770848809
           chronology:
             points: [
               {
-                t: 4043.5876073396175
+                t: 4046.8275869430645
                 value: 50
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
                   9.178082466125488
-                  950.2071533203125
-                  0
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
-                t: 5335.589791245362
+                t: 5338.829770848809
                 value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
@@ -4675,29 +4675,29 @@
               }
             ]
             connectors: [
-              t: 4043.5876073396175
+              t: 4046.8275869430645
               id: "no-id-Intro-Gelobi Letter g-X-connector-14"
             ]
 
       "no-id-Intro-Gelobi Letter o-X":
         pacs:
           _idCounter: 11
-          chronologyLength: 5398.615930382955
+          chronologyLength: 5403.044534792893
           chronology:
             points: [
               {
-                t: 4106.613746477211
+                t: 4111.042350887148
                 value: 50
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
-                  0
-                  -27.80821990966797
-                  950.2071533203125
-                  0
+                  100
+                  9.178082466125488
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
-                t: 5398.615930382955
+                t: 5403.044534792893
                 value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
@@ -4709,29 +4709,51 @@
               }
             ]
             connectors: [
-              t: 4106.613746477211
+              t: 4111.042350887148
               id: "no-id-Intro-Gelobi Letter g-X-connector-14"
             ]
 
       "no-id-Intro-Gelobi Letter b-X":
         pacs:
           _idCounter: 2
-          chronologyLength: 5476.11650755685
+          chronologyLength: 9591.587462853935
           chronology:
             points: [
               {
-                t: 4184.114323651105
+                t: 4188.5429280610415
                 value: 50
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
                   9.178082466125488
-                  950.2071533203125
-                  0
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
-                t: 5476.11650755685
+                t: 5480.545111966786
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-X-point-5"
+                handler: [
+                  776.7412109375
+                  0
+                  100
+                  2.016763687133789
+                ]
+              }
+              {
+                t: 8299.58527894819
+                value: 50
+                id: "no-id-Intro-Gelobi Letter g-X-point-4"
+                handler: [
+                  100
+                  9.178082466125488
+                  383.3457946777344
+                  0.5404391288757324
+                ]
+              }
+              {
+                t: 9591.587462853935
                 value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
@@ -4743,8 +4765,14 @@
               }
             ]
             connectors: [
-              t: 4184.114323651105
-              id: "no-id-Intro-Gelobi Letter g-X-connector-14"
+              {
+                t: 4188.5429280610415
+                id: "no-id-Intro-Gelobi Letter g-X-connector-14"
+              }
+              {
+                t: 8299.58527894819
+                id: "no-id-Intro-Gelobi Letter g-X-connector-14"
+              }
             ]
 
       "no-id-Intro-Gelobi Letter i-X":
@@ -4752,37 +4780,11 @@
           _idCounter: 2
           chronologyLength: 5533.688364886027
           chronology:
-            points: [
-              {
-                t: 4241.686180980282
-                value: 50
-                id: "no-id-Intro-Gelobi Letter g-X-point-4"
-                handler: [
-                  100
-                  9.178082466125488
-                  950.2071533203125
-                  0
-                ]
-              }
-              {
-                t: 5533.688364886027
-                value: 0
-                id: "no-id-Intro-Gelobi Letter g-X-point-5"
-                handler: [
-                  776.7412109375
-                  0
-                  100
-                  2.016763687133789
-                ]
-              }
-            ]
-            connectors: [
-              t: 4241.686180980282
-              id: "no-id-Intro-Gelobi Letter g-X-connector-14"
-            ]
+            points: []
+            connectors: []
 
   timelineEditor:
-    scrollTop: 76
+    scrollTop: 935
     guides:
       _list: [
         1062.5025905606908
