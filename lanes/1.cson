@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 11805.859001196173
+    t: 123153.45133753799
     _focus:
-      from: 0
-      to: 85451.93181818182
+      from: 81654.06818181805
+      to: 167106
 
     _lastPlayedTickAt: 0
 
@@ -77,13 +77,13 @@
             id: "no-id-Intro-I'm-Opacity"
             _expanded: true
             actorPropId: "no-id-Intro-I'm-Opacity"
-            _height: 84
+            _height: 86
           }
           {
             id: "no-id-Intro-Gelobi Container-Opacity"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Container-Opacity"
-            _height: 80
+            _height: 79
           }
           {
             id: "no-id-Intro-Griddify-Opacity"
@@ -4270,7 +4270,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 34
     guides:
       _list: [
         1062.5025905606908
@@ -4288,5 +4288,6 @@
         80000
         100156.37919794625
         111404.26949216562
+        119998
       ]
 }
