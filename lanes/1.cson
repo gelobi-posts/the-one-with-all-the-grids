@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 3321.9949570465424
+    t: 11805.859001196173
     _focus:
       from: 0
       to: 85451.93181818182
@@ -141,7 +141,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "The Panel"
+    _activeWorkspaceName: "Intro"
 
   timeline:
     _allProps:
