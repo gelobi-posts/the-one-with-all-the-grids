@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 121377.82366182952
+    t: 122223.97185177372
     _focus:
-      from: 120267.13139625629
-      to: 122720.33809115515
+      from: 119246.11984812355
+      to: 127212.46952828848
 
     _lastPlayedTickAt: 0
 
@@ -147,7 +147,7 @@
             id: "no-id-Theatre-The Ball-Y"
             _expanded: true
             actorPropId: "no-id-Theatre-The Ball-Y"
-            _height: 339
+            _height: 180
           }
           {
             id: "no-id-Theatre-The Ball-Scale Y"
@@ -4331,7 +4331,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: -284
+    scrollTop: -236
     guides:
       _list: [
         1062.5025905606908
