@@ -8,7 +8,7 @@ module.exports = class IntroSet extends Set
 
 		@id = 'intro'
 
-		@container = @film.display.makeSetContainer()
+		@container = @makeSetContainer([100, 30000])
 		.set 'id', 'intro-container'
 
 		im = @_makeEl '#intro-im'
