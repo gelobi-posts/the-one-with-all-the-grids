@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 384
+    height: 429
     _isVisible: true
 
   timeControl:
-    t: 122553.49648391512
+    t: 122394.4761336164
     _focus:
-      from: 120757.11828384204
-      to: 124419.04781092139
+      from: 121481.85976745187
+      to: 123935.06646235073
 
     _lastPlayedTickAt: 0
 
@@ -4288,12 +4288,12 @@
 
       "no-id-Theatre-The Ball-Y":
         pacs:
-          _idCounter: 29
+          _idCounter: 45
           chronologyLength: 123872.51389444848
           chronology:
             points: [
               {
-                t: 120955.8239044149
+                t: 121108.41570840383
                 value: -300
                 id: "no-id-Theatre-The Ball-Y-point-0"
                 handler: [
@@ -4310,19 +4310,8 @@
                 handler: [
                   103.83451843261719
                   -137.07667541503906
-                  57.075225830078125
-                  -74.0114517211914
-                ]
-              }
-              {
-                t: 122138.1374651121
-                value: -193.35664335664327
-                id: "no-id-Theatre-The Ball-Y-point-5"
-                handler: [
-                  174.65672302246094
-                  -2.0066890716552734
-                  154.10496520996094
-                  0
+                  255.151123046875
+                  -263.6435546875
                 ]
               }
               {
@@ -4330,21 +4319,10 @@
                 value: 0
                 id: "no-id-Theatre-The Ball-Y-point-10"
                 handler: [
-                  23.27509307861328
-                  -42.63302230834961
-                  28.373830795288086
-                  -56.223777770996094
-                ]
-              }
-              {
-                t: 122675.33370428708
-                value: -146.85314685314685
-                id: "no-id-Theatre-The Ball-Y-point-13"
-                handler: [
-                  120.46461486816406
-                  0
-                  192.0907745361328
-                  0
+                  174.39967346191406
+                  -260.3587646484375
+                  166.29335021972656
+                  -121.44116973876953
                 ]
               }
               {
@@ -4352,43 +4330,21 @@
                 value: 0
                 id: "no-id-Theatre-The Ball-Y-point-15"
                 handler: [
-                  18.141521453857422
-                  -32.30769348144531
-                  69.30307006835938
-                  -70.06993103027344
+                  128.18368530273438
+                  -129.63211059570312
+                  75.17198181152344
+                  -64.04986572265625
                 ]
               }
               {
-                t: 123135.78762357993
-                value: -109.0909090909091
-                id: "no-id-Theatre-The Ball-Y-point-18"
-                handler: [
-                  100
-                  0
-                  130.69692993164062
-                  0
-                ]
-              }
-              {
-                t: 123294.38841800303
+                t: 123221.02697377758
                 value: -16.7832167832168
                 id: "no-id-Theatre-The Ball-Y-point-19"
                 handler: [
-                  74.41921997070312
-                  -45.7342643737793
+                  50.94356155395508
+                  -42.7242317199707
                   59.07075881958008
                   -39.44055938720703
-                ]
-              }
-              {
-                t: 123493.91844969659
-                value: -81.81818181818181
-                id: "no-id-Theatre-The Ball-Y-point-20"
-                handler: [
-                  100
-                  0
-                  71.52806091308594
-                  0
                 ]
               }
               {
@@ -4427,40 +4383,20 @@
             ]
             connectors: [
               {
-                t: 120955.8239044149
-                id: "no-id-Theatre-The Ball-Y-connector-7"
+                t: 121108.41570840383
+                id: "no-id-Theatre-The Ball-Y-connector-36"
               }
               {
                 t: 121691.25581054023
-                id: "no-id-Theatre-The Ball-Y-connector-9"
-              }
-              {
-                t: 122138.1374651121
-                id: "no-id-Theatre-The Ball-Y-connector-12"
+                id: "no-id-Theatre-The Ball-Y-connector-43"
               }
               {
                 t: 122399.06135271137
-                id: "no-id-Theatre-The Ball-Y-connector-14"
-              }
-              {
-                t: 122675.33370428708
-                id: "no-id-Theatre-The Ball-Y-connector-17"
+                id: "no-id-Theatre-The Ball-Y-connector-44"
               }
               {
                 t: 122890.21219995708
-                id: "no-id-Theatre-The Ball-Y-connector-24"
-              }
-              {
-                t: 123135.78762357993
-                id: "no-id-Theatre-The Ball-Y-connector-25"
-              }
-              {
-                t: 123294.38841800303
-                id: "no-id-Theatre-The Ball-Y-connector-26"
-              }
-              {
-                t: 123493.91844969659
-                id: "no-id-Theatre-The Ball-Y-connector-27"
+                id: "no-id-Theatre-The Ball-Y-connector-45"
               }
               {
                 t: 123575.77692423754
@@ -4490,8 +4426,16 @@
             ]
             connectors: []
 
+      "no-id-Theatre-The Ball-Scale Y":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 0
+          chronology:
+            points: []
+            connectors: []
+
   timelineEditor:
-    scrollTop: 3
+    scrollTop: -254
     guides:
       _list: [
         1062.5025905606908
