@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 8065.880330990842
+    t: 2520.7775300101093
     _focus:
-      from: 3702.882365943081
-      to: 9701.237447698742
+      from: 1968.6276898485037
+      to: 7966.982771604132
 
     _lastPlayedTickAt: 0
 
@@ -83,7 +83,7 @@
             id: "no-id-Intro-I'm-X"
             _expanded: true
             actorPropId: "no-id-Intro-I'm-X"
-            _height: 80
+            _height: 222
           }
         ]
       }
@@ -4079,50 +4079,50 @@
 
       "no-id-Intro-I'm-Opacity":
         pacs:
-          _idCounter: 6
-          chronologyLength: 7711.934722545535
+          _idCounter: 8
+          chronologyLength: 8524.473407783356
           chronology:
             points: [
               {
-                t: 7119.49014763456
+                t: 7260.664822675881
                 value: 0
                 id: "no-id-Intro-I'm-Opacity-point-0"
                 handler: [
                   100
                   0.06499999761581421
-                  100
+                  143.92100524902344
                   0.06499999761581421
                 ]
               }
               {
-                t: 7401.378590028215
+                t: 7646.081360099836
                 value: 1
                 id: "no-id-Intro-I'm-Opacity-point-1"
                 handler: [
-                  100
+                  153.33265686035156
                   0.003087499877437949
                   100
                   0.003087499877437949
                 ]
               }
               {
-                t: 7469.799778438166
+                t: 8235.280238662215
                 value: 1
                 id: "no-id-Intro-I'm-Opacity-point-4"
                 handler: [
                   100
                   0.03191642090678215
-                  100
-                  0.03191642090678215
+                  150.19544982910156
+                  -0.02038297988474369
                 ]
               }
               {
-                t: 7711.934722545535
+                t: 8524.473407783356
                 value: 0
                 id: "no-id-Intro-I'm-Opacity-point-5"
                 handler: [
-                  100
-                  -0.014071587473154068
+                  140.78379821777344
+                  0.012078112922608852
                   100
                   -0.014071587473154068
                 ]
@@ -4130,12 +4130,12 @@
             ]
             connectors: [
               {
-                t: 7119.49014763456
-                id: "no-id-Intro-I'm-Opacity-connector-2"
+                t: 7260.664822675881
+                id: "no-id-Intro-I'm-Opacity-connector-7"
               }
               {
-                t: 7469.799778438166
-                id: "no-id-Intro-I'm-Opacity-connector-6"
+                t: 8235.280238662215
+                id: "no-id-Intro-I'm-Opacity-connector-8"
               }
             ]
 
@@ -4717,11 +4717,37 @@
 
       "no-id-Intro-I'm-X":
         pacs:
-          _idCounter: 4
-          chronologyLength: 7727.929212121174
+          _idCounter: 21
+          chronologyLength: 8676.147720610023
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 7097.348996936608
+                value: 25
+                id: "no-id-Intro-I'm-X-point-5"
+                handler: [
+                  100
+                  0.5
+                  234.9002227783203
+                  -20.637372970581055
+                ]
+              }
+              {
+                t: 8676.147720610023
+                value: -25
+                id: "no-id-Intro-I'm-X-point-19"
+                handler: [
+                  316.46783447265625
+                  4.392885208129883
+                  263.1351623535156
+                  -6.761510848999023
+                ]
+              }
+            ]
+            connectors: [
+              t: 7097.348996936608
+              id: "no-id-Intro-I'm-X-connector-21"
+            ]
 
   timelineEditor:
     scrollTop: 0
