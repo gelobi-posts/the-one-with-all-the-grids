@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 116764.99949706387
+    t: 121687.91585513687
     _focus:
-      from: 81654.06818181805
-      to: 167106
+      from: 118193.58222317006
+      to: 126747.79281269936
 
     _lastPlayedTickAt: 0
 
@@ -4288,24 +4288,75 @@
 
       "no-id-Theatre-The Ball-Y":
         pacs:
-          _idCounter: 0
-          chronologyLength: 120955.8239044149
+          _idCounter: 9
+          chronologyLength: 122138.1374651121
           chronology:
             points: [
-              t: 120955.8239044149
-              value: -300
-              id: "no-id-Theatre-The Ball-Y-point-0"
+              {
+                t: 120955.8239044149
+                value: -300
+                id: "no-id-Theatre-The Ball-Y-point-0"
+                handler: [
+                  1531.01318359375
+                  98.9510498046875
+                  401.5729064941406
+                  27.28951644897461
+                ]
+              }
+              {
+                t: 121691.25581054023
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-1"
+                handler: [
+                  27.092195510864258
+                  -160.15359497070312
+                  92.8883056640625
+                  -139.04641723632812
+                ]
+              }
+              {
+                t: 122138.1374651121
+                value: -250
+                id: "no-id-Theatre-The Ball-Y-point-5"
+                handler: [
+                  330.2269592285156
+                  -15.734265327453613
+                  100
+                  -22.027971267700195
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 120955.8239044149
+                id: "no-id-Theatre-The Ball-Y-connector-7"
+              }
+              {
+                t: 121691.25581054023
+                id: "no-id-Theatre-The Ball-Y-connector-9"
+              }
+            ]
+
+      "no-id-Theatre-The Ball-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 117484.56258475558
+          chronology:
+            points: [
+              t: 117484.56258475558
+              value: 1
+              id: "no-id-Theatre-The Ball-Z-point-0"
               handler: [
                 100
-                4.545454502105713
+                -1.75
                 100
-                4.545454502105713
+                -1.75
               ]
             ]
             connectors: []
 
   timelineEditor:
-    scrollTop: 18
+    scrollTop: 8
     guides:
       _list: [
         1062.5025905606908
@@ -4324,5 +4375,6 @@
         100156.37919794625
         111404.26949216562
         119998
+        120983.58804514166
       ]
 }
