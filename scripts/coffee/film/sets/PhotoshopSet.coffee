@@ -10,7 +10,7 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
-		@container = @film.display.makeSetContainer [10000, 30000]
+		@container = @makeSetContainer [10000, 30000]
 		.set 'id', 'photoshop-container'
 
 		setupPhotoshopInterface @
