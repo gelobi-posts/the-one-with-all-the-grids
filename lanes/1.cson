@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 280
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 1073.516731384194
+    t: 17586.013363636226
     _focus:
       from: 0
       to: 85451.93181818182
@@ -77,7 +77,7 @@
             id: "no-id-Intro-I'm-Opacity"
             _expanded: true
             actorPropId: "no-id-Intro-I'm-Opacity"
-            _height: 84
+            _height: 83
           }
           {
             id: "no-id-Intro-Gelobi Container-Opacity"
