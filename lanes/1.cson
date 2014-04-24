@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 122223.97185177372
+    t: 121795.16116324809
     _focus:
       from: 119246.11984812355
       to: 127212.46952828848
@@ -4288,19 +4288,32 @@
 
       "no-id-Theatre-The Ball-Y":
         pacs:
-          _idCounter: 62
-          chronologyLength: 121108.41570840383
+          _idCounter: 63
+          chronologyLength: 122762.36749403366
           chronology:
             points: [
-              t: 121108.41570840383
-              value: -300
-              id: "no-id-Theatre-The Ball-Y-point-0"
-              handler: [
-                1531.01318359375
-                98.9510498046875
-                218.39901733398438
-                -5.59476375579834
-              ]
+              {
+                t: 121108.41570840383
+                value: -300
+                id: "no-id-Theatre-The Ball-Y-point-0"
+                handler: [
+                  1531.01318359375
+                  98.9510498046875
+                  218.39901733398438
+                  -5.59476375579834
+                ]
+              }
+              {
+                t: 122762.36749403366
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-63"
+                handler: [
+                  100
+                  -24.585430145263672
+                  100
+                  -24.585430145263672
+                ]
+              }
             ]
             connectors: []
 
@@ -4324,10 +4337,20 @@
 
       "no-id-Theatre-The Ball-Scale Y":
         pacs:
-          _idCounter: -1
-          chronologyLength: 0
+          _idCounter: 0
+          chronologyLength: 121252.00095778231
           chronology:
-            points: []
+            points: [
+              t: 121252.00095778231
+              value: 1
+              id: "no-id-Theatre-The Ball-Scale Y-point-0"
+              handler: [
+                100
+                0.8888888955116272
+                100
+                0.8888888955116272
+              ]
+            ]
             connectors: []
 
   timelineEditor:
@@ -4351,5 +4374,6 @@
         111404.26949216562
         119998
         120983.58804514166
+        122771.89662044535
       ]
 }
