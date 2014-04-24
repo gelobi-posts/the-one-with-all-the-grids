@@ -30,11 +30,38 @@
 
 		background: #f1f1f1
 
+	&:before
+
+		@include psuedo
+
+		position: absolute
+		width: 256px
+		height: 25px
+		top: 7px
+		left: 110px
+		background: #f1f1f1
+
+		border-radius: 5px 5px 0 0
+
 .theatre-browserMockup-head-winButton
 
 	width: 15px
 	height: 15px
 	border-radius: 50%
+	position: absolute
+	top: 11px
 
 	&.n1
 
+		left: 22px
+		background: #fb5e56
+
+	&.n2
+
+		left: 49px
+		background: #ffc54e
+
+	&.n3
+
+		left: 76px
+		background: #8bc811
