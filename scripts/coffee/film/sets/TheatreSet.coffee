@@ -45,3 +45,7 @@ module.exports = class TheatreSet extends Set
 
 		@theBall = @_makeEl '#theatre-theBall'
 		.inside @container
+
+		@_setupDomEl 'Theatre', "The Ball", @theBall, [
+			'translation', 'scale'
+		]

@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 280
-    _isVisible: false
+    height: 384
+    _isVisible: true
 
   timeControl:
-    t: 124293.71900826464
+    t: 116764.99949706387
     _focus:
-      from: 67053.19051761644
-      to: 152505.1223357984
+      from: 81654.06818181805
+      to: 167106
 
     _lastPlayedTickAt: 0
 
@@ -140,8 +140,25 @@
           }
         ]
       }
+      {
+        name: "The Ball"
+        propHolders: [
+          {
+            id: "no-id-Theatre-The Ball-Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-The Ball-Y"
+            _height: 183
+          }
+          {
+            id: "no-id-Theatre-The Ball-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-The Ball-Scale Y"
+            _height: 175
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Intro"
+    _activeWorkspaceName: "The Ball"
 
   timeline:
     _allProps:
@@ -4269,8 +4286,26 @@
               }
             ]
 
+      "no-id-Theatre-The Ball-Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 120955.8239044149
+          chronology:
+            points: [
+              t: 120955.8239044149
+              value: -300
+              id: "no-id-Theatre-The Ball-Y-point-0"
+              handler: [
+                100
+                4.545454502105713
+                100
+                4.545454502105713
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: -30
+    scrollTop: 18
     guides:
       _list: [
         1062.5025905606908
