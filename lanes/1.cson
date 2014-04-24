@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 302
+    height: 358
     _isVisible: true
 
   timeControl:
-    t: 7592.012809365246
+    t: 8065.880330990842
     _focus:
-      from: 2654.0999391648384
-      to: 8652.455020920497
+      from: 3702.882365943081
+      to: 9701.237447698742
 
     _lastPlayedTickAt: 0
 
@@ -74,81 +74,15 @@
         name: "Intro"
         propHolders: [
           {
-            id: "no-id-Intro-Gelobi Letter g-Opacity"
+            id: "no-id-Intro-I'm-Opacity"
             _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter g-Opacity"
-            _height: 284
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter g-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter g-X"
-            _height: 259
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter e-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter e-Opacity"
-            _height: 119
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter e-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter e-X"
-            _height: 227
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter l-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter l-Opacity"
+            actorPropId: "no-id-Intro-I'm-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Intro-Gelobi Letter l-X"
+            id: "no-id-Intro-I'm-X"
             _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter l-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter o-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter o-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter o-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter o-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter b-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter b-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter b-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter b-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter i-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter i-Opacity"
-            _height: 123
-          }
-          {
-            id: "no-id-Intro-Gelobi Letter i-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Letter i-X"
-            _height: 166
-          }
-          {
-            id: "no-id-Intro-Gelobi Container-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Gelobi Container-Opacity"
+            actorPropId: "no-id-Intro-I'm-X"
             _height: 80
           }
         ]
@@ -4146,7 +4080,7 @@
       "no-id-Intro-I'm-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 9042.113882934866
+          chronologyLength: 7711.934722545535
           chronology:
             points: [
               {
@@ -4172,7 +4106,7 @@
                 ]
               }
               {
-                t: 8799.978938827497
+                t: 7469.799778438166
                 value: 1
                 id: "no-id-Intro-I'm-Opacity-point-4"
                 handler: [
@@ -4183,7 +4117,7 @@
                 ]
               }
               {
-                t: 9042.113882934866
+                t: 7711.934722545535
                 value: 0
                 id: "no-id-Intro-I'm-Opacity-point-5"
                 handler: [
@@ -4200,7 +4134,7 @@
                 id: "no-id-Intro-I'm-Opacity-connector-2"
               }
               {
-                t: 8799.978938827497
+                t: 7469.799778438166
                 id: "no-id-Intro-I'm-Opacity-connector-6"
               }
             ]
@@ -4208,7 +4142,7 @@
       "no-id-Intro-Gelobi Container-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 7112.262238855237
+          chronologyLength: 6958.5387038102435
           chronology:
             points: [
               {
@@ -4234,7 +4168,7 @@
                 ]
               }
               {
-                t: 6761.7086630580025
+                t: 6607.985128013009
                 value: 1
                 id: "no-id-Intro-Gelobi Container-Opacity-point-3"
                 handler: [
@@ -4245,7 +4179,7 @@
                 ]
               }
               {
-                t: 7112.262238855237
+                t: 6958.5387038102435
                 value: 0
                 id: "no-id-Intro-Gelobi Container-Opacity-point-4"
                 handler: [
@@ -4262,7 +4196,7 @@
                 id: "no-id-Intro-Gelobi Container-Opacity-connector-2"
               }
               {
-                t: 6761.7086630580025
+                t: 6607.985128013009
                 id: "no-id-Intro-Gelobi Container-Opacity-connector-5"
               }
             ]
@@ -4780,6 +4714,14 @@
               t: 4243.900483185252
               id: "no-id-Intro-Gelobi Letter g-X-connector-14"
             ]
+
+      "no-id-Intro-I'm-X":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 7727.929212121174
+          chronology:
+            points: []
+            connectors: []
 
   timelineEditor:
     scrollTop: 0
