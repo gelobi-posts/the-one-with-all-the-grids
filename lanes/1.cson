@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 106645.69178175293
+    t: 3321.9949570465424
     _focus:
-      from: 81654.06818181818
-      to: 167106
+      from: 0
+      to: 85451.93181818182
 
     _lastPlayedTickAt: 0
 

@@ -2,7 +2,7 @@ Classify = require './tools/Classify'
 
 module.exports = (film) ->
 
-	film.sets.thePanel.thePanel
+	thePanelEl = film.sets.thePanel.thePanel.node
 
 	gridDir = new Classify film, 'Classify', 'Griddify Direction'
 	gridDir.addElement thePanelEl.querySelector '#griddify-direction'
