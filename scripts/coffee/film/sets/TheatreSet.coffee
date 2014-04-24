@@ -16,4 +16,15 @@ module.exports = class TheatreSet extends Set
 	_prepareBrowserMockup: ->
 
 		@browserMockup = @_makeEl '#theatre-browserMockup'
+		.html """
+
+			<div id="theatre-browserMockup-head">
+
+				<div class="theatre-browserMockup-head-winButton n1"></div>
+				<div class="theatre-browserMockup-head-winButton n2"></div>
+				<div class="theatre-browserMockup-head-winButton n3"></div>
+
+			</div>
+
+			"""
 		.inside @container
