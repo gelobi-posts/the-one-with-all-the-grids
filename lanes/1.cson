@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 585
+    height: 301
     _isVisible: true
 
   timeControl:
-    t: 10541.183200278356
+    t: 9140.497125273881
     _focus:
       from: 7644.045569835906
       to: 13642.40065159148
@@ -74,105 +74,51 @@
         name: "Intro"
         propHolders: [
           {
-            id: "no-id-Intro-Griddify-Opacity"
+            id: "no-id-Intro-Griddify Letter G-Z"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify-Opacity"
+            actorPropId: "no-id-Intro-Griddify Letter G-Z"
             _height: 80
           }
           {
-            id: "no-id-Intro-Griddify Letter G-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter G-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter r-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter r-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 1-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter i 1-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 1-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter d 1-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 2-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter d 2-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 2-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter i 2-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter f-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter f-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter y-Opacity"
+            id: "no-id-Intro-Griddify Letter r-Z"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter y-Opacity"
+            actorPropId: "no-id-Intro-Griddify Letter r-Z"
             _height: 80
           }
           {
-            id: "no-id-Intro-Griddify Letter G-X"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter G-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter r-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter r-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 1-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter i 1-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 1-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter d 1-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 2-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter d 2-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 2-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter i 2-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter f-Y"
-            _expanded: false
-            actorPropId: "no-id-Intro-Griddify Letter f-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter y-X"
+            id: "no-id-Intro-Griddify Letter i 1-Z"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter y-X"
+            actorPropId: "no-id-Intro-Griddify Letter i 1-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 1-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 1-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 2-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 2-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter i 2-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter i 2-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter f-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter f-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter y-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter y-Z"
             _height: 80
           }
         ]
@@ -5439,8 +5385,98 @@
               id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
             ]
 
+      "no-id-Intro-Griddify Letter G-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 9137.359910272962
+          chronology:
+            points: [
+              t: 9137.359910272962
+              value: 1
+              id: "no-id-Intro-Griddify Letter G-Z-point-0"
+              handler: [
+                100
+                0.75
+                100
+                0.75
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Griddify Letter r-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 9137.359910272962
+          chronology:
+            points: [
+              t: 9137.359910272962
+              value: 1
+              id: "no-id-Intro-Griddify Letter r-Z-point-0"
+              handler: [
+                100
+                -2
+                100
+                -2
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Griddify Letter i 1-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 9137.359910272962
+          chronology:
+            points: [
+              t: 9137.359910272962
+              value: 1
+              id: "no-id-Intro-Griddify Letter i 1-Z-point-0"
+              handler: [
+                100
+                0.25
+                100
+                0.25
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Griddify Letter d 1-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 9137.359910272962
+          chronology:
+            points: [
+              t: 9137.359910272962
+              value: 1
+              id: "no-id-Intro-Griddify Letter d 1-Z-point-0"
+              handler: [
+                100
+                -0.25
+                100
+                -0.25
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Griddify Letter d 2-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 9134.222695272045
+          chronology:
+            points: [
+              t: 9134.222695272045
+              value: 1
+              id: "no-id-Intro-Griddify Letter d 2-Z-point-0"
+              handler: [
+                100
+                0
+                100
+                0
+              ]
+            ]
+            connectors: []
+
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 200
     guides:
       _list: [
         1062.5025905606908
