@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 9273.73533082693
+    t: 22663.33253688141
     _focus:
-      from: 5622.01706975813
-      to: 11620.372151513755
+      from: 18015.141336440665
+      to: 24013.496418196264
 
     _lastPlayedTickAt: 0
 
@@ -73,18 +73,10 @@
       {
         name: "Intro"
         propHolders: [
-          {
-            id: "no-id-Intro-I'm-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-I'm-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-I'm-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-I'm-X"
-            _height: 222
-          }
+          id: "no-id-Intro-Griddify-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Intro-Griddify-Opacity"
+          _height: 80
         ]
       }
       {
@@ -4203,7 +4195,7 @@
 
       "no-id-Intro-Griddify-Opacity":
         pacs:
-          _idCounter: 6
+          _idCounter: 7
           chronologyLength: 21021.175617974626
           chronology:
             points: [
@@ -4219,7 +4211,7 @@
                 ]
               }
               {
-                t: 9034.88597415554
+                t: 9367.43076425287
                 value: 1
                 id: "no-id-Intro-Griddify-Opacity-point-1"
                 handler: [
@@ -4255,7 +4247,7 @@
             connectors: [
               {
                 t: 8814.434756386145
-                id: "no-id-Intro-Griddify-Opacity-connector-2"
+                id: "no-id-Intro-Griddify-Opacity-connector-7"
               }
               {
                 t: 20601.956908773813
