@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 358
+    height: 670
     _isVisible: true
 
   timeControl:
-    t: 9377.344164728327
+    t: 9139.864119945632
     _focus:
-      from: 7709.294079526938
-      to: 13707.649161282512
+      from: 5472.4597838722675
+      to: 11470.814865627846
 
     _lastPlayedTickAt: 0
 
@@ -73,10 +73,60 @@
       {
         name: "Intro"
         propHolders: [
-          id: "no-id-Intro-Griddify-Opacity"
-          _expanded: true
-          actorPropId: "no-id-Intro-Griddify-Opacity"
-          _height: 80
+          {
+            id: "no-id-Intro-Griddify-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter G-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter G-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter r-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter r-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter i 1-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter i 1-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 1-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 1-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter i 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter i 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter f-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter f-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter y-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter y-Opacity"
+            _height: 80
+          }
         ]
       }
       {
@@ -4741,8 +4791,336 @@
               id: "no-id-Intro-I'm-X-connector-21"
             ]
 
+      "no-id-Intro-Griddify Letter G-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 9914.633572088422
+          chronology:
+            points: [
+              {
+                t: 9400.252965021842
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 9914.633572088422
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 9400.252965021842
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
+      "no-id-Intro-Griddify Letter r-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 18822.343781966105
+          chronology:
+            points: [
+              {
+                t: 9484.957770046633
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 9999.338377113212
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+              {
+                t: 18307.963174899527
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 18822.343781966105
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 9484.957770046633
+                id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+              }
+              {
+                t: 18307.963174899527
+                id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+              }
+            ]
+
+      "no-id-Intro-Griddify Letter i 1-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 19575.275382186468
+          chronology:
+            points: [
+              {
+                t: 9575.937005073258
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10090.317612139837
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+              {
+                t: 19060.89477511989
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 19575.275382186468
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 9575.937005073258
+                id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+              }
+              {
+                t: 19060.89477511989
+                id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+              }
+            ]
+
+      "no-id-Intro-Griddify Letter d 1-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 10181.296847166466
+          chronology:
+            points: [
+              {
+                t: 9666.916240099887
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10181.296847166466
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 9666.916240099887
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
+      "no-id-Intro-Griddify Letter d 2-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 10278.55051219493
+          chronology:
+            points: [
+              {
+                t: 9764.16990512835
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10278.55051219493
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 9764.16990512835
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
+      "no-id-Intro-Griddify Letter i 2-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 10375.804177223394
+          chronology:
+            points: [
+              {
+                t: 9861.423570156814
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10375.804177223394
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 9861.423570156814
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
+      "no-id-Intro-Griddify Letter f-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 10473.057842251857
+          chronology:
+            points: [
+              {
+                t: 9958.677235185278
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10473.057842251857
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 9958.677235185278
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
+      "no-id-Intro-Griddify Letter y-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 10567.174292279406
+          chronology:
+            points: [
+              {
+                t: 10052.793685212826
+                value: 0
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  347.3833923339844
+                  0
+                ]
+              }
+              {
+                t: 10567.174292279406
+                value: 1
+                id: "no-id-Intro-Gelobi Letter g-Opacity-point-1"
+                handler: [
+                  294.8466491699219
+                  0
+                  100
+                  0.006324999965727329
+                ]
+              }
+            ]
+            connectors: [
+              t: 10052.793685212826
+              id: "no-id-Intro-Gelobi Letter g-Opacity-connector-2"
+            ]
+
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 55
     guides:
       _list: [
         1062.5025905606908

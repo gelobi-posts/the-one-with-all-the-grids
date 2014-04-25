@@ -25,13 +25,15 @@ module.exports = class IntroSet extends Set
 			'opacity', 'translation', 'wysihwyg'
 		]
 
+		aft = ['', '', ' 1', ' 1', ' 2', ' 2', '', '']
+
 		for letter, i in 'Griddify'
 
 			el = @_makeEl '.letter'
 			.html letter
 			.inside griddify
 
-			@_setupDomEl 'Intro', 'Griddify Letter ' + i + '-' +  letter, el, [
+			@_setupDomEl 'Intro', 'Griddify Letter ' + letter + aft[i], el, [
 				'opacity', 'translation'
 			]
 
