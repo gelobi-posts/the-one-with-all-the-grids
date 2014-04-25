@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 284
+    height: 585
     _isVisible: true
 
   timeControl:
-    t: 8324.188219706903
+    t: 10541.183200278356
     _focus:
-      from: 5475.596998873186
-      to: 11473.952080628766
+      from: 7644.045569835906
+      to: 13642.40065159148
 
     _lastPlayedTickAt: 0
 
@@ -5413,7 +5413,7 @@
             points: [
               {
                 t: 10059.06811521466
-                value: 20
+                value: 10
                 id: "no-id-Intro-Gelobi Letter g-Opacity-point-0"
                 handler: [
                   100
