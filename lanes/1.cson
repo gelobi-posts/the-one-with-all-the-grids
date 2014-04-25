@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 301
+    height: 636
     _isVisible: true
 
   timeControl:
-    t: 10728.754860207991
+    t: 21783.46173020384
     _focus:
-      from: 7644.045569835906
-      to: 13642.40065159148
+      from: 17999.461730204188
+      to: 23997.81681195976
 
     _lastPlayedTickAt: 0
 
@@ -73,24 +73,6 @@
       {
         name: "Intro"
         propHolders: [
-          {
-            id: "no-id-Intro-Griddify Letter G-Z"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter G-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter r-Z"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter r-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 1-Z"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter i 1-Z"
-            _height: 80
-          }
           {
             id: "no-id-Intro-Griddify Letter d 1-Z"
             _expanded: true
@@ -5530,7 +5512,7 @@
             connectors: []
 
   timelineEditor:
-    scrollTop: 343
+    scrollTop: 0
     guides:
       _list: [
         1062.5025905606908
