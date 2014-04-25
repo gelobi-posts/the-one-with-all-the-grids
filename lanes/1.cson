@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 123498.8069572064
+    t: 131671.0026356825
     _focus:
-      from: 117252.82724639536
-      to: 125219.17692656045
+      from: 130049.0209205021
+      to: 133195.36820083682
 
     _lastPlayedTickAt: 0
 
@@ -147,7 +147,7 @@
             id: "no-id-Theatre-The Ball-Y"
             _expanded: true
             actorPropId: "no-id-Theatre-The Ball-Y"
-            _height: 180
+            _height: 311
           }
           {
             id: "no-id-Theatre-The Ball-Scale Y"
@@ -4288,8 +4288,8 @@
 
       "no-id-Theatre-The Ball-Y":
         pacs:
-          _idCounter: 81
-          chronologyLength: 123937.32074184045
+          _idCounter: 109
+          chronologyLength: 132075.153220921
           chronology:
             points: [
               {
@@ -4299,8 +4299,8 @@
                 handler: [
                   100
                   -56.54637145996094
-                  199.9960174560547
-                  -15.575121879577637
+                  441.653076171875
+                  8.338711738586426
                 ]
               }
               {
@@ -4308,10 +4308,10 @@
                 value: 0
                 id: "no-id-Theatre-The Ball-Y-point-0"
                 handler: [
-                  268.5634460449219
-                  -584.720947265625
-                  326.7280578613281
-                  -605.4209594726562
+                  531.0530395507812
+                  -532.1105346679688
+                  568.3851318359375
+                  -528.896728515625
                 ]
               }
               {
@@ -4319,10 +4319,120 @@
                 value: 0
                 id: "no-id-Theatre-The Ball-Y-point-63"
                 handler: [
-                  404.1545715332031
-                  -669.5873413085938
+                  812.4716186523438
+                  -588.2803344726562
+                  441.6531066894531
+                  -584.3944702148438
+                ]
+              }
+              {
+                t: 125423.33546961905
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-82"
+                handler: [
+                  254.16053771972656
+                  -264.798583984375
+                  449.9860534667969
+                  -464.7303771972656
+                ]
+              }
+              {
+                t: 126719.1172429095
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-84"
+                handler: [
+                  279.1595458984375
+                  -203.48614501953125
+                  341.6570739746094
+                  -368.6552429199219
+                ]
+              }
+              {
+                t: 127885.73748895878
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-88"
+                handler: [
+                  320.8245544433594
+                  -319.2434997558594
+                  220.82852172851562
+                  -270.26654052734375
+                ]
+              }
+              {
+                t: 129029.44107855663
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-90"
+                handler: [
+                  479.1515808105469
+                  -248.18975830078125
+                  183.33001708984375
+                  -234.80247497558594
+                ]
+              }
+              {
+                t: 130046.067292971
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-92"
+                handler: [
+                  291.6590576171875
+                  -126.96978759765625
+                  170.8305206298828
+                  -118.08392333984375
+                ]
+              }
+              {
+                t: 130733.53993796433
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-94"
+                handler: [
                   100
-                  -24.585430145263672
+                  -77.75125885009766
+                  124.99900817871094
+                  -82.43589782714844
+                ]
+              }
+              {
+                t: 131208.52103814154
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-100"
+                handler: [
+                  124.99900817871094
+                  -53.92058563232422
+                  133.33201599121094
+                  -45.007869720458984
+                ]
+              }
+              {
+                t: 131600.1721207438
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-101"
+                handler: [
+                  108.3330078125
+                  -25.849559783935547
+                  112.49950408935547
+                  -34.76227569580078
+                ]
+              }
+              {
+                t: 131879.32767961986
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-102"
+                handler: [
+                  91.66699981689453
+                  -33.77086639404297
+                  71.14981842041016
+                  -28.74407386779785
+                ]
+              }
+              {
+                t: 132075.153220921
+                value: 0
+                id: "no-id-Theatre-The Ball-Y-point-103"
+                handler: [
+                  68.73399353027344
+                  -30.187246322631836
+                  100
+                  1.1498645544052124
                 ]
               }
             ]
@@ -4334,6 +4444,46 @@
               {
                 t: 122141.7079263332
                 id: "no-id-Theatre-The Ball-Y-connector-81"
+              }
+              {
+                t: 123937.32074184045
+                id: "no-id-Theatre-The Ball-Y-connector-86"
+              }
+              {
+                t: 125423.33546961905
+                id: "no-id-Theatre-The Ball-Y-connector-87"
+              }
+              {
+                t: 126719.1172429095
+                id: "no-id-Theatre-The Ball-Y-connector-89"
+              }
+              {
+                t: 127885.73748895878
+                id: "no-id-Theatre-The Ball-Y-connector-91"
+              }
+              {
+                t: 129029.44107855663
+                id: "no-id-Theatre-The Ball-Y-connector-98"
+              }
+              {
+                t: 130046.067292971
+                id: "no-id-Theatre-The Ball-Y-connector-99"
+              }
+              {
+                t: 130733.53993796433
+                id: "no-id-Theatre-The Ball-Y-connector-104"
+              }
+              {
+                t: 131208.52103814154
+                id: "no-id-Theatre-The Ball-Y-connector-105"
+              }
+              {
+                t: 131600.1721207438
+                id: "no-id-Theatre-The Ball-Y-connector-106"
+              }
+              {
+                t: 131879.32767961986
+                id: "no-id-Theatre-The Ball-Y-connector-109"
               }
             ]
 
@@ -4357,19 +4507,19 @@
 
       "no-id-Theatre-The Ball-Scale Y":
         pacs:
-          _idCounter: 12
+          _idCounter: 15
           chronologyLength: 122569.28236767708
           chronology:
             points: [
               {
-                t: 120985.34490154247
+                t: 122056.13562738057
                 value: 1
                 id: "no-id-Theatre-The Ball-Scale Y-point-0"
                 handler: [
                   100
                   0.8888888955116272
-                  1158.291259765625
-                  0.05004112794995308
+                  83.3340835571289
+                  -0.053141918033361435
                 ]
               }
               {
@@ -4377,8 +4527,8 @@
                 value: 0.6225514392499572
                 id: "no-id-Theatre-The Ball-Scale Y-point-1"
                 handler: [
-                  100
-                  0.1263374537229538
+                  33.33598709106445
+                  0.1357177346944809
                   33.33598709106445
                   0.1263374537229538
                 ]
@@ -4388,8 +4538,8 @@
                 value: 1
                 id: "no-id-Theatre-The Ball-Scale Y-point-2"
                 handler: [
-                  124.99900817871094
-                  -0.01517694815993309
+                  79.16749572753906
+                  -0.0902191698551178
                   75.0009994506836
                   -0.033579021692276
                 ]
@@ -4401,7 +4551,7 @@
                 handler: [
                   41.66899108886719
                   0.035052340477705
-                  100
+                  62.501495361328125
                   0.08195372670888901
                 ]
               }
@@ -4410,8 +4560,8 @@
                 value: 0.9696217050401926
                 id: "no-id-Theatre-The Ball-Scale Y-point-10"
                 handler: [
-                  100
-                  0.09696216881275177
+                  91.66699981689453
+                  0.021919945254921913
                   100
                   0.09696216881275177
                 ]
@@ -4419,8 +4569,8 @@
             ]
             connectors: [
               {
-                t: 120985.34490154247
-                id: "no-id-Theatre-The Ball-Scale Y-connector-7"
+                t: 122056.13562738057
+                id: "no-id-Theatre-The Ball-Scale Y-connector-15"
               }
               {
                 t: 122144.29927804485
@@ -4437,7 +4587,7 @@
             ]
 
   timelineEditor:
-    scrollTop: -236
+    scrollTop: -209
     guides:
       _list: [
         1062.5025905606908
