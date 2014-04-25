@@ -1,0 +1,29 @@
+@mixin rotator
+
+	@include el
+
+	position: relative
+
+	@include border-radius(3px)
+
+	cursor: pointer
+
+	> .thingy
+
+		display: none
+
+	border: 2px solid transparent
+
+	width: 20px
+	height: 20px
+	top: 1px
+
+	border-color: #2e2e2e
+
+	&:hover, &.hover
+
+		border-color: rgb(3, 3, 3)
+
+	&:active, &.active
+
+		background: #222

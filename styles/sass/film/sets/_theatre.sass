@@ -1,0 +1,105 @@
+#theatre-browserMockup
+
+	width: 90vw
+	height: 90vh
+	max-width: 1670px
+
+	position: absolute
+
+	left: calc(100% - 95vw)
+	top: calc(100% - 95vh)
+
+#theatre-browserMockup-head
+
+	position: absolute
+	width: 100%
+	height: 37px
+
+	background: #cbcbcb
+
+	border-radius: 10px 10px 0 0
+
+	&:after
+
+		@include psuedo
+
+		position: absolute
+		left: 0
+		right: 0
+		bottom: 0
+		height: 5px
+
+		background: #f1f1f1
+
+	&:before
+
+		@include psuedo
+
+		position: absolute
+		width: 256px
+		height: 25px
+		top: 7px
+		left: 110px
+		background: #f1f1f1
+
+		border-radius: 5px 5px 0 0
+
+.theatre-browserMockup-head-winButton
+
+	width: 15px
+	height: 15px
+	border-radius: 50%
+	position: absolute
+	top: 11px
+
+	&.n1
+
+		left: 22px
+		background: #fb5e56
+
+	&.n2
+
+		left: 49px
+		background: #ffc54e
+
+	&.n3
+
+		left: 76px
+		background: #8bc811
+
+#theatre-browserViewport
+
+	position: absolute
+	bottom: 0
+	left: 0
+	right: 0
+	top: 37px
+
+	border-radius: 0 0 10px 10px
+
+	background: rgb(36, 36, 36)
+
+#theatre-fakeTheatre
+
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 0
+	height: 337px
+
+	border-radius: 0 0 9px 9px
+
+	background: url("../../images/film/theatre/mainBox.png") left bottom no-repeat
+
+#theatre-theBall
+
+	width: 80px
+	height: 80px
+	position: absolute
+	bottom: calc(5vh + 333px)
+	left: calc(50vw - 40px)
+
+	background: url("../../images/film/theatre/theBall.png")
+	background-size: 80px 80px
+
+	@include transform-origin(bottom center)

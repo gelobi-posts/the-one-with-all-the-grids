@@ -1,0 +1,211 @@
+// //Color references
+
+// //The darkest theme
+// $dark1: false
+
+// //The middle dark theme
+// $dark2: false
+
+// //The middle light theme
+// $light1: false
+
+// //The lightest theme
+// $light2: false
+
+// //Default theme
+// $theme: ''
+
+// $dark: false
+// $light: false
+
+// @function color_panel_bg()
+
+// 	@if $dark1 == true
+
+// 		@return #343434
+
+// 	@else if $dark2 == true
+
+// 		@return #535353
+
+// 	@else if $light1 == true
+
+// 		@return #b8b8b8
+
+// 	@else if $light2 == true
+
+// 		@return #d6d6d6
+
+
+// @function color_text()
+
+// 	@if $dark1 == true
+
+// 		@return #cacaca
+
+// 	@else if $dark2 == true
+
+// 		@return #ffffff
+
+// 	@else if $light1 == true
+
+// 		@return #000000
+
+// 	@else if $light2 == true
+
+// 		@return #000000
+
+// @function color_text_invert()
+
+// 	@if $dark1 == true
+
+// 		@return black
+
+// 	@else if $dark2 == true
+
+// 		@return black
+
+// 	@else if $light1 == true
+
+// 		@return white
+
+// 	@else if $light2 == true
+
+// 		@return white
+
+// @function color_text_shadow()
+
+// 	@if $dark1 == true
+
+// 		@return none
+
+// 	@else if $dark2 == true
+
+// 		@return none
+
+// 	@else if $light1 == true
+
+// 		@return unquote("0 1px 0.5px #dfdfdf")
+
+// 	@else if $light2 == true
+
+// 		@return none
+
+// @function color_select()
+
+// 	@if $dark1 == true
+
+// 		@return black
+
+// 	@else if $dark2 == true
+
+// 		@return black
+
+// 	@else if $light1 == true
+
+// 		@return black
+
+// 	@else if $light2 == true
+
+// 		@return black
+
+@mixin btn_normal
+
+	text-decoration: none
+
+	border: 1px solid #323232
+
+	@include box-shadow(none !important)
+
+	@include border-radius(3px !important)
+
+	cursor: default
+
+	border-color: #242424
+
+	@include box-shadow(0 1px 0 #464646)
+	@include box-shadow(inset 0 1px 0 #464646)
+
+	@include gradient(#505050, #404040)
+
+@mixin btn_hover
+
+	border-color: #242424
+
+	@include box-shadow(0 1px 0 #464646)
+	@include box-shadow(inset 0 1px 0 #464646)
+
+	@include gradient(lighten(#505050, 10%), lighten(#404040, 1%))
+
+	color: black
+
+@mixin btn_active
+
+	border-color: #242424
+
+	@include box-shadow(0 1px 0 #464646)
+	@include box-shadow(inset 0 1px 0 #464646)
+
+	background: #333
+
+	color: black
+
+@mixin btn
+
+	@include btn_normal
+
+	&:hover, &.hover
+
+		@include btn_hover
+
+	&:active, &.active
+
+		@include btn_active
+
+// @mixin colors
+
+// 	$dark: true
+// 	$light: false
+
+// 	$dark1: true
+// 	$dark2: false
+
+// 	$light1: false
+// 	$light2: false
+
+// 	$theme: dark1
+
+// 	.dark1 &
+
+// 		@content
+
+// 	$dark1: false
+// 	$dark2: true
+
+// 	$theme: dark2
+
+// 	.dark2 &
+
+// 		@content
+
+// 	$dark: false
+// 	$light: true
+
+// 	$dark2: false
+
+// 	$light1: true
+
+// 	$theme: light1
+
+// 	.light1 &
+
+// 		@content
+
+// 	$light1: false
+// 	$light2: true
+
+// 	$theme: light2
+
+// 	.light2 &
+
+// 		@content
