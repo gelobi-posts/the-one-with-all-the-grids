@@ -1,9 +1,11 @@
 module.exports = class Mousify
 
-	constructor: (@el, @film, @groupName, @actorName) ->
+	constructor: (@el, @film, @groupName, @actorName, @_recalculators) ->
 
 		do @_addToTheatre
 		do @_defineVars
+
+		window.addEventListener 'resize', => do @_recalculate
 
 	_addToTheatre: ->
 
@@ -15,7 +17,6 @@ module.exports = class Mousify
 		@film.theatre.timeline.addObject @objName, @
 
 		@actor.addPropOfObject 'Move', @objName, 'move', 0
-		@actor.addPropOfObject 'Change Base Position', @objName, 'changeBase', 0
 
 		return
 
@@ -57,11 +58,6 @@ module.exports = class Mousify
 		@_margin[1] = @_margins[index - 1] + fract * @_margins[index + 1]
 
 		do @_move
-
-	changeBase: (@_baseIndex) ->
-
-		@_margin[0] = 0
-		@_margin[1] = 0
 
 	_move: ->
 
