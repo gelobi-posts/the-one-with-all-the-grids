@@ -22,15 +22,20 @@ module.exports = class Mousify
 
 	_defineVars: ->
 
-		@_elements = []
-		@_margin = new Float32Array 2
-		@_elPos = new Float32Array 2
+		@_margins = []
+		@_basePositions = [0, 0]
 
 		@_elements[0] = document.body
 
-	addElement: (el) ->
+	addMargin: (marginX, marginY) ->
 
-		@_elements.push el
+		@_margins.push marginX
+		@_margins.push marginY
+
+	addBasePosition: (baseX, baseY) ->
+
+		@_basePositions.push baseX
+		@_basePositions.push baseY
 
 	moveX: (x) ->
 
