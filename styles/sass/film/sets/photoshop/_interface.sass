@@ -130,3 +130,22 @@
 		background: url('../../images/photoshop/mouse.svg') no-repeat
 		background-size: 100%
 
+	&.pointer
+
+		background: url('../../images/photoshop/mouse.svg') no-repeat
+		background-size: 50%
+
+	&.text
+
+		&:after
+
+			display: block
+			content: '\0020'
+
+			width: 1px
+			height: 100%
+
+			position: absolute
+
+			background: black
+
