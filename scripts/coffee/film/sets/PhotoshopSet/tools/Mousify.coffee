@@ -1,6 +1,6 @@
 module.exports = class Mousify
 
-	constructor: (@film, @groupName, @actorName) ->
+	constructor: (@el, @film, @groupName, @actorName) ->
 
 		do @_addToTheatre
 		do @_defineVars
@@ -58,4 +58,7 @@ module.exports = class Mousify
 
 	_move: ->
 
-		console.log @_pos
+		@el.x @_pos[0]
+		@el.y @_pos[1]
+
+		return
