@@ -60,3 +60,7 @@ module.exports = (set) ->
 
 	set.cursor = set._makeEl '#photoshop-cursor'
 	.inside container
+
+	set._setupDomEl 'Mouse', 'domEl', set.cursor, [
+		'opacity'
+	]

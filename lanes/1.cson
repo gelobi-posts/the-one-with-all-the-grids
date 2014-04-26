@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 67376.18966071145
+    t: 39970.096056553106
     _focus:
-      from: 66806.10653147966
-      to: 70322.23215435445
+      from: 38226.785401772446
+      to: 41742.91102464723
 
     _lastPlayedTickAt: 0
 
@@ -73,24 +73,10 @@
       {
         name: "Intro"
         propHolders: [
-          {
-            id: "no-id-Mousify-Mouse-Move X"
-            _expanded: true
-            actorPropId: "no-id-Mousify-Mouse-Move X"
-            _height: 80
-          }
-          {
-            id: "no-id-Mousify-Mouse-Move Y"
-            _expanded: true
-            actorPropId: "no-id-Mousify-Mouse-Move Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Mousify-Mouse-Move on Element"
-            _expanded: true
-            actorPropId: "no-id-Mousify-Mouse-Move on Element"
-            _height: 80
-          }
+          id: "no-id-Mouse-Mousify-Move Y"
+          _expanded: true
+          actorPropId: "no-id-Mouse-Mousify-Move Y"
+          _height: 80
         ]
       }
       {
@@ -5473,6 +5459,48 @@
               }
             ]
             connectors: []
+
+      "no-id-Mouse-domEl-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 39359.5957488911
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Mouse-Mousify-Move Y":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 39604.1798011099
+          chronology:
+            points: [
+              {
+                t: 39398.21428345196
+                value: 0
+                id: "no-id-Mouse-Mousify-Move Y-point-1"
+                handler: [
+                  100
+                  9.99625015258789
+                  100
+                  9.99625015258789
+                ]
+              }
+              {
+                t: 39604.1798011099
+                value: 10
+                id: "no-id-Mouse-Mousify-Move Y-point-0"
+                handler: [
+                  100
+                  0.25
+                  100
+                  0.25
+                ]
+              }
+            ]
+            connectors: [
+              t: 39398.21428345196
+              id: "no-id-Mouse-Mousify-Move Y-connector-2"
+            ]
 
   timelineEditor:
     scrollTop: -1
