@@ -6,9 +6,7 @@ module.exports = class Mousify
 		do @_defineVars
 		do @_recalculate
 
-		document.addEventListener 'resize', =>
-
-			do @_recalculate
+		window.addEventListener 'resize', => do @_recalculate
 
 	_addToTheatre: ->
 
@@ -19,13 +17,15 @@ module.exports = class Mousify
 
 		@film.theatre.timeline.addObject @objName, @
 
-		@actor.addPropOfObject 'Move', @objName, 'move', 1
+		@actor.addPropOfObject 'Move', @objName, 'move', 0
 
 		return
 
 	_defineVars: ->
 
 		@_steps = [{x: 0, y: 0}]
+		@_now = 1
+		@_length = @_recalculators.length + 1
 
 	_recalculate: ->
 
@@ -33,7 +33,7 @@ module.exports = class Mousify
 
 			@_steps[i + 1] = fn()
 
-		console.log @_steps
+		@move @_now
 
 		return
 
@@ -42,8 +42,14 @@ module.exports = class Mousify
 		index = i | 0
 		fract = i - index
 
-		before = @_steps[index - 1]
-		after = @_steps[index]
+		if i is @_length
+
+			x = @_steps[index].x
+
+		before = @_steps[index]
+		after = @_steps[index + 1]
 
 		@el.x before.x + fract * (after.x - before.x)
 		@el.y before.y + fract * (after.y - before.y)
+
+		@_now = i

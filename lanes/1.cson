@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 71340.44587889395
+    t: 71511.71223455643
     _focus:
-      from: 62742.40148698885
-      to: 81792.89962825278
+      from: 63878.582449332134
+      to: 82929.08059059645
 
     _lastPlayedTickAt: 0
 
@@ -5540,45 +5540,37 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 12
-          chronologyLength: 70583.79376584591
+          _idCounter: 16
+          chronologyLength: 70910.19320194502
           chronology:
             points: [
               {
-                t: 69465.26350975242
-                value: 1
-                id: "no-id-Mouse-Mousify-Move-point-9"
-                handler: [
-                  100
-                  6.384976387023926
-                  100
-                  6.384976387023926
-                ]
-              }
-              {
-                t: 70045.75668445039
+                t: 68978.1851357319
                 value: 2
-                id: "no-id-Mouse-Mousify-Move-point-10"
+                id: "no-id-Mouse-Mousify-Move-point-14"
                 handler: [
                   100
-                  0.2498820722103119
-                  100
-                  0.2498820722103119
+                  2.065727710723877
+                  1077.2366943359375
+                  0.3394388258457184
                 ]
               }
               {
-                t: 70583.79376584591
+                t: 70910.19320194502
                 value: 3
-                id: "no-id-Mouse-Mousify-Move-point-11"
+                id: "no-id-Mouse-Mousify-Move-point-15"
                 handler: [
+                  223.55865478515625
+                  -0.3052789568901062
                   100
-                  0.3547995388507843
-                  100
-                  0.3547995388507843
+                  0.36390045285224915
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              t: 68978.1851357319
+              id: "no-id-Mouse-Mousify-Move-connector-16"
+            ]
 
   timelineEditor:
     scrollTop: -1
