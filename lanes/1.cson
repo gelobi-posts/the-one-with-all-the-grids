@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 71419.67807702183
+    t: 71506.17282745568
     _focus:
       from: 63878.582449332134
       to: 82929.08059059645
@@ -5540,37 +5540,21 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 16
+          _idCounter: 18
           chronologyLength: 70910.19320194502
           chronology:
             points: [
-              {
-                t: 68978.1851357319
-                value: 2
-                id: "no-id-Mouse-Mousify-Move-point-14"
-                handler: [
-                  100
-                  2.065727710723877
-                  1077.2366943359375
-                  0.3394388258457184
-                ]
-              }
-              {
-                t: 70910.19320194502
-                value: 3
-                id: "no-id-Mouse-Mousify-Move-point-15"
-                handler: [
-                  223.55865478515625
-                  -0.3052789568901062
-                  100
-                  0.36390045285224915
-                ]
-              }
+              t: 70910.19320194502
+              value: 3
+              id: "no-id-Mouse-Mousify-Move-point-15"
+              handler: [
+                223.55865478515625
+                -0.3052789568901062
+                100
+                0.36390045285224915
+              ]
             ]
-            connectors: [
-              t: 68978.1851357319
-              id: "no-id-Mouse-Mousify-Move-connector-16"
-            ]
+            connectors: []
 
   timelineEditor:
     scrollTop: -1
