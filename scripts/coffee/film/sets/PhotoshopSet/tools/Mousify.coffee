@@ -23,7 +23,7 @@ module.exports = class Mousify
 
 	_defineVars: ->
 
-		@_steps = []
+		@_steps = [{x: 0, y: 0}]
 
 	_recalculate: ->
 
@@ -31,10 +31,17 @@ module.exports = class Mousify
 
 			@_steps.push(fn())
 
+		console.log @_steps
+
+		return
+
 	move: (i) ->
 
 		index = i | 0
 		fract = i - index
 
-		@el.x @_steps[index].x + fract * @_steps[index + 1].x
-		@el.y @_steps[index].y + fract * @_steps[index + 1].y
+		before = @_steps[index]
+		after = @_steps[index + 1]
+
+		@el.x before.x + fract * (after.x - before.x)
+		@el.y before.y + fract * (after.y - before.y)
