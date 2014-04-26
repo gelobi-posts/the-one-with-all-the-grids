@@ -1,6 +1,6 @@
 module.exports = class Mousify
 
-	constructor: (@film, @groupName, @actorName) ->
+	constructor: (@n, @film, @groupName, @actorName) ->
 
 		do @_addToTheatre
 		do @_defineVars
@@ -22,13 +22,31 @@ module.exports = class Mousify
 
 	_defineVars: ->
 
+		@_elements = []
+		@_pos = new Float32Array 2
+
 	addElements: (elements) ->
 
+		@_elements[0] = document.body
 
+		for el in elements
+
+			@_elements.push el
+
+		return
 
 	moveToX: (x) ->
 
+		return
+
 	moveToY: (y) ->
 
-	moveOnEl: (el) ->
+		return
 
+	moveOnEl: (index) ->
+
+		el = @_elements[index]
+
+
+
+		return
