@@ -24,8 +24,7 @@ module.exports = class Mousify
 
 		@_margins = []
 		@_basePositions = [0, 0]
-
-		@_elements[0] = document.body
+		@_pos = new Float32Array 2
 
 	addMargin: (marginX, marginY) ->
 
@@ -37,44 +36,17 @@ module.exports = class Mousify
 		@_basePositions.push baseX
 		@_basePositions.push baseY
 
-	moveX: (x) ->
+	move: (i) ->
 
-		@_margin[0] = x
+		index = 2 * (i | 0)
+		fract = i % 1
 
-		do @_move
+		@_pos[0] = @_basePositions[index] + fract * (@_margins[index + 2] - @_margins[x])
+		@_pos[1] = @_basePositions[index + 1] + fract * (@_margins[index + 3] - @_margins[x + 1])
 
-	moveY: (y) ->
-
-		@_margin[1] = y
-
-		do @_move
-
-	moveOnEl: (index) ->
-
-		frac = index % 1
-
-		if frac is 0
-
-			dest = @_elements[index].getBoundingClientRect()
-			@_elPos[0] = dest.left + .5 * dest.width
-			@_elPos[1] = dest.top + .5 * dest.height
-
-		else
-
-			f = @_elements[Math.floor(index)].getBoundingClientRect()
-			c = @_elements[Math.ceil(index)].getBoundingClientRect()
-
-			x = f.left + .5 * f.width
-			y = f.top + .5 * f.height
-
-			@_elPos[0] = x + frac * (c.left + .5 * c.width - x)
-			@_elPos[1] = y + frac * (c.top + .5 * c.height - y)
-
-		do @_move
+	changeBase: (i) ->
 
 	_move: ->
 
-		@el.x @_elPos[0] + @_margin[0]
-		@el.y @_elPos[1] + @_margin[1]
-
-		return
+		@el.x @_pos[0]
+		@el.y @_pos[1]
