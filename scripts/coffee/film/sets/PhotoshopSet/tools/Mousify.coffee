@@ -19,7 +19,7 @@ module.exports = class Mousify
 
 		@film.theatre.timeline.addObject @objName, @
 
-		@actor.addPropOfObject 'Move', @objName, 'move', 0
+		@actor.addPropOfObject 'Move', @objName, 'move', 1
 
 		return
 
@@ -39,11 +39,12 @@ module.exports = class Mousify
 
 	move: (i) ->
 
+		i = i + 1
 		index = i | 0
 		fract = i - index
 
-		before = @_steps[index]
-		after = @_steps[index + 1]
-
+		before = @_steps[index - 1]
+		after = @_steps[index]
+		console.log before, after
 		@el.x before.x + fract * (after.x - before.x)
 		@el.y before.y + fract * (after.y - before.y)
