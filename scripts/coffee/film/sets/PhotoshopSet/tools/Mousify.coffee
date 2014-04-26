@@ -23,7 +23,8 @@ module.exports = class Mousify
 	_defineVars: ->
 
 		@_elements = []
-		@_margin = new Float32Array 2
+		@_fMargin = new Float32Array 2
+		@_vMargin = new Float32Array 2
 		@_elPos = new Float32Array 2
 
 		@_elements[0] = document.body
@@ -34,13 +35,13 @@ module.exports = class Mousify
 
 	moveX: (x) ->
 
-		@_pos[0] = @_elPos[0] + x
+		@_fMargin[0] = x
 
 		do @_move
 
 	moveY: (y) ->
 
-		@_pos[1] = @_elPos[1] + y
+		@_fMargin[1] = y
 
 		do @_move
 
@@ -51,25 +52,22 @@ module.exports = class Mousify
 		if frac is 0
 
 			dest = @_elements[index].getBoundingClientRect()
-			@_pos[0] = @_elPos[0] = dest.left + .5 * dest.width
-			@_pos[1] = @_elPos[1] = dest.top + .5 * dest.height
+			@_elPos[0] = dest.left + .5 * dest.width
+			@_elPos[1] = dest.top + .5 * dest.height
 
 		else
 
 			f = @_elements[Math.floor(index)].getBoundingClientRect()
 			c = @_elements[Math.ceil(index)].getBoundingClientRect()
 
-			x = f.left + .5 * f.width
-			y = f.top + .5 * f.height
-
-			@_pos[0] = x + frac * (c.left + .5 * c.width - x)
-			@_pos[1] = y + frac * (c.top + .5 * c.height - y)
+			@_vMargin[0] = frac * (c.left + .5 * c.width - f.left + .5 * f.width)
+			@_vMargin[1] = frac * (c.top + .5 * c.height - f.top + .5 * f.height)
 
 		do @_move
 
 	_move: ->
 
-		@el.x @_pos[0]
-		@el.y @_pos[1]
+		@el.x @_elPos[0] + @_fMargin[0] + @_vMargin[0]
+		@el.y @_elPos[1] + @_fMargin[1] + @_vMargin[1]
 
 		return
