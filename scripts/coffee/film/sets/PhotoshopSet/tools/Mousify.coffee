@@ -32,6 +32,8 @@ module.exports = class Mousify
 
 	addMargin: (marginX, marginY) ->
 
+		l = @_margins.length
+
 		@_margins.push marginX
 		@_margins.push marginY
 
@@ -49,15 +51,10 @@ module.exports = class Mousify
 		index = 2 * Math.ceil(i)
 		fract = i % 1
 
-		if fract is 0
+		if fract is 0 then fract = 1
 
-			@_margin[0] += @_margins[index]
-			@_margin[1] += @_margins[index + 1]
-
-		else
-
-			@_margin[0] = @_margins[index - 2] + fract * @_margins[index]
-			@_margin[1] = @_margins[index - 1] + fract * @_margins[index + 1]
+		@_margin[0] = @_margins[index - 2] + fract * @_margins[index]
+		@_margin[1] = @_margins[index - 1] + fract * @_margins[index + 1]
 
 		do @_move
 
