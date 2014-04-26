@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 25828.295111337575
+    t: 24593.424749032638
     _focus:
       from: 23536.012493199476
       to: 27052.138116074268
@@ -73,18 +73,10 @@
       {
         name: "Intro"
         propHolders: [
-          {
-            id: "no-id-Mouse-Mousify-Move Y"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move Y"
-            _height: 120
-          }
-          {
-            id: "no-id-Mouse-Mousify-Move on Element"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move on Element"
-            _height: 188
-          }
+          id: "no-id-Mouse-Mousify-Move"
+          _expanded: true
+          actorPropId: "no-id-Mouse-Mousify-Move"
+          _height: 80
         ]
       }
       {
@@ -5545,6 +5537,37 @@
                 id: "no-id-Mouse-Mousify-Move on Element-connector-2"
               }
             ]
+
+      "no-id-Mouse-Mousify-Move":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 24735.02604242247
+          chronology:
+            points: [
+              {
+                t: 24437.111632952954
+                value: 0
+                id: "no-id-Mouse-Mousify-Move-point-0"
+                handler: [
+                  100
+                  -5.25
+                  100
+                  -5.25
+                ]
+              }
+              {
+                t: 24735.02604242247
+                value: 1
+                id: "no-id-Mouse-Mousify-Move-point-1"
+                handler: [
+                  100
+                  -0.3149999976158142
+                  100
+                  -0.3149999976158142
+                ]
+              }
+            ]
+            connectors: []
 
   timelineEditor:
     scrollTop: -1

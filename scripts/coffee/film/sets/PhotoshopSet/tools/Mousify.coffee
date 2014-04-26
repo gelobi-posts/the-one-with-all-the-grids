@@ -14,39 +14,49 @@ module.exports = class Mousify
 
 		@film.theatre.timeline.addObject @objName, @
 
-		@actor.addPropOfObject 'Move X', @objName, 'moveX', 0
-		@actor.addPropOfObject 'Move Y', @objName, 'moveY', 0
-		@actor.addPropOfObject 'Move on Element', @objName, 'moveOnEl', 0
+		@actor.addPropOfObject 'Move', @objName, 'move', 0
+		@actor.addPropOfObject 'Change Base Position', @objName, 'changeBase', 0
 
 		return
 
 	_defineVars: ->
 
-		@_margins = []
+		@_margins = [0, 0]
 		@_basePositions = [0, 0]
+		@_baseIndex = new Float32Array 1
 		@_pos = new Float32Array 2
+
+		return
 
 	addMargin: (marginX, marginY) ->
 
 		@_margins.push marginX
 		@_margins.push marginY
 
+		return
+
 	addBasePosition: (baseX, baseY) ->
 
 		@_basePositions.push baseX
 		@_basePositions.push baseY
+
+		return
 
 	move: (i) ->
 
 		index = 2 * (i | 0)
 		fract = i % 1
 
-		@_pos[0] = @_basePositions[index] + fract * (@_margins[index + 2] - @_margins[x])
-		@_pos[1] = @_basePositions[index + 1] + fract * (@_margins[index + 3] - @_margins[x + 1])
+		@_pos[0] = @_basePositions[@_baseIndex ] + fract * (@_margins[index + 2] - @_margins[index])
+		@_pos[1] = @_basePositions[@_baseIndex + 1] + fract * (@_margins[index + 3] - @_margins[index + 1])
 
-	changeBase: (i) ->
+		do @_move
+
+	changeBase: (@_baseIndex) ->
 
 	_move: ->
 
 		@el.x @_pos[0]
 		@el.y @_pos[1]
+
+		return
