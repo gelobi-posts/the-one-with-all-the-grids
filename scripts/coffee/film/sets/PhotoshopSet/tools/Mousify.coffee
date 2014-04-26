@@ -23,8 +23,7 @@ module.exports = class Mousify
 	_defineVars: ->
 
 		@_elements = []
-		@_fMargin = new Float32Array 2
-		@_vMargin = new Float32Array 2
+		@_margin = new Float32Array 2
 		@_elPos = new Float32Array 2
 
 		@_elements[0] = document.body
@@ -35,13 +34,13 @@ module.exports = class Mousify
 
 	moveX: (x) ->
 
-		@_fMargin[0] = x
+		@_margin[0] = x
 
 		do @_move
 
 	moveY: (y) ->
 
-		@_fMargin[1] = y
+		@_margin[1] = y
 
 		do @_move
 
@@ -60,14 +59,17 @@ module.exports = class Mousify
 			f = @_elements[Math.floor(index)].getBoundingClientRect()
 			c = @_elements[Math.ceil(index)].getBoundingClientRect()
 
-			@_vMargin[0] = frac * (c.left + .5 * c.width - f.left + .5 * f.width)
-			@_vMargin[1] = frac * (c.top + .5 * c.height - f.top + .5 * f.height)
+			x = f.left + .5 * f.width
+			y = f.top + .5 * f.height
+
+			@_elPos[0] = x + frac * (c.left + .5 * c.width - x)
+			@_elPos[1] = y + frac * (c.top + .5 * c.height - y)
 
 		do @_move
 
 	_move: ->
 
-		@el.x @_elPos[0] + @_fMargin[0] + @_vMargin[0]
-		@el.y @_elPos[1] + @_fMargin[1] + @_vMargin[1]
+		@el.x @_elPos[0] + @_margin[0]
+		@el.y @_elPos[1] + @_margin[1]
 
 		return
