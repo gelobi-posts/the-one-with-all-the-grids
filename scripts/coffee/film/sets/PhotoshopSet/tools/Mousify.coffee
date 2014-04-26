@@ -6,7 +6,9 @@ module.exports = class Mousify
 		do @_defineVars
 		do @_recalculate
 
-		document.addEventListener 'resize', => do @_recalculate
+		document.addEventListener 'resize', =>
+
+			do @_recalculate
 
 	_addToTheatre: ->
 
@@ -27,9 +29,9 @@ module.exports = class Mousify
 
 	_recalculate: ->
 
-		for fn in @_recalculators
+		for fn, i in @_recalculators
 
-			@_steps.push(fn())
+			@_steps[i + 1] = fn()
 
 		console.log @_steps
 
