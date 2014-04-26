@@ -4,6 +4,6 @@ module.exports = (film) ->
 
 	m = new Mousify film.sets.photoshop.cursor, film, 'Mouse', 'Mousify'
 
-	m.addMargin	100, 500
+	m.addMargin	100, 0
 
 
