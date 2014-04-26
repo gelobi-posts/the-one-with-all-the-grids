@@ -58,5 +58,5 @@ module.exports = (set) ->
 		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
-	cursor = set._makeEl '#photoshop-cursor'
+	set.cursor = set._makeEl '#photoshop-cursor'
 	.inside container
