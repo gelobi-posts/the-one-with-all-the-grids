@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 289
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 9674.007364838271
+    t: 102045.58111015425
     _focus:
-      from: 8390.400835148637
-      to: 11906.526458023396
+      from: 99345.58111015442
+      to: 102861.70673302918
 
     _lastPlayedTickAt: 0
 
@@ -72,20 +72,7 @@
       }
       {
         name: "Intro"
-        propHolders: [
-          {
-            id: "no-id-Intro-I'm-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-I'm-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-I'm-X"
-            _expanded: true
-            actorPropId: "no-id-Intro-I'm-X"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
       {
         name: "The Panel"
