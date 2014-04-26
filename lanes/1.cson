@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 102045.58111015425
+    t: 105464.49890995008
     _focus:
-      from: 99345.58111015442
-      to: 102861.70673302918
+      from: 102870.70580400233
+      to: 106386.83142687708
 
     _lastPlayedTickAt: 0
 
@@ -72,7 +72,12 @@
       }
       {
         name: "Intro"
-        propHolders: []
+        propHolders: [
+          id: "no-id-Mousify-Mouse-Move X"
+          _expanded: true
+          actorPropId: "no-id-Mousify-Mouse-Move X"
+          _height: 80
+        ]
       }
       {
         name: "The Panel"

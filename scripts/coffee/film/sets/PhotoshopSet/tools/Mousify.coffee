@@ -6,7 +6,7 @@ module.exports = class Mousify
 		do @_defineVars
 
 	_addToTheatre: ->
-		console.log 'a'
+
 		@objName = String(@groupName + ' ' + @actorName).replace(/\s+/g, '-').toLowerCase()
 
 		@actor = @film.theatre.model.graph.getGroup @groupName
