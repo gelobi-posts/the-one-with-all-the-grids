@@ -57,3 +57,6 @@ module.exports = (set) ->
 	set._setupDomEl 'Photoshop', 'Layers', layers, [
 		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
+
+	cursor = set._makeEl '#photoshop-cursor'
+	.inside container

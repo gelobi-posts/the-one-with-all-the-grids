@@ -2,8 +2,7 @@ Mousify = require './tools/Mousify'
 
 module.exports = (film) ->
 
-	el = film._makeEl '#photoshop-cursor'
-	.inside film.sets.photoshop.container
+	el = film.sets.photoshop.container.node.querySelector '#photoshop-cursor'
 
 	m = new Mousify film, 'Mousify', 'Mouse'
 
