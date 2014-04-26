@@ -45,11 +45,14 @@ module.exports = class Mousify
 		if i is @_length
 
 			x = @_steps[index].x
+			y = @_steps[index].y
 
-		before = @_steps[index]
-		after = @_steps[index + 1]
+		else
 
-		@el.x before.x + fract * (after.x - before.x)
-		@el.y before.y + fract * (after.y - before.y)
+			before = @_steps[index]
+			after = @_steps[index + 1]
+
+			@el.x before.x + fract * (after.x - before.x)
+			@el.y before.y + fract * (after.y - before.y)
 
 		@_now = i
