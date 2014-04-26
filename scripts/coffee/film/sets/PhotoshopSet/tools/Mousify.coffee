@@ -25,7 +25,7 @@ module.exports = class Mousify
 
 		@_steps = [{x: 0, y: 0}]
 		@_now = 1
-		@_length = @_recalculators.length + 1
+		@_length = @_recalculators.length
 
 	_recalculate: ->
 
