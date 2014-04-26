@@ -1,6 +1,6 @@
 module.exports = class Mousify
 
-	constructor: (@n, @film, @groupName, @actorName) ->
+	constructor: (@film, @groupName, @actorName) ->
 
 		do @_addToTheatre
 		do @_defineVars
@@ -14,8 +14,8 @@ module.exports = class Mousify
 
 		@film.theatre.timeline.addObject @objName, @
 
-		@actor.addPropOfObject 'Move to X', @objName, 'moveToX', 0
-		@actor.addPropOfObject 'Move to Y', @objName, 'moveToY', 0
+		@actor.addPropOfObject 'Move X', @objName, 'moveX', 0
+		@actor.addPropOfObject 'Move Y', @objName, 'moveY', 0
 		@actor.addPropOfObject 'Move on Element', @objName, 'moveOnEl', 0
 
 		return
@@ -35,18 +35,27 @@ module.exports = class Mousify
 
 		return
 
-	moveToX: (x) ->
+	moveX: (x) ->
 
-		return
+		@_pos[0] += x
 
-	moveToY: (y) ->
+		do @_move
 
-		return
+	moveY: (y) ->
+
+		@_pos[1] += y
+
+		do @_move
 
 	moveOnEl: (index) ->
 
-		el = @_elements[index]
+		c = @_elements[index].getBoundingClientRect()
 
+		@_pos[0] = c.left + .5 * c.width
+		@_pos[1] = c.top + .5 * c.height
 
+		do @_move
 
-		return
+	_move: ->
+
+		console.log @_pos
