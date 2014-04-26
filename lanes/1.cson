@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 38848.35991041872
+    t: 24042.030877505273
     _focus:
-      from: 38226.785401772446
-      to: 41742.91102464723
+      from: 21533.66510888539
+      to: 25049.790731760182
 
     _lastPlayedTickAt: 0
 
@@ -77,13 +77,13 @@
             id: "no-id-Mouse-Mousify-Move Y"
             _expanded: true
             actorPropId: "no-id-Mouse-Mousify-Move Y"
-            _height: 80
+            _height: 51
           }
           {
             id: "no-id-Mouse-Mousify-Move on Element"
             _expanded: true
             actorPropId: "no-id-Mouse-Mousify-Move on Element"
-            _height: 80
+            _height: 188
           }
         ]
       }
@@ -5486,10 +5486,32 @@
 
       "no-id-Mouse-Mousify-Move on Element":
         pacs:
-          _idCounter: 7
-          chronologyLength: 40054.72937098664
+          _idCounter: 11
+          chronologyLength: 39396.37530561573
           chronology:
             points: [
+              {
+                t: 24235.12355030959
+                value: 1
+                id: "no-id-Mouse-Mousify-Move on Element-point-9"
+                handler: [
+                  100
+                  0.03869999945163727
+                  120.22875213623047
+                  0.2978285551071167
+                ]
+              }
+              {
+                t: 24608.4360510646
+                value: 2
+                id: "no-id-Mouse-Mousify-Move on Element-point-10"
+                handler: [
+                  182.75399780273438
+                  -0.5316048860549927
+                  100
+                  0.13061250746250153
+                ]
+              }
               {
                 t: 39080.0711177839
                 value: 0
@@ -5512,26 +5534,15 @@
                   0.9350000023841858
                 ]
               }
-              {
-                t: 40054.72937098664
-                value: 2
-                id: "no-id-Mouse-Mousify-Move on Element-point-4"
-                handler: [
-                  100
-                  0.05000000074505806
-                  100
-                  0.05000000074505806
-                ]
-              }
             ]
             connectors: [
               {
-                t: 39080.0711177839
-                id: "no-id-Mouse-Mousify-Move on Element-connector-2"
+                t: 24235.12355030959
+                id: "no-id-Mouse-Mousify-Move on Element-connector-11"
               }
               {
-                t: 39396.37530561573
-                id: "no-id-Mouse-Mousify-Move on Element-connector-7"
+                t: 39080.0711177839
+                id: "no-id-Mouse-Mousify-Move on Element-connector-2"
               }
             ]
 
