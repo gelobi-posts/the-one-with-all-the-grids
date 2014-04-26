@@ -24,6 +24,7 @@ module.exports = class Mousify
 
 		@_elements = []
 		@_pos = new Float32Array 2
+		@_elPos = new Float32Array 2
 
 		@_elements[0] = document.body
 
@@ -37,22 +38,23 @@ module.exports = class Mousify
 
 	moveX: (x) ->
 
-		@_pos[0] += x
+		@_pos[0] = @_elPos[0] + x
 
 		do @_move
 
 	moveY: (y) ->
 
-		@_pos[1] += y
+		@_pos[1] = @_elPos[1] + y
 
 		do @_move
 
 	moveOnEl: (index) ->
 
-		c = @_elements[index].getBoundingClientRect()
+		dest = @_elements[Math.ceil(index)].getBoundingClientRect()
+		frac = index % 1
 
-		@_pos[0] = c.left + .5 * c.width
-		@_pos[1] = c.top + .5 * c.height
+		@_pos[0] = @_elPos[0] = c.left + .5 * c.width
+		@_pos[1] = @_elPos[1] = c.top + .5 * c.height
 
 		do @_move
 
