@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 25293.915401605725
+    t: 25990.6005510702
     _focus:
-      from: 22080.658316311044
-      to: 25596.783939185836
+      from: 23536.012493199476
+      to: 27052.138116074268
 
     _lastPlayedTickAt: 0
 
@@ -5483,17 +5483,6 @@
           chronology:
             points: [
               {
-                t: 24000.55117733682
-                value: -75.8677686886354
-                id: "no-id-Mouse-Mousify-Move Y-point-7"
-                handler: [
-                  100
-                  -7.5867767333984375
-                  100
-                  -7.5867767333984375
-                ]
-              }
-              {
                 t: 24759.23223363559
                 value: 0
                 id: "no-id-Mouse-Mousify-Move Y-point-5"
@@ -5520,7 +5509,7 @@
 
       "no-id-Mouse-Mousify-Move on Element":
         pacs:
-          _idCounter: 11
+          _idCounter: 13
           chronologyLength: 39396.37530561573
           chronology:
             points: [
@@ -5572,7 +5561,7 @@
             connectors: [
               {
                 t: 24235.12355030959
-                id: "no-id-Mouse-Mousify-Move on Element-connector-11"
+                id: "no-id-Mouse-Mousify-Move on Element-connector-12"
               }
               {
                 t: 39080.0711177839

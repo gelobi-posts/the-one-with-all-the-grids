@@ -23,7 +23,7 @@ module.exports = class Mousify
 	_defineVars: ->
 
 		@_elements = []
-		@_pos = new Float32Array 2
+		@_margin = new Float32Array 2
 		@_elPos = new Float32Array 2
 
 		@_elements[0] = document.body
