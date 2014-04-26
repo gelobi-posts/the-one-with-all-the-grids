@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 105464.49890995008
+    t: 104601.18394789622
     _focus:
       from: 102870.70580400233
       to: 106386.83142687708
@@ -73,10 +73,24 @@
       {
         name: "Intro"
         propHolders: [
-          id: "no-id-Mousify-Mouse-Move X"
-          _expanded: true
-          actorPropId: "no-id-Mousify-Mouse-Move X"
-          _height: 80
+          {
+            id: "no-id-Mousify-Mouse-Move X"
+            _expanded: true
+            actorPropId: "no-id-Mousify-Mouse-Move X"
+            _height: 80
+          }
+          {
+            id: "no-id-Mousify-Mouse-Move Y"
+            _expanded: true
+            actorPropId: "no-id-Mousify-Mouse-Move Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Mousify-Mouse-Move on Element"
+            _expanded: true
+            actorPropId: "no-id-Mousify-Mouse-Move on Element"
+            _height: 80
+          }
         ]
       }
       {
@@ -5425,6 +5439,24 @@
                 2
                 100
                 2
+              ]
+            ]
+            connectors: []
+
+      "no-id-Mousify-Mouse-Move Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 104347.40500649628
+          chronology:
+            points: [
+              t: 104347.40500649628
+              value: 100
+              id: "no-id-Mousify-Mouse-Move Y-point-0"
+              handler: [
+                100
+                7.25
+                100
+                7.25
               ]
             ]
             connectors: []
