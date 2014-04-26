@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24593.424749032638
+    t: 24997.993406054586
     _focus:
       from: 23536.012493199476
       to: 27052.138116074268
@@ -5540,7 +5540,7 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 1
+          _idCounter: 2
           chronologyLength: 24735.02604242247
           chronology:
             points: [
@@ -5567,7 +5567,10 @@
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              t: 24437.111632952954
+              id: "no-id-Mouse-Mousify-Move-connector-2"
+            ]
 
   timelineEditor:
     scrollTop: -1

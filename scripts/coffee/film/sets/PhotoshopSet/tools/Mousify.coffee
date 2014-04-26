@@ -24,7 +24,9 @@ module.exports = class Mousify
 		@_margins = [0, 0]
 		@_basePositions = [0, 0]
 		@_baseIndex = new Float32Array 1
+
 		@_pos = new Float32Array 2
+		@_margin = new Float32Array 2
 
 		return
 
@@ -47,12 +49,19 @@ module.exports = class Mousify
 		index = 2 * (i | 0)
 		fract = i % 1
 
+		if fract is 0
+
+		else
+
 		@_pos[0] = @_basePositions[@_baseIndex ] + fract * (@_margins[index + 2] - @_margins[index])
 		@_pos[1] = @_basePositions[@_baseIndex + 1] + fract * (@_margins[index + 3] - @_margins[index + 1])
 
 		do @_move
 
 	changeBase: (@_baseIndex) ->
+
+		@_margin[0] = 0
+		@_margin[1] = 0
 
 	_move: ->
 
