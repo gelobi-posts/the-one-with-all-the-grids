@@ -1,6 +1,6 @@
 module.exports = class Mousify
 
-	constructor: (@el, @film, @groupName, @actorName,) ->
+	constructor: (@el, @film, @groupName, @actorName) ->
 
 		do @_addToTheatre
 		do @_defineVars
@@ -15,7 +15,6 @@ module.exports = class Mousify
 		@film.theatre.timeline.addObject @objName, @
 
 		@actor.addPropOfObject 'Move', @objName, 'move', 0
-		@actor.addPropOfObject 'Change Base Position', @objName, 'changeBase', 0
 
 		return
 
@@ -23,47 +22,25 @@ module.exports = class Mousify
 
 		@_margins = [0, 0]
 		@_basePositions = [0, 0]
-		@_baseIndex = new Float32Array 1
 
 		@_pos = new Float32Array 2
 		@_margin = new Float32Array 2
 
 		return
 
-	addMargin: (marginX, marginY) ->
-
-		l = @_margins.length
-
-		@_margins.push marginX
-		@_margins.push marginY
-
-		return
-
-	addBasePosition: (baseX, baseY) ->
-
-		@_basePositions.push baseX
-		@_basePositions.push baseY
-
-		return
-
 	move: (i) ->
 
-		index = 2 * Math.ceil(i)
-		fract = i - (i | 0)
+		index = i | 0
+		fract = i - index
 
-		@_margin[0] = fract * @_margins[index]
-		@_margin[1] = fract * @_margins[index + 1]
+		@_pos[0] =  fract * @_margins[index]
+		@_pos[1] = fract * @_margins[index + 1]
 
 		do @_move
 
-	changeBase: (@_baseIndex) ->
-
-		@_margin[0] = 0
-		@_margin[1] = 0
-
 	_move: ->
 
-		@el.x @_basePositions[@_baseIndex] + @_margin[0]
-		@el.y @_basePositions[@_baseIndex + 1] + @_margin[1]
+		@el.x @_pos[0]
+		@el.y @_pos[1]
 
 		return
