@@ -45,7 +45,7 @@ module.exports = class Mousify
 		do @_move
 
 	moveOnEl: (index) ->
-		console.log index
+
 		frac = index % 1
 
 		if frac is 0
@@ -56,9 +56,14 @@ module.exports = class Mousify
 
 		else
 
-			dest = @_elements[Math.ceil(index)].getBoundingClientRect()
-			@_pos[0] = @_elPos[0] = @_elPos[0] + frac * (dest.left + .5 * dest.width - @_elPos[0])
-			@_pos[1] = @_elPos[1] = @_elPos[1] + frac * (dest.top + .5 * dest.height - @_elPos[1])
+			f = @_elements[Math.floor(index)].getBoundingClientRect()
+			c = @_elements[Math.ceil(index)].getBoundingClientRect()
+
+			x = f.left + .5 * f.width
+			y = f.top + .5 * f.height
+
+			@_pos[0] = x + frac * (c.left + .5 * c.width - x)
+			@_pos[1] = y + frac * (c.top + .5 * c.height - y)
 
 		do @_move
 
