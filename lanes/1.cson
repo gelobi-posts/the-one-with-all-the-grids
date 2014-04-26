@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 39875.24045287025
+    t: 39699.893469773364
     _focus:
       from: 38226.785401772446
       to: 41742.91102464723
@@ -73,10 +73,18 @@
       {
         name: "Intro"
         propHolders: [
-          id: "no-id-Mouse-Mousify-Move Y"
-          _expanded: true
-          actorPropId: "no-id-Mouse-Mousify-Move Y"
-          _height: 80
+          {
+            id: "no-id-Mouse-Mousify-Move Y"
+            _expanded: true
+            actorPropId: "no-id-Mouse-Mousify-Move Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-Mousify-Move on Element"
+            _expanded: true
+            actorPropId: "no-id-Mouse-Mousify-Move on Element"
+            _height: 80
+          }
         ]
       }
       {
@@ -5471,35 +5479,43 @@
       "no-id-Mouse-Mousify-Move Y":
         pacs:
           _idCounter: 4
-          chronologyLength: 39549.010466022955
+          chronologyLength: 39398.21428345196
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Mouse-Mousify-Move on Element":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 39396.37530561573
           chronology:
             points: [
               {
-                t: 39398.21428345196
+                t: 39080.0711177839
                 value: 0
-                id: "no-id-Mouse-Mousify-Move Y-point-1"
+                id: "no-id-Mouse-Mousify-Move on Element-point-1"
                 handler: [
                   100
-                  9.99625015258789
+                  0.03999999910593033
                   100
-                  9.99625015258789
+                  0.03999999910593033
                 ]
               }
               {
-                t: 39549.010466022955
-                value: 100
-                id: "no-id-Mouse-Mousify-Move Y-point-3"
+                t: 39396.37530561573
+                value: 1
+                id: "no-id-Mouse-Mousify-Move on Element-point-0"
                 handler: [
                   100
-                  0.0999625027179718
+                  -0.5
                   100
-                  0.0999625027179718
+                  -0.5
                 ]
               }
             ]
             connectors: [
-              t: 39398.21428345196
-              id: "no-id-Mouse-Mousify-Move Y-connector-4"
+              t: 39080.0711177839
+              id: "no-id-Mouse-Mousify-Move on Element-connector-2"
             ]
 
   timelineEditor:

@@ -2,8 +2,8 @@ Mousify = require './tools/Mousify'
 
 module.exports = (film) ->
 
-	el = film.sets.photoshop.cursor
+	m = new Mousify film.sets.photoshop.cursor, film, 'Mouse', 'Mousify'
 
-	m = new Mousify el, film, 'Mouse', 'Mousify'
+	m.addElement film.sets.thePanel.thePanel.node.querySelector '#griddify-button'
 
 

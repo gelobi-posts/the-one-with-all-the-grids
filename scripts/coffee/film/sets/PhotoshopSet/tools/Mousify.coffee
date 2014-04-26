@@ -28,13 +28,9 @@ module.exports = class Mousify
 
 		@_elements[0] = document.body
 
-	addElements: (elements) ->
+	addElement: (el) ->
 
-		for el in elements
-
-			@_elements.push el
-
-		return
+		@_elements.push el
 
 	moveX: (x) ->
 
@@ -53,8 +49,15 @@ module.exports = class Mousify
 		dest = @_elements[Math.ceil(index)].getBoundingClientRect()
 		frac = index % 1
 
-		@_pos[0] = @_elPos[0] = c.left + .5 * c.width
-		@_pos[1] = @_elPos[1] = c.top + .5 * c.height
+		if frac is 0
+
+			@_pos[0] = @_elPos[0] = dest.left + .5 * dest.width
+			@_pos[1] = @_elPos[1] = dest.top + .5 * dest.height
+
+		else
+
+			@_pos[0] = @_elPos[0] + frac * (dest.left + .5 * dest.width - @_elPos[0])
+			@_pos[1] = @_elPos[1] + frac * (dest.top + .5 * dest.height - @_elPos[1])
 
 		do @_move
 
