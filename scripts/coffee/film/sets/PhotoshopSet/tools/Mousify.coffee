@@ -58,7 +58,7 @@ module.exports = class Mousify
 
 	_move: ->
 
-		@el.x = @_pos[0]
-		@el.y = @_pos[1]
+		@el.x @_pos[0]
+		@el.y @_pos[1]
 
 		return
