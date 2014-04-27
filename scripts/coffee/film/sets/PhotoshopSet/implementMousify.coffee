@@ -6,7 +6,7 @@ module.exports = (film) ->
 
 		() -> return {x: window.innerWidth / 2, y: window.innerHeight / 2}
 
-		() -> return {x: 450, y: 15},
+		() -> return {x: 100, y: 100},
 
 	]
 

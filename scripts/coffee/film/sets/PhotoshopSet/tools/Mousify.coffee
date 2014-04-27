@@ -30,14 +30,15 @@ module.exports = class Mousify
 
 		for fn, i in @_recalculators
 
+			fn = fn()
+			prev = @_steps[i]
+
 			@_steps[i + 1] =
 
-				x: @_steps[i].x + fn().x
-				y: @_steps[i].y + fn().y
+				x: prev.x + fn.x
+				y: prev.y + fn.y
 
 		@_steps[i + 1] = {x:0, y:0}
-
-		console.log @_steps
 
 		@move @_now
 
