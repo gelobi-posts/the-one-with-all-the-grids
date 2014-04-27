@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 141324.49535716232
+    t: 87664.42588522747
     _focus:
       from: 63979.98142864932
       to: 167106
@@ -147,7 +147,7 @@
             id: "no-id-Theatre-The Ball-Y"
             _expanded: true
             actorPropId: "no-id-Theatre-The Ball-Y"
-            _height: 180
+            _height: 190
           }
           {
             id: "no-id-Theatre-The Ball-Scale Y"
