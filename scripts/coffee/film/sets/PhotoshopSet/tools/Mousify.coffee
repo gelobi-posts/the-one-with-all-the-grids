@@ -25,13 +25,19 @@ module.exports = class Mousify
 
 		@_steps = [{x: 0, y: 0}]
 		@_now = 1
-		@_length = @_recalculators.length
 
 	_recalculate: ->
 
 		for fn, i in @_recalculators
 
-			@_steps[i + 1] = fn()
+			@_steps[i + 1] =
+
+				x: @_steps[i].x + fn().x
+				y: @_steps[i].y + fn().y
+
+		@_steps[i + 1] = {x:0, y:0}
+
+		console.log @_steps
 
 		@move @_now
 
@@ -40,22 +46,12 @@ module.exports = class Mousify
 	move: (i) ->
 
 		index = i | 0
-		fract = i - index
+		progress = i - index
 
-		if i is @_length
+		before = @_steps[index]
+		after = @_steps[index + 1]
 
-			x = @_steps[index].x
-			y = @_steps[index].y
-
-		else
-
-			before = @_steps[index]
-			after = @_steps[index + 1]
-
-			x =  before.x + fract * (after.x - before.x)
-			y = before.y + fract * (after.y - before.y)
-
-		@el.x x
-		@el.y y
+		@el.x  before.x + progress * (after.x - before.x)
+		@el.y before.y + progress * (after.y - before.y)
 
 		@_now = i
