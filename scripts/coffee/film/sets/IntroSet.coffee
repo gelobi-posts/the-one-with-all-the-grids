@@ -20,12 +20,24 @@ module.exports = class IntroSet extends Set
 		]
 
 		griddify = @_makeEl '#intro-griddify'
-		.html 'Griddify'
+		# .html 'Griddify'
 		.inside @container
 
 		@_setupDomEl 'Intro', "Griddify", griddify, [
 			'opacity', 'translation', 'wysihwyg'
 		]
+
+		aft = ['', '', ' 1', ' 1', ' 2', ' 2', '', '']
+
+		for letter, i in 'Griddify'
+
+			el = @_makeEl '.letter'
+			.html letter
+			.inside griddify
+
+			@_setupDomEl 'Intro', 'Griddify Letter ' + letter + aft[i], el, [
+				'opacity', 'translation'
+			]
 
 		gelobiContainer = @_makeEl '#intro-gelobiContainer'
 		.inside @container

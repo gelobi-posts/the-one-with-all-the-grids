@@ -112,3 +112,39 @@
 	background: url('../../images/photoshop/pspanels-layers.png')
 
 	@include transform-origin(274px)
+
+#photoshop-cursor
+
+	position: absolute
+
+	left: 0
+	top: 0
+
+	width: 20px
+	height: 20px
+
+	z-index: 1000
+
+	&.cursor
+
+		background: url('../../images/photoshop/mouse.svg') no-repeat
+		background-size: auto 100%
+
+	&.pointer
+
+		background: url('../../images/photoshop/mouse.svg') no-repeat
+		background-size: 50%
+
+	&.text
+
+		&:after
+
+			@include psuedo
+
+			width: 1px
+			height: 100%
+
+			position: absolute
+
+			background: black
+
