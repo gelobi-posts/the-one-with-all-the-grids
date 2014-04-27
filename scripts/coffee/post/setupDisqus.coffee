@@ -14,7 +14,7 @@ module.exports = () ->
 	comments.appendChild showComments
 
 	disqus = document.createElement 'div'
-	disqus.setAttribute 'id', 'discus_thread'
+	disqus.setAttribute 'id', 'disqus_thread'
 
 	comments.appendChild disqus
 
@@ -27,8 +27,6 @@ module.exports = () ->
 		    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 		    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 		    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-
-
 
 		`
 
