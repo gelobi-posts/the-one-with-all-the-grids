@@ -9,4 +9,3 @@ module.exports = (film) ->
 		() -> return {x: 213, y: 46},
 
 	]
-
