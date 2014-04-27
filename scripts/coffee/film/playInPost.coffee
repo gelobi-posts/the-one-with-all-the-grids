@@ -5,7 +5,6 @@ setupLane1 = require './lanes/1'
 laneData = require "../../../lanes/1.json"
 Moosh = require 'moosh'
 Kilid = require 'kilid'
-setupDisqus = require '../post/setupDisqus'
 
 kilid = new Kilid(null, 'kilid').getRootScope()
 moosh = new Moosh document.body, kilid
@@ -27,3 +26,6 @@ player = new SimplePlayer film
 setupLane1 film
 
 film.run()
+
+setupDisqus = require '../post/setupDisqus'
+setupDisqus()
