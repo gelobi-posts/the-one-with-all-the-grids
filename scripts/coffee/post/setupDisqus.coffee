@@ -9,7 +9,7 @@ module.exports = () ->
 
 	showComments = document.createElement 'div'
 	showComments.classList.add 'show-comments'
-	showComments.innerHTML = """<a href="#disqus_thread">Show Comments</a>"""
+	showComments.innerHTML = """<a class="comments-link" href="#disqus_thread">Show Comments</a>"""
 
 	comments.appendChild showComments
 
@@ -18,11 +18,13 @@ module.exports = () ->
 
 	comments.appendChild disqus
 
-	showComments.addEventListener 'click', =>
+	disqus_shortname = 'gelobi'
+
+	showComments.addEventListener 'click', (event) =>
+
+		showComments.classList.add 'hidden'
 
 		`
-			var disqus_shortname = 'gelobi';
-
 
 			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -30,7 +32,8 @@ module.exports = () ->
 
 		`
 
-		return
+		event.preventDefault()
+		return false
 
 	return
 
