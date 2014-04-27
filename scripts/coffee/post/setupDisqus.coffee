@@ -9,7 +9,7 @@ module.exports = () ->
 
 	showComments = document.createElement 'div'
 	showComments.classList.add 'show-comments'
-	showComments.innerHTML = 'Show Comments'
+	showComments.innerHTML = """<a href="#disqus_thread">Show Comments</a>"""
 
 	comments.appendChild showComments
 
