@@ -4,9 +4,9 @@ module.exports = (film) ->
 
 	m = new Mousify film.sets.photoshop.cursor, film, 'Mouse', 'Mousify', [
 
-		() -> return {x: window.innerWidth / 2, y: window.innerHeight / 2}
+		() -> return {x: window.innerWidth * .4, y: window.innerHeight * .2}
 
-		() -> return {x: 100, y: 100},
+		() -> return {x: 213, y: 46},
 
 	]
 
