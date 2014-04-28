@@ -1,14 +1,13 @@
 {
   mainBox:
     height: 389
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-
-    t: 21992.00000000489
+    t: 0
     _focus:
-      from: 19058.000000003783
-      to: 38108.4981412681
+      from: 0
+      to: 19050.49814126428
 
     _lastPlayedTickAt: 0
 
@@ -182,7 +181,7 @@
         propHolders: [
           {
             id: "no-id-Theatre-The Ball-Y"
-            _expanded: true
+            _expanded: false
             actorPropId: "no-id-Theatre-The Ball-Y"
             _height: 180
           }
