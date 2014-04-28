@@ -6,7 +6,9 @@ module.exports = class IntroSet extends Set
 
 		super
 
-		@container = @film.display.makeSetContainer()
+		@id = 'intro'
+
+		@container = @makeSetContainer([100, 30000])
 		.set 'id', 'intro-container'
 
 		im = @_makeEl '#intro-im'
