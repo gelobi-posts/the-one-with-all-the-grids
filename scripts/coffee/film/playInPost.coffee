@@ -1,4 +1,5 @@
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
+ScrollbarAgnosticContainer = require '../lib/ScrollbarAgnosticContainer'
 SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
 FinishedFilm = require 'tiny-filmmaking-studio/scripts/js/lib/FinishedFilm'
 setupLane1 = require './lanes/1'
@@ -15,6 +16,7 @@ film = new FinishedFilm
 
 	lane: laneData
 
+new ScrollbarAgnosticContainer document.body
 display = new ResponsiveRestorableDisplay document.body, document.getElementById 'filmSpace'
 
 film.display = display
