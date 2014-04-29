@@ -1,3 +1,4 @@
+require '../lib/shims'
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
 ScrollbarAgnosticContainer = require '../lib/ScrollbarAgnosticContainer'
 SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
