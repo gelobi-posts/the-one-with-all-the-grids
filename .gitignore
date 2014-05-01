@@ -14,7 +14,7 @@ lanes/*.json
 npm-debug.log
 !*.gitkeep
 
-css
-.sass-cache
+styles/css
+styles/.sass-cache
 
 pg*.*
