@@ -44,7 +44,7 @@ module.exports = class TheatreSet extends Set
 	_prepareTheBall: ->
 
 		@theBall = @_makeEl '#theatre-theBall'
-		.inside @container
+		.inside @browserViewport
 
 		@_setupDomEl 'Theatre', "The Ball", @theBall, [
 			'translation', 'scale'
