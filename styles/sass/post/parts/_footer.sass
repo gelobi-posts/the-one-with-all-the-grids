@@ -1,3 +1,215 @@
 .footer
 
-	margin-bottom: 200px
+	position: relative
+
+	width: 760px
+	height: auto
+
+	overflow: auto
+
+	margin:
+
+		left: auto
+		right: auto
+		bottom: 100px
+		top: 20px
+
+	border-top: 1px solid rgba(0, 0, 0, .05)
+
+	padding-top: 10px
+
+.newsletter
+
+	width: 50%
+	height: auto
+
+	float: left
+
+	form
+
+		width: 100%
+
+.subscribe-label
+
+	font-family: "Droid Sans", Helvetica, sans-serif
+
+	font-size: 14px
+
+	color: #999
+
+#mce-EMAIL
+
+	margin-top: 5px
+
+	width: 60%
+	height: 40px
+
+	float: left
+
+	box-sizing: border-box
+
+	border: none
+	border-bottom: 1px solid rgba(0, 0, 0, .1)
+
+	text-indent: 10px
+
+	font-family: "Droid Sans", Helvetica, sans-serif
+	font-size: 14px
+
+	background: none
+
+	&:focus
+
+		outline: none
+
+.clear
+
+	height: 40px
+	width: 40%
+
+	margin-top: 5px
+
+	float: left
+	position: relative
+
+#mc-embedded-subscribe
+
+	margin: 0
+
+	position: absolute
+
+	left: 20px
+	top: 0
+
+	height: 40px
+
+	border: none
+	background: none
+
+	color: #000
+	font-size: 13px
+
+	cursor: pointer
+
+	&:focus
+
+		outline: none
+
+	&:before
+
+		@include psuedo
+
+		position: absolute
+		left: 0
+		right: 0
+		top: -4px
+		bottom: 0px
+
+		border-bottom: 1px solid #636363
+
+		z-index: -1
+
+	&:after
+
+		@include psuedo
+
+		position: absolute
+		left: -3px
+		right: -3px
+		top: -4px
+		bottom: -4px
+
+		z-index: -1
+
+		background: #222
+
+		@include transform(scale(0.9) translateZ(-1px))
+
+		@include transition(all 0.15s)
+
+		opacity: 0
+
+	&:hover
+
+		color: #FAFAFA
+
+		&:after
+
+			@include transform(scale(1) translateZ(-1px))
+
+			opacity: 1
+
+.footer-links
+
+	position: absolute
+
+	width: 30%
+
+	top: 0
+	bottom: 0
+	right: 0
+
+.pixana-link
+
+	position: absolute
+
+	right: 0
+	bottom: 30px
+
+	font-size: 14px
+	font-family: "Droid Sans", Helvetica, sans-serif
+	color: #999
+
+.font-icon
+
+	height: 30px
+	width: 30px
+	line-height: 30px
+	font-size: 28px
+	text-indent: -4px
+
+	position: absolute
+	bottom: 0
+
+	color: rgba(0, 0, 0, .1)
+
+	@include transition(color .2s)
+
+.footer-icons
+
+	position: absolute
+
+	bottom: 0
+	right: 0
+
+	width: 100%
+
+.social-twitter
+
+	@extend .font-icon
+
+	right: 96px
+
+	&:hover
+
+		color: #55acee
+
+.social-facebook
+
+	@extend .font-icon
+
+	right: 48px
+
+	&:hover
+
+		color: #45619d
+
+.license-cc
+
+	@extend .font-icon
+
+	right: 0
+
+	&:hover
+
+		color: #000

@@ -5,7 +5,8 @@ module.exports = () ->
 	comments = document.createElement 'div'
 	comments.classList.add 'comments'
 
-	container.appendChild comments
+	# container.appendChild comments
+	container.insertBefore comments, container.querySelector '.footer'
 
 	showComments = document.createElement 'div'
 	showComments.classList.add 'show-comments'
