@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 389
-    _isVisible: true
+    height: 665
+    _isVisible: false
 
   timeControl:
-    t: 51736.99848734688
+    t: 5615.364234497185
     _focus:
-      from: 49784.123154874185
-      to: 68834.62129613844
+      from: 0
+      to: 19050.49814126426
 
     _lastPlayedTickAt: 0
 
@@ -178,7 +178,44 @@
       }
       {
         name: "The Ball"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Intro-Gelobi Letter g-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter g-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter e-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter e-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter l-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter l-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter o-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter o-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter i-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter i-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter b-Z"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter b-Z"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "The Ball"
@@ -6039,4 +6076,112 @@
                 id: "no-id-Theatre-The Ball-X-connector-26"
               }
             ]
+
+      "no-id-Intro-Gelobi Letter g-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1096.0014621020232
+          chronology:
+            points: [
+              t: 1096.0014621020232
+              value: 1
+              id: "no-id-Intro-Gelobi Letter g-Z-point-0"
+              handler: [
+                100
+                0.5
+                100
+                0.5
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Letter e-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1086.0378124465503
+          chronology:
+            points: [
+              t: 1086.0378124465503
+              value: 1
+              id: "no-id-Intro-Gelobi Letter e-Z-point-0"
+              handler: [
+                100
+                -1.75
+                100
+                -1.75
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Letter l-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1036.2195641691856
+          chronology:
+            points: [
+              t: 1036.2195641691856
+              value: 1
+              id: "no-id-Intro-Gelobi Letter l-Z-point-0"
+              handler: [
+                100
+                -1.25
+                100
+                -1.25
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Letter o-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1096.0014621020232
+          chronology:
+            points: [
+              t: 1096.0014621020232
+              value: 1
+              id: "no-id-Intro-Gelobi Letter o-Z-point-0"
+              handler: [
+                100
+                -4
+                100
+                -4
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Letter i-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1086.0378124465503
+          chronology:
+            points: [
+              t: 1086.0378124465503
+              value: 1
+              id: "no-id-Intro-Gelobi Letter i-Z-point-0"
+              handler: [
+                100
+                -2.5
+                100
+                -2.5
+              ]
+            ]
+            connectors: []
+
+      "no-id-Intro-Gelobi Letter b-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 1056.1468634801315
+          chronology:
+            points: [
+              t: 1056.1468634801315
+              value: 1
+              id: "no-id-Intro-Gelobi Letter b-Z-point-0"
+              handler: [
+                100
+                -0.75
+                100
+                -0.75
+              ]
+            ]
+            connectors: []
 }
