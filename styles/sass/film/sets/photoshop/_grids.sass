@@ -19,6 +19,8 @@
 
 		border: 1px dashed #000
 
+		opacity: 0
+
 		@include transform-origin(left top)
 
 		> #griddify-forty
@@ -32,11 +34,13 @@
 
 			background: url('../../images/photoshop/grids/4.png')
 
+			opacity: 0
+
 		> #divide-four
 
-			> .v
+			@include full-screen
 
-				@include full-screen
+			> .v
 
 				> div
 
@@ -76,6 +80,8 @@
 
 		> #wrap-ten-v
 
+			@include full-screen
+
 			> .l
 
 				position: absolute
@@ -100,6 +106,8 @@
 				border-left: 1px solid #00ffcc
 
 		> #wrap-ten-h
+
+			@include full-screen
 
 			> .t
 
@@ -126,6 +134,8 @@
 
 		> #wrap-fifty-v
 
+			@include full-screen
+
 			> .l
 
 				position: absolute
@@ -150,6 +160,8 @@
 				border-left: 1px solid #00ffcc
 
 		> #wrap-fifty-h
+
+			@include full-screen
 
 			> .t
 
@@ -182,6 +194,8 @@
 
 			background: url('../../images/photoshop/grids/1.png')
 
+			opacity: 0
+
 		> #hundred-h
 
 			@include full-screen
@@ -199,6 +213,8 @@
 		> #four-h
 
 			@include full-screen
+
+			opacity: 0
 
 			> div
 
@@ -222,6 +238,8 @@
 
 		> #two
 
+			@include full-screen
+
 			> .v
 
 				position: absolute
@@ -241,6 +259,8 @@
 				border-bottom: 1px solid #00ffcc
 
 		> #three
+
+			@include full-screen
 
 			> .v
 

@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 127948.02952405156
+    t: 51736.99848734688
     _focus:
-      from: 60665.87440191387
-      to: 163791.89297326453
+      from: 49784.123154874185
+      to: 68834.62129613844
 
     _lastPlayedTickAt: 0
 
@@ -178,26 +178,7 @@
       }
       {
         name: "The Ball"
-        propHolders: [
-          {
-            id: "no-id-Theatre-The Ball-Y"
-            _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-Y"
-            _height: 180
-          }
-          {
-            id: "no-id-Theatre-The Ball-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-Scale Y"
-            _height: 175
-          }
-          {
-            id: "no-id-Theatre-The Ball-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-X"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "The Ball"
