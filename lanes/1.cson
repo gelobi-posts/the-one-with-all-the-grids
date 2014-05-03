@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 665
-    _isVisible: false
+    height: 439
+    _isVisible: true
 
   timeControl:
-    t: 5615.364234497185
+    t: 23255.090094461353
     _focus:
-      from: 0
-      to: 19050.49814126426
+      from: 12672.787656903763
+      to: 31723.285798167963
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -232
+    scrollTop: 125
     guides:
       _list: [
         1062.5025905606908
@@ -121,12 +121,6 @@
             actorPropId: "no-id-Mouse-Mousify-Move"
             _height: 253
           }
-          {
-            id: "no-id-Mouse-Classify-Set To"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Classify-Set To"
-            _height: 80
-          }
         ]
       }
       {
@@ -213,6 +207,12 @@
             id: "no-id-Intro-Gelobi Letter b-Z"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Letter b-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-domEl-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Opacity"
             _height: 80
           }
         ]
@@ -5897,10 +5897,20 @@
 
       "no-id-Mouse-domEl-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 39359.5957488911
+          _idCounter: 1
+          chronologyLength: 24053.54987478812
           chronology:
-            points: []
+            points: [
+              t: 24053.54987478812
+              value: 1
+              id: "no-id-Mouse-domEl-Opacity-point-1"
+              handler: [
+                100
+                2.25
+                100
+                2.25
+              ]
+            ]
             connectors: []
 
       "no-id-Mouse-Mousify-Move Y":

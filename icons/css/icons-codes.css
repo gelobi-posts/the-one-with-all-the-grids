@@ -6,6 +6,10 @@
 .icon-resize-full-1:before { content: '\e80a'; } /* '' */
 .icon-resize-full-alt:before { content: '\e809'; } /* '' */
 .icon-resize-small-4:before { content: '\e862'; } /* '' */
+.icon-down-open:before { content: '\e86c'; } /* '' */
+.icon-left-open:before { content: '\e86d'; } /* '' */
+.icon-right-open:before { content: '\e86e'; } /* '' */
+.icon-up-open:before { content: '\e86f'; } /* '' */
 .icon-facebook-7:before { content: '\e861'; } /* '' */
 .icon-facebook-squared:before { content: '\e860'; } /* '' */
 .icon-github-5:before { content: '\e85f'; } /* '' */
@@ -18,6 +22,10 @@
 .icon-mail-2:before { content: '\e865'; } /* '' */
 .icon-resize-full-2:before { content: '\e80b'; } /* '' */
 .icon-resize-small-3:before { content: '\e858'; } /* '' */
+.icon-down-open-big:before { content: '\e870'; } /* '' */
+.icon-left-open-big:before { content: '\e871'; } /* '' */
+.icon-right-open-big:before { content: '\e873'; } /* '' */
+.icon-up-open-big:before { content: '\e872'; } /* '' */
 .icon-play-3:before { content: '\e855'; } /* '' */
 .icon-stop:before { content: '\e857'; } /* '' */
 .icon-pause-3:before { content: '\e856'; } /* '' */
@@ -58,6 +66,10 @@
 .icon-twitter-rect:before { content: '\e83d'; } /* '' */
 .icon-mail:before { content: '\e839'; } /* '' */
 .icon-download:before { content: '\e838'; } /* '' */
+.icon-down-open-1:before { content: '\e874'; } /* '' */
+.icon-left-open-1:before { content: '\e875'; } /* '' */
+.icon-right-open-1:before { content: '\e876'; } /* '' */
+.icon-up-open-1:before { content: '\e877'; } /* '' */
 .icon-play-2:before { content: '\e807'; } /* '' */
 .icon-pause-2:before { content: '\e808'; } /* '' */
 .icon-monitor:before { content: '\e837'; } /* '' */
@@ -94,6 +106,10 @@
 .icon-resize-full-3:before { content: '\e80e'; } /* '' */
 .icon-resize-full-alt-2:before { content: '\e80d'; } /* '' */
 .icon-resize-small-1:before { content: '\e81f'; } /* '' */
+.icon-down-open-2:before { content: '\e878'; } /* '' */
+.icon-left-open-2:before { content: '\e879'; } /* '' */
+.icon-right-open-2:before { content: '\e87a'; } /* '' */
+.icon-up-open-2:before { content: '\e87b'; } /* '' */
 .icon-play-1:before { content: '\e804'; } /* '' */
 .icon-pause-1:before { content: '\e805'; } /* '' */
 .icon-signal:before { content: '\e81e'; } /* '' */
