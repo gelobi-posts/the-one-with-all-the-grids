@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 439
+    height: 748
     _isVisible: true
 
   timeControl:
-    t: 23255.090094461353
+    t: 21261.45365992141
     _focus:
       from: 12672.787656903763
       to: 31723.285798167963
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 125
+    scrollTop: 0
     guides:
       _list: [
         1062.5025905606908
@@ -207,13 +207,25 @@
             id: "no-id-Intro-Gelobi Letter b-Z"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Letter b-Z"
-            _height: 80
+            _height: 54
           }
           {
             id: "no-id-Mouse-domEl-Opacity"
             _expanded: true
             actorPropId: "no-id-Mouse-domEl-Opacity"
+            _height: 74
+          }
+          {
+            id: "no-id-Mouse-Mousify-Move"
+            _expanded: true
+            actorPropId: "no-id-Mouse-Mousify-Move"
             _height: 80
+          }
+          {
+            id: "no-id-Mouse-domEl-Y"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Y"
+            _height: 126
           }
         ]
       }
@@ -5897,21 +5909,37 @@
 
       "no-id-Mouse-domEl-Opacity":
         pacs:
-          _idCounter: 1
+          _idCounter: 3
           chronologyLength: 24053.54987478812
           chronology:
             points: [
-              t: 24053.54987478812
-              value: 1
-              id: "no-id-Mouse-domEl-Opacity-point-1"
-              handler: [
-                100
-                2.25
-                100
-                2.25
-              ]
+              {
+                t: 23134.619795150316
+                value: 0.5
+                id: "no-id-Mouse-domEl-Opacity-point-2"
+                handler: [
+                  0
+                  -1.7785731554031372
+                  378.9822082519531
+                  0.08295340090990067
+                ]
+              }
+              {
+                t: 24053.54987478812
+                value: 1
+                id: "no-id-Mouse-domEl-Opacity-point-1"
+                handler: [
+                  279.3456726074219
+                  -0.10913118720054626
+                  100
+                  2.25
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 23134.619795150316
+              id: "no-id-Mouse-domEl-Opacity-connector-3"
+            ]
 
       "no-id-Mouse-Mousify-Move Y":
         pacs:
@@ -5985,10 +6013,20 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 29
-          chronologyLength: 68820.55267844674
+          _idCounter: 30
+          chronologyLength: 23941.675417243623
           chronology:
-            points: []
+            points: [
+              t: 23941.675417243623
+              value: 1
+              id: "no-id-Mouse-Mousify-Move-point-30"
+              handler: [
+                100
+                1.25
+                100
+                1.25
+              ]
+            ]
             connectors: []
 
       "no-id-Mouse-Classify-Set To":
@@ -6194,4 +6232,38 @@
               ]
             ]
             connectors: []
+
+      "no-id-Mouse-domEl-Y":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 24320.294104151595
+          chronology:
+            points: [
+              {
+                t: 22855.637604797077
+                value: 0
+                id: "no-id-Mouse-domEl-Y-point-2"
+                handler: [
+                  100
+                  0.11627907305955887
+                  149.81825256347656
+                  0.06895619630813599
+                ]
+              }
+              {
+                t: 24320.294104151595
+                value: 0
+                id: "no-id-Mouse-domEl-Y-point-3"
+                handler: [
+                  100
+                  0.11600865423679352
+                  100
+                  0.11600865423679352
+                ]
+              }
+            ]
+            connectors: [
+              t: 22855.637604797077
+              id: "no-id-Mouse-domEl-Y-connector-4"
+            ]
 }

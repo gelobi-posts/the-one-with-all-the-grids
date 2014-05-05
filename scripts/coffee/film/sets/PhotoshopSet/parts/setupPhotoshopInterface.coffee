@@ -58,9 +58,12 @@ module.exports = (set) ->
 		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
-	set.cursor = set._makeEl '#photoshop-cursor .icon-up-open'
+	set.cursor = set._makeEl '#photoshop-cursor'
 	.inside container
 
-	set._setupDomEl 'Mouse', 'domEl', set.cursor, [
-		'opacity'
+	pointer = set._makeEl '.icon-up-open-2'
+	.inside set.cursor
+
+	set._setupDomEl 'Mouse', 'domEl', pointer, [
+		'opacity', 'translation'
 	]
