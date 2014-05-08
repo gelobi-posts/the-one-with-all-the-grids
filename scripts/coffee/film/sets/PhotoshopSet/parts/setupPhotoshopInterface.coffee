@@ -15,6 +15,16 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Photoshop', 'Menu Bar', menubar, ['opacity']
 
+	editHl = set._makeEl '#photoshop-edit-selected'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Edit Highlight', editHl, ['opacity']
+
+	editMenu = set._makeEl '#photoshop-edit-menu'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Edit Menu', editMenu, ['opacity']
+
 	windowHl = set._makeEl '#photoshop-window-selected'
 	.inside container
 
