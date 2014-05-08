@@ -20,4 +20,4 @@ module.exports = (film) ->
 
 	wrapQ.addInput thePanelEl.querySelector '#wrap-input'
 
-	wrapQ.addValues ['0 10 10', '0 10 -50']
+	wrapQ.addValues ['0 10 10', '10 -50']
