@@ -1,4 +1,4 @@
-audioSet = require '../sets/AudioSet'
+AudioSet = require '../sets/AudioSet'
 IntroSet = require '../sets/IntroSet'
 TheatreSet = require '../sets/TheatreSet'
 ThePanelSet = require '../sets/ThePanelSet'
@@ -9,7 +9,7 @@ implementMousify = require '../sets/PhotoshopSet/implementMousify'
 
 module.exports = (film) ->
 
-	fil.addSet new AudioSet film
+	film.addSet new AudioSet film
 
 	film.addSet new IntroSet film
 
