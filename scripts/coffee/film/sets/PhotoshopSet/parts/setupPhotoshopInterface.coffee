@@ -25,6 +25,26 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Photoshop', 'Edit Menu', editMenu, ['opacity']
 
+	prefHl = set._makeEl '#photoshop-pref-hover'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Pref Highlight', prefHl, ['opacity']
+
+	prefMenu = set._makeEl '#photoshop-pref-menu'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Pref Menu', prefMenu, ['opacity']
+
+	unitsHl = set._makeEl '#photoshop-units-hover'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Units Highlight', unitsHl, ['opacity']
+
+	unitsPanel = set._makeEl '#photshop-units-panel'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Units Panel', unitsPanel, ['opacity']
+
 	windowHl = set._makeEl '#photoshop-window-selected'
 	.inside container
 
