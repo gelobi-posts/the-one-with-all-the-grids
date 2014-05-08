@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 556
+    height: 488
     _isVisible: true
 
   timeControl:
-    t: 78184.86105705035
+    t: 84480.03973221841
     _focus:
-      from: 63099.946635961634
-      to: 97395.25742445346
+      from: 0
+      to: 288405.088
 
     _lastPlayedTickAt: 0
 
@@ -159,9 +159,15 @@
         name: "The Ball"
         propHolders: [
           {
-            id: "no-id-Classify-Divide Button-Set To"
+            id: "no-id-Classify-Wrap Button-Set To"
             _expanded: true
-            actorPropId: "no-id-Classify-Divide Button-Set To"
+            actorPropId: "no-id-Classify-Wrap Button-Set To"
+            _height: 80
+          }
+          {
+            id: "no-id-Classify-Wrap Orientation-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
             _height: 80
           }
           {
@@ -171,45 +177,21 @@
             _height: 80
           }
           {
-            id: "no-id-Qwertify-Divide-Type"
+            id: "no-id-Classify-Divide Button-Set To"
             _expanded: true
-            actorPropId: "no-id-Qwertify-Divide-Type"
+            actorPropId: "no-id-Classify-Divide Button-Set To"
             _height: 80
           }
           {
-            id: "no-id-Qwertify-Divide-Focus"
+            id: "no-id-Qwertify-Wrap-Type"
             _expanded: true
-            actorPropId: "no-id-Qwertify-Divide-Focus"
+            actorPropId: "no-id-Qwertify-Wrap-Type"
             _height: 80
           }
           {
-            id: "no-id-Grids-Divide 4 v-Opacity"
+            id: "no-id-Qwertify-Wrap-Focus"
             _expanded: true
-            actorPropId: "no-id-Grids-Divide 4 v-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Divide 4 -s-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Divide 4 -s-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale Y"
+            actorPropId: "no-id-Qwertify-Wrap-Focus"
             _height: 80
           }
         ]
@@ -1191,146 +1173,16 @@
           _idCounter: 11
           chronologyLength: 78842.62875013678
           chronology:
-            points: [
-              {
-                t: 76861.28819994423
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 77519.05589303066
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 78184.86105705035
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 78842.62875013678
-                value: 2
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 76861.28819994423
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 78184.86105705035
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Classify-Wrap Orientation-Set To":
         pacs:
           _idCounter: 14
           chronologyLength: 95207.12673788753
           chronology:
-            points: [
-              {
-                t: 91399.12438797251
-                value: 0
-                id: "no-id-Classify-Wrap Orientation-Set To-point-10"
-                handler: [
-                  100
-                  0.04516874998807907
-                  100
-                  0.04516874998807907
-                ]
-              }
-              {
-                t: 91905.68977001133
-                value: 0.6
-                id: "no-id-Classify-Wrap Orientation-Set To-point-9"
-                handler: [
-                  100
-                  0.05999999865889549
-                  100
-                  0.05999999865889549
-                ]
-              }
-              {
-                t: 92544.10093641642
-                value: 0.6
-                id: "no-id-Classify-Wrap Orientation-Set To-point-5"
-                handler: [
-                  100
-                  0.25
-                  197.14952087402344
-                  0.11312500387430191
-                ]
-              }
-              {
-                t: 93106.18033292527
-                value: 1
-                id: "no-id-Classify-Wrap Orientation-Set To-point-6"
-                handler: [
-                  197.14952087402344
-                  -0.1420937478542328
-                  100
-                  0.023749999701976776
-                ]
-              }
-              {
-                t: 94513.20155701243
-                value: 1
-                id: "no-id-Classify-Wrap Orientation-Set To-point-11"
-                handler: [
-                  100
-                  0.06398437172174454
-                  100
-                  0.06398437172174454
-                ]
-              }
-              {
-                t: 95207.12673788753
-                value: 2
-                id: "no-id-Classify-Wrap Orientation-Set To-point-12"
-                handler: [
-                  100
-                  0.08777870982885361
-                  100
-                  0.08777870982885361
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 92544.10093641642
-                id: "no-id-Classify-Wrap Orientation-Set To-connector-8"
-              }
-              {
-                t: 94513.20155701243
-                id: "no-id-Classify-Wrap Orientation-Set To-connector-14"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Classify-Griddify Button-Set To":
         pacs:
@@ -1475,124 +1327,18 @@
       "no-id-Classify-Divide Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 69370.60152461333
+          chronologyLength: 81938.96525197219
           chronology:
-            points: [
-              {
-                t: 68712.83383152689
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 69370.60152461333
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-            ]
-            connectors: [
-              t: 68712.83383152689
-              id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Classify-Wrap Button-Set To":
         pacs:
           _idCounter: 0
           chronologyLength: 90384.53239514993
           chronology:
-            points: [
-              {
-                t: 82064.59240219048
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 82722.36009527692
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 86117.0001089487
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 86774.76780203514
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 89726.76470206349
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 90384.53239514993
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 82064.59240219048
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 86117.0001089487
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 89726.76470206349
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
@@ -2426,8 +2172,8 @@
 
       "no-id-Grids-Selection-Opacity":
         pacs:
-          _idCounter: 6
-          chronologyLength: 96567.12952861839
+          _idCounter: 7
+          chronologyLength: 80055.36240265466
           chronology:
             points: [
               {
@@ -2475,37 +2221,20 @@
                 ]
               }
               {
-                t: 96248.0145092002
+                t: 80055.36240265466
                 value: 1
-                id: "no-id-Grids-Selection-Opacity-point-0"
+                id: "no-id-Grids-Selection-Opacity-point-7"
                 handler: [
                   100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 96567.12952861839
-                value: 0
-                id: "no-id-Grids-Selection-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
+                  0.11424999684095383
                   100
-                  0.01353750005364418
+                  0.11424999684095383
                 ]
               }
             ]
             connectors: [
-              {
-                t: 53147.81978536381
-                id: "no-id-Grids-Selection-Opacity-connector-3"
-              }
-              {
-                t: 96248.0145092002
-                id: "no-id-Grids-Selection-Opacity-connector-3"
-              }
+              t: 53147.81978536381
+              id: "no-id-Grids-Selection-Opacity-connector-3"
             ]
 
       "no-id-Grids-Griddify 40 -s-Opacity":
@@ -2573,7 +2302,7 @@
       "no-id-Grids-Selection-Scale X":
         pacs:
           _idCounter: 4
-          chronologyLength: 50683.22251099583
+          chronologyLength: 80725.01054001025
           chronology:
             points: [
               {
@@ -2598,10 +2327,38 @@
                   0.01531249936670065
                 ]
               }
+              {
+                t: 79998.86105704849
+                value: 0
+                id: "no-id-Grids-Selection-Scale X-point-0"
+                handler: [
+                  100
+                  0.17499999701976776
+                  393.0648193359375
+                  0
+                ]
+              }
+              {
+                t: 80725.01054001025
+                value: 1
+                id: "no-id-Grids-Selection-Scale X-point-1"
+                handler: [
+                  350.73321533203125
+                  0
+                  100
+                  0.01531249936670065
+                ]
+              }
             ]
             connectors: [
-              t: 49957.07302803407
-              id: "no-id-Grids-Selection-Scale X-connector-4"
+              {
+                t: 49957.07302803407
+                id: "no-id-Grids-Selection-Scale X-connector-4"
+              }
+              {
+                t: 79998.86105704849
+                id: "no-id-Grids-Selection-Scale X-connector-4"
+              }
             ]
 
       "no-id-Grids-Selection-Scale Y":
@@ -2627,6 +2384,28 @@
                 id: "no-id-Grids-Selection-Scale X-point-1"
                 handler: [
                   314.9141845703125
+                  0
+                  100
+                  0.01531249936670065
+                ]
+              }
+              {
+                t: 79998.86105704849
+                value: 0
+                id: "no-id-Grids-Selection-Scale X-point-0"
+                handler: [
+                  100
+                  0.17499999701976776
+                  393.0648193359375
+                  0
+                ]
+              }
+              {
+                t: 80725.01054001025
+                value: 1
+                id: "no-id-Grids-Selection-Scale X-point-1"
+                handler: [
+                  350.73321533203125
                   0
                   100
                   0.01531249936670065
@@ -2659,6 +2438,10 @@
               {
                 t: 49942.2468306746
                 id: "no-id-Grids-Selection-Scale Y-connector-1"
+              }
+              {
+                t: 79998.86105704849
+                id: "no-id-Grids-Selection-Scale X-connector-4"
               }
               {
                 t: 161380.48582067832
@@ -2833,20 +2616,75 @@
       "no-id-Grids-Divide 4 -s-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 42536.73369037657
+          chronologyLength: 84238.4359424704
           chronology:
             points: [
-              t: 42536.73369037657
-              value: 0
-              id: "no-id-Grids-Divide 4 -s-Opacity-point-1"
-              handler: [
-                100
-                0.75
-                100
-                0.75
-              ]
+              {
+                t: 42536.73369037657
+                value: 0
+                id: "no-id-Grids-Divide 4 -s-Opacity-point-1"
+                handler: [
+                  100
+                  0.75
+                  100
+                  0.75
+                ]
+              }
+              {
+                t: 81944.73956424979
+                value: 0
+                id: "no-id-Grids-Griddify 40 -s-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 82263.85458366797
+                value: 1
+                id: "no-id-Grids-Griddify 40 -s-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
+              {
+                t: 83919.32092305223
+                value: 1
+                id: "no-id-Grids-Griddify 40 -s-Opacity-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  197.6882781982422
+                  0
+                ]
+              }
+              {
+                t: 84238.4359424704
+                value: 0
+                id: "no-id-Grids-Griddify 40 -s-Opacity-point-1"
+                handler: [
+                  155.356689453125
+                  0
+                  100
+                  0.01353750005364418
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              {
+                t: 81944.73956424979
+                id: "no-id-Grids-Griddify 40 -s-Opacity-connector-2"
+              }
+              {
+                t: 83919.32092305223
+                id: "no-id-Grids-Griddify 40 -s-Opacity-connector-3"
+              }
+            ]
 
       "no-id-Grids-Divide 2-Opacity":
         pacs:
@@ -2886,25 +2724,14 @@
 
       "no-id-Qwertify-Wrap-Focus":
         pacs:
-          _idCounter: 7
-          chronologyLength: 90212.51232867606
+          _idCounter: 9
+          chronologyLength: 87523.39452415815
           chronology:
             points: [
               {
-                t: 79838.47098217954
+                t: 85126.23850768148
                 value: 0
-                id: "no-id-Qwertify-Wrap-Focus-point-1"
-                handler: [
-                  100
-                  0.04374999925494194
-                  100
-                  0.04374999925494194
-                ]
-              }
-              {
-                t: 79994.77221618028
-                value: 1
-                id: "no-id-Qwertify-Wrap-Focus-point-0"
+                id: "no-id-Qwertify-Wrap-Focus-point-8"
                 handler: [
                   100
                   2.5
@@ -2913,58 +2740,14 @@
                 ]
               }
               {
-                t: 80692.18007588513
-                value: 0
-                id: "no-id-Qwertify-Wrap-Focus-point-2"
-                handler: [
-                  100
-                  0.061250001192092896
-                  100
-                  0.061250001192092896
-                ]
-              }
-              {
-                t: 84348.06380282942
+                t: 87523.39452415815
                 value: 1
-                id: "no-id-Qwertify-Wrap-Focus-point-3"
+                id: "no-id-Qwertify-Wrap-Focus-point-9"
                 handler: [
                   100
-                  0.09624999761581421
+                  0.01875000074505806
                   100
-                  0.09624999761581421
-                ]
-              }
-              {
-                t: 86604.10138812552
-                value: 0
-                id: "no-id-Qwertify-Wrap-Focus-point-4"
-                handler: [
-                  100
-                  0.026249999180436134
-                  100
-                  0.026249999180436134
-                ]
-              }
-              {
-                t: 88602.60590904583
-                value: 1
-                id: "no-id-Qwertify-Wrap-Focus-point-5"
-                handler: [
-                  100
-                  0.061250001192092896
-                  100
-                  0.061250001192092896
-                ]
-              }
-              {
-                t: 90212.51232867606
-                value: 0
-                id: "no-id-Qwertify-Wrap-Focus-point-6"
-                handler: [
-                  100
-                  0
-                  100
-                  0
+                  0.01875000074505806
                 ]
               }
             ]
@@ -2972,113 +2755,34 @@
 
       "no-id-Qwertify-Wrap-Type":
         pacs:
-          _idCounter: 13
-          chronologyLength: 89504.70864418347
+          _idCounter: 15
+          chronologyLength: 88474.33244804971
           chronology:
             points: [
               {
-                t: 79939.41552913835
+                t: 86552.64539351883
                 value: 0
-                id: "no-id-Qwertify-Wrap-Type-point-0"
+                id: "no-id-Qwertify-Wrap-Type-point-14"
                 handler: [
                   100
-                  1.25
+                  1.75
                   100
-                  1.25
+                  1.75
                 ]
               }
               {
-                t: 80186.89248297285
+                t: 88474.33244804971
                 value: 1
-                id: "no-id-Qwertify-Wrap-Type-point-1"
+                id: "no-id-Qwertify-Wrap-Type-point-15"
                 handler: [
                   100
-                  0.04062499850988388
+                  0.030625000596046448
                   100
-                  0.04062499850988388
-                ]
-              }
-              {
-                t: 84652.59149345772
-                value: 1
-                id: "no-id-Qwertify-Wrap-Type-point-2"
-                handler: [
-                  100
-                  0.02500000037252903
-                  71.51649475097656
-                  -0.365044504404068
-                ]
-              }
-              {
-                t: 84925.34410614849
-                value: 0
-                id: "no-id-Qwertify-Wrap-Type-point-4"
-                handler: [
-                  70.76692962646484
-                  0.194651260972023
-                  100
-                  -0.15433593094348907
-                ]
-              }
-              {
-                t: 85086.32944559798
-                value: 2
-                id: "no-id-Qwertify-Wrap-Type-point-7"
-                handler: [
-                  100
-                  0.13237275183200836
-                  77.51302337646484
-                  0.5018885731697083
-                ]
-              }
-              {
-                t: 85425.74286400253
-                value: 3
-                id: "no-id-Qwertify-Wrap-Type-point-3"
-                handler: [
-                  94.00347137451172
-                  -0.5618207454681396
-                  100
-                  0.11562500149011612
-                ]
-              }
-              {
-                t: 88692.81618255959
-                value: 3
-                id: "no-id-Qwertify-Wrap-Type-point-10"
-                handler: [
-                  100
-                  0.18579477071762085
-                  287.35980224609375
-                  0.6819106936454773
-                ]
-              }
-              {
-                t: 89504.70864418347
-                value: 6
-                id: "no-id-Qwertify-Wrap-Type-point-11"
-                handler: [
-                  252.66354370117188
-                  -0.6892926692962646
-                  100
-                  0.2768278419971466
+                  0.030625000596046448
                 ]
               }
             ]
-            connectors: [
-              {
-                t: 84652.59149345772
-                id: "no-id-Qwertify-Wrap-Type-connector-13"
-              }
-              {
-                t: 85086.32944559798
-                id: "no-id-Qwertify-Wrap-Type-connector-8"
-              }
-              {
-                t: 88692.81618255959
-                id: "no-id-Qwertify-Wrap-Type-connector-12"
-              }
-            ]
+            connectors: []
 
       "no-id-Grids-Wrap 0-Opacity":
         pacs:
