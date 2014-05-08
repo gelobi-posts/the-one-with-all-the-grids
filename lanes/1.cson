@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 60824.087369031535
+    t: 62147.06320356584
     _focus:
-      from: 54755.26113749552
-      to: 65722.7429472279
+      from: 0
+      to: 288405.088
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 382
+    scrollTop: 168
     guides:
       _list: [
         3016.6043974231575
@@ -171,63 +171,57 @@
         name: "The Ball"
         propHolders: [
           {
-            id: "no-id-Photoshop-Menu Bar-Opacity"
+            id: "no-id-Classify-Divide Button-Set To"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
-            _height: 214
-          }
-          {
-            id: "no-id-Photoshop-Edit Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Edit Highlight-Opacity"
+            actorPropId: "no-id-Classify-Divide Button-Set To"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Edit Menu-Opacity"
+            id: "no-id-Classify-Divide Orientation-Set To"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Edit Menu-Opacity"
+            actorPropId: "no-id-Classify-Divide Orientation-Set To"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Pref Highlight-Opacity"
+            id: "no-id-Qwertify-Divide-Type"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Highlight-Opacity"
+            actorPropId: "no-id-Qwertify-Divide-Type"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Pref Menu-Opacity"
+            id: "no-id-Qwertify-Divide-Focus"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Menu-Opacity"
+            actorPropId: "no-id-Qwertify-Divide-Focus"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Units Highlight-Opacity"
+            id: "no-id-Grids-Divide 4 h-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Units Highlight-Opacity"
+            actorPropId: "no-id-Grids-Divide 4 h-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Units Panel-Opacity"
+            id: "no-id-Grids-Divide 4 v-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Units Panel-Opacity"
+            actorPropId: "no-id-Grids-Divide 4 v-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Pixel Highlight-Opacity"
+            id: "no-id-Grids-Divide 4 -s-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Pixel Highlight-Opacity"
+            actorPropId: "no-id-Grids-Divide 4 -s-Opacity"
             _height: 80
           }
           {
-            id: "no-id-The Panel-Panel-Opacity"
+            id: "no-id-Grids-Divide 2-Opacity"
             _expanded: true
-            actorPropId: "no-id-The Panel-Panel-Opacity"
+            actorPropId: "no-id-Grids-Divide 2-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Photoshop-Pref Highlight-X"
+            id: "no-id-Grids-Divide 3-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Highlight-X"
+            actorPropId: "no-id-Grids-Divide 3-Opacity"
             _height: 80
           }
         ]
@@ -1209,84 +1203,8 @@
           _idCounter: 11
           chronologyLength: 66175.16616338147
           chronology:
-            points: [
-              {
-                t: 61446.13360883447
-                value: 0
-                id: "no-id-Classify-Divide Orientation-Set To-point-4"
-                handler: [
-                  100
-                  0.03125
-                  100
-                  0.03125
-                ]
-              }
-              {
-                t: 62204.84584887972
-                value: 0.5
-                id: "no-id-Classify-Divide Orientation-Set To-point-8"
-                handler: [
-                  100
-                  0.0436781607568264
-                  100
-                  0.0436781607568264
-                ]
-              }
-              {
-                t: 62930.99533184147
-                value: 0.5
-                id: "no-id-Classify-Divide Orientation-Set To-point-3"
-                handler: [
-                  100
-                  1.5
-                  90.23117065429688
-                  0.22413793206214905
-                ]
-              }
-              {
-                t: 63136.14070146744
-                value: 1
-                id: "no-id-Classify-Divide Orientation-Set To-point-6"
-                handler: [
-                  44.643314361572266
-                  -0.13137932121753693
-                  100
-                  0.10999999940395355
-                ]
-              }
-              {
-                t: 65742.0814941711
-                value: 1
-                id: "no-id-Classify-Divide Orientation-Set To-point-9"
-                handler: [
-                  100
-                  0.1425287425518036
-                  135.81903076171875
-                  0.30457788705825806
-                ]
-              }
-              {
-                t: 66175.16616338147
-                value: 2
-                id: "no-id-Classify-Divide Orientation-Set To-point-10"
-                handler: [
-                  122.79393005371094
-                  -0.31718194484710693
-                  100
-                  0.16896551847457886
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 62930.99533184147
-                id: "no-id-Classify-Divide Orientation-Set To-connector-7"
-              }
-              {
-                t: 65742.0814941711
-                id: "no-id-Classify-Divide Orientation-Set To-connector-11"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Classify-Wrap Orientation-Set To":
         pacs:
@@ -1515,116 +1433,10 @@
       "no-id-Classify-Divide Button-Set To":
         pacs:
           _idCounter: 0
-          chronologyLength: 70303.36966031228
+          chronologyLength: 63920.903147179466
           chronology:
-            points: [
-              {
-                t: 60556.12600519982
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 61213.89369828625
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 63263.13545409303
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 63920.903147179466
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 66348.41803121468
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 67006.18572430112
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
-                t: 69645.60196722584
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 70303.36966031228
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 60556.12600519982
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 63263.13545409303
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 66348.41803121468
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-              {
-                t: 69645.60196722584
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Classify-Wrap Button-Set To":
         pacs:
@@ -1716,8 +1528,8 @@
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
-          _idCounter: 7
-          chronologyLength: 61070.74098713744
+          _idCounter: 8
+          chronologyLength: 62800.63269633234
           chronology:
             points: [
               {
@@ -1755,7 +1567,7 @@
               }
               {
                 t: 60806.87897707066
-                value: 0.557
+                value: 1
                 id: "no-id-The Panel-Panel-Opacity-point-7"
                 handler: [
                   100
@@ -1775,10 +1587,42 @@
                   0.048061419278383255
                 ]
               }
+              {
+                t: 62509.70973079081
+                value: 0
+                id: "no-id-Photoshop-Window-Opacity-point-5"
+                handler: [
+                  100
+                  0.034699998795986176
+                  197.08595275878906
+                  0
+                ]
+              }
+              {
+                t: 62800.63269633234
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-6"
+                handler: [
+                  180.20143127441406
+                  0
+                  100
+                  0.1091499999165535
+                ]
+              }
             ]
             connectors: [
-              t: 22081.714279258187
-              id: "no-id-The Panel-Panel-Opacity-connector-5"
+              {
+                t: 22081.714279258187
+                id: "no-id-The Panel-Panel-Opacity-connector-5"
+              }
+              {
+                t: 60806.87897707066
+                id: "no-id-The Panel-Panel-Opacity-connector-8"
+              }
+              {
+                t: 62509.70973079081
+                id: "no-id-Photoshop-Window-Opacity-connector-8"
+              }
             ]
 
       "no-id-The Panel-Griddify Section-Opacity":
@@ -2913,41 +2757,7 @@
           _idCounter: 2
           chronologyLength: 61047.823637160465
           chronology:
-            points: [
-              {
-                t: 59794.15748944617
-                value: 0
-                id: "no-id-Qwertify-Divide-Focus-point-1"
-                handler: [
-                  100
-                  0.3062500059604645
-                  100
-                  0.3062500059604645
-                ]
-              }
-              {
-                t: 59999.30285907213
-                value: 1
-                id: "no-id-Qwertify-Divide-Focus-point-0"
-                handler: [
-                  100
-                  7.5
-                  100
-                  7.5
-                ]
-              }
-              {
-                t: 61047.823637160465
-                value: 0
-                id: "no-id-Qwertify-Divide-Focus-point-2"
-                handler: [
-                  100
-                  0.042500000447034836
-                  100
-                  0.042500000447034836
-                ]
-              }
-            ]
+            points: []
             connectors: []
 
       "no-id-Qwertify-Divide-Type":
@@ -2955,30 +2765,7 @@
           _idCounter: 1
           chronologyLength: 60344.468084157095
           chronology:
-            points: [
-              {
-                t: 59943.946172030206
-                value: 0
-                id: "no-id-Qwertify-Divide-Type-point-1"
-                handler: [
-                  100
-                  0.10000000149011612
-                  100
-                  0.10000000149011612
-                ]
-              }
-              {
-                t: 60344.468084157095
-                value: 1
-                id: "no-id-Qwertify-Divide-Type-point-0"
-                handler: [
-                  100
-                  2
-                  100
-                  2
-                ]
-              }
-            ]
+            points: []
             connectors: []
 
       "no-id-Grids-Divide 4 h-Opacity":
@@ -2986,250 +2773,16 @@
           _idCounter: 0
           chronologyLength: 68254.581378551
           chronology:
-            points: [
-              {
-                t: 59788.68927328506
-                value: 0
-                id: "no-id-Grids-Divide 4 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.1550000011920929
-                  100
-                  0.1550000011920929
-                ]
-              }
-              {
-                t: 64139.07361963883
-                value: 0
-                id: "no-id-Grids-Divide 4 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 64458.18863905701
-                value: 1
-                id: "no-id-Grids-Divide 4 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 65117.55964891194
-                value: 1
-                id: "no-id-Grids-Divide 4 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 65436.67466833012
-                value: 0
-                id: "no-id-Grids-Divide 4 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 67149.98807133554
-                value: 0
-                id: "no-id-Grids-Divide 4 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 67469.10309075372
-                value: 1
-                id: "no-id-Grids-Divide 4 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 67935.46635913281
-                value: 1
-                id: "no-id-Grids-Divide 4 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 68254.581378551
-                value: 0
-                id: "no-id-Grids-Divide 4 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 64139.07361963883
-                id: "no-id-Grids-Divide 4 h-Opacity-connector-2"
-              }
-              {
-                t: 65117.55964891194
-                id: "no-id-Grids-Divide 4 h-Opacity-connector-3"
-              }
-              {
-                t: 67149.98807133554
-                id: "no-id-Grids-Divide 4 h-Opacity-connector-2"
-              }
-              {
-                t: 67935.46635913281
-                id: "no-id-Grids-Divide 4 h-Opacity-connector-3"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Grids-Divide 4 v-Opacity":
         pacs:
           _idCounter: 1
           chronologyLength: 68254.581378551
           chronology:
-            points: [
-              {
-                t: 59801.714376118456
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.09749999642372131
-                  100
-                  0.09749999642372131
-                ]
-              }
-              {
-                t: 61322.395131917314
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 61641.51015133549
-                value: 1
-                id: "no-id-Grids-Divide 4 v-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 62556.523625381466
-                value: 1
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 62875.63864479964
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 67149.98807133554
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 67469.10309075372
-                value: 1
-                id: "no-id-Grids-Divide 4 v-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 67935.46635913281
-                value: 1
-                id: "no-id-Grids-Divide 4 v-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 68254.581378551
-                value: 0
-                id: "no-id-Grids-Divide 4 v-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 61322.395131917314
-                id: "no-id-Grids-Divide 4 v-Opacity-connector-2"
-              }
-              {
-                t: 62556.523625381466
-                id: "no-id-Grids-Divide 4 v-Opacity-connector-3"
-              }
-              {
-                t: 67149.98807133554
-                id: "no-id-Grids-Divide 4 v-Opacity-connector-2"
-              }
-              {
-                t: 67935.46635913281
-                id: "no-id-Grids-Divide 4 v-Opacity-connector-3"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-Grids-Divide 4 -s-Opacity":
         pacs:
@@ -6376,7 +5929,7 @@
       "no-id-Photoshop-Units Panel-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 61755.19010179281
+          chronologyLength: 62750.314021744874
           chronology:
             points: [
               {
@@ -6413,7 +5966,7 @@
                 ]
               }
               {
-                t: 61552.57596204201
+                t: 61391.96430374049
                 value: 1
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-0"
                 handler: [
@@ -6424,7 +5977,7 @@
                 ]
               }
               {
-                t: 61755.19010179281
+                t: 61594.57844349129
                 value: 0.3
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-1"
                 handler: [
@@ -6434,6 +5987,28 @@
                   -0.0027728748973459005
                 ]
               }
+              {
+                t: 62509.70973079081
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  0
+                  0.23735810816287994
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 62750.314021744874
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
             connectors: [
               {
@@ -6441,15 +6016,19 @@
                 id: "no-id-Photoshop-Window-Opacity-connector-8"
               }
               {
-                t: 61552.57596204201
+                t: 61391.96430374049
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-4"
+              }
+              {
+                t: 62509.70973079081
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
 
       "no-id-Photoshop-Pixel Highlight-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 61277.24169066798
+          chronologyLength: 62750.314021744874
           chronology:
             points: [
               {
@@ -6474,8 +6053,33 @@
                   0.00641250004991889
                 ]
               }
+              {
+                t: 62509.70973079081
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  0
+                  0.23735810816287994
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 62750.314021744874
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 62509.70973079081
+              id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
+            ]
 
       "no-id-Photoshop-Units Highlight-Opacity":
         pacs:
