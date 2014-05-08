@@ -8,7 +8,7 @@ module.exports = (film) ->
 
 	gridQ.addInput thePanelEl.querySelector '#griddify-input'
 
-	gridQ.addValues ['100 40 40']
+	gridQ.addValues ['100 40', '80 10 10']
 
 	divideQ = new Qwertify film, 'Qwertify', 'Divide'
 

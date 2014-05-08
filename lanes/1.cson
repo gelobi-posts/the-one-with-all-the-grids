@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 354
+    height: 556
     _isVisible: true
 
   timeControl:
-    t: 39521.17282459
+    t: 85829.50799944377
     _focus:
-      from: 33002.3341303778
-      to: 43688.61457740721
+      from: 81543.19871083376
+      to: 92229.47915786311
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 192
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -188,9 +188,15 @@
             _height: 80
           }
           {
-            id: "no-id-Grids-Griddify 20-Opacity"
+            id: "no-id-Classify-Griddify Direction-Set To"
             _expanded: true
-            actorPropId: "no-id-Grids-Griddify 20-Opacity"
+            actorPropId: "no-id-Classify-Griddify Direction-Set To"
+            _height: 80
+          }
+          {
+            id: "no-id-Qwertify-Wrap-Type"
+            _expanded: true
+            actorPropId: "no-id-Qwertify-Wrap-Type"
             _height: 80
           }
         ]
@@ -1062,28 +1068,6 @@
           chronology:
             points: [
               {
-                t: 38923.600350561595
-                value: 0
-                id: "no-id-Classify-Griddify Direction-Set To-point-21"
-                handler: [
-                  100
-                  1.75
-                  213.96966552734375
-                  0.34255319833755493
-                ]
-              }
-              {
-                t: 39581.36804364803
-                value: 1
-                id: "no-id-Classify-Griddify Direction-Set To-point-24"
-                handler: [
-                  181.40689086914062
-                  -0.28093087673187256
-                  100
-                  0.11375000327825546
-                ]
-              }
-              {
                 t: 43325.0262450593
                 value: 1
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
@@ -1129,10 +1113,6 @@
               }
             ]
             connectors: [
-              {
-                t: 38923.600350561595
-                id: "no-id-Classify-Griddify Direction-Set To-connector-27"
-              }
               {
                 t: 43325.0262450593
                 id: "no-id-Classify-Griddify Direction-Set To-connector-29"
@@ -1912,8 +1892,8 @@
 
       "no-id-Qwertify-Griddify-Focus":
         pacs:
-          _idCounter: 9
-          chronologyLength: 37389.74529717599
+          _idCounter: 10
+          chronologyLength: 40617.75667196919
           chronology:
             points: [
               {
@@ -1971,12 +1951,23 @@
                   0.014999999664723873
                 ]
               }
+              {
+                t: 40617.75667196919
+                value: 1
+                id: "no-id-Qwertify-Griddify-Focus-point-10"
+                handler: [
+                  100
+                  -0.007499999832361937
+                  100
+                  -0.007499999832361937
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Qwertify-Griddify-Type":
         pacs:
-          _idCounter: 13
+          _idCounter: 17
           chronologyLength: 49319.53018295902
           chronology:
             points: [
@@ -2058,6 +2049,39 @@
                 ]
               }
               {
+                t: 40981.045494697704
+                value: 6
+                id: "no-id-Qwertify-Griddify-Type-point-14"
+                handler: [
+                  100
+                  0.7721545696258545
+                  195.0139923095703
+                  -0.9169335961341858
+                ]
+              }
+              {
+                t: 41824.99337519009
+                value: 0
+                id: "no-id-Qwertify-Griddify-Type-point-15"
+                handler: [
+                  200.60305786132812
+                  1.8097373247146606
+                  100
+                  0.12064915150403976
+                ]
+              }
+              {
+                t: 43015.46290197736
+                value: 7
+                id: "no-id-Qwertify-Griddify-Type-point-17"
+                handler: [
+                  100
+                  -0.07238949090242386
+                  100
+                  -0.07238949090242386
+                ]
+              }
+              {
                 t: 45630.34491343878
                 value: 4
                 id: "no-id-Qwertify-Griddify-Type-point-4"
@@ -2104,6 +2128,10 @@
             ]
             connectors: [
               {
+                t: 40981.045494697704
+                id: "no-id-Qwertify-Griddify-Type-connector-16"
+              }
+              {
                 t: 45630.34491343878
                 id: "no-id-Qwertify-Griddify-Type-connector-7"
               }
@@ -2116,7 +2144,7 @@
       "no-id-Grids-Griddify 20-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 39436.69395298774
+          chronologyLength: 38995.158306902325
           chronology:
             points: [
               {
@@ -2153,7 +2181,7 @@
                 ]
               }
               {
-                t: 39117.578933569566
+                t: 38676.04328748415
                 value: 1
                 id: "no-id-Grids-Griddify 20-Opacity-point-0"
                 handler: [
@@ -2164,7 +2192,7 @@
                 ]
               }
               {
-                t: 39436.69395298774
+                t: 38995.158306902325
                 value: 0
                 id: "no-id-Grids-Griddify 20-Opacity-point-1"
                 handler: [
@@ -2181,7 +2209,7 @@
                 id: "no-id-Grids-Griddify 20-Opacity-connector-2"
               }
               {
-                t: 39117.578933569566
+                t: 38676.04328748415
                 id: "no-id-Grids-Griddify 20-Opacity-connector-3"
               }
             ]
@@ -2189,75 +2217,20 @@
       "no-id-Grids-Griddify 100 h-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 41704.09396639887
+          chronologyLength: 36509.14455714778
           chronology:
             points: [
-              {
-                t: 36509.14455714778
-                value: 0
-                id: "no-id-Grids-Griddify 100 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.12250000238418579
-                  100
-                  0.12250000238418579
-                ]
-              }
-              {
-                t: 40498.97512747542
-                value: 0
-                id: "no-id-Grids-Griddify 100 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 40818.0901468936
-                value: 1
-                id: "no-id-Grids-Griddify 100 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
-              {
-                t: 41384.97894698069
-                value: 1
-                id: "no-id-Grids-Griddify 100 h-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 41704.09396639887
-                value: 0
-                id: "no-id-Grids-Griddify 100 h-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
+              t: 36509.14455714778
+              value: 0
+              id: "no-id-Grids-Griddify 100 h-Opacity-point-0"
+              handler: [
+                100
+                0.12250000238418579
+                100
+                0.12250000238418579
+              ]
             ]
-            connectors: [
-              {
-                t: 40498.97512747542
-                id: "no-id-Grids-Griddify 100 h-Opacity-connector-2"
-              }
-              {
-                t: 41384.97894698069
-                id: "no-id-Grids-Griddify 100 h-Opacity-connector-3"
-              }
-            ]
+            connectors: []
 
       "no-id-Grids-Griddify 100 v-Opacity":
         pacs:
@@ -3325,7 +3298,7 @@
 
       "no-id-Qwertify-Wrap-Type":
         pacs:
-          _idCounter: 12
+          _idCounter: 13
           chronologyLength: 89504.70864418347
           chronology:
             points: [
@@ -3352,7 +3325,7 @@
                 ]
               }
               {
-                t: 84658.18055226892
+                t: 84652.59149345772
                 value: 1
                 id: "no-id-Qwertify-Wrap-Type-point-2"
                 handler: [
@@ -3420,8 +3393,8 @@
             ]
             connectors: [
               {
-                t: 84658.18055226892
-                id: "no-id-Qwertify-Wrap-Type-connector-6"
+                t: 84652.59149345772
+                id: "no-id-Qwertify-Wrap-Type-connector-13"
               }
               {
                 t: 85086.32944559798
