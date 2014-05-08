@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 26585.085731406783
+    t: 39521.17282459
     _focus:
-      from: 15873.403193773776
-      to: 39684.43687451966
+      from: 33002.3341303778
+      to: 43688.61457740721
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 192
     guides:
       _list: [
         3016.6043974231575
@@ -168,7 +168,32 @@
       }
       {
         name: "The Ball"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Qwertify-Griddify-Type"
+            _expanded: true
+            actorPropId: "no-id-Qwertify-Griddify-Type"
+            _height: 80
+          }
+          {
+            id: "no-id-Qwertify-Griddify-Focus"
+            _expanded: true
+            actorPropId: "no-id-Qwertify-Griddify-Focus"
+            _height: 80
+          }
+          {
+            id: "no-id-Classify-Griddify Button-Set To"
+            _expanded: true
+            actorPropId: "no-id-Classify-Griddify Button-Set To"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Griddify 20-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Griddify 20-Opacity"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "The Ball"
@@ -1293,7 +1318,7 @@
           chronology:
             points: [
               {
-                t: 36015.766898528134
+                t: 28381.112562418224
                 value: 0
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
@@ -1304,7 +1329,7 @@
                 ]
               }
               {
-                t: 36673.53459161457
+                t: 29038.880255504657
                 value: 1
                 id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
@@ -1315,7 +1340,7 @@
                 ]
               }
               {
-                t: 39667.50756365584
+                t: 36906.512510919165
                 value: 0
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
@@ -1326,7 +1351,7 @@
                 ]
               }
               {
-                t: 40325.27525674227
+                t: 37564.2802040056
                 value: 1
                 id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
@@ -1383,11 +1408,11 @@
             ]
             connectors: [
               {
-                t: 36015.766898528134
+                t: 28381.112562418224
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
               {
-                t: 39667.50756365584
+                t: 36906.512510919165
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
               {
@@ -1887,12 +1912,12 @@
 
       "no-id-Qwertify-Griddify-Focus":
         pacs:
-          _idCounter: 7
-          chronologyLength: 50167.16844633003
+          _idCounter: 9
+          chronologyLength: 37389.74529717599
           chronology:
             points: [
               {
-                t: 34762.06281289775
+                t: 26791.84233398699
                 value: 0
                 id: "no-id-Qwertify-Griddify-Focus-point-0"
                 handler: [
@@ -1903,7 +1928,7 @@
                 ]
               }
               {
-                t: 34998.44597594034
+                t: 27028.225497029583
                 value: 1
                 id: "no-id-Qwertify-Griddify-Focus-point-1"
                 handler: [
@@ -1914,7 +1939,7 @@
                 ]
               }
               {
-                t: 36508.74048659494
+                t: 28862.685418734243
                 value: 0
                 id: "no-id-Qwertify-Griddify-Focus-point-2"
                 handler: [
@@ -1925,47 +1950,25 @@
                 ]
               }
               {
-                t: 45334.023823979034
+                t: 34428.26030127752
                 value: 1
-                id: "no-id-Qwertify-Griddify-Focus-point-3"
+                id: "no-id-Qwertify-Griddify-Focus-point-8"
                 handler: [
                   100
-                  0.11249999701976776
+                  0.08250000327825546
                   100
-                  0.11249999701976776
+                  0.08250000327825546
                 ]
               }
               {
-                t: 46470.46404619274
+                t: 37389.74529717599
                 value: 0
-                id: "no-id-Qwertify-Griddify-Focus-point-4"
+                id: "no-id-Qwertify-Griddify-Focus-point-9"
                 handler: [
                   100
-                  0.03750000149011612
+                  0.014999999664723873
                   100
-                  0.03750000149011612
-                ]
-              }
-              {
-                t: 48629.199732789086
-                value: 1
-                id: "no-id-Qwertify-Griddify-Focus-point-5"
-                handler: [
-                  100
-                  -0.014999999664723873
-                  100
-                  -0.014999999664723873
-                ]
-              }
-              {
-                t: 50167.16844633003
-                value: 0
-                id: "no-id-Qwertify-Griddify-Focus-point-7"
-                handler: [
-                  100
-                  0.04500000178813934
-                  100
-                  0.04500000178813934
+                  0.014999999664723873
                 ]
               }
             ]
@@ -1973,12 +1976,12 @@
 
       "no-id-Qwertify-Griddify-Type":
         pacs:
-          _idCounter: 10
+          _idCounter: 13
           chronologyLength: 49319.53018295902
           chronology:
             points: [
               {
-                t: 34909.802289799365
+                t: 27244.879130606765
                 value: 0
                 id: "no-id-Qwertify-Griddify-Type-point-1"
                 handler: [
@@ -1989,7 +1992,7 @@
                 ]
               }
               {
-                t: 35466.99117411405
+                t: 27695.875897508504
                 value: 1
                 id: "no-id-Qwertify-Griddify-Type-point-0"
                 handler: [
@@ -2000,7 +2003,7 @@
                 ]
               }
               {
-                t: 35627.3940347501
+                t: 27856.27875814455
                 value: 2
                 id: "no-id-Qwertify-Griddify-Type-point-2"
                 handler: [
@@ -2011,7 +2014,7 @@
                 ]
               }
               {
-                t: 35754.027872094346
+                t: 27982.912595488797
                 value: 3
                 id: "no-id-Qwertify-Griddify-Type-point-3"
                 handler: [
@@ -2019,6 +2022,39 @@
                   0.04170000180602074
                   100
                   0.04170000180602074
+                ]
+              }
+              {
+                t: 34809.55332832988
+                value: 4
+                id: "no-id-Qwertify-Griddify-Type-point-11"
+                handler: [
+                  100
+                  0.09651932120323181
+                  100
+                  0.09651932120323181
+                ]
+              }
+              {
+                t: 36216.04294682234
+                value: 5
+                id: "no-id-Qwertify-Griddify-Type-point-12"
+                handler: [
+                  100
+                  0.4584667980670929
+                  100
+                  0.4584667980670929
+                ]
+              }
+              {
+                t: 36327.8241230465
+                value: 6
+                id: "no-id-Qwertify-Griddify-Type-point-13"
+                handler: [
+                  100
+                  0.6515054106712341
+                  100
+                  0.6515054106712341
                 ]
               }
               {
@@ -2080,7 +2116,7 @@
       "no-id-Grids-Griddify 20-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 47792.33687574347
+          chronologyLength: 39436.69395298774
           chronology:
             points: [
               {
@@ -2095,7 +2131,7 @@
                 ]
               }
               {
-                t: 46630.370570829095
+                t: 37536.97188499393
                 value: 0
                 id: "no-id-Grids-Griddify 20-Opacity-point-0"
                 handler: [
@@ -2106,7 +2142,7 @@
                 ]
               }
               {
-                t: 46949.48559024727
+                t: 37856.08690441211
                 value: 1
                 id: "no-id-Grids-Griddify 20-Opacity-point-1"
                 handler: [
@@ -2117,7 +2153,7 @@
                 ]
               }
               {
-                t: 47473.2218563253
+                t: 39117.578933569566
                 value: 1
                 id: "no-id-Grids-Griddify 20-Opacity-point-0"
                 handler: [
@@ -2128,7 +2164,7 @@
                 ]
               }
               {
-                t: 47792.33687574347
+                t: 39436.69395298774
                 value: 0
                 id: "no-id-Grids-Griddify 20-Opacity-point-1"
                 handler: [
@@ -2141,11 +2177,11 @@
             ]
             connectors: [
               {
-                t: 46630.370570829095
+                t: 37536.97188499393
                 id: "no-id-Grids-Griddify 20-Opacity-connector-2"
               }
               {
-                t: 47473.2218563253
+                t: 39117.578933569566
                 id: "no-id-Grids-Griddify 20-Opacity-connector-3"
               }
             ]
@@ -2226,11 +2262,11 @@
       "no-id-Grids-Griddify 100 v-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 38931.855862777214
+          chronologyLength: 33890.524815067736
           chronology:
             points: [
               {
-                t: 36782.67171664907
+                t: 29041.825263126208
                 value: 0
                 id: "no-id-Grids-Griddify 100 v-Opacity-point-0"
                 handler: [
@@ -2241,7 +2277,7 @@
                 ]
               }
               {
-                t: 37101.786736067246
+                t: 29360.940282544383
                 value: 1
                 id: "no-id-Grids-Griddify 100 v-Opacity-point-1"
                 handler: [
@@ -2252,7 +2288,7 @@
                 ]
               }
               {
-                t: 38612.74084335904
+                t: 33571.40979564956
                 value: 1
                 id: "no-id-Grids-Griddify 100 v-Opacity-point-0"
                 handler: [
@@ -2263,7 +2299,7 @@
                 ]
               }
               {
-                t: 38931.855862777214
+                t: 33890.524815067736
                 value: 0
                 id: "no-id-Grids-Griddify 100 v-Opacity-point-1"
                 handler: [
@@ -2276,11 +2312,11 @@
             ]
             connectors: [
               {
-                t: 36782.67171664907
+                t: 29041.825263126208
                 id: "no-id-Grids-Griddify 100 v-Opacity-connector-2"
               }
               {
-                t: 38612.74084335904
+                t: 33571.40979564956
                 id: "no-id-Grids-Griddify 100 v-Opacity-connector-3"
               }
             ]
