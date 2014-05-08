@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 25806.100085123715
+    t: 26585.085731406783
     _focus:
-      from: 0
-      to: 49046.98147391307
+      from: 15873.403193773776
+      to: 39684.43687451966
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 100
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -168,68 +168,7 @@
       }
       {
         name: "The Ball"
-        propHolders: [
-          {
-            id: "no-id-Photoshop-Menu Bar-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Window Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Window-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Window-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extension-Heighlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extension-Heighlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extension-Heighlight-X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Extensions-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Extensions-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Guides-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Guides-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-BG-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-BG-Scale"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-BG-Scale"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "The Ball"
@@ -550,7 +489,7 @@
       "no-id-Photoshop-Window-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 21803.104221675858
+          chronologyLength: 21947.91293590849
           chronology:
             points: [
               {
@@ -598,7 +537,7 @@
                 ]
               }
               {
-                t: 21562.499930721788
+                t: 21707.30864495442
                 value: 0.5
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
                 handler: [
@@ -609,7 +548,7 @@
                 ]
               }
               {
-                t: 21803.104221675858
+                t: 21947.91293590849
                 value: 0
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
                 handler: [
@@ -630,7 +569,7 @@
                 id: "no-id-Photoshop-Window-Opacity-connector-4"
               }
               {
-                t: 21562.499930721788
+                t: 21707.30864495442
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -704,7 +643,7 @@
       "no-id-Photoshop-Extensions-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 27138.759110051335
+          chronologyLength: 21953.316955648275
           chronology:
             points: [
               {
@@ -752,7 +691,7 @@
                 ]
               }
               {
-                t: 26898.154819097268
+                t: 21712.71266469421
                 value: 0.5
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
                 handler: [
@@ -763,7 +702,7 @@
                 ]
               }
               {
-                t: 27138.759110051335
+                t: 21953.316955648275
                 value: 0
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
                 handler: [
@@ -784,7 +723,7 @@
                 id: "no-id-Photoshop-Window-Opacity-connector-4"
               }
               {
-                t: 26898.154819097268
+                t: 21712.71266469421
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -792,7 +731,7 @@
       "no-id-Photoshop-Guides-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 27134.53798213986
+          chronologyLength: 21953.620475646563
           chronology:
             points: [
               {
@@ -818,7 +757,7 @@
                 ]
               }
               {
-                t: 26898.154819097268
+                t: 21717.23731260397
                 value: 1
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
                 handler: [
@@ -829,7 +768,7 @@
                 ]
               }
               {
-                t: 27134.53798213986
+                t: 21953.620475646563
                 value: 0
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
                 handler: [
@@ -846,7 +785,7 @@
                 id: "no-id-Photoshop-Guides-Opacity-connector-5"
               }
               {
-                t: 26898.154819097268
+                t: 21717.23731260397
                 id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
               }
             ]
@@ -854,7 +793,7 @@
       "no-id-Photoshop-Extension-Heighlight-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 26483.195881306507
+          chronologyLength: 21950.886116530968
           chronology:
             points: [
               {
@@ -880,7 +819,7 @@
                 ]
               }
               {
-                t: 26246.812718263915
+                t: 21714.502953488376
                 value: 1
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
                 handler: [
@@ -891,7 +830,7 @@
                 ]
               }
               {
-                t: 26483.195881306507
+                t: 21950.886116530968
                 value: 0
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
                 handler: [
@@ -908,7 +847,7 @@
                 id: "no-id-Photoshop-Extension-Heighlight-Opacity-connector-5"
               }
               {
-                t: 26246.812718263915
+                t: 21714.502953488376
                 id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
               }
             ]
@@ -916,7 +855,7 @@
       "no-id-Photoshop-Menu Bar-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 21850.18746769107
+          chronologyLength: 21957.51627941643
           chronology:
             points: [
               {
@@ -964,7 +903,7 @@
                 ]
               }
               {
-                t: 21609.583176737004
+                t: 21716.91198846237
                 value: 0.3
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
                 handler: [
@@ -975,7 +914,7 @@
                 ]
               }
               {
-                t: 21850.18746769107
+                t: 21957.51627941643
                 value: 0
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
                 handler: [
@@ -996,7 +935,7 @@
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-4"
               }
               {
-                t: 21609.583176737004
+                t: 21716.91198846237
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -1004,7 +943,7 @@
       "no-id-Photoshop-Window Highlight-Opacity":
         pacs:
           _idCounter: 4
-          chronologyLength: 21834.10826455961
+          chronologyLength: 21948.25160401357
           chronology:
             points: [
               {
@@ -1030,7 +969,7 @@
                 ]
               }
               {
-                t: 21597.72510151702
+                t: 21711.86844097098
                 value: 1
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-2"
                 handler: [
@@ -1041,7 +980,7 @@
                 ]
               }
               {
-                t: 21834.10826455961
+                t: 21948.25160401357
                 value: 0
                 id: "no-id-Photoshop-Window Highlight-Opacity-point-3"
                 handler: [
@@ -1053,7 +992,7 @@
               }
             ]
             connectors: [
-              t: 21597.72510151702
+              t: 21711.86844097098
               id: "no-id-Photoshop-Window Highlight-Opacity-connector-4"
             ]
 
@@ -1666,11 +1605,11 @@
       "no-id-The Panel-Panel-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 27537.319551319568
+          chronologyLength: 22512.26932622862
           chronology:
             points: [
               {
-                t: 22048.842915080648
+                t: 17944.493000945662
                 value: 0
                 id: "no-id-The Panel-Panel-Opacity-point-0"
                 handler: [
@@ -1681,7 +1620,7 @@
                 ]
               }
               {
-                t: 27106.764504349136
+                t: 22081.714279258187
                 value: 0
                 id: "no-id-The Panel-Panel-Opacity-point-2"
                 handler: [
@@ -1692,7 +1631,7 @@
                 ]
               }
               {
-                t: 27537.319551319568
+                t: 22512.26932622862
                 value: 1
                 id: "no-id-The Panel-Panel-Opacity-point-3"
                 handler: [
@@ -1704,18 +1643,18 @@
               }
             ]
             connectors: [
-              t: 27106.764504349136
+              t: 22081.714279258187
               id: "no-id-The Panel-Panel-Opacity-connector-5"
             ]
 
       "no-id-The Panel-Griddify Section-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 31382.079227555503
+          chronologyLength: 25416.867337870735
           chronology:
             points: [
               {
-                t: 30327.485100804457
+                t: 24362.27321111969
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1726,7 +1665,7 @@
                 ]
               }
               {
-                t: 30538.5414963782
+                t: 24573.32960669343
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1737,7 +1676,7 @@
                 ]
               }
               {
-                t: 31175.243959893236
+                t: 25210.03207020847
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1748,7 +1687,7 @@
                 ]
               }
               {
-                t: 31382.079227555503
+                t: 25416.867337870735
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1761,11 +1700,11 @@
             ]
             connectors: [
               {
-                t: 30327.485100804457
+                t: 24362.27321111969
                 id: "no-id-The Panel-Divide Section-Opacity-connector-2"
               }
               {
-                t: 31175.243959893236
+                t: 25210.03207020847
                 id: "no-id-The Panel-Divide Section-Opacity-connector-5"
               }
             ]
@@ -1773,11 +1712,11 @@
       "no-id-The Panel-Divide Section-Opacity":
         pacs:
           _idCounter: 6
-          chronologyLength: 31382.079227555503
+          chronologyLength: 25416.867337870735
           chronology:
             points: [
               {
-                t: 29998.237123709416
+                t: 24033.025234024648
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1788,7 +1727,7 @@
                 ]
               }
               {
-                t: 30209.293519283157
+                t: 24244.08162959839
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1799,7 +1738,7 @@
                 ]
               }
               {
-                t: 30335.92735662741
+                t: 24370.71546694264
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1810,7 +1749,7 @@
                 ]
               }
               {
-                t: 30542.762624289677
+                t: 24577.55073460491
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1821,7 +1760,7 @@
                 ]
               }
               {
-                t: 30690.502101191294
+                t: 24725.290211506526
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1832,7 +1771,7 @@
                 ]
               }
               {
-                t: 30914.22188049946
+                t: 24949.00999081469
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1843,7 +1782,7 @@
                 ]
               }
               {
-                t: 31175.243959893236
+                t: 25210.03207020847
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1854,7 +1793,7 @@
                 ]
               }
               {
-                t: 31382.079227555503
+                t: 25416.867337870735
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1867,19 +1806,19 @@
             ]
             connectors: [
               {
-                t: 29998.237123709416
+                t: 24033.025234024648
                 id: "no-id-The Panel-Divide Section-Opacity-connector-2"
               }
               {
-                t: 30335.92735662741
+                t: 24370.71546694264
                 id: "no-id-The Panel-Divide Section-Opacity-connector-5"
               }
               {
-                t: 30690.502101191294
+                t: 24725.290211506526
                 id: "no-id-The Panel-Divide Section-Opacity-connector-6"
               }
               {
-                t: 31175.243959893236
+                t: 25210.03207020847
                 id: "no-id-The Panel-Divide Section-Opacity-connector-5"
               }
             ]
@@ -1887,11 +1826,11 @@
       "no-id-The Panel-Wrap Section-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 30910.000752587985
+          chronologyLength: 24944.788862903217
           chronology:
             points: [
               {
-                t: 30002.45825162089
+                t: 24037.246361936122
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1902,7 +1841,7 @@
                 ]
               }
               {
-                t: 30213.514647194632
+                t: 24248.302757509864
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1913,7 +1852,7 @@
                 ]
               }
               {
-                t: 30703.165484925717
+                t: 24737.95359524095
                 value: 0.3
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
@@ -1924,7 +1863,7 @@
                 ]
               }
               {
-                t: 30910.000752587985
+                t: 24944.788862903217
                 value: 1
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
@@ -1937,11 +1876,11 @@
             ]
             connectors: [
               {
-                t: 30002.45825162089
+                t: 24037.246361936122
                 id: "no-id-The Panel-Divide Section-Opacity-connector-2"
               }
               {
-                t: 30703.165484925717
+                t: 24737.95359524095
                 id: "no-id-The Panel-Divide Section-Opacity-connector-5"
               }
             ]
