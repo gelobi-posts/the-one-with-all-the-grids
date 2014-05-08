@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 23464.761268775346
+    t: 12380.407315954322
     _focus:
-      from: 19050.864471400862
-      to: 38101.362612665
+      from: 5506.107740585774
+      to: 24556.605881849915
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 68
+    scrollTop: 0
     guides:
       _list: [
         1062.5025905606908
@@ -172,32 +172,7 @@
       }
       {
         name: "The Ball"
-        propHolders: [
-          {
-            id: "no-id-Mouse-domEl-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Mouse-domEl-Opacity"
-            _height: 74
-          }
-          {
-            id: "no-id-Mouse-Mousify-Move"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 80
-          }
-          {
-            id: "no-id-Mouse-domEl-Y"
-            _expanded: true
-            actorPropId: "no-id-Mouse-domEl-Y"
-            _height: 126
-          }
-          {
-            id: "no-id-Photoshop-Units Panel-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Units Panel-Opacity"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "The Ball"
