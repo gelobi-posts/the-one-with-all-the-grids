@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 42001.87136529815
+    t: 44965.00307303916
     _focus:
-      from: 40576.07681832859
-      to: 48477.871525012095
+      from: 39891.00307303901
+      to: 47792.79777972252
 
     _lastPlayedTickAt: 0
 
@@ -197,6 +197,12 @@
             id: "no-id-Qwertify-Wrap-Type"
             _expanded: true
             actorPropId: "no-id-Qwertify-Wrap-Type"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Griddify 100 h-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Griddify 100 h-Opacity"
             _height: 80
           }
         ]
