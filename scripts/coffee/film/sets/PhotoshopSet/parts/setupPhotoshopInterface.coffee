@@ -28,7 +28,7 @@ module.exports = (set) ->
 	prefHl = set._makeEl '#photoshop-pref-hover'
 	.inside container
 
-	set._setupDomEl 'Photoshop', 'Pref Highlight', prefHl, ['opacity']
+	set._setupDomEl 'Photoshop', 'Pref Highlight', prefHl, ['opacity', 'translation']
 
 	prefMenu = set._makeEl '#photoshop-pref-menu'
 	.inside container
