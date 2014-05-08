@@ -1,28 +1,21 @@
 {
   mainBox:
-    height: 296
+    height: 879
     _isVisible: true
 
   timeControl:
-    t: 8258.37820069303
+    t: 3027.110931439715
     _focus:
-      from: 5506.107740585774
-      to: 24556.605881849915
+      from: 547.5689035321075
+      to: 7243.733250084854
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -3
     guides:
       _list: [
-        1062.5025905606908
-        4648.800271293099
-        7129.526558396634
-        19993.636315890868
-        21000
-        23536.704763679714
-        28163.060954656168
-        30000
+        3016.6043974231575
         35000
         38614.25415826842
         60000
@@ -172,7 +165,80 @@
       }
       {
         name: "The Ball"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Intro-Gelobi Letter g-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter g-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter g-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter g-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter e-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter e-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter e-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter e-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter l-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter l-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter l-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter l-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter o-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter o-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter o-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter o-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter b-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter b-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter b-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter b-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter i-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter i-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Gelobi Letter i-X"
+            _expanded: true
+            actorPropId: "no-id-Intro-Gelobi Letter i-X"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "The Ball"
