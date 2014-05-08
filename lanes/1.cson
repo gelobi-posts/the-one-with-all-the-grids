@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 296
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 24839.744921230602
+    t: 25676.691492290323
     _focus:
       from: 19050.864471400862
       to: 38101.362612665
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 68
     guides:
       _list: [
         1062.5025905606908
@@ -190,6 +190,12 @@
             _expanded: true
             actorPropId: "no-id-Mouse-domEl-Y"
             _height: 126
+          }
+          {
+            id: "no-id-Photoshop-Extension-Heighlight-X"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
+            _height: 80
           }
         ]
       }
