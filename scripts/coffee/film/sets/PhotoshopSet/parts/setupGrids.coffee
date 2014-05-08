@@ -34,6 +34,13 @@ module.exports = (set) ->
 		'opacity'
 	]
 
+	griddifyEighty = set._makeEl '#eighty'
+	.inside griddifyContainer
+
+	set._setupDomEl 'Grids', 'Griddify 80 10 10', griddifyEighty, [
+		'opacity'
+	]
+
 	griddifyForty = set._makeEl '#griddify-forty'
 	.inside selection
 
