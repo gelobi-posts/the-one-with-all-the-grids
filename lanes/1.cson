@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 23315.306523943254
+    t: 23464.761268775346
     _focus:
       from: 19050.864471400862
       to: 38101.362612665
@@ -192,9 +192,9 @@
             _height: 126
           }
           {
-            id: "no-id-Photoshop-Extension-Heighlight-X"
+            id: "no-id-Photoshop-Units Panel-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Extension-Heighlight-X"
+            actorPropId: "no-id-Photoshop-Units Panel-Opacity"
             _height: 80
           }
         ]
@@ -6171,6 +6171,14 @@
         pacs:
           _idCounter: 5
           chronologyLength: 24320.294104151595
+          chronology:
+            points: []
+            connectors: []
+
+      "no-id-Photoshop-Units Panel-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 23066.21528255643
           chronology:
             points: []
             connectors: []
