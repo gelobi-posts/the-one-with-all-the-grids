@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 51796.822071364724
+    t: 60358.7896452311
     _focus:
-      from: 45771.88898706141
-      to: 53673.68369374494
+      from: 54283.66505379554
+      to: 62185.459760479076
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 330
+    scrollTop: 1
     guides:
       _list: [
         3016.6043974231575
@@ -170,51 +170,33 @@
         name: "The Ball"
         propHolders: [
           {
-            id: "no-id-Qwertify-Griddify-Type"
+            id: "no-id-Photoshop-Menu Bar-Opacity"
             _expanded: true
-            actorPropId: "no-id-Qwertify-Griddify-Type"
-            _height: 322
+            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
+            _height: 214
           }
           {
-            id: "no-id-Qwertify-Griddify-Focus"
+            id: "no-id-Photoshop-Edit Highlight-Opacity"
             _expanded: true
-            actorPropId: "no-id-Qwertify-Griddify-Focus"
+            actorPropId: "no-id-Photoshop-Edit Highlight-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Classify-Griddify Button-Set To"
+            id: "no-id-Photoshop-Edit Menu-Opacity"
             _expanded: true
-            actorPropId: "no-id-Classify-Griddify Button-Set To"
+            actorPropId: "no-id-Photoshop-Edit Menu-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Classify-Griddify Direction-Set To"
+            id: "no-id-Photoshop-Pref Highlight-Opacity"
             _expanded: true
-            actorPropId: "no-id-Classify-Griddify Direction-Set To"
+            actorPropId: "no-id-Photoshop-Pref Highlight-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Grids-Griddify 100 h-Opacity"
+            id: "no-id-Photoshop-Pref Menu-Opacity"
             _expanded: true
-            actorPropId: "no-id-Grids-Griddify 100 h-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale Y"
+            actorPropId: "no-id-Photoshop-Pref Menu-Opacity"
             _height: 80
           }
         ]
@@ -904,7 +886,7 @@
       "no-id-Photoshop-Menu Bar-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 21957.51627941643
+          chronologyLength: 62188.405737054534
           chronology:
             points: [
               {
@@ -973,6 +955,72 @@
                   -0.011091499589383602
                 ]
               }
+              {
+                t: 56479.66505379508
+                value: 0
+                id: "no-id-Photoshop-Window-Opacity-point-5"
+                handler: [
+                  100
+                  0.034699998795986176
+                  197.08595275878906
+                  0
+                ]
+              }
+              {
+                t: 56770.5880193366
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-6"
+                handler: [
+                  180.20143127441406
+                  0
+                  100
+                  0.1091499999165535
+                ]
+              }
+              {
+                t: 59568.119784146176
+                value: 1
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-0"
+                handler: [
+                  100
+                  0.099823497235775
+                  100
+                  0
+                ]
+              }
+              {
+                t: 59770.73392389698
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-1"
+                handler: [
+                  100
+                  -0.0027728748973459005
+                  100
+                  -0.0027728748973459005
+                ]
+              }
+              {
+                t: 61947.80144610047
+                value: 0.3
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
+                handler: [
+                  0
+                  0.23735810816287994
+                  188.64369201660156
+                  0
+                ]
+              }
+              {
+                t: 62188.405737054534
+                value: 0
+                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
+                handler: [
+                  146.43240356445312
+                  0
+                  100
+                  -0.011091499589383602
+                ]
+              }
             ]
             connectors: [
               {
@@ -985,6 +1033,18 @@
               }
               {
                 t: 21716.91198846237
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
+              }
+              {
+                t: 56479.66505379508
+                id: "no-id-Photoshop-Window-Opacity-connector-8"
+              }
+              {
+                t: 59568.119784146176
+                id: "no-id-Photoshop-Menu Bar-Opacity-connector-4"
+              }
+              {
+                t: 61947.80144610047
                 id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
@@ -1284,7 +1344,7 @@
       "no-id-Classify-Griddify Button-Set To":
         pacs:
           _idCounter: 10
-          chronologyLength: 52912.66887866873
+          chronologyLength: 51810.31814835995
           chronology:
             points: [
               {
@@ -1376,7 +1436,7 @@
                 ]
               }
               {
-                t: 52254.9011855823
+                t: 51152.550455273515
                 value: 0
                 id: "no-id-Classify-Griddify Direction-Set To-point-21"
                 handler: [
@@ -1387,7 +1447,7 @@
                 ]
               }
               {
-                t: 52912.66887866873
+                t: 51810.31814835995
                 value: 1
                 id: "no-id-Classify-Griddify Direction-Set To-point-24"
                 handler: [
@@ -1416,7 +1476,7 @@
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
               {
-                t: 52254.9011855823
+                t: 51152.550455273515
                 id: "no-id-Classify-Griddify Direction-Set To-connector-27"
               }
             ]
@@ -2428,18 +2488,18 @@
                 ]
               }
               {
-                t: 53796.65962268039
+                t: 53147.81978536381
                 value: 1
                 id: "no-id-Grids-Selection-Opacity-point-0"
                 handler: [
                   100
                   0.14249999821186066
-                  197.6882781982422
-                  0
+                  189.4228057861328
+                  -0.028562499210238457
                 ]
               }
               {
-                t: 54115.774642098564
+                t: 53466.93480478199
                 value: 0
                 id: "no-id-Grids-Selection-Opacity-point-1"
                 handler: [
@@ -2518,7 +2578,7 @@
             ]
             connectors: [
               {
-                t: 53796.65962268039
+                t: 53147.81978536381
                 id: "no-id-Grids-Selection-Opacity-connector-3"
               }
               {
@@ -2534,11 +2594,11 @@
       "no-id-Grids-Griddify 40 -s-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 54112.51836639021
+          chronologyLength: 53459.54579125632
           chronology:
             points: [
               {
-                t: 52950.02793850973
+                t: 51809.39230093407
                 value: 0
                 id: "no-id-Grids-Griddify 40 -s-Opacity-point-0"
                 handler: [
@@ -2549,7 +2609,7 @@
                 ]
               }
               {
-                t: 53269.14295792791
+                t: 52128.50732035225
                 value: 1
                 id: "no-id-Grids-Griddify 40 -s-Opacity-point-1"
                 handler: [
@@ -2560,7 +2620,7 @@
                 ]
               }
               {
-                t: 53793.40334697204
+                t: 53140.430771838146
                 value: 1
                 id: "no-id-Grids-Griddify 40 -s-Opacity-point-0"
                 handler: [
@@ -2571,7 +2631,7 @@
                 ]
               }
               {
-                t: 54112.51836639021
+                t: 53459.54579125632
                 value: 0
                 id: "no-id-Grids-Griddify 40 -s-Opacity-point-1"
                 handler: [
@@ -2584,11 +2644,11 @@
             ]
             connectors: [
               {
-                t: 52950.02793850973
+                t: 51809.39230093407
                 id: "no-id-Grids-Griddify 40 -s-Opacity-connector-2"
               }
               {
-                t: 53793.40334697204
+                t: 53140.430771838146
                 id: "no-id-Grids-Griddify 40 -s-Opacity-connector-3"
               }
             ]
@@ -6317,72 +6377,152 @@
       "no-id-Photoshop-Pref Menu-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 17336.051806491087
+          chronologyLength: 60980.30734451483
           chronology:
             points: [
-              t: 17336.051806491087
-              value: 0
-              id: "no-id-Photoshop-Pref Menu-Opacity-point-0"
-              handler: [
-                100
-                0.10000000149011612
-                100
-                0.10000000149011612
-              ]
+              {
+                t: 17336.051806491087
+                value: 0
+                id: "no-id-Photoshop-Pref Menu-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  100
+                  0.10000000149011612
+                ]
+              }
+              {
+                t: 60689.38437897331
+                value: 0
+                id: "no-id-Photoshop-Window-Opacity-point-5"
+                handler: [
+                  100
+                  0.034699998795986176
+                  197.08595275878906
+                  0
+                ]
+              }
+              {
+                t: 60980.30734451483
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-6"
+                handler: [
+                  180.20143127441406
+                  0
+                  100
+                  0.1091499999165535
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 60689.38437897331
+              id: "no-id-Photoshop-Window-Opacity-connector-8"
+            ]
 
       "no-id-Photoshop-Pref Highlight-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 17332.54962848557
+          _idCounter: 1
+          chronologyLength: 60114.958114010224
           chronology:
             points: [
-              t: 17332.54962848557
-              value: 0
-              id: "no-id-Photoshop-Pref Highlight-Opacity-point-0"
-              handler: [
-                100
-                0.0925000011920929
-                100
-                0.0925000011920929
-              ]
+              {
+                t: 17332.54962848557
+                value: 0
+                id: "no-id-Photoshop-Pref Highlight-Opacity-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  100
+                  0.0925000011920929
+                ]
+              }
+              {
+                t: 60114.958114010224
+                value: 1
+                id: "no-id-Photoshop-Pref Highlight-Opacity-point-1"
+                handler: [
+                  100
+                  0.0034687500447034836
+                  100
+                  0.0034687500447034836
+                ]
+              }
             ]
             connectors: []
 
       "no-id-Photoshop-Edit Menu-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 17332.54962848557
+          chronologyLength: 60087.66026761941
           chronology:
             points: [
-              t: 17332.54962848557
-              value: 0
-              id: "no-id-Photoshop-Edit Menu-Opacity-point-0"
-              handler: [
-                100
-                0.09749999642372131
-                100
-                0.09749999642372131
-              ]
+              {
+                t: 17332.54962848557
+                value: 0
+                id: "no-id-Photoshop-Edit Menu-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  100
+                  0.09749999642372131
+                ]
+              }
+              {
+                t: 59796.73730207788
+                value: 0
+                id: "no-id-Photoshop-Window-Opacity-point-5"
+                handler: [
+                  100
+                  0.034699998795986176
+                  197.08595275878906
+                  0
+                ]
+              }
+              {
+                t: 60087.66026761941
+                value: 1
+                id: "no-id-Photoshop-Window-Opacity-point-6"
+                handler: [
+                  180.20143127441406
+                  0
+                  100
+                  0.1091499999165535
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 59796.73730207788
+              id: "no-id-Photoshop-Window-Opacity-connector-8"
+            ]
 
       "no-id-Photoshop-Edit Highlight-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 17332.54962848557
+          _idCounter: 1
+          chronologyLength: 59577.70219776082
           chronology:
             points: [
-              t: 17332.54962848557
-              value: 0
-              id: "no-id-Photoshop-Edit Highlight-Opacity-point-0"
-              handler: [
-                100
-                0.0925000011920929
-                100
-                0.0925000011920929
-              ]
+              {
+                t: 17332.54962848557
+                value: 0
+                id: "no-id-Photoshop-Edit Highlight-Opacity-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  100
+                  0.0925000011920929
+                ]
+              }
+              {
+                t: 59577.70219776082
+                value: 1
+                id: "no-id-Photoshop-Edit Highlight-Opacity-point-1"
+                handler: [
+                  100
+                  0.00323750008828938
+                  100
+                  0.00323750008828938
+                ]
+              }
             ]
             connectors: []
 
