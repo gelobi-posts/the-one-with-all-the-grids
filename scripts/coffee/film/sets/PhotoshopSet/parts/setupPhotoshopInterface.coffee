@@ -15,6 +15,41 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Photoshop', 'Menu Bar', menubar, ['opacity']
 
+	editHl = set._makeEl '#photoshop-edit-selected'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Edit Highlight', editHl, ['opacity']
+
+	editMenu = set._makeEl '#photoshop-edit-menu'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Edit Menu', editMenu, ['opacity']
+
+	prefHl = set._makeEl '#photoshop-pref-hover'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Pref Highlight', prefHl, ['opacity', 'translation']
+
+	prefMenu = set._makeEl '#photoshop-pref-menu'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Pref Menu', prefMenu, ['opacity']
+
+	unitsHl = set._makeEl '#photoshop-units-hover'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Units Highlight', unitsHl, ['opacity']
+
+	unitsPanel = set._makeEl '#photshop-units-panel'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Units Panel', unitsPanel, ['opacity', 'translation']
+
+	pixelHl = set._makeEl '#photoshop-pixel-highlight'
+	.inside container
+
+	set._setupDomEl 'Photoshop', 'Pixel Highlight', pixelHl, ['opacity', 'translation']
+
 	windowHl = set._makeEl '#photoshop-window-selected'
 	.inside container
 
@@ -58,9 +93,12 @@ module.exports = (set) ->
 		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
-	set.cursor = set._makeEl '#photoshop-cursor'
+	set.cursor = set._makeEl '#photoshop-pointer-container'
 	.inside container
 
-	set._setupDomEl 'Mouse', 'domEl', set.cursor, [
-		'opacity'
+	pointer = set._makeEl '#photoshop-pointer .icon-up-open-2'
+	.inside set.cursor
+
+	set._setupDomEl 'Mouse', 'domEl', pointer, [
+		'opacity', 'translation'
 	]

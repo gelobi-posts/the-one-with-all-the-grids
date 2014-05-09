@@ -25,8 +25,4 @@ module.exports = (film) ->
 	wraBtn = new Classify film, 'Classify', 'Wrap Button'
 	wraBtn.addElement thePanelEl.querySelector '#wrap-button'
 
-	cursor = new Classify film, 'Mouse', 'Classify'
-	cursor.addElement film.sets.photoshop.cursor.node
-	cursor.addClasses ['cursor', 'pointer', 'text']
-
 

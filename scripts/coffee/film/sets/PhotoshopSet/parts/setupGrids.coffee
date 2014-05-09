@@ -34,6 +34,13 @@ module.exports = (set) ->
 		'opacity'
 	]
 
+	griddifyEighty = set._makeEl '#eighty'
+	.inside griddifyContainer
+
+	set._setupDomEl 'Grids', 'Griddify 80 10 10', griddifyEighty, [
+		'opacity'
+	]
+
 	griddifyForty = set._makeEl '#griddify-forty'
 	.inside selection
 
@@ -42,11 +49,11 @@ module.exports = (set) ->
 	divideContainer = set._makeEl '#divide-container'
 	.inside container
 
-	divideFourHor = set._makeEl '#four-h'
-	.inside divideContainer
-	.html """<div></div><div></div><div></div>"""
+	# divideFourHor = set._makeEl '#four-h'
+	# .inside divideContainer
+	# .html """<div></div><div></div><div></div>"""
 
-	set._setupDomEl 'Grids', 'Divide 4 h', divideFourHor, ['opacity']
+	# set._setupDomEl 'Grids', 'Divide 4 h', divideFourHor, ['opacity']
 
 	divideFourVer = set._makeEl '#four-v'
 	.inside divideContainer
@@ -73,39 +80,39 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Divide 4 -s', divideFourSel, [ 'opacity' ]
 
-	divideHalf = set._makeEl '#two'
-	.inside divideContainer
-	.html """
+	# divideHalf = set._makeEl '#two'
+	# .inside divideContainer
+	# .html """
 
-		<div class="v"></div>
-		<div class="h"></div>
+	# 	<div class="v"></div>
+	# 	<div class="h"></div>
 
-	"""
+	# """
 
-	set._setupDomEl 'Grids', 'Divide 2', divideHalf, ['opacity']
+	# set._setupDomEl 'Grids', 'Divide 2', divideHalf, ['opacity']
 
-	divideRuleOgThird = set._makeEl '#three'
-	.inside divideContainer
-	.html """
+	# divideRuleOgThird = set._makeEl '#three'
+	# .inside divideContainer
+	# .html """
 
-		<div class="v">
+	# 	<div class="v">
 
-			<div></div>
-			<div></div>
+	# 		<div></div>
+	# 		<div></div>
 
-		</div>
+	# 	</div>
 
-		<div class="h">
+	# 	<div class="h">
 
-			<div></div>
-			<div></div>
+	# 		<div></div>
+	# 		<div></div>
 
-		</div>
+	# 	</div>
 
 
-	"""
+	# """
 
-	set._setupDomEl 'Grids', 'Divide 3', divideRuleOgThird, ['opacity']
+	# set._setupDomEl 'Grids', 'Divide 3', divideRuleOgThird, ['opacity']
 
 	wrapZero = set._makeEl '#wrap-zero'
 	.inside selection

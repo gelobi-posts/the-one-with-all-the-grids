@@ -10,7 +10,7 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
-		@container = @makeSetContainer [10000, 111000]
+		@container = @makeSetContainer [10000, 211000]
 		.set 'id', 'photoshop-container'
 
 		setupPhotoshopInterface @
@@ -19,7 +19,6 @@ module.exports = class PhotoshopSet extends Set
 
 		@film.loader
 		.loadImage '../images/photoshop/bg.jpg', 369857
-		.loadImage '../images/photoshop/grids.png', 930
 		.loadImage '../images/photoshop/pspanels-extensions-selected.png', 930
 		.loadImage '../images/photoshop/pspanels-guides-selected.png', 930
 		.loadImage '../images/photoshop/pspanels-layers.png', 13000

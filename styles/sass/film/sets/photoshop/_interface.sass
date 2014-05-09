@@ -25,6 +25,97 @@
 
 	background: url('../../images/photoshop/pspanels-menu.png') #000 no-repeat left
 
+#photoshop-edit-selected
+
+	position: absolute
+
+	width: 35px
+	height: 29px
+
+	background: url('../../images/photoshop/pspanels-menu.png')
+	background-position: -74px 0
+
+	left: 74px
+
+#photoshop-edit-menu
+
+	position: absolute
+
+	width: 274px
+	height: 323px
+
+	background: url('../../images/photoshop/pspanels-window-edit.png')
+
+	left: 81px
+	top: 29px
+
+#photoshop-pref-hover
+
+	position: absolute
+
+	width: 274px
+	height: 22px
+
+	background: url('../../images/photoshop/pspanels-window-edit.png')
+	background-position: 0 -280px
+
+	left: 81px
+	top: 309px
+
+#photoshop-pref-menu
+
+	position: absolute
+
+	width: 189px
+	height: 267px
+
+	background: url('../../images/photoshop/pspanels-preferences-menu.png')
+
+	top: 309px
+	left: 360px
+
+#photoshop-units-hover
+
+	position: absolute
+
+	width: 189px
+	height: 22px
+
+	background: url('../../images/photoshop/pspanels-preferences-menu.png')
+	background-position: 0px -142px
+
+	top: 451px
+	left: 360px
+
+#photshop-units-panel
+
+	position: absolute
+
+	width: 889px
+	height: 668px
+
+	background: url('../../images/photoshop/pspanels-preferences-panel.png')
+
+	left: calc(50% - 445px)
+	top: calc(50% - 334px)
+
+	z-index: -2
+
+#photoshop-pixel-highlight
+
+	position: absolute
+
+	width: 643px
+	height: 74px
+
+	background: url('../../images/photoshop/pspanels-preferences-panel.png')
+	background-position: -144px -39px
+
+	left: calc(50% - 301px)
+	top: calc(50% - 295px)
+
+	z-index: -2
+
 #photoshop-window-selected
 
 	position: absolute
@@ -93,7 +184,7 @@
 	height: 665px
 
 	left: 2%
-	top: 15%
+	top: calc(50% - 332px)
 
 	background: url('../../images/photoshop/pspanels-tools.png')
 
@@ -113,38 +204,31 @@
 
 	@include transform-origin(274px)
 
-#photoshop-cursor
+#photoshop-pointer-container
 
 	position: absolute
 
 	left: 0
 	top: 0
 
-	width: 20px
+	width: 30px
 	height: 20px
 
 	z-index: 1000
 
-	&.cursor
+#photoshop-pointer
 
-		background: url('../../images/photoshop/mouse.svg') no-repeat
-		background-size: auto 100%
+	position: absolute
 
-	&.pointer
+	width: 100%
+	height: 100%
 
-		background: url('../../images/photoshop/mouse.svg') no-repeat
-		background-size: 50%
+	color: #fff
 
-	&.text
+	font-size: 18px
 
-		&:after
+	line-height: 20px
 
-			@include psuedo
+	background: red
 
-			width: 1px
-			height: 100%
-
-			position: absolute
-
-			background: black
 
