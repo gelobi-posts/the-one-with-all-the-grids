@@ -8,7 +8,7 @@ module.exports = class TheatreSet extends Set
 
 		@id = "theatre"
 
-		@container = @makeSetContainer([211100])
+		@container = @makeSetContainer([173000])
 		.set 'id', 'theatre-container'
 
 		do @_prepareBrowserMockup
