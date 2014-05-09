@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 490
-    _isVisible: false
+    height: 340
+    _isVisible: true
 
   timeControl:
-    t: 63707.94321872576
+    t: 51338.95987667162
     _focus:
-      from: 63007.943218725064
-      to: 68545.12563934035
+      from: 41642.27317071043
+      to: 51338.95987667162
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 386
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -158,68 +158,7 @@
       }
       {
         name: "The Ball"
-        propHolders: [
-          {
-            id: "no-id-Photoshop-Pixel Highlight-Opacity"
-            _expanded: false
-            actorPropId: "no-id-Photoshop-Pixel Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Units Panel-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Units Panel-Opacity"
-            _height: 202
-          }
-          {
-            id: "no-id-The Panel-Panel-Opacity"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Panel-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Menu Bar-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Menu Bar-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Edit Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Edit Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Edit Menu-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Edit Menu-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Pref Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Pref Menu-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Menu-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Units Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Units Highlight-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Pref Highlight-X"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Highlight-X"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "The Ball"
@@ -5997,7 +5936,7 @@
                 ]
               }
               {
-                t: 59583.663929113005
+                t: 59806.80943908283
                 value: 1
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-0"
                 handler: [
@@ -6008,7 +5947,7 @@
                 ]
               }
               {
-                t: 59902.11870527836
+                t: 60125.26421524818
                 value: 0.3
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-1"
                 handler: [
@@ -6047,7 +5986,7 @@
                 id: "no-id-Photoshop-Pref Menu-Opacity-connector-2"
               }
               {
-                t: 59583.663929113005
+                t: 59806.80943908283
                 id: "no-id-Photoshop-Pref Menu-Opacity-connector-3"
               }
               {
