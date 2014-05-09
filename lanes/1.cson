@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 637
+    height: 490
     _isVisible: true
 
   timeControl:
-    t: 112898.84632404493
+    t: 63438.296700568615
     _focus:
-      from: 99611.47717262186
-      to: 115726.25815154299
+      from: 58364.02415461208
+      to: 63901.206575227385
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 627
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -159,87 +159,21 @@
         name: "The Ball"
         propHolders: [
           {
-            id: "no-id-Classify-Wrap Button-Set To"
+            id: "no-id-Photoshop-Pixel Highlight-Opacity"
             _expanded: true
-            actorPropId: "no-id-Classify-Wrap Button-Set To"
+            actorPropId: "no-id-Photoshop-Pixel Highlight-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Classify-Wrap Orientation-Set To"
+            id: "no-id-Photoshop-Units Panel-Opacity"
             _expanded: true
-            actorPropId: "no-id-Classify-Wrap Orientation-Set To"
-            _height: 80
+            actorPropId: "no-id-Photoshop-Units Panel-Opacity"
+            _height: 202
           }
           {
-            id: "no-id-Classify-Divide Orientation-Set To"
+            id: "no-id-The Panel-Panel-Opacity"
             _expanded: true
-            actorPropId: "no-id-Classify-Divide Orientation-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Classify-Divide Button-Set To"
-            _expanded: true
-            actorPropId: "no-id-Classify-Divide Button-Set To"
-            _height: 80
-          }
-          {
-            id: "no-id-Qwertify-Wrap-Type"
-            _expanded: true
-            actorPropId: "no-id-Qwertify-Wrap-Type"
-            _height: 220
-          }
-          {
-            id: "no-id-Qwertify-Wrap-Focus"
-            _expanded: true
-            actorPropId: "no-id-Qwertify-Wrap-Focus"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale X"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Selection-Scale Y"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 0-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 0-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 10 v-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 10 v-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 10 h-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 10 h-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 50 v-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 50 v-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Grids-Wrap 50 h-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Wrap 50 h-Opacity"
+            actorPropId: "no-id-The Panel-Panel-Opacity"
             _height: 80
           }
         ]
@@ -5771,8 +5705,8 @@
 
       "no-id-Photoshop-Units Panel-Opacity":
         pacs:
-          _idCounter: 1
-          chronologyLength: 62750.314021744874
+          _idCounter: 2
+          chronologyLength: 63002.26740594651
           chronology:
             points: [
               {
@@ -5842,7 +5776,7 @@
                 ]
               }
               {
-                t: 62750.314021744874
+                t: 63002.26740594651
                 value: 0
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
                 handler: [
@@ -5864,7 +5798,7 @@
               }
               {
                 t: 62509.70973079081
-                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
+                id: "no-id-Photoshop-Units Panel-Opacity-connector-2"
               }
             ]
 
