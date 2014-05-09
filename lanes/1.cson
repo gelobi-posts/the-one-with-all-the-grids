@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 51338.95987667162
+    t: 63365.61725661221
     _focus:
-      from: 41642.27317071043
-      to: 51338.95987667162
+      from: 60757.617256611506
+      to: 70454.30396257265
 
     _lastPlayedTickAt: 0
 
@@ -6163,28 +6163,6 @@
                 ]
               }
               {
-                t: 123908.21021559162
-                value: 0.3
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
-                handler: [
-                  0
-                  0.23735810816287994
-                  188.64369201660156
-                  0
-                ]
-              }
-              {
-                t: 124148.81450654569
-                value: 0
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
-                handler: [
-                  146.43240356445312
-                  0
-                  100
-                  -0.011091499589383602
-                ]
-              }
-              {
                 t: 185862.31532338745
                 value: 0.3
                 id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
@@ -6219,10 +6197,6 @@
               {
                 t: 60470.829329134285
                 id: "no-id-Photoshop-Edit Menu-Opacity-connector-1"
-              }
-              {
-                t: 123908.21021559162
-                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
               {
                 t: 185862.31532338745
