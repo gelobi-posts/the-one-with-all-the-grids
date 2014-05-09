@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 63164.830534634886
+    t: 25592.614497908868
     _focus:
-      from: 58042.50659552364
-      to: 67739.19330148483
+      from: 19125.92045326427
+      to: 28822.607159225503
 
     _lastPlayedTickAt: 0
 
@@ -160,15 +160,15 @@
         name: "The Ball"
         propHolders: [
           {
-            id: "no-id-Photoshop-Units Panel-Z"
+            id: "no-id-The Panel-Griddify Section-Opacity"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Units Panel-Z"
-            _height: 80
+            actorPropId: "no-id-The Panel-Griddify Section-Opacity"
+            _height: 169
           }
           {
-            id: "no-id-Photoshop-Pixel Highlight-Z"
+            id: "no-id-The Panel-Griddify Section-Z"
             _expanded: true
-            actorPropId: "no-id-Photoshop-Pixel Highlight-Z"
+            actorPropId: "no-id-The Panel-Griddify Section-Z"
             _height: 80
           }
         ]
@@ -1632,7 +1632,7 @@
 
       "no-id-The Panel-Griddify Section-Opacity":
         pacs:
-          _idCounter: 0
+          _idCounter: 2
           chronologyLength: 25416.867337870735
           chronology:
             points: [
@@ -1655,7 +1655,7 @@
                   116.88451385498047
                   0
                   100
-                  0.09642499685287476
+                  0
                 ]
               }
               {
@@ -1664,7 +1664,7 @@
                 id: "no-id-The Panel-Divide Section-Opacity-point-0"
                 handler: [
                   100
-                  0.12999999523162842
+                  0
                   100.00000762939453
                   0
                 ]
@@ -1684,7 +1684,7 @@
             connectors: [
               {
                 t: 24362.27321111969
-                id: "no-id-The Panel-Divide Section-Opacity-connector-2"
+                id: "no-id-The Panel-Griddify Section-Opacity-connector-1"
               }
               {
                 t: 25210.03207020847
@@ -6412,6 +6412,24 @@
                 0.25
                 100
                 0.25
+              ]
+            ]
+            connectors: []
+
+      "no-id-The Panel-Griddify Section-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 24669.057780469095
+          chronology:
+            points: [
+              t: 24669.057780469095
+              value: 10
+              id: "no-id-The Panel-Griddify Section-Z-point-0"
+              handler: [
+                100
+                3
+                100
+                3
               ]
             ]
             connectors: []
