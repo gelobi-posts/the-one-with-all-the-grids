@@ -43,12 +43,12 @@ module.exports = (set) ->
 	unitsPanel = set._makeEl '#photshop-units-panel'
 	.inside container
 
-	set._setupDomEl 'Photoshop', 'Units Panel', unitsPanel, ['opacity', 'translation']
+	set._setupDomEl 'Photoshop', 'Units Panel', unitsPanel, ['opacity']
 
 	pixelHl = set._makeEl '#photoshop-pixel-highlight'
 	.inside container
 
-	set._setupDomEl 'Photoshop', 'Pixel Highlight', pixelHl, ['opacity', 'translation']
+	set._setupDomEl 'Photoshop', 'Pixel Highlight', pixelHl, ['opacity']
 
 	windowHl = set._makeEl '#photoshop-window-selected'
 	.inside container
