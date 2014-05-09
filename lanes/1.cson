@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 25592.614497908868
+    t: 58947.54348255294
     _focus:
-      from: 19125.92045326427
-      to: 28822.607159225503
+      from: 55930.75385912198
+      to: 65627.4405650832
 
     _lastPlayedTickAt: 0
 
@@ -166,9 +166,15 @@
             _height: 169
           }
           {
-            id: "no-id-The Panel-Griddify Section-Z"
+            id: "no-id-Photoshop-Units Panel-Z"
             _expanded: true
-            actorPropId: "no-id-The Panel-Griddify Section-Z"
+            actorPropId: "no-id-Photoshop-Units Panel-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Pixel Highlight-Z"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Pixel Highlight-Z"
             _height: 80
           }
         ]
@@ -6385,17 +6391,7 @@
           _idCounter: 0
           chronologyLength: 60243.532762044124
           chronology:
-            points: [
-              t: 60243.532762044124
-              value: -1
-              id: "no-id-Photoshop-Units Panel-Z-point-0"
-              handler: [
-                100
-                3.25
-                100
-                3.25
-              ]
-            ]
+            points: []
             connectors: []
 
       "no-id-Photoshop-Pixel Highlight-Z":
@@ -6403,17 +6399,7 @@
           _idCounter: 0
           chronologyLength: 60268.890206358876
           chronology:
-            points: [
-              t: 60268.890206358876
-              value: -1
-              id: "no-id-Photoshop-Pixel Highlight-Z-point-0"
-              handler: [
-                100
-                0.25
-                100
-                0.25
-              ]
-            ]
+            points: []
             connectors: []
 
       "no-id-The Panel-Griddify Section-Z":
