@@ -46,7 +46,7 @@ module.exports = (film) ->
 
 		() -> {x: 280, y: 0},
 
-		# (prev) -> {x: 100, y: -prev.y},
+		(prev) -> {x: 100, y: -prev.y},
 
 		(prev) -> {x: -prev.x + window.innerWidth * .5 - 135, y: -prev.y + window.inneeHeight * .5 - 264},
 

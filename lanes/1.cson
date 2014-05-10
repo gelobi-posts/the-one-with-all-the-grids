@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 60709.871447543126
+    t: 61021.44910795582
     _focus:
       from: 57420.248407062485
       to: 69579.63411291619
@@ -5776,7 +5776,7 @@
               }
               {
                 t: 60364.7021632394
-                value: 22
+                value: 21
                 id: "no-id-Mouse-Mousify-Move-point-64"
                 handler: [
                   100
