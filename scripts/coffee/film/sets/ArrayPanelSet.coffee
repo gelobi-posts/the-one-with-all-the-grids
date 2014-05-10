@@ -65,7 +65,7 @@ module.exports = class ArrayPanelPanelSet extends Set
 		</div>
 		"""
 
-		@arrayPanel = @_makeEl '#arrayPanel'
+		@arrayPanel = @_makeEl '#arrayPanel.aPanel'
 		.inside container
 
 		@panelBody = @_makeEl '.body'

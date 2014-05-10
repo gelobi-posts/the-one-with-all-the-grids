@@ -70,7 +70,7 @@ module.exports = class ThePanelSet extends Set
 		</div>
 		"""
 
-		@thePanel = @_makeEl '#thePanel'
+		@thePanel = @_makeEl '#thePanel.aPanel'
 		.inside container
 
 		@panelBody = @_makeEl '.body'
