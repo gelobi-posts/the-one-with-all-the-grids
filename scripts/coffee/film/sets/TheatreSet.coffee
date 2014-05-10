@@ -51,7 +51,17 @@ module.exports = class TheatreSet extends Set
 
 		@_setupDomEl 'Theatre', 'WebGL typo', @_webgl, ['opacity', 'scaleAll', 'translation']
 
-		@_threejs = @_makeEl
+		@_threejs = @_makeEl '#theatre-threejs-typo'
+		.html 'Three.js Objects'
+		.inside '@container'
+
+		@_setupDomEl 'Theatre', 'ThreeJS Typo', @_threejs, ['opacity', 'scaleAll', 'translation']
+
+		@_anyKind = @_makeEl '#theatre-any-kind-typo'
+		.html 'any Kind of Javascript Variable'
+		.inside @container
+
+		@_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
 
 	_prepareBrowserMockup: ->
 
