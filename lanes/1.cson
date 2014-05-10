@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 493
+    height: 378
     _isVisible: true
 
   timeControl:
-    t: 178110.75536907712
+    t: 168463.23385781067
     _focus:
-      from: 172872.10947201663
-      to: 180902.7512218252
+      from: 163121.35685695393
+      to: 171151.9986067625
 
     _lastPlayedTickAt: 0
 
@@ -183,44 +183,7 @@
       }
       {
         name: "Theatre"
-        propHolders: [
-          {
-            id: "no-id-Theatre-HTML Elements Typo-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-HTML Elements Typo-Opacity"
-            _height: 134
-          }
-          {
-            id: "no-id-Theatre-HTML Elements Typo-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-HTML Elements Typo-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-WebGL typo-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-WebGL typo-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-WebGL typo-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-WebGL typo-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-ThreeJS Typo-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-ThreeJS Typo-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-ThreeJS Typo-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-ThreeJS Typo-X"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Theatre"
