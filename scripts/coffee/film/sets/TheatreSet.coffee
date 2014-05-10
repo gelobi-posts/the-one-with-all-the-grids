@@ -53,7 +53,7 @@ module.exports = class TheatreSet extends Set
 
 		@_threejs = @_makeEl '#theatre-threejs-typo'
 		.html 'Three.js Objects'
-		.inside '@container'
+		.inside @container
 
 		@_setupDomEl 'Theatre', 'ThreeJS Typo', @_threejs, ['opacity', 'scaleAll', 'translation']
 

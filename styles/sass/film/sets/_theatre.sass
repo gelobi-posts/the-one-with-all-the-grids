@@ -43,19 +43,37 @@
 
 	text-align: center
 
-#theatre-html-typo
+.bullet-list
 
 	position: absolute
+	width: 100%
+	height: 50px
+	left: -1
 
-	width: 80vw
+	font-family: "Droid Sans", Helvetica, sans-serif
+	color: #FFF
+	font-weight: 400
+	font-size: 38px
+
+	text-align: center
+
+#theatre-html-typo
+
+	@extend .bullet-list
+
+	top: calc(50vh - 150px)
 
 #theatre-webgl-typo
 
-	position: absolute
+	@extend .bullet-list
+
+	top: calc(50vh - 25px)
 
 #theatre-threejs-typo
 
-	position: absolute
+	@extend .bullet-list
+
+	top: calc(50vh + 100px)
 
 #theatre-any-kind-typo
 
