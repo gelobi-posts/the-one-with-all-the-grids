@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 173607.74803943507
+    t: 171221.20821534423
     _focus:
       from: 161067.82872658517
       to: 173607.74803943507
@@ -7453,34 +7453,8 @@
           _idCounter: 1
           chronologyLength: 170049.37665098443
           chronology:
-            points: [
-              {
-                t: 168383.5087087962
-                value: 0
-                id: "no-id-Theatre-Theatre Typo-X-point-7"
-                handler: [
-                  100
-                  -3.332577705383301
-                  585.3316040039062
-                  0
-                ]
-              }
-              {
-                t: 170049.37665098443
-                value: -170
-                id: "no-id-Theatre-Theatre Typo-X-point-6"
-                handler: [
-                  696.8267211914062
-                  0
-                  100
-                  -1.9042130708694458
-                ]
-              }
-            ]
-            connectors: [
-              t: 168383.5087087962
-              id: "no-id-Theatre-Js Typo-X-connector-1"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Theatre-Animation Tool Typo-Opacity":
         pacs:
@@ -7761,34 +7735,8 @@
           _idCounter: 1
           chronologyLength: 170049.37665098443
           chronology:
-            points: [
-              {
-                t: 168390.06724400166
-                value: 0
-                id: "no-id-Theatre-Theatre Typo-X-point-7"
-                handler: [
-                  100
-                  -3.332577705383301
-                  585.3316040039062
-                  0
-                ]
-              }
-              {
-                t: 170049.37665098443
-                value: -75
-                id: "no-id-Theatre-Theatre Typo-X-point-6"
-                handler: [
-                  696.8267211914062
-                  0
-                  100
-                  -1.9042130708694458
-                ]
-              }
-            ]
-            connectors: [
-              t: 168390.06724400166
-              id: "no-id-Theatre-Js Typo-Y-connector-1"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Theatre-Any Kind of Typo-Opacity":
         pacs:
