@@ -3,7 +3,7 @@ IntroSet = require '../sets/IntroSet'
 TheatreSet = require '../sets/TheatreSet'
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
-ArrayPanelSet = require '../sets/ArrayPanelSet'
+# ArrayPanelSet = require '../sets/ArrayPanelSet'
 implementQwertify = require '../sets/PhotoshopSet/implementQwertify'
 implementClassify = require '../sets/PhotoshopSet/implementClassify'
 implementMousify = require '../sets/PhotoshopSet/implementMousify'
@@ -26,7 +26,7 @@ module.exports = (film) ->
 
 	implementMousify film
 
-	film.addSet new ArrayPanelSet film
+	# film.addSet new ArrayPanelSet film
 
 	return
 
