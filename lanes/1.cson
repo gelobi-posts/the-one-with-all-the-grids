@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 168463.23385781067
+    t: 172254.66698461713
     _focus:
-      from: 163121.35685695393
-      to: 171151.9986067625
+      from: 171154.23385781283
+      to: 179184.8756076214
 
     _lastPlayedTickAt: 0
 
@@ -183,7 +183,20 @@
       }
       {
         name: "Theatre"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Theatre-Theatre Typo-Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Theatre Typo-Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Js Typo-Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Js Typo-Y"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Theatre"
@@ -7815,4 +7828,22 @@
               t: 177137.81275045025
               id: "no-id-Theatre-HTML Elements Typo-Opacity-connector-2"
             ]
+
+      "no-id-Theatre-Theatre Typo-Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 172212.6657202353
+          chronology:
+            points: [
+              t: 172212.6657202353
+              value: -80
+              id: "no-id-Theatre-Theatre Typo-Y-point-0"
+              handler: [
+                100
+                -0.5
+                100
+                -0.5
+              ]
+            ]
+            connectors: []
 }
