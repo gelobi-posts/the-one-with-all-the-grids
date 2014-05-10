@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 40886.93295202122
+    t: 60637.37057389942
     _focus:
-      from: 38760.93295202192
-      to: 50920.318657875614
+      from: 57420.248407062485
+      to: 69579.63411291619
 
     _lastPlayedTickAt: 0
 
@@ -5528,8 +5528,8 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 53
-          chronologyLength: 37119.213929316495
+          _idCounter: 64
+          chronologyLength: 60364.7021632394
           chronology:
             points: [
               {
@@ -5662,6 +5662,127 @@
                   0.9240437746047974
                   100
                   0.9240437746047974
+                ]
+              }
+              {
+                t: 40617.91026693263
+                value: 13
+                id: "no-id-Mouse-Mousify-Move-point-54"
+                handler: [
+                  100
+                  1.2924044132232666
+                  100
+                  1.2924044132232666
+                ]
+              }
+              {
+                t: 44503.571703269765
+                value: 14
+                id: "no-id-Mouse-Mousify-Move-point-55"
+                handler: [
+                  100
+                  1.2298543453216553
+                  100
+                  1.2298543453216553
+                ]
+              }
+              {
+                t: 46780.276767441115
+                value: 15
+                id: "no-id-Mouse-Mousify-Move-point-56"
+                handler: [
+                  100
+                  1.38068687915802
+                  100
+                  1.38068687915802
+                ]
+              }
+              {
+                t: 47638.8108000197
+                value: 15
+                id: "no-id-Mouse-Mousify-Move-point-57"
+                handler: [
+                  100
+                  1.445810079574585
+                  100
+                  1.445810079574585
+                ]
+              }
+              {
+                t: 50163.536806935976
+                value: 16
+                id: "no-id-Mouse-Mousify-Move-point-58"
+                handler: [
+                  100
+                  1.1812067031860352
+                  100
+                  1.1812067031860352
+                ]
+              }
+              {
+                t: 50664.484009232874
+                value: 17
+                id: "no-id-Mouse-Mousify-Move-point-59"
+                handler: [
+                  100
+                  1.3944965600967407
+                  100
+                  1.3944965600967407
+                ]
+              }
+              {
+                t: 51364.03025800061
+                value: 18
+                id: "no-id-Mouse-Mousify-Move-point-60"
+                handler: [
+                  100
+                  1.7089909315109253
+                  100
+                  1.7089909315109253
+                ]
+              }
+              {
+                t: 58145.232701239955
+                value: 19
+                id: "no-id-Mouse-Mousify-Move-point-61"
+                handler: [
+                  100
+                  0.10000000149011612
+                  100
+                  0.10000000149011612
+                ]
+              }
+              {
+                t: 58806.62188189309
+                value: 20
+                id: "no-id-Mouse-Mousify-Move-point-62"
+                handler: [
+                  100
+                  0.6612697243690491
+                  100
+                  0.6612697243690491
+                ]
+              }
+              {
+                t: 59582.48226689002
+                value: 21
+                id: "no-id-Mouse-Mousify-Move-point-63"
+                handler: [
+                  100
+                  0.5915317535400391
+                  100
+                  0.5915317535400391
+                ]
+              }
+              {
+                t: 60364.7021632394
+                value: 22
+                id: "no-id-Mouse-Mousify-Move-point-64"
+                handler: [
+                  100
+                  0.8721824288368225
+                  100
+                  0.8721824288368225
                 ]
               }
             ]
