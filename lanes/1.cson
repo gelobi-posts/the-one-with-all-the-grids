@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 167656.23554028038
+    t: 168085.0094940157
     _focus:
       from: 163397.30733196143
       to: 171427.94908176994
@@ -7348,35 +7348,103 @@
 
       "no-id-Theatre-Js Typo-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 168160.62426128756
+          _idCounter: 1
+          chronologyLength: 167862.41528417647
           chronology:
             points: [
               {
-                t: 167639.43503452768
+                t: 167580.6332643931
                 value: 0
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-0"
                 handler: [
                   100
                   0.12250000238418579
-                  280.6054382324219
-                  0
+                  217.60354614257812
+                  0.05042874813079834
                 ]
               }
               {
-                t: 168160.62426128756
+                t: 167862.41528417647
                 value: 1
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-1"
                 handler: [
-                  247.00442504882812
-                  0
+                  171.4021453857422
+                  -0.2521437406539917
                   100
                   0.008574999868869781
                 ]
               }
             ]
             connectors: [
-              t: 167639.43503452768
-              id: "no-id-Theatre-Theatre Typo-Opacity-connector-2"
+              t: 167580.6332643931
+              id: "no-id-Theatre-Js Typo-Opacity-connector-1"
+            ]
+
+      "no-id-Theatre-Theatre Typo-X":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 167744.43819548225
+          chronology:
+            points: [
+              {
+                t: 167131.21973550733
+                value: -20
+                id: "no-id-Theatre-Theatre Typo-X-point-0"
+                handler: [
+                  100
+                  3.25
+                  66.39898681640625
+                  14.5
+                ]
+              }
+              {
+                t: 167744.43819548225
+                value: 0
+                id: "no-id-Theatre-Theatre Typo-X-point-1"
+                handler: [
+                  129.40087890625
+                  1.073124885559082
+                  100
+                  -1.9268749952316284
+                ]
+              }
+            ]
+            connectors: [
+              t: 167131.21973550733
+              id: "no-id-Theatre-Theatre Typo-X-connector-4"
+            ]
+
+      "no-id-Theatre-Js Typo-Scale":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 167916.6433794478
+          chronology:
+            points: [
+              {
+                t: 167635.23490808945
+                value: 1.2
+                id: "no-id-Theatre-Js Typo-Scale-point-0"
+                handler: [
+                  100
+                  0.1274999976158142
+                  137.80113220214844
+                  -0.019874997437000275
+                ]
+              }
+              {
+                t: 167916.6433794478
+                value: 1
+                id: "no-id-Theatre-Js Typo-Scale-point-1"
+                handler: [
+                  121.0006332397461
+                  0.02408124879002571
+                  100
+                  0.13051874935626984
+                ]
+              }
+            ]
+            connectors: [
+              t: 167635.23490808945
+              id: "no-id-Theatre-Js Typo-Scale-connector-2"
             ]
 }
