@@ -8,7 +8,7 @@ module.exports = class TheatreSet extends Set
 
 		@id = "theatre"
 
-		@container = @makeSetContainer([173000])
+		@container = @makeSetContainer([166970])
 		.set 'id', 'theatre-container'
 
 		do @_prepareBrowserMockup
@@ -36,10 +36,22 @@ module.exports = class TheatreSet extends Set
 		@browserViewport = @_makeEl "#theatre-browserViewport"
 		.inside @_browserMockup
 
+		@_setupDomEl 'Theatre', 'Browser Viewport', @browserViewport, [
+			'opacity'
+		]
+
+		@_setupDomEl 'Theatre', 'Browser Mockup', @_browserMockup, [
+			'opacity'
+		]
+
 	_prepareFakeTheatre: ->
 
 		@fakeTheatre = @_makeEl '#theatre-fakeTheatre'
 		.inside @browserViewport
+
+		@_setupDomEl 'Theatre', 'Fake Theatre', @fakeTheatre, [
+			'opacity'
+		]
 
 	_prepareTheBall: ->
 
