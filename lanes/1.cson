@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 98072.65189939686
+    t: 14938.007178968075
     _focus:
-      from: 91300.09108584703
-      to: 98879.32309922652
+      from: 14938.007178968075
+      to: 22517.239192347573
 
     _lastPlayedTickAt: 0
 
@@ -184,10 +184,18 @@
       {
         name: "Theatre"
         propHolders: [
-          id: "no-id-Mouse-Mousify-Move"
-          _expanded: true
-          actorPropId: "no-id-Mouse-Mousify-Move"
-          _height: 372
+          {
+            id: "no-id-Mouse-Mousify-Move"
+            _expanded: true
+            actorPropId: "no-id-Mouse-Mousify-Move"
+            _height: 372
+          }
+          {
+            id: "no-id-Mouse-domEl-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
@@ -5433,7 +5441,7 @@
               }
               {
                 t: 18186.41023892067
-                value: 1
+                value: 0.7
                 id: "no-id-Mouse-domEl-Opacity-point-6"
                 handler: [
                   620.1051635742188
@@ -5520,7 +5528,7 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 168
+          _idCounter: 174
           chronologyLength: 110509.60190251227
           chronology:
             points: [
@@ -6163,34 +6171,67 @@
                 ]
               }
               {
-                t: 105223.88802265703
+                t: 104355.90248570373
                 value: 34
+                id: "no-id-Mouse-Mousify-Move-point-169"
+                handler: [
+                  100
+                  3.1733171939849854
+                  100
+                  0
+                ]
+              }
+              {
+                t: 105223.88802265703
+                value: 35
                 id: "no-id-Mouse-Mousify-Move-point-88"
                 handler: [
                   100
-                  3.297403573989868
+                  0
                   100
                   3.297403573989868
+                ]
+              }
+              {
+                t: 108935.45284017535
+                value: 35
+                id: "no-id-Mouse-Mousify-Move-point-171"
+                handler: [
+                  100
+                  3.4390552043914795
+                  100
+                  0
                 ]
               }
               {
                 t: 109533.50599508549
-                value: 35
+                value: 36
                 id: "no-id-Mouse-Mousify-Move-point-89"
                 handler: [
                   100
-                  2.9542958736419678
+                  0
                   100
                   2.9542958736419678
                 ]
               }
               {
-                t: 110509.60190251227
+                t: 110001.77784624182
                 value: 36
+                id: "no-id-Mouse-Mousify-Move-point-173"
+                handler: [
+                  100
+                  3.5314857959747314
+                  100
+                  0
+                ]
+              }
+              {
+                t: 110509.60190251227
+                value: 37
                 id: "no-id-Mouse-Mousify-Move-point-90"
                 handler: [
                   100
-                  3.358696937561035
+                  0
                   100
                   3.358696937561035
                 ]
@@ -6324,6 +6365,18 @@
               {
                 t: 97828.85422707925
                 id: "no-id-Mouse-Mousify-Move-connector-168"
+              }
+              {
+                t: 104355.90248570373
+                id: "no-id-Mouse-Mousify-Move-connector-170"
+              }
+              {
+                t: 108935.45284017535
+                id: "no-id-Mouse-Mousify-Move-connector-172"
+              }
+              {
+                t: 110001.77784624182
+                id: "no-id-Mouse-Mousify-Move-connector-174"
               }
             ]
 
