@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 126899.25894239791
+    t: 130458.75973691553
     _focus:
       from: 125109.08032015516
       to: 130921.07771120346
@@ -6425,4 +6425,38 @@
               ]
             ]
             connectors: []
+
+      "no-id-Array Panel-Panel-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 130312.76458714038
+          chronology:
+            points: [
+              {
+                t: 130170.24551235989
+                value: 0
+                id: "no-id-Array Panel-Panel-Opacity-point-0"
+                handler: [
+                  100
+                  0.09866666793823242
+                  100
+                  0.09866666793823242
+                ]
+              }
+              {
+                t: 130312.76458714038
+                value: 1
+                id: "no-id-Array Panel-Panel-Opacity-point-1"
+                handler: [
+                  100
+                  0.10471822321414948
+                  100
+                  0.10471822321414948
+                ]
+              }
+            ]
+            connectors: [
+              t: 130170.24551235989
+              id: "no-id-Array Panel-Panel-Opacity-connector-2"
+            ]
 }
