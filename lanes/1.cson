@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 21262.361593089525
+    t: 21448.69340662007
     _focus:
       from: 11747.220754083855
       to: 28321.239458427925
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 92
+    scrollTop: 94
     guides:
       _list: [
         3016.6043974231575
@@ -5413,7 +5413,7 @@
 
       "no-id-Mouse-domEl-Opacity":
         pacs:
-          _idCounter: 7
+          _idCounter: 8
           chronologyLength: 18186.41023892067
           chronology:
             points: [
@@ -5528,19 +5528,65 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 32
-          chronologyLength: 18057.830386281807
+          _idCounter: 40
+          chronologyLength: 21031.09838606738
           chronology:
             points: [
-              t: 18057.830386281807
-              value: 0
-              id: "no-id-Mouse-Mousify-Move-point-32"
-              handler: [
-                100
-                -2.5
-                100
-                -2.5
-              ]
+              {
+                t: 18109.84090522849
+                value: 1
+                id: "no-id-Mouse-Mousify-Move-point-36"
+                handler: [
+                  100
+                  5.25
+                  100
+                  5.25
+                ]
+              }
+              {
+                t: 19436.109138368996
+                value: 2
+                id: "no-id-Mouse-Mousify-Move-point-37"
+                handler: [
+                  100
+                  0.3100000023841858
+                  100
+                  0.3100000023841858
+                ]
+              }
+              {
+                t: 20242.272182042634
+                value: 3
+                id: "no-id-Mouse-Mousify-Move-point-38"
+                handler: [
+                  100
+                  0.3231250047683716
+                  100
+                  0.3231250047683716
+                ]
+              }
+              {
+                t: 20745.040531860603
+                value: 4
+                id: "no-id-Mouse-Mousify-Move-point-39"
+                handler: [
+                  100
+                  0.38874998688697815
+                  82.66316223144531
+                  0.2574999928474426
+                ]
+              }
+              {
+                t: 21031.09838606738
+                value: 5
+                id: "no-id-Mouse-Mousify-Move-point-40"
+                handler: [
+                  100
+                  0.5856249928474426
+                  100
+                  0.5856249928474426
+                ]
+              }
             ]
             connectors: []
 
