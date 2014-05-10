@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 215
+    height: 434
     _isVisible: true
 
   timeControl:
-    t: 32372.619197452084
+    t: 52593.29766548197
     _focus:
-      from: 15798.600493108017
-      to: 32372.619197452084
+      from: 44254.27779436325
+      to: 60828.29649870732
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 94
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -188,7 +188,7 @@
             id: "no-id-Mouse-domEl-Opacity"
             _expanded: true
             actorPropId: "no-id-Mouse-domEl-Opacity"
-            _height: 225
+            _height: 137
           }
           {
             id: "no-id-Mouse-Mousify-Move"
@@ -5528,19 +5528,32 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 41
-          chronologyLength: 18109.84090522849
+          _idCounter: 42
+          chronologyLength: 51648.439904617175
           chronology:
             points: [
-              t: 18109.84090522849
-              value: 14
-              id: "no-id-Mouse-Mousify-Move-point-36"
-              handler: [
-                100
-                5.25
-                100
-                5.25
-              ]
+              {
+                t: 18109.84090522849
+                value: 16
+                id: "no-id-Mouse-Mousify-Move-point-36"
+                handler: [
+                  100
+                  5.25
+                  100
+                  5.25
+                ]
+              }
+              {
+                t: 51648.439904617175
+                value: 18
+                id: "no-id-Mouse-Mousify-Move-point-42"
+                handler: [
+                  100
+                  1.665624976158142
+                  100
+                  1.665624976158142
+                ]
+              }
             ]
             connectors: []
 
