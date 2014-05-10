@@ -34,10 +34,28 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll', 'translation']
 
 		@_tool = @_makeEl '#theatre-animation-tool-typo'
-		.html 'Web-based Animation Tool'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
+		# @_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
+		#
+
+		webbased = @_makeEl '.webbased'
+		.html 'Web-based'
+		.inside @_tool
+
+		@_setupDomEl 'Theatre', 'Animation Tool Web-based', webbased, ['opacity']
+
+		animation = @_makeEl '.animation'
+		.html 'Animation'
+		.inside @_tool
+
+		@_setupDomEl 'Theatre', 'Animation Tool Animation', animation, ['opacity']
+
+		tool = @_makeEl '.tool'
+		.html 'Tool'
+		.inside @_tool
+
+		@_setupDomEl 'Theatre', 'Animation Tool Tool', tool, ['opacity']
 
 		@_html = @_makeEl '#theatre-html-typo'
 		.html 'HTML Elements,'
