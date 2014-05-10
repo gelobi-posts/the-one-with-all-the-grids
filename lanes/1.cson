@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 111890.9779075593
+    t: 18741.937858915837
     _focus:
-      from: 110377.9779075607
-      to: 115050.04398775013
+      from: 17310.018024715515
+      to: 21982.084104904956
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 455
     guides:
       _list: [
         3016.6043974231575
@@ -5413,8 +5413,8 @@
 
       "no-id-Mouse-domEl-Opacity":
         pacs:
-          _idCounter: 9
-          chronologyLength: 18186.41023892067
+          _idCounter: 10
+          chronologyLength: 18824.17658145699
           chronology:
             points: [
               {
@@ -5440,12 +5440,12 @@
                 ]
               }
               {
-                t: 18186.41023892067
-                value: 0.4
+                t: 18824.17658145699
+                value: 0.7
                 id: "no-id-Mouse-domEl-Opacity-point-6"
                 handler: [
-                  259.37811279296875
-                  2.3187499046325684
+                  828.72509765625
+                  8.667031288146973
                   100
                   0.05249999836087227
                 ]
@@ -5453,7 +5453,7 @@
             ]
             connectors: [
               t: 17328.236676300345
-              id: "no-id-Mouse-domEl-Opacity-connector-7"
+              id: "no-id-Mouse-domEl-Opacity-connector-10"
             ]
 
       "no-id-Mouse-Mousify-Move Y":
