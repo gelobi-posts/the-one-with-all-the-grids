@@ -22,10 +22,16 @@ module.exports = class TheatreSet extends Set
 	_prepareTypography: ->
 
 		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
-		.html 'theatrejs'
+		.html 'theatre'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity']
+		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity', 'translation']
+
+		@_JsTypo = @_makeEl '#theatre-js-typo'
+		.html 'js'
+		.inside @container
+
+		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll']
 
 	_prepareBrowserMockup: ->
 
