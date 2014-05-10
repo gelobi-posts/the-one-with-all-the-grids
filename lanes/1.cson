@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 131004.50351107473
+    t: 129239.62961692
     _focus:
-      from: 128974.4757142015
-      to: 134786.47310524952
+      from: 126520.36676798145
+      to: 132332.36415902944
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 6
+    scrollTop: 10
     guides:
       _list: [
         3016.6043974231575
