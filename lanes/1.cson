@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 20414.522430276014
+    t: 47049.74092665961
     _focus:
-      from: 17574.5469772806
-      to: 22927.60113807531
+      from: 43407.31233712303
+      to: 48760.36649791775
 
     _lastPlayedTickAt: 0
 
@@ -5520,7 +5520,7 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 94
+          _idCounter: 121
           chronologyLength: 110509.60190251227
           chronology:
             points: [
@@ -5574,9 +5574,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-46"
                 handler: [
                   100
-                  0.5987499952316284
+                  0
                   100
-                  0.5987499952316284
+                  0
+                ]
+              }
+              {
+                t: 21909.657036407894
+                value: 5
+                id: "no-id-Mouse-Mousify-Move-point-96"
+                handler: [
+                  100
+                  0.4928300380706787
+                  100
+                  0
                 ]
               }
               {
@@ -5585,20 +5596,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-47"
                 handler: [
                   100
-                  0.5987499952316284
+                  0
                   100
                   0.5987499952316284
                 ]
               }
               {
-                t: 24596.98467063529
-                value: 7
-                id: "no-id-Mouse-Mousify-Move-point-48"
+                t: 24177.42579699561
+                value: 6
+                id: "no-id-Mouse-Mousify-Move-point-98"
                 handler: [
                   100
-                  0.42192813754081726
+                  0.5968144536018372
                   100
-                  0.42192813754081726
+                  0
                 ]
               }
               {
@@ -5607,9 +5618,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-49"
                 handler: [
                   100
-                  0.581644594669342
+                  0
                   100
                   0.581644594669342
+                ]
+              }
+              {
+                t: 25558.453043874575
+                value: 8
+                id: "no-id-Mouse-Mousify-Move-point-102"
+                handler: [
+                  100
+                  0.7816756367683411
+                  100
+                  0
                 ]
               }
               {
@@ -5618,9 +5640,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-50"
                 handler: [
                   100
-                  0.7065315842628479
+                  0
                   100
                   0.7065315842628479
+                ]
+              }
+              {
+                t: 27991.827847121684
+                value: 9
+                id: "no-id-Mouse-Mousify-Move-point-104"
+                handler: [
+                  100
+                  0.7816756367683411
+                  100
+                  0
                 ]
               }
               {
@@ -5629,9 +5662,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-51"
                 handler: [
                   100
-                  0.6876908540725708
+                  0
                   100
                   0.6876908540725708
+                ]
+              }
+              {
+                t: 33804.836889428465
+                value: 10
+                id: "no-id-Mouse-Mousify-Move-point-107"
+                handler: [
+                  100
+                  0.85099858045578
+                  100
+                  0
                 ]
               }
               {
@@ -5640,9 +5684,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-52"
                 handler: [
                   100
-                  0.6328229904174805
+                  0
                   100
                   0.6328229904174805
+                ]
+              }
+              {
+                t: 36542.95768924919
+                value: 11
+                id: "no-id-Mouse-Mousify-Move-point-109"
+                handler: [
+                  100
+                  1.0474135875701904
+                  100
+                  0
                 ]
               }
               {
@@ -5651,9 +5706,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-53"
                 handler: [
                   100
-                  0.9240437746047974
+                  0
                   100
                   0.9240437746047974
+                ]
+              }
+              {
+                t: 40009.88892769953
+                value: 12
+                id: "no-id-Mouse-Mousify-Move-point-111"
+                handler: [
+                  100
+                  1.1051827669143677
+                  100
+                  0
                 ]
               }
               {
@@ -5662,9 +5728,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-54"
                 handler: [
                   100
-                  1.2924044132232666
+                  0
                   100
                   1.2924044132232666
+                ]
+              }
+              {
+                t: 43916.86037962546
+                value: 13
+                id: "no-id-Mouse-Mousify-Move-point-115"
+                handler: [
+                  100
+                  1.1860594749450684
+                  100
+                  0
                 ]
               }
               {
@@ -5673,9 +5750,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-55"
                 handler: [
                   100
-                  1.2298543453216553
+                  0
                   100
                   1.2298543453216553
+                ]
+              }
+              {
+                t: 46327.414580694625
+                value: 14
+                id: "no-id-Mouse-Mousify-Move-point-118"
+                handler: [
+                  100
+                  1.3362592458724976
+                  100
+                  0
                 ]
               }
               {
@@ -5684,9 +5772,20 @@
                 id: "no-id-Mouse-Mousify-Move-point-56"
                 handler: [
                   100
-                  1.38068687915802
+                  0
                   100
                   1.38068687915802
+                ]
+              }
+              {
+                t: 47284.916946276106
+                value: 14
+                id: "no-id-Mouse-Mousify-Move-point-120"
+                handler: [
+                  100
+                  1.3824745416641235
+                  100
+                  0
                 ]
               }
               {
@@ -5695,7 +5794,7 @@
                 id: "no-id-Mouse-Mousify-Move-point-57"
                 handler: [
                   100
-                  1.445810079574585
+                  0
                   100
                   1.445810079574585
                 ]
@@ -5944,6 +6043,50 @@
               {
                 t: 20145.32672393153
                 id: "no-id-Mouse-Mousify-Move-connector-94"
+              }
+              {
+                t: 20679.52567753598
+                id: "no-id-Mouse-Mousify-Move-connector-95"
+              }
+              {
+                t: 21909.657036407894
+                id: "no-id-Mouse-Mousify-Move-connector-97"
+              }
+              {
+                t: 24177.42579699561
+                id: "no-id-Mouse-Mousify-Move-connector-101"
+              }
+              {
+                t: 25558.453043874575
+                id: "no-id-Mouse-Mousify-Move-connector-103"
+              }
+              {
+                t: 27991.827847121684
+                id: "no-id-Mouse-Mousify-Move-connector-106"
+              }
+              {
+                t: 33804.836889428465
+                id: "no-id-Mouse-Mousify-Move-connector-108"
+              }
+              {
+                t: 36542.95768924919
+                id: "no-id-Mouse-Mousify-Move-connector-110"
+              }
+              {
+                t: 40009.88892769953
+                id: "no-id-Mouse-Mousify-Move-connector-114"
+              }
+              {
+                t: 43916.86037962546
+                id: "no-id-Mouse-Mousify-Move-connector-117"
+              }
+              {
+                t: 46327.414580694625
+                id: "no-id-Mouse-Mousify-Move-connector-119"
+              }
+              {
+                t: 47284.916946276106
+                id: "no-id-Mouse-Mousify-Move-connector-121"
               }
             ]
 
