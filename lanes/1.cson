@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 167949.91738126185
+    t: 173807.5044845667
     _focus:
-      from: 165301.4602312029
-      to: 173332.1019810114
+      from: 173340.50448456616
+      to: 181371.14623437467
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 16
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -188,7 +188,7 @@
             id: "no-id-Theatre-Animation Tool Typo-Opacity"
             _expanded: true
             actorPropId: "no-id-Theatre-Animation Tool Typo-Opacity"
-            _height: 80
+            _height: 172
           }
           {
             id: "no-id-Theatre-Js Typo-Opacity"
@@ -7474,5 +7474,39 @@
             connectors: [
               t: 167586.3290135752
               id: "no-id-Theatre-Js Typo-Opacity-connector-1"
+            ]
+
+      "no-id-Theatre-Animation Tool Typo-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 171387.44344013202
+          chronology:
+            points: [
+              {
+                t: 170249.20917538408
+                value: 0
+                id: "no-id-Theatre-Animation Tool Typo-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  377.2083435058594
+                  0
+                ]
+              }
+              {
+                t: 171387.44344013202
+                value: 1
+                id: "no-id-Theatre-Animation Tool Typo-Opacity-point-1"
+                handler: [
+                  461.21087646484375
+                  0
+                  100
+                  0.008043749257922173
+                ]
+              }
+            ]
+            connectors: [
+              t: 170249.20917538408
+              id: "no-id-Theatre-Animation Tool Typo-Opacity-connector-2"
             ]
 }
