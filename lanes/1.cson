@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 181771.13416591423
+    t: 173607.74803943507
     _focus:
-      from: 174314.13416591575
-      to: 186854.05347876565
+      from: 161067.82872658517
+      to: 173607.74803943507
 
     _lastPlayedTickAt: 0
 
@@ -7383,7 +7383,7 @@
       "no-id-Theatre-Theatre Typo-X":
         pacs:
           _idCounter: 9
-          chronologyLength: 170036.2595805735
+          chronologyLength: 167744.43819548225
           chronology:
             points: [
               {
@@ -7408,38 +7408,10 @@
                   -1.9268749952316284
                 ]
               }
-              {
-                t: 168370.39163838528
-                value: 0
-                id: "no-id-Theatre-Theatre Typo-X-point-7"
-                handler: [
-                  100
-                  -3.332577705383301
-                  585.3316040039062
-                  0
-                ]
-              }
-              {
-                t: 170036.2595805735
-                value: -170
-                id: "no-id-Theatre-Theatre Typo-X-point-6"
-                handler: [
-                  696.8267211914062
-                  0
-                  100
-                  -1.9042130708694458
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 167131.21973550733
-                id: "no-id-Theatre-Theatre Typo-X-connector-4"
-              }
-              {
-                t: 168370.39163838528
-                id: "no-id-Theatre-Theatre Typo-X-connector-9"
-              }
+              t: 167131.21973550733
+              id: "no-id-Theatre-Theatre Typo-X-connector-4"
             ]
 
       "no-id-Theatre-Js Typo-Scale":
@@ -7779,36 +7751,10 @@
       "no-id-Theatre-Theatre Typo-Y":
         pacs:
           _idCounter: 4
-          chronologyLength: 170049.37665098443
+          chronologyLength: 168376.95017359074
           chronology:
-            points: [
-              {
-                t: 168376.95017359074
-                value: 0
-                id: "no-id-Theatre-Theatre Typo-X-point-7"
-                handler: [
-                  100
-                  -3.332577705383301
-                  585.3316040039062
-                  0
-                ]
-              }
-              {
-                t: 170049.37665098443
-                value: -75
-                id: "no-id-Theatre-Theatre Typo-X-point-6"
-                handler: [
-                  696.8267211914062
-                  0
-                  100
-                  -1.9042130708694458
-                ]
-              }
-            ]
-            connectors: [
-              t: 168376.95017359074
-              id: "no-id-Theatre-Theatre Typo-Y-connector-4"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Theatre-Js Typo-Y":
         pacs:
