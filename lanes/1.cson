@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 131631.04739700258
+    t: 113988.50669670058
     _focus:
-      from: 124830.94163672745
-      to: 141404.9603410715
+      from: 88519.55423990241
+      to: 140886.96367144753
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -51
+    scrollTop: 649
     guides:
       _list: [
         3016.6043974231575
@@ -90,6 +90,18 @@
             id: "no-id-Intro-Gelobi Container-Opacity"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
+            _height: 71
+          }
+          {
+            id: "no-id-Grids-Selection-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Selection-Opacity"
             _height: 80
           }
         ]
@@ -205,7 +217,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Theatre"
+    _activeWorkspaceName: "Photoshop"
 
   timeline:
     _allProps:
@@ -2394,8 +2406,8 @@
 
       "no-id-Grids-Selection-Opacity":
         pacs:
-          _idCounter: 7
-          chronologyLength: 80055.36240265466
+          _idCounter: 10
+          chronologyLength: 112104.084496846
           chronology:
             points: [
               {
@@ -2453,10 +2465,38 @@
                   0.11424999684095383
                 ]
               }
+              {
+                t: 111445.95597667934
+                value: 1
+                id: "no-id-Grids-Selection-Opacity-point-9"
+                handler: [
+                  100
+                  0.04569999873638153
+                  100
+                  0.04569999873638153
+                ]
+              }
+              {
+                t: 112104.084496846
+                value: 0
+                id: "no-id-Grids-Selection-Opacity-point-8"
+                handler: [
+                  100
+                  0.025706250220537186
+                  100
+                  0.025706250220537186
+                ]
+              }
             ]
             connectors: [
-              t: 53147.81978536381
-              id: "no-id-Grids-Selection-Opacity-connector-3"
+              {
+                t: 53147.81978536381
+                id: "no-id-Grids-Selection-Opacity-connector-3"
+              }
+              {
+                t: 111445.95597667934
+                id: "no-id-Grids-Selection-Opacity-connector-10"
+              }
             ]
 
       "no-id-Grids-Griddify 40 -s-Opacity":
