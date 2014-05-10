@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 470
+    height: 447
     _isVisible: true
 
   timeControl:
-    t: 14938.007178968075
+    t: 34868.16243566737
     _focus:
-      from: 14938.007178968075
-      to: 22517.239192347573
+      from: 30552.162435666654
+      to: 35224.22851585609
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 4
+    scrollTop: 455
     guides:
       _list: [
         3016.6043974231575
@@ -188,7 +188,7 @@
             id: "no-id-Mouse-Mousify-Move"
             _expanded: true
             actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 372
+            _height: 818
           }
           {
             id: "no-id-Mouse-domEl-Opacity"
@@ -5539,7 +5539,7 @@
                 handler: [
                   100
                   5.25
-                  167.35971069335938
+                  506.1253356933594
                   0
                 ]
               }
@@ -5548,7 +5548,7 @@
                 value: 2
                 id: "no-id-Mouse-Mousify-Move-point-43"
                 handler: [
-                  226.70042419433594
+                  419.5195007324219
                   0
                   100
                   0
@@ -5603,7 +5603,7 @@
                 value: 6
                 id: "no-id-Mouse-Mousify-Move-point-47"
                 handler: [
-                  100
+                  410.33074951171875
                   0
                   100
                   0.5987499952316284
@@ -5638,7 +5638,7 @@
                 handler: [
                   100
                   0.7816756367683411
-                  100
+                  217.2903594970703
                   0
                 ]
               }
@@ -5647,7 +5647,7 @@
                 value: 9
                 id: "no-id-Mouse-Mousify-Move-point-50"
                 handler: [
-                  100
+                  212.40325927734375
                   0
                   100
                   0.7065315842628479
@@ -5660,7 +5660,7 @@
                 handler: [
                   100
                   0.7816756367683411
-                  100
+                  200.18551635742188
                   0
                 ]
               }
@@ -5669,7 +5669,7 @@
                 value: 10
                 id: "no-id-Mouse-Mousify-Move-point-51"
                 handler: [
-                  100
+                  192.85487365722656
                   0
                   100
                   0.6876908540725708
@@ -5682,7 +5682,7 @@
                 handler: [
                   100
                   0.85099858045578
-                  100
+                  231.95166015625
                   0
                 ]
               }
@@ -5691,7 +5691,7 @@
                 value: 11
                 id: "no-id-Mouse-Mousify-Move-point-52"
                 handler: [
-                  100
+                  109.77420043945312
                   0
                   100
                   0.6328229904174805
