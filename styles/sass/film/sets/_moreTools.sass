@@ -1,18 +1,24 @@
-.moreTools-line1
+@mixin moreToolsLine
 
 	color: white
+	text-align: justify
+	whitespace: nowrap
 	font-family: "Droid Sans"
-	font-weight: 700
 
+
+.moreTools-line1
+
+	@include moreToolsLine
+
+	font-weight: 700
 	font-size: 48px
 
-	@include centralize(658px, 36px)
+	@include centralize(660px, 36px)
 
 .moreTools-line2
 
-	color: white
-	font-family: "Droid Sans"
+	@include moreToolsLine
 
 	font-size: 20px
 
-	@include centralize(658px, 36px)
+	@include centralize(660px, 36px)
