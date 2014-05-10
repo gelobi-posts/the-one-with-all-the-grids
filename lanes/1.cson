@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 8
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -185,10 +185,16 @@
         name: "Theatre"
         propHolders: [
           {
-            id: "no-id-Theatre-Animation Tool Typo-Opacity"
+            id: "no-id-Theatre-Theatre Typo-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Typo-Opacity"
-            _height: 172
+            actorPropId: "no-id-Theatre-Theatre Typo-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Theatre Typo-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Theatre Typo-X"
+            _height: 80
           }
           {
             id: "no-id-Theatre-Js Typo-Opacity"
