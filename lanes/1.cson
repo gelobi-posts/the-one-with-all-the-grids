@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 20309.60399557292
+    t: 21262.361593089525
     _focus:
       from: 11747.220754083855
       to: 28321.239458427925
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 94
+    scrollTop: 92
     guides:
       _list: [
         3016.6043974231575
@@ -5533,7 +5533,7 @@
           chronology:
             points: [
               t: 18057.830386281807
-              value: 2
+              value: 0
               id: "no-id-Mouse-Mousify-Move-point-32"
               handler: [
                 100
