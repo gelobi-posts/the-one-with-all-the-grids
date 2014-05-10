@@ -12,7 +12,7 @@ module.exports = class MoreToolsSet extends Set
 		.set 'id', 'moreTools-container'
 
 		@line1 = @_makeEl '.moreTools-line1'
-		.html 'MORE TOOLS IN THE WORKS'
+		.html 'MORE TOOLS IN THE WORKS <br> dd'
 		.inside @container
 		.y -50
 
