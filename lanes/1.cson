@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 113988.50669670058
+    t: 126899.25894239791
     _focus:
-      from: 88519.55423990241
-      to: 140886.96367144753
+      from: 125109.08032015516
+      to: 130921.07771120346
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 649
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -216,8 +216,17 @@
           }
         ]
       }
+      {
+        name: "Array"
+        propHolders: [
+          id: "no-id-Array Panel-Panel-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Array Panel-Panel-Opacity"
+          _height: 115
+        ]
+      }
     ]
-    _activeWorkspaceName: "Photoshop"
+    _activeWorkspaceName: "Array"
 
   timeline:
     _allProps:
@@ -1576,8 +1585,8 @@
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
-          _idCounter: 10
-          chronologyLength: 63006.24982596816
+          _idCounter: 16
+          chronologyLength: 124785.427217187
           chronology:
             points: [
               {
@@ -1657,6 +1666,28 @@
                   0.1091499999165535
                 ]
               }
+              {
+                t: 124443.84767170995
+                value: 1
+                id: "no-id-The Panel-Panel-Opacity-point-11"
+                handler: [
+                  0
+                  -0.4189488887786865
+                  69.56844329833984
+                  -0.4905521273612976
+                ]
+              }
+              {
+                t: 124785.427217187
+                value: 0
+                id: "no-id-The Panel-Panel-Opacity-point-12"
+                handler: [
+                  100
+                  0.021410968154668808
+                  100
+                  0.021410968154668808
+                ]
+              }
             ]
             connectors: [
               {
@@ -1670,6 +1701,10 @@
               {
                 t: 62509.70973079081
                 id: "no-id-The Panel-Panel-Opacity-connector-9"
+              }
+              {
+                t: 124443.84767170995
+                id: "no-id-The Panel-Panel-Opacity-connector-16"
               }
             ]
 
