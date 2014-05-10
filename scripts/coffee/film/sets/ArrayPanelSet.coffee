@@ -68,9 +68,15 @@ module.exports = class ArrayPanelPanelSet extends Set
 		@arrayPanel = @_makeEl '#arrayPanel.aPanel'
 		.inside container
 
+		@_makeEl '.aPanel-top'
+		.inside @arrayPanel
+
 		@panelBody = @_makeEl '.body'
 		.html panelHtml
 
 		@_setupDomEl 'Array Panel', 'Panel', @arrayPanel, ['opacity']
 
 		@panelBody.inside @arrayPanel
+
+		@_makeEl '.aPanel-bottom'
+		.inside @arrayPanel
