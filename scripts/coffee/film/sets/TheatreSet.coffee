@@ -40,13 +40,13 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
 
 		@_html = @_makeEl '#theatre-html-typo'
-		.html 'HTML Elements'
+		.html 'HTML Elements,'
 		.inside @container
 
 		@_setupDomEl 'Theatre', 'HTML Elements Typo', @_html, ['opacity', 'scaleAll', 'translation']
 
 		@_webgl = @_makeEl '#theatre-webgl-typo'
-		.html 'WebGL Buffers'
+		.html 'WebGL Buffers,'
 		.inside @container
 
 		@_setupDomEl 'Theatre', 'WebGL typo', @_webgl, ['opacity', 'scaleAll', 'translation']
