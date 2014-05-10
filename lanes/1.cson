@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 172732.60797675705
+    t: 167949.91738126185
     _focus:
-      from: 169482.6947215266
-      to: 177513.33647133512
+      from: 165301.4602312029
+      to: 173332.1019810114
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 96
+    scrollTop: 16
     guides:
       _list: [
         3016.6043974231575
@@ -185,15 +185,9 @@
         name: "Theatre"
         propHolders: [
           {
-            id: "no-id-Theatre-Theatre Typo-Opacity"
+            id: "no-id-Theatre-Animation Tool Typo-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Theatre Typo-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Theatre Typo-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Theatre Typo-X"
+            actorPropId: "no-id-Theatre-Animation Tool Typo-Opacity"
             _height: 80
           }
           {
@@ -203,9 +197,9 @@
             _height: 80
           }
           {
-            id: "no-id-Theatre-Js Typo-Scale"
+            id: "no-id-Theatre-Js Typo-X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Js Typo-Scale"
+            actorPropId: "no-id-Theatre-Js Typo-X"
             _height: 80
           }
         ]
@@ -7446,5 +7440,39 @@
             connectors: [
               t: 167635.23490808945
               id: "no-id-Theatre-Js Typo-Scale-connector-2"
+            ]
+
+      "no-id-Theatre-Js Typo-X":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 167868.11103335855
+          chronology:
+            points: [
+              {
+                t: 167586.3290135752
+                value: 5
+                id: "no-id-Theatre-Theatre Typo-Opacity-point-0"
+                handler: [
+                  100
+                  0.12250000238418579
+                  184.00253295898438
+                  -0.33375874161720276
+                ]
+              }
+              {
+                t: 167868.11103335855
+                value: 0
+                id: "no-id-Theatre-Theatre Typo-Opacity-point-1"
+                handler: [
+                  171.4021453857422
+                  0.2853206396102905
+                  100
+                  0.008574999868869781
+                ]
+              }
+            ]
+            connectors: [
+              t: 167586.3290135752
+              id: "no-id-Theatre-Js Typo-Opacity-connector-1"
             ]
 }
