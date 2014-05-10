@@ -16,4 +16,9 @@ module.exports = class MoreToolsSet extends Set
 		.inside @container
 		.y -50
 
+		@line2 = @_makeEl '.moreTools-line2'
+		.html 'photoshop panels, web-based tools, nodejs packages, among other things'
+		.inside @container
+		# .y -50
+
 		return
