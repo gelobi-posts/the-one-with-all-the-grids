@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 25515.561453076887
+    t: 35034.41325440321
     _focus:
-      from: 11747.220754083855
-      to: 28321.239458427925
+      from: 28329.413254403284
+      to: 44903.43195874735
 
     _lastPlayedTickAt: 0
 
@@ -5578,7 +5578,7 @@
               }
               {
                 t: 21031.09838606738
-                value: 6
+                value: 9
                 id: "no-id-Mouse-Mousify-Move-point-40"
                 handler: [
                   100
