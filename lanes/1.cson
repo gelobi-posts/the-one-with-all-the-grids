@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 35034.41325440321
+    t: 32372.619197452084
     _focus:
-      from: 28329.413254403284
-      to: 44903.43195874735
+      from: 15798.600493108017
+      to: 32372.619197452084
 
     _lastPlayedTickAt: 0
 
@@ -5528,65 +5528,19 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 40
-          chronologyLength: 21031.09838606738
+          _idCounter: 41
+          chronologyLength: 18109.84090522849
           chronology:
             points: [
-              {
-                t: 18109.84090522849
-                value: 1
-                id: "no-id-Mouse-Mousify-Move-point-36"
-                handler: [
-                  100
-                  5.25
-                  100
-                  5.25
-                ]
-              }
-              {
-                t: 19436.109138368996
-                value: 2
-                id: "no-id-Mouse-Mousify-Move-point-37"
-                handler: [
-                  100
-                  0.3100000023841858
-                  100
-                  0.3100000023841858
-                ]
-              }
-              {
-                t: 20242.272182042634
-                value: 3
-                id: "no-id-Mouse-Mousify-Move-point-38"
-                handler: [
-                  100
-                  0.3231250047683716
-                  100
-                  0.3231250047683716
-                ]
-              }
-              {
-                t: 20745.040531860603
-                value: 4
-                id: "no-id-Mouse-Mousify-Move-point-39"
-                handler: [
-                  100
-                  0.38874998688697815
-                  82.66316223144531
-                  0.2574999928474426
-                ]
-              }
-              {
-                t: 21031.09838606738
-                value: 9
-                id: "no-id-Mouse-Mousify-Move-point-40"
-                handler: [
-                  100
-                  0.5856249928474426
-                  100
-                  0.5856249928474426
-                ]
-              }
+              t: 18109.84090522849
+              value: 14
+              id: "no-id-Mouse-Mousify-Move-point-36"
+              handler: [
+                100
+                5.25
+                100
+                5.25
+              ]
             ]
             connectors: []
 
