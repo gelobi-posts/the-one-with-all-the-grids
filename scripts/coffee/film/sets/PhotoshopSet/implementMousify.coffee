@@ -6,7 +6,7 @@ module.exports = (film) ->
 
 		() -> return {x: window.innerWidth * .5, y: window.innerHeight * .5},
 
-		() -> return {x: - window.innerWidth * .5 + 430, y: - window.innerHeight * .5 + 20 },
+		(prev) -> return {x: -prev.x + 430, y: -prev.y + 20 },
 
 		() -> return {x: 0, y: 70},
 
@@ -14,7 +14,7 @@ module.exports = (film) ->
 
 		() -> return {x: 0, y: 40},
 
-		(prev) -> return {x: window.innerWidth * .4 + 100 - prev.x, y: window.innerHeight * .2 + 40 - prev.y},
+		(prev) -> return {x:  -prev.x + window.innerWidth * .4 + 100, y: -prev.y +  window.innerHeight * .2 + 40},
 
 		() -> return {x: 0, y: 44},
 
@@ -38,7 +38,16 @@ module.exports = (film) ->
 
 		() -> return {x: .5 * window.innerHeight, y: .5 * window.innerHeight}
 
-		(prev) -> return {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 53}
-		# () -> return {x: }
+		(prev) -> return {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 53},
+
+		(prev) -> {x: -prev.x + 85, y: -prev.y + 20},
+
+		() -> {x: 35, y: 305},
+
+		() -> {x: 280, y: 150},
+
+
+
+
 
 	]
