@@ -8,6 +8,3 @@ module.exports = class ArrayResultsSet extends Set
 
 		@id = 'arrayResults'
 
-
-
-		return
