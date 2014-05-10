@@ -8,14 +8,24 @@ module.exports = class TheatreSet extends Set
 
 		@id = "theatre"
 
-		@container = @makeSetContainer([166970])
+		@container = @makeSetContainer([166000])
 		.set 'id', 'theatre-container'
+
+		do @_prepareTypography
 
 		do @_prepareBrowserMockup
 
 		do @_prepareFakeTheatre
 
 		do @_prepareTheBall
+
+	_prepareTypography: ->
+
+		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
+		.html 'theatrejs'
+		.inside @container
+
+		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity']
 
 	_prepareBrowserMockup: ->
 
