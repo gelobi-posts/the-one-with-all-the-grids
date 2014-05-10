@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 130924.55378619791
+    t: 130827.68586290425
     _focus:
-      from: 128220.1674403633
-      to: 134032.16483141147
+      from: 128974.4757142015
+      to: 134786.47310524952
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 52
+    scrollTop: 6
     guides:
       _list: [
         3016.6043974231575
@@ -6428,8 +6428,8 @@
 
       "no-id-Array Panel-Panel-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 130312.76458714038
+          _idCounter: 3
+          chronologyLength: 130333.62103710826
           chronology:
             points: [
               {
@@ -6444,19 +6444,19 @@
                 ]
               }
               {
-                t: 130312.76458714038
+                t: 130333.62103710826
                 value: 1
                 id: "no-id-Array Panel-Panel-Opacity-point-1"
                 handler: [
-                  100
-                  0.10471822321414948
-                  100
-                  0.10471822321414948
+                  82.61962127685547
+                  -0.12003549933433533
+                  68.71532440185547
+                  -0.3960873782634735
                 ]
               }
             ]
             connectors: [
               t: 130170.24551235989
-              id: "no-id-Array Panel-Panel-Opacity-connector-2"
+              id: "no-id-Array Panel-Panel-Opacity-connector-3"
             ]
 }
