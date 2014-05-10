@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 138286.941636727
+    t: 20094.909045027023
     _focus:
-      from: 124830.94163672745
-      to: 141404.9603410715
+      from: 11747.220754083855
+      to: 28321.239458427925
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -51
+    scrollTop: 16
     guides:
       _list: [
         3016.6043974231575
@@ -185,21 +185,15 @@
         name: "Theatre"
         propHolders: [
           {
-            id: "no-id-Theatre-The Ball-Y"
+            id: "no-id-Mouse-domEl-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-Y"
-            _height: 80
+            actorPropId: "no-id-Mouse-domEl-Opacity"
+            _height: 225
           }
           {
-            id: "no-id-Theatre-The Ball-Scale Y"
+            id: "no-id-Mouse-Mousify-Move"
             _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-Scale Y"
-            _height: 85
-          }
-          {
-            id: "no-id-Theatre-The Ball-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-The Ball-X"
+            actorPropId: "no-id-Mouse-Mousify-Move"
             _height: 80
           }
         ]
@@ -5419,11 +5413,48 @@
 
       "no-id-Mouse-domEl-Opacity":
         pacs:
-          _idCounter: 3
-          chronologyLength: 23134.619795150316
+          _idCounter: 7
+          chronologyLength: 18186.41023892067
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 9760.64072232815
+                value: 0
+                id: "no-id-Mouse-domEl-Opacity-point-4"
+                handler: [
+                  100
+                  1.75
+                  100
+                  1.75
+                ]
+              }
+              {
+                t: 17328.236676300345
+                value: 0
+                id: "no-id-Mouse-domEl-Opacity-point-5"
+                handler: [
+                  100
+                  0.008750000037252903
+                  420.73150634765625
+                  0
+                ]
+              }
+              {
+                t: 18186.41023892067
+                value: 1
+                id: "no-id-Mouse-domEl-Opacity-point-6"
+                handler: [
+                  620.1051635742188
+                  0
+                  100
+                  0.05249999836087227
+                ]
+              }
+            ]
+            connectors: [
+              t: 17328.236676300345
+              id: "no-id-Mouse-domEl-Opacity-connector-7"
+            ]
 
       "no-id-Mouse-Mousify-Move Y":
         pacs:
@@ -5497,10 +5528,20 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 31
-          chronologyLength: 25037.676879345643
+          _idCounter: 32
+          chronologyLength: 18057.830386281807
           chronology:
-            points: []
+            points: [
+              t: 18057.830386281807
+              value: 3
+              id: "no-id-Mouse-Mousify-Move-point-32"
+              handler: [
+                100
+                -2.5
+                100
+                -2.5
+              ]
+            ]
             connectors: []
 
       "no-id-Mouse-Classify-Set To":
