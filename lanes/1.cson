@@ -1,6 +1,6 @@
 {
   mainBox:
-    height: 293
+    height: 215
     _isVisible: true
 
   timeControl:
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 16
+    scrollTop: 94
     guides:
       _list: [
         3016.6043974231575
@@ -5533,7 +5533,7 @@
           chronology:
             points: [
               t: 18057.830386281807
-              value: 3
+              value: 2
               id: "no-id-Mouse-Mousify-Move-point-32"
               handler: [
                 100
