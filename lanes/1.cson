@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 434
+    height: 470
     _isVisible: true
 
   timeControl:
-    t: 19866.664767416554
+    t: 20414.522430276014
     _focus:
-      from: 14752.93245465219
-      to: 22561.699714066395
+      from: 17574.5469772806
+      to: 22927.60113807531
 
     _lastPlayedTickAt: 0
 
@@ -184,18 +184,10 @@
       {
         name: "Theatre"
         propHolders: [
-          {
-            id: "no-id-Mouse-domEl-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Mouse-domEl-Opacity"
-            _height: 137
-          }
-          {
-            id: "no-id-Mouse-Mousify-Move"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 260
-          }
+          id: "no-id-Mouse-Mousify-Move"
+          _expanded: true
+          actorPropId: "no-id-Mouse-Mousify-Move"
+          _height: 372
         ]
       }
     ]
@@ -5528,19 +5520,19 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 90
+          _idCounter: 94
           chronologyLength: 110509.60190251227
           chronology:
             points: [
               {
-                t: 18109.84090522849
+                t: 18775.546482260143
                 value: 1
                 id: "no-id-Mouse-Mousify-Move-point-36"
                 handler: [
                   100
                   5.25
-                  100
-                  5.25
+                  167.35971069335938
+                  0
                 ]
               }
               {
@@ -5548,10 +5540,10 @@
                 value: 2
                 id: "no-id-Mouse-Mousify-Move-point-43"
                 handler: [
+                  226.70042419433594
+                  0
                   100
-                  0.4675000011920929
-                  100
-                  0.4675000011920929
+                  0
                 ]
               }
               {
@@ -5560,9 +5552,9 @@
                 id: "no-id-Mouse-Mousify-Move-point-44"
                 handler: [
                   100
-                  0.5199999809265137
+                  0
                   100
-                  0.5199999809265137
+                  0
                 ]
               }
               {
@@ -5571,9 +5563,9 @@
                 id: "no-id-Mouse-Mousify-Move-point-45"
                 handler: [
                   100
-                  0.6118749976158142
+                  0
                   100
-                  0.6118749976158142
+                  0
                 ]
               }
               {
@@ -5940,7 +5932,20 @@
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              {
+                t: 18775.546482260143
+                id: "no-id-Mouse-Mousify-Move-connector-91"
+              }
+              {
+                t: 19572.970702212475
+                id: "no-id-Mouse-Mousify-Move-connector-93"
+              }
+              {
+                t: 20145.32672393153
+                id: "no-id-Mouse-Mousify-Move-connector-94"
+              }
+            ]
 
       "no-id-Mouse-Classify-Set To":
         pacs:
