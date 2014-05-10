@@ -33,6 +33,12 @@ module.exports = class TheatreSet extends Set
 
 		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll']
 
+		@_tool = @_makeEl '#theatre-animation-tool-typo'
+		.html 'Web-based Animation Tool'
+		.inside @container
+
+		@_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
+
 	_prepareBrowserMockup: ->
 
 		@_browserMockup = @_makeEl '#theatre-browserMockup'
