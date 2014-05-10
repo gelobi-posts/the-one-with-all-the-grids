@@ -34,6 +34,8 @@ module.exports = (film) ->
 
 		() -> {x: -50, y:0},
 
+		() -> {x: 50, y:0},
+
 		(prev) -> {x: -prev.x + .07 * window.innerWidth, y: -prev.y + .2 * window.innerHeight},
 
 		() -> {x: .5 * window.innerHeight, y: .5 * window.innerHeight},
