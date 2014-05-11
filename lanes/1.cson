@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 154408.43215566364
+    t: 153893.18149485608
     _focus:
-      from: 152261.12056629942
-      to: 156076.53499501036
+      from: 152193.1314055082
+      to: 156008.54583421914
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 342
+    scrollTop: 121
     guides:
       _list: [
         3016.6043974231575
@@ -587,7 +587,7 @@
             id: "no-id-Gelobi-Question Mark-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-Question Mark-Opacity"
-            _height: 99
+            _height: 100
           }
           {
             id: "no-id-The Panel-Panel-Opacity"
@@ -602,21 +602,9 @@
             _height: 80
           }
           {
-            id: "no-id-The Panel-Griddify Section-Rotation X"
+            id: "no-id-The Panel-Griddify Section-Rotation Y"
             _expanded: true
-            actorPropId: "no-id-The Panel-Griddify Section-Rotation X"
-            _height: 80
-          }
-          {
-            id: "no-id-The Panel-Divide Section-Rotation X"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Divide Section-Rotation X"
-            _height: 80
-          }
-          {
-            id: "no-id-The Panel-Wrap Section-Rotation X"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Wrap Section-Rotation X"
+            actorPropId: "no-id-The Panel-Griddify Section-Rotation Y"
             _height: 80
           }
         ]
@@ -9515,5 +9503,23 @@
           chronologyLength: 154294.33483423092
           chronology:
             points: []
+            connectors: []
+
+      "no-id-The Panel-Griddify Section-Rotation Y":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 154276.07926280168
+          chronology:
+            points: [
+              t: 154276.07926280168
+              value: 30
+              id: "no-id-The Panel-Griddify Section-Rotation Y-point-0"
+              handler: [
+                100
+                3.5
+                100
+                3.5
+              ]
+            ]
             connectors: []
 }
