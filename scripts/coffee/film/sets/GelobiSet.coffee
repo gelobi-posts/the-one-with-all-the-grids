@@ -17,6 +17,11 @@ module.exports = class GelobiSet extends Set
 
 		@_setupDomEl 'Gelobi', 'Question Mark', @questionMark, ['x', 'opacity']
 
+		@aPlace = @_makeEl '.gelobi-aPlace'
+		.inside @container
+		.html 'a place (blog) to experiment with the web platform'
+		.z 1
+
 
 	_createWords: (words, pref, groupName, props) ->
 
