@@ -76,10 +76,27 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'ThreeJS Typo', @_threejs, ['opacity', 'scaleAll', 'translation']
 
 		@_anyKind = @_makeEl '#theatre-any-kind-typo'
-		.html 'any Kind of Javascript Variable'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
+		any = @_makeEl '.any'
+		.html 'any'
+		.inside @_anyKind
+
+		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity']
+
+		kind = @_makeEl '.kind'
+		.html 'Kind'
+		.inside @_anyKind
+
+		@_setupDomEl 'Theatre', 'Animation anyKind Kind', kind, ['opacity']
+
+		ov = @_makeEl '.of'
+		.html 'any'
+		.inside @_anyKind
+
+		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity']
+
+		# @_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
 
 	_prepareBrowserMockup: ->
 

@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 50728.717000360404
+    t: 52441.70934472511
     _focus:
       from: 45857.17980300175
       to: 54000.53425941402
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 45
+    scrollTop: 121
     guides:
       _list: [
         3016.6043974231575
@@ -5830,25 +5830,25 @@
                 ]
               }
               {
-                t: 50032.12432825522
+                t: 49962.92964399622
                 value: 17
-                id: "no-id-Mouse-Mousify-Move-point-129"
+                id: "no-id-Grids-Selection-Scale X-point-0"
                 handler: [
                   100
-                  1.6482124328613281
-                  100
+                  0.17499999701976776
+                  393.0648193359375
                   0
                 ]
               }
               {
-                t: 50664.484009232874
+                t: 50689.07912695798
                 value: 18
-                id: "no-id-Mouse-Mousify-Move-point-59"
+                id: "no-id-Grids-Selection-Scale X-point-1"
                 handler: [
-                  100
+                  350.73321533203125
                   0
                   100
-                  1.3944965600967407
+                  0.01531249936670065
                 ]
               }
               {
@@ -6299,8 +6299,8 @@
                 id: "no-id-Mouse-Mousify-Move-connector-128"
               }
               {
-                t: 50032.12432825522
-                id: "no-id-Mouse-Mousify-Move-connector-130"
+                t: 49962.92964399622
+                id: "no-id-Grids-Selection-Scale X-connector-4"
               }
               {
                 t: 50828.89505769521
