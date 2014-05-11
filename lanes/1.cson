@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 128974.74935114835
+    t: 131595.54335240473
     _focus:
-      from: 123541.51234164904
-      to: 135324.09636224937
+      from: 124986.1473441748
+      to: 136768.7313647751
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 878
+    scrollTop: -154
     guides:
       _list: [
         3016.6043974231575
@@ -32,10 +32,7 @@
         120983.58804514166
         122771.89662044535
         127102.30302932016
-        127917.69934930015
-        128037.49834950938
-        128248.9083498793
-        128361.66035007643
+        130489.8543537973
         211983.20933843337
       ]
 
@@ -238,7 +235,7 @@
         ]
       }
       {
-        name: "More Tools"
+        name: "More Tools 1"
         propHolders: [
           {
             id: "no-id-More Tools - 1-More-Opacity"
@@ -332,8 +329,67 @@
           }
         ]
       }
+      {
+        name: "More Tools 2"
+        propHolders: [
+          {
+            id: "no-id-More Tools - 2-Photoshop-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Photoshop-Opacity"
+            _height: 95
+          }
+          {
+            id: "no-id-More Tools - 2-Photoshop-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Photoshop-X"
+            _height: 89
+          }
+          {
+            id: "no-id-More Tools - 2-Photoshop-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Photoshop-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Panels-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Panels-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Panels-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Panels-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Panels-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Panels-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Web-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Web-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Web-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Web-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Web-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Web-Scale"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "More Tools"
+    _activeWorkspaceName: "More Tools 2"
 
   timeline:
     _allProps:
@@ -6603,21 +6659,37 @@
 
       "no-id-More Tools - 2-Photoshop-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 127297.56334821547
+          _idCounter: 3
+          chronologyLength: 131152.27235495546
           chronology:
             points: [
-              t: 127297.56334821547
-              value: 0
-              id: "no-id-More Tools - 2-Photoshop-Opacity-point-0"
-              handler: [
-                100
-                0.07999999821186066
-                100
-                0.07999999821186066
-              ]
+              {
+                t: 130496.90135380963
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Opacity-point-1"
+                handler: [
+                  156.37599182128906
+                  -0.04132235422730446
+                  99.99998474121094
+                  0.47933879494667053
+                ]
+              }
+              {
+                t: 131152.27235495546
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Opacity-point-2"
+                handler: [
+                  452.3500061035156
+                  0
+                  100
+                  -0.038016531616449356
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 130496.90135380963
+              id: "no-id-More Tools - 2-Photoshop-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 2-Panels-Opacity":
         pacs:
@@ -7451,5 +7523,73 @@
             connectors: [
               t: 128446.22435022419
               id: "no-id-More Tools - 1-More-Scale-connector-2"
+            ]
+
+      "no-id-More Tools - 2-Photoshop-X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 131131.1313549185
+          chronology:
+            points: [
+              {
+                t: 130489.8543537973
+                value: 15
+                id: "no-id-More Tools - 2-Photoshop-X-point-0"
+                handler: [
+                  100
+                  -0.2222222238779068
+                  107.04698181152344
+                  -5.888888835906982
+                ]
+              }
+              {
+                t: 131131.1313549185
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-X-point-1"
+                handler: [
+                  515.7730102539062
+                  0
+                  100
+                  1.4901235103607178
+                ]
+              }
+            ]
+            connectors: [
+              t: 130489.8543537973
+              id: "no-id-More Tools - 2-Photoshop-X-connector-2"
+            ]
+
+      "no-id-More Tools - 2-Photoshop-Scale":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 131222.74235507866
+          chronology:
+            points: [
+              {
+                t: 130518.04235384658
+                value: 1.05
+                id: "no-id-More Tools - 2-Photoshop-Scale-point-0"
+                handler: [
+                  128.18800354003906
+                  -0.019843749701976776
+                  100
+                  -0.037299998104572296
+                ]
+              }
+              {
+                t: 131222.74235507866
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Scale-point-1"
+                handler: [
+                  431.208984375
+                  0
+                  247.98699951171875
+                  0.0234999917447567
+                ]
+              }
+            ]
+            connectors: [
+              t: 130518.04235384658
+              id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
             ]
 }
