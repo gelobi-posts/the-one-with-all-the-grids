@@ -1,5 +1,6 @@
 AudioSet = require '../sets/AudioSet'
 IntroSet = require '../sets/IntroSet'
+GelobiSet = require '../sets/GelobiSet'
 TheatreSet = require '../sets/TheatreSet'
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
@@ -19,6 +20,8 @@ module.exports = (film) ->
 	film.addSet new PhotoshopSet film
 
 	film.addSet new MoreToolsSet film
+
+	film.addSet new GelobiSet film
 
 	film.addSet new ThePanelSet film
 

@@ -33,10 +33,6 @@ module.exports = class MoreToolsSet extends Set
 			'here', 'in', 'gelobi'
 			], 'line3', 'More Tools - 3', ['opacity', 'x', 'scaleAll']
 
-		@questionMark = @_makeEl '.moreTools-questionMark'
-		.inside @container
-		.html '?'
-
 	_createWords: (words, pref, groupName, props) ->
 
 		said = []

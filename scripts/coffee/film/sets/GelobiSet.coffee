@@ -8,7 +8,7 @@ module.exports = class GelobiSet extends Set
 
 		@id = 'gelobi'
 
-		@container = @makeSetContainer([125000, 150000])
+		@container = @makeSetContainer([125001, 150001])
 		.set 'id', 'gelobi-container'
 		.z 2
 
