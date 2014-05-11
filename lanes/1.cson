@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 422
+    height: 241
     _isVisible: true
 
   timeControl:
-    t: 178065.8074232795
+    t: 50728.717000360404
     _focus:
-      from: 173617.8074232792
-      to: 186157.72673612912
+      from: 45857.17980300175
+      to: 54000.53425941402
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 45
     guides:
       _list: [
         3016.6043974231575
@@ -185,21 +185,15 @@
         name: "Theatre"
         propHolders: [
           {
-            id: "no-id-Theatre-Animation Tool Web-based-Opacity"
+            id: "no-id-Mouse-Mousify-Move"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Web-based-Opacity"
-            _height: 80
+            actorPropId: "no-id-Mouse-Mousify-Move"
+            _height: 283
           }
           {
-            id: "no-id-Theatre-Animation Tool Animation-Opacity"
+            id: "no-id-Grids-Selection-Scale X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Animation-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Tool-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Tool-Opacity"
+            actorPropId: "no-id-Grids-Selection-Scale X"
             _height: 80
           }
         ]
@@ -5534,7 +5528,7 @@
 
       "no-id-Mouse-Mousify-Move":
         pacs:
-          _idCounter: 174
+          _idCounter: 183
           chronologyLength: 110509.60190251227
           chronology:
             points: [
@@ -6023,7 +6017,7 @@
                 ]
               }
               {
-                t: 78383.56483271431
+                t: 79060.01560171341
                 value: 27
                 id: "no-id-Mouse-Mousify-Move-point-152"
                 handler: [
@@ -6034,36 +6028,36 @@
                 ]
               }
               {
-                t: 79495.53033311284
+                t: 79783.79879945617
                 value: 28
                 id: "no-id-Mouse-Mousify-Move-point-81"
                 handler: [
-                  732.8792724609375
+                  507.0903015136719
                   0
                   100
                   2.5551137924194336
                 ]
               }
               {
-                t: 79953.32209071549
+                t: 80001.58380562918
                 value: 28
-                id: "no-id-Mouse-Mousify-Move-point-154"
+                id: "no-id-Grids-Selection-Scale X-point-0"
                 handler: [
                   100
-                  2.6187336444854736
-                  76.2157974243164
+                  0.17499999701976776
+                  393.0648193359375
                   0
                 ]
               }
               {
-                t: 80717.76124490995
+                t: 80727.73328859094
                 value: 29
-                id: "no-id-Mouse-Mousify-Move-point-82"
+                id: "no-id-Grids-Selection-Scale X-point-1"
                 handler: [
-                  100
+                  350.73321533203125
                   0
                   100
-                  2.7088990211486816
+                  0.01531249936670065
                 ]
               }
               {
@@ -6345,12 +6339,12 @@
                 id: "no-id-Mouse-Mousify-Move-connector-151"
               }
               {
-                t: 78383.56483271431
-                id: "no-id-Mouse-Mousify-Move-connector-153"
+                t: 79060.01560171341
+                id: "no-id-Mouse-Mousify-Move-connector-183"
               }
               {
-                t: 79953.32209071549
-                id: "no-id-Mouse-Mousify-Move-connector-155"
+                t: 80001.58380562918
+                id: "no-id-Grids-Selection-Scale X-connector-4"
               }
               {
                 t: 80888.83399194853
