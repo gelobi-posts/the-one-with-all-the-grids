@@ -27,7 +27,38 @@ module.exports = class EndingSet extends Set
 		@_setupDomEl 'Ending', 'Twitter', @_twitLink, ['opacity']
 
 		@_newsletter = @_makeEl '#ending-newsletter'
-		.html 'Newsletter'
+		.html """
+
+			<div class="newsletter" id="mc_embed_signup">
+
+				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+				    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+
+				    <div style="position: absolute; left: -5000px;">
+
+				    	<input type="text" name="b_1ef4119422f6473b12661ea04_76dff4bab2" value="">
+
+				    </div>
+
+				    <div class="clear">
+
+			<!-- 	    	<input type="submit" value="Subscribe to gelobi Updates" name="subscribe" id="mc-embedded-subscribe" class="button icon-right-dir"> -->
+				    	<button type="submit" name="subscribe" id="mc-embedded-subscribe">
+
+				    		Subscribe
+
+				    	</button>
+
+				    </div>
+
+				</form>
+
+			</div>
+
+		"""
 		.inside @_linksContainer
 
 		@_setupDomEl 'Ending', 'Newsletter', @_newsletter, ['opacity']
