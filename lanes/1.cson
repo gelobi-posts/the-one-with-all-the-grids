@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 141763.55650339663
+    t: 142271.42330296757
     _focus:
-      from: 140329.95781600074
-      to: 145704.34572031896
+      from: 139876.73491258654
+      to: 145251.12281690477
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 643
+    scrollTop: 159
     guides:
       _list: [
         3016.6043974231575
@@ -527,8 +527,49 @@
           }
         ]
       }
+      {
+        name: "Gelobi Transition"
+        propHolders: [
+          {
+            id: "no-id-Gelobi-gelobi-X"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-gelobi-Y"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-gelobi-Scale"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-Y"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Y"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Scale"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "More Tools 3"
+    _activeWorkspaceName: "Gelobi Transition"
 
   timeline:
     _allProps:
@@ -9065,7 +9106,7 @@
           chronology:
             points: [
               t: 141757.12780973117
-              value: 199
+              value: 330
               id: "no-id-Gelobi-gelobi-X-point-0"
               handler: [
                 100
@@ -9083,7 +9124,7 @@
           chronology:
             points: [
               t: 141766.77085022934
-              value: 12
+              value: 69
               id: "no-id-Gelobi-gelobi-Y-point-0"
               handler: [
                 100
@@ -9093,4 +9134,38 @@
               ]
             ]
             connectors: []
+
+      "no-id-Gelobi-gelobi-Opacity":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 142106.0305258825
+          chronology:
+            points: [
+              {
+                t: 141133.54452418225
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  91.61100006103516
+                  0.29263395071029663
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 142106.0305258825
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 141133.54452418225
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 }
