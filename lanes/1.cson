@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 444
+    height: 199
     _isVisible: true
 
   timeControl:
-    t: 180715.11297071126
+    t: 180780.2535909309
     _focus:
-      from: 0
-      to: 365422
+      from: 166549.61105011858
+      to: 185517.41333663394
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 1400
+    scrollTop: 1725
     guides:
       _list: [
         3016.6043974231575
@@ -321,6 +321,12 @@
             id: "no-id-Theatre-Animation anyKind any-Z"
             _expanded: true
             actorPropId: "no-id-Theatre-Animation anyKind any-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Any Kind of Typo-Scale"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Any Kind of Typo-Scale"
             _height: 80
           }
         ]
@@ -7866,34 +7872,8 @@
           _idCounter: 1
           chronologyLength: 180382.82826137953
           chronology:
-            points: [
-              {
-                t: 179357.99741046253
-                value: 1.1
-                id: "no-id-Theatre-Any Kind of Typo-Opacity-point-0"
-                handler: [
-                  100
-                  0.07999999821186066
-                  427.60986328125
-                  0
-                ]
-              }
-              {
-                t: 180382.82826137953
-                value: 1
-                id: "no-id-Theatre-Any Kind of Typo-Opacity-point-1"
-                handler: [
-                  473.8112487792969
-                  0
-                  100
-                  0.007199999876320362
-                ]
-              }
-            ]
-            connectors: [
-              t: 179357.99741046253
-              id: "no-id-Theatre-Any Kind of Typo-Opacity-connector-3"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Theatre-Animation Tool Web-based-Opacity":
         pacs:
