@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 336
+    height: 406
     _isVisible: true
 
   timeControl:
-    t: 143813.50068325596
+    t: 143786.02033722575
     _focus:
-      from: 143014.0476539852
-      to: 144079.13567385825
+      from: 142786.10636110525
+      to: 144705.4295570734
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -178
     guides:
       _list: [
         3016.6043974231575
@@ -37,6 +37,7 @@
         142032.8403739784
         142448.61337470525
         143219.80329418796
+        143480.34216986265
         143984.2205333313
         211983.20933843337
       ]
@@ -486,13 +487,13 @@
             id: "no-id-More Tools-Lines Container-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-Scale"
-            _height: 80
+            _height: 185
           }
           {
             id: "no-id-More Tools-Lines Container-X"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-X"
-            _height: 81
+            _height: 184
           }
           {
             id: "no-id-More Tools-Lines Container-Y"
@@ -8858,8 +8859,8 @@
                 handler: [
                   100
                   0.08500000089406967
-                  100
-                  0.08500000089406967
+                  275.3861083984375
+                  0.01629727892577648
                 ]
               }
               {
@@ -8867,8 +8868,8 @@
                 value: 1.6
                 id: "no-id-More Tools-Lines Container-Scale-point-1"
                 handler: [
-                  536.9140014648438
-                  -0.12721312046051025
+                  373.5633239746094
+                  0.02223571389913559
                   100
                   0.10042499750852585
                 ]
@@ -8892,8 +8893,8 @@
                 handler: [
                   100
                   -50.029998779296875
-                  50.670997619628906
-                  -180.90499877929688
+                  272.9439392089844
+                  -18.90452766418457
                 ]
               }
               {
@@ -8901,8 +8902,8 @@
                 value: -260
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
-                  494.6319885253906
-                  -23.5
+                  369.24346923828125
+                  -10.494791984558105
                   100
                   1.5
                 ]
@@ -8916,34 +8917,18 @@
       "no-id-More Tools-Lines Container-Y":
         pacs:
           _idCounter: 2
-          chronologyLength: 143984.2205333313
+          chronologyLength: 143219.166279822
           chronology:
             points: [
-              {
-                t: 143219.166279822
-                value: 0
-                id: "no-id-More Tools-Lines Container-Y-point-0"
-                handler: [
-                  100
-                  1.5
-                  82.80061340332031
-                  -18.212499618530273
-                ]
-              }
-              {
-                t: 143984.2205333313
-                value: -40
-                id: "no-id-More Tools-Lines Container-Y-point-1"
-                handler: [
-                  251.6094207763672
-                  0
-                  100
-                  0.05624999850988388
-                ]
-              }
-            ]
-            connectors: [
               t: 143219.166279822
-              id: "no-id-More Tools-Lines Container-Y-connector-2"
+              value: 0
+              id: "no-id-More Tools-Lines Container-Y-point-0"
+              handler: [
+                100
+                1.5
+                82.80061340332031
+                -18.212499618530273
+              ]
             ]
+            connectors: []
 }
