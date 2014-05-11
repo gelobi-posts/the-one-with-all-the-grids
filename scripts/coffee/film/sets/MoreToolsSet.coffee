@@ -17,19 +17,19 @@ module.exports = class MoreToolsSet extends Set
 
 		@_createWords [
 			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'
-			], 'line1'
+			], 'line1', 'More Tools - 1', ['opacity', 'x', 'scaleAll']
 
 		@_createWords [
 			'photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs',
 			'packages,', 'among', 'other', 'things'
-			], 'line2'
+			], 'line2', 'More Tools - 2', ['opacity', 'x', 'scaleAll']
 
 		@_createWords [
 			'demoes', 'in', 'the', 'coming', 'weeks,', 'right',
 			'here', 'in', 'gelobi'
-			], 'line3'
+			], 'line3', 'More Tools - 3', ['opacity', 'x', 'scaleAll']
 
-	_createWords: (words, pref) ->
+	_createWords: (words, pref, groupName, props) ->
 
 		said = []
 
@@ -53,7 +53,7 @@ module.exports = class MoreToolsSet extends Set
 
 			said.push ident
 
-			@_createWord word, pref, ident
+			@_createWord word, pref, ident, groupName, props
 
 		return
 
@@ -62,5 +62,9 @@ module.exports = class MoreToolsSet extends Set
 		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
 		.html word
 		.inside @linesContainer
+
+		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
+
+		console.log name
 
 		return
