@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 134140.20036017938
+    t: 133992.2133599206
     _focus:
-      from: 127065.01234780948
-      to: 138847.59636840958
+      from: 128227.76734984238
+      to: 140010.35137044237
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 88
+    scrollTop: 637
     guides:
       _list: [
         3016.6043974231575
@@ -355,7 +355,7 @@
             id: "no-id-More Tools - 2-Nodejs-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 2-Nodejs-Opacity"
-            _height: 80
+            _height: 89
           }
           {
             id: "no-id-More Tools - 2-Nodejs-X"
@@ -385,6 +385,24 @@
             id: "no-id-More Tools - 2-Packages-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools - 2-Packages-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Among-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Among-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Other-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Other-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 2-Things-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 2-Things-Opacity"
             _height: 80
           }
         ]
@@ -6898,21 +6916,48 @@
 
       "no-id-More Tools - 2-Among-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 127283.46934819092
+          _idCounter: 3
+          chronologyLength: 134626.44336102947
           chronology:
             points: [
-              t: 127283.46934819092
-              value: 0
-              id: "no-id-More Tools - 2-Among-Opacity-point-0"
-              handler: [
-                100
-                0.10249999910593033
-                100
-                0.10249999910593033
-              ]
+              {
+                t: 127283.46934819092
+                value: 0
+                id: "no-id-More Tools - 2-Among-Opacity-point-0"
+                handler: [
+                  100
+                  0.10249999910593033
+                  100
+                  0.10249999910593033
+                ]
+              }
+              {
+                t: 133978.11935989597
+                value: 0
+                id: "no-id-More Tools - 2-Among-Opacity-point-1"
+                handler: [
+                  100
+                  -0.0028187499847263098
+                  100
+                  -0.0028187499847263098
+                ]
+              }
+              {
+                t: 134626.44336102947
+                value: 1
+                id: "no-id-More Tools - 2-Among-Opacity-point-2"
+                handler: [
+                  100
+                  0.010250000283122063
+                  100
+                  0.010250000283122063
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 133978.11935989597
+              id: "no-id-More Tools - 2-Among-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 2-Other-Opacity":
         pacs:
