@@ -62,6 +62,7 @@ module.exports = class MoreToolsSet extends Set
 		el = @_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
 		.html word
 		.inside @linesContainer
+		.z 1
 
 		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
 
