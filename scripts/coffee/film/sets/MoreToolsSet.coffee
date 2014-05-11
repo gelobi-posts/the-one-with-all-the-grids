@@ -8,7 +8,7 @@ module.exports = class MoreToolsSet extends Set
 
 		@id = 'moreTools'
 
-		@container = @makeSetContainer([125000, 150000])
+		@container = @makeSetContainer([125000, 190000])
 		.set 'id', 'moreTools-container'
 		.z 2
 

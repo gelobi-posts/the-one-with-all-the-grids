@@ -10,7 +10,7 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
-		@container = @makeSetContainer [10000, 147000]
+		@container = @makeSetContainer [10000, 197000]
 		.set 'id', 'photoshop-container'
 
 		@blackifier = @_makeEl '.photoshop-blackifier'

@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 144433.97514375544
+    t: 150645.2109318043
     _focus:
-      from: 140963.27352018972
-      to: 145027.00819428067
+      from: 145805.9478072403
+      to: 156113.2700292416
 
     _lastPlayedTickAt: 0
 
@@ -496,24 +496,6 @@
         name: "gelobi?"
         propHolders: [
           {
-            id: "no-id-More Tools-Lines Container-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-Scale"
-            _height: 185
-          }
-          {
-            id: "no-id-More Tools-Lines Container-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-X"
-            _height: 184
-          }
-          {
-            id: "no-id-More Tools-Lines Container-Y"
-            _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-Y"
-            _height: 115
-          }
-          {
             id: "no-id-Gelobi-Question Mark-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-Question Mark-Opacity"
@@ -523,6 +505,12 @@
             id: "no-id-Gelobi-Question Mark-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-Question Mark-X"
+            _height: 91
+          }
+          {
+            id: "no-id-Gelobi-A Place-Scale"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-A Place-Scale"
             _height: 80
           }
         ]
@@ -9255,4 +9243,69 @@
               t: 141133.54452418225
               id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
+
+      "no-id-Gelobi-A Place-Opacity":
+        pacs:
+          _idCounter: 19
+          chronologyLength: 150121.21428774323
+          chronology:
+            points: [
+              {
+                t: 149615.71164288433
+                value: 0.975
+                id: "no-id-Gelobi-A Place-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  167.8113250732422
+                  0.04360077902674675
+                ]
+              }
+              {
+                t: 150121.21428774323
+                value: 1.076278123538941
+                id: "no-id-Gelobi-A Place-Opacity-point-1"
+                handler: [
+                  186.30532836914062
+                  0.03439921885728836
+                  100
+                  0.0994499996304512
+                ]
+              }
+            ]
+            connectors: [
+              t: 149615.71164288433
+              id: "no-id-Gelobi-A Place-Opacity-connector-19"
+            ]
+
+      "no-id-Gelobi-A Place-Scale":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 150608.2229334
+          chronology:
+            points: [
+              {
+                t: 150232.17828295616
+                value: 0.575
+                id: "no-id-Gelobi-A Place-Scale-point-0"
+                handler: [
+                  100
+                  0.057500001043081284
+                  100
+                  0.057500001043081284
+                ]
+              }
+              {
+                t: 150608.2229334
+                value: 0.5807500001043081
+                id: "no-id-Gelobi-A Place-Scale-point-1"
+                handler: [
+                  100
+                  0.05807499960064888
+                  100
+                  0.05807499960064888
+                ]
+              }
+            ]
+            connectors: []
 }
