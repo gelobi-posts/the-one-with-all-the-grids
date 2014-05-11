@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 142271.42330296757
+    t: 144433.97514375544
     _focus:
-      from: 139876.73491258654
-      to: 145251.12281690477
+      from: 140963.27352018972
+      to: 145027.00819428067
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 159
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -537,21 +537,15 @@
             _height: 80
           }
           {
-            id: "no-id-Gelobi-gelobi-Y"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-gelobi-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Gelobi-gelobi-Scale"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-gelobi-Scale"
-            _height: 80
-          }
-          {
             id: "no-id-More Tools-Lines Container-X"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-gelobi-Y"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Y"
             _height: 80
           }
           {
@@ -561,15 +555,27 @@
             _height: 80
           }
           {
+            id: "no-id-Gelobi-gelobi-Scale"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Scale"
+            _height: 80
+          }
+          {
             id: "no-id-More Tools-Lines Container-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-Scale"
             _height: 80
           }
+          {
+            id: "no-id-More Tools - 3-In-2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-In-2-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
-    _activeWorkspaceName: "Gelobi Transition"
+    _activeWorkspaceName: "gelobi?"
 
   timeline:
     _allProps:
@@ -9084,56 +9090,137 @@
       "no-id-Gelobi-gelobi-Scale":
         pacs:
           _idCounter: 0
-          chronologyLength: 141757.12780973117
+          chronologyLength: 144337.192170129
           chronology:
             points: [
-              t: 141757.12780973117
-              value: 0.625
-              id: "no-id-Gelobi-gelobi-Scale-point-0"
-              handler: [
-                100
-                0.14249999821186066
-                100
-                0.14249999821186066
-              ]
+              {
+                t: 141754.69734640935
+                value: 0.625
+                id: "no-id-Gelobi-gelobi-Scale-point-0"
+                handler: [
+                  100
+                  0.14249999821186066
+                  100
+                  0.14249999821186066
+                ]
+              }
+              {
+                t: 143218.7053640189
+                value: 0.625
+                id: "no-id-More Tools-Lines Container-Scale-point-0"
+                handler: [
+                  100
+                  0.08500000089406967
+                  275.3861083984375
+                  0.01629727892577648
+                ]
+              }
+              {
+                t: 144337.192170129
+                value: 1
+                id: "no-id-More Tools-Lines Container-Scale-point-1"
+                handler: [
+                  498.9228210449219
+                  0
+                  100
+                  0.10042499750852585
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 143218.7053640189
+              id: "no-id-More Tools-Lines Container-Scale-connector-5"
+            ]
 
       "no-id-Gelobi-gelobi-X":
         pacs:
           _idCounter: 0
-          chronologyLength: 141757.12780973117
+          chronologyLength: 144332.8228631014
           chronology:
             points: [
-              t: 141757.12780973117
-              value: 330
-              id: "no-id-Gelobi-gelobi-X-point-0"
-              handler: [
-                100
-                -0.25
-                100
-                -0.25
-              ]
+              {
+                t: 141757.12780973117
+                value: 330
+                id: "no-id-Gelobi-gelobi-X-point-0"
+                handler: [
+                  100
+                  -0.25
+                  100
+                  -0.25
+                ]
+              }
+              {
+                t: 143218.7053640189
+                value: 330
+                id: "no-id-More Tools-Lines Container-X-point-1"
+                handler: [
+                  100
+                  -50.029998779296875
+                  272.9439392089844
+                  -18.90452766418457
+                ]
+              }
+              {
+                t: 144332.8228631014
+                value: -221
+                id: "no-id-More Tools-Lines Container-X-point-0"
+                handler: [
+                  481.7456359863281
+                  9.027777671813965
+                  100
+                  1.5
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 143218.7053640189
+              id: "no-id-More Tools-Lines Container-X-connector-9"
+            ]
 
       "no-id-Gelobi-gelobi-Y":
         pacs:
           _idCounter: 0
-          chronologyLength: 141766.77085022934
+          chronologyLength: 144337.78740060714
           chronology:
             points: [
-              t: 141766.77085022934
-              value: 69
-              id: "no-id-Gelobi-gelobi-Y-point-0"
-              handler: [
-                100
-                1.25
-                100
-                1.25
-              ]
+              {
+                t: 141766.77085022934
+                value: 69
+                id: "no-id-Gelobi-gelobi-Y-point-0"
+                handler: [
+                  100
+                  1.25
+                  100
+                  1.25
+                ]
+              }
+              {
+                t: 143218.7053640189
+                value: 69
+                id: "no-id-More Tools-Lines Container-Y-point-0"
+                handler: [
+                  100
+                  1.5
+                  262.8040466308594
+                  -0.9601078629493713
+                ]
+              }
+              {
+                t: 144337.78740060714
+                value: 5
+                id: "no-id-More Tools-Lines Container-Y-point-3"
+                handler: [
+                  463.22119140625
+                  -1.779445767402649
+                  100
+                  -1.2768094539642334
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 143218.7053640189
+              id: "no-id-More Tools-Lines Container-Y-connector-4"
+            ]
 
       "no-id-Gelobi-gelobi-Opacity":
         pacs:
