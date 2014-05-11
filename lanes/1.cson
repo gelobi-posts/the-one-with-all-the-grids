@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 176221.20832369485
+    t: 180715.11297071126
     _focus:
-      from: 172950.18284964978
-      to: 178771.8092839175
+      from: 0
+      to: 365422
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 1000
+    scrollTop: 1400
     guides:
       _list: [
         3016.6043974231575
@@ -291,6 +291,36 @@
             id: "no-id-Theatre-Objects-Scale"
             _expanded: true
             actorPropId: "no-id-Theatre-Objects-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation anyKind Kind-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation anyKind Kind-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Any Kind of Typo-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Any Kind of Typo-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation anyKind Var-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation anyKind Var-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation anyKind any-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation anyKind any-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation anyKind any-Z"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation anyKind any-Z"
             _height: 80
           }
         ]
