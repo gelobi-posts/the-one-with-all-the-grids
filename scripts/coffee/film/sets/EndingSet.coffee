@@ -48,16 +48,11 @@ module.exports = class EndingSet extends Set
 
 				    </div>
 
-				    <div class="clear">
+			    	<button type="submit" name="subscribe" id="mc-embedded-subscribe">
 
-			<!-- 	    	<input type="submit" value="Subscribe to gelobi Updates" name="subscribe" id="mc-embedded-subscribe" class="button icon-right-dir"> -->
-				    	<button type="submit" name="subscribe" id="mc-embedded-subscribe">
+			    		Subscribe
 
-				    		Subscribe
-
-				    	</button>
-
-				    </div>
+			    	</button>
 
 				</form>
 
