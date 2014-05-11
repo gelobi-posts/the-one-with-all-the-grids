@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 128037.49834950958
+    t: 128481.45935028589
     _focus:
-      from: 125014.33534422403
-      to: 136796.91936482408
+      from: 123541.51234164904
+      to: 135324.09636224937
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 172
+    scrollTop: 888
     guides:
       _list: [
         3016.6043974231575
@@ -32,7 +32,10 @@
         120983.58804514166
         122771.89662044535
         127102.30302932016
+        127917.69934930015
         128037.49834950938
+        128248.9083498793
+        128361.66035007643
         211983.20933843337
       ]
 
@@ -289,7 +292,7 @@
             id: "no-id-More Tools - 1-In-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools - 1-In-Scale"
-            _height: 80
+            _height: 90
           }
           {
             id: "no-id-More Tools - 1-The-Opacity"
@@ -298,9 +301,33 @@
             _height: 80
           }
           {
+            id: "no-id-More Tools - 1-The-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 1-The-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 1-The-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 1-The-Scale"
+            _height: 80
+          }
+          {
             id: "no-id-More Tools - 1-Works-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 1-Works-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 1-Works-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 1-Works-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 1-Works-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 1-Works-Scale"
             _height: 80
           }
         ]
@@ -6953,46 +6980,104 @@
       "no-id-More Tools - 1-In-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 129052.26635128353
+          chronologyLength: 128749.24535075393
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 128241.86134986686
+                value: 0
+                id: "no-id-More Tools - 1-More-Opacity-point-0"
+                handler: [
+                  100
+                  0.08749999850988388
+                  100
+                  0.08749999850988388
+                ]
+              }
+              {
+                t: 128749.24535075393
+                value: 1
+                id: "no-id-More Tools - 1-More-Opacity-point-1"
+                handler: [
+                  100
+                  0.003718749852851033
+                  100
+                  0.003718749852851033
+                ]
+              }
+            ]
+            connectors: [
+              t: 128241.86134986686
+              id: "no-id-More Tools - 1-More-Opacity-connector-2"
+            ]
 
       "no-id-More Tools - 1-The-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 128573.07035044572
+          chronologyLength: 128876.09135097578
           chronology:
             points: [
-              t: 128573.07035044572
-              value: 0
-              id: "no-id-More Tools - 1-The-Opacity-point-0"
-              handler: [
-                100
-                0.08250000327825546
-                100
-                0.08250000327825546
-              ]
+              {
+                t: 128368.7073500887
+                value: 0
+                id: "no-id-More Tools - 1-More-Opacity-point-0"
+                handler: [
+                  100
+                  0.08749999850988388
+                  100
+                  0.08749999850988388
+                ]
+              }
+              {
+                t: 128876.09135097578
+                value: 1
+                id: "no-id-More Tools - 1-More-Opacity-point-1"
+                handler: [
+                  100
+                  0.003718749852851033
+                  100
+                  0.003718749852851033
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 128368.7073500887
+              id: "no-id-More Tools - 1-More-Opacity-connector-2"
+            ]
 
       "no-id-More Tools - 1-Works-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 128523.74135035949
+          chronologyLength: 128988.84335117287
           chronology:
             points: [
-              t: 128523.74135035949
-              value: 0
-              id: "no-id-More Tools - 1-Works-Opacity-point-0"
-              handler: [
-                100
-                0.12250000238418579
-                100
-                0.12250000238418579
-              ]
+              {
+                t: 128481.45935028579
+                value: 0
+                id: "no-id-More Tools - 1-More-Opacity-point-0"
+                handler: [
+                  100
+                  0.08749999850988388
+                  100
+                  0.08749999850988388
+                ]
+              }
+              {
+                t: 128988.84335117287
+                value: 1
+                id: "no-id-More Tools - 1-More-Opacity-point-1"
+                handler: [
+                  100
+                  0.003718749852851033
+                  100
+                  0.003718749852851033
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 128481.45935028579
+              id: "no-id-More Tools - 1-More-Opacity-connector-2"
+            ]
 
       "no-id-More Tools - 1-More-Opacity":
         pacs:
@@ -7161,6 +7246,210 @@
             ]
             connectors: [
               t: 128058.63934954653
+              id: "no-id-More Tools - 1-More-Scale-connector-2"
+            ]
+
+      "no-id-More Tools - 1-In-X":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 128742.1983507416
+          chronology:
+            points: [
+              {
+                t: 128241.86134986686
+                value: 15
+                id: "no-id-More Tools - 1-More-X-point-1"
+                handler: [
+                  100
+                  0.0037499999161809683
+                  22.48299789428711
+                  -4.497375011444092
+                ]
+              }
+              {
+                t: 128742.1983507416
+                value: 0
+                id: "no-id-More Tools - 1-More-X-point-0"
+                handler: [
+                  346.6449890136719
+                  0
+                  100
+                  1.5
+                ]
+              }
+            ]
+            connectors: [
+              t: 128241.86134986686
+              id: "no-id-More Tools - 1-More-X-connector-2"
+            ]
+
+      "no-id-More Tools - 1-In-Scale":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 128777.4333508032
+          chronology:
+            points: [
+              {
+                t: 128241.86134986686
+                value: 0.9
+                id: "no-id-More Tools - 1-More-Scale-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  78.85900115966797
+                  0.049182940274477005
+                ]
+              }
+              {
+                t: 128777.4333508032
+                value: 1
+                id: "no-id-More Tools - 1-More-Scale-point-1"
+                handler: [
+                  311.4100036621094
+                  0.008292661979794502
+                  135.2349853515625
+                  -0.06485428661108017
+                ]
+              }
+            ]
+            connectors: [
+              t: 128241.86134986686
+              id: "no-id-More Tools - 1-More-Scale-connector-2"
+            ]
+
+      "no-id-More Tools - 1-The-X":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 128861.99735095113
+          chronology:
+            points: [
+              {
+                t: 128361.66035007639
+                value: 15
+                id: "no-id-More Tools - 1-More-X-point-1"
+                handler: [
+                  100
+                  0.0037499999161809683
+                  22.48299789428711
+                  -4.497375011444092
+                ]
+              }
+              {
+                t: 128861.99735095113
+                value: 0
+                id: "no-id-More Tools - 1-More-X-point-0"
+                handler: [
+                  346.6449890136719
+                  0
+                  100
+                  1.5
+                ]
+              }
+            ]
+            connectors: [
+              t: 128361.66035007639
+              id: "no-id-More Tools - 1-More-X-connector-2"
+            ]
+
+      "no-id-More Tools - 1-The-Scale":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 128897.23235101273
+          chronology:
+            points: [
+              {
+                t: 128361.66035007639
+                value: 0.9
+                id: "no-id-More Tools - 1-More-Scale-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  78.85900115966797
+                  0.049182940274477005
+                ]
+              }
+              {
+                t: 128897.23235101273
+                value: 1
+                id: "no-id-More Tools - 1-More-Scale-point-1"
+                handler: [
+                  311.4100036621094
+                  0.008292661979794502
+                  135.2349853515625
+                  -0.06485428661108017
+                ]
+              }
+            ]
+            connectors: [
+              t: 128361.66035007639
+              id: "no-id-More Tools - 1-More-Scale-connector-2"
+            ]
+
+      "no-id-More Tools - 1-Works-X":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 129115.68935139463
+          chronology:
+            points: [
+              {
+                t: 128615.35235051988
+                value: 15
+                id: "no-id-More Tools - 1-More-X-point-1"
+                handler: [
+                  100
+                  0.0037499999161809683
+                  22.48299789428711
+                  -4.497375011444092
+                ]
+              }
+              {
+                t: 129115.68935139463
+                value: 0
+                id: "no-id-More Tools - 1-More-X-point-0"
+                handler: [
+                  346.6449890136719
+                  0
+                  100
+                  1.5
+                ]
+              }
+            ]
+            connectors: [
+              t: 128615.35235051988
+              id: "no-id-More Tools - 1-More-X-connector-2"
+            ]
+
+      "no-id-More Tools - 1-Works-Scale":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 129150.92435145623
+          chronology:
+            points: [
+              {
+                t: 128615.35235051988
+                value: 0.9
+                id: "no-id-More Tools - 1-More-Scale-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  78.85900115966797
+                  0.049182940274477005
+                ]
+              }
+              {
+                t: 129150.92435145623
+                value: 1
+                id: "no-id-More Tools - 1-More-Scale-point-1"
+                handler: [
+                  311.4100036621094
+                  0.008292661979794502
+                  135.2349853515625
+                  -0.06485428661108017
+                ]
+              }
+            ]
+            connectors: [
+              t: 128615.35235051988
               id: "no-id-More Tools - 1-More-Scale-connector-2"
             ]
 }
