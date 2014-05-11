@@ -58,10 +58,27 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Animation Tool Tool', tool, ['opacity', 'scaleAll']
 
 		@_html = @_makeEl '#theatre-html-typo'
-		.html 'HTML Elements,'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'HTML Elements Typo', @_html, ['opacity', 'scaleAll', 'translation']
+		html = @_makeEl '.html'
+		.html 'HTML'
+		.inside @_html
+
+		@_setupDomEl 'Theatre', 'HTML El HTML', html, ['opacity', 'translation', 'scaleAll']
+
+		els = @_makeEl '.elements'
+		.html 'Elements'
+		.inside @_html
+
+		@_setupDomEl 'Theatre', 'HTML El Elements', els, ['opacity', 'translation', 'scaleAll']
+
+		comma1 = @_makeEl '.comma 1'
+		.html ','
+		.inside @_html
+
+		@_setupDomEl 'Theatre', 'HTML Comma 1', comma1, ['opacity']
+
+		# @_setupDomEl 'Theatre', 'HTML Elements Typo', @_html, ['opacity', 'scaleAll', 'translation']
 
 		@_webgl = @_makeEl '#theatre-webgl-typo'
 		.html 'WebGL Buffers,'
