@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 199
+    height: 469
     _isVisible: true
 
   timeControl:
-    t: 180780.2535909309
+    t: 174446.2484037097
     _focus:
       from: 166549.61105011858
       to: 185517.41333663394
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 1725
+    scrollTop: 975
     guides:
       _list: [
         3016.6043974231575
@@ -291,42 +291,6 @@
             id: "no-id-Theatre-Objects-Scale"
             _expanded: true
             actorPropId: "no-id-Theatre-Objects-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Kind-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Kind-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Any Kind of Typo-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Any Kind of Typo-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Var-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Var-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind any-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind any-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind any-Z"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind any-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Any Kind of Typo-Scale"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Any Kind of Typo-Scale"
             _height: 80
           }
         ]
