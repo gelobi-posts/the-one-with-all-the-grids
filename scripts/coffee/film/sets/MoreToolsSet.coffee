@@ -13,7 +13,11 @@ module.exports = class MoreToolsSet extends Set
 		.z 2
 
 		@linesContainer = @_makeEl '.moreTools-lines'
+		.z 1
 		.inside @container
+
+		@_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll']
+
 
 		@_createWords [
 			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'

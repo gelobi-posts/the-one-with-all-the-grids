@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 142575.45937492704
+    t: 143176.12737300538
     _focus:
-      from: 135042.21636175635
-      to: 146824.80038235633
+      from: 139495.92036954296
+      to: 151278.50439014295
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 470
+    scrollTop: -7
     guides:
       _list: [
         3016.6043974231575
@@ -34,6 +34,7 @@
         127102.30302932016
         130489.8543537973
         132159.99335671705
+        142032.8403739784
         211983.20933843337
       ]
 
@@ -451,8 +452,31 @@
           }
         ]
       }
+      {
+        name: "gelobi?"
+        propHolders: [
+          {
+            id: "no-id-More Tools-Lines Container-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-X"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-Y"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Y"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "More Tools 3"
+    _activeWorkspaceName: "gelobi?"
 
   timeline:
     _allProps:
@@ -7314,11 +7338,11 @@
       "no-id-More Tools - 3-Weeks-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 140898.27337199473
+          chronologyLength: 140989.88437215492
           chronology:
             points: [
               {
-                t: 139925.78737029448
+                t: 140017.39837045467
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -7329,7 +7353,7 @@
                 ]
               }
               {
-                t: 140898.27337199473
+                t: 140989.88437215492
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -7341,18 +7365,18 @@
               }
             ]
             connectors: [
-              t: 139925.78737029448
+              t: 140017.39837045467
               id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
 
       "no-id-More Tools - 3-Right-Opacity":
         pacs:
-          _idCounter: 0
+          _idCounter: 1
           chronologyLength: 281852.92274408805
           chronology:
             points: [
               {
-                t: 140158.33837070107
+                t: 140602.29937147725
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -7363,7 +7387,7 @@
                 ]
               }
               {
-                t: 141130.82437240132
+                t: 141581.83237318983
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -7398,8 +7422,8 @@
             ]
             connectors: [
               {
-                t: 140158.33837070107
-                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+                t: 140602.29937147725
+                id: "no-id-More Tools - 3-Right-Opacity-connector-1"
               }
               {
                 t: 280880.4367423878
@@ -7410,11 +7434,11 @@
       "no-id-More Tools - 3-Here-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 141342.23437277094
+          chronologyLength: 141736.86637346089
           chronology:
             points: [
               {
-                t: 140369.7483710707
+                t: 140764.38037176064
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -7425,7 +7449,7 @@
                 ]
               }
               {
-                t: 141342.23437277094
+                t: 141736.86637346089
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -7437,18 +7461,18 @@
               }
             ]
             connectors: [
-              t: 140369.7483710707
+              t: 140764.38037176064
               id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
 
       "no-id-More Tools - 3-In-2-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 142124.45137413853
+          chronologyLength: 141941.2293738182
           chronology:
             points: [
               {
-                t: 141151.96537243828
+                t: 140968.74337211796
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -7459,7 +7483,7 @@
                 ]
               }
               {
-                t: 142124.45137413853
+                t: 141941.2293738182
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -7471,18 +7495,18 @@
               }
             ]
             connectors: [
-              t: 141151.96537243828
+              t: 140968.74337211796
               id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
 
       "no-id-More Tools - 3-Gelobi-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 142441.56637469295
+          chronologyLength: 142117.4043741262
           chronology:
             points: [
               {
-                t: 141469.0803729927
+                t: 141144.91837242595
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -7493,7 +7517,7 @@
                 ]
               }
               {
-                t: 142441.56637469295
+                t: 142117.4043741262
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -7505,7 +7529,7 @@
               }
             ]
             connectors: [
-              t: 141469.0803729927
+              t: 141144.91837242595
               id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
 
@@ -8530,7 +8554,7 @@
           chronology:
             points: [
               t: 142209.01537428636
-              value: 0.8
+              value: 0.625
               id: "no-id-More Tools - 3-Gelobi-Scale-point-0"
               handler: [
                 100
@@ -8540,4 +8564,38 @@
               ]
             ]
             connectors: []
+
+      "no-id-More Tools-Lines Container-Scale":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 142808.01037533366
+          chronology:
+            points: [
+              {
+                t: 142039.88737399073
+                value: 1
+                id: "no-id-More Tools-Lines Container-Scale-point-0"
+                handler: [
+                  100
+                  0.08500000089406967
+                  100
+                  0.08500000089406967
+                ]
+              }
+              {
+                t: 142808.01037533366
+                value: 1.6
+                id: "no-id-More Tools-Lines Container-Scale-point-1"
+                handler: [
+                  536.9140014648438
+                  -0.12721312046051025
+                  100
+                  0.10042499750852585
+                ]
+              }
+            ]
+            connectors: [
+              t: 142039.88737399073
+              id: "no-id-More Tools-Lines Container-Scale-connector-2"
+            ]
 }
