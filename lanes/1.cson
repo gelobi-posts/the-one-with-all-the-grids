@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 144430.86825414054
+    t: 144405.28839122175
     _focus:
-      from: 141265.33274432382
-      to: 146639.72064864205
+      from: 142441.78368510172
+      to: 147816.17158941994
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -114
+    scrollTop: -39
     guides:
       _list: [
         3016.6043974231575
@@ -8916,19 +8916,35 @@
 
       "no-id-More Tools-Lines Container-Y":
         pacs:
-          _idCounter: 2
-          chronologyLength: 143219.166279822
+          _idCounter: 4
+          chronologyLength: 144338.24831641023
           chronology:
             points: [
-              t: 143219.166279822
-              value: 0
-              id: "no-id-More Tools-Lines Container-Y-point-0"
-              handler: [
-                100
-                1.5
-                82.80061340332031
-                -18.212499618530273
-              ]
+              {
+                t: 143219.166279822
+                value: 0
+                id: "no-id-More Tools-Lines Container-Y-point-0"
+                handler: [
+                  100
+                  1.5
+                  262.8040466308594
+                  -0.9601078629493713
+                ]
+              }
+              {
+                t: 144338.24831641023
+                value: -50
+                id: "no-id-More Tools-Lines Container-Y-point-3"
+                handler: [
+                  463.22119140625
+                  -1.779445767402649
+                  100
+                  -1.2768094539642334
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 143219.166279822
+              id: "no-id-More Tools-Lines Container-Y-connector-4"
+            ]
 }
