@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 126669.83799275123
+    t: 126892.30679240856
     _focus:
-      from: 126520.36676798145
-      to: 132332.36415902944
+      from: 125818.19961906296
+      to: 131630.19701011106
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 10
+    scrollTop: 22
     guides:
       _list: [
         3016.6043974231575
@@ -219,10 +219,10 @@
       {
         name: "Array"
         propHolders: [
-          id: "no-id-Array Panel-Panel-Opacity"
+          id: "no-id-Photoshop-Blackifier-Opacity"
           _expanded: true
-          actorPropId: "no-id-Array Panel-Panel-Opacity"
-          _height: 115
+          actorPropId: "no-id-Photoshop-Blackifier-Opacity"
+          _height: 80
         ]
       }
     ]
@@ -6459,4 +6459,22 @@
               t: 130170.24551235989
               id: "no-id-Array Panel-Panel-Opacity-connector-4"
             ]
+
+      "no-id-Photoshop-Blackifier-Opacity":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 126930.54361734967
+          chronology:
+            points: [
+              t: 126930.54361734967
+              value: 0.8
+              id: "no-id-Photoshop-Blackifier-Opacity-point-0"
+              handler: [
+                100
+                0.08250000327825546
+                100
+                0.08250000327825546
+              ]
+            ]
+            connectors: []
 }
