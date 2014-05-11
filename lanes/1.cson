@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 251
+    height: 45
     _isVisible: true
 
   timeControl:
-    t: 176992.2819516847
+    t: 178293.99631596144
     _focus:
-      from: 175433.3701412176
-      to: 180619.87857893662
+      from: 173328.14713225412
+      to: 179071.80003105628
 
     _lastPlayedTickAt: 0
 
@@ -184,20 +184,7 @@
       }
       {
         name: "Theatre"
-        propHolders: [
-          {
-            id: "no-id-Theatre-WebGL-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-WebGL-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Buffers-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Buffers-Opacity"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Theatre"
@@ -8552,22 +8539,22 @@
       "no-id-Theatre-HTML El HTML-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 175270.44342660625
+          chronologyLength: 175568.6853585255
           chronology:
             points: [
               {
-                t: 174925.84127807748
+                t: 174932.2845004342
                 value: 0
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
                 handler: [
                   100
                   0.0925000011920929
-                  100
-                  0.0925000011920929
+                  512.3165893554688
+                  0
                 ]
               }
               {
-                t: 175270.44342660625
+                t: 175568.6853585255
                 value: 1
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-1"
                 handler: [
@@ -8579,29 +8566,29 @@
               }
             ]
             connectors: [
-              t: 174925.84127807748
-              id: "no-id-Theatre-HTML El HTML-Opacity-connector-3"
+              t: 174932.2845004342
+              id: "no-id-Theatre-WebGL-Opacity-connector-5"
             ]
 
       "no-id-Theatre-HTML El Elements-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 175386.55140003102
+          chronologyLength: 175495.48729962166
           chronology:
             points: [
               {
-                t: 175090.66579070114
+                t: 175100.50864391378
                 value: 0
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
                 handler: [
-                  100
-                  0.0925000011920929
-                  100
-                  0.0925000011920929
+                  0
+                  0.26798561215400696
+                  390.2491760253906
+                  0
                 ]
               }
               {
-                t: 175386.55140003102
+                t: 175495.48729962166
                 value: 1
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-1"
                 handler: [
@@ -8613,8 +8600,8 @@
               }
             ]
             connectors: [
-              t: 175090.66579070114
-              id: "no-id-Theatre-HTML El Elements-Opacity-connector-3"
+              t: 175100.50864391378
+              id: "no-id-Theatre-Buffers-Opacity-connector-5"
             ]
 
       "no-id-Theatre-HTML Comma 1-Opacity":
@@ -8687,19 +8674,19 @@
 
       "no-id-Theatre-Buffers-Opacity":
         pacs:
-          _idCounter: 3
+          _idCounter: 5
           chronologyLength: 176587.46875955915
           chronology:
             points: [
               {
-                t: 176260.30532923987
+                t: 176192.49010385128
                 value: 0
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
                 handler: [
                   0
                   0.26798561215400696
-                  319.7213439941406
-                  0.050138749182224274
+                  390.2491760253906
+                  0
                 ]
               }
               {
@@ -8715,8 +8702,8 @@
               }
             ]
             connectors: [
-              t: 176260.30532923987
-              id: "no-id-Theatre-Buffers-Opacity-connector-3"
+              t: 176192.49010385128
+              id: "no-id-Theatre-Buffers-Opacity-connector-5"
             ]
 
       "no-id-Theatre-HTML Comma 2-Opacity":
@@ -8756,22 +8743,22 @@
       "no-id-Theatre-ThreeJS-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 177392.5873941039
+          chronologyLength: 177770.5768520546
           chronology:
             points: [
               {
-                t: 177133.23918917318
+                t: 177134.17599396332
                 value: 0
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
                 handler: [
                   100
                   0.0925000011920929
-                  100
-                  0.0925000011920929
+                  512.3165893554688
+                  0
                 ]
               }
               {
-                t: 177392.5873941039
+                t: 177770.5768520546
                 value: 1
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-1"
                 handler: [
@@ -8783,8 +8770,8 @@
               }
             ]
             connectors: [
-              t: 177133.23918917318
-              id: "no-id-Theatre-HTML El Elements-Opacity-connector-1"
+              t: 177134.17599396332
+              id: "no-id-Theatre-WebGL-Opacity-connector-5"
             ]
 
       "no-id-Theatre-Objects-Opacity":
@@ -8794,18 +8781,18 @@
           chronology:
             points: [
               {
-                t: 177465.35661975952
+                t: 177283.36948981823
                 value: 0
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
                 handler: [
-                  100
-                  0.0925000011920929
-                  186.80349731445312
+                  0
+                  0.26798561215400696
+                  390.2491760253906
                   0
                 ]
               }
               {
-                t: 177724.70482469024
+                t: 177678.34814552608
                 value: 1
                 id: "no-id-Theatre-HTML El HTML-Opacity-point-1"
                 handler: [
@@ -8840,8 +8827,8 @@
             ]
             connectors: [
               {
-                t: 177465.35661975952
-                id: "no-id-Theatre-HTML El Elements-Opacity-connector-1"
+                t: 177283.36948981823
+                id: "no-id-Theatre-Buffers-Opacity-connector-5"
               }
               {
                 t: 354738.2693783464
