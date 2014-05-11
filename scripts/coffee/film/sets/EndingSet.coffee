@@ -11,16 +11,13 @@ module.exports = class EndingSet extends Set
 		@container = @makeSetContainer([200000])
 		.set 'id', 'ending-container'
 
-		@_linksContainer = @_makeEl '#ending-links-container'
-		.inside @container
-
 		@_fbLink = @_makeEl '#ending-fb-link'
 		.html """
 
 			<a target="_blank" href="https://facebook.com">Facebook</a>
 
 		"""
-		.inside @_linksContainer
+		.inside @container
 
 		@_setupDomEl 'Ending', 'Facebook', @_fbLink, ['opacity']
 
@@ -30,7 +27,7 @@ module.exports = class EndingSet extends Set
 			<a target="_blank" href="https://twitter.com">Twitter</a>
 
 		"""
-		.inside @_linksContainer
+		.inside @container
 
 		@_setupDomEl 'Ending', 'Twitter', @_twitLink, ['opacity']
 
@@ -67,7 +64,7 @@ module.exports = class EndingSet extends Set
 			</div>
 
 		"""
-		.inside @_linksContainer
+		.inside @container
 
 		@_setupDomEl 'Ending', 'Newsletter', @_newsletter, ['opacity']
 
