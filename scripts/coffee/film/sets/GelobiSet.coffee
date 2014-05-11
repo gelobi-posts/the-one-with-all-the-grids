@@ -19,7 +19,7 @@ module.exports = class GelobiSet extends Set
 
 		@aPlace = @_makeEl '.gelobi-aPlace'
 		.inside @container
-		.html 'a place (blog) to experiment with the web platform'
+		.html 'a place (blog) to experiment with the web'
 		.z 1
 
 
