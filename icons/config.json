@@ -73,6 +73,18 @@
       "src": "fontawesome"
     },
     {
+      "uid": "5717236f6134afe2d2a278a5c9b3927a",
+      "css": "play-circled",
+      "code": 59519,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e835d9d0f2ee39ae01b01cc6a6fa24ab",
+      "css": "play-circled2-1",
+      "code": 59518,
+      "src": "fontawesome"
+    },
+    {
       "uid": "8e04c98c8f5ca0a035776e3001ad2638",
       "css": "facebook-7",
       "code": 59489,
@@ -322,6 +334,12 @@
       "uid": "929ff290f0be577d2a2d587d5a53eec1",
       "css": "play",
       "code": 59394,
+      "src": "iconic"
+    },
+    {
+      "uid": "8a6c569e59c69e9de113978b11c057b8",
+      "css": "play-circle2",
+      "code": 59517,
       "src": "iconic"
     },
     {
@@ -676,6 +694,12 @@
       "uid": "20370af73ca90f73b4bda366d92303d9",
       "css": "play-1",
       "code": 59396,
+      "src": "elusive"
+    },
+    {
+      "uid": "7acc2dfe18c6f4548626696fab27ba8a",
+      "css": "play-circled2",
+      "code": 59516,
       "src": "elusive"
     },
     {
