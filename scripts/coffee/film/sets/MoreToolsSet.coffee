@@ -15,11 +15,19 @@ module.exports = class MoreToolsSet extends Set
 		@linesContainer = @_makeEl '.moreTools-lines'
 		.inside @container
 
-		@_createWords ['MORE', 'TOOLS', 'IN', 'THE', 'WORKS'], 'line1'
+		@_createWords [
+			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'
+			], 'line1'
 
-		@_createWords ['photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs', 'packages,', 'among', 'other', 'things'], 'line2'
+		@_createWords [
+			'photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs',
+			'packages,', 'among', 'other', 'things'
+			], 'line2'
 
-		@_createWords ['demoes', 'in', 'the', 'coming', 'weeks,', 'right', 'here', 'in', 'gelobi'], 'line3'
+		@_createWords [
+			'demoes', 'in', 'the', 'coming', 'weeks,', 'right',
+			'here', 'in', 'gelobi'
+			], 'line3'
 
 	_createWords: (words, pref) ->
 
