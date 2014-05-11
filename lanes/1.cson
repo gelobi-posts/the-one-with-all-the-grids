@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 392
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 144331.81962274463
+    t: 144881.4729311408
     _focus:
       from: 141998.2038221854
       to: 147372.59172650363
@@ -8945,7 +8945,7 @@
               }
               {
                 t: 144338.24831641023
-                value: -107.06820635530678
+                value: -63.9800755264393
                 id: "no-id-More Tools-Lines Container-Y-point-3"
                 handler: [
                   463.22119140625
