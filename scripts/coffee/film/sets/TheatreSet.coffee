@@ -37,6 +37,8 @@ module.exports = class TheatreSet extends Set
 		.inside @container
 		.z 1
 
+		@_setupDomEl 'Theatre', 'Tool Container', @_tool, ['opacity']
+
 		webbased = @_makeEl '.webbased'
 		.html 'Web-based'
 		.inside @_tool
@@ -57,6 +59,8 @@ module.exports = class TheatreSet extends Set
 
 		@_html = @_makeEl '#theatre-html-typo'
 		.inside @container
+
+		@_setupDomEl 'Theatre', 'HTML container', @_html, ['opacity']
 
 		html = @_makeEl '.html'
 		.html 'HTML'
@@ -109,6 +113,8 @@ module.exports = class TheatreSet extends Set
 
 		@_anyKind = @_makeEl '#theatre-any-kind-typo'
 		.inside @container
+
+		@_setupDomEl 'Theatre', 'anyKind Container', @_anyKind, ['opacity']
 
 		any = @_makeEl '.any'
 		.html 'any'

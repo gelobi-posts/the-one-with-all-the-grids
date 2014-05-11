@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 374
+    height: 426
     _isVisible: true
 
   timeControl:
-    t: 172327.6065398055
+    t: 182243.97736745686
     _focus:
-      from: 157321.66080401835
-      to: 206629.44488799412
+      from: 180286.33776706606
+      to: 191262.89763787904
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 2
     guides:
       _list: [
         3016.6043974231575
@@ -184,7 +184,38 @@
       }
       {
         name: "Theatre"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Theatre-Theatre Typo-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Theatre Typo-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Js Typo-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Js Typo-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Tool Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Tool Container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-HTML container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-HTML container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-anyKind Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-anyKind Container-Opacity"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Theatre"
@@ -7290,8 +7321,8 @@
 
       "no-id-Theatre-Theatre Typo-Opacity":
         pacs:
-          _idCounter: 5
-          chronologyLength: 167775.6075853603
+          _idCounter: 11
+          chronologyLength: 182726.66433399718
           chronology:
             points: [
               {
@@ -7316,10 +7347,38 @@
                   0.008574999868869781
                 ]
               }
+              {
+                t: 182240.24169680572
+                value: 1
+                id: "no-id-Theatre-Theatre Typo-Opacity-point-6"
+                handler: [
+                  0
+                  -0.27756139636039734
+                  456.139404296875
+                  0
+                ]
+              }
+              {
+                t: 182726.66433399718
+                value: 0
+                id: "no-id-Theatre-Theatre Typo-Opacity-point-7"
+                handler: [
+                  419.3089294433594
+                  0
+                  100
+                  -0.021613720804452896
+                ]
+              }
             ]
             connectors: [
-              t: 167343.8589671698
-              id: "no-id-Theatre-Theatre Typo-Opacity-connector-5"
+              {
+                t: 167343.8589671698
+                id: "no-id-Theatre-Theatre Typo-Opacity-connector-5"
+              }
+              {
+                t: 182240.24169680572
+                id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
+              }
             ]
 
       "no-id-Theatre-Js Typo-Opacity":
@@ -7754,7 +7813,7 @@
                 handler: [
                   100
                   0.004387499764561653
-                  100
+                  130.97222900390625
                   0.004387499764561653
                 ]
               }
@@ -8457,7 +8516,7 @@
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
                   100
-                  0.004387499764561653
+                  0
                   100
                   0.004387499764561653
                 ]
@@ -8491,7 +8550,7 @@
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
                   100
-                  0.004387499764561653
+                  0
                   100
                   0.004387499764561653
                 ]
@@ -8525,7 +8584,7 @@
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
                   100
-                  0.004387499764561653
+                  0
                   100
                   0.004387499764561653
                 ]
