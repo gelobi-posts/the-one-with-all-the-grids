@@ -8,13 +8,12 @@ module.exports = class GelobiSet extends Set
 
 		@id = 'gelobi'
 
-		@container = @makeSetContainer([125001, 150001])
-		.set 'id', 'gelobi-container'
-		.z 2
+		@container = @film.sets['moreTools'].container
 
 		@questionMark = @_makeEl '.gelobi-questionMark'
 		.inside @container
 		.html '?'
+
 
 	_createWords: (words, pref, groupName, props) ->
 
