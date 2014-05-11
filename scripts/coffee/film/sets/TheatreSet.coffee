@@ -37,9 +37,6 @@ module.exports = class TheatreSet extends Set
 		.inside @container
 		.z 1
 
-		# @_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
-		#
-
 		webbased = @_makeEl '.webbased'
 		.html 'Web-based'
 		.inside @_tool
@@ -79,8 +76,6 @@ module.exports = class TheatreSet extends Set
 		.inside @_html
 
 		@_setupDomEl 'Theatre', 'HTML Comma 1', comma1, ['opacity']
-
-		# @_setupDomEl 'Theatre', 'HTML Elements Typo', @_html, ['opacity', 'scaleAll', 'translation']
 
 		webgl = @_makeEl '.webgl'
 		.html 'WebGL'
