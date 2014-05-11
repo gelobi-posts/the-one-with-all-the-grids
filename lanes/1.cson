@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 144000.74189897382
+    t: 144430.86825414054
     _focus:
       from: 141265.33274432382
       to: 146639.72064864205
@@ -8868,7 +8868,7 @@
                 value: 1.6
                 id: "no-id-More Tools-Lines Container-Scale-point-1"
                 handler: [
-                  621.0679931640625
+                  498.9228210449219
                   0
                   100
                   0.10042499750852585
@@ -8902,8 +8902,8 @@
                 value: -260
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
-                  655.3203735351562
-                  0
+                  481.7456359863281
+                  9.027777671813965
                   100
                   1.5
                 ]
