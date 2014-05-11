@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 153879.02058421573
+    t: 154408.43215566364
     _focus:
       from: 152261.12056629942
       to: 156076.53499501036
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 102
+    scrollTop: 342
     guides:
       _list: [
         3016.6043974231575
@@ -599,6 +599,24 @@
             id: "no-id-Gelobi-A Place-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Griddify Section-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Griddify Section-Rotation X"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Divide Section-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Divide Section-Rotation X"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Wrap Section-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Wrap Section-Rotation X"
             _height: 80
           }
         ]
@@ -9490,4 +9508,12 @@
               t: 150232.17828295616
               id: "no-id-Gelobi-A Place-Scale-connector-3"
             ]
+
+      "no-id-The Panel-Griddify Section-Rotation X":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 154294.33483423092
+          chronology:
+            points: []
+            connectors: []
 }
