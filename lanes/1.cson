@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 142272.43837439726
+    t: 142575.45937492704
     _focus:
       from: 135042.21636175635
       to: 146824.80038235633
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 300
+    scrollTop: 470
     guides:
       _list: [
         3016.6043974231575
@@ -441,6 +441,12 @@
             id: "no-id-More Tools - 3-Gelobi-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 3-Gelobi-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-Gelobi-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Gelobi-Scale"
             _height: 80
           }
         ]
@@ -8516,4 +8522,22 @@
               t: 133266.37235865166
               id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
             ]
+
+      "no-id-More Tools - 3-Gelobi-Scale":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 142209.01537428636
+          chronology:
+            points: [
+              t: 142209.01537428636
+              value: 0.8
+              id: "no-id-More Tools - 3-Gelobi-Scale-point-0"
+              handler: [
+                100
+                0.13249999284744263
+                100
+                0.13249999284744263
+              ]
+            ]
+            connectors: []
 }
