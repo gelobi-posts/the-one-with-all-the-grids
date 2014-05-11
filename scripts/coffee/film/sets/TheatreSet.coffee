@@ -64,14 +64,15 @@ module.exports = class TheatreSet extends Set
 		html = @_makeEl '.html'
 		.html 'HTML'
 		.inside @_html
+		.z 1
 
-		@_setupDomEl 'Theatre', 'HTML El HTML', html, ['opacity', 'translation', 'scaleAll']
+		@_setupDomEl 'Theatre', 'HTML El HTML', html, ['opacity', 'x', 'scaleAll']
 
 		els = @_makeEl '.elements'
 		.html 'Elements'
 		.inside @_html
 
-		@_setupDomEl 'Theatre', 'HTML El Elements', els, ['opacity', 'translation', 'scaleAll']
+		@_setupDomEl 'Theatre', 'HTML El Elements', els, ['opacity', 'x', 'scaleAll']
 
 		comma1 = @_makeEl '.comma 1'
 		.html ','
@@ -85,13 +86,13 @@ module.exports = class TheatreSet extends Set
 		.html 'WebGL'
 		.inside @_html
 
-		@_setupDomEl 'Theatre', 'WebGL', webgl, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'WebGL', webgl, ['opacity', 'scaleAll', 'x']
 
 		buffers = @_makeEl '.buffers'
 		.html 'Buffers'
 		.inside @_html
 
-		@_setupDomEl 'Theatre', 'Buffers', buffers, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'Buffers', buffers, ['opacity', 'scaleAll', 'x']
 
 		comma2 = @_makeEl '.comma 2'
 		.html ','
@@ -103,13 +104,13 @@ module.exports = class TheatreSet extends Set
 		.html 'Three.js'
 		.inside @_html
 
-		@_setupDomEl 'Theatre', 'ThreeJS', threejs, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'ThreeJS', threejs, ['opacity', 'scaleAll', 'x']
 
 		objects = @_makeEl '.objects'
 		.html 'Objects'
 		.inside @_html
 
-		@_setupDomEl 'Theatre', 'Objects', objects, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'Objects', objects, ['opacity', 'scaleAll', 'x']
 
 		@_anyKind = @_makeEl '#theatre-any-kind-typo'
 		.inside @container
