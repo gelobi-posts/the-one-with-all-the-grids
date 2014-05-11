@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 150645.2109318043
+    t: 125591.81478264161
     _focus:
-      from: 145805.9478072403
-      to: 156113.2700292416
+      from: 46315.29372153113
+      to: 223521.6349169546
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -4
     guides:
       _list: [
         3016.6043974231575
@@ -508,6 +508,12 @@
             _height: 91
           }
           {
+            id: "no-id-Gelobi-A Place-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+          {
             id: "no-id-Gelobi-A Place-Scale"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Scale"
@@ -562,8 +568,37 @@
           }
         ]
       }
+      {
+        name: "No Video"
+        propHolders: [
+          {
+            id: "no-id-Photoshop-Blackifier-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Blackifier-Opacity"
+            _height: 149
+          }
+          {
+            id: "no-id-Gelobi-gelobi-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-Question Mark-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-Question Mark-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-A Place-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "gelobi?"
+    _activeWorkspaceName: "No Video"
 
   timeline:
     _allProps:
@@ -6799,8 +6834,8 @@
 
       "no-id-Photoshop-Blackifier-Opacity":
         pacs:
-          _idCounter: 4
-          chronologyLength: 116379.11373104724
+          _idCounter: 8
+          chronologyLength: 153125.33109940626
           chronology:
             points: [
               {
@@ -6825,10 +6860,38 @@
                   0.08250000327825546
                 ]
               }
+              {
+                t: 152307.912194088
+                value: 8
+                id: "no-id-Gelobi-gelobi-Opacity-point-0"
+                handler: [
+                  100
+                  0.03750000149011612
+                  127.58607482910156
+                  -0.029952678829431534
+                ]
+              }
+              {
+                t: 153125.33109940626
+                value: 0
+                id: "no-id-Gelobi-gelobi-Opacity-point-1"
+                handler: [
+                  178.40252685546875
+                  0
+                  100
+                  -0.025937499478459358
+                ]
+              }
             ]
             connectors: [
-              t: 115329.0492550459
-              id: "no-id-Photoshop-Blackifier-Opacity-connector-4"
+              {
+                t: 115329.0492550459
+                id: "no-id-Photoshop-Blackifier-Opacity-connector-4"
+              }
+              {
+                t: 152307.912194088
+                id: "no-id-Photoshop-Blackifier-Opacity-connector-8"
+              }
             ]
 
       "no-id-More Tools - 2-Photoshop-Opacity":
@@ -9010,7 +9073,7 @@
       "no-id-Gelobi-Question Mark-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 144695.04081484283
+          chronologyLength: 152980.14124055754
           chronology:
             points: [
               {
@@ -9035,10 +9098,38 @@
                   0.00918749999254942
                 ]
               }
+              {
+                t: 152607.00330331636
+                value: 1
+                id: "no-id-Gelobi-gelobi-Opacity-point-0"
+                handler: [
+                  100
+                  0.03750000149011612
+                  30.308870315551758
+                  -0.4397175908088684
+                ]
+              }
+              {
+                t: 152980.14124055754
+                value: 0
+                id: "no-id-Gelobi-gelobi-Opacity-point-1"
+                handler: [
+                  178.40252685546875
+                  0
+                  100
+                  -0.025937499478459358
+                ]
+              }
             ]
             connectors: [
-              t: 144428.25002772652
-              id: "no-id-Gelobi-Question Mark-Opacity-connector-3"
+              {
+                t: 144428.25002772652
+                id: "no-id-Gelobi-Question Mark-Opacity-connector-3"
+              }
+              {
+                t: 152607.00330331636
+                id: "no-id-Gelobi-gelobi-Opacity-connector-4"
+              }
             ]
 
       "no-id-Gelobi-Question Mark-X":
@@ -9212,8 +9303,8 @@
 
       "no-id-Gelobi-gelobi-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 142106.0305258825
+          _idCounter: 4
+          chronologyLength: 152916.2577026641
           chronology:
             points: [
               {
@@ -9238,74 +9329,133 @@
                   -0.3250000476837158
                 ]
               }
+              {
+                t: 152543.11976542292
+                value: 1
+                id: "no-id-Gelobi-gelobi-Opacity-point-0"
+                handler: [
+                  100
+                  0.03750000149011612
+                  30.308870315551758
+                  -0.4397175908088684
+                ]
+              }
+              {
+                t: 152916.2577026641
+                value: 0
+                id: "no-id-Gelobi-gelobi-Opacity-point-1"
+                handler: [
+                  178.40252685546875
+                  0
+                  100
+                  -0.025937499478459358
+                ]
+              }
             ]
             connectors: [
-              t: 141133.54452418225
-              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              {
+                t: 141133.54452418225
+                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              }
+              {
+                t: 152543.11976542292
+                id: "no-id-Gelobi-gelobi-Opacity-connector-4"
+              }
             ]
 
       "no-id-Gelobi-A Place-Opacity":
         pacs:
-          _idCounter: 19
-          chronologyLength: 150121.21428774323
+          _idCounter: 22
+          chronologyLength: 153065.80325727828
           chronology:
             points: [
               {
-                t: 149615.71164288433
-                value: 0.975
+                t: 150231.31664440286
+                value: 0
                 id: "no-id-Gelobi-A Place-Opacity-point-0"
                 handler: [
                   100
                   0.09749999642372131
-                  167.8113250732422
-                  0.04360077902674675
+                  108.28348541259766
+                  0.6383803486824036
                 ]
               }
               {
-                t: 150121.21428774323
-                value: 1.076278123538941
+                t: 150600.34082194397
+                value: 1
                 id: "no-id-Gelobi-A Place-Opacity-point-1"
                 handler: [
                   186.30532836914062
                   0.03439921885728836
+                  95.6443099975586
+                  -0.041059691458940506
+                ]
+              }
+              {
+                t: 152692.6653200371
+                value: 1
+                id: "no-id-Gelobi-gelobi-Opacity-point-0"
+                handler: [
                   100
-                  0.0994499996304512
+                  0.03750000149011612
+                  30.308870315551758
+                  -0.4397175908088684
+                ]
+              }
+              {
+                t: 153065.80325727828
+                value: 0
+                id: "no-id-Gelobi-gelobi-Opacity-point-1"
+                handler: [
+                  178.40252685546875
+                  0
+                  100
+                  -0.025937499478459358
                 ]
               }
             ]
             connectors: [
-              t: 149615.71164288433
-              id: "no-id-Gelobi-A Place-Opacity-connector-19"
+              {
+                t: 150231.31664440286
+                id: "no-id-Gelobi-A Place-Opacity-connector-22"
+              }
+              {
+                t: 152692.6653200371
+                id: "no-id-Gelobi-gelobi-Opacity-connector-4"
+              }
             ]
 
       "no-id-Gelobi-A Place-Scale":
         pacs:
-          _idCounter: 1
+          _idCounter: 3
           chronologyLength: 150608.2229334
           chronology:
             points: [
               {
                 t: 150232.17828295616
-                value: 0.575
+                value: 0.9
                 id: "no-id-Gelobi-A Place-Scale-point-0"
                 handler: [
                   100
                   0.057500001043081284
-                  100
-                  0.057500001043081284
+                  27.405073165893555
+                  0.05249999836087227
                 ]
               }
               {
                 t: 150608.2229334
-                value: 0.5807500001043081
+                value: 1
                 id: "no-id-Gelobi-A Place-Scale-point-1"
                 handler: [
-                  100
-                  0.05807499960064888
-                  100
-                  0.05807499960064888
+                  204.79933166503906
+                  0
+                  198.63465881347656
+                  -0.028866250067949295
                 ]
               }
             ]
-            connectors: []
+            connectors: [
+              t: 150232.17828295616
+              id: "no-id-Gelobi-A Place-Scale-connector-3"
+            ]
 }
