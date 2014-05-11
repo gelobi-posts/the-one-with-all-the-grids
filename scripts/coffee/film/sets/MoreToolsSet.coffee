@@ -11,13 +11,8 @@ module.exports = class MoreToolsSet extends Set
 		@container = @makeSetContainer([125000, 150000])
 		.set 'id', 'moreTools-container'
 
-		# @line1 = @_makeEl '.moreTools-line1'
-		# .html 'MORE TOOLS IN THE WORKS'
-		# .inside @container
-		# .y -60
-
-		# @line1More = @_makeEl '.moreTools-line1.moreTools-line1-more'
-		# .html 'MORE'
+		@linesContainer = @_makeEl '.moreTools-lines'
+		.inside @container
 
 		@_createWords ['MORE', 'TOOLS', 'IN', 'THE', 'WORKS'], 'line1'
 
@@ -38,6 +33,6 @@ module.exports = class MoreToolsSet extends Set
 
 		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{word.toLowerCase()}"
 		.html word
-		.inside @container
+		.inside @linesContainer
 
 		return

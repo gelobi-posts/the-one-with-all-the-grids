@@ -108,5 +108,11 @@
 	width: $width
 	height: $height
 
-	left: calc(50vw - #{$width/2})
+	left: calc(50% - #{$width/2})
+	top: calc(50% - #{$height/2})
+
+@mixin centralizeY($height)
+
+	position: absolute
+	height: $height
 	top: calc(50% - #{$height/2})
