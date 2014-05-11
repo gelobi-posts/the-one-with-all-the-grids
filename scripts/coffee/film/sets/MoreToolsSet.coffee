@@ -36,13 +36,13 @@ module.exports = class MoreToolsSet extends Set
 
 			if ident in said
 
-				i = 0
+				i = 1
 
 				loop
 
 					i++
 
-					newIdent = String("#{ident}{i}")
+					newIdent = String("#{ident}-#{i}")
 
 					break unless newIdent in said
 
