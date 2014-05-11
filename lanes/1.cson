@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 45
+    height: 374
     _isVisible: true
 
   timeControl:
-    t: 178293.99631596144
+    t: 180874.92411048108
     _focus:
-      from: 173328.14713225412
-      to: 179071.80003105628
+      from: 177822.13496520813
+      to: 183565.7878640103
 
     _lastPlayedTickAt: 0
 
@@ -8122,8 +8122,8 @@
                 value: 0
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
                 handler: [
-                  197.958740234375
-                  0
+                  77.79862976074219
+                  41.11531066894531
                   100
                   0.010968749411404133
                 ]
@@ -8209,7 +8209,7 @@
                 handler: [
                   100
                   0.11249999701976776
-                  168.14523315429688
+                  297.3173522949219
                   0
                 ]
               }
@@ -8218,8 +8218,8 @@
                 value: 0
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
                 handler: [
-                  197.958740234375
-                  0
+                  68.78662109375
+                  21.059062957763672
                   100
                   0.010968749411404133
                 ]
@@ -8277,8 +8277,8 @@
                 handler: [
                   100
                   0.11249999701976776
-                  168.14523315429688
-                  0
+                  162.1372528076172
+                  1.6139024496078491
                 ]
               }
               {
@@ -8286,8 +8286,8 @@
                 value: 0
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
                 handler: [
-                  197.958740234375
-                  0
+                  140.88267517089844
+                  46.693458557128906
                   100
                   0.010968749411404133
                 ]
@@ -8354,8 +8354,8 @@
                 value: 0
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
                 handler: [
-                  197.958740234375
-                  0
+                  53.76660919189453
+                  34.09562683105469
                   100
                   0.010968749411404133
                 ]
@@ -8403,11 +8403,11 @@
       "no-id-Theatre-Animation anyKind Var-Z":
         pacs:
           _idCounter: -1
-          chronologyLength: 180607.3779490579
+          chronologyLength: 180502.23785938317
           chronology:
             points: [
               {
-                t: 180189.9884424008
+                t: 180084.84835272605
                 value: 40
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-0"
                 handler: [
@@ -8418,19 +8418,19 @@
                 ]
               }
               {
-                t: 180607.3779490579
+                t: 180502.23785938317
                 value: 0
                 id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
                 handler: [
-                  197.958740234375
-                  0
+                  68.78662109375
+                  38.106876373291016
                   100
                   0.010968749411404133
                 ]
               }
             ]
             connectors: [
-              t: 180189.9884424008
+              t: 180084.84835272605
               id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
             ]
 
