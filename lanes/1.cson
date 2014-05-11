@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 180474.19185005006
+    t: 181641.28008406484
     _focus:
       from: 178256.36766666273
       to: 186399.72212307496
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 150
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -184,74 +184,7 @@
       }
       {
         name: "Theatre"
-        propHolders: [
-          {
-            id: "no-id-Theatre-Animation anyKind any-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind any-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Kind-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Kind-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind of-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind of-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Var-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Var-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind js-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind js-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind js-Y"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind js-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind js-Z"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind js-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind of-Y"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind of-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind of-Z"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind of-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Var-Y"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Var-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Var-Z"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Var-Z"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Theatre"

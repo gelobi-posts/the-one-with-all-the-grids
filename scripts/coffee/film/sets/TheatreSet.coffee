@@ -81,18 +81,21 @@ module.exports = class TheatreSet extends Set
 		any = @_makeEl '.any'
 		.html 'any'
 		.inside @_anyKind
+		.perspective 800
 
 		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity', 'translation']
 
 		kind = @_makeEl '.kind'
 		.html 'Kind'
 		.inside @_anyKind
+		.perspective 800
 
 		@_setupDomEl 'Theatre', 'Animation anyKind Kind', kind, ['opacity', 'translation']
 
 		av = @_makeEl '.of'
 		.html 'of'
 		.inside @_anyKind
+		.perspective 800
 
 		@_setupDomEl 'Theatre', 'Animation anyKind of', av, ['opacity', 'translation']
 
@@ -106,6 +109,7 @@ module.exports = class TheatreSet extends Set
 		variable = @_makeEl '.var'
 		.html 'Variable'
 		.inside @_anyKind
+		.perspective 800
 
 		@_setupDomEl 'Theatre', 'Animation anyKind Var', variable, ['opacity', 'translation']
 
