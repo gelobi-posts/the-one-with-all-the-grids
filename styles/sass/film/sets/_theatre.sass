@@ -51,13 +51,13 @@
 
 	> .animation
 
-		margin-left: 6px
+		margin-left: 5px
 
 	> .tool
 
-		margin-left: 3px
+		margin-left: 2px
 
-.bullet-list
+#theatre-html-typo
 
 	position: absolute
 	height: 50px
@@ -70,28 +70,15 @@
 	font-size: 24px
 
 	top: calc(50vh - 20px)
-
-#theatre-html-typo
-
-	@extend .bullet-list
-
 	left: calc(50vw - 265px)
 
 	> div
 
 		display: inline-block
 
-#theatre-webgl-typo
+	> div:not(.comma):not(.html)
 
-	@extend .bullet-list
-
-	left: calc(50vw - 85px)
-
-#theatre-threejs-typo
-
-	@extend .bullet-list
-
-	left: calc(50vw + 87px)
+		margin-left: 5px
 
 #theatre-any-kind-typo
 
@@ -102,7 +89,7 @@
 	left: calc(50vw - 267px)
 
 	font-family: "Droid Sans", Helvetica, sans-serif
-	color: #AAA
+	color: #FFF
 	font-weight: 300
 	font-size: 39px
 

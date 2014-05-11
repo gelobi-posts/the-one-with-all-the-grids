@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 177899.10462538977
+    t: 185155.9589288697
     _focus:
-      from: 175820.6752453013
-      to: 183964.02970171353
+      from: 0
+      to: 365422
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 218
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -185,42 +185,10 @@
       {
         name: "Theatre"
         propHolders: [
-          {
-            id: "no-id-Theatre-Animation Tool Web-based-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Web-based-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Animation-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Animation-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Tool-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Tool-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Web-based-Scale"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Web-based-Scale"
-            _height: 83
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Animation-Scale"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Animation-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Tool-Scale"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Tool-Scale"
-            _height: 80
-          }
+          id: "no-id-Theatre-Any Kind of Typo-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Theatre-Any Kind of Typo-Opacity"
+          _height: 80
         ]
       }
     ]
@@ -7754,36 +7722,10 @@
       "no-id-Theatre-Any Kind of Typo-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 180378.62813494133
+          chronologyLength: 179353.79728402433
           chronology:
-            points: [
-              {
-                t: 179353.79728402433
-                value: 0
-                id: "no-id-Theatre-Any Kind of Typo-Opacity-point-0"
-                handler: [
-                  100
-                  0.07999999821186066
-                  427.60986328125
-                  0
-                ]
-              }
-              {
-                t: 180378.62813494133
-                value: 1
-                id: "no-id-Theatre-Any Kind of Typo-Opacity-point-1"
-                handler: [
-                  473.8112487792969
-                  0
-                  100
-                  0.007199999876320362
-                ]
-              }
-            ]
-            connectors: [
-              t: 179353.79728402433
-              id: "no-id-Theatre-Any Kind of Typo-Opacity-connector-3"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Theatre-Any Kind of Typo-Scale":
         pacs:
