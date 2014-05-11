@@ -80,17 +80,33 @@ module.exports = class TheatreSet extends Set
 
 		# @_setupDomEl 'Theatre', 'HTML Elements Typo', @_html, ['opacity', 'scaleAll', 'translation']
 
-		@_webgl = @_makeEl '#theatre-webgl-typo'
-		.html 'WebGL Buffers,'
-		.inside @container
+		webgl = @_makeEl '.webgl'
+		.html 'WebGL'
+		.inside @_html
 
-		@_setupDomEl 'Theatre', 'WebGL typo', @_webgl, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'WebGL', webgl, ['opacity', 'scaleAll', 'translation']
 
-		@_threejs = @_makeEl '#theatre-threejs-typo'
-		.html 'Three.js Objects'
-		.inside @container
+		buffers = @_makeEl '.buffers'
+		.html 'Buffers'
+		.inside @_html
 
-		@_setupDomEl 'Theatre', 'ThreeJS Typo', @_threejs, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'Buffers', buffers, ['opacity', 'scaleAll', 'translation']
+
+		comma2 = @_makeEl '.comma 2'
+		.html ','
+		.inside @_html
+
+		@_setupDomEl 'Theatre', 'HTML Comma 2', comma2, ['opacity']
+
+		threejs = @_makeEl '.threejs'
+		.html 'Three.js'
+		.inside @_html
+
+		@_setupDomEl 'Theatre', 'ThreeJS', threejs, ['opacity', 'scaleAll', 'translation']
+
+		objects = @_makeEl '.objects'
+		.html 'Objects'
+		.inside @_html
 
 		@_anyKind = @_makeEl '#theatre-any-kind-typo'
 		.inside @container
