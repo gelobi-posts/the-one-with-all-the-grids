@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 406
+    height: 389
     _isVisible: true
 
   timeControl:
-    t: 143786.02033722575
+    t: 144000.74189897382
     _focus:
-      from: 142786.10636110525
-      to: 144705.4295570734
+      from: 141265.33274432382
+      to: 146639.72064864205
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -178
+    scrollTop: -114
     guides:
       _list: [
         3016.6043974231575
@@ -8848,8 +8848,8 @@
 
       "no-id-More Tools-Lines Container-Scale":
         pacs:
-          _idCounter: 2
-          chronologyLength: 143984.8593773912
+          _idCounter: 5
+          chronologyLength: 144335.22318215837
           chronology:
             points: [
               {
@@ -8864,12 +8864,12 @@
                 ]
               }
               {
-                t: 143984.8593773912
+                t: 144335.22318215837
                 value: 1.6
                 id: "no-id-More Tools-Lines Container-Scale-point-1"
                 handler: [
-                  373.5633239746094
-                  0.02223571389913559
+                  621.0679931640625
+                  0
                   100
                   0.10042499750852585
                 ]
@@ -8877,13 +8877,13 @@
             ]
             connectors: [
               t: 143216.73637604827
-              id: "no-id-More Tools-Lines Container-Scale-connector-2"
+              id: "no-id-More Tools-Lines Container-Scale-connector-5"
             ]
 
       "no-id-More Tools-Lines Container-X":
         pacs:
-          _idCounter: 5
-          chronologyLength: 143985.0979718887
+          _idCounter: 9
+          chronologyLength: 144332.24742982312
           chronology:
             points: [
               {
@@ -8898,12 +8898,12 @@
                 ]
               }
               {
-                t: 143985.0979718887
+                t: 144332.24742982312
                 value: -260
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
-                  369.24346923828125
-                  -10.494791984558105
+                  655.3203735351562
+                  0
                   100
                   1.5
                 ]
@@ -8911,7 +8911,7 @@
             ]
             connectors: [
               t: 143218.12993074063
-              id: "no-id-More Tools-Lines Container-X-connector-5"
+              id: "no-id-More Tools-Lines Container-X-connector-9"
             ]
 
       "no-id-More Tools-Lines Container-Y":
