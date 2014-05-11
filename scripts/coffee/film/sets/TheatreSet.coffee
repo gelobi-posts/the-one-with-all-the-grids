@@ -35,6 +35,7 @@ module.exports = class TheatreSet extends Set
 
 		@_tool = @_makeEl '#theatre-animation-tool-typo'
 		.inside @container
+		.z 1
 
 		# @_setupDomEl 'Theatre', 'Animation Tool Typo', @_tool, ['opacity']
 		#
