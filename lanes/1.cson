@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 128481.45935028589
+    t: 128974.74935114835
     _focus:
       from: 123541.51234164904
       to: 135324.09636224937
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 888
+    scrollTop: 878
     guides:
       _list: [
         3016.6043974231575
@@ -7388,11 +7388,11 @@
       "no-id-More Tools - 1-Works-X":
         pacs:
           _idCounter: -1
-          chronologyLength: 129115.68935139463
+          chronologyLength: 128981.79635116053
           chronology:
             points: [
               {
-                t: 128615.35235051988
+                t: 128481.45935028579
                 value: 15
                 id: "no-id-More Tools - 1-More-X-point-1"
                 handler: [
@@ -7403,7 +7403,7 @@
                 ]
               }
               {
-                t: 129115.68935139463
+                t: 128981.79635116053
                 value: 0
                 id: "no-id-More Tools - 1-More-X-point-0"
                 handler: [
@@ -7415,18 +7415,18 @@
               }
             ]
             connectors: [
-              t: 128615.35235051988
+              t: 128481.45935028579
               id: "no-id-More Tools - 1-More-X-connector-2"
             ]
 
       "no-id-More Tools - 1-Works-Scale":
         pacs:
           _idCounter: -1
-          chronologyLength: 129150.92435145623
+          chronologyLength: 128981.79635116053
           chronology:
             points: [
               {
-                t: 128615.35235051988
+                t: 128446.22435022419
                 value: 0.9
                 id: "no-id-More Tools - 1-More-Scale-point-0"
                 handler: [
@@ -7437,7 +7437,7 @@
                 ]
               }
               {
-                t: 129150.92435145623
+                t: 128981.79635116053
                 value: 1
                 id: "no-id-More Tools - 1-More-Scale-point-1"
                 handler: [
@@ -7449,7 +7449,7 @@
               }
             ]
             connectors: [
-              t: 128615.35235051988
+              t: 128446.22435022419
               id: "no-id-More Tools - 1-More-Scale-connector-2"
             ]
 }
