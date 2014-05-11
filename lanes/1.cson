@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 52441.70934472511
+    t: 184354.69416950337
     _focus:
-      from: 45857.17980300175
-      to: 54000.53425941402
+      from: 178076.81526325253
+      to: 186220.16971966476
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 121
+    scrollTop: 0
     guides:
       _list: [
         3016.6043974231575
@@ -183,20 +183,7 @@
       }
       {
         name: "Theatre"
-        propHolders: [
-          {
-            id: "no-id-Mouse-Mousify-Move"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 283
-          }
-          {
-            id: "no-id-Grids-Selection-Scale X"
-            _expanded: true
-            actorPropId: "no-id-Grids-Selection-Scale X"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
     ]
     _activeWorkspaceName: "Theatre"

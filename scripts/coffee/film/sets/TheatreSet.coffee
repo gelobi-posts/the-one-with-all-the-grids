@@ -90,11 +90,23 @@ module.exports = class TheatreSet extends Set
 
 		@_setupDomEl 'Theatre', 'Animation anyKind Kind', kind, ['opacity']
 
-		ov = @_makeEl '.of'
-		.html 'any'
+		av = @_makeEl '.of'
+		.html 'of'
 		.inside @_anyKind
 
-		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity']
+		@_setupDomEl 'Theatre', 'Animation anyKind of', av, ['opacity']
+
+		js = @_makeEl '.js'
+		.html 'Javascript'
+		.inside @_anyKind
+
+		@_setupDomEl 'Theatre', 'Animation anyKind js', js, ['opacity']
+
+		variable = @_makeEl '.var'
+		.html 'Variable'
+		.inside @_anyKind
+
+		@_setupDomEl 'Theatre', 'Animation anyKind Var', variable, ['opacity']
 
 		# @_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
 
