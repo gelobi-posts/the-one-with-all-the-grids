@@ -99,8 +99,9 @@ module.exports = class TheatreSet extends Set
 		js = @_makeEl '.js'
 		.html 'Javascript'
 		.inside @_anyKind
+		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind js', js, ['opacity']
+		@_setupDomEl 'Theatre', 'Animation anyKind js', js, ['opacity', 'translation']
 
 		variable = @_makeEl '.var'
 		.html 'Variable'
