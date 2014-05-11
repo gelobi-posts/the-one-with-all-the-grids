@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 171308.03291546702
+    t: 171271.13436437337
     _focus:
-      from: 164381.59912219568
-      to: 172524.9535786079
+      from: 164390.11727539275
+      to: 172533.47173180498
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 218
     guides:
       _list: [
         3016.6043974231575
@@ -207,6 +207,18 @@
             id: "no-id-Theatre-Animation Tool Web-based-Scale"
             _expanded: true
             actorPropId: "no-id-Theatre-Animation Tool Web-based-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation Tool Animation-Scale"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation Tool Animation-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation Tool Tool-Scale"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation Tool Tool-Scale"
             _height: 80
           }
         ]
@@ -8509,5 +8521,107 @@
             connectors: [
               t: 180189.9884424008
               id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
+            ]
+
+      "no-id-Theatre-Animation Tool Web-based-Scale":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 170888.16609019227
+          chronology:
+            points: [
+              {
+                t: 170340.04728355588
+                value: 0.9
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  100
+                  0.09749999642372131
+                ]
+              }
+              {
+                t: 170888.16609019227
+                value: 1
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
+                handler: [
+                  100
+                  0.004387499764561653
+                  100
+                  0.004387499764561653
+                ]
+              }
+            ]
+            connectors: [
+              t: 170340.04728355588
+              id: "no-id-Theatre-Animation Tool Web-based-Scale-connector-1"
+            ]
+
+      "no-id-Theatre-Animation Tool Animation-Scale":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 171147.96976270335
+          chronology:
+            points: [
+              {
+                t: 170565.7783432786
+                value: 0.9
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  134.07261657714844
+                  0.06452786177396774
+                ]
+              }
+              {
+                t: 171147.96976270335
+                value: 1
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
+                handler: [
+                  100
+                  0.004387499764561653
+                  100
+                  0.004387499764561653
+                ]
+              }
+            ]
+            connectors: [
+              t: 170565.7783432786
+              id: "no-id-Theatre-Animation Tool Animation-Scale-connector-0"
+            ]
+
+      "no-id-Theatre-Animation Tool Tool-Scale":
+        pacs:
+          _idCounter: 1
+          chronologyLength: 171356.6645160319
+          chronology:
+            points: [
+              {
+                t: 170957.61339034446
+                value: 0.9
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
+                handler: [
+                  100
+                  0.09749999642372131
+                  0
+                  0.06726802885532379
+                ]
+              }
+              {
+                t: 171356.6645160319
+                value: 1
+                id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
+                handler: [
+                  100
+                  0.004387499764561653
+                  100
+                  0.004387499764561653
+                ]
+              }
+            ]
+            connectors: [
+              t: 170957.61339034446
+              id: "no-id-Theatre-Animation Tool Tool-Scale-connector-1"
             ]
 }
