@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 125591.81478264161
+    t: 153764.92326278298
     _focus:
-      from: 46315.29372153113
-      to: 223521.6349169546
+      from: 152261.12056629942
+      to: 156076.53499501036
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -4
+    scrollTop: 102
     guides:
       _list: [
         3016.6043974231575
@@ -575,7 +575,7 @@
             id: "no-id-Photoshop-Blackifier-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-Blackifier-Opacity"
-            _height: 149
+            _height: 103
           }
           {
             id: "no-id-Gelobi-gelobi-Opacity"
@@ -587,7 +587,13 @@
             id: "no-id-Gelobi-Question Mark-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-Question Mark-Opacity"
-            _height: 80
+            _height: 99
+          }
+          {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
+            _height: 62
           }
           {
             id: "no-id-Gelobi-A Place-Opacity"
@@ -1957,8 +1963,8 @@
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
-          _idCounter: 19
-          chronologyLength: 115564.30832770237
+          _idCounter: 22
+          chronologyLength: 153894.9942092163
           chronology:
             points: [
               {
@@ -2060,6 +2066,28 @@
                   -0.09286238253116608
                 ]
               }
+              {
+                t: 153696.46486992334
+                value: 0
+                id: "no-id-The Panel-Panel-Opacity-point-20"
+                handler: [
+                  100
+                  -0.015296299941837788
+                  100
+                  -0.015296299941837788
+                ]
+              }
+              {
+                t: 153894.9942092163
+                value: 1
+                id: "no-id-The Panel-Panel-Opacity-point-21"
+                handler: [
+                  100
+                  0.09175386279821396
+                  90.8722152709961
+                  0.3103015720844269
+                ]
+              }
             ]
             connectors: [
               {
@@ -2077,6 +2105,10 @@
               {
                 t: 114873.70232649498
                 id: "no-id-The Panel-Panel-Opacity-connector-19"
+              }
+              {
+                t: 153696.46486992334
+                id: "no-id-The Panel-Panel-Opacity-connector-22"
               }
             ]
 
@@ -6862,7 +6894,7 @@
               }
               {
                 t: 152307.912194088
-                value: 8
+                value: 0.8
                 id: "no-id-Gelobi-gelobi-Opacity-point-0"
                 handler: [
                   100
