@@ -195,5 +195,5 @@ module.exports = class TheatreSet extends Set
 		.inside @browserViewport
 
 		@_setupDomEl 'Theatre', "The Ball", @theBall, [
-			'translation', 'scale'
+			'xy', 'scale'
 		]
