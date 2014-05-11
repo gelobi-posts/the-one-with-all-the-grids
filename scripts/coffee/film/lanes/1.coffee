@@ -1,5 +1,6 @@
 AudioSet = require '../sets/AudioSet'
 IntroSet = require '../sets/IntroSet'
+EndingSet = require '../sets/EndingSet'
 TheatreSet = require '../sets/TheatreSet'
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
@@ -18,6 +19,8 @@ module.exports = (film) ->
 	film.addSet new PhotoshopSet film
 
 	film.addSet new ThePanelSet film
+
+	film.addSet new EndingSet film
 
 	implementQwertify film
 
