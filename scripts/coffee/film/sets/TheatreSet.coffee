@@ -151,7 +151,7 @@ module.exports = class TheatreSet extends Set
 
 		@_setupDomEl 'Theatre', 'Animation anyKind Var', variable, ['opacity', 'translation']
 
-		@_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
+		# @_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
 
 	_prepareBrowserMockup: ->
 
