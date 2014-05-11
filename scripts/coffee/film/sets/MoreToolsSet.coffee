@@ -18,6 +18,8 @@ module.exports = class MoreToolsSet extends Set
 
 		@_createWords ['photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs', 'packages,', 'among', 'other', 'things'], 'line2'
 
+		@_createWords ['demoes', 'in', 'the', 'coming', 'weeks,', 'right', 'here', 'in', 'gelobi'], 'line3'
+
 
 		# @line2 = @_makeEl '.moreTools-line2'
 		# .html 'photoshop panels, web-based tools, nodejs packages, among other things'
@@ -26,15 +28,35 @@ module.exports = class MoreToolsSet extends Set
 
 	_createWords: (words, pref) ->
 
+		said = []
+
 		for word in words
 
-			@_createWord word, pref
+			ident = word.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '')
+
+			if ident in said
+
+				i = 0
+
+				loop
+
+					i++
+
+					newIdent = String("#{ident}{i}")
+
+					break unless newIdent in said
+
+				ident = newIdent
+
+			said.push ident
+
+			@_createWord word, pref, ident
 
 		return
 
-	_createWord: (word, pref) ->
+	_createWord: (word, pref, ident) ->
 
-		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{word.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '')}"
+		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
 		.html word
 		.inside @linesContainer
 
