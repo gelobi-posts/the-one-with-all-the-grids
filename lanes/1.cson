@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 139094.24136884068
+    t: 142272.43837439726
     _focus:
       from: 135042.21636175635
       to: 146824.80038235633
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -324
+    scrollTop: 300
     guides:
       _list: [
         3016.6043974231575
@@ -34,7 +34,6 @@
         127102.30302932016
         130489.8543537973
         132159.99335671705
-        139059.00636877908
         211983.20933843337
       ]
 
@@ -424,19 +423,19 @@
             id: "no-id-More Tools - 3-Right-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 3-Right-Opacity"
-            _height: 80
+            _height: 83
           }
           {
             id: "no-id-More Tools - 3-Here-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 3-Here-Opacity"
-            _height: 80
+            _height: 82
           }
           {
             id: "no-id-More Tools - 3-In-2-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools - 3-In-2-Opacity"
-            _height: 80
+            _height: 77
           }
           {
             id: "no-id-More Tools - 3-Gelobi-Opacity"
@@ -7179,66 +7178,330 @@
       "no-id-More Tools - 3-In-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127311.65734824026
+          chronologyLength: 140249.94937086126
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 139277.463369161
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 140249.94937086126
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 139277.463369161
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 3-The-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127304.61034822796
+          chronologyLength: 280203.92474120506
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 139495.92036954293
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 140468.40637124318
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+              {
+                t: 279231.4387395048
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 280203.92474120506
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 139495.92036954293
+                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              }
+              {
+                t: 279231.4387395048
+                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              }
+            ]
 
       "no-id-More Tools - 3-Coming-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127318.7043482526
+          chronologyLength: 140708.0043716621
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 139735.51836996185
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 140708.0043716621
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 139735.51836996185
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 3-Weeks-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127290.51634820338
+          chronologyLength: 140898.27337199473
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 139925.78737029448
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 140898.27337199473
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 139925.78737029448
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 3-Right-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127318.70434825268
+          chronologyLength: 281852.92274408805
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 140158.33837070107
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  0
+                  0.33906254172325134
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 141130.82437240132
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+              {
+                t: 280880.4367423878
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  107.0469970703125
+                  0.11406254023313522
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 281852.92274408805
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 140158.33837070107
+                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              }
+              {
+                t: 280880.4367423878
+                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+              }
+            ]
 
       "no-id-More Tools - 3-Here-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127290.51634820337
+          chronologyLength: 141342.23437277094
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 140369.7483710707
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  0
+                  0.042633965611457825
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 141342.23437277094
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 140369.7483710707
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 3-In-2-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127248.23434812948
+          chronologyLength: 142124.45137413853
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 141151.96537243828
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  91.61100006103516
+                  0.29263395071029663
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 142124.45137413853
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 141151.96537243828
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 3-Gelobi-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127283.46934819108
+          chronologyLength: 142441.56637469295
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 141469.0803729927
+                value: 0
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
+                handler: [
+                  0
+                  0.042633965611457825
+                  57.71799850463867
+                  0.5078125596046448
+                ]
+              }
+              {
+                t: 142441.56637469295
+                value: 1
+                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
+                handler: [
+                  586.2430419921875
+                  0
+                  50.670997619628906
+                  -0.3250000476837158
+                ]
+              }
+            ]
+            connectors: [
+              t: 141469.0803729927
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 1-Tools-Opacity":
         pacs:
