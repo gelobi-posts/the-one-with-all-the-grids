@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 128474.41235027362
+    t: 134140.20036017938
     _focus:
-      from: 123393.5253413904
-      to: 135176.1093619906
+      from: 127065.01234780948
+      to: 138847.59636840958
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 635
+    scrollTop: 88
     guides:
       _list: [
         3016.6043974231575
@@ -390,7 +390,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "More Tools 1"
+    _activeWorkspaceName: "More Tools 2"
 
   timeline:
     _allProps:
@@ -6865,20 +6865,36 @@
       "no-id-More Tools - 2-Packages-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 127318.7043482525
+          chronologyLength: 133921.74335979746
           chronology:
             points: [
-              t: 127318.7043482525
-              value: 0
-              id: "no-id-More Tools - 2-Packages-Opacity-point-0"
-              handler: [
-                100
-                0.10249999910593033
-                100
-                0.10249999910593033
-              ]
+              {
+                t: 133266.37235865166
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Opacity-point-1"
+                handler: [
+                  156.37599182128906
+                  -0.04132235422730446
+                  99.99998474121094
+                  0.47933879494667053
+                ]
+              }
+              {
+                t: 133921.74335979746
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Opacity-point-2"
+                handler: [
+                  452.3500061035156
+                  0
+                  100
+                  -0.038016531616449356
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 133266.37235865166
+              id: "no-id-More Tools - 2-Photoshop-Opacity-connector-3"
+            ]
 
       "no-id-More Tools - 2-Among-Opacity":
         pacs:
@@ -7167,11 +7183,11 @@
       "no-id-More Tools - 1-The-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 128876.09135097578
+          chronologyLength: 128932.46735107435
           chronology:
             points: [
               {
-                t: 128410.98935016264
+                t: 128467.3653502612
                 value: 0
                 id: "no-id-More Tools - 1-More-Opacity-point-0"
                 handler: [
@@ -7182,7 +7198,7 @@
                 ]
               }
               {
-                t: 128876.09135097578
+                t: 128932.46735107435
                 value: 1
                 id: "no-id-More Tools - 1-More-Opacity-point-1"
                 handler: [
@@ -7194,18 +7210,18 @@
               }
             ]
             connectors: [
-              t: 128410.98935016264
+              t: 128467.3653502612
               id: "no-id-More Tools - 1-The-Opacity-connector-1"
             ]
 
       "no-id-More Tools - 1-Works-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 129080.45435133303
+          chronologyLength: 129179.11235150552
           chronology:
             points: [
               {
-                t: 128573.07035044595
+                t: 128671.72835061845
                 value: 0
                 id: "no-id-More Tools - 1-More-Opacity-point-0"
                 handler: [
@@ -7216,7 +7232,7 @@
                 ]
               }
               {
-                t: 129080.45435133303
+                t: 129179.11235150552
                 value: 1
                 id: "no-id-More Tools - 1-More-Opacity-point-1"
                 handler: [
@@ -7228,7 +7244,7 @@
               }
             ]
             connectors: [
-              t: 128573.07035044595
+              t: 128671.72835061845
               id: "no-id-More Tools - 1-More-Opacity-connector-2"
             ]
 
@@ -7473,11 +7489,11 @@
       "no-id-More Tools - 1-The-X":
         pacs:
           _idCounter: -1
-          chronologyLength: 128861.99735095113
+          chronologyLength: 128981.79635116058
           chronology:
             points: [
               {
-                t: 128361.66035007639
+                t: 128481.45935028583
                 value: 15
                 id: "no-id-More Tools - 1-More-X-point-1"
                 handler: [
@@ -7488,7 +7504,7 @@
                 ]
               }
               {
-                t: 128861.99735095113
+                t: 128981.79635116058
                 value: 0
                 id: "no-id-More Tools - 1-More-X-point-0"
                 handler: [
@@ -7500,18 +7516,18 @@
               }
             ]
             connectors: [
-              t: 128361.66035007639
+              t: 128481.45935028583
               id: "no-id-More Tools - 1-More-X-connector-2"
             ]
 
       "no-id-More Tools - 1-The-Scale":
         pacs:
           _idCounter: -1
-          chronologyLength: 128897.23235101273
+          chronologyLength: 129024.07835123451
           chronology:
             points: [
               {
-                t: 128361.66035007639
+                t: 128488.50635029816
                 value: 0.9
                 id: "no-id-More Tools - 1-More-Scale-point-0"
                 handler: [
@@ -7522,7 +7538,7 @@
                 ]
               }
               {
-                t: 128897.23235101273
+                t: 129024.07835123451
                 value: 1
                 id: "no-id-More Tools - 1-More-Scale-point-1"
                 handler: [
@@ -7534,18 +7550,18 @@
               }
             ]
             connectors: [
-              t: 128361.66035007639
+              t: 128488.50635029816
               id: "no-id-More Tools - 1-More-Scale-connector-2"
             ]
 
       "no-id-More Tools - 1-Works-X":
         pacs:
           _idCounter: -1
-          chronologyLength: 129066.3603513084
+          chronologyLength: 129186.15935151784
           chronology:
             points: [
               {
-                t: 128566.02335043365
+                t: 128685.8223506431
                 value: 15
                 id: "no-id-More Tools - 1-More-X-point-1"
                 handler: [
@@ -7556,7 +7572,7 @@
                 ]
               }
               {
-                t: 129066.3603513084
+                t: 129186.15935151784
                 value: 0
                 id: "no-id-More Tools - 1-More-X-point-0"
                 handler: [
@@ -7568,18 +7584,18 @@
               }
             ]
             connectors: [
-              t: 128566.02335043365
+              t: 128685.8223506431
               id: "no-id-More Tools - 1-More-X-connector-2"
             ]
 
       "no-id-More Tools - 1-Works-Scale":
         pacs:
           _idCounter: -1
-          chronologyLength: 129101.59535136998
+          chronologyLength: 129256.62935164104
           chronology:
             points: [
               {
-                t: 128566.02335043364
+                t: 128721.0573507047
                 value: 0.9
                 id: "no-id-More Tools - 1-More-Scale-point-0"
                 handler: [
@@ -7590,7 +7606,7 @@
                 ]
               }
               {
-                t: 129101.59535136998
+                t: 129256.62935164104
                 value: 1
                 id: "no-id-More Tools - 1-More-Scale-point-1"
                 handler: [
@@ -7602,7 +7618,7 @@
               }
             ]
             connectors: [
-              t: 128566.02335043364
+              t: 128721.0573507047
               id: "no-id-More Tools - 1-More-Scale-connector-2"
             ]
 
@@ -8039,6 +8055,74 @@
             ]
             connectors: [
               t: 132998.5863581832
+              id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
+            ]
+
+      "no-id-More Tools - 2-Packages-X":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 133907.64935977285
+          chronology:
+            points: [
+              {
+                t: 133266.37235865166
+                value: 15
+                id: "no-id-More Tools - 2-Photoshop-X-point-0"
+                handler: [
+                  100
+                  -0.2222222238779068
+                  107.04698181152344
+                  -5.888888835906982
+                ]
+              }
+              {
+                t: 133907.64935977285
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-X-point-1"
+                handler: [
+                  515.7730102539062
+                  0
+                  100
+                  1.4901235103607178
+                ]
+              }
+            ]
+            connectors: [
+              t: 133266.37235865166
+              id: "no-id-More Tools - 2-Photoshop-X-connector-2"
+            ]
+
+      "no-id-More Tools - 2-Packages-Scale":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 133971.07235988372
+          chronology:
+            points: [
+              {
+                t: 133266.37235865166
+                value: 1.05
+                id: "no-id-More Tools - 2-Photoshop-Scale-point-0"
+                handler: [
+                  128.18800354003906
+                  -0.019843749701976776
+                  100
+                  -0.037299998104572296
+                ]
+              }
+              {
+                t: 133971.07235988372
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Scale-point-1"
+                handler: [
+                  431.208984375
+                  0
+                  247.98699951171875
+                  0.0234999917447567
+                ]
+              }
+            ]
+            connectors: [
+              t: 133266.37235865166
               id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
             ]
 }
