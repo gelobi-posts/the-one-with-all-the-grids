@@ -12,7 +12,10 @@ module.exports = class GelobiSet extends Set
 
 		@questionMark = @_makeEl '.gelobi-questionMark'
 		.inside @container
+		.z 1
 		.html '?'
+
+		@_setupDomEl 'Gelobi', 'Question Mark', @questionMark, ['x', 'opacity']
 
 
 	_createWords: (words, pref, groupName, props) ->
