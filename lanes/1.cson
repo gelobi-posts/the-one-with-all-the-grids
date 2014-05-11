@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 171271.13436437337
+    t: 177967.57802854406
     _focus:
-      from: 164390.11727539275
-      to: 172533.47173180498
+      from: 173210.9293336235
+      to: 181354.28379003573
 
     _lastPlayedTickAt: 0
 
@@ -207,7 +207,7 @@
             id: "no-id-Theatre-Animation Tool Web-based-Scale"
             _expanded: true
             actorPropId: "no-id-Theatre-Animation Tool Web-based-Scale"
-            _height: 80
+            _height: 83
           }
           {
             id: "no-id-Theatre-Animation Tool Animation-Scale"
