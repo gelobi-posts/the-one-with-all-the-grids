@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 392
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 144084.31491662486
+    t: 144331.81962274463
     _focus:
-      from: 141876.05864254196
-      to: 147250.44654686018
+      from: 141998.2038221854
+      to: 147372.59172650363
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 48
+    scrollTop: 285
     guides:
       _list: [
         3016.6043974231575
@@ -8911,7 +8911,7 @@
               }
               {
                 t: 144332.24742982312
-                value: -260
+                value: -551.3679493238434
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
                   481.7456359863281
@@ -8945,7 +8945,7 @@
               }
               {
                 t: 144338.24831641023
-                value: -50
+                value: -107.06820635530678
                 id: "no-id-More Tools-Lines Container-Y-point-3"
                 handler: [
                   463.22119140625
@@ -9005,8 +9005,8 @@
                 value: 20
                 id: "no-id-Gelobi-Question Mark-X-point-0"
                 handler: [
-                  100
-                  2
+                  48.57044982910156
+                  -1.8499999046325684
                   51.78479766845703
                   -9.550000190734863
                 ]
