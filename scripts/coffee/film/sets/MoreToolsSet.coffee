@@ -57,14 +57,14 @@ module.exports = class MoreToolsSet extends Set
 
 		return
 
-	_createWord: (word, pref, ident) ->
+	_createWord: (word, pref, ident, groupName, props) ->
 
-		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
+		el = @_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
 		.html word
 		.inside @linesContainer
 
 		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
 
-		console.log name
+		@_setupDomEl groupName, name, el, props
 
 		return
