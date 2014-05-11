@@ -32,9 +32,7 @@ module.exports = class MoreToolsSet extends Set
 			'here', 'in'
 			], 'line3', 'More Tools - 3', ['opacity', 'x', 'scaleAll']
 
-		@gelobi = @_makeEl '.moreTools-gelobi'
-		.html 'gelobi'
-		.inside @container
+
 
 	_createWords: (words, pref, groupName, props) ->
 
