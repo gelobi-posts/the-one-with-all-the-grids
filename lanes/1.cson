@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 153893.18149485608
+    t: 154370.46928259745
     _focus:
-      from: 152193.1314055082
-      to: 156008.54583421914
+      from: 152294.22402486848
+      to: 155292.04964742708
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 121
+    scrollTop: 263
     guides:
       _list: [
         3016.6043974231575
@@ -599,6 +599,12 @@
             id: "no-id-Gelobi-A Place-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Griddify Section-Z"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Griddify Section-Z"
             _height: 80
           }
           {
@@ -6820,21 +6826,48 @@
 
       "no-id-The Panel-Griddify Section-Z":
         pacs:
-          _idCounter: 0
-          chronologyLength: 24669.057780469095
+          _idCounter: 5
+          chronologyLength: 154185.2706377239
           chronology:
             points: [
-              t: 24669.057780469095
-              value: 10
-              id: "no-id-The Panel-Griddify Section-Z-point-0"
-              handler: [
-                100
-                3
-                100
-                3
-              ]
+              {
+                t: 24669.057780469095
+                value: 0
+                id: "no-id-The Panel-Griddify Section-Z-point-0"
+                handler: [
+                  100
+                  3
+                  100
+                  3
+                ]
+              }
+              {
+                t: 153888.61760199876
+                value: 0
+                id: "no-id-The Panel-Griddify Section-Z-point-1"
+                handler: [
+                  100
+                  1.0525000095367432
+                  49.79718017578125
+                  6.577499866485596
+                ]
+              }
+              {
+                t: 154185.2706377239
+                value: 74.11868780553341
+                id: "no-id-The Panel-Griddify Section-Z-point-2"
+                handler: [
+                  166.17645263671875
+                  0
+                  100
+                  1.0075000524520874
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 153888.61760199876
+              id: "no-id-The Panel-Griddify Section-Z-connector-5"
+            ]
 
       "no-id-Array Panel-Panel-Opacity":
         pacs:
@@ -9507,19 +9540,35 @@
 
       "no-id-The Panel-Griddify Section-Rotation Y":
         pacs:
-          _idCounter: 0
-          chronologyLength: 154276.07926280168
+          _idCounter: 3
+          chronologyLength: 154191.1734917746
           chronology:
             points: [
-              t: 154276.07926280168
-              value: 30
-              id: "no-id-The Panel-Griddify Section-Rotation Y-point-0"
-              handler: [
-                100
-                3.5
-                100
-                3.5
-              ]
+              {
+                t: 153891.74952110037
+                value: 0
+                id: "no-id-The Panel-Griddify Section-Rotation Y-point-1"
+                handler: [
+                  100
+                  1
+                  100
+                  1
+                ]
+              }
+              {
+                t: 154191.1734917746
+                value: 10.22678162893304
+                id: "no-id-The Panel-Griddify Section-Rotation Y-point-2"
+                handler: [
+                  100
+                  0.0925000011920929
+                  100
+                  0.0925000011920929
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 153891.74952110037
+              id: "no-id-The Panel-Griddify Section-Rotation Y-connector-3"
+            ]
 }
