@@ -18,7 +18,6 @@ module.exports = class MoreToolsSet extends Set
 
 		@_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll']
 
-
 		@_createWords [
 			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'
 			], 'line1', 'More Tools - 1', ['opacity', 'x', 'scaleAll']
@@ -30,8 +29,12 @@ module.exports = class MoreToolsSet extends Set
 
 		@_createWords [
 			'demoes', 'in', 'the', 'coming', 'weeks,', 'right',
-			'here', 'in', 'gelobi'
+			'here', 'in'
 			], 'line3', 'More Tools - 3', ['opacity', 'x', 'scaleAll']
+
+		@gelobi = @_makeEl '.moreTools-gelobi'
+		.html 'gelobi'
+		.inside @container
 
 	_createWords: (words, pref, groupName, props) ->
 
