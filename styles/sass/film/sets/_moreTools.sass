@@ -2,11 +2,10 @@
 
 	@include centralize(660px, 138px)
 	color: white
+	font-family: "Droid Sans"
 
 @mixin moreToolsLine
 
-	color: white
-	font-family: "Droid Sans"
 	position: absolute
 
 .moreTools-line1
@@ -18,8 +17,6 @@
 
 	top: 0
 	left: 0
-
-.moreTools-line1-more
 
 .moreTools-line1-tools
 
@@ -37,10 +34,12 @@
 
 	left: 492px
 
-// .moreTools-line2
+.moreTools-line2
 
-// 	@include moreToolsLine
+	@include moreToolsLine
 
-// 	font-size: 20px
+	font-weight: 400
+	font-size: 20px
 
-// 	@include centralize(660px, 36px)
+	top: 64px
+	left: 0

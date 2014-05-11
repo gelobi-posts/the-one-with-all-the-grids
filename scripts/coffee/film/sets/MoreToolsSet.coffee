@@ -16,6 +16,9 @@ module.exports = class MoreToolsSet extends Set
 
 		@_createWords ['MORE', 'TOOLS', 'IN', 'THE', 'WORKS'], 'line1'
 
+		@_createWords ['photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs', 'packages,', 'among', 'other', 'things'], 'line2'
+
+
 		# @line2 = @_makeEl '.moreTools-line2'
 		# .html 'photoshop panels, web-based tools, nodejs packages, among other things'
 		# .inside @container
@@ -31,7 +34,7 @@ module.exports = class MoreToolsSet extends Set
 
 	_createWord: (word, pref) ->
 
-		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{word.toLowerCase()}"
+		@_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{word.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '')}"
 		.html word
 		.inside @linesContainer
 
