@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 126892.30679240856
+    t: 127509.29434788249
     _focus:
-      from: 125818.19961906296
-      to: 131630.19701011106
+      from: 124387.15234312725
+      to: 136169.7363637265
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 22
+    scrollTop: -70
     guides:
       _list: [
         3016.6043974231575
@@ -219,10 +219,18 @@
       {
         name: "Array"
         propHolders: [
-          id: "no-id-Photoshop-Blackifier-Opacity"
-          _expanded: true
-          actorPropId: "no-id-Photoshop-Blackifier-Opacity"
-          _height: 80
+          {
+            id: "no-id-Photoshop-Blackifier-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Blackifier-Opacity"
+            _height: 92
+          }
+          {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
@@ -1585,8 +1593,8 @@
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
-          _idCounter: 16
-          chronologyLength: 124785.427217187
+          _idCounter: 19
+          chronologyLength: 115564.30832770237
           chronology:
             points: [
               {
@@ -1667,25 +1675,25 @@
                 ]
               }
               {
-                t: 124443.84767170995
+                t: 114873.70232649498
                 value: 1
-                id: "no-id-The Panel-Panel-Opacity-point-11"
+                id: "no-id-The Panel-Panel-Opacity-point-17"
                 handler: [
-                  0
-                  -0.4189488887786865
-                  69.56844329833984
-                  -0.4905521273612976
+                  100
+                  -0.044463999569416046
+                  100
+                  -0.044463999569416046
                 ]
               }
               {
-                t: 124785.427217187
+                t: 115564.30832770237
                 value: 0
-                id: "no-id-The Panel-Panel-Opacity-point-12"
+                id: "no-id-The Panel-Panel-Opacity-point-18"
                 handler: [
                   100
-                  0.021410968154668808
+                  -0.09286238253116608
                   100
-                  0.021410968154668808
+                  -0.09286238253116608
                 ]
               }
             ]
@@ -1703,8 +1711,8 @@
                 id: "no-id-The Panel-Panel-Opacity-connector-9"
               }
               {
-                t: 124443.84767170995
-                id: "no-id-The Panel-Panel-Opacity-connector-16"
+                t: 114873.70232649498
+                id: "no-id-The Panel-Panel-Opacity-connector-19"
               }
             ]
 
@@ -6462,19 +6470,35 @@
 
       "no-id-Photoshop-Blackifier-Opacity":
         pacs:
-          _idCounter: 0
-          chronologyLength: 126930.54361734967
+          _idCounter: 4
+          chronologyLength: 116379.11373104724
           chronology:
             points: [
-              t: 126930.54361734967
-              value: 0.8
-              id: "no-id-Photoshop-Blackifier-Opacity-point-0"
-              handler: [
-                100
-                0.08250000327825546
-                100
-                0.08250000327825546
-              ]
+              {
+                t: 115329.0492550459
+                value: 0
+                id: "no-id-Photoshop-Blackifier-Opacity-point-1"
+                handler: [
+                  100
+                  0.07711250334978104
+                  114.09398651123047
+                  0.2756750285625458
+                ]
+              }
+              {
+                t: 116379.11373104724
+                value: 0.8
+                id: "no-id-Photoshop-Blackifier-Opacity-point-0"
+                handler: [
+                  776.511962890625
+                  0
+                  100
+                  0.08250000327825546
+                ]
+              }
             ]
-            connectors: []
+            connectors: [
+              t: 115329.0492550459
+              id: "no-id-Photoshop-Blackifier-Opacity-connector-4"
+            ]
 }

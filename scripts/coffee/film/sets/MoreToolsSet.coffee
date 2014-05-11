@@ -10,6 +10,7 @@ module.exports = class MoreToolsSet extends Set
 
 		@container = @makeSetContainer([125000, 150000])
 		.set 'id', 'moreTools-container'
+		.z 2
 
 		@linesContainer = @_makeEl '.moreTools-lines'
 		.inside @container
@@ -19,12 +20,6 @@ module.exports = class MoreToolsSet extends Set
 		@_createWords ['photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs', 'packages,', 'among', 'other', 'things'], 'line2'
 
 		@_createWords ['demoes', 'in', 'the', 'coming', 'weeks,', 'right', 'here', 'in', 'gelobi'], 'line3'
-
-
-		# @line2 = @_makeEl '.moreTools-line2'
-		# .html 'photoshop panels, web-based tools, nodejs packages, among other things'
-		# .inside @container
-		# .y -50
 
 	_createWords: (words, pref) ->
 
