@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 161102.69777251824
+    t: 161593.27258637038
     _focus:
       from: 159673.0146666573
       to: 162670.8402892159
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 233
+    scrollTop: 393
     guides:
       _list: [
         3016.6043974231575
@@ -603,9 +603,21 @@
             _height: 129
           }
           {
+            id: "no-id-The Panel-Button Griddify-Z"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Button Griddify-Z"
+            _height: 80
+          }
+          {
             id: "no-id-Gelobi-A Place-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Button Griddify-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Button Griddify-Rotation Y"
             _height: 80
           }
         ]
@@ -9457,7 +9469,7 @@
 
       "no-id-Gelobi-A Place-Opacity":
         pacs:
-          _idCounter: 22
+          _idCounter: 23
           chronologyLength: 153065.80325727828
           chronology:
             points: [
@@ -9653,5 +9665,73 @@
                 t: 160282.62035545506
                 id: "no-id-The Panel-Panel-Rotation Y-connector-29"
               }
+            ]
+
+      "no-id-The Panel-Button Griddify-Z":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 161742.08809275337
+          chronology:
+            points: [
+              {
+                t: 161559.20638611403
+                value: 0
+                id: "no-id-The Panel-Button Griddify-Z-point-0"
+                handler: [
+                  100
+                  -1.75
+                  100
+                  -1.75
+                ]
+              }
+              {
+                t: 161742.08809275337
+                value: 10
+                id: "no-id-The Panel-Button Griddify-Z-point-1"
+                handler: [
+                  100
+                  -0.10062500089406967
+                  100
+                  -0.10062500089406967
+                ]
+              }
+            ]
+            connectors: [
+              t: 161559.20638611403
+              id: "no-id-The Panel-Button Griddify-Z-connector-2"
+            ]
+
+      "no-id-The Panel-Button Griddify-Rotation Y":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 161786.9120404591
+          chronology:
+            points: [
+              {
+                t: 161580.72188101278
+                value: 0
+                id: "no-id-The Panel-Button Griddify-Rotation Y-point-0"
+                handler: [
+                  100
+                  0.75
+                  100
+                  0.75
+                ]
+              }
+              {
+                t: 161786.9120404591
+                value: 30
+                id: "no-id-The Panel-Button Griddify-Rotation Y-point-1"
+                handler: [
+                  100
+                  0.07124999910593033
+                  100
+                  0.07124999910593033
+                ]
+              }
+            ]
+            connectors: [
+              t: 161580.72188101278
+              id: "no-id-The Panel-Button Griddify-Rotation Y-connector-2"
             ]
 }

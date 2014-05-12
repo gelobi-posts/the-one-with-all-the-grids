@@ -98,9 +98,10 @@ module.exports = class ThePanelSet extends Set
 		for node in @panelBody.node.querySelectorAll 'button'
 
 			el = @_makeEl node
+			.perspective 800
 
 			name = node.innerHTML.replace(/^\s+/, '').replace(/\s+$/, '')
 
-
+			@_setupDomEl 'The Panel', "Button #{name}", el, ['z', 'rotationY']
 
 		@panelBody.inside @thePanel
