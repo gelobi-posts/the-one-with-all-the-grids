@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 395
+    height: 309
     _isVisible: true
 
   timeControl:
-    t: 160054.91470111004
+    t: 159924.02877380932
     _focus:
-      from: 159536.74986563192
-      to: 162534.57548819052
+      from: 158665.3723222327
+      to: 161663.1979447913
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 140
+    scrollTop: 337
     guides:
       _list: [
         3016.6043974231575
@@ -603,6 +603,18 @@
             _height: 80
           }
           {
+            id: "no-id-Photoshop-Tools-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-Layers-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Layers-Rotation Y"
+            _height: 80
+          }
+          {
             id: "no-id-Gelobi-A Place-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Opacity"
@@ -886,8 +898,8 @@
 
       "no-id-Photoshop-Tools-Rotation Y":
         pacs:
-          _idCounter: 3
-          chronologyLength: 20809.28812264094
+          _idCounter: 4
+          chronologyLength: 160146.3555544297
           chronology:
             points: []
             connectors: []
@@ -921,10 +933,36 @@
       "no-id-Photoshop-Layers-Rotation Y":
         pacs:
           _idCounter: -1
-          chronologyLength: 20217.78196979601
+          chronologyLength: 319935.91248512187
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 319580.9068192926
+                value: 0
+                id: "no-id-The Panel-Panel-Rotation Y-point-0"
+                handler: [
+                  100
+                  1.5
+                  19.31689453125
+                  15.953124046325684
+                ]
+              }
+              {
+                t: 319935.91248512187
+                value: 30
+                id: "no-id-The Panel-Panel-Rotation Y-point-1"
+                handler: [
+                  245.22958374023438
+                  0
+                  48.40986251831055
+                  1.6496249437332153
+                ]
+              }
+            ]
+            connectors: [
+              t: 319580.9068192926
+              id: "no-id-The Panel-Panel-Rotation Y-connector-9"
+            ]
 
       "no-id-Photoshop-Window-Opacity":
         pacs:
@@ -9570,34 +9608,8 @@
       "no-id-The Panel-Panel-Rotation Y":
         pacs:
           _idCounter: 9
-          chronologyLength: 160551.56404168942
+          chronologyLength: 160142.76963861324
           chronology:
-            points: [
-              {
-                t: 160196.55837586013
-                value: 0
-                id: "no-id-The Panel-Panel-Rotation Y-point-0"
-                handler: [
-                  100
-                  1.5
-                  19.31689453125
-                  15.953124046325684
-                ]
-              }
-              {
-                t: 160551.56404168942
-                value: 30
-                id: "no-id-The Panel-Panel-Rotation Y-point-1"
-                handler: [
-                  245.22958374023438
-                  0
-                  48.40986251831055
-                  1.6496249437332153
-                ]
-              }
-            ]
-            connectors: [
-              t: 160196.55837586013
-              id: "no-id-The Panel-Panel-Rotation Y-connector-9"
-            ]
+            points: []
+            connectors: []
 }
