@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 160848.22170874858
+    t: 161102.69777251824
     _focus:
-      from: 159040.1005250525
-      to: 162037.92614761108
+      from: 159673.0146666573
+      to: 162670.8402892159
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 299
+    scrollTop: 233
     guides:
       _list: [
         3016.6043974231575
@@ -9638,7 +9638,7 @@
                 id: "no-id-The Panel-Panel-Rotation Y-point-22"
                 handler: [
                   232.6788787841797
-                  -1.9418885707855225
+                  0
                   100
                   -1.449021577835083
                 ]

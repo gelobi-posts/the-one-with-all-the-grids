@@ -95,4 +95,12 @@ module.exports = class ThePanelSet extends Set
 
 		Rotator.applyTo @panelBody.node
 
+		for node in @panelBody.node.querySelectorAll 'button'
+
+			el = @_makeEl node
+
+			name = node.innerHTML.replace(/^\s+/, '').replace(/\s+$/, '')
+
+
+
 		@panelBody.inside @thePanel
