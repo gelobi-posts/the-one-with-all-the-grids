@@ -3,9 +3,67 @@
 	font-family: "Droid Sans", Helvetica, sans-serif
 	color: #FFF
 	font-weight: 400
-	font-size: 25px
+	font-size: 22px
 
 	top: calc(50vh - 10px)
+
+.linkU
+
+	position: absolute
+
+	left: 50px
+
+	&:before
+
+		@include psuedo
+
+		position: absolute
+		left: 0
+		right: 0
+		top: -4px
+		bottom: 4px
+
+		border-bottom: 1px solid #636363
+
+		z-index: -1
+
+	&:after
+
+		@include psuedo
+
+		position: absolute
+		left: -3px
+		right: -3px
+		top: -4px
+		bottom: -4px
+
+		z-index: -1
+
+		background: #FFF
+
+		@include transform(scale(0.9) translateZ(-1px))
+
+		@include transition(all 0.15s)
+
+		opacity: 0
+
+	&:hover
+
+		color: #333
+
+		&:after
+
+			@include transform(scale(1) translateZ(-1px))
+
+			opacity: 1
+
+.icon
+
+	font-size: 28px
+
+	position: absolute
+
+	left: 0
 
 #ending-fb-link
 
@@ -13,7 +71,15 @@
 
 	position: absolute
 
-	left: calc(50vw - 420px)
+	left: calc(50vw - 470px)
+
+	.icon
+
+		font-size: 25px
+
+	> a
+
+		@extend .linkU
 
 #ending-twitter-link
 
@@ -21,9 +87,26 @@
 
 	position: absolute
 
-	width: 160px
+	left: calc(50vw - 230px)
 
-	left: calc(50vw - 180px)
+	> a
+
+		width: 127px
+
+		@extend .linkU
+
+		> span
+
+			display: inline-block
+
+		> .underline
+
+			margin:
+
+				left: 2px
+				right: 2px
+
+			@include transform(translateY(-4px))
 
 #ending-newsletter
 
@@ -31,35 +114,60 @@
 
 	position: absolute
 
-	left: calc(50vw + 60px)
+	left: calc(50vw + 50px)
 	top: calc(50vh - 13px)
 
 	width: 300px
+
+	.icon
+
+		font-size: 26px
+
+		margin-top: 1px
 
 	.ending-mail
 
 		position: absolute
 
 		left: 50px
-		top: -5px
+		top: 6px
 
 		width: 250px
 
-		font-size: 18px
+		font-size: 16px
 
-		color: #FFF !important
+		color: #FFF
 
-		border-bottom: 1px solid rgba(255, 255, 255, .1)
+		border: none
+		border-bottom: 1px solid rgba(255, 255, 255, .2)
+		box-sizing: border-box
+
+		margin-top: 5px
+
+		text-indent: 10px
+
+		background: none
+
+		&:focus
+
+			outline: none
 
 	.ending-subscribe
 
 		position: absolute
 
 		left: 320px
+		top: 5px
 
-		font-size: 18px
+		font-size: 14px
 
 		color: #FFF
 
-		border: 1px solid rgba(255, 255, 255, .1)
+		border: 1px solid rgba(255, 255, 255, .2)
+		background: none
 
+		padding: 4px 10px 4px 10px
+
+		&:focus
+
+			outline: none
