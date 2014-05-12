@@ -30,8 +30,8 @@ module.exports = class Mousify
 
 		for fn, i in @_recalculators
 
-			fn = fn()
 			prev = @_steps[i]
+			fn = fn(prev)
 
 			@_steps[i + 1] =
 
