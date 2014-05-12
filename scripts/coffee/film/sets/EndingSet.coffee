@@ -52,7 +52,7 @@ module.exports = class EndingSet extends Set
 
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-				    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+				    <input type="email" value="" name="EMAIL" class="email ending-mail" id="mce-EMAIL" placeholder="Your email address" required>
 				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
 
@@ -62,7 +62,7 @@ module.exports = class EndingSet extends Set
 
 				    </div>
 
-			    	<button type="submit" name="subscribe" id="mc-embedded-subscribe">
+			    	<button type="submit" name="subscribe" class="ending-subscribe" id="mc-embedded-subscribe">
 
 			    		Subscribe
 
