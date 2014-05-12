@@ -18,7 +18,7 @@ module.exports = class EndingSet extends Set
 
 				<span class="icon-facebook-6"></span>
 
-				gelobifa
+				gelobiEn
 
 			</a>
 
@@ -34,7 +34,7 @@ module.exports = class EndingSet extends Set
 
 				<span class="icon-twitter-3"></span>
 
-				@gelobifa
+				@gelobiEn
 
 			</a>
 
@@ -47,6 +47,8 @@ module.exports = class EndingSet extends Set
 		.html """
 
 			<div class="newsletter" id="mc_embed_signup">
+
+				<span class="icon-mail-circled"></span>
 
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 

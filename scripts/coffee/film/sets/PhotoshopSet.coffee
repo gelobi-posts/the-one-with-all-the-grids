@@ -10,7 +10,7 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
-		@container = @makeSetContainer [10000, 197000]
+		@container = @makeSetContainer [10000]
 		.set 'id', 'photoshop-container'
 		.transformStyle 'flat !important'
 		.z -5
