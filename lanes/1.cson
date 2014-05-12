@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 160956.6935518527
+    t: 160244.96823938226
     _focus:
-      from: 158656.40753269152
-      to: 161654.2331552501
+      from: 159040.1005250525
+      to: 162037.92614761108
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 339
+    scrollTop: 299
     guides:
       _list: [
         3016.6043974231575
@@ -594,13 +594,13 @@
             id: "no-id-Gelobi-Question Mark-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-Question Mark-Opacity"
-            _height: 100
+            _height: 58
           }
           {
             id: "no-id-The Panel-Panel-Rotation Y"
             _expanded: true
             actorPropId: "no-id-The Panel-Panel-Rotation Y"
-            _height: 80
+            _height: 129
           }
           {
             id: "no-id-Gelobi-A Place-Opacity"
@@ -9595,8 +9595,8 @@
 
       "no-id-The Panel-Panel-Rotation Y":
         pacs:
-          _idCounter: 14
-          chronologyLength: 160506.74009398365
+          _idCounter: 25
+          chronologyLength: 160553.35699959763
           chronology:
             points: [
               {
@@ -9611,36 +9611,30 @@
                 ]
               }
               {
-                t: 160135.59780698034
-                value: -30
+                t: 160137.39076488858
+                value: -40
                 id: "no-id-The Panel-Panel-Rotation Y-point-11"
                 handler: [
                   121.51549530029297
-                  -37.75920867919922
-                  225.50704956054688
-                  77.85403442382812
+                  0
+                  53.383094787597656
+                  7.785403251647949
                 ]
               }
               {
-                t: 160506.74009398365
+                t: 160553.35699959763
                 value: 0
-                id: "no-id-The Panel-Panel-Rotation Y-point-13"
+                id: "no-id-The Panel-Panel-Rotation Y-point-22"
                 handler: [
-                  82.07041931152344
-                  16.815290451049805
                   100
-                  -0.5266953110694885
+                  -1.449021577835083
+                  100
+                  -1.449021577835083
                 ]
               }
             ]
             connectors: [
-              {
-                t: 159807.48650977446
-                id: "no-id-The Panel-Panel-Rotation Y-connector-12"
-              }
-              {
-                t: 160135.59780698034
-                id: "no-id-The Panel-Panel-Rotation Y-connector-14"
-              }
+              t: 159807.48650977446
+              id: "no-id-The Panel-Panel-Rotation Y-connector-25"
             ]
 }
