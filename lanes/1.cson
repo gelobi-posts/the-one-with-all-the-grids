@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 161426.19638478346
+    t: 160054.91470111004
     _focus:
       from: 159536.74986563192
       to: 162534.57548819052
@@ -9569,8 +9569,8 @@
 
       "no-id-The Panel-Panel-Rotation Y":
         pacs:
-          _idCounter: 7
-          chronologyLength: 160902.98379170225
+          _idCounter: 9
+          chronologyLength: 160551.56404168942
           chronology:
             points: [
               {
@@ -9585,12 +9585,12 @@
                 ]
               }
               {
-                t: 160902.98379170225
+                t: 160551.56404168942
                 value: 30
                 id: "no-id-The Panel-Panel-Rotation Y-point-1"
                 handler: [
                   245.22958374023438
-                  17.549793243408203
+                  0
                   48.40986251831055
                   1.6496249437332153
                 ]
@@ -9598,6 +9598,6 @@
             ]
             connectors: [
               t: 160196.55837586013
-              id: "no-id-The Panel-Panel-Rotation Y-connector-7"
+              id: "no-id-The Panel-Panel-Rotation Y-connector-9"
             ]
 }
