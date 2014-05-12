@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 326
+    height: 395
     _isVisible: true
 
   timeControl:
-    t: 153401.26611664036
+    t: 161426.19638478346
     _focus:
-      from: 151877.23368167842
-      to: 154875.05930423702
+      from: 159536.74986563192
+      to: 162534.57548819052
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 250
+    scrollTop: 140
     guides:
       _list: [
         3016.6043974231575
@@ -39,6 +39,7 @@
         143219.80329418796
         143480.34216986265
         143984.2205333313
+        160191.17950213546
         211983.20933843337
       ]
 
@@ -578,6 +579,12 @@
             _height: 103
           }
           {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
+            _height: 88
+          }
+          {
             id: "no-id-Gelobi-gelobi-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-Opacity"
@@ -590,27 +597,15 @@
             _height: 100
           }
           {
-            id: "no-id-The Panel-Panel-Opacity"
+            id: "no-id-The Panel-Panel-Rotation Y"
             _expanded: true
-            actorPropId: "no-id-The Panel-Panel-Opacity"
-            _height: 62
+            actorPropId: "no-id-The Panel-Panel-Rotation Y"
+            _height: 80
           }
           {
             id: "no-id-Gelobi-A Place-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-A Place-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-The Panel-Griddify Section-Z"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Griddify Section-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-The Panel-Griddify Section-Rotation Y"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Griddify Section-Rotation Y"
             _height: 80
           }
         ]
@@ -1975,8 +1970,8 @@
 
       "no-id-The Panel-Panel-Opacity":
         pacs:
-          _idCounter: 23
-          chronologyLength: 152993.1363813772
+          _idCounter: 25
+          chronologyLength: 153317.66176276663
           chronology:
             points: [
               {
@@ -2079,7 +2074,7 @@
                 ]
               }
               {
-                t: 152642.2056198848
+                t: 152834.0521160653
                 value: 0
                 id: "no-id-The Panel-Panel-Opacity-point-20"
                 handler: [
@@ -2090,7 +2085,7 @@
                 ]
               }
               {
-                t: 152993.1363813772
+                t: 153317.66176276663
                 value: 1
                 id: "no-id-The Panel-Panel-Opacity-point-21"
                 handler: [
@@ -2119,8 +2114,8 @@
                 id: "no-id-The Panel-Panel-Opacity-connector-19"
               }
               {
-                t: 152642.2056198848
-                id: "no-id-The Panel-Panel-Opacity-connector-23"
+                t: 152834.0521160653
+                id: "no-id-The Panel-Panel-Opacity-connector-25"
               }
             ]
 
@@ -9144,7 +9139,7 @@
       "no-id-Gelobi-Question Mark-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 152980.14124055754
+          chronologyLength: 152990.89898800693
           chronology:
             points: [
               {
@@ -9170,7 +9165,7 @@
                 ]
               }
               {
-                t: 152607.00330331636
+                t: 152617.76105076575
                 value: 1
                 id: "no-id-Gelobi-gelobi-Opacity-point-0"
                 handler: [
@@ -9181,7 +9176,7 @@
                 ]
               }
               {
-                t: 152980.14124055754
+                t: 152990.89898800693
                 value: 0
                 id: "no-id-Gelobi-gelobi-Opacity-point-1"
                 handler: [
@@ -9198,7 +9193,7 @@
                 id: "no-id-Gelobi-Question Mark-Opacity-connector-3"
               }
               {
-                t: 152607.00330331636
+                t: 152617.76105076575
                 id: "no-id-Gelobi-gelobi-Opacity-connector-4"
               }
             ]
@@ -9570,5 +9565,39 @@
             connectors: [
               t: 153891.74952110037
               id: "no-id-The Panel-Griddify Section-Rotation Y-connector-3"
+            ]
+
+      "no-id-The Panel-Panel-Rotation Y":
+        pacs:
+          _idCounter: 7
+          chronologyLength: 160902.98379170225
+          chronology:
+            points: [
+              {
+                t: 160196.55837586013
+                value: 0
+                id: "no-id-The Panel-Panel-Rotation Y-point-0"
+                handler: [
+                  100
+                  1.5
+                  19.31689453125
+                  15.953124046325684
+                ]
+              }
+              {
+                t: 160902.98379170225
+                value: 30
+                id: "no-id-The Panel-Panel-Rotation Y-point-1"
+                handler: [
+                  245.22958374023438
+                  17.549793243408203
+                  48.40986251831055
+                  1.6496249437332153
+                ]
+              }
+            ]
+            connectors: [
+              t: 160196.55837586013
+              id: "no-id-The Panel-Panel-Rotation Y-connector-7"
             ]
 }
