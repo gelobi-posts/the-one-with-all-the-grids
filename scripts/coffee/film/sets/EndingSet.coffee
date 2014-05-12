@@ -14,9 +14,9 @@ module.exports = class EndingSet extends Set
 		@_fbLink = @_makeEl '#ending-fb-link'
 		.html """
 
-			<a target="_blank" href="https://facebook.com">
+			<span class="icon-facebook-6"></span>
 
-				<span class="icon-facebook-6"></span>
+			<a target="_blank" href="https://facebook.com">
 
 				gelobiEn
 
@@ -30,9 +30,9 @@ module.exports = class EndingSet extends Set
 		@_twitLink = @_makeEl '#ending-twitter-link'
 		.html """
 
-			<a target="_blank" href="https://twitter.com">
+			<span class="icon-twitter-3"></span>
 
-				<span class="icon-twitter-3"></span>
+			<a target="_blank" href="https://twitter.com">
 
 				@gelobiEn
 
@@ -48,7 +48,7 @@ module.exports = class EndingSet extends Set
 
 			<div class="newsletter" id="mc_embed_signup">
 
-				<span class="icon-mail-circled"></span>
+				<span class="icon-mail-1"></span>
 
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
