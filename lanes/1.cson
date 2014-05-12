@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 159924.02877380932
+    t: 160956.6935518527
     _focus:
-      from: 158665.3723222327
-      to: 161663.1979447913
+      from: 158656.40753269152
+      to: 161654.2331552501
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 337
+    scrollTop: 339
     guides:
       _list: [
         3016.6043974231575
@@ -39,7 +39,7 @@
         143219.80329418796
         143480.34216986265
         143984.2205333313
-        160191.17950213546
+        159807.77096892986
         211983.20933843337
       ]
 
@@ -600,18 +600,6 @@
             id: "no-id-The Panel-Panel-Rotation Y"
             _expanded: true
             actorPropId: "no-id-The Panel-Panel-Rotation Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Tools-Rotation Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Tools-Rotation Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Layers-Rotation Y"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Layers-Rotation Y"
             _height: 80
           }
           {
@@ -9607,9 +9595,52 @@
 
       "no-id-The Panel-Panel-Rotation Y":
         pacs:
-          _idCounter: 9
-          chronologyLength: 160142.76963861324
+          _idCounter: 14
+          chronologyLength: 160506.74009398365
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 159807.48650977446
+                value: 0
+                id: "no-id-The Panel-Panel-Rotation Y-point-10"
+                handler: [
+                  100
+                  -1.25
+                  28.28168487548828
+                  -17.050859451293945
+                ]
+              }
+              {
+                t: 160135.59780698034
+                value: -30
+                id: "no-id-The Panel-Panel-Rotation Y-point-11"
+                handler: [
+                  121.51549530029297
+                  -37.75920867919922
+                  225.50704956054688
+                  77.85403442382812
+                ]
+              }
+              {
+                t: 160506.74009398365
+                value: 0
+                id: "no-id-The Panel-Panel-Rotation Y-point-13"
+                handler: [
+                  82.07041931152344
+                  16.815290451049805
+                  100
+                  -0.5266953110694885
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 159807.48650977446
+                id: "no-id-The Panel-Panel-Rotation Y-connector-12"
+              }
+              {
+                t: 160135.59780698034
+                id: "no-id-The Panel-Panel-Rotation Y-connector-14"
+              }
+            ]
 }
