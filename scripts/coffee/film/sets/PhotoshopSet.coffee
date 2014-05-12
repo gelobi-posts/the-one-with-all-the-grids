@@ -12,11 +12,12 @@ module.exports = class PhotoshopSet extends Set
 
 		@container = @makeSetContainer [10000, 197000]
 		.set 'id', 'photoshop-container'
+		.transformStyle 'flat !important'
 		.z -5
 
 		@blackifier = @_makeEl '.photoshop-blackifier'
-		.inside @container
-		.z 0
+		.inside @film.display.stageContainer
+		.z -2
 
 		@_setupDomEl 'Photoshop', 'Blackifier', @blackifier, ['opacity']
 

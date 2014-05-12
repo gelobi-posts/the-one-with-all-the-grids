@@ -11,6 +11,7 @@ module.exports = class TheatreSet extends Set
 		@container = @makeSetContainer([166000])
 		.set 'id', 'theatre-container'
 		.z 3
+		.transformStyle 'flat'
 
 		do @_prepareTypography
 
