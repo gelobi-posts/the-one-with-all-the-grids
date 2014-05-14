@@ -39,14 +39,21 @@ module.exports = class InstructionsSet extends Set
 
 		@_scrollProg = 0
 
+		articleNode = document.querySelector '.article'
+
+		return unless articleNode?
+
+		@_article = @_makeEl articleNode
+		.z -1
 		@_dai = @_makeEl document.getElementById 'downloadAndInstall'
-		@_article = @_makeEl document.querySelector '.article'
 
 		@_centralPoint = 0
 
 		@_onTime 10001, => do @_calculateDaiCenter
 
 		@_setupObject 'Instructions', 'Scroll', @, ['scrollToInstructions']
+
+		window.addEventListener 'resize', => do @_scroll
 
 	_calculateDaiCenter: ->
 
@@ -58,7 +65,7 @@ module.exports = class InstructionsSet extends Set
 
 	scrollToInstructions: (prog) ->
 
-		return if @_scrollProg is prog
+		# return if @_scrollProg is prog
 
 		@_scrollProg = prog
 
@@ -66,7 +73,7 @@ module.exports = class InstructionsSet extends Set
 
 	_scroll: ->
 
-		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 13 / 16)
+		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 11 / 16)
 
 		diff = @_centralPoint - targetPoint
 

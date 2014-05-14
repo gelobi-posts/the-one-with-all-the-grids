@@ -27,4 +27,4 @@ film.run()
 
 # player = new SimplePlayer film
 
-film.theatre.model.audio.mute()
+# film.theatre.model.audio.mute()
