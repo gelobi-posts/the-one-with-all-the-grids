@@ -23,16 +23,10 @@ module.exports = class InstructionsSet extends Set
 
 	_setupView: ->
 
-		z = new Float32Array [0, -600]
-		rotationX = new Float32Array [0, -20]
-		y = new Float32Array [0, -300]
-
 		obj =
 
 			progress: (prog) =>
 
-				# @view.z -800 * prog
-				# @view.y -300 * prog
 				@view.rotateX -45 * prog
 
 				return
