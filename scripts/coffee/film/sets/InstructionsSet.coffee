@@ -51,3 +51,6 @@ module.exports = class InstructionsSet extends Set
 				return
 
 		@_setupObject 'Instructions', 'View', obj, ['progress']
+
+	scrollToInstructions: (prog) ->
+
