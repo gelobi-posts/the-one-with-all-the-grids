@@ -23,16 +23,6 @@ module.exports = class InstructionsSet extends Set
 
 	_setupView: ->
 
-		obj =
-
-			progress: (prog) =>
-
-				@view.rotateX -45 * prog
-
-				return
-
-		@_setupObject 'Instructions', 'View', obj, ['progress']
-
 		dai = @_makeEl document.getElementById 'downloadAndInstall'
 		article = @_makeEl document.querySelector '.article'
 
@@ -52,4 +42,12 @@ module.exports = class InstructionsSet extends Set
 
 			targetTop = targetPoint - (winHeight * 3 / 4)
 
-			console.log targetTop
+		obj =
+
+			progress: (prog) =>
+
+				@view.rotateX -45 * prog
+
+				return
+
+		@_setupObject 'Instructions', 'View', obj, ['progress']
