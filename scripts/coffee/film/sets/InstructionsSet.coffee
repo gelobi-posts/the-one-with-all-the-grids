@@ -44,15 +44,9 @@ module.exports = class InstructionsSet extends Set
 
 		@_centralPoint = 0
 
-		# @_winHeight = window.innerHeight
+		@_onTime 10001, => do @_calculateDaiCenter
 
-		# @_scrollTop = parseInt (window.scrollY or window.pageYOffset)
-
-		@_onTime 11000, => do @_calculateDaiCenter
-
-		# window.addEventListener 'resize', ->
-
-		# 	winHeight = window.innerHeight
+		@_setupObject 'Instructions', 'Scroll', @, ['scrollToInstructions']
 
 	_calculateDaiCenter: ->
 
@@ -72,6 +66,8 @@ module.exports = class InstructionsSet extends Set
 
 	_scroll: ->
 
-		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 3 / 4)
+		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 13 / 16)
 
-		currentPoint = @_centralPoint
+		diff = @_centralPoint - targetPoint
+
+		@_article.y -diff * @_scrollProg

@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 344
+    height: 114
     _isVisible: false
 
   timeControl:
-    t: 12330.33941455247
+    t: 13272.78328958693
     _focus:
       from: 10655.390735919798
       to: 14470.805164630736
@@ -642,10 +642,18 @@
       {
         name: "Instructions"
         propHolders: [
-          id: "no-id-Instructions-View-progress"
-          _expanded: true
-          actorPropId: "no-id-Instructions-View-progress"
-          _height: 245
+          {
+            id: "no-id-Instructions-Scroll-scrollToInstructions"
+            _expanded: true
+            actorPropId: "no-id-Instructions-Scroll-scrollToInstructions"
+            _height: 189
+          }
+          {
+            id: "no-id-Instructions-View-progress"
+            _expanded: true
+            actorPropId: "no-id-Instructions-View-progress"
+            _height: 245
+          }
         ]
       }
     ]
@@ -12907,5 +12915,39 @@
             connectors: [
               t: 11819.18341453378
               id: "no-id-Instructions-View-progress-connector-3"
+            ]
+
+      "no-id-Instructions-Scroll-scrollToInstructions":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 13286.47496815886
+          chronology:
+            points: [
+              {
+                t: 12900.826021716188
+                value: 0
+                id: "no-id-Instructions-Scroll-scrollToInstructions-point-0"
+                handler: [
+                  100
+                  0.9395973086357117
+                  100
+                  0.9395973086357117
+                ]
+              }
+              {
+                t: 13286.47496815886
+                value: 1
+                id: "no-id-Instructions-Scroll-scrollToInstructions-point-1"
+                handler: [
+                  100
+                  0.05675420165061951
+                  100
+                  0.05675420165061951
+                ]
+              }
+            ]
+            connectors: [
+              t: 12900.826021716188
+              id: "no-id-Instructions-Scroll-scrollToInstructions-connector-2"
             ]
 }
