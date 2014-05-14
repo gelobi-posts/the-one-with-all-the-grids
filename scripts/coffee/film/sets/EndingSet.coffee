@@ -85,11 +85,32 @@ module.exports = class EndingSet extends Set
 
 	_prepareCredits: ->
 
-		created = @_makeEl '#ending-credits-created'
+		created = @_makeEl '.credits .created'
 		.html 'Created by :'
 		.inside @container
 
 		@_setupDomEl 'Ending', 'Created By', created, ['opacity']
 
-		aria = @_makeEl '.credits-names'
+		aria = @_makeEl '.credits'
 		.html 'Aria Minaei'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Aria', aria, ['opacity']
+
+		pouria = @_makeEl '.credits'
+		.html 'Pouria Maleki'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pouria', pouria, ['opacity']
+
+		pouya = @_makeEl '.credits'
+		.html 'Pouya Adibnezhad'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pouya', pouya, ['opacity']
+
+		gelobi = @_makeEl '.credits'
+		.html 'Published in gelobi'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'gelobi', gelobi, ['opacity']
