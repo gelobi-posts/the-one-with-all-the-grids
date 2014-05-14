@@ -13,6 +13,8 @@ module.exports = class EndingSet extends Set
 
 		do @_prepareLinks
 
+		do @_prepareCredits
+
 	_prepareLinks: ->
 
 		@_fbLink = @_makeEl '#ending-fb-link'
@@ -114,3 +116,15 @@ module.exports = class EndingSet extends Set
 		.inside @container
 
 		@_setupDomEl 'Ending', 'gelobi', gelobi, ['opacity']
+
+		pixana = @_makeEl '.credits'
+		.html 'a Pixana Creative Studios Production'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pixana', pixana, ['opacity']
+
+		cc = @_makeEl '.credits'
+		.html 'Creative Commons By-Sa 3.0'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'CC', cc, ['opacity']

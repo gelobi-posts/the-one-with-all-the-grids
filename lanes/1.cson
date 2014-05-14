@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 402
-    _isVisible: false
+    height: 583
+    _isVisible: true
 
   timeControl:
-    t: 212615.30866688624
+    t: 209349.66864146217
     _focus:
-      from: 206065.03966688685
-      to: 215351.30672283142
+      from: 208849.60664146213
+      to: 211292.59669761593
 
     _lastPlayedTickAt: 0
 
@@ -601,7 +601,50 @@
       }
       {
         name: "No Video"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Ending-Created By-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Created By-Opacity"
+            _height: 234
+          }
+          {
+            id: "no-id-Ending-Aria-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Aria-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pouria-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pouria-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pouya-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pouya-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-gelobi-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-gelobi-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pixana-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pixana-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-CC-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-CC-Opacity"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "No Video"
@@ -13110,5 +13153,39 @@
             connectors: [
               t: 182443.31318214026
               id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
+            ]
+
+      "no-id-Ending-Created By-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 208782.53765226222
+          chronology:
+            points: [
+              {
+                t: 208355.13623964554
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 208782.53765226222
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              t: 208355.13623964554
+              id: "no-id-Ending-Created By-Opacity-connector-2"
             ]
 }
