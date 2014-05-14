@@ -1,6 +1,6 @@
 {
   mainBox:
-    height: 764
+    height: 320
     _isVisible: true
 
   timeControl:
