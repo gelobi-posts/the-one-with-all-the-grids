@@ -16,4 +16,6 @@ module.exports = class InstructionsSet extends Set
 
 		@_onTime 1, =>
 
-			@film.display
+			if @film?.display?.fullscreen?
+
+				do @film.display.fullscreen

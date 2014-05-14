@@ -25,5 +25,5 @@ setupLane1 film
 
 film.run()
 
-player = new SimplePlayer film
+# player = new SimplePlayer film
 
