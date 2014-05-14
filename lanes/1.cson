@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 296265.4736842105
+    t: 205186
     _focus:
-      from: 148553.13038277486
-      to: 359997
+      from: -6257.869617225195
+      to: 205186
 
     _lastPlayedTickAt: 0
 
@@ -951,34 +951,8 @@
           _idCounter: -1
           chronologyLength: 319935.91248512187
           chronology:
-            points: [
-              {
-                t: 319580.9068192926
-                value: 0
-                id: "no-id-The Panel-Panel-Rotation Y-point-0"
-                handler: [
-                  100
-                  1.5
-                  19.31689453125
-                  15.953124046325684
-                ]
-              }
-              {
-                t: 319935.91248512187
-                value: 30
-                id: "no-id-The Panel-Panel-Rotation Y-point-1"
-                handler: [
-                  245.22958374023438
-                  0
-                  48.40986251831055
-                  1.6496249437332153
-                ]
-              }
-            ]
-            connectors: [
-              t: 319580.9068192926
-              id: "no-id-The Panel-Panel-Rotation Y-connector-9"
-            ]
+            points: []
+            connectors: []
 
       "no-id-Photoshop-Window-Opacity":
         pacs:
@@ -7444,38 +7418,10 @@
                   -0.011091499589383602
                 ]
               }
-              {
-                t: 247816.42043118324
-                value: 0.3
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
-                handler: [
-                  0
-                  0.23735810816287994
-                  188.64369201660156
-                  0
-                ]
-              }
-              {
-                t: 248057.0247221373
-                value: 0
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
-                handler: [
-                  146.43240356445312
-                  0
-                  100
-                  -0.011091499589383602
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 60473.72534504465
-                id: "no-id-Photoshop-Pref Highlight-Opacity-connector-2"
-              }
-              {
-                t: 247816.42043118324
-                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
-              }
+              t: 60473.72534504465
+              id: "no-id-Photoshop-Pref Highlight-Opacity-connector-2"
             ]
 
       "no-id-Photoshop-Edit Menu-Opacity":
@@ -8660,7 +8606,7 @@
       "no-id-More Tools - 3-Right-Opacity":
         pacs:
           _idCounter: 2
-          chronologyLength: 281852.92274408805
+          chronologyLength: 142462.70737472991
           chronology:
             points: [
               {
@@ -8696,38 +8642,10 @@
                   -0.01304347813129425
                 ]
               }
-              {
-                t: 280880.4367423878
-                value: 0
-                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
-                handler: [
-                  107.0469970703125
-                  0.11406254023313522
-                  57.71799850463867
-                  0.5078125596046448
-                ]
-              }
-              {
-                t: 281852.92274408805
-                value: 1
-                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
-                handler: [
-                  586.2430419921875
-                  0
-                  50.670997619628906
-                  -0.3250000476837158
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 140602.29937147725
-                id: "no-id-More Tools - 3-Right-Opacity-connector-1"
-              }
-              {
-                t: 280880.4367423878
-                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
-              }
+              t: 140602.29937147725
+              id: "no-id-More Tools - 3-Right-Opacity-connector-1"
             ]
 
       "no-id-More Tools - 3-Here-Opacity":
@@ -9583,38 +9501,10 @@
                   0.0234999917447567
                 ]
               }
-              {
-                t: 261797.16070902353
-                value: 1.05
-                id: "no-id-More Tools - 2-Photoshop-Scale-point-0"
-                handler: [
-                  128.18800354003906
-                  -0.019843749701976776
-                  100
-                  -0.037299998104572296
-                ]
-              }
-              {
-                t: 262501.8607102556
-                value: 1
-                id: "no-id-More Tools - 2-Photoshop-Scale-point-1"
-                handler: [
-                  431.208984375
-                  0
-                  247.98699951171875
-                  0.0234999917447567
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 132152.94635670472
-                id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
-              }
-              {
-                t: 261797.16070902353
-                id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
-              }
+              t: 132152.94635670472
+              id: "no-id-More Tools - 2-Photoshop-Scale-connector-2"
             ]
 
       "no-id-More Tools - 2-Web-X":
