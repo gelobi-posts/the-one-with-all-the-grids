@@ -38,3 +38,7 @@ module.exports = class InstructionsSet extends Set
 
 		@_setupObject 'Instructions', 'View', obj, ['progress']
 
+		@_onTime 11000, ->
+
+			console.log 'hi', Math.random()
+
