@@ -33,9 +33,9 @@ module.exports = class InstructionsSet extends Set
 
 		@_setupObject 'Instructions', 'View', obj, ['progress']
 
-		rects = []
+		dai = @_makeEl document.getElementById 'downloadAndInstall'
+		article = @_makeEl document.querySelector '.article'
 
 		@_onTime 11000, ->
 
-			console.log 'hi', Math.random()
-
+			console.log dai.node.getBoundingClientRect()
