@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 324
+    height: 206
     _isVisible: true
 
   timeControl:
-    t: 1267.6304507394514
+    t: 12394.608851674704
     _focus:
       from: 0
-      to: 12394.608851674635
+      to: 12394.608851674704
 
     _lastPlayedTickAt: 0
 
@@ -640,7 +640,20 @@
       }
       {
         name: "Instructions"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Instructions-View-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-Instructions-View-Rotation X"
+            _height: 80
+          }
+          {
+            id: "no-id-Instructions-View-Z"
+            _expanded: true
+            actorPropId: "no-id-Instructions-View-Z"
+            _height: 80
+          }
+        ]
       }
     ]
     _activeWorkspaceName: "Instructions"
