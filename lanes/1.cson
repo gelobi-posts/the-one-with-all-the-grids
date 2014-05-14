@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 13019.338142764307
+    t: 12627.316410596168
     _focus:
       from: 7905.207655502396
       to: 20299.8165071771
@@ -647,6 +647,12 @@
             _expanded: true
             actorPropId: "no-id-Instructions-View-Rotation X"
             _height: 74
+          }
+          {
+            id: "no-id-Instructions-View-Y"
+            _expanded: true
+            actorPropId: "no-id-Instructions-View-Y"
+            _height: 80
           }
           {
             id: "no-id-Instructions-View-Z"
@@ -12800,7 +12806,7 @@
               }
               {
                 t: 12923.838153459199
-                value: -600
+                value: -1570.525176566355
                 id: "no-id-Instructions-View-Z-point-1"
                 handler: [
                   233.43478393554688
@@ -12813,5 +12819,73 @@
             connectors: [
               t: 12271.49031916053
               id: "no-id-Instructions-View-Z-connector-2"
+            ]
+
+      "no-id-Instructions-View-Rotation X":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 12997.968589174958
+          chronology:
+            points: [
+              {
+                t: 12301.142493446834
+                value: 0
+                id: "no-id-Instructions-View-Rotation X-point-0"
+                handler: [
+                  100
+                  5
+                  100
+                  5
+                ]
+              }
+              {
+                t: 12997.968589174958
+                value: -20
+                id: "no-id-Instructions-View-Rotation X-point-1"
+                handler: [
+                  100
+                  0.05882352963089943
+                  100
+                  0.05882352963089943
+                ]
+              }
+            ]
+            connectors: [
+              t: 12301.142493446834
+              id: "no-id-Instructions-View-Rotation X-connector-2"
+            ]
+
+      "no-id-Instructions-View-Y":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 13012.79467631811
+          chronology:
+            points: [
+              {
+                t: 12286.316406303682
+                value: 0
+                id: "no-id-Instructions-View-Y-point-1"
+                handler: [
+                  100
+                  -30
+                  100
+                  -30
+                ]
+              }
+              {
+                t: 13012.79467631811
+                value: -300
+                id: "no-id-Instructions-View-Y-point-0"
+                handler: [
+                  100
+                  4.25
+                  100
+                  4.25
+                ]
+              }
+            ]
+            connectors: [
+              t: 12286.316406303682
+              id: "no-id-Instructions-View-Y-connector-2"
             ]
 }

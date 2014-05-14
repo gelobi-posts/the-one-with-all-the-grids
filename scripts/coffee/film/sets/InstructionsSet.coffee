@@ -12,7 +12,7 @@ module.exports = class InstructionsSet extends Set
 
 		@view.perspective 800
 
-		@_setupDomEl 'Instructions', 'View', @view, ['z', 'rotationX']
+		@_setupDomEl 'Instructions', 'View', @view, ['z', 'rotationX', 'y']
 
 		@_onTime 1, =>
 
