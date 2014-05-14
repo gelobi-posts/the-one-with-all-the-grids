@@ -36,6 +36,11 @@ module.exports = class InstructionsSet extends Set
 		dai = @_makeEl document.getElementById 'downloadAndInstall'
 		article = @_makeEl document.querySelector '.article'
 
+		targetPoint = 0
+
 		@_onTime 11000, ->
 
-			console.log dai.node.getBoundingClientRect()
+			dims = dai.node.getBoundingClientRect()
+
+			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
+
