@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 742
+    height: 911
     _isVisible: true
 
   timeControl:
-    t: 208532.67064327045
+    t: 210368.74481319747
     _focus:
-      from: 205215.34508447128
-      to: 214140.16468062453
+      from: 204209.9837002674
+      to: 213134.80329642064
 
     _lastPlayedTickAt: 0
 
@@ -13193,7 +13193,7 @@
       "no-id-Ending-Aria-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 208188.3870930912
+          chronologyLength: 208810.70269026115
           chronology:
             points: [
               {
@@ -13218,49 +13218,347 @@
                   0.00800000037997961
                 ]
               }
+              {
+                t: 208383.30127764447
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 208810.70269026115
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
             ]
             connectors: [
-              t: 207760.98568047452
-              id: "no-id-Ending-Created By-Opacity-connector-2"
+              {
+                t: 207760.98568047452
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 208383.30127764447
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
             ]
 
       "no-id-Ending-Pouria-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 208860.79822425623
+          _idCounter: 0
+          chronologyLength: 210115.9910518031
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 209066.27404201648
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 209493.67545463316
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+              {
+                t: 209688.58963918642
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 210115.9910518031
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 209066.27404201648
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 209688.58963918642
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+            ]
 
       "no-id-Ending-Pouya-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 209532.9603695732
+          _idCounter: 0
+          chronologyLength: 211413.63741567897
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 210363.92040589234
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 210791.32181850902
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+              {
+                t: 210986.23600306228
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 211413.63741567897
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 210363.92040589234
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 210986.23600306228
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+            ]
 
       "no-id-Ending-gelobi-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 210209.790307566
+          _idCounter: 0
+          chronologyLength: 211987.77591480387
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 210938.05890501724
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 211365.46031763393
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+              {
+                t: 211560.3745021872
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 211987.77591480387
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 210938.05890501724
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 211560.3745021872
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+            ]
 
       "no-id-Ending-Pixana-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 210877.2846602072
+          _idCounter: 0
+          chronologyLength: 213052.03264488908
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 212002.31563510245
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 212429.71704771914
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+              {
+                t: 212624.6312322724
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 213052.03264488908
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 212002.31563510245
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 212624.6312322724
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+            ]
 
       "no-id-Ending-CC-Opacity":
         pacs:
-          _idCounter: -1
-          chronologyLength: 211544.77901284836
+          _idCounter: 0
+          chronologyLength: 214106.9537896227
           chronology:
-            points: []
-            connectors: []
+            points: [
+              {
+                t: 213057.23677983606
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 213484.63819245275
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+              {
+                t: 213679.552377006
+                value: 1
+                id: "no-id-Ending-Created By-Opacity-point-0"
+                handler: [
+                  100
+                  0.10000000149011612
+                  234.16001892089844
+                  0
+                ]
+              }
+              {
+                t: 214106.9537896227
+                value: 0
+                id: "no-id-Ending-Created By-Opacity-point-1"
+                handler: [
+                  227.77145385742188
+                  0
+                  100
+                  0.00800000037997961
+                ]
+              }
+            ]
+            connectors: [
+              {
+                t: 213057.23677983606
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+              {
+                t: 213679.552377006
+                id: "no-id-Ending-Created By-Opacity-connector-2"
+              }
+            ]
 }
