@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 211820.22780799825
+    t: 115816.21510331375
     _focus:
-      from: 209355.54645922314
-      to: 216701.1879453543
+      from: 108923.21591528952
+      to: 116268.85740142067
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -12
+    scrollTop: 543
     guides:
       _list: [
         3016.6043974231575
@@ -643,6 +643,18 @@
             id: "no-id-Ending-CC-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-CC-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-domEl-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Opacity"
+            _height: 65
+          }
+          {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
             _height: 80
           }
         ]
@@ -5995,7 +6007,7 @@
       "no-id-Mouse-domEl-Opacity":
         pacs:
           _idCounter: 10
-          chronologyLength: 18824.17658145699
+          chronologyLength: 115568.70910452164
           chronology:
             points: [
               {
@@ -6031,10 +6043,38 @@
                   0.05249999836087227
                 ]
               }
+              {
+                t: 114878.10310331425
+                value: 1
+                id: "no-id-The Panel-Panel-Opacity-point-17"
+                handler: [
+                  100
+                  -0.044463999569416046
+                  100
+                  -0.044463999569416046
+                ]
+              }
+              {
+                t: 115568.70910452164
+                value: 0
+                id: "no-id-The Panel-Panel-Opacity-point-18"
+                handler: [
+                  100
+                  -0.09286238253116608
+                  100
+                  -0.09286238253116608
+                ]
+              }
             ]
             connectors: [
-              t: 17328.236676300345
-              id: "no-id-Mouse-domEl-Opacity-connector-10"
+              {
+                t: 17328.236676300345
+                id: "no-id-Mouse-domEl-Opacity-connector-10"
+              }
+              {
+                t: 114878.10310331425
+                id: "no-id-The Panel-Panel-Opacity-connector-19"
+              }
             ]
 
       "no-id-Mouse-Mousify-Move Y":
