@@ -8,6 +8,8 @@ module.exports = class IntroSet extends Set
 
 		@id = 'audio'
 
-		@film.theatre.model.audio.add '../xeno/mix1.mp3', 0
+		el = @film.theatre.model.audio.add('../xeno/rem.mp3', 0)._el
+
+		@film.loader.loadAudio el, 4392000
 
 		return

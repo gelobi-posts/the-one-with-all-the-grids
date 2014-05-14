@@ -6,6 +6,7 @@ TheatreSet = require '../sets/TheatreSet'
 ThePanelSet = require '../sets/ThePanelSet'
 PhotoshopSet = require '../sets/PhotoshopSet'
 MoreToolsSet = require '../sets/MoreToolsSet'
+InstructionsSet = require '../sets/InstructionsSet'
 implementQwertify = require '../sets/PhotoshopSet/implementQwertify'
 implementClassify = require '../sets/PhotoshopSet/implementClassify'
 implementMousify = require '../sets/PhotoshopSet/implementMousify'
@@ -27,6 +28,8 @@ module.exports = (film) ->
 	film.addSet new ThePanelSet film
 
 	film.addSet new EndingSet film
+
+	film.addSet new InstructionsSet film
 
 	implementQwertify film
 
