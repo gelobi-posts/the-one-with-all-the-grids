@@ -23,6 +23,8 @@ module.exports = class InstructionsSet extends Set
 
 		do @_setupScroll
 
+		do @_setupFocus
+
 	_setupView: ->
 
 		obj =
@@ -78,3 +80,6 @@ module.exports = class InstructionsSet extends Set
 		diff = @_centralPoint - targetPoint
 
 		@_article.y -diff * @_scrollProg
+
+	_setupFocus: ->
+

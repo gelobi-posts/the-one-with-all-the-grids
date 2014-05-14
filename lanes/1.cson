@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 302
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 13742.785946133812
+    t: 15288.630106632301
     _focus:
-      from: 12337.106946082427
-      to: 16152.52137479333
+      from: 11342.730962089612
+      to: 16775.225334218987
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -89
+    scrollTop: -35
     guides:
       _list: [
         3016.6043974231575
@@ -12949,11 +12949,11 @@
       "no-id-Instructions-Scroll-scrollToInstructions":
         pacs:
           _idCounter: 4
-          chronologyLength: 15647.857914606248
+          chronologyLength: 16165.859753910898
           chronology:
             points: [
               {
-                t: 13012.641396720279
+                t: 13186.069325298047
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-0"
                 handler: [
@@ -12964,7 +12964,7 @@
                 ]
               }
               {
-                t: 13569.436325312068
+                t: 13742.864253889837
                 value: 1
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-1"
                 handler: [
@@ -12975,7 +12975,7 @@
                 ]
               }
               {
-                t: 15647.857914606248
+                t: 16165.859753910898
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-4"
                 handler: [
@@ -12987,7 +12987,7 @@
               }
             ]
             connectors: [
-              t: 13012.641396720279
+              t: 13186.069325298047
               id: "no-id-Instructions-Scroll-scrollToInstructions-connector-3"
             ]
 }
