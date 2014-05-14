@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 12394.608851674704
+    t: 12298.239285244217
     _focus:
-      from: 0
-      to: 12394.608851674704
+      from: 7917.130534442932
+      to: 20311.739386117635
 
     _lastPlayedTickAt: 0
 
@@ -17,6 +17,7 @@
       _list: [
         3016.6043974231575
         7614.657690809252
+        12290.826241672643
         17341.051850019703
         21568.140222508904
         35000
@@ -645,7 +646,7 @@
             id: "no-id-Instructions-View-Rotation X"
             _expanded: true
             actorPropId: "no-id-Instructions-View-Rotation X"
-            _height: 80
+            _height: 74
           }
           {
             id: "no-id-Instructions-View-Z"

@@ -13,3 +13,7 @@ module.exports = class InstructionsSet extends Set
 		@view.perspective 800
 
 		@_setupDomEl 'Instructions', 'View', @view, ['z', 'rotationX']
+
+		@_onTime 1, =>
+
+			@film.display
