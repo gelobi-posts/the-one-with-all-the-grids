@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 344
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 11832.87509310571
+    t: 12522.353932372534
     _focus:
       from: 10655.390735919798
       to: 14470.805164630736
@@ -12897,8 +12897,8 @@
                 value: 1
                 id: "no-id-Instructions-View-progress-point-1"
                 handler: [
-                  102.28194427490234
-                  -0.009250449016690254
+                  216.3792724609375
+                  0.0015764449490234256
                   100
                   -0.15000000596046448
                 ]
