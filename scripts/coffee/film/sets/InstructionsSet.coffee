@@ -38,9 +38,18 @@ module.exports = class InstructionsSet extends Set
 
 		targetPoint = 0
 
+		winHeight = window.innerHeight
+
+		window.addEventListener 'resize', ->
+
+			winHeight = window.innerHeight
+
 		@_onTime 11000, ->
 
 			dims = dai.node.getBoundingClientRect()
 
 			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
 
+			targetTop = targetPoint - (winHeight * 3 / 4)
+
+			console.log targetTop
