@@ -14,7 +14,7 @@ module.exports = class EndingSet extends Set
 		@_github = @_makeEl '#project-github'
 		.html """
 
-			<span class="icon icon-github-4"></span>
+			<span class="icon icon-github-1"></span>
 
 			<a target="_blank" href="https://github.com/AriaMinaei/griddify">
 
