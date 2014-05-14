@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 239
+    height: 336
     _isVisible: true
 
   timeControl:
-    t: 111658.48735562453
+    t: 272384.34722047346
     _focus:
-      from: 74227.60089686098
-      to: 250521.80416179803
+      from: 197266.13038277513
+      to: 408710
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 106
+    scrollTop: -1
     guides:
       _list: [
         3016.6043974231575
@@ -639,7 +639,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "No Video"
+    _activeWorkspaceName: "More Tools 3"
 
   timeline:
     _allProps:
@@ -8579,7 +8579,7 @@
       "no-id-More Tools - 3-The-Opacity":
         pacs:
           _idCounter: 1
-          chronologyLength: 280203.92474120506
+          chronologyLength: 142448.61337470528
           chronology:
             points: [
               {
@@ -8615,38 +8615,10 @@
                   0
                 ]
               }
-              {
-                t: 279231.4387395048
-                value: 0
-                id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
-                handler: [
-                  107.0469970703125
-                  0.11406254023313522
-                  57.71799850463867
-                  0.5078125596046448
-                ]
-              }
-              {
-                t: 280203.92474120506
-                value: 1
-                id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
-                handler: [
-                  586.2430419921875
-                  0
-                  50.670997619628906
-                  -0.3250000476837158
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 139495.92036954293
-                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
-              }
-              {
-                t: 279231.4387395048
-                id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
-              }
+              t: 139495.92036954293
+              id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
             ]
 
       "no-id-More Tools - 3-Coming-Opacity":
@@ -10753,7 +10725,7 @@
       "no-id-The Panel-Button Wrap-Rotation Y":
         pacs:
           _idCounter: 0
-          chronologyLength: 323926.58148381306
+          chronologyLength: 162249.70760611314
           chronology:
             points: [
               {
@@ -10800,50 +10772,6 @@
                   -0.3642027676105499
                 ]
               }
-              {
-                t: 323204.768867775
-                value: 0
-                id: "no-id-The Panel-Button Griddify-Rotation Y-point-0"
-                handler: [
-                  100
-                  0.75
-                  49.79718017578125
-                  -5.592187404632568
-                ]
-              }
-              {
-                t: 323534.6731228891
-                value: -16
-                id: "no-id-The Panel-Button Griddify-Rotation Y-point-1"
-                handler: [
-                  178.89015197753906
-                  0
-                  100
-                  0.07124999910593033
-                ]
-              }
-              {
-                t: 323628.9504710471
-                value: -16
-                id: "no-id-The Panel-Button Griddify-Rotation Y-point-4"
-                handler: [
-                  100
-                  -1.654687523841858
-                  100
-                  -1.654687523841858
-                ]
-              }
-              {
-                t: 323926.58148381306
-                value: 0
-                id: "no-id-The Panel-Button Griddify-Rotation Y-point-5"
-                handler: [
-                  100
-                  -0.3642027676105499
-                  100
-                  -0.3642027676105499
-                ]
-              }
             ]
             connectors: [
               {
@@ -10852,14 +10780,6 @@
               }
               {
                 t: 161952.07659334718
-                id: "no-id-The Panel-Button Griddify-Rotation Y-connector-8"
-              }
-              {
-                t: 323204.768867775
-                id: "no-id-The Panel-Button Griddify-Rotation Y-connector-3"
-              }
-              {
-                t: 323628.9504710471
                 id: "no-id-The Panel-Button Griddify-Rotation Y-connector-8"
               }
             ]
