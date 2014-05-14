@@ -83,3 +83,22 @@ module.exports = class InstructionsSet extends Set
 
 	_setupFocus: ->
 
+		@_lastFocusProg = 0
+
+		@_setupObject 'Instructions', 'Focus', @, ['setFocus']
+
+	setFocus: (prog) ->
+
+		return if prog is @_lastFocusProg
+
+		@_lastFocusProg = prog
+
+		if prog isnt 0
+
+			@_article.addClass 'focusOnDownloadAndInstall'
+
+		else
+
+			@_article.removeClass 'focusOnDownloadAndInstall'
+
+		return
