@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 250
+    height: 344
     _isVisible: true
 
   timeControl:
-    t: 12627.316410596168
+    t: 13173.269527669314
     _focus:
-      from: 7905.207655502396
-      to: 20299.8165071771
+      from: 11492.194113698632
+      to: 14203.514800002473
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 111
+    scrollTop: 102
     guides:
       _list: [
         3016.6043974231575
@@ -12874,7 +12874,7 @@
               }
               {
                 t: 13012.79467631811
-                value: -300
+                value: -892.5
                 id: "no-id-Instructions-View-Y-point-0"
                 handler: [
                   100
