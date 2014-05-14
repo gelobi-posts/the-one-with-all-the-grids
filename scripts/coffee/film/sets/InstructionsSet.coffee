@@ -42,7 +42,7 @@ module.exports = class InstructionsSet extends Set
 		@_dai = @_makeEl document.getElementById 'downloadAndInstall'
 		@_article = @_makeEl document.querySelector '.article'
 
-		targetPoint = 0
+		@_centralPoint = 0
 
 		winHeight = window.innerHeight
 
@@ -57,6 +57,14 @@ module.exports = class InstructionsSet extends Set
 			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
 
 			targetTop = targetPoint - (winHeight * 3 / 4)
+
+	_recalculateNodePos: ->
+
+			@_dai.y 0
+
+			dims = @_dai.node.getBoundingClientRect()
+
+			@_centralPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + ((dims.bottom - dims.top) / 2)
 
 	scrollToInstructions: (prog) ->
 
