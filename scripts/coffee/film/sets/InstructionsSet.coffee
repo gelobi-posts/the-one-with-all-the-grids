@@ -12,10 +12,29 @@ module.exports = class InstructionsSet extends Set
 
 		@view.perspective 800
 
-		@_setupDomEl 'Instructions', 'View', @view, ['z', 'rotationX', 'y']
-
 		@_onTime 1, =>
 
 			if @film?.display?.fullscreen?
 
 				do @film.display.fullscreen
+
+		do @_setupView
+
+	_setupView: ->
+
+		z = new Float32Array [0, -600]
+		rotationX = new Float32Array [0, -20]
+		y = new Float32Array [0, -300]
+
+		obj =
+
+			progress: (prog) =>
+
+				@view.z -800 * prog
+				@view.y -300 * prog
+				@view.rotateX -20 * prog
+
+				return
+
+		@_setupObject 'Instructions', 'View', obj, ['progress']
+

@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 13173.269527669314
+    t: 11832.87509310571
     _focus:
-      from: 11492.194113698632
-      to: 14203.514800002473
+      from: 10655.390735919798
+      to: 14470.805164630736
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 102
+    scrollTop: 73
     guides:
       _list: [
         3016.6043974231575
@@ -642,24 +642,10 @@
       {
         name: "Instructions"
         propHolders: [
-          {
-            id: "no-id-Instructions-View-Rotation X"
-            _expanded: true
-            actorPropId: "no-id-Instructions-View-Rotation X"
-            _height: 74
-          }
-          {
-            id: "no-id-Instructions-View-Y"
-            _expanded: true
-            actorPropId: "no-id-Instructions-View-Y"
-            _height: 80
-          }
-          {
-            id: "no-id-Instructions-View-Z"
-            _expanded: true
-            actorPropId: "no-id-Instructions-View-Z"
-            _height: 80
-          }
+          id: "no-id-Instructions-View-progress"
+          _expanded: true
+          actorPropId: "no-id-Instructions-View-progress"
+          _height: 245
         ]
       }
     ]
@@ -12789,42 +12775,42 @@
 
       "no-id-Instructions-View-Z":
         pacs:
-          _idCounter: 2
-          chronologyLength: 12923.838153459199
+          _idCounter: 5
+          chronologyLength: 12820.070210875467
           chronology:
             points: [
               {
-                t: 12271.49031916053
+                t: 12301.095582318425
                 value: 0
                 id: "no-id-Instructions-View-Z-point-0"
                 handler: [
-                  100
-                  -2.25
-                  159.30435180664062
-                  -2.25
+                  5.801433563232422
+                  -434.2124938964844
+                  101.8880844116211
+                  -41.51313018798828
                 ]
               }
               {
-                t: 12923.838153459199
+                t: 12820.070210875467
                 value: -1570.525176566355
                 id: "no-id-Instructions-View-Z-point-1"
                 handler: [
                   233.43478393554688
-                  -0.24749469757080078
-                  100
-                  -0.2475000023841858
+                  0
+                  9.090907096862793
+                  510.2536315917969
                 ]
               }
             ]
             connectors: [
-              t: 12271.49031916053
-              id: "no-id-Instructions-View-Z-connector-2"
+              t: 12301.095582318425
+              id: "no-id-Instructions-View-Z-connector-5"
             ]
 
       "no-id-Instructions-View-Rotation X":
         pacs:
-          _idCounter: 2
-          chronologyLength: 12997.968589174958
+          _idCounter: 4
+          chronologyLength: 12820.03796716539
           chronology:
             points: [
               {
@@ -12832,60 +12818,94 @@
                 value: 0
                 id: "no-id-Instructions-View-Rotation X-point-0"
                 handler: [
-                  100
-                  5
+                  9.688993453979492
+                  -6.764705657958984
                   100
                   5
                 ]
               }
               {
-                t: 12997.968589174958
+                t: 12820.03796716539
                 value: -20
                 id: "no-id-Instructions-View-Rotation X-point-1"
                 handler: [
-                  100
-                  0.05882352963089943
-                  100
-                  0.05882352963089943
+                  233.37319946289062
+                  0
+                  7.894734859466553
+                  5.614378929138184
                 ]
               }
             ]
             connectors: [
               t: 12301.142493446834
-              id: "no-id-Instructions-View-Rotation X-connector-2"
+              id: "no-id-Instructions-View-Rotation X-connector-4"
             ]
 
       "no-id-Instructions-View-Y":
         pacs:
-          _idCounter: 2
-          chronologyLength: 13012.79467631811
+          _idCounter: 4
+          chronologyLength: 12820.210944260694
           chronology:
             points: [
               {
-                t: 12286.316406303682
+                t: 12300.670473289329
                 value: 0
                 id: "no-id-Instructions-View-Y-point-1"
                 handler: [
-                  100
-                  -30
+                  8.193778038024902
+                  -245.9274139404297
                   100
                   -30
                 ]
               }
               {
-                t: 13012.79467631811
+                t: 12820.210944260694
                 value: -892.5
                 id: "no-id-Instructions-View-Y-point-0"
                 handler: [
-                  100
-                  4.25
-                  100
-                  4.25
+                  234.27032470703125
+                  0
+                  6.1004767417907715
+                  176.99192810058594
                 ]
               }
             ]
             connectors: [
-              t: 12286.316406303682
-              id: "no-id-Instructions-View-Y-connector-2"
+              t: 12300.670473289329
+              id: "no-id-Instructions-View-Y-connector-4"
+            ]
+
+      "no-id-Instructions-View-progress":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 12236.77961097762
+          chronology:
+            points: [
+              {
+                t: 11819.18341453378
+                value: 0
+                id: "no-id-Instructions-View-progress-point-0"
+                handler: [
+                  52.07912826538086
+                  -0.10975613445043564
+                  195.8417510986328
+                  -0.07560979574918747
+                ]
+              }
+              {
+                t: 12236.77961097762
+                value: 1
+                id: "no-id-Instructions-View-progress-point-1"
+                handler: [
+                  102.28194427490234
+                  -0.009250449016690254
+                  100
+                  -0.15000000596046448
+                ]
+              }
+            ]
+            connectors: [
+              t: 11819.18341453378
+              id: "no-id-Instructions-View-progress-connector-3"
             ]
 }
