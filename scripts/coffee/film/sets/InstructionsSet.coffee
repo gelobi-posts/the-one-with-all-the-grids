@@ -44,23 +44,19 @@ module.exports = class InstructionsSet extends Set
 
 		@_centralPoint = 0
 
-		winHeight = window.innerHeight
+		# @_winHeight = window.innerHeight
 
-		window.addEventListener 'resize', ->
+		# @_scrollTop = parseInt (window.scrollY or window.pageYOffset)
 
-			winHeight = window.innerHeight
+		@_onTime 11000, => do @_calculateDaiCenter
 
-		@_onTime 11000, ->
+		# window.addEventListener 'resize', ->
 
-			dims = @_dai.node.getBoundingClientRect()
+		# 	winHeight = window.innerHeight
 
-			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
+	_calculateDaiCenter: ->
 
-			targetTop = targetPoint - (winHeight * 3 / 4)
-
-	_recalculateNodePos: ->
-
-			@_dai.y 0
+			@_article.y 0
 
 			dims = @_dai.node.getBoundingClientRect()
 
@@ -76,6 +72,6 @@ module.exports = class InstructionsSet extends Set
 
 	_scroll: ->
 
-		from = 0
+		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 3 / 4)
 
-		to = what
+		currentPoint = @_centralPoint
