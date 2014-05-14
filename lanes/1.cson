@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 365422
+    t: 364938
     _focus:
-      from: 153978.1303827751
-      to: 365422
+      from: 153494.13038277478
+      to: 364938
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 68
+    scrollTop: 228
     guides:
       _list: [
         3016.6043974231575
@@ -11638,7 +11638,7 @@
       "no-id-Theatre-Animation anyKind of-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 359630.6917512818
+          chronologyLength: 179985.07155389574
           chronology:
             points: [
               {
@@ -11663,38 +11663,10 @@
                   0.010968749411404133
                 ]
               }
-              {
-                t: 359213.3022446247
-                value: 0
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-0"
-                handler: [
-                  100
-                  0.11249999701976776
-                  159.6270751953125
-                  0
-                ]
-              }
-              {
-                t: 359630.6917512818
-                value: 1
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
-                handler: [
-                  168.1452178955078
-                  0
-                  100
-                  0.010968749411404133
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 179567.68204723863
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
-              {
-                t: 359213.3022446247
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
+              t: 179567.68204723863
+              id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
             ]
 
       "no-id-Theatre-Animation anyKind js-Opacity":
@@ -11734,7 +11706,7 @@
       "no-id-Theatre-Animation anyKind Var-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 360422.16078147164
+          chronologyLength: 180452.47852535034
           chronology:
             points: [
               {
@@ -11759,38 +11731,10 @@
                   0.010968749411404133
                 ]
               }
-              {
-                t: 360004.7712748145
-                value: 0
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-0"
-                handler: [
-                  100
-                  0.11249999701976776
-                  159.6270751953125
-                  0
-                ]
-              }
-              {
-                t: 360422.16078147164
-                value: 1
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
-                handler: [
-                  168.1452178955078
-                  0
-                  100
-                  0.010968749411404133
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 180035.08901869322
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
-              {
-                t: 360004.7712748145
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
+              t: 180035.08901869322
+              id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
             ]
 
       "no-id-Theatre-Animation anyKind js-Scale":
