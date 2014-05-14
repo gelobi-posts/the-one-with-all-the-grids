@@ -21,26 +21,9 @@ module.exports = class InstructionsSet extends Set
 
 		do @_setupView
 
+		do @_setupScroll
+
 	_setupView: ->
-
-		dai = @_makeEl document.getElementById 'downloadAndInstall'
-		article = @_makeEl document.querySelector '.article'
-
-		targetPoint = 0
-
-		winHeight = window.innerHeight
-
-		window.addEventListener 'resize', ->
-
-			winHeight = window.innerHeight
-
-		@_onTime 11000, ->
-
-			dims = dai.node.getBoundingClientRect()
-
-			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
-
-			targetTop = targetPoint - (winHeight * 3 / 4)
 
 		obj =
 
@@ -52,5 +35,39 @@ module.exports = class InstructionsSet extends Set
 
 		@_setupObject 'Instructions', 'View', obj, ['progress']
 
+	_setupScroll: ->
+
+		@_scrollProg = 0
+
+		@_dai = @_makeEl document.getElementById 'downloadAndInstall'
+		@_article = @_makeEl document.querySelector '.article'
+
+		targetPoint = 0
+
+		winHeight = window.innerHeight
+
+		window.addEventListener 'resize', ->
+
+			winHeight = window.innerHeight
+
+		@_onTime 11000, ->
+
+			dims = @_dai.node.getBoundingClientRect()
+
+			targetPoint = parseInt (window.scrollY or window.pageYOffset) + dims.top + (dims.height / 2)
+
+			targetTop = targetPoint - (winHeight * 3 / 4)
+
 	scrollToInstructions: (prog) ->
 
+		return if @_scrollProg is prog
+
+		@_scrollProg = prog
+
+		do @_scroll
+
+	_scroll: ->
+
+		from = 0
+
+		to = what
