@@ -19,7 +19,6 @@ film = new EditingFilm
 
 display = new ResponsiveRestorableDisplay document.body, document.getElementById 'filmSpace'
 
-debugger
 film.display = display
 
 setupLane1 film
