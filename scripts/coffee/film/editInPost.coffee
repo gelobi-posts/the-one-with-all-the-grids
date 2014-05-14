@@ -1,7 +1,7 @@
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
 EditingFilm = require 'tiny-filmmaking-studio/scripts/js/lib/EditingFilm'
 setupLane1 = require './lanes/1'
-SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
+# SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
 
 film = new EditingFilm
 

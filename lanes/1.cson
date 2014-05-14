@@ -1,10 +1,10 @@
 {
   mainBox:
-    height: 206
+    height: 250
     _isVisible: true
 
   timeControl:
-    t: 12301.142493446834
+    t: 13019.338142764307
     _focus:
       from: 7905.207655502396
       to: 20299.8165071771
@@ -12779,5 +12779,39 @@
             connectors: [
               t: 182443.31318214026
               id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
+            ]
+
+      "no-id-Instructions-View-Z":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 12923.838153459199
+          chronology:
+            points: [
+              {
+                t: 12271.49031916053
+                value: 0
+                id: "no-id-Instructions-View-Z-point-0"
+                handler: [
+                  100
+                  -2.25
+                  159.30435180664062
+                  -2.25
+                ]
+              }
+              {
+                t: 12923.838153459199
+                value: -600
+                id: "no-id-Instructions-View-Z-point-1"
+                handler: [
+                  233.43478393554688
+                  -0.24749469757080078
+                  100
+                  -0.2475000023841858
+                ]
+              }
+            ]
+            connectors: [
+              t: 12271.49031916053
+              id: "no-id-Instructions-View-Z-connector-2"
             ]
 }
