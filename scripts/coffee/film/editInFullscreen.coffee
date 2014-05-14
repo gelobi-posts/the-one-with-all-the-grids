@@ -23,3 +23,5 @@ film.display = display
 setupLane1 film
 
 film.run()
+
+window.t = film.theatre.timeline

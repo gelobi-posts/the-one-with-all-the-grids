@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 272384.34722047346
+    t: 365422
     _focus:
-      from: 197266.13038277513
-      to: 408710
+      from: 153978.1303827751
+      to: 365422
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -1
+    scrollTop: 68
     guides:
       _list: [
         3016.6043974231575
@@ -604,7 +604,7 @@
             id: "no-id-The Panel-Panel-Rotation Y"
             _expanded: true
             actorPropId: "no-id-The Panel-Panel-Rotation Y"
-            _height: 129
+            _height: 125
           }
           {
             id: "no-id-The Panel-Button Griddify-Rotation Y"
@@ -639,7 +639,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "More Tools 3"
+    _activeWorkspaceName: "EMPTY"
 
   timeline:
     _allProps:
@@ -8379,7 +8379,7 @@
       "no-id-More Tools - 2-Things-Opacity":
         pacs:
           _idCounter: 5
-          chronologyLength: 403710.2020827927
+          chronologyLength: 142455.6603747176
           chronology:
             points: [
               {
@@ -8426,64 +8426,10 @@
                   0.04783888906240463
                 ]
               }
-              {
-                t: 268646.84472099936
-                value: 0
-                id: "no-id-More Tools - 2-Among-Opacity-point-1"
-                handler: [
-                  100
-                  -0.0028187499847263098
-                  50.670997619628906
-                  0.19979499280452728
-                ]
-              }
-              {
-                t: 269295.16872213286
-                value: 1
-                id: "no-id-More Tools - 2-Among-Opacity-point-2"
-                handler: [
-                  480.5379943847656
-                  -0.04040343686938286
-                  100
-                  0.010250000283122063
-                ]
-              }
-              {
-                t: 403061.8780816592
-                value: 0
-                id: "no-id-More Tools - 2-Among-Opacity-point-1"
-                handler: [
-                  100
-                  -0.0028187499847263098
-                  50.670997619628906
-                  0.19979499280452728
-                ]
-              }
-              {
-                t: 403710.2020827927
-                value: 1
-                id: "no-id-More Tools - 2-Among-Opacity-point-2"
-                handler: [
-                  480.5379943847656
-                  -0.04040343686938286
-                  100
-                  0.010250000283122063
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 134274.09336041342
-                id: "no-id-More Tools - 2-Things-Opacity-connector-4"
-              }
-              {
-                t: 268646.84472099936
-                id: "no-id-More Tools - 2-Among-Opacity-connector-3"
-              }
-              {
-                t: 403061.8780816592
-                id: "no-id-More Tools - 2-Among-Opacity-connector-3"
-              }
+              t: 134274.09336041342
+              id: "no-id-More Tools - 2-Things-Opacity-connector-4"
             ]
 
       "no-id-More Tools - 3-Demoes-Opacity":
@@ -12974,7 +12920,7 @@
       "no-id-Theatre-HTML container-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 365485.3155669286
+          chronologyLength: 182822.25406214467
           chronology:
             points: [
               {
@@ -12999,38 +12945,10 @@
                   -0.021613720804452896
                 ]
               }
-              {
-                t: 364998.8929297371
-                value: 1
-                id: "no-id-Theatre-Theatre Typo-Opacity-point-6"
-                handler: [
-                  0
-                  -0.27756139636039734
-                  456.139404296875
-                  0
-                ]
-              }
-              {
-                t: 365485.3155669286
-                value: 0
-                id: "no-id-Theatre-Theatre Typo-Opacity-point-7"
-                handler: [
-                  419.3089294433594
-                  0
-                  100
-                  -0.021613720804452896
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 182335.8314249532
-                id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
-              }
-              {
-                t: 364998.8929297371
-                id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
-              }
+              t: 182335.8314249532
+              id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
             ]
 
       "no-id-Theatre-anyKind Container-Opacity":
