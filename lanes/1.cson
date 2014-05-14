@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 302
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 15312.615698718942
+    t: 19742.19510836257
     _focus:
-      from: 11342.730962089612
-      to: 16775.225334218987
+      from: 19326.19510833603
+      to: 28028.000668770826
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -35
+    scrollTop: -134
     guides:
       _list: [
         3016.6043974231575
@@ -12893,11 +12893,11 @@
       "no-id-Instructions-View-progress":
         pacs:
           _idCounter: 8
-          chronologyLength: 16149.886128910317
+          chronologyLength: 16510.197461672524
           chronology:
             points: [
               {
-                t: 13446.884214084073
+                t: 13630.407568929015
                 value: 0
                 id: "no-id-Instructions-View-progress-point-0"
                 handler: [
@@ -12908,7 +12908,7 @@
                 ]
               }
               {
-                t: 13992.269410532586
+                t: 14175.792765377528
                 value: 1
                 id: "no-id-Instructions-View-progress-point-1"
                 handler: [
@@ -12919,7 +12919,7 @@
                 ]
               }
               {
-                t: 15745.981611038407
+                t: 16106.292943800612
                 value: 1
                 id: "no-id-Instructions-View-progress-point-6"
                 handler: [
@@ -12930,7 +12930,7 @@
                 ]
               }
               {
-                t: 16149.886128910317
+                t: 16510.197461672524
                 value: 0
                 id: "no-id-Instructions-View-progress-point-7"
                 handler: [
@@ -12943,11 +12943,11 @@
             ]
             connectors: [
               {
-                t: 13446.884214084073
+                t: 13630.407568929015
                 id: "no-id-Instructions-View-progress-connector-5"
               }
               {
-                t: 15745.981611038407
+                t: 16106.292943800612
                 id: "no-id-Instructions-View-progress-connector-8"
               }
             ]
@@ -12955,11 +12955,11 @@
       "no-id-Instructions-Scroll-scrollToInstructions":
         pacs:
           _idCounter: 4
-          chronologyLength: 16165.859753910898
+          chronologyLength: 16526.171086673105
           chronology:
             points: [
               {
-                t: 13962.604106960081
+                t: 14094.083170175627
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-0"
                 handler: [
@@ -12970,7 +12970,7 @@
                 ]
               }
               {
-                t: 14519.39903555187
+                t: 14650.878098767416
                 value: 1
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-1"
                 handler: [
@@ -12981,7 +12981,7 @@
                 ]
               }
               {
-                t: 16165.859753910898
+                t: 16526.171086673105
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-4"
                 handler: [
@@ -12993,18 +12993,18 @@
               }
             ]
             connectors: [
-              t: 13962.604106960081
+              t: 14094.083170175627
               id: "no-id-Instructions-Scroll-scrollToInstructions-connector-3"
             ]
 
       "no-id-Instructions-Focus-setFocus":
         pacs:
-          _idCounter: 1
-          chronologyLength: 14302.660611018955
+          _idCounter: 2
+          chronologyLength: 16518.499951547754
           chronology:
             points: [
               {
-                t: 14110.963740232093
+                t: 14627.570561505161
                 value: 0
                 id: "no-id-Instructions-Focus-setFocus-point-1"
                 handler: [
@@ -13015,7 +13015,7 @@
                 ]
               }
               {
-                t: 14302.660611018955
+                t: 14819.267432292023
                 value: 1
                 id: "no-id-Instructions-Focus-setFocus-point-0"
                 handler: [
@@ -13023,6 +13023,17 @@
                   0.5
                   100
                   0.5
+                ]
+              }
+              {
+                t: 16518.499951547754
+                value: 0
+                id: "no-id-Instructions-Focus-setFocus-point-2"
+                handler: [
+                  100
+                  0.007499999832361937
+                  100
+                  0.007499999832361937
                 ]
               }
             ]
