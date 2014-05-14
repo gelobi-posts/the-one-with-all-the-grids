@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 336
-    _isVisible: false
+    height: 324
+    _isVisible: true
 
   timeControl:
-    t: 24484.12737920937
+    t: 1267.6304507394514
     _focus:
-      from: -6257.869617225195
-      to: 205186
+      from: 0
+      to: 12394.608851674635
 
     _lastPlayedTickAt: 0
 
@@ -638,8 +638,12 @@
           }
         ]
       }
+      {
+        name: "Instructions"
+        propHolders: []
+      }
     ]
-    _activeWorkspaceName: "EMPTY"
+    _activeWorkspaceName: "Instructions"
 
   timeline:
     _allProps:
