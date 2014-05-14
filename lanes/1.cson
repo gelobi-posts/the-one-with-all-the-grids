@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 364938
+    t: 296265.4736842105
     _focus:
-      from: 153494.13038277478
-      to: 364938
+      from: 148553.13038277486
+      to: 359997
 
     _lastPlayedTickAt: 0
 
@@ -11781,38 +11781,10 @@
                   0.010968749411404133
                 ]
               }
-              {
-                t: 359521.57014115737
-                value: 0
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-0"
-                handler: [
-                  100
-                  0.11249999701976776
-                  159.6270751953125
-                  0
-                ]
-              }
-              {
-                t: 359938.9596478145
-                value: 1
-                id: "no-id-Theatre-Animation anyKind any-Opacity-point-1"
-                handler: [
-                  168.1452178955078
-                  0
-                  100
-                  0.010968749411404133
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 179718.79362980445
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
-              {
-                t: 359521.57014115737
-                id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
-              }
+              t: 179718.79362980445
+              id: "no-id-Theatre-Animation anyKind any-Opacity-connector-2"
             ]
 
       "no-id-Theatre-Animation anyKind any-Y":
@@ -12326,7 +12298,7 @@
       "no-id-Theatre-Objects-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 354997.61758327717
+          chronologyLength: 177678.34814552608
           chronology:
             points: [
               {
@@ -12351,38 +12323,10 @@
                   0.0027749999426305294
                 ]
               }
-              {
-                t: 354738.2693783464
-                value: 0
-                id: "no-id-Theatre-HTML El HTML-Opacity-point-0"
-                handler: [
-                  100
-                  0.0925000011920929
-                  100
-                  0.0925000011920929
-                ]
-              }
-              {
-                t: 354997.61758327717
-                value: 1
-                id: "no-id-Theatre-HTML El HTML-Opacity-point-1"
-                handler: [
-                  100
-                  0.0027749999426305294
-                  100
-                  0.0027749999426305294
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 177283.36948981823
-                id: "no-id-Theatre-Buffers-Opacity-connector-5"
-              }
-              {
-                t: 354738.2693783464
-                id: "no-id-Theatre-HTML El Elements-Opacity-connector-1"
-              }
+              t: 177283.36948981823
+              id: "no-id-Theatre-Buffers-Opacity-connector-5"
             ]
 
       "no-id-Theatre-HTML El HTML-X":
