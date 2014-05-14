@@ -11,7 +11,7 @@ module.exports = class InstructionsSet extends Set
 		@view = @film.display.view
 
 		@view
-		.perspective 800
+		.perspective 1200
 
 		@_onTime 1, =>
 
@@ -33,7 +33,7 @@ module.exports = class InstructionsSet extends Set
 
 				# @view.z -800 * prog
 				# @view.y -300 * prog
-				@view.rotateX -20 * prog
+				@view.rotateX -45 * prog
 
 				return
 
