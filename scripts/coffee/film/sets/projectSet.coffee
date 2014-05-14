@@ -8,13 +8,13 @@ module.exports = class EndingSet extends Set
 
 		@id = 'project'
 
-		@container = @makeSetContainer([200000])
+		@container = @makeSetContainer([115000, 126000])
 		.set 'id', 'project-container'
 
 		@_github = @_makeEl '#project-github'
 		.html """
 
-			<span class="icon icon-github"></span>
+			<span class="icon icon-github-4"></span>
 
 			<a target="_blank" href="https://github.com/AriaMinaei/griddify">
 
