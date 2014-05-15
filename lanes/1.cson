@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 302
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 19742.19510836257
+    t: 18321.74027988871
     _focus:
-      from: 19326.19510833603
-      to: 28028.000668770826
+      from: 14111.357087070677
+      to: 22813.16264750547
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -134
+    scrollTop: -139
     guides:
       _list: [
         3016.6043974231575
