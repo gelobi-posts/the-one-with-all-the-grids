@@ -83,6 +83,8 @@ module.exports = class InstructionsSet extends Set
 
 	_setupFocus: ->
 
+		return unless articleNode?
+
 		@_lastFocusProg = 0
 
 		@_setupObject 'Instructions', 'Focus', @, ['setFocus']

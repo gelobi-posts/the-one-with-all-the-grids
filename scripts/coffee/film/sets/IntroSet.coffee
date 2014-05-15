@@ -16,7 +16,7 @@ module.exports = class IntroSet extends Set
 		.inside @container
 
 		@_setupDomEl 'Intro', "I'm", im, [
-			'opacity', 'translation', 'wysihwyg'
+			'opacity', 'translation'
 		]
 
 		griddify = @_makeEl '#intro-griddify'
@@ -24,7 +24,7 @@ module.exports = class IntroSet extends Set
 		.inside @container
 
 		@_setupDomEl 'Intro', "Griddify", griddify, [
-			'opacity', 'z', 'scaleAll'
+			'opacity', 'scaleAll'
 		]
 
 		# aft = ['', '', ' 1', ' 1', ' 2', ' 2', '', '']

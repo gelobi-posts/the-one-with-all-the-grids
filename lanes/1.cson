@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 15003.393475483574
+    t: 13078.754634736099
     _focus:
-      from: 13906.454307156859
-      to: 20963.429623392054
+      from: 6501.959954566327
+      to: 13558.935270801518
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 2
+    scrollTop: -120
     guides:
       _list: [
         7944.070887026577
@@ -757,18 +757,10 @@
       {
         name: "Instructions"
         propHolders: [
-          {
-            id: "no-id-Instructions-View-progress"
-            _expanded: true
-            actorPropId: "no-id-Instructions-View-progress"
-            _height: 110
-          }
-          {
-            id: "no-id-Instructions-Focus-setFocus"
-            _expanded: true
-            actorPropId: "no-id-Instructions-Focus-setFocus"
-            _height: 80
-          }
+          id: "no-id-Instructions-View-progress"
+          _expanded: true
+          actorPropId: "no-id-Instructions-View-progress"
+          _height: 110
         ]
       }
       {
@@ -778,12 +770,6 @@
             id: "no-id-Intro-Griddify-Opacity"
             _expanded: true
             actorPropId: "no-id-Intro-Griddify-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify-Z"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify-Z"
             _height: 80
           }
           {
@@ -4528,7 +4514,7 @@
                 ]
               }
               {
-                t: 9063.004660417377
+                t: 11585.964747568814
                 value: 1
                 id: "no-id-Intro-Griddify-Opacity-point-1"
                 handler: [
@@ -4539,7 +4525,7 @@
                 ]
               }
               {
-                t: 9417.402986603794
+                t: 11940.363073755232
                 value: 0
                 id: "no-id-Intro-Griddify-Opacity-point-0"
                 handler: [
@@ -4578,7 +4564,7 @@
                 id: "no-id-Intro-Griddify-Opacity-connector-13"
               }
               {
-                t: 9063.004660417377
+                t: 11585.964747568814
                 id: "no-id-Intro-Griddify-Opacity-connector-14"
               }
               {
@@ -13695,8 +13681,8 @@
 
       "no-id-Intro-Griddify-Scale":
         pacs:
-          _idCounter: 5
-          chronologyLength: 10266.515157641881
+          _idCounter: 8
+          chronologyLength: 13378.572205561368
           chronology:
             points: [
               {
@@ -13711,8 +13697,8 @@
                 ]
               }
               {
-                t: 10266.515157641881
-                value: 0.75
+                t: 13378.572205561368
+                value: 1
                 id: "no-id-Intro-Griddify-Scale-point-1"
                 handler: [
                   534.7129516601562
@@ -13724,6 +13710,6 @@
             ]
             connectors: [
               t: 7463.226171918057
-              id: "no-id-Intro-Griddify-Scale-connector-5"
+              id: "no-id-Intro-Griddify-Scale-connector-8"
             ]
 }
