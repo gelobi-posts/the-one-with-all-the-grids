@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 14409.524441340782
+    t: 30085.23998537321
     _focus:
-      from: 12954.909588145616
-      to: 20772.434626421847
+      from: 28768.21898537428
+      to: 36585.744023650455
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 475
+    scrollTop: -114
     guides:
       _list: [
         7944.070887026577
@@ -767,7 +767,7 @@
             id: "no-id-Instructions-View-progress"
             _expanded: true
             actorPropId: "no-id-Instructions-View-progress"
-            _height: 60
+            _height: 113
           }
           {
             id: "no-id-Instructions-Scroll-scrollToInstructions"
@@ -779,7 +779,7 @@
             id: "no-id-Photoshop-BG-Opacity"
             _expanded: true
             actorPropId: "no-id-Photoshop-BG-Opacity"
-            _height: 80
+            _height: 65
           }
           {
             id: "no-id-Photoshop-BG-Scale"
@@ -13072,8 +13072,8 @@
                 value: 1
                 id: "no-id-Instructions-View-progress-point-1"
                 handler: [
-                  332.758544921875
-                  0.012418714351952076
+                  447.24114990234375
+                  0
                   100
                   -0.15000000596046448
                 ]
