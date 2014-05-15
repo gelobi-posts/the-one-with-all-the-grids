@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 30085.23998537321
+    t: 116461.18979851973
     _focus:
-      from: 28768.21898537428
-      to: 36585.744023650455
+      from: 107607.11203203544
+      to: 121694.54599154375
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -114
+    scrollTop: -124
     guides:
       _list: [
         7944.070887026577
@@ -812,8 +812,31 @@
           }
         ]
       }
+      {
+        name: "Github"
+        propHolders: [
+          {
+            id: "no-id-Photoshop-Blackifier-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-Blackifier-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Project-Github-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Project-Github-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Project-Mail-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Project-Mail-Opacity"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Instructions"
+    _activeWorkspaceName: "Github"
 
   timeline:
     _allProps:
@@ -7999,7 +8022,7 @@
           chronology:
             points: [
               {
-                t: 115329.0492550459
+                t: 114304.91048916115
                 value: 0
                 id: "no-id-Photoshop-Blackifier-Opacity-point-1"
                 handler: [
@@ -8010,7 +8033,7 @@
                 ]
               }
               {
-                t: 116379.11373104724
+                t: 115354.97496516249
                 value: 0.8
                 id: "no-id-Photoshop-Blackifier-Opacity-point-0"
                 handler: [
@@ -8067,7 +8090,7 @@
             ]
             connectors: [
               {
-                t: 115329.0492550459
+                t: 114304.91048916115
                 id: "no-id-Photoshop-Blackifier-Opacity-connector-4"
               }
               {

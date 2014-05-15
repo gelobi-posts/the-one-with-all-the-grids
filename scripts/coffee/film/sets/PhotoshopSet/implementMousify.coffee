@@ -40,7 +40,7 @@ module.exports = (film) ->
 
 		() -> {x: .5 * window.innerHeight, y: .5 * window.innerHeight},
 
-		(prev) -> {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 53},
+		(prev) -> {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 50},
 
 		(prev) -> {x: -prev.x + 85, y: -prev.y + 20},
 
@@ -52,7 +52,7 @@ module.exports = (film) ->
 
 		(prev) -> {x: -prev.x + window.innerWidth * .5 - 135, y: -prev.y + window.innerHeight * .5 - 264},
 
-		(prev) -> {x: -prev.x + .4 * window.innerWidth + 50, y: -prev.y + .2 * window.innerHeight + 97},
+		(prev) -> {x: -prev.x + .4 * window.innerWidth + 50, y: -prev.y + .2 * window.innerHeight + 91},
 
 		() -> {x: 150, y: 0},
 
@@ -62,7 +62,7 @@ module.exports = (film) ->
 
 		() -> {x: .5 * window.innerHeight, y: .5 * window.innerHeight},
 
-		(prev) -> {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 97},
+		(prev) -> {x: -prev.x + .4 * window.innerWidth + 200, y: -prev.y + .2 * window.innerHeight + 91},
 
 		() -> {x: -150, y: 44},
 
