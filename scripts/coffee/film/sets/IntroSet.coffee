@@ -56,4 +56,16 @@ module.exports = class IntroSet extends Set
 				'opacity', 'translation'
 			]
 
+		alaki = @_makeEl '#intro-alaki'
+		.html 'alaki'
+		.inside @container
+
+		@_setupTangled 'Intro', 'Alaki', 'Prog', alaki,
+
+			y: [0, 100]
+
+			scale: [1, 3]
+
+			rotateY: [0, 45]
+
 		return
