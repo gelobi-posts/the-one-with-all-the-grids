@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 141519.93653651248
+    t: 129046.16529428233
     _focus:
-      from: 105819.17995317432
-      to: 161541.50369794382
+      from: 112318.5971058224
+      to: 151325.7286592928
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 1210
+    scrollTop: -158
     guides:
       _list: [
         7944.070887026577
@@ -408,6 +408,12 @@
             id: "no-id-More Tools - 1-Works-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools - 1-Works-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-gelobi-Y"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Y"
             _height: 80
           }
         ]
@@ -10348,7 +10354,7 @@
             points: [
               {
                 t: 141766.77085022934
-                value: 69
+                value: 57
                 id: "no-id-Gelobi-gelobi-Y-point-0"
                 handler: [
                   100
@@ -10359,7 +10365,7 @@
               }
               {
                 t: 143218.7053640189
-                value: 69
+                value: 57
                 id: "no-id-More Tools-Lines Container-Y-point-0"
                 handler: [
                   100
