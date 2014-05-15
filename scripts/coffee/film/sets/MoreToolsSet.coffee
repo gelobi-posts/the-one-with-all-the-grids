@@ -20,11 +20,11 @@ module.exports = class MoreToolsSet extends Set
 
 		set =
 
-			opacity: [0, 1]
+			opacity: [-0.2, 1]
 
 			x: [20, 0]
 
-			scale: [0.8, 1]
+			scale: [1.3, 1]
 
 		@_createWords [
 			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'
