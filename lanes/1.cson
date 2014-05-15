@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 259
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 116461.18979851973
+    t: 117503.15251666911
     _focus:
-      from: 107607.11203203544
-      to: 121694.54599154375
+      from: 112498.29883576976
+      to: 126585.73279527802
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -124
+    scrollTop: -316
     guides:
       _list: [
         7944.070887026577
@@ -13740,5 +13740,73 @@
             connectors: [
               t: 7386.03415636914
               id: "no-id-Intro-Griddify-Scale-connector-10"
+            ]
+
+      "no-id-Project-Github-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 117066.3998059032
+          chronology:
+            points: [
+              {
+                t: 116248.05434872919
+                value: 0
+                id: "no-id-Project-Github-Opacity-point-0"
+                handler: [
+                  100
+                  0.10999999940395355
+                  100
+                  0.10999999940395355
+                ]
+              }
+              {
+                t: 117066.3998059032
+                value: 1
+                id: "no-id-Project-Github-Opacity-point-1"
+                handler: [
+                  321.0371398925781
+                  -0.2688193619251251
+                  100
+                  0.0085249999538064
+                ]
+              }
+            ]
+            connectors: [
+              t: 116248.05434872919
+              id: "no-id-Project-Github-Opacity-connector-3"
+            ]
+
+      "no-id-Project-Mail-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 117316.90856878148
+          chronology:
+            points: [
+              {
+                t: 116425.39208912649
+                value: 0
+                id: "no-id-Project-Mail-Opacity-point-0"
+                handler: [
+                  100
+                  0.0925000011920929
+                  100
+                  0.0925000011920929
+                ]
+              }
+              {
+                t: 117316.90856878148
+                value: 1
+                id: "no-id-Project-Mail-Opacity-point-1"
+                handler: [
+                  100
+                  0.007631250191479921
+                  100
+                  0.007631250191479921
+                ]
+              }
+            ]
+            connectors: [
+              t: 116425.39208912649
+              id: "no-id-Project-Mail-Opacity-connector-2"
             ]
 }
