@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 2634.62176403652
+    t: 125446.3853497208
     _focus:
-      from: 0
-      to: 17018.232475803467
+      from: 90424.54886837117
+      to: 169110.50815431768
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 312
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -320,256 +320,19 @@
       {
         name: "More Tools 1"
         propHolders: [
-          {
-            id: "no-id-More Tools - 1-More-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-More-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-More-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-More-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-More-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-More-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Tools-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Tools-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Tools-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Tools-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Tools-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Tools-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-In-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-In-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-In-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-In-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-In-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-In-Scale"
-            _height: 90
-          }
-          {
-            id: "no-id-More Tools - 1-The-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-The-Opacity"
-            _height: 90
-          }
-          {
-            id: "no-id-More Tools - 1-The-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-The-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-The-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-The-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Works-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Works-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Works-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Works-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 1-Works-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 1-Works-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-Gelobi-gelobi-Y"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-gelobi-Y"
-            _height: 80
-          }
+          id: "no-id-Gelobi-gelobi-Y"
+          _expanded: true
+          actorPropId: "no-id-Gelobi-gelobi-Y"
+          _height: 80
         ]
       }
       {
         name: "More Tools 2"
-        propHolders: [
-          {
-            id: "no-id-More Tools - 2-Tools-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Tools-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Tools-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Tools-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Tools-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Tools-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Nodejs-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Nodejs-Opacity"
-            _height: 89
-          }
-          {
-            id: "no-id-More Tools - 2-Nodejs-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Nodejs-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Nodejs-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Nodejs-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Packages-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Packages-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Packages-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Packages-X"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Packages-Scale"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Packages-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Among-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Among-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Other-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Other-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Things-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Things-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Based-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Based-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Web-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Web-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Panels-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Panels-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 2-Photoshop-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 2-Photoshop-Opacity"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
       {
         name: "More Tools 3"
         propHolders: [
-          {
-            id: "no-id-More Tools - 3-Demoes-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-Demoes-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-In-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-In-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-The-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-The-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-Coming-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-Coming-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-Weeks-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-Weeks-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-Right-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-Right-Opacity"
-            _height: 86
-          }
-          {
-            id: "no-id-More Tools - 3-Here-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-Here-Opacity"
-            _height: 82
-          }
-          {
-            id: "no-id-More Tools - 3-In-2-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-In-2-Opacity"
-            _height: 77
-          }
           {
             id: "no-id-Gelobi-gelobi-Opacity"
             _expanded: true
@@ -662,12 +425,6 @@
             id: "no-id-More Tools-Lines Container-Scale"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools - 3-In-2-Opacity"
-            _expanded: true
-            actorPropId: "no-id-More Tools - 3-In-2-Opacity"
             _height: 80
           }
         ]
@@ -838,13 +595,7 @@
             id: "no-id-Project-Mail-Opacity"
             _expanded: true
             actorPropId: "no-id-Project-Mail-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Alaki-Prog"
-            _expanded: true
-            actorPropId: "no-id-Intro-Alaki-Prog"
-            _height: 167
+            _height: 88
           }
           {
             id: "no-id-The Panel-Panel-Opacity"
@@ -861,7 +612,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Github"
+    _activeWorkspaceName: "More Tools 1"
 
   timeline:
     _allProps:

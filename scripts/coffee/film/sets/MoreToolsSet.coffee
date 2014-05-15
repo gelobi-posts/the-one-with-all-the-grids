@@ -18,21 +18,27 @@ module.exports = class MoreToolsSet extends Set
 
 		@_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll']
 
+		set =
+
+			opacity: [0, 1]
+
+			x: [-20, 0]
+
+			scale: [0.8, 1]
+
 		@_createWords [
 			'MORE', 'TOOLS', 'IN', 'THE', 'WORKS'
-			], 'line1', 'More Tools - 1', ['opacity', 'x', 'scaleAll']
+			], 'line1', 'More Tools - 1', set
 
 		@_createWords [
 			'photoshop', 'panels,', 'web', '-based', 'tools,', 'nodejs',
 			'packages,', 'among', 'other', 'things'
-			], 'line2', 'More Tools - 2', ['opacity', 'x', 'scaleAll']
+			], 'line2', 'More Tools - 2', set
 
 		@_createWords [
 			'demoes', 'in', 'the', 'coming', 'weeks,', 'right',
 			'here', 'in'
-			], 'line3', 'More Tools - 3', ['opacity', 'x', 'scaleAll']
-
-
+			], 'line3', 'More Tools - 3', set
 
 	_createWords: (words, pref, groupName, props) ->
 
@@ -71,6 +77,8 @@ module.exports = class MoreToolsSet extends Set
 
 		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
 
-		@_setupDomEl groupName, name, el, props
+		# @_setupDomEl groupName, name, el, props
+
+		@_setupTangled groupName, name, 'Prog', el, props
 
 		return
