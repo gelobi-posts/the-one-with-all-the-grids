@@ -4,21 +4,18 @@
     _isVisible: true
 
   timeControl:
-    t: 8385.426727772308
+    t: 7555.943226215328
     _focus:
-      from: 7918.4267277717545
-      to: 11625.7560129933
+      from: 2704.3474660747174
+      to: 14743.23580230935
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 701
+    scrollTop: 0
     guides:
       _list: [
-        7614.657690809252
-        7685.069086670048
-        8156.044120098402
-        8296.578738921047
+        7944.070887026577
         12290.826241672643
         15677.829482161707
         17341.051850019703
@@ -774,8 +771,61 @@
           }
         ]
       }
+      {
+        name: "Griddify"
+        propHolders: [
+          {
+            id: "no-id-Intro-Griddify Letter G-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter G-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter r-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter r-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter i 1-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter i 1-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 1-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 1-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter d 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter d 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter i 2-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter i 2-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter f-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter f-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Intro-Griddify Letter y-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Intro-Griddify Letter y-Opacity"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Intro"
+    _activeWorkspaceName: "Griddify"
 
   timeline:
     _allProps:
