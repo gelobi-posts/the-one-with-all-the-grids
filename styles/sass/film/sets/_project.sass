@@ -1,0 +1,90 @@
+.link
+
+	font-family: "Droid Sans", Helvetica, sans-serif
+	color: #FFF
+	font-weight: 400
+	font-size: 22px
+
+	top: calc(50vh - 10px)
+
+.linkU
+
+	position: absolute
+
+	left: 50px
+
+	&:before
+
+		@include psuedo
+
+		position: absolute
+		left: 0
+		right: 0
+		top: -4px
+		bottom: 4px
+
+		border-bottom: 1px solid #636363
+
+		z-index: -1
+
+	&:after
+
+		@include psuedo
+
+		position: absolute
+		left: -3px
+		right: -3px
+		top: -4px
+		bottom: -4px
+
+		z-index: -1
+
+		background: #FFF
+
+		@include transform(scale(0.9) translateZ(-1px))
+
+		@include transition(all 0.15s)
+
+		opacity: 0
+
+	&:hover
+
+		color: #333
+
+		&:after
+
+			@include transform(scale(1) translateZ(-1px))
+
+			opacity: 1
+
+.icon
+
+	font-size: 25px
+
+	position: absolute
+
+	left: 0
+
+#project-github
+
+	@extend .link
+
+	position: absolute
+
+	left: calc(50vw - 225px)
+
+	> a
+
+		@extend .linkU
+
+#project-mail
+
+	@extend .link
+
+	position: absolute
+
+	left: calc(50vw + 100px)
+
+	> a
+
+		@extend .linkU

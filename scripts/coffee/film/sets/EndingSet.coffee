@@ -11,10 +11,22 @@ module.exports = class EndingSet extends Set
 		@container = @makeSetContainer([200000])
 		.set 'id', 'ending-container'
 
+		do @_prepareLinks
+
+		do @_prepareCredits
+
+	_prepareLinks: ->
+
 		@_fbLink = @_makeEl '#ending-fb-link'
 		.html """
 
-			<a target="_blank" href="https://facebook.com">Facebook</a>
+			<span class="icon icon-facebook-5"></span>
+
+			<a target="_blank" href="https://facebook.com/gelobi.org">
+
+				gelobi.org
+
+			</a>
 
 		"""
 		.inside @container
@@ -24,7 +36,13 @@ module.exports = class EndingSet extends Set
 		@_twitLink = @_makeEl '#ending-twitter-link'
 		.html """
 
-			<a target="_blank" href="https://twitter.com">Twitter</a>
+			<span class="icon icon-twitter-3"></span>
+
+			<a target="_blank" href="https://twitter.com/gelobi_org">
+
+				<span>@gelobi</span><span class="underline">_</span><span>org<span>
+
+			</a>
 
 		"""
 		.inside @container
@@ -36,9 +54,11 @@ module.exports = class EndingSet extends Set
 
 			<div class="newsletter" id="mc_embed_signup">
 
+				<span class="icon icon-mail-1"></span>
+
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-				    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+				    <input type="email" value="" name="EMAIL" class="email ending-mail" id="mce-EMAIL" placeholder="Your email address" required>
 				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
 
@@ -48,7 +68,7 @@ module.exports = class EndingSet extends Set
 
 				    </div>
 
-			    	<button type="submit" name="subscribe" id="mc-embedded-subscribe">
+			    	<button type="submit" name="subscribe" class="ending-subscribe" id="mc-embedded-subscribe">
 
 			    		Subscribe
 
@@ -64,3 +84,47 @@ module.exports = class EndingSet extends Set
 		@_setupDomEl 'Ending', 'Newsletter', @_newsletter, ['opacity']
 
 		return
+
+	_prepareCredits: ->
+
+		created = @_makeEl '.credits .created'
+		.html 'Created by :'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Created By', created, ['opacity']
+
+		aria = @_makeEl '.credits'
+		.html 'Aria Minaei'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Aria', aria, ['opacity']
+
+		pouria = @_makeEl '.credits'
+		.html 'Pouria Maleki'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pouria', pouria, ['opacity']
+
+		pouya = @_makeEl '.credits'
+		.html 'Pouya Adibnezhad'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pouya', pouya, ['opacity']
+
+		gelobi = @_makeEl '.credits'
+		.html 'Published in gelobi'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'gelobi', gelobi, ['opacity']
+
+		pixana = @_makeEl '.credits'
+		.html 'a Pixana Creative Studios Production'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'Pixana', pixana, ['opacity']
+
+		cc = @_makeEl '.credits'
+		.html 'Creative Commons By-Sa 3.0'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'CC', cc, ['opacity']
