@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 97
-    _isVisible: true
+    height: 259
+    _isVisible: false
 
   timeControl:
-    t: 13123.87647770184
+    t: 21281.52444134343
     _focus:
-      from: 9937.456317508202
-      to: 16994.43163374359
+      from: 14409.524441340782
+      to: 22227.0494796172
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -48
+    scrollTop: -47
     guides:
       _list: [
         7944.070887026577
@@ -4502,7 +4502,7 @@
       "no-id-Intro-Griddify-Opacity":
         pacs:
           _idCounter: 18
-          chronologyLength: 16427.688403204305
+          chronologyLength: 11428.458128536098
           chronology:
             points: [
               {
@@ -4549,28 +4549,6 @@
                   0
                 ]
               }
-              {
-                t: 16110.032856163545
-                value: 1
-                id: "no-id-Intro-Griddify-Opacity-point-3"
-                handler: [
-                  100
-                  0.08039099723100662
-                  100
-                  0.08039099723100662
-                ]
-              }
-              {
-                t: 16427.688403204305
-                value: 0
-                id: "no-id-Intro-Griddify-Opacity-point-4"
-                handler: [
-                  100
-                  -0.0027009774930775166
-                  100
-                  -0.0027009774930775166
-                ]
-              }
             ]
             connectors: [
               {
@@ -4580,10 +4558,6 @@
               {
                 t: 11098.436228312496
                 id: "no-id-Intro-Griddify-Opacity-connector-18"
-              }
-              {
-                t: 16110.032856163545
-                id: "no-id-Intro-Griddify-Opacity-connector-12"
               }
             ]
 
@@ -13061,11 +13035,11 @@
       "no-id-Instructions-View-progress":
         pacs:
           _idCounter: 8
-          chronologyLength: 16510.197461672524
+          chronologyLength: 16141.149071840246
           chronology:
             points: [
               {
-                t: 12037.814406025032
+                t: 12407.523533127749
                 value: 0
                 id: "no-id-Instructions-View-progress-point-0"
                 handler: [
@@ -13076,7 +13050,7 @@
                 ]
               }
               {
-                t: 12583.199602473545
+                t: 12952.908729576262
                 value: 1
                 id: "no-id-Instructions-View-progress-point-1"
                 handler: [
@@ -13087,7 +13061,7 @@
                 ]
               }
               {
-                t: 16106.292943800612
+                t: 15737.244553968334
                 value: 1
                 id: "no-id-Instructions-View-progress-point-6"
                 handler: [
@@ -13098,7 +13072,7 @@
                 ]
               }
               {
-                t: 16510.197461672524
+                t: 16141.149071840246
                 value: 0
                 id: "no-id-Instructions-View-progress-point-7"
                 handler: [
@@ -13111,11 +13085,11 @@
             ]
             connectors: [
               {
-                t: 12037.814406025032
+                t: 12407.523533127749
                 id: "no-id-Instructions-View-progress-connector-5"
               }
               {
-                t: 16106.292943800612
+                t: 15737.244553968334
                 id: "no-id-Instructions-View-progress-connector-8"
               }
             ]
@@ -13123,11 +13097,11 @@
       "no-id-Instructions-Scroll-scrollToInstructions":
         pacs:
           _idCounter: 4
-          chronologyLength: 16526.171086673105
+          chronologyLength: 17340.777898376058
           chronology:
             points: [
               {
-                t: 12448.674417685545
+                t: 12625.211037131427
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-0"
                 handler: [
@@ -13138,7 +13112,7 @@
                 ]
               }
               {
-                t: 13005.469346277334
+                t: 13182.005965723216
                 value: 1
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-1"
                 handler: [
@@ -13149,7 +13123,7 @@
                 ]
               }
               {
-                t: 16526.171086673105
+                t: 17340.777898376058
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-4"
                 handler: [
@@ -13161,18 +13135,18 @@
               }
             ]
             connectors: [
-              t: 12448.674417685545
+              t: 12625.211037131427
               id: "no-id-Instructions-Scroll-scrollToInstructions-connector-3"
             ]
 
       "no-id-Instructions-Focus-setFocus":
         pacs:
           _idCounter: 2
-          chronologyLength: 16518.499951547754
+          chronologyLength: 17342.10794349052
           chronology:
             points: [
               {
-                t: 14135.979304588373
+                t: 13906.449208473176
                 value: 0
                 id: "no-id-Instructions-Focus-setFocus-point-1"
                 handler: [
@@ -13183,7 +13157,7 @@
                 ]
               }
               {
-                t: 14327.676175375234
+                t: 14057.640768180885
                 value: 1
                 id: "no-id-Instructions-Focus-setFocus-point-0"
                 handler: [
@@ -13194,7 +13168,7 @@
                 ]
               }
               {
-                t: 16518.499951547754
+                t: 17342.10794349052
                 value: 0
                 id: "no-id-Instructions-Focus-setFocus-point-2"
                 handler: [
