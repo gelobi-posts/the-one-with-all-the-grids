@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 7528.219821871668
+    t: 15003.393475483574
     _focus:
-      from: 2704.3474660747174
-      to: 14743.23580230935
+      from: 13906.454307156859
+      to: 20963.429623392054
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 2
     guides:
       _list: [
         7944.070887026577
@@ -775,51 +775,21 @@
         name: "Griddify"
         propHolders: [
           {
-            id: "no-id-Intro-Griddify Letter G-Opacity"
+            id: "no-id-Intro-Griddify-Opacity"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter G-Opacity"
+            actorPropId: "no-id-Intro-Griddify-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Intro-Griddify Letter r-Opacity"
+            id: "no-id-Intro-Griddify-Z"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter r-Opacity"
+            actorPropId: "no-id-Intro-Griddify-Z"
             _height: 80
           }
           {
-            id: "no-id-Intro-Griddify Letter i 1-Opacity"
+            id: "no-id-Intro-Griddify-Scale"
             _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter i 1-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 1-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter d 1-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter d 2-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter d 2-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter i 2-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter i 2-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter f-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter f-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Griddify Letter y-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Intro-Griddify Letter y-Opacity"
+            actorPropId: "no-id-Intro-Griddify-Scale"
             _height: 80
           }
         ]
@@ -4531,30 +4501,52 @@
 
       "no-id-Intro-Griddify-Opacity":
         pacs:
-          _idCounter: 12
+          _idCounter: 14
           chronologyLength: 16427.688403204305
           chronology:
             points: [
               {
-                t: 6853.215073295383
+                t: 7497.784224285493
                 value: 0
                 id: "no-id-Intro-Griddify-Opacity-point-0"
                 handler: [
                   100
                   0.057500001043081284
-                  100
-                  0.057500001043081284
+                  205.6311798095703
+                  0
                 ]
               }
               {
-                t: 7364.184945095877
+                t: 7890.929627625429
                 value: 1
                 id: "no-id-Intro-Griddify-Opacity-point-1"
                 handler: [
+                  319.3878479003906
+                  0
                   100
                   0.004887500312179327
-                  100
-                  0.004887500312179327
+                ]
+              }
+              {
+                t: 9063.004660417377
+                value: 1
+                id: "no-id-Intro-Griddify-Opacity-point-1"
+                handler: [
+                  319.3878479003906
+                  0
+                  246.25856018066406
+                  0.0861193984746933
+                ]
+              }
+              {
+                t: 9417.402986603794
+                value: 0
+                id: "no-id-Intro-Griddify-Opacity-point-0"
+                handler: [
+                  230.00759887695312
+                  0
+                  205.6311798095703
+                  0
                 ]
               }
               {
@@ -4582,8 +4574,12 @@
             ]
             connectors: [
               {
-                t: 6853.215073295383
-                id: "no-id-Intro-Griddify-Opacity-connector-9"
+                t: 7497.784224285493
+                id: "no-id-Intro-Griddify-Opacity-connector-13"
+              }
+              {
+                t: 9063.004660417377
+                id: "no-id-Intro-Griddify-Opacity-connector-14"
               }
               {
                 t: 16110.032856163545
@@ -13695,5 +13691,39 @@
                 t: 215892.96356825487
                 id: "no-id-Ending-CC-Opacity-connector-1"
               }
+            ]
+
+      "no-id-Intro-Griddify-Scale":
+        pacs:
+          _idCounter: 5
+          chronologyLength: 10266.515157641881
+          chronology:
+            points: [
+              {
+                t: 7463.226171918057
+                value: 0.5
+                id: "no-id-Intro-Griddify-Scale-point-0"
+                handler: [
+                  100
+                  0.17454543709754944
+                  140.62738037109375
+                  0.22860445082187653
+                ]
+              }
+              {
+                t: 10266.515157641881
+                value: 0.75
+                id: "no-id-Intro-Griddify-Scale-point-1"
+                handler: [
+                  534.7129516601562
+                  0.03336388245224953
+                  100
+                  0.06039338558912277
+                ]
+              }
+            ]
+            connectors: [
+              t: 7463.226171918057
+              id: "no-id-Intro-Griddify-Scale-connector-5"
             ]
 }
