@@ -30,7 +30,7 @@ module.exports = class EndingSet extends Set
 		@_mail = @_makeEl '#project-mail'
 		.html """
 
-			<span class="icon icon-mail-1"></span>
+			<span class="icon project-mail-icon icon-mail-alt"></span>
 
 			<a target="_top" href="mailto:higelobi@gmail.com">
 

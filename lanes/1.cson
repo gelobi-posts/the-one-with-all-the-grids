@@ -1,7 +1,7 @@
 {
   mainBox:
     height: 259
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
     t: 116461.18979851973
