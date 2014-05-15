@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 13078.754634736099
+    t: 11249.813569825394
     _focus:
       from: 6501.959954566327
       to: 13558.935270801518
@@ -13681,8 +13681,8 @@
 
       "no-id-Intro-Griddify-Scale":
         pacs:
-          _idCounter: 8
-          chronologyLength: 13378.572205561368
+          _idCounter: 9
+          chronologyLength: 12204.441021685738
           chronology:
             points: [
               {
@@ -13697,7 +13697,7 @@
                 ]
               }
               {
-                t: 13378.572205561368
+                t: 12204.441021685738
                 value: 1
                 id: "no-id-Intro-Griddify-Scale-point-1"
                 handler: [
@@ -13710,6 +13710,6 @@
             ]
             connectors: [
               t: 7463.226171918057
-              id: "no-id-Intro-Griddify-Scale-connector-8"
+              id: "no-id-Intro-Griddify-Scale-connector-9"
             ]
 }
