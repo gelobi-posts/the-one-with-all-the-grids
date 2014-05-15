@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 259
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 21281.52444134343
+    t: 14409.524441340782
     _focus:
-      from: 14409.524441340782
-      to: 22227.0494796172
+      from: 12954.909588145616
+      to: 20772.434626421847
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -47
+    scrollTop: 475
     guides:
       _list: [
         7944.070887026577
@@ -775,6 +775,24 @@
             actorPropId: "no-id-Instructions-Scroll-scrollToInstructions"
             _height: 46
           }
+          {
+            id: "no-id-Photoshop-BG-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Scale"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-domEl-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Opacity"
+            _height: 80
+          }
         ]
       }
       {
@@ -877,11 +895,11 @@
       "no-id-Photoshop-BG-Opacity":
         pacs:
           _idCounter: 9
-          chronologyLength: 17228.7647450233
+          chronologyLength: 18007.366835767007
           chronology:
             points: [
               {
-                t: 16187.18066073927
+                t: 16965.782751482977
                 value: 0
                 id: "no-id-Photoshop-BG-Opacity-point-3"
                 handler: [
@@ -892,7 +910,7 @@
                 ]
               }
               {
-                t: 17228.7647450233
+                t: 18007.366835767007
                 value: 1
                 id: "no-id-Photoshop-BG-Opacity-point-4"
                 handler: [
@@ -904,7 +922,7 @@
               }
             ]
             connectors: [
-              t: 16187.18066073927
+              t: 16965.782751482977
               id: "no-id-Photoshop-BG-Opacity-connector-9"
             ]
 
@@ -4267,11 +4285,11 @@
       "no-id-Photoshop-BG-Scale":
         pacs:
           _idCounter: 6
-          chronologyLength: 19435.80892235266
+          chronologyLength: 20151.40275141768
           chronology:
             points: [
               {
-                t: 16252.140496003256
+                t: 16967.73432506828
                 value: 1.5
                 id: "no-id-Photoshop-BG-Scale-point-0"
                 handler: [
@@ -4282,7 +4300,7 @@
                 ]
               }
               {
-                t: 19435.80892235266
+                t: 20151.40275141768
                 value: 1
                 id: "no-id-Photoshop-BG-Scale-point-1"
                 handler: [
@@ -4294,7 +4312,7 @@
               }
             ]
             connectors: [
-              t: 16252.140496003256
+              t: 16967.73432506828
               id: "no-id-Photoshop-BG-Scale-connector-6"
             ]
 
@@ -6114,7 +6132,7 @@
                 ]
               }
               {
-                t: 17328.236676300345
+                t: 18525.393648195266
                 value: 0
                 id: "no-id-Mouse-domEl-Opacity-point-5"
                 handler: [
@@ -6125,7 +6143,7 @@
                 ]
               }
               {
-                t: 18824.17658145699
+                t: 20021.333553351913
                 value: 0.7
                 id: "no-id-Mouse-domEl-Opacity-point-6"
                 handler: [
@@ -6160,7 +6178,7 @@
             ]
             connectors: [
               {
-                t: 17328.236676300345
+                t: 18525.393648195266
                 id: "no-id-Mouse-domEl-Opacity-connector-10"
               }
               {
