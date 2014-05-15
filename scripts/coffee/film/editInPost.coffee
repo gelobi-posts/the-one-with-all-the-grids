@@ -1,7 +1,7 @@
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
 EditingFilm = require 'tiny-filmmaking-studio/scripts/js/lib/EditingFilm'
 setupLane1 = require './lanes/1'
-# SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
+SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
 
 film = new EditingFilm
 
@@ -25,6 +25,6 @@ setupLane1 film
 
 film.run()
 
-# player = new SimplePlayer film
+player = new SimplePlayer film
 
 # film.theatre.model.audio.mute()
