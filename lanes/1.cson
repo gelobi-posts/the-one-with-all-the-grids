@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 259
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 6293.06600249066
+    t: 30071.39744237205
     _focus:
-      from: 3408.7440846824406
-      to: 42415.87563815283
+      from: 7344.438995423298
+      to: 46351.57054889369
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -158
+    scrollTop: 515
     guides:
       _list: [
         7944.070887026577
@@ -852,10 +852,16 @@
             actorPropId: "no-id-Mouse-domEl-Opacity"
             _height: 80
           }
+          {
+            id: "no-id-Intro-Alaki-Prog"
+            _expanded: true
+            actorPropId: "no-id-Intro-Alaki-Prog"
+            _height: 80
+          }
         ]
       }
     ]
-    _activeWorkspaceName: "More Tools 1"
+    _activeWorkspaceName: "Github"
 
   timeline:
     _allProps:
@@ -13883,5 +13889,39 @@
                 t: 126546.97064207227
                 id: "no-id-Project-Mail-Opacity-connector-5"
               }
+            ]
+
+      "no-id-Intro-Alaki-Prog":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 28908.52793476336
+          chronology:
+            points: [
+              {
+                t: 25644.33282568634
+                value: 22.5
+                id: "no-id-Intro-Alaki-Prog-point-0"
+                handler: [
+                  100
+                  2.25
+                  100
+                  2.25
+                ]
+              }
+              {
+                t: 28908.52793476336
+                value: 1
+                id: "no-id-Intro-Alaki-Prog-point-1"
+                handler: [
+                  650.8329467773438
+                  14.780625343322754
+                  0
+                  18.936874389648438
+                ]
+              }
+            ]
+            connectors: [
+              t: 25644.33282568634
+              id: "no-id-Intro-Alaki-Prog-connector-2"
             ]
 }
