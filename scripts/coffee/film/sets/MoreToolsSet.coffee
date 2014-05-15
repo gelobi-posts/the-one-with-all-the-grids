@@ -22,7 +22,7 @@ module.exports = class MoreToolsSet extends Set
 
 			opacity: [0, 1]
 
-			x: [-20, 0]
+			x: [20, 0]
 
 			scale: [0.8, 1]
 
