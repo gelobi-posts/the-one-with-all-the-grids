@@ -1,6 +1,6 @@
 Set = require('tiny-filmmaking-studio').Set
 
-module.exports = class EndingSet extends Set
+module.exports = class ProjectSet extends Set
 
 	constructor: ->
 
@@ -8,7 +8,7 @@ module.exports = class EndingSet extends Set
 
 		@id = 'project'
 
-		@container = @makeSetContainer([115000, 126000])
+		@container = @makeSetContainer([115000, 146000])
 		.set 'id', 'project-container'
 
 		@_github = @_makeEl '#project-github'

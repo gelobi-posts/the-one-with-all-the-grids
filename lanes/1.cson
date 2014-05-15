@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 117503.15251666911
+    t: 128887.1427746363
     _focus:
-      from: 112498.29883576976
-      to: 126585.73279527802
+      from: 121526.63157940556
+      to: 135614.0655389133
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -316
+    scrollTop: 24
     guides:
       _list: [
         7944.070887026577
@@ -32,6 +32,7 @@
         119998
         120983.58804514166
         122771.89662044535
+        126671.86938270254
         127102.30302932016
         130489.8543537973
         132159.99335671705
@@ -831,6 +832,18 @@
             id: "no-id-Project-Mail-Opacity"
             _expanded: true
             actorPropId: "no-id-Project-Mail-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-The Panel-Panel-Opacity"
+            _expanded: true
+            actorPropId: "no-id-The Panel-Panel-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-domEl-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Mouse-domEl-Opacity"
             _height: 80
           }
         ]
@@ -2277,7 +2290,7 @@
                 ]
               }
               {
-                t: 114873.70232649498
+                t: 114225.32670492768
                 value: 1
                 id: "no-id-The Panel-Panel-Opacity-point-17"
                 handler: [
@@ -2288,7 +2301,7 @@
                 ]
               }
               {
-                t: 115564.30832770237
+                t: 114915.93270613506
                 value: 0
                 id: "no-id-The Panel-Panel-Opacity-point-18"
                 handler: [
@@ -2357,7 +2370,7 @@
                 id: "no-id-The Panel-Panel-Opacity-connector-9"
               }
               {
-                t: 114873.70232649498
+                t: 114225.32670492768
                 id: "no-id-The Panel-Panel-Opacity-connector-19"
               }
               {
@@ -6140,7 +6153,7 @@
       "no-id-Mouse-domEl-Opacity":
         pacs:
           _idCounter: 10
-          chronologyLength: 115568.70910452164
+          chronologyLength: 115030.85205481238
           chronology:
             points: [
               {
@@ -6177,7 +6190,7 @@
                 ]
               }
               {
-                t: 114878.10310331425
+                t: 114340.24605360499
                 value: 1
                 id: "no-id-The Panel-Panel-Opacity-point-17"
                 handler: [
@@ -6188,7 +6201,7 @@
                 ]
               }
               {
-                t: 115568.70910452164
+                t: 115030.85205481238
                 value: 0
                 id: "no-id-The Panel-Panel-Opacity-point-18"
                 handler: [
@@ -6205,7 +6218,7 @@
                 id: "no-id-Mouse-domEl-Opacity-connector-10"
               }
               {
-                t: 114878.10310331425
+                t: 114340.24605360499
                 id: "no-id-The Panel-Panel-Opacity-connector-19"
               }
             ]
@@ -13744,12 +13757,12 @@
 
       "no-id-Project-Github-Opacity":
         pacs:
-          _idCounter: 3
-          chronologyLength: 117066.3998059032
+          _idCounter: 6
+          chronologyLength: 126937.46959597088
           chronology:
             points: [
               {
-                t: 116248.05434872919
+                t: 115570.20710799973
                 value: 0
                 id: "no-id-Project-Github-Opacity-point-0"
                 handler: [
@@ -13760,7 +13773,7 @@
                 ]
               }
               {
-                t: 117066.3998059032
+                t: 116388.55256517374
                 value: 1
                 id: "no-id-Project-Github-Opacity-point-1"
                 handler: [
@@ -13770,20 +13783,48 @@
                   0.0085249999538064
                 ]
               }
+              {
+                t: 126333.30140314679
+                value: 1
+                id: "no-id-Project-Github-Opacity-point-4"
+                handler: [
+                  100
+                  0.0882459357380867
+                  100
+                  0.0882459357380867
+                ]
+              }
+              {
+                t: 126937.46959597088
+                value: 0
+                id: "no-id-Project-Github-Opacity-point-5"
+                handler: [
+                  100
+                  -0.016323689371347427
+                  100
+                  -0.016323689371347427
+                ]
+              }
             ]
             connectors: [
-              t: 116248.05434872919
-              id: "no-id-Project-Github-Opacity-connector-3"
+              {
+                t: 115570.20710799973
+                id: "no-id-Project-Github-Opacity-connector-3"
+              }
+              {
+                t: 126333.30140314679
+                id: "no-id-Project-Github-Opacity-connector-6"
+              }
             ]
 
       "no-id-Project-Mail-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 117316.90856878148
+          _idCounter: 5
+          chronologyLength: 126922.73378638968
           chronology:
             points: [
               {
-                t: 116425.39208912649
+                t: 115924.37456336993
                 value: 0
                 id: "no-id-Project-Mail-Opacity-point-0"
                 handler: [
@@ -13794,7 +13835,7 @@
                 ]
               }
               {
-                t: 117316.90856878148
+                t: 116815.89104302492
                 value: 1
                 id: "no-id-Project-Mail-Opacity-point-1"
                 handler: [
@@ -13804,9 +13845,37 @@
                   0.007631250191479921
                 ]
               }
+              {
+                t: 126546.97064207227
+                value: 1
+                id: "no-id-Project-Mail-Opacity-point-3"
+                handler: [
+                  100
+                  0.057938795536756516
+                  100
+                  0.057938795536756516
+                ]
+              }
+              {
+                t: 126922.73378638968
+                value: -0.13224234944209456
+                id: "no-id-Project-Mail-Opacity-point-4"
+                handler: [
+                  100
+                  -0.01322423480451107
+                  100
+                  -0.01322423480451107
+                ]
+              }
             ]
             connectors: [
-              t: 116425.39208912649
-              id: "no-id-Project-Mail-Opacity-connector-2"
+              {
+                t: 115924.37456336993
+                id: "no-id-Project-Mail-Opacity-connector-2"
+              }
+              {
+                t: 126546.97064207227
+                id: "no-id-Project-Mail-Opacity-connector-5"
+              }
             ]
 }
