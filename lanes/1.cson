@@ -1,22 +1,22 @@
 {
   mainBox:
-    height: 357
+    height: 97
     _isVisible: true
 
   timeControl:
-    t: 11249.813569825394
+    t: 13123.87647770184
     _focus:
-      from: 6501.959954566327
-      to: 13558.935270801518
+      from: 9937.456317508202
+      to: 16994.43163374359
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -120
+    scrollTop: -48
     guides:
       _list: [
         7944.070887026577
-        12290.826241672643
+        12037.83637582346
         15677.829482161707
         17341.051850019703
         21568.140222508904
@@ -757,10 +757,24 @@
       {
         name: "Instructions"
         propHolders: [
-          id: "no-id-Instructions-View-progress"
-          _expanded: true
-          actorPropId: "no-id-Instructions-View-progress"
-          _height: 110
+          {
+            id: "no-id-Instructions-Focus-setFocus"
+            _expanded: true
+            actorPropId: "no-id-Instructions-Focus-setFocus"
+            _height: 80
+          }
+          {
+            id: "no-id-Instructions-View-progress"
+            _expanded: true
+            actorPropId: "no-id-Instructions-View-progress"
+            _height: 60
+          }
+          {
+            id: "no-id-Instructions-Scroll-scrollToInstructions"
+            _expanded: true
+            actorPropId: "no-id-Instructions-Scroll-scrollToInstructions"
+            _height: 46
+          }
         ]
       }
       {
@@ -776,12 +790,12 @@
             id: "no-id-Intro-Griddify-Scale"
             _expanded: true
             actorPropId: "no-id-Intro-Griddify-Scale"
-            _height: 80
+            _height: 196
           }
         ]
       }
     ]
-    _activeWorkspaceName: "Griddify"
+    _activeWorkspaceName: "Instructions"
 
   timeline:
     _allProps:
@@ -4487,7 +4501,7 @@
 
       "no-id-Intro-Griddify-Opacity":
         pacs:
-          _idCounter: 14
+          _idCounter: 18
           chronologyLength: 16427.688403204305
           chronology:
             points: [
@@ -4514,7 +4528,7 @@
                 ]
               }
               {
-                t: 11585.964747568814
+                t: 11098.436228312496
                 value: 1
                 id: "no-id-Intro-Griddify-Opacity-point-1"
                 handler: [
@@ -4525,11 +4539,11 @@
                 ]
               }
               {
-                t: 11940.363073755232
+                t: 11428.458128536098
                 value: 0
                 id: "no-id-Intro-Griddify-Opacity-point-0"
                 handler: [
-                  230.00759887695312
+                  286.88592529296875
                   0
                   205.6311798095703
                   0
@@ -4564,8 +4578,8 @@
                 id: "no-id-Intro-Griddify-Opacity-connector-13"
               }
               {
-                t: 11585.964747568814
-                id: "no-id-Intro-Griddify-Opacity-connector-14"
+                t: 11098.436228312496
+                id: "no-id-Intro-Griddify-Opacity-connector-18"
               }
               {
                 t: 16110.032856163545
@@ -13051,7 +13065,7 @@
           chronology:
             points: [
               {
-                t: 13630.407568929015
+                t: 12037.814406025032
                 value: 0
                 id: "no-id-Instructions-View-progress-point-0"
                 handler: [
@@ -13062,7 +13076,7 @@
                 ]
               }
               {
-                t: 14175.792765377528
+                t: 12583.199602473545
                 value: 1
                 id: "no-id-Instructions-View-progress-point-1"
                 handler: [
@@ -13097,7 +13111,7 @@
             ]
             connectors: [
               {
-                t: 13630.407568929015
+                t: 12037.814406025032
                 id: "no-id-Instructions-View-progress-connector-5"
               }
               {
@@ -13113,7 +13127,7 @@
           chronology:
             points: [
               {
-                t: 14094.083170175627
+                t: 12448.674417685545
                 value: 0
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-0"
                 handler: [
@@ -13124,7 +13138,7 @@
                 ]
               }
               {
-                t: 14650.878098767416
+                t: 13005.469346277334
                 value: 1
                 id: "no-id-Instructions-Scroll-scrollToInstructions-point-1"
                 handler: [
@@ -13147,7 +13161,7 @@
               }
             ]
             connectors: [
-              t: 14094.083170175627
+              t: 12448.674417685545
               id: "no-id-Instructions-Scroll-scrollToInstructions-connector-3"
             ]
 
@@ -13158,7 +13172,7 @@
           chronology:
             points: [
               {
-                t: 14627.570561505161
+                t: 14135.979304588373
                 value: 0
                 id: "no-id-Instructions-Focus-setFocus-point-1"
                 handler: [
@@ -13169,7 +13183,7 @@
                 ]
               }
               {
-                t: 14819.267432292023
+                t: 14327.676175375234
                 value: 1
                 id: "no-id-Instructions-Focus-setFocus-point-0"
                 handler: [
@@ -13681,35 +13695,35 @@
 
       "no-id-Intro-Griddify-Scale":
         pacs:
-          _idCounter: 9
+          _idCounter: 10
           chronologyLength: 12204.441021685738
           chronology:
             points: [
               {
-                t: 7463.226171918057
+                t: 7386.03415636914
                 value: 0.5
                 id: "no-id-Intro-Griddify-Scale-point-0"
                 handler: [
                   100
                   0.17454543709754944
-                  140.62738037109375
-                  0.22860445082187653
+                  189.38023376464844
+                  0.250733345746994
                 ]
               }
               {
                 t: 12204.441021685738
-                value: 1
+                value: 0.8
                 id: "no-id-Intro-Griddify-Scale-point-1"
                 handler: [
-                  534.7129516601562
-                  0.03336388245224953
+                  1152.2491455078125
+                  0
                   100
                   0.06039338558912277
                 ]
               }
             ]
             connectors: [
-              t: 7463.226171918057
-              id: "no-id-Intro-Griddify-Scale-connector-9"
+              t: 7386.03415636914
+              id: "no-id-Intro-Griddify-Scale-connector-10"
             ]
 }
