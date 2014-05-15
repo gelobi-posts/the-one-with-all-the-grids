@@ -14,11 +14,11 @@ module.exports = class EndingSet extends Set
 		@_github = @_makeEl '#project-github'
 		.html """
 
-			<span class="icon icon-github-1"></span>
+			<span class="icon icon-github-circled-4"></span>
 
 			<a target="_blank" href="https://github.com/AriaMinaei/griddify">
 
-				Griddify
+				github.com/AriaMinaei/griddify
 
 			</a>
 
@@ -34,7 +34,7 @@ module.exports = class EndingSet extends Set
 
 			<a target="_top" href="mailto:higelobi@gmail.com">
 
-				higelobi
+				higelobi@gmail.com
 
 			</a>
 
