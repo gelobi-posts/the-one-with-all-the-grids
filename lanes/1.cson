@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 30071.39744237205
+    t: 2634.62176403652
     _focus:
-      from: 7344.438995423298
-      to: 46351.57054889369
+      from: 0
+      to: 17018.232475803467
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 515
+    scrollTop: 312
     guides:
       _list: [
         7944.070887026577
@@ -841,6 +841,12 @@
             _height: 80
           }
           {
+            id: "no-id-Intro-Alaki-Prog"
+            _expanded: true
+            actorPropId: "no-id-Intro-Alaki-Prog"
+            _height: 167
+          }
+          {
             id: "no-id-The Panel-Panel-Opacity"
             _expanded: true
             actorPropId: "no-id-The Panel-Panel-Opacity"
@@ -850,12 +856,6 @@
             id: "no-id-Mouse-domEl-Opacity"
             _expanded: true
             actorPropId: "no-id-Mouse-domEl-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Intro-Alaki-Prog"
-            _expanded: true
-            actorPropId: "no-id-Intro-Alaki-Prog"
             _height: 80
           }
         ]
@@ -13893,35 +13893,35 @@
 
       "no-id-Intro-Alaki-Prog":
         pacs:
-          _idCounter: 2
-          chronologyLength: 28908.52793476336
+          _idCounter: 3
+          chronologyLength: 5553.794246659098
           chronology:
             points: [
               {
-                t: 25644.33282568634
-                value: 22.5
+                t: 2289.5991375820777
+                value: 0
                 id: "no-id-Intro-Alaki-Prog-point-0"
                 handler: [
-                  100
-                  2.25
-                  100
-                  2.25
+                  206.80899047851562
+                  0.6187499761581421
+                  260.2134704589844
+                  0.9063633680343628
                 ]
               }
               {
-                t: 28908.52793476336
+                t: 5553.794246659098
                 value: 1
                 id: "no-id-Intro-Alaki-Prog-point-1"
                 handler: [
-                  650.8329467773438
-                  14.780625343322754
+                  704.2374267578125
                   0
-                  18.936874389648438
+                  195.8164825439453
+                  0.6821739673614502
                 ]
               }
             ]
             connectors: [
-              t: 25644.33282568634
-              id: "no-id-Intro-Alaki-Prog-connector-2"
+              t: 2289.5991375820777
+              id: "no-id-Intro-Alaki-Prog-connector-3"
             ]
 }
