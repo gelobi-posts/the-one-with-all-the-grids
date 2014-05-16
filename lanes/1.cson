@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 198720.38427970756
+    t: 198862.0002529834
     _focus:
-      from: 191742.78685392163
-      to: 206188.65899765244
+      from: 193455.99909434054
+      to: 207901.87123807136
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 154
+    scrollTop: 490
     guides:
       _list: [
         7944.070887026577
@@ -207,6 +207,48 @@
             id: "no-id-Theatre-Fake Theatre-Opacity"
             _expanded: true
             actorPropId: "no-id-Theatre-Fake Theatre-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-More-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-More-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-About-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-About-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Theatrejs-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Theatrejs-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-In-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-In-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-The-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-The-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Coming-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Coming-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Weeks-Prog"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Weeks-Prog"
             _height: 80
           }
         ]
@@ -14943,5 +14985,107 @@
             connectors: [
               t: 152634.01586999898
               id: "no-id-Gelobi-Container-Opacity-connector-0"
+            ]
+
+      "no-id-Theatre-More-Prog":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 198712.06771543334
+          chronology:
+            points: [
+              {
+                t: 197763.97938821092
+                value: 0
+                id: "no-id-Theatre-More-Prog-point-0"
+                handler: [
+                  100
+                  -0.3231658935546875
+                  124.94969177246094
+                  0.5368919372558594
+                ]
+              }
+              {
+                t: 198712.06771543334
+                value: 1
+                id: "no-id-Theatre-More-Prog-point-1"
+                handler: [
+                  465.9288330078125
+                  -0.12735119462013245
+                  100
+                  -0.32582607865333557
+                ]
+              }
+            ]
+            connectors: [
+              t: 197763.97938821092
+              id: "no-id-Theatre-More-Prog-connector-4"
+            ]
+
+      "no-id-Theatre-About-Prog":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 198828.49961526765
+          chronology:
+            points: [
+              {
+                t: 197913.67754514076
+                value: 0
+                id: "no-id-Theatre-More-Prog-point-0"
+                handler: [
+                  100
+                  -0.3231658935546875
+                  124.94969177246094
+                  0.5368919372558594
+                ]
+              }
+              {
+                t: 198828.49961526765
+                value: 1
+                id: "no-id-Theatre-More-Prog-point-1"
+                handler: [
+                  465.9288330078125
+                  -0.12735119462013245
+                  100
+                  -0.32582607865333557
+                ]
+              }
+            ]
+            connectors: [
+              t: 197913.67754514076
+              id: "no-id-Theatre-About-Prog-connector-2"
+            ]
+
+      "no-id-Theatre-Theatrejs-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 199136.21249340114
+          chronology:
+            points: [
+              {
+                t: 198221.39042327425
+                value: 0
+                id: "no-id-Theatre-More-Prog-point-0"
+                handler: [
+                  100
+                  -0.3231658935546875
+                  124.94969177246094
+                  0.5368919372558594
+                ]
+              }
+              {
+                t: 199136.21249340114
+                value: 1
+                id: "no-id-Theatre-More-Prog-point-1"
+                handler: [
+                  465.9288330078125
+                  -0.12735119462013245
+                  100
+                  -0.32582607865333557
+                ]
+              }
+            ]
+            connectors: [
+              t: 198221.39042327425
+              id: "no-id-Theatre-About-Prog-connector-2"
             ]
 }

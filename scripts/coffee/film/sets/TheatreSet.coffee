@@ -220,7 +220,7 @@ module.exports = class TheatreSet extends Set
 
 		@lineContainer = @_makeEl '.theatre-more-line'
 		.inside @moreContainer
-		.html 'more about theatrejs in the coming weeks'
+		# .html 'more about theatrejs in the coming weeks'
 
 		# @_setupDomEl 'More Tools', 'Lines Container', @lineContainer, ['x', 'y', 'scaleAll', 'opacity']
 
