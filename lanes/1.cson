@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 139128.99499720772
+    t: 141234.9966974907
     _focus:
-      from: 132660.89007838766
-      to: 143963.98559544137
+      from: 136636.82062583734
+      to: 147939.91614289104
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 154
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -468,51 +468,21 @@
         name: "gelobi?"
         propHolders: [
           {
-            id: "no-id-Gelobi-Question Mark-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-Question Mark-Opacity"
-            _height: 83
-          }
-          {
-            id: "no-id-Gelobi-Question Mark-X"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-Question Mark-X"
-            _height: 91
-          }
-          {
-            id: "no-id-Gelobi-A Place-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-A Place-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Gelobi-A Place-Scale"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-A Place-Scale"
-            _height: 80
-          }
-          {
             id: "no-id-Gelobi-gelobi-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-X"
             _height: 70
           }
           {
-            id: "no-id-Gelobi-gelobi-Y"
+            id: "no-id-Gelobi-gelobi-Opacity"
             _expanded: true
-            actorPropId: "no-id-Gelobi-gelobi-Y"
+            actorPropId: "no-id-Gelobi-gelobi-Opacity"
             _height: 80
           }
           {
-            id: "no-id-More Tools-Lines Container-Scale"
+            id: "no-id-Gelobi-gelobi-Scale"
             _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-Scale"
-            _height: 80
-          }
-          {
-            id: "no-id-More Tools-Lines Container-X"
-            _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-X"
+            actorPropId: "no-id-Gelobi-gelobi-Scale"
             _height: 80
           }
         ]
@@ -729,7 +699,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "More Tools 3"
+    _activeWorkspaceName: "gelobi?"
 
   timeline:
     _allProps:
@@ -10272,7 +10242,7 @@
           chronology:
             points: [
               {
-                t: 141133.54452418225
+                t: 140541.3846554132
                 value: 0
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-1"
                 handler: [
@@ -10283,7 +10253,7 @@
                 ]
               }
               {
-                t: 142106.0305258825
+                t: 141513.87065711344
                 value: 1
                 id: "no-id-More Tools - 3-Demoes-Opacity-point-2"
                 handler: [
@@ -10318,7 +10288,7 @@
             ]
             connectors: [
               {
-                t: 141133.54452418225
+                t: 140541.3846554132
                 id: "no-id-More Tools - 3-Demoes-Opacity-connector-3"
               }
               {
@@ -14416,11 +14386,11 @@
       "no-id-More Tools - 3-Demoes-Prog":
         pacs:
           _idCounter: -1
-          chronologyLength: 134482.92044383005
+          chronologyLength: 138445.83648866924
           chronology:
             points: [
               {
-                t: 133584.91976371876
+                t: 137547.83580855795
                 value: 0
                 id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
                 handler: [
@@ -14431,7 +14401,7 @@
                 ]
               }
               {
-                t: 134482.92044383005
+                t: 138445.83648866924
                 value: 1
                 id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
                 handler: [
@@ -14443,7 +14413,7 @@
               }
             ]
             connectors: [
-              t: 133584.91976371876
+              t: 137547.83580855795
               id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
             ]
 
@@ -14552,11 +14522,11 @@
       "no-id-More Tools - 3-Weeks-Prog":
         pacs:
           _idCounter: -1
-          chronologyLength: 139354.7788182837
+          chronologyLength: 139328.74981306307
           chronology:
             points: [
               {
-                t: 138456.7781381724
+                t: 138430.74913295178
                 value: 0
                 id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
                 handler: [
@@ -14567,7 +14537,7 @@
                 ]
               }
               {
-                t: 139354.7788182837
+                t: 139328.74981306307
                 value: 1
                 id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
                 handler: [
@@ -14579,7 +14549,7 @@
               }
             ]
             connectors: [
-              t: 138456.7781381724
+              t: 138430.74913295178
               id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
             ]
 
