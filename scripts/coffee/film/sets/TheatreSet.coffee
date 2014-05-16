@@ -218,16 +218,64 @@ module.exports = class TheatreSet extends Set
 		.zIndex -50
 		.z 1
 
-		@linesContainer = @_makeEl '.theatre-more-lines'
+		@lineContainer = @_makeEl '.theatre-more-line'
 		.inside @moreContainer
 		.html 'more about theatrejs in the coming weeks'
 
-		# @_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll', 'opacity']
+		# @_setupDomEl 'More Tools', 'Lines Container', @lineContainer, ['x', 'y', 'scaleAll', 'opacity']
 
-		# set =
+		set =
 
-		# 	opacity: [-0.2, 1]
+			opacity: [-0.2, 1]
 
-		# 	x: [40, 0]
+			x: [40, 0]
 
-		# 	scale: [1.3, 1]
+			scale: [1.3, 1]
+
+		@_createWords [
+			'more', 'about', 'theatrejs', 'in', 'the,', 'coming',
+			'weeks'
+			], 'More', 'Theatre', set
+
+	_createWords: (words, pref, groupName, props) ->
+
+		said = []
+
+		for word in words
+
+			ident = word.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '')
+
+			if ident in said
+
+				i = 1
+
+				loop
+
+					i++
+
+					newIdent = String("#{ident}-#{i}")
+
+					break unless newIdent in said
+
+				ident = newIdent
+
+			said.push ident
+
+			@_createWord word, pref, ident, groupName, props
+
+		return
+
+	_createWord: (word, pref, ident, groupName, props) ->
+
+		el = @_makeEl ".theatre-#{pref}.theatre-#{pref}-#{ident}"
+		.html word
+		.inside @lineContainer
+		.z 1
+
+		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
+
+		# @_setupDomEl groupName, name, el, props
+
+		@_setupTangled groupName, name, 'Prog', el, props
+
+		return
