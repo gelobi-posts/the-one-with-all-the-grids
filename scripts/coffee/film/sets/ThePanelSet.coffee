@@ -13,7 +13,7 @@ module.exports = class ThePanelSet extends Set
 		.loadImage '../images/thePanel/bg.png', 2276
 		.loadImage '../images/thePanel/direction.png', 1030
 
-		@container = @makeSetContainer()
+		@container = @makeSetContainer [12001, 119000]
 		.transformStyle 'flat !important'
 		.zIndex -91
 
