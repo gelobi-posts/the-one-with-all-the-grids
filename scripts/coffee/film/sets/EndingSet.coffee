@@ -41,7 +41,7 @@ module.exports = class EndingSet extends Set
 
 			<a target="_blank" class="ending-twitter-link-a" href="https://twitter.com/gelobi_org">
 
-				<span>@gelobi</span><span class="underline">_</span><span>org<span>
+				<span>@gelobi</span><span class="ending-twitter-link-a-underline">_</span><span>org<span>
 
 			</a>
 

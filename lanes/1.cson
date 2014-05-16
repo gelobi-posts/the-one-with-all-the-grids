@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 323
+    height: 336
     _isVisible: true
 
   timeControl:
-    t: 204643.92565692795
+    t: 203996.927626029
     _focus:
-      from: 197960.10016762625
-      to: 212908.61034636555
+      from: 202699.09672138985
+      to: 217647.60690012915
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 12
+    scrollTop: -209
     guides:
       _list: [
         7944.070887026577
@@ -714,7 +714,7 @@
             id: "no-id-Ending-Facebook-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-Facebook-Opacity"
-            _height: 89
+            _height: 95
           }
           {
             id: "no-id-Ending-Twitter-Opacity"
@@ -730,8 +730,55 @@
           }
         ]
       }
+      {
+        name: "Credits"
+        propHolders: [
+          {
+            id: "no-id-Ending-Created By-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Created By-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Aria-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Aria-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pouria-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pouria-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pouya-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pouya-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-gelobi-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-gelobi-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-Pixana-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pixana-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Ending-CC-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-CC-Opacity"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "Ending"
+    _activeWorkspaceName: "Credits"
 
   timeline:
     _allProps:
@@ -15359,34 +15406,34 @@
       "no-id-Ending-Newsletter-Opacity":
         pacs:
           _idCounter: 2
-          chronologyLength: 212871.52264197014
+          chronologyLength: 205279.99367567524
           chronology:
             points: [
               {
-                t: 211946.82247693426
+                t: 204355.29351063937
                 value: 0
                 id: "no-id-Ending-Newsletter-Opacity-point-0"
                 handler: [
                   100
                   0.08200271427631378
-                  100
-                  0.08200271427631378
+                  264.18341064453125
+                  0.9687658548355103
                 ]
               }
               {
-                t: 212871.52264197014
+                t: 205279.99367567524
                 value: 1
                 id: "no-id-Ending-Newsletter-Opacity-point-1"
                 handler: [
-                  100
-                  0.0069702304899692535
+                  240.72865295410156
+                  0.03214448690414429
                   100
                   0.0069702304899692535
                 ]
               }
             ]
             connectors: [
-              t: 211946.82247693426
+              t: 204355.29351063937
               id: "no-id-Ending-Newsletter-Opacity-connector-2"
             ]
 }
