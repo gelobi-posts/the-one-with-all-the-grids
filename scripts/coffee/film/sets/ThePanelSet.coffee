@@ -17,6 +17,8 @@ module.exports = class ThePanelSet extends Set
 		.transformStyle 'flat !important'
 		.zIndex -91
 
+		@_appendElementOnTime @container, @film.display.stageContainer, [152000, 168000]
+
 		panelHtml = """
 		<div style="width: 246px">
 

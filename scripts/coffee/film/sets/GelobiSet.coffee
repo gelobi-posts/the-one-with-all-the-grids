@@ -13,6 +13,8 @@ module.exports = class GelobiSet extends Set
 		.transformStyle 'flat !important'
 		.zIndex -50
 
+		@_setupDomEl 'Gelobi', 'Container', @container, ['opacity']
+
 		@gelobi = @_makeEl '.gelobi-gelobi'
 		.html 'gelobi'
 		.z 3
@@ -27,27 +29,15 @@ module.exports = class GelobiSet extends Set
 
 		@_setupDomEl 'Gelobi', 'Question Mark', @questionMark, ['x', 'opacity']
 
-		###
-		###
-
 		set =
 
 			opacity: [0, 1]
 
 			x: [40, 0]
 
-			# scale: [1.3, 1]
-
 		@_createWords [
 			'a', 'place', '(blog)', 'to', 'experiment', 'with', 'the', 'web'
 			], 'aPlace', 'Gelobi', set
-
-		# @aPlace = @_makeEl '.gelobi-aPlacea'
-		# .inside @container
-		# .html 'a place (blog) to experiment with the web'
-		# .z 1
-
-		# @_setupDomEl 'Gelobi', 'A Place', @aPlace, ['x', 'scaleAll', 'opacity']
 
 
 	_createWords: (words, pref, groupName, props) ->
