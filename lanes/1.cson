@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 351
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 180859.83902131312
+    t: 180616.38730011496
     _focus:
-      from: 175421.3071492805
-      to: 183596.59472932067
+      from: 176724.89606211812
+      to: 184900.18364215828
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 291
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -568,51 +568,51 @@
         name: "Lackor"
         propHolders: [
           {
-            id: "no-id-Theatre-Theatre Typo-Opacity"
+            id: "no-id-Theatre-Animation anyKind any-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Theatre Typo-Opacity"
+            actorPropId: "no-id-Theatre-Animation anyKind any-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Theatre Typo-X"
+            id: "no-id-Theatre-Animation anyKind any-X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Theatre Typo-X"
+            actorPropId: "no-id-Theatre-Animation anyKind any-X"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation Tool Web-based-Opacity"
+            id: "no-id-Theatre-Animation anyKind Kind-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Web-based-Opacity"
+            actorPropId: "no-id-Theatre-Animation anyKind Kind-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation Tool Web-based-Scale"
+            id: "no-id-Theatre-Animation anyKind Kind-X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Web-based-Scale"
+            actorPropId: "no-id-Theatre-Animation anyKind Kind-X"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation Tool Animation-Opacity"
+            id: "no-id-Theatre-Animation anyKind of-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Animation-Opacity"
-            _height: 82
-          }
-          {
-            id: "no-id-Theatre-Animation Tool Animation-Scale"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Animation-Scale"
+            actorPropId: "no-id-Theatre-Animation anyKind of-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation Tool Tool-Opacity"
+            id: "no-id-Theatre-Animation anyKind of-X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Tool-Opacity"
+            actorPropId: "no-id-Theatre-Animation anyKind of-X"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation Tool Tool-Scale"
+            id: "no-id-Theatre-Animation anyKind js-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation Tool Tool-Scale"
+            actorPropId: "no-id-Theatre-Animation anyKind js-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-Animation anyKind js-X"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Animation anyKind js-X"
             _height: 80
           }
         ]
