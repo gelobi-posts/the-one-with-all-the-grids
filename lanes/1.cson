@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 336
+    height: 189
     _isVisible: true
 
   timeControl:
-    t: 203996.927626029
+    t: 212004.56215839044
     _focus:
-      from: 202699.09672138985
-      to: 217647.60690012915
+      from: 204309.65796449748
+      to: 219258.16814323678
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -209
+    scrollTop: 173
     guides:
       _list: [
         7944.070887026577
@@ -740,6 +740,12 @@
             _height: 80
           }
           {
+            id: "no-id-Ending-Pouya-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Ending-Pouya-Opacity"
+            _height: 80
+          }
+          {
             id: "no-id-Ending-Aria-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-Aria-Opacity"
@@ -749,12 +755,6 @@
             id: "no-id-Ending-Pouria-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-Pouria-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Ending-Pouya-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Ending-Pouya-Opacity"
             _height: 80
           }
           {
@@ -13194,7 +13194,7 @@
           chronology:
             points: [
               {
-                t: 207761.17343791315
+                t: 209363.91642255834
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13205,7 +13205,7 @@
                 ]
               }
               {
-                t: 208188.57485052984
+                t: 209791.31783517502
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13216,7 +13216,7 @@
                 ]
               }
               {
-                t: 208518.85502268167
+                t: 210121.59800732686
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13227,7 +13227,7 @@
                 ]
               }
               {
-                t: 209034.61927744324
+                t: 210637.36226208843
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13284,11 +13284,11 @@
             ]
             connectors: [
               {
-                t: 207761.17343791315
+                t: 209363.91642255834
                 id: "no-id-Ending-Created By-Opacity-connector-2"
               }
               {
-                t: 208518.85502268167
+                t: 210121.59800732686
                 id: "no-id-Ending-gelobi-Opacity-connector-1"
               }
               {
@@ -13304,11 +13304,11 @@
       "no-id-Ending-Pouria-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 210513.64328259698
+          chronologyLength: 211999.11239031688
           chronology:
             points: [
               {
-                t: 209240.1974430669
+                t: 210725.6665507868
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13319,7 +13319,7 @@
                 ]
               }
               {
-                t: 209667.59885568358
+                t: 211153.06796340348
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13330,7 +13330,7 @@
                 ]
               }
               {
-                t: 209997.8790278354
+                t: 211483.3481355553
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13341,7 +13341,7 @@
                 ]
               }
               {
-                t: 210513.64328259698
+                t: 211999.11239031688
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13354,11 +13354,11 @@
             ]
             connectors: [
               {
-                t: 209240.1974430669
+                t: 210725.6665507868
                 id: "no-id-Ending-Created By-Opacity-connector-2"
               }
               {
-                t: 209997.8790278354
+                t: 211483.3481355553
                 id: "no-id-Ending-gelobi-Opacity-connector-1"
               }
             ]
@@ -13366,11 +13366,11 @@
       "no-id-Ending-Pouya-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 211985.07669744437
+          chronologyLength: 209107.95758354475
           chronology:
             points: [
               {
-                t: 210711.63085791428
+                t: 207834.51174401466
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13381,7 +13381,7 @@
                 ]
               }
               {
-                t: 211139.03227053097
+                t: 208261.91315663134
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13392,7 +13392,7 @@
                 ]
               }
               {
-                t: 211469.3124426828
+                t: 208592.19332878318
                 value: 1
                 id: "no-id-Ending-Created By-Opacity-point-0"
                 handler: [
@@ -13403,7 +13403,7 @@
                 ]
               }
               {
-                t: 211985.07669744437
+                t: 209107.95758354475
                 value: 0
                 id: "no-id-Ending-Created By-Opacity-point-1"
                 handler: [
@@ -13416,11 +13416,11 @@
             ]
             connectors: [
               {
-                t: 210711.63085791428
+                t: 207834.51174401466
                 id: "no-id-Ending-Created By-Opacity-connector-2"
               }
               {
-                t: 211469.3124426828
+                t: 208592.19332878318
                 id: "no-id-Ending-gelobi-Opacity-connector-1"
               }
             ]
