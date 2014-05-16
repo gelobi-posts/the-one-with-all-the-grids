@@ -21,11 +21,11 @@ module.exports = class EndingSet extends Set
 		@_fbLink = @_makeEl '#ending-fb-link'
 		.html """
 
-			<span class="icon icon-facebook-5"></span>
+			<span class="icon icon-facebook-rect-1"></span>
 
 			<a target="_blank" href="https://facebook.com/gelobi.org">
 
-				gelobi.org
+				fb.com/gelobi.org
 
 			</a>
 

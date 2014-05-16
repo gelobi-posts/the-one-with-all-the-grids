@@ -1,13 +1,13 @@
 {
   mainBox:
     height: 323
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 200999.1228907499
+    t: 205269.5878661088
     _focus:
-      from: 194753.38312106548
-      to: 209199.2552647963
+      from: 0
+      to: 421111
 
     _lastPlayedTickAt: 0
 
@@ -714,7 +714,7 @@
             id: "no-id-Ending-Facebook-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-Facebook-Opacity"
-            _height: 80
+            _height: 89
           }
           {
             id: "no-id-Ending-Twitter-Opacity"
@@ -15257,11 +15257,11 @@
       "no-id-Theatre-More Line Container-Opacity":
         pacs:
           _idCounter: 2
-          chronologyLength: 202778.86764536038
+          chronologyLength: 201880.67870378128
           chronology:
             points: [
               {
-                t: 201988.7940393417
+                t: 201090.6050977626
                 value: 1
                 id: "no-id-Theatre-More Line Container-Opacity-point-0"
                 handler: [
@@ -15272,7 +15272,7 @@
                 ]
               }
               {
-                t: 202778.86764536038
+                t: 201880.67870378128
                 value: 0
                 id: "no-id-Theatre-More Line Container-Opacity-point-1"
                 handler: [
@@ -15284,7 +15284,109 @@
               }
             ]
             connectors: [
-              t: 201988.7940393417
+              t: 201090.6050977626
               id: "no-id-Theatre-More Line Container-Opacity-connector-2"
+            ]
+
+      "no-id-Ending-Facebook-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 203610.5240727483
+          chronology:
+            points: [
+              {
+                t: 202753.91795253858
+                value: 0
+                id: "no-id-Ending-Facebook-Opacity-point-0"
+                handler: [
+                  100
+                  0.09552986174821854
+                  100
+                  0.09552986174821854
+                ]
+              }
+              {
+                t: 203610.5240727483
+                value: 1
+                id: "no-id-Ending-Facebook-Opacity-point-1"
+                handler: [
+                  100
+                  0.003082228358834982
+                  100
+                  0.003082228358834982
+                ]
+              }
+            ]
+            connectors: [
+              t: 202753.91795253858
+              id: "no-id-Ending-Facebook-Opacity-connector-2"
+            ]
+
+      "no-id-Ending-Twitter-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 203649.91901136155
+          chronology:
+            points: [
+              {
+                t: 202770.55108108633
+                value: 0
+                id: "no-id-Ending-Twitter-Opacity-point-0"
+                handler: [
+                  100
+                  0.07950271666049957
+                  100
+                  0.07950271666049957
+                ]
+              }
+              {
+                t: 203649.91901136155
+                value: 1
+                id: "no-id-Ending-Twitter-Opacity-point-1"
+                handler: [
+                  100
+                  0.006757731083780527
+                  100
+                  0.006757731083780527
+                ]
+              }
+            ]
+            connectors: [
+              t: 202770.55108108633
+              id: "no-id-Ending-Twitter-Opacity-connector-2"
+            ]
+
+      "no-id-Ending-Newsletter-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 203695.2512461222
+          chronology:
+            points: [
+              {
+                t: 202770.55108108633
+                value: 0
+                id: "no-id-Ending-Newsletter-Opacity-point-0"
+                handler: [
+                  100
+                  0.08200271427631378
+                  100
+                  0.08200271427631378
+                ]
+              }
+              {
+                t: 203695.2512461222
+                value: 1
+                id: "no-id-Ending-Newsletter-Opacity-point-1"
+                handler: [
+                  100
+                  0.0069702304899692535
+                  100
+                  0.0069702304899692535
+                ]
+              }
+            ]
+            connectors: [
+              t: 202770.55108108633
+              id: "no-id-Ending-Newsletter-Opacity-connector-2"
             ]
 }
