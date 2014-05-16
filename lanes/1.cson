@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 142294.64759769957
+    t: 145567.34706535394
     _focus:
-      from: 140108.22657979696
-      to: 146890.03605854127
+      from: 140119.9395495357
+      to: 146901.74902828
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 366
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -494,7 +494,7 @@
             id: "no-id-Gelobi-gelobi-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-X"
-            _height: 80
+            _height: 79
           }
           {
             id: "no-id-More Tools-Lines Container-X"
@@ -9955,8 +9955,8 @@
                 handler: [
                   100
                   -50.029998779296875
-                  272.9439392089844
-                  -18.90452766418457
+                  323.70013427734375
+                  0
                 ]
               }
               {
@@ -10186,8 +10186,8 @@
                 handler: [
                   100
                   -50.029998779296875
-                  272.9439392089844
-                  -18.90452766418457
+                  331.5086975097656
+                  0
                 ]
               }
               {
@@ -14680,8 +14680,8 @@
 
       "no-id-More Tools-Lines Container-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 144344.41730198317
+          _idCounter: 4
+          chronologyLength: 144188.24437213296
           chronology:
             points: [
               {
@@ -14696,7 +14696,7 @@
                 ]
               }
               {
-                t: 144344.41730198317
+                t: 144188.24437213296
                 value: 0
                 id: "no-id-More Tools-Lines Container-Opacity-point-1"
                 handler: [
@@ -14709,6 +14709,6 @@
             ]
             connectors: [
               t: 143216.06788381556
-              id: "no-id-More Tools-Lines Container-Opacity-connector-2"
+              id: "no-id-More Tools-Lines Container-Opacity-connector-4"
             ]
 }
