@@ -13,7 +13,6 @@ module.exports = class MoreToolsSet extends Set
 		.z 2
 		.zIndex -50
 
-
 		@linesContainer = @_makeEl '.moreTools-lines'
 		.z 1
 		.inside @container

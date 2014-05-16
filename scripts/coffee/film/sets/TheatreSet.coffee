@@ -10,7 +10,8 @@ module.exports = class TheatreSet extends Set
 
 		@container = @makeSetContainer([167000])
 		.set 'id', 'theatre-container'
-		.z 3
+		.zIndex -50
+		.z 1
 
 		do @_prepareTypography
 
@@ -20,10 +21,13 @@ module.exports = class TheatreSet extends Set
 
 		do @_prepareTheBall
 
+		do @_prepareMore
+
 	_prepareTypography: ->
 
 		@typoContainer = @makeSetContainer([166000, 183000])
 		.set 'id', 'theatre-typoContainer'
+		.zIndex -50
 
 		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
 		.html 'theatre'
@@ -206,3 +210,24 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', "The Ball", @theBall, [
 			'xy', 'scale'
 		]
+
+	_prepareMore: ->
+
+		@moreContainer = @makeSetContainer([194000])
+		.set 'id', 'theatre-moreContainer'
+		.zIndex -50
+		.z 1
+
+		@linesContainer = @_makeEl '.theatre-more-lines'
+		.inside @moreContainer
+		.html 'more about theatrejs in the coming weeks'
+
+		# @_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll', 'opacity']
+
+		# set =
+
+		# 	opacity: [-0.2, 1]
+
+		# 	x: [40, 0]
+
+		# 	scale: [1.3, 1]

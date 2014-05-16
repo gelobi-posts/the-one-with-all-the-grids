@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 40
+    height: 323
     _isVisible: true
 
   timeControl:
-    t: 199460.66942548528
+    t: 197930.3106736889
     _focus:
-      from: 198491.3895578974
-      to: 202006.29379589355
+      from: 191742.78685392163
+      to: 206188.65899765244
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 295
+    scrollTop: 159
     guides:
       _list: [
         7944.070887026577
@@ -195,7 +195,7 @@
             id: "no-id-Theatre-Browser Viewport-Opacity"
             _expanded: true
             actorPropId: "no-id-Theatre-Browser Viewport-Opacity"
-            _height: 80
+            _height: 72
           }
           {
             id: "no-id-Theatre-Browser Mockup-Opacity"
@@ -10634,7 +10634,7 @@
       "no-id-Theatre-Fake Theatre-Opacity":
         pacs:
           _idCounter: 4
-          chronologyLength: 200186.06384703386
+          chronologyLength: 195495.52159656514
           chronology:
             points: [
               {
@@ -10671,7 +10671,7 @@
                 ]
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-1"
                 handler: [
@@ -10682,7 +10682,7 @@
                 ]
               }
               {
-                t: 200186.06384703386
+                t: 195495.52159656514
                 value: 0
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10699,7 +10699,7 @@
                 id: "no-id-Theatre-Fake Theatre-Opacity-connector-4"
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 id: "no-id-Theatre-Browser Viewport-Opacity-connector-6"
               }
             ]
@@ -10707,7 +10707,7 @@
       "no-id-Theatre-Browser Viewport-Opacity":
         pacs:
           _idCounter: 8
-          chronologyLength: 200186.06384703386
+          chronologyLength: 195495.52159656514
           chronology:
             points: [
               {
@@ -10744,7 +10744,7 @@
                 ]
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-1"
                 handler: [
@@ -10755,7 +10755,7 @@
                 ]
               }
               {
-                t: 200186.06384703386
+                t: 195495.52159656514
                 value: 0
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10772,7 +10772,7 @@
                 id: "no-id-Theatre-Browser Viewport-Opacity-connector-8"
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 id: "no-id-Theatre-Browser Viewport-Opacity-connector-6"
               }
             ]
@@ -10780,7 +10780,7 @@
       "no-id-Theatre-Browser Mockup-Opacity":
         pacs:
           _idCounter: 4
-          chronologyLength: 200186.06384703386
+          chronologyLength: 195495.52159656514
           chronology:
             points: [
               {
@@ -10817,7 +10817,7 @@
                 ]
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-1"
                 handler: [
@@ -10828,7 +10828,7 @@
                 ]
               }
               {
-                t: 200186.06384703386
+                t: 195495.52159656514
                 value: 0
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10845,7 +10845,7 @@
                 id: "no-id-Theatre-Browser Mockup-Opacity-connector-4"
               }
               {
-                t: 199899.3601513125
+                t: 195208.81790084377
                 id: "no-id-Theatre-Browser Viewport-Opacity-connector-6"
               }
             ]
