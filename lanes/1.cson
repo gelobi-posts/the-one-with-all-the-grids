@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 351
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 178898.28648345714
+    t: 180859.83902131312
     _focus:
-      from: 178565.28648345842
-      to: 186740.57406349859
+      from: 175421.3071492805
+      to: 183596.59472932067
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 318
+    scrollTop: 291
     guides:
       _list: [
         7944.070887026577
@@ -595,7 +595,7 @@
             id: "no-id-Theatre-Animation Tool Animation-Opacity"
             _expanded: true
             actorPropId: "no-id-Theatre-Animation Tool Animation-Opacity"
-            _height: 80
+            _height: 82
           }
           {
             id: "no-id-Theatre-Animation Tool Animation-Scale"
