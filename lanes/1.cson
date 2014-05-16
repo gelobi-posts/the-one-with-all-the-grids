@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 149970.63074474668
+    t: 150912.1927525123
     _focus:
-      from: 145629.02329491152
-      to: 152410.83277365583
+      from: 147322.65407573804
+      to: 154104.46355448235
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 600
+    scrollTop: 250
     guides:
       _list: [
         7944.070887026577
@@ -14949,7 +14949,7 @@
           chronology:
             points: [
               {
-                t: 149833.97943112778
+                t: 149728.5627034789
                 value: 0
                 id: "no-id-Gelobi-A-Prog-point-0"
                 handler: [
@@ -14960,7 +14960,7 @@
                 ]
               }
               {
-                t: 150595.32246414747
+                t: 150489.9057364986
                 value: 1
                 id: "no-id-Gelobi-A-Prog-point-1"
                 handler: [
@@ -14995,7 +14995,7 @@
             ]
             connectors: [
               {
-                t: 149833.97943112778
+                t: 149728.5627034789
                 id: "no-id-Gelobi-Blog-Prog-connector-9"
               }
               {
@@ -15007,11 +15007,11 @@
       "no-id-Gelobi-The-Prog":
         pacs:
           _idCounter: -1
-          chronologyLength: 150665.60028258
+          chronologyLength: 150603.13111063998
           chronology:
             points: [
               {
-                t: 149904.25724956032
+                t: 149841.7880776203
                 value: 0
                 id: "no-id-Gelobi-A-Prog-point-0"
                 handler: [
@@ -15022,7 +15022,7 @@
                 ]
               }
               {
-                t: 150665.60028258
+                t: 150603.13111063998
                 value: 1
                 id: "no-id-Gelobi-A-Prog-point-1"
                 handler: [
@@ -15034,18 +15034,18 @@
               }
             ]
             connectors: [
-              t: 149904.25724956032
+              t: 149841.7880776203
               id: "no-id-Gelobi-Blog-Prog-connector-9"
             ]
 
       "no-id-Gelobi-Web-Prog":
         pacs:
           _idCounter: -1
-          chronologyLength: 150739.78242425885
+          chronologyLength: 150724.16513127382
           chronology:
             points: [
               {
-                t: 149978.43939123917
+                t: 149962.82209825414
                 value: 0
                 id: "no-id-Gelobi-A-Prog-point-0"
                 handler: [
@@ -15056,7 +15056,7 @@
                 ]
               }
               {
-                t: 150739.78242425885
+                t: 150724.16513127382
                 value: 1
                 id: "no-id-Gelobi-A-Prog-point-1"
                 handler: [
@@ -15068,7 +15068,7 @@
               }
             ]
             connectors: [
-              t: 149978.43939123917
+              t: 149962.82209825414
               id: "no-id-Gelobi-Blog-Prog-connector-9"
             ]
 }
