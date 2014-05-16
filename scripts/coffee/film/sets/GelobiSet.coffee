@@ -77,7 +77,7 @@ module.exports = class GelobiSet extends Set
 
 	_createWord: (word, pref, ident, groupName, props) ->
 
-		el = @_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
+		el = @_makeEl ".gelobi-#{pref}.gelobi-#{pref}-#{ident}"
 		.html word
 		.inside @container
 		.z 1
