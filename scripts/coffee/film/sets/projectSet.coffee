@@ -14,9 +14,9 @@ module.exports = class ProjectSet extends Set
 		@_github = @_makeEl '#project-github'
 		.html """
 
-			<span class="icon icon-github-squared"></span>
+			<span class="project-github-icon icon-github-squared"></span>
 
-			<a target="_blank" href="https://github.com/AriaMinaei/griddify">
+			<a target="_blank" class="project-github-a" href="https://github.com/AriaMinaei/griddify">
 
 				github.com/AriaMinaei/griddify
 
@@ -30,9 +30,9 @@ module.exports = class ProjectSet extends Set
 		@_mail = @_makeEl '#project-mail'
 		.html """
 
-			<span class="icon project-mail-icon icon-mail-alt"></span>
+			<span class="project-mail-icon project-mail-icon icon-email"></span>
 
-			<a target="_top" href="mailto:higelobi@gmail.com">
+			<a target="_top" class="project-mail-a" href="mailto:higelobi@gmail.com">
 
 				higelobi@gmail.com
 

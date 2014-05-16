@@ -1,17 +1,40 @@
-.link
+@mixin project-thingy
 
 	font-family: "Droid Sans", Helvetica, sans-serif
 	color: #FFF
 	font-weight: 400
 	font-size: 22px
 
-	top: calc(50vh - 10px)
-
-.linkU
-
+	top: calc(50% - 10px)
 	position: absolute
 
-	left: 50px
+#project-github
+
+	@include project-thingy
+
+	left: calc(50% - 390px)
+
+#project-mail
+
+	@include project-thingy
+
+	left: calc(50% + 100px)
+
+.project-mail-icon, .project-github-icon
+
+	position: relative
+
+	top: 2px
+	left: 4px
+
+	position: relative
+
+	display: inline-block
+
+.ending-fb-link-a, .ending-twitter-link-a
+
+	display: inline-block
+	position: relative
 
 	&:before
 
@@ -56,46 +79,3 @@
 			@include transform(scale(1) translateZ(-1px))
 
 			opacity: 1
-
-.icon
-
-	font-size: 23px
-
-	position: absolute
-
-	left: 0
-
-#project-github
-
-	@extend .link
-
-	position: absolute
-
-	left: calc(50vw - 390px)
-
-	> a
-
-		@extend .linkU
-
-	> .icon
-
-		top: 2px
-
-#project-mail
-
-	@extend .link
-
-	position: absolute
-
-	left: calc(50vw + 100px)
-
-	> .icon
-
-		font-size: 23px
-
-		top: 3px
-		left: 2px
-
-	> a
-
-		@extend .linkU

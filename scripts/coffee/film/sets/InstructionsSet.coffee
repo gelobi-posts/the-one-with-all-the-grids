@@ -13,11 +13,11 @@ module.exports = class InstructionsSet extends Set
 		@view
 		.perspective 1200
 
-		@_onTime 1, =>
+		# @_onTime 1, =>
 
-			if @film?.display?.fullscreen?
+		# 	if @film?.display?.fullscreen?
 
-				do @film.display.fullscreen
+		# 		do @film.display.fullscreen
 
 		do @_setupView
 
