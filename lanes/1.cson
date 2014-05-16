@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 145567.34706535394
+    t: 151172.62881782625
     _focus:
-      from: 140119.9395495357
-      to: 146901.74902828
+      from: 149039.62881782462
+      to: 155821.43829656893
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 120
     guides:
       _list: [
         7944.070887026577
@@ -485,6 +485,18 @@
             actorPropId: "no-id-Gelobi-gelobi-Opacity"
             _height: 80
           }
+          {
+            id: "no-id-Gelobi-A Place-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-A Place-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-A Place-Scale"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-A Place-Scale"
+            _height: 80
+          }
         ]
       }
       {
@@ -530,6 +542,18 @@
             id: "no-id-More Tools-Lines Container-Opacity"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-Question Mark-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-Question Mark-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Gelobi-Question Mark-X"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-Question Mark-X"
             _height: 80
           }
         ]
@@ -705,7 +729,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Gelobi Transition"
+    _activeWorkspaceName: "gelobi?"
 
   timeline:
     _allProps:
@@ -10074,19 +10098,19 @@
 
       "no-id-Gelobi-Question Mark-X":
         pacs:
-          _idCounter: 2
+          _idCounter: 3
           chronologyLength: 144707.8982021737
           chronology:
             points: [
               {
                 t: 144473.25088338467
-                value: 20
+                value: -10
                 id: "no-id-Gelobi-Question Mark-X-point-0"
                 handler: [
                   48.57044982910156
                   -1.8499999046325684
-                  51.78479766845703
-                  -9.550000190734863
+                  55.68912124633789
+                  9.020668983459473
                 ]
               }
               {
@@ -10103,7 +10127,7 @@
             ]
             connectors: [
               t: 144473.25088338467
-              id: "no-id-Gelobi-Question Mark-X-connector-2"
+              id: "no-id-Gelobi-Question Mark-X-connector-3"
             ]
 
       "no-id-Gelobi-gelobi-Scale":
@@ -14691,8 +14715,8 @@
                 handler: [
                   100
                   0.12499282509088516
-                  60.956764221191406
-                  -0.6062524914741516
+                  146.8518829345703
+                  -0.5781276822090149
                 ]
               }
               {
