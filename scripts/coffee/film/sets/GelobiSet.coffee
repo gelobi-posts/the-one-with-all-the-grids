@@ -39,10 +39,10 @@ module.exports = class GelobiSet extends Set
 			'a', 'place', '(blog)', 'to', 'experiment', 'with', 'the', 'web'
 			], 'aPlace', 'Gelobi', set
 
-		@aPlace = @_makeEl '.gelobi-aPlacea'
-		.inside @container
-		.html 'a place (blog) to experiment with the web'
-		.z 1
+		# @aPlace = @_makeEl '.gelobi-aPlacea'
+		# .inside @container
+		# .html 'a place (blog) to experiment with the web'
+		# .z 1
 
 		# @_setupDomEl 'Gelobi', 'A Place', @aPlace, ['x', 'scaleAll', 'opacity']
 
