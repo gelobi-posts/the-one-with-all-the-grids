@@ -37,9 +37,9 @@ module.exports = class EndingSet extends Set
 		@_twitLink = @_makeEl '#ending-twitter-link'
 		.html """
 
-			<span class="icon icon-twitter-rect"></span>
+			<span class="ending-twitter-link-icon icon-twitter-rect"></span>
 
-			<a target="_blank" href="https://twitter.com/gelobi_org">
+			<a target="_blank" class="ending-twitter-link-a" href="https://twitter.com/gelobi_org">
 
 				<span>@gelobi</span><span class="underline">_</span><span>org<span>
 

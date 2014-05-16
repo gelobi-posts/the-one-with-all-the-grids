@@ -6,16 +6,21 @@
 	font-size: 22px
 
 	top: calc(50vh - 10px)
+	position: absolute
 
 #ending-fb-link
 
 	@include ending-link
 
-	position: absolute
-
 	left: calc(50vw - 420px)
 
-.ending-fb-link-icon
+#ending-twitter-link
+
+	@include ending-link
+
+	left: calc(50vw + 120px)
+
+.ending-fb-link-icon, .ending-twitter-link-icon
 
 	font-size: 25px
 
@@ -33,6 +38,7 @@
 .ending-fb-link-a, .ending-twitter-link-a
 
 	display: inline-block
+	position: relative
 
 	&:before
 
@@ -78,34 +84,6 @@
 
 			opacity: 1
 
-#ending-twitter-link
-
-	@include ending-link
-
-	display: none
-
-	position: absolute
-
-	left: calc(50vw + 50px)
-
-	> a
-
-		width: 127px
-
-		@include ending-link
-
-		> span
-
-			display: inline-block
-
-		> .underline
-
-			margin:
-
-				left: 2px
-				right: 2px
-
-			@include transform(translateY(-4px))
 
 #ending-newsletter
 
