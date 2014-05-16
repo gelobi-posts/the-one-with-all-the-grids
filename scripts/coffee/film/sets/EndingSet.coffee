@@ -88,7 +88,7 @@ module.exports = class EndingSet extends Set
 
 	_prepareCredits: ->
 
-		created = @_makeEl '.credits .created'
+		created = @_makeEl '.credits.created'
 		.html 'Created by :'
 		.inside @container
 
