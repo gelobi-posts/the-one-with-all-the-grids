@@ -118,8 +118,14 @@ module.exports = class EndingSet extends Set
 
 		@_setupDomEl 'Ending', 'gelobi', gelobi, ['opacity']
 
+		powered = @_makeEl '.credits'
+		.html 'Powered by theatrejs'
+		.inside @container
+
+		@_setupDomEl 'Ending', 'powered', powered, ['opacity']
+
 		pixana = @_makeEl '.credits'
-		.html 'a Pixana Creative Studio Production'
+		.html 'a Pixana Product'
 		.inside @container
 
 		@_setupDomEl 'Ending', 'Pixana', pixana, ['opacity']
