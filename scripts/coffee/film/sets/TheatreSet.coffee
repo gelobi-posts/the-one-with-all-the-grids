@@ -222,7 +222,7 @@ module.exports = class TheatreSet extends Set
 		.inside @moreContainer
 		# .html 'more about theatrejs in the coming weeks'
 
-		# @_setupDomEl 'More Tools', 'Lines Container', @lineContainer, ['x', 'y', 'scaleAll', 'opacity']
+		@_setupDomEl 'Theatre', 'More Line Container', @lineContainer, ['opacity']
 
 		set =
 
@@ -233,7 +233,7 @@ module.exports = class TheatreSet extends Set
 			scale: [1.3, 1]
 
 		@_createWords [
-			'more', 'about', 'theatrejs', 'in', 'the,', 'coming',
+			'more', 'about', 'theatrejs', 'in', 'the', 'coming',
 			'weeks'
 			], 'More', 'Theatre', set
 
