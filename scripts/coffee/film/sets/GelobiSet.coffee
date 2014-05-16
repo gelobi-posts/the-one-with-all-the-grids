@@ -29,11 +29,11 @@ module.exports = class GelobiSet extends Set
 
 		set =
 
-			opacity: [-0.2, 1]
+			opacity: [0, 1]
 
 			x: [40, 0]
 
-			scale: [1.3, 1]
+			# scale: [1.3, 1]
 
 		@_createWords [
 			'a', 'place', '(blog)', 'to', 'experiment', 'with', 'the', 'web'
