@@ -13,7 +13,9 @@ module.exports = class ThePanelSet extends Set
 		.loadImage '../images/thePanel/bg.png', 2276
 		.loadImage '../images/thePanel/direction.png', 1030
 
-		container = @film.sets.photoshop.container
+		@container = @makeSetContainer()
+		.transformStyle 'flat !important'
+		.zIndex -91
 
 		panelHtml = """
 		<div style="width: 246px">
@@ -71,7 +73,7 @@ module.exports = class ThePanelSet extends Set
 		"""
 
 		@thePanel = @_makeEl '#thePanel.aPanel'
-		.inside container
+		.inside @container
 		.perspective 800
 
 		@panelBody = @_makeEl '.body'

@@ -8,7 +8,10 @@ module.exports = class GelobiSet extends Set
 
 		@id = 'gelobi'
 
-		@container = @film.sets['moreTools'].container
+		@container = @makeSetContainer()
+		.set 'id', 'gelobi-container'
+		.transformStyle 'flat !important'
+		.zIndex -50
 
 		@gelobi = @_makeEl '.gelobi-gelobi'
 		.html 'gelobi'
