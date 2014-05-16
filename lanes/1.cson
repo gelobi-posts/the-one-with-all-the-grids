@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 180781.94723885652
+    t: 180579.40908314908
     _focus:
-      from: 174766.96881209122
-      to: 182942.25639213138
+      from: 174484.57545872193
+      to: 182659.8630387621
 
     _lastPlayedTickAt: 0
 
@@ -577,7 +577,7 @@
             id: "no-id-Theatre-HTML El HTML-X"
             _expanded: true
             actorPropId: "no-id-Theatre-HTML El HTML-X"
-            _height: 80
+            _height: 86
           }
           {
             id: "no-id-Theatre-HTML El HTML-Scale"
