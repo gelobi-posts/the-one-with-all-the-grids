@@ -9,9 +9,7 @@
 
 .linkU
 
-	position: absolute
-
-	left: 50px
+	display: inline-block
 
 	&:before
 
@@ -61,7 +59,9 @@
 
 	font-size: 28px
 
-	position: absolute
+	position: relative
+
+	display: inline-block
 
 	left: 0
 
@@ -71,11 +71,16 @@
 
 	position: absolute
 
-	left: calc(50vw - 120px)
+	left: calc(50vw - 420px)
 
 	.icon
 
 		font-size: 25px
+
+		position: relative
+
+		top: 2px
+		left: 4px
 
 	> a
 
@@ -84,6 +89,8 @@
 #ending-twitter-link
 
 	@extend .link
+
+	display: none
 
 	position: absolute
 
@@ -114,10 +121,8 @@
 
 	position: absolute
 
-	@include centerifyX(320px)
-	top: calc(50vh + 150px)
-
-	// width: 300px
+	@include centralizeX(345px)
+	top: calc(50vh + 70px)
 
 	white-space: nowrap
 
