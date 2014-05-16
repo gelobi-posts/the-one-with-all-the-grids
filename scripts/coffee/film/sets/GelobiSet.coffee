@@ -24,12 +24,27 @@ module.exports = class GelobiSet extends Set
 
 		@_setupDomEl 'Gelobi', 'Question Mark', @questionMark, ['x', 'opacity']
 
-		@aPlace = @_makeEl '.gelobi-aPlace'
-		.inside @container
-		.html 'a place (blog) to experiment with the web'
-		.z 1
+		###
+		###
 
-		@_setupDomEl 'Gelobi', 'A Place', @aPlace, ['x', 'scaleAll', 'opacity']
+		set =
+
+			opacity: [-0.2, 1]
+
+			x: [40, 0]
+
+			scale: [1.3, 1]
+
+		@_createWords [
+			'a', 'place', '(blog)', 'to', 'experiment', 'with', 'the', 'web'
+			], 'aPlace', 'Gelobi', set
+
+		# @aPlace = @_makeEl '.gelobi-aPlace'
+		# .inside @container
+		# .html 'a place (blog) to experiment with the web'
+		# .z 1
+
+		# @_setupDomEl 'Gelobi', 'A Place', @aPlace, ['x', 'scaleAll', 'opacity']
 
 
 	_createWords: (words, pref, groupName, props) ->
@@ -62,13 +77,15 @@ module.exports = class GelobiSet extends Set
 
 	_createWord: (word, pref, ident, groupName, props) ->
 
-		el = @_makeEl ".gelobi-#{pref}.gelobi-#{pref}-#{ident}"
+		el = @_makeEl ".moreTools-#{pref}.moreTools-#{pref}-#{ident}"
 		.html word
-		.inside @linesContainer
+		.inside @container
 		.z 1
 
 		name = ident[0].toUpperCase() + ident.substr(1, ident.length)
 
-		@_setupDomEl groupName, name, el, props
+		# @_setupDomEl groupName, name, el, props
+
+		@_setupTangled groupName, name, 'Prog', el, props
 
 		return
