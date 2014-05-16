@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 180717.5559101038
+    t: 183436.44476052732
     _focus:
-      from: 175962.4340080209
-      to: 184137.72158806107
+      from: 179624.13449004226
+      to: 187799.42207008242
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 700
+    scrollTop: 189
     guides:
       _list: [
         7944.070887026577
@@ -189,12 +189,6 @@
             id: "no-id-Theatre-The Ball-X"
             _expanded: true
             actorPropId: "no-id-Theatre-The Ball-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-anyKind Container-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-anyKind Container-Opacity"
             _height: 80
           }
           {
@@ -645,10 +639,28 @@
             actorPropId: "no-id-Theatre-Animation anyKind Var-Z"
             _height: 80
           }
+          {
+            id: "no-id-Theatre-Tool Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-Tool Container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-HTML container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-HTML container-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Theatre-anyKind Container-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Theatre-anyKind Container-Opacity"
+            _height: 80
+          }
         ]
       }
     ]
-    _activeWorkspaceName: "Lackor"
+    _activeWorkspaceName: "Theatre"
 
   timeline:
     _allProps:
@@ -12664,8 +12676,8 @@
                 value: 0
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-7"
                 handler: [
-                  419.3089294433594
-                  0
+                  263.9925842285156
+                  -0.12770171463489532
                   100
                   -0.021613720804452896
                 ]
@@ -12679,45 +12691,45 @@
       "no-id-Theatre-HTML container-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 182822.25406214467
+          chronologyLength: 182784.60161502878
           chronology:
             points: [
               {
-                t: 182335.8314249532
+                t: 182298.17897783732
                 value: 1
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-6"
                 handler: [
-                  0
-                  -0.27756139636039734
-                  456.139404296875
-                  0
+                  37.65244674682617
+                  -0.3541824221611023
+                  404.3672790527344
+                  -0.1532420516014099
                 ]
               }
               {
-                t: 182822.25406214467
+                t: 182784.60161502878
                 value: 0
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-7"
                 handler: [
-                  419.3089294433594
-                  0
+                  207.51390075683594
+                  -0.07662102580070496
                   100
                   -0.021613720804452896
                 ]
               }
             ]
             connectors: [
-              t: 182335.8314249532
+              t: 182298.17897783732
               id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
             ]
 
       "no-id-Theatre-anyKind Container-Opacity":
         pacs:
           _idCounter: -1
-          chronologyLength: 182929.73581933172
+          chronologyLength: 182892.08337221583
           chronology:
             points: [
               {
-                t: 182443.31318214026
+                t: 182405.66073502437
                 value: 1
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-6"
                 handler: [
@@ -12728,19 +12740,19 @@
                 ]
               }
               {
-                t: 182929.73581933172
+                t: 182892.08337221583
                 value: 0
                 id: "no-id-Theatre-Theatre Typo-Opacity-point-7"
                 handler: [
-                  419.3089294433594
-                  0
+                  202.80734252929688
+                  -0.12770171463489532
                   100
                   -0.021613720804452896
                 ]
               }
             ]
             connectors: [
-              t: 182443.31318214026
+              t: 182405.66073502437
               id: "no-id-Theatre-Theatre Typo-Opacity-connector-11"
             ]
 

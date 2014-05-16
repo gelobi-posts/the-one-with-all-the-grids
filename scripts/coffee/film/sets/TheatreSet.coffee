@@ -26,12 +26,14 @@ module.exports = class TheatreSet extends Set
 		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
 		.html 'theatre'
 		.inside @container
+		.z 1
 
 		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity', 'x']
 
 		@_JsTypo = @_makeEl '#theatre-js-typo'
 		.html 'js'
 		.inside @container
+		.z 1
 
 		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll']
 
@@ -61,6 +63,7 @@ module.exports = class TheatreSet extends Set
 
 		@_html = @_makeEl '#theatre-html-typo'
 		.inside @container
+		.z 1
 
 		@_setupDomEl 'Theatre', 'HTML container', @_html, ['opacity']
 
