@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 141234.9966974907
+    t: 143055.27005760287
     _focus:
-      from: 136636.82062583734
-      to: 147939.91614289104
+      from: 141785.04108393384
+      to: 144758.60944951756
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -507
     guides:
       _list: [
         7944.070887026577
@@ -468,6 +468,12 @@
         name: "gelobi?"
         propHolders: [
           {
+            id: "no-id-Gelobi-gelobi-Scale"
+            _expanded: true
+            actorPropId: "no-id-Gelobi-gelobi-Scale"
+            _height: 79
+          }
+          {
             id: "no-id-Gelobi-gelobi-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-X"
@@ -477,12 +483,6 @@
             id: "no-id-Gelobi-gelobi-Opacity"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Gelobi-gelobi-Scale"
-            _expanded: true
-            actorPropId: "no-id-Gelobi-gelobi-Scale"
             _height: 80
           }
         ]
@@ -699,7 +699,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "gelobi?"
+    _activeWorkspaceName: "Instructions"
 
   timeline:
     _allProps:
@@ -10147,12 +10147,23 @@
 
       "no-id-Gelobi-gelobi-X":
         pacs:
-          _idCounter: 0
+          _idCounter: 2
           chronologyLength: 144332.8228631014
           chronology:
             points: [
               {
-                t: 141757.12780973117
+                t: 140575.37437297273
+                value: 356.79999999999995
+                id: "no-id-Gelobi-gelobi-X-point-1"
+                handler: [
+                  100
+                  -20.365278244018555
+                  100
+                  -20.365278244018555
+                ]
+              }
+              {
+                t: 141510.6143700973
                 value: 330
                 id: "no-id-Gelobi-gelobi-X-point-0"
                 handler: [
@@ -10186,8 +10197,14 @@
               }
             ]
             connectors: [
-              t: 143218.7053640189
-              id: "no-id-More Tools-Lines Container-X-connector-9"
+              {
+                t: 140575.37437297273
+                id: "no-id-Gelobi-gelobi-X-connector-2"
+              }
+              {
+                t: 143218.7053640189
+                id: "no-id-More Tools-Lines Container-X-connector-9"
+              }
             ]
 
       "no-id-Gelobi-gelobi-Y":
