@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons';
-  src: url('../font/icons.eot?59735793');
-  src: url('../font/icons.eot?59735793#iefix') format('embedded-opentype'),
-       url('../font/icons.woff?59735793') format('woff'),
-       url('../font/icons.ttf?59735793') format('truetype'),
-       url('../font/icons.svg?59735793#icons') format('svg');
+  src: url('../font/icons.eot?12601912');
+  src: url('../font/icons.eot?12601912#iefix') format('embedded-opentype'),
+       url('../font/icons.woff?12601912') format('woff'),
+       url('../font/icons.ttf?12601912') format('truetype'),
+       url('../font/icons.svg?12601912#icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'icons';
-    src: url('../font/icons.svg?59735793#icons') format('svg');
+    src: url('../font/icons.svg?12601912#icons') format('svg');
   }
 }
 */
@@ -89,6 +89,7 @@
 .icon-twitter-5:before { content: '\e850'; } /* '' */
 .icon-facebook-6:before { content: '\e84e'; } /* '' */
 .icon-facebook-circled-2:before { content: '\e84f'; } /* '' */
+.icon-facebook-squared-1:before { content: '\e880'; } /* '' */
 .icon-facebook-circled-1:before { content: '\e84b'; } /* '' */
 .icon-facebook-5:before { content: '\e84a'; } /* '' */
 .icon-github-circled-2:before { content: '\e848'; } /* '' */
@@ -113,8 +114,8 @@
 .icon-resize-small-2:before { content: '\e841'; } /* '' */
 .icon-popup:before { content: '\e83f'; } /* '' */
 .icon-right-dir:before { content: '\e83e'; } /* '' */
-.icon-squares:before { content: '\e840'; } /* '' */
 .icon-mail-alt:before { content: '\e864'; } /* '' */
+.icon-facebook-4:before { content: '\e83c'; } /* '' */
 .icon-facebook-rect-2:before { content: '\e83b'; } /* '' */
 .icon-twitter-3:before { content: '\e83a'; } /* '' */
 .icon-twitter-rect:before { content: '\e83d'; } /* '' */
@@ -177,4 +178,4 @@
 .icon-resize-full-4:before { content: '\e819'; } /* '' */
 .icon-facebook-rect:before { content: '\e818'; } /* '' */
 .icon-twitter-bird:before { content: '\e816'; } /* '' */
-.icon-facebook-4:before { content: '\e83c'; } /* '' */
+.icon-squares:before { content: '\e840'; } /* '' */

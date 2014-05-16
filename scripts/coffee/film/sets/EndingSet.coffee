@@ -21,7 +21,7 @@ module.exports = class EndingSet extends Set
 		@_fbLink = @_makeEl '#ending-fb-link'
 		.html """
 
-			<span class="icon icon-facebook-rect-1"></span>
+			<span class="icon icon-facebook-rect-2"></span>
 
 			<a target="_blank" href="https://facebook.com/gelobi.org">
 
@@ -37,7 +37,7 @@ module.exports = class EndingSet extends Set
 		@_twitLink = @_makeEl '#ending-twitter-link'
 		.html """
 
-			<span class="icon icon-twitter-3"></span>
+			<span class="icon icon-twitter-rect"></span>
 
 			<a target="_blank" href="https://twitter.com/gelobi_org">
 
