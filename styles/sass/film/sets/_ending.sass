@@ -20,7 +20,7 @@
 
 	left: calc(50vw - 150px)
 
-.ending-fb-link-icon, .ending-twitter-link-icon
+.ending-fb-link-icon, .ending-twitter-link-icon, .ending-newsletter-icon
 
 	font-size: 25px
 
@@ -84,15 +84,15 @@
 
 			opacity: 1
 
-
 #ending-newsletter
 
 	@include ending-link
 
 	position: absolute
+	white-space: nowrap
 
-	@include centralizeX(345px)
-	top: calc(50vh + 70px)
+	left: calc(50% + 120px)
+	top: calc(50vh - 10px)
 
 	white-space: nowrap
 
@@ -136,6 +136,11 @@
 		&:focus
 
 			outline: none
+
+.ending-newsletter-form
+
+	display: inline-block
+	position: relative
 
 .credits
 

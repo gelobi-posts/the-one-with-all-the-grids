@@ -53,7 +53,9 @@ module.exports = class EndingSet extends Set
 		@_newsletter = @_makeEl '#ending-newsletter'
 		.html """
 
-			<div class="newsletter" id="mc_embed_signup">
+			<div class="ending-newsletter-icon icon-mail-alt"></div>
+
+			<div class="ending-newsletter-form" id="mc_embed_signup">
 
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
