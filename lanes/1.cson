@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 134222.6303916239
+    t: 140030.38826797233
     _focus:
-      from: 130871.39596946911
-      to: 142174.49148652324
+      from: 133949.32583680734
+      to: 145252.42135386105
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 164
     guides:
       _list: [
         7944.070887026577
@@ -413,7 +413,56 @@
       }
       {
         name: "More Tools 3"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-More Tools - 3-Demoes-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Demoes-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-In-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-In-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-The-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-The-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-Coming-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Coming-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-Weeks-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Weeks-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-Right-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Right-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-Here-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-Here-Prog"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools - 3-In-2-Prog"
+            _expanded: true
+            actorPropId: "no-id-More Tools - 3-In-2-Prog"
+            _height: 80
+          }
+        ]
       }
       {
         name: "gelobi?"
@@ -14337,6 +14386,176 @@
             ]
             connectors: [
               t: 134299.37376536187
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools - 3-Demoes-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 140189.7798384507
+          chronology:
+            points: [
+              {
+                t: 139291.7791583394
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
+                handler: [
+                  191.10150146484375
+                  0.2398132085800171
+                  178.08702087402344
+                  0.7743591666221619
+                ]
+              }
+              {
+                t: 140189.7798384507
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
+                handler: [
+                  483.9278259277344
+                  0
+                  100
+                  -0.011308792047202587
+                ]
+              }
+            ]
+            connectors: [
+              t: 139291.7791583394
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools - 3-In-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 140313.41761324863
+          chronology:
+            points: [
+              {
+                t: 139415.41693313734
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
+                handler: [
+                  191.10150146484375
+                  0.2398132085800171
+                  178.08702087402344
+                  0.7743591666221619
+                ]
+              }
+              {
+                t: 140313.41761324863
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
+                handler: [
+                  483.9278259277344
+                  0
+                  100
+                  -0.011308792047202587
+                ]
+              }
+            ]
+            connectors: [
+              t: 139415.41693313734
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools - 3-The-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 140458.794341061
+          chronology:
+            points: [
+              {
+                t: 139560.7936609497
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
+                handler: [
+                  191.10150146484375
+                  0.2398132085800171
+                  178.08702087402344
+                  0.7743591666221619
+                ]
+              }
+              {
+                t: 140458.794341061
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
+                handler: [
+                  483.9278259277344
+                  0
+                  100
+                  -0.011308792047202587
+                ]
+              }
+            ]
+            connectors: [
+              t: 139560.7936609497
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools - 3-Coming-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 140586.794341061
+          chronology:
+            points: [
+              {
+                t: 139688.7936609497
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
+                handler: [
+                  191.10150146484375
+                  0.2398132085800171
+                  178.08702087402344
+                  0.7743591666221619
+                ]
+              }
+              {
+                t: 140586.794341061
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
+                handler: [
+                  483.9278259277344
+                  0
+                  100
+                  -0.011308792047202587
+                ]
+              }
+            ]
+            connectors: [
+              t: 139688.7936609497
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools - 3-Weeks-Prog":
+        pacs:
+          _idCounter: -1
+          chronologyLength: 140714.794341061
+          chronology:
+            points: [
+              {
+                t: 139816.7936609497
+                value: 0
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
+                handler: [
+                  191.10150146484375
+                  0.2398132085800171
+                  178.08702087402344
+                  0.7743591666221619
+                ]
+              }
+              {
+                t: 140714.794341061
+                value: 1
+                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
+                handler: [
+                  483.9278259277344
+                  0
+                  100
+                  -0.011308792047202587
+                ]
+              }
+            ]
+            connectors: [
+              t: 139816.7936609497
               id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
             ]
 }
