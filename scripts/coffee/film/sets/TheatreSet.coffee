@@ -27,13 +27,13 @@ module.exports = class TheatreSet extends Set
 		.html 'theatre'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity', 'x']
 
 		@_JsTypo = @_makeEl '#theatre-js-typo'
 		.html 'js'
 		.inside @container
 
-		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll', 'translation']
+		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll']
 
 		@_tool = @_makeEl '#theatre-animation-tool-typo'
 		.inside @container
@@ -123,35 +123,35 @@ module.exports = class TheatreSet extends Set
 		.inside @_anyKind
 		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Animation anyKind any', any, ['opacity', 'z']
 
 		kind = @_makeEl '.kind'
 		.html 'kind'
 		.inside @_anyKind
 		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind Kind', kind, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Animation anyKind Kind', kind, ['opacity', 'z']
 
 		av = @_makeEl '.of'
 		.html 'of'
 		.inside @_anyKind
 		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind of', av, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Animation anyKind of', av, ['opacity', 'z']
 
 		js = @_makeEl '.js'
 		.html 'javascript'
 		.inside @_anyKind
 		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind js', js, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Animation anyKind js', js, ['opacity', 'z']
 
 		variable = @_makeEl '.var'
 		.html 'variable'
 		.inside @_anyKind
 		.perspective 800
 
-		@_setupDomEl 'Theatre', 'Animation anyKind Var', variable, ['opacity', 'translation']
+		@_setupDomEl 'Theatre', 'Animation anyKind Var', variable, ['opacity', 'z']
 
 		# @_setupDomEl 'Theatre', 'Any Kind of Typo', @_anyKind, ['opacity', 'scaleAll', 'translation']
 

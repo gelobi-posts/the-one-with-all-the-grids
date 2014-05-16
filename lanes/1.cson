@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 180616.38730011496
+    t: 180781.94723885652
     _focus:
-      from: 176724.89606211812
-      to: 184900.18364215828
+      from: 174766.96881209122
+      to: 182942.25639213138
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -92
     guides:
       _list: [
         7944.070887026577
@@ -568,51 +568,21 @@
         name: "Lackor"
         propHolders: [
           {
-            id: "no-id-Theatre-Animation anyKind any-Opacity"
+            id: "no-id-Theatre-HTML El HTML-Opacity"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind any-Opacity"
+            actorPropId: "no-id-Theatre-HTML El HTML-Opacity"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation anyKind any-X"
+            id: "no-id-Theatre-HTML El HTML-X"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind any-X"
+            actorPropId: "no-id-Theatre-HTML El HTML-X"
             _height: 80
           }
           {
-            id: "no-id-Theatre-Animation anyKind Kind-Opacity"
+            id: "no-id-Theatre-HTML El HTML-Scale"
             _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Kind-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind Kind-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind Kind-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind of-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind of-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind of-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind of-X"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind js-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind js-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Theatre-Animation anyKind js-X"
-            _expanded: true
-            actorPropId: "no-id-Theatre-Animation anyKind js-X"
+            actorPropId: "no-id-Theatre-HTML El HTML-Scale"
             _height: 80
           }
         ]
