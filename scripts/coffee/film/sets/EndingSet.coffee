@@ -119,7 +119,7 @@ module.exports = class EndingSet extends Set
 		@_setupDomEl 'Ending', 'gelobi', gelobi, ['opacity']
 
 		pixana = @_makeEl '.credits'
-		.html 'a Pixana Creative Studios Production'
+		.html 'a Pixana Creative Studio Production'
 		.inside @container
 
 		@_setupDomEl 'Ending', 'Pixana', pixana, ['opacity']
