@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 141582.3316177544
+    t: 142955.36164314218
     _focus:
-      from: 134996.99329693784
-      to: 146300.08881399155
+      from: 136448.11033798748
+      to: 147751.2058550412
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 224
+    scrollTop: 328
     guides:
       _list: [
         7944.070887026577
@@ -501,6 +501,18 @@
             id: "no-id-Gelobi-gelobi-Y"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-Y"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-More Tools-Lines Container-X"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-X"
             _height: 80
           }
         ]
@@ -9973,7 +9985,7 @@
               }
               {
                 t: 144332.24742982312
-                value: -551.3679493238434
+                value: -551.368
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
                   481.7456359863281
@@ -10193,7 +10205,7 @@
               }
               {
                 t: 144332.8228631014
-                value: -221
+                value: -222
                 id: "no-id-More Tools-Lines Container-X-point-0"
                 handler: [
                   481.7456359863281
@@ -10216,7 +10228,7 @@
             points: [
               {
                 t: 141766.77085022934
-                value: 62
+                value: 61
                 id: "no-id-Gelobi-gelobi-Y-point-0"
                 handler: [
                   100
@@ -10227,7 +10239,7 @@
               }
               {
                 t: 143218.7053640189
-                value: 57
+                value: 61
                 id: "no-id-More Tools-Lines Container-Y-point-0"
                 handler: [
                   100
@@ -10238,7 +10250,7 @@
               }
               {
                 t: 144337.78740060714
-                value: 5
+                value: -4
                 id: "no-id-More Tools-Lines Container-Y-point-3"
                 handler: [
                   463.22119140625
