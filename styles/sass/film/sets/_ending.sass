@@ -1,4 +1,4 @@
-.link
+@mixin ending-link
 
 	font-family: "Droid Sans", Helvetica, sans-serif
 	color: #FFF
@@ -7,7 +7,30 @@
 
 	top: calc(50vh - 10px)
 
-.linkU
+#ending-fb-link
+
+	@include ending-link
+
+	position: absolute
+
+	left: calc(50vw - 420px)
+
+.ending-fb-link-icon
+
+	font-size: 25px
+
+	position: relative
+
+	top: 2px
+	left: 4px
+
+	font-size: 28px
+
+	position: relative
+
+	display: inline-block
+
+.ending-fb-link-a, .ending-twitter-link-a
 
 	display: inline-block
 
@@ -55,40 +78,9 @@
 
 			opacity: 1
 
-.icon
-
-	font-size: 28px
-
-	position: relative
-
-	display: inline-block
-
-	left: 0
-
-#ending-fb-link
-
-	@extend .link
-
-	position: absolute
-
-	left: calc(50vw - 420px)
-
-	.icon
-
-		font-size: 25px
-
-		position: relative
-
-		top: 2px
-		left: 4px
-
-	> a
-
-		@extend .linkU
-
 #ending-twitter-link
 
-	@extend .link
+	@include ending-link
 
 	display: none
 
@@ -100,7 +92,7 @@
 
 		width: 127px
 
-		@extend .linkU
+		@include ending-link
 
 		> span
 
@@ -117,7 +109,7 @@
 
 #ending-newsletter
 
-	@extend .link
+	@include ending-link
 
 	position: absolute
 
