@@ -114,23 +114,16 @@
 
 	position: absolute
 
-	left: calc(50vw + 50px)
+	@include centerifyX(320px)
 	top: calc(50vh + 150px)
 
-	width: 300px
+	// width: 300px
 
-	.icon
-
-		font-size: 26px
-
-		margin-top: 1px
+	white-space: nowrap
 
 	.ending-mail
 
-		position: absolute
-
-		left: 50px
-		top: 6px
+		display: inline-block
 
 		width: 250px
 
@@ -144,7 +137,7 @@
 
 		margin-top: 5px
 
-		text-indent: 10px
+		text-indent: 5px
 
 		background: none
 
@@ -154,10 +147,7 @@
 
 	.ending-subscribe
 
-		position: absolute
-
-		left: 320px
-		top: 5px
+		display: inline-block
 
 		font-size: 14px
 

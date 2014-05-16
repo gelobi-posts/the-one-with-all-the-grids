@@ -55,8 +55,6 @@ module.exports = class EndingSet extends Set
 
 			<div class="newsletter" id="mc_embed_signup">
 
-				<span class="icon icon-mail-1"></span>
-
 				<form action="http://gelobi.us8.list-manage2.com/subscribe/post?u=1ef4119422f6473b12661ea04&amp;id=76dff4bab2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
 				    <input type="email" value="" name="EMAIL" class="email ending-mail" id="mce-EMAIL" placeholder="Your email address" required>
