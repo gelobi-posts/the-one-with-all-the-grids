@@ -53,7 +53,7 @@ module.exports = class EndingSet extends Set
 		@_newsletter = @_makeEl '#ending-newsletter'
 		.html """
 
-			<div class="ending-newsletter-icon icon-mail-alt"></div>
+			<div class="ending-newsletter-icon icon-email"></div>
 
 			<div class="ending-newsletter-form" id="mc_embed_signup">
 

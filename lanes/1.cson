@@ -1,18 +1,18 @@
 {
   mainBox:
     height: 323
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 205269.5878661088
+    t: 204643.92565692795
     _focus:
-      from: 0
-      to: 421111
+      from: 197960.10016762625
+      to: 212908.61034636555
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 12
     guides:
       _list: [
         7944.070887026577
@@ -15290,23 +15290,23 @@
 
       "no-id-Ending-Facebook-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 203610.5240727483
+          _idCounter: 3
+          chronologyLength: 202437.78530349574
           chronology:
             points: [
               {
-                t: 202753.91795253858
+                t: 202136.2755340656
                 value: 0
                 id: "no-id-Ending-Facebook-Opacity-point-0"
                 handler: [
                   100
                   0.09552986174821854
-                  100
-                  0.09552986174821854
+                  147.37518310546875
+                  0.6482486724853516
                 ]
               }
               {
-                t: 203610.5240727483
+                t: 202437.78530349574
                 value: 1
                 id: "no-id-Ending-Facebook-Opacity-point-1"
                 handler: [
@@ -15318,52 +15318,52 @@
               }
             ]
             connectors: [
-              t: 202753.91795253858
-              id: "no-id-Ending-Facebook-Opacity-connector-2"
+              t: 202136.2755340656
+              id: "no-id-Ending-Facebook-Opacity-connector-3"
             ]
 
       "no-id-Ending-Twitter-Opacity":
         pacs:
-          _idCounter: 2
-          chronologyLength: 203649.91901136155
+          _idCounter: 4
+          chronologyLength: 203124.5667002237
           chronology:
             points: [
               {
-                t: 202770.55108108633
+                t: 202596.3274354047
                 value: 0
-                id: "no-id-Ending-Twitter-Opacity-point-0"
+                id: "no-id-Ending-Facebook-Opacity-point-0"
                 handler: [
                   100
-                  0.07950271666049957
-                  100
-                  0.07950271666049957
+                  0.09552986174821854
+                  147.37518310546875
+                  0.6482486724853516
                 ]
               }
               {
-                t: 203649.91901136155
+                t: 203124.5667002237
                 value: 1
-                id: "no-id-Ending-Twitter-Opacity-point-1"
+                id: "no-id-Ending-Facebook-Opacity-point-1"
                 handler: [
                   100
-                  0.006757731083780527
+                  0.003082228358834982
                   100
-                  0.006757731083780527
+                  0.003082228358834982
                 ]
               }
             ]
             connectors: [
-              t: 202770.55108108633
-              id: "no-id-Ending-Twitter-Opacity-connector-2"
+              t: 202596.3274354047
+              id: "no-id-Ending-Twitter-Opacity-connector-4"
             ]
 
       "no-id-Ending-Newsletter-Opacity":
         pacs:
           _idCounter: 2
-          chronologyLength: 203695.2512461222
+          chronologyLength: 212871.52264197014
           chronology:
             points: [
               {
-                t: 202770.55108108633
+                t: 211946.82247693426
                 value: 0
                 id: "no-id-Ending-Newsletter-Opacity-point-0"
                 handler: [
@@ -15374,7 +15374,7 @@
                 ]
               }
               {
-                t: 203695.2512461222
+                t: 212871.52264197014
                 value: 1
                 id: "no-id-Ending-Newsletter-Opacity-point-1"
                 handler: [
@@ -15386,7 +15386,7 @@
               }
             ]
             connectors: [
-              t: 202770.55108108633
+              t: 211946.82247693426
               id: "no-id-Ending-Newsletter-Opacity-connector-2"
             ]
 }
