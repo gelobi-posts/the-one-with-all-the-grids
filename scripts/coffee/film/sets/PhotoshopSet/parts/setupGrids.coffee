@@ -1,6 +1,7 @@
 module.exports = (set) ->
 
-	container = set.dynamicContainer
+	container = set._makeEl '#grids'
+	.inside set.dynamicContainer
 
 	selection = set._makeEl '#selection'
 	.inside container
