@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 26
+    height: 351
     _isVisible: true
 
   timeControl:
-    t: 129213.68026385
+    t: 155194.04109302533
     _focus:
-      from: 0
-      to: 417959.3344847438
+      from: 148385.4344439231
+      to: 164324.49694304576
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 396
+    scrollTop: 522
     guides:
       _list: [
         7944.070887026577
@@ -14910,7 +14910,7 @@
 
       "no-id-Gelobi-Experiment-Prog":
         pacs:
-          _idCounter: -1
+          _idCounter: 2
           chronologyLength: 149861.30969385154
           chronology:
             points: [

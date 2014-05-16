@@ -8,7 +8,7 @@ module.exports = class ProjectSet extends Set
 
 		@id = 'project'
 
-		@container = @makeSetContainer([112000, 146000])
+		@container = @makeSetContainer([112000, 129000])
 		.set 'id', 'project-container'
 
 		@_github = @_makeEl '#project-github'
