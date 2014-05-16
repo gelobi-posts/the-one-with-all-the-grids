@@ -107,7 +107,7 @@ module.exports = class EndingSet extends Set
 		@_setupDomEl 'Ending', 'Pouria', pouria, ['opacity']
 
 		pouya = @_makeEl '.credits'
-		.html 'Pouya Adibnezhad'
+		.html 'Pouya Adib'
 		.inside @container
 
 		@_setupDomEl 'Ending', 'Pouya', pouya, ['opacity']
