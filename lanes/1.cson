@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 171761.1377748206
+    t: 178898.28648345714
     _focus:
-      from: 162553.4899986982
-      to: 178492.55249782087
+      from: 178565.28648345842
+      to: 186740.57406349859
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 293
+    scrollTop: 318
     guides:
       _list: [
         7944.070887026577
@@ -11309,11 +11309,11 @@
       "no-id-Theatre-Animation Tool Web-based-Opacity":
         pacs:
           _idCounter: 3
-          chronologyLength: 170584.2633097155
+          chronologyLength: 170458.60776066806
           chronology:
             points: [
               {
-                t: 170338.53894157556
+                t: 170212.88339252814
                 value: 0
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
                 handler: [
@@ -11324,7 +11324,7 @@
                 ]
               }
               {
-                t: 170584.2633097155
+                t: 170458.60776066806
                 value: 1
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
@@ -11336,7 +11336,7 @@
               }
             ]
             connectors: [
-              t: 170338.53894157556
+              t: 170212.88339252814
               id: "no-id-Theatre-Animation Tool Web-based-Opacity-connector-3"
             ]
 
@@ -11376,12 +11376,12 @@
 
       "no-id-Theatre-Animation Tool Tool-Opacity":
         pacs:
-          _idCounter: 12
-          chronologyLength: 171152.01344633946
+          _idCounter: 13
+          chronologyLength: 171285.66064719707
           chronology:
             points: [
               {
-                t: 170949.48009971532
+                t: 171000.5414845153
                 value: 0
                 id: "no-id-Theatre-Animation Tool Tool-Opacity-point-0"
                 handler: [
@@ -11392,7 +11392,7 @@
                 ]
               }
               {
-                t: 171152.01344633946
+                t: 171285.66064719707
                 value: 1
                 id: "no-id-Theatre-Animation Tool Tool-Opacity-point-1"
                 handler: [
@@ -11404,8 +11404,8 @@
               }
             ]
             connectors: [
-              t: 170949.48009971532
-              id: "no-id-Theatre-Animation Tool Tool-Opacity-connector-12"
+              t: 171000.5414845153
+              id: "no-id-Theatre-Animation Tool Tool-Opacity-connector-13"
             ]
 
       "no-id-Theatre-Animation anyKind any-Opacity":
@@ -11799,11 +11799,11 @@
       "no-id-Theatre-Animation Tool Web-based-Scale":
         pacs:
           _idCounter: 1
-          chronologyLength: 170888.16609019227
+          chronologyLength: 170735.4557557819
           chronology:
             points: [
               {
-                t: 170340.04728355588
+                t: 170187.3369491455
                 value: 0.9
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
                 handler: [
@@ -11814,7 +11814,7 @@
                 ]
               }
               {
-                t: 170888.16609019227
+                t: 170735.4557557819
                 value: 1
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
@@ -11826,7 +11826,7 @@
               }
             ]
             connectors: [
-              t: 170340.04728355588
+              t: 170187.3369491455
               id: "no-id-Theatre-Animation Tool Web-based-Scale-connector-1"
             ]
 
@@ -11866,12 +11866,12 @@
 
       "no-id-Theatre-Animation Tool Tool-Scale":
         pacs:
-          _idCounter: 1
-          chronologyLength: 171356.6645160319
+          _idCounter: 3
+          chronologyLength: 171476.66586921064
           chronology:
             points: [
               {
-                t: 170957.61339034446
+                t: 171004.20512924975
                 value: 0.9
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-0"
                 handler: [
@@ -11882,20 +11882,20 @@
                 ]
               }
               {
-                t: 171356.6645160319
+                t: 171476.66586921064
                 value: 1
                 id: "no-id-Theatre-Animation Tool Web-based-Opacity-point-1"
                 handler: [
                   100
                   0
-                  100
-                  0.004387499764561653
+                  265.171630859375
+                  0.017435936257243156
                 ]
               }
             ]
             connectors: [
-              t: 170957.61339034446
-              id: "no-id-Theatre-Animation Tool Tool-Scale-connector-1"
+              t: 171004.20512924975
+              id: "no-id-Theatre-Animation Tool Tool-Scale-connector-3"
             ]
 
       "no-id-Theatre-HTML El HTML-Opacity":

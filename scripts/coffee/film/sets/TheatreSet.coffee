@@ -42,19 +42,19 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Tool Container', @_tool, ['opacity']
 
 		webbased = @_makeEl '.webbased'
-		.html 'Web-based'
+		.html 'web-based'
 		.inside @_tool
 
 		@_setupDomEl 'Theatre', 'Animation Tool Web-based', webbased, ['opacity', 'scaleAll']
 
 		animation = @_makeEl '.animation'
-		.html 'Animation'
+		.html 'animation'
 		.inside @_tool
 
 		@_setupDomEl 'Theatre', 'Animation Tool Animation', animation, ['opacity', 'scaleAll']
 
 		tool = @_makeEl '.tool'
-		.html 'Tool'
+		.html 'tool'
 		.inside @_tool
 
 		@_setupDomEl 'Theatre', 'Animation Tool Tool', tool, ['opacity', 'scaleAll']
