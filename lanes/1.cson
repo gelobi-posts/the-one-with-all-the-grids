@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 182666.16131191797
+    t: 200480.7982002605
     _focus:
-      from: 180254.09116126085
-      to: 183768.995399257
+      from: 199555.7982002576
+      to: 203070.70243825373
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 1199
+    scrollTop: 242
     guides:
       _list: [
         7944.070887026577
@@ -660,7 +660,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Lackor"
+    _activeWorkspaceName: "Theatre"
 
   timeline:
     _allProps:
@@ -10633,7 +10633,7 @@
 
       "no-id-Theatre-Fake Theatre-Opacity":
         pacs:
-          _idCounter: 2
+          _idCounter: 4
           chronologyLength: 200186.06384703386
           chronology:
             points: [
@@ -10655,12 +10655,12 @@
                 handler: [
                   100
                   -0.0017625000327825546
-                  100
-                  -0.0017625000327825546
+                  91.90580749511719
+                  0.5775783658027649
                 ]
               }
               {
-                t: 183409.5350642599
+                t: 183664.50221105755
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10696,7 +10696,7 @@
             connectors: [
               {
                 t: 183122.83136853852
-                id: "no-id-Theatre-Fake Theatre-Opacity-connector-2"
+                id: "no-id-Theatre-Fake Theatre-Opacity-connector-4"
               }
               {
                 t: 199899.3601513125
@@ -10706,7 +10706,7 @@
 
       "no-id-Theatre-Browser Viewport-Opacity":
         pacs:
-          _idCounter: 6
+          _idCounter: 8
           chronologyLength: 200186.06384703386
           chronology:
             points: [
@@ -10728,12 +10728,12 @@
                 handler: [
                   100
                   -0.0017625000327825546
-                  100
-                  -0.0017625000327825546
+                  97.97645568847656
+                  0.9050319194793701
                 ]
               }
               {
-                t: 183398.05330707284
+                t: 183695.51497833675
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10769,7 +10769,7 @@
             connectors: [
               {
                 t: 183111.34961135147
-                id: "no-id-Theatre-Browser Viewport-Opacity-connector-5"
+                id: "no-id-Theatre-Browser Viewport-Opacity-connector-8"
               }
               {
                 t: 199899.3601513125
@@ -10779,7 +10779,7 @@
 
       "no-id-Theatre-Browser Mockup-Opacity":
         pacs:
-          _idCounter: 2
+          _idCounter: 4
           chronologyLength: 200186.06384703386
           chronology:
             points: [
@@ -10801,12 +10801,12 @@
                 handler: [
                   100
                   -0.0017625000327825546
-                  100
-                  -0.0017625000327825546
+                  93.92935943603516
+                  0.6027671098709106
                 ]
               }
               {
-                t: 183409.5350642599
+                t: 183682.7141501145
                 value: 1
                 id: "no-id-Theatre-Browser Viewport-Opacity-point-2"
                 handler: [
@@ -10842,7 +10842,7 @@
             connectors: [
               {
                 t: 183122.83136853852
-                id: "no-id-Theatre-Browser Mockup-Opacity-connector-2"
+                id: "no-id-Theatre-Browser Mockup-Opacity-connector-4"
               }
               {
                 t: 199899.3601513125
