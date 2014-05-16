@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 143055.27005760287
+    t: 142294.64759769957
     _focus:
-      from: 141785.04108393384
-      to: 144758.60944951756
+      from: 140108.22657979696
+      to: 146890.03605854127
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -507
+    scrollTop: 366
     guides:
       _list: [
         7944.070887026577
@@ -515,15 +515,21 @@
             _height: 80
           }
           {
+            id: "no-id-More Tools-Lines Container-Scale"
+            _expanded: true
+            actorPropId: "no-id-More Tools-Lines Container-Scale"
+            _height: 80
+          }
+          {
             id: "no-id-Gelobi-gelobi-Scale"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-Scale"
             _height: 80
           }
           {
-            id: "no-id-More Tools-Lines Container-Scale"
+            id: "no-id-More Tools-Lines Container-Opacity"
             _expanded: true
-            actorPropId: "no-id-More Tools-Lines Container-Scale"
+            actorPropId: "no-id-More Tools-Lines Container-Opacity"
             _height: 80
           }
         ]
@@ -699,7 +705,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Instructions"
+    _activeWorkspaceName: "Gelobi Transition"
 
   timeline:
     _allProps:
@@ -9924,7 +9930,7 @@
                 value: 1.6
                 id: "no-id-More Tools-Lines Container-Scale-point-1"
                 handler: [
-                  498.9228210449219
+                  822.9816284179688
                   0
                   100
                   0.10042499750852585
@@ -10133,7 +10139,7 @@
                 value: 1
                 id: "no-id-More Tools-Lines Container-Scale-point-1"
                 handler: [
-                  498.9228210449219
+                  846.4075927734375
                   0
                   100
                   0.10042499750852585
@@ -14670,5 +14676,39 @@
             connectors: [
               t: 140274.67832017856
               id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
+            ]
+
+      "no-id-More Tools-Lines Container-Opacity":
+        pacs:
+          _idCounter: 2
+          chronologyLength: 144344.41730198317
+          chronology:
+            points: [
+              {
+                t: 143216.06788381556
+                value: 1
+                id: "no-id-More Tools-Lines Container-Opacity-point-0"
+                handler: [
+                  100
+                  0.12499282509088516
+                  60.956764221191406
+                  -0.6062524914741516
+                ]
+              }
+              {
+                t: 144344.41730198317
+                value: 0
+                id: "no-id-More Tools-Lines Container-Opacity-point-1"
+                handler: [
+                  958.951171875
+                  0
+                  100
+                  0.09687428176403046
+                ]
+              }
+            ]
+            connectors: [
+              t: 143216.06788381556
+              id: "no-id-More Tools-Lines Container-Opacity-connector-2"
             ]
 }

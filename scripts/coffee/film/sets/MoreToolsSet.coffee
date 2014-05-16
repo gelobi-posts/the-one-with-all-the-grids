@@ -16,7 +16,7 @@ module.exports = class MoreToolsSet extends Set
 		.z 1
 		.inside @container
 
-		@_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll']
+		@_setupDomEl 'More Tools', 'Lines Container', @linesContainer, ['x', 'y', 'scaleAll', 'opacity']
 
 		set =
 
