@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 351
+    height: 328
     _isVisible: true
 
   timeControl:
-    t: 183436.44476052732
+    t: 182666.16131191797
     _focus:
-      from: 179624.13449004226
-      to: 187799.42207008242
+      from: 180254.09116126085
+      to: 183768.995399257
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 189
+    scrollTop: 1199
     guides:
       _list: [
         7944.070887026577
@@ -660,7 +660,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Theatre"
+    _activeWorkspaceName: "Lackor"
 
   timeline:
     _allProps:

@@ -8,10 +8,9 @@ module.exports = class TheatreSet extends Set
 
 		@id = "theatre"
 
-		@container = @makeSetContainer([166000])
+		@container = @makeSetContainer([167000])
 		.set 'id', 'theatre-container'
 		.z 3
-		.transformStyle 'flat'
 
 		do @_prepareTypography
 
@@ -23,22 +22,25 @@ module.exports = class TheatreSet extends Set
 
 	_prepareTypography: ->
 
+		@typoContainer = @makeSetContainer([166000, 183000])
+		.set 'id', 'theatre-typoContainer'
+
 		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
 		.html 'theatre'
-		.inside @container
+		.inside @typoContainer
 		.z 1
 
 		@_setupDomEl 'Theatre', 'Theatre Typo', @_theatreTypo, ['opacity', 'x']
 
 		@_JsTypo = @_makeEl '#theatre-js-typo'
 		.html 'js'
-		.inside @container
+		.inside @typoContainer
 		.z 1
 
 		@_setupDomEl 'Theatre', 'Js Typo', @_JsTypo, ['opacity', 'scaleAll']
 
 		@_tool = @_makeEl '#theatre-animation-tool-typo'
-		.inside @container
+		.inside @typoContainer
 		.z 1
 
 		@_setupDomEl 'Theatre', 'Tool Container', @_tool, ['opacity']
@@ -62,8 +64,9 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Animation Tool Tool', tool, ['opacity', 'scaleAll']
 
 		@_html = @_makeEl '#theatre-html-typo'
-		.inside @container
-		.z 1
+		.inside @typoContainer
+		.z 2
+		.transformStyle 'preserve-3d'
 
 		@_setupDomEl 'Theatre', 'HTML container', @_html, ['opacity']
 
@@ -117,7 +120,8 @@ module.exports = class TheatreSet extends Set
 		@_setupDomEl 'Theatre', 'Objects', objects, ['opacity', 'scaleAll', 'x']
 
 		@_anyKind = @_makeEl '#theatre-any-kind-typo'
-		.inside @container
+		.inside @typoContainer
+		.z 1
 
 		@_setupDomEl 'Theatre', 'anyKind Container', @_anyKind, ['opacity']
 
