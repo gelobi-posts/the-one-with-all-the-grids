@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 707
+    scrollTop: 600
     guides:
       _list: [
         7944.070887026577
