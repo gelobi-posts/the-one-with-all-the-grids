@@ -15,7 +15,7 @@ module.exports = class ThePanelSet extends Set
 
 		@container = @makeSetContainer [12001, 119000]
 		.transformStyle 'flat !important'
-		.zIndex -91
+		.zIndex 0
 
 		@_appendElementOnTime @container, @film.display.stageContainer, [152000, 168000]
 

@@ -20,6 +20,8 @@ module.exports = (film) ->
 
 	film.addSet new TheatreSet film
 
+	film.addSet new ThePanelSet film
+
 	film.addSet new PhotoshopSet film
 
 	film.addSet new ProjectSet film
@@ -27,8 +29,6 @@ module.exports = (film) ->
 	film.addSet new MoreToolsSet film
 
 	film.addSet new GelobiSet film
-
-	film.addSet new ThePanelSet film
 
 	film.addSet new EndingSet film
 
