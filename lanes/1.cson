@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 202
+    height: 369
     _isVisible: true
 
   timeControl:
-    t: 16402.56800000005
+    t: 185463.52669730794
     _focus:
-      from: 0
-      to: 223472.77887676837
+      from: 183380.75048205885
+      to: 193741.9455221311
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -21
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -151,7 +151,20 @@
       }
       {
         name: "The Ball"
-        propHolders: []
+        propHolders: [
+          {
+            id: "no-id-Theatre-The Ball-Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-The Ball-Y"
+            _height: 142
+          }
+          {
+            id: "no-id-Theatre-The Ball-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Theatre-The Ball-Scale Y"
+            _height: 192
+          }
+        ]
       }
       {
         name: "Theatre"
