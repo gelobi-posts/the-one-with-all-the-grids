@@ -44,18 +44,24 @@ do ->
 
 		faded = no
 
-		film.theatre.model.timeControl.on 'play-state-change', ->
+	times = 0
 
-			return if faded
+	film.theatre.model.timeControl.on 'time-change', listener = ->
 
-			if film.theatre.model.timeControl.isPlaying()
+		return if times > 2
 
-				faded = yes
+		times++
 
-				el.opacity 0
+		if times > 1
 
-				setTimeout ->
+			film.theatre.model.timeControl.removeEvent 'time-change', listener
 
-					el.detach()
+			el.opacity 0
 
-				, 5000
+			setTimeout ->
+
+				el.detach()
+
+			, 5000
+
+		return
