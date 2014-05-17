@@ -28,3 +28,7 @@ player = new SimplePlayer film
 setupLane1 film
 
 film.run()
+
+setupDisqus = require '../post/setupDisqus'
+setupDisqus()
+

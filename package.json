@@ -8,5 +8,12 @@
     "stupid-dom-interface": "*",
     "moosh": "~0.1.0-beta.15",
     "kilid": "*"
+  },
+  "devDependencies": {
+    "clean-css": "^2.1.8",
+    "fs-extra": "^0.8.1",
+    "pretty-error": "^0.1.18",
+    "pretty-monitor": "^0.3.2",
+    "uglify-js": "^2.4.13"
   }
 }
