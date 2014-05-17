@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 202
-    _isVisible: true
+    _isVisible: false
 
   timeControl:
-    t: 106827.4685634761
+    t: 16402.56800000005
     _focus:
       from: 0
       to: 223472.77887676837
