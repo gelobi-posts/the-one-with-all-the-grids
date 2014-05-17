@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 193161.83626073366
+    t: 188497.58097069894
     _focus:
-      from: 192981.6567251566
-      to: 193481.6567251566
+      from: 183595.59742723912
+      to: 194900.07293077375
 
     _lastPlayedTickAt: 0
 
@@ -4913,7 +4913,7 @@
 
       "no-id-Theatre-The Ball-Scale Y":
         pacs:
-          _idCounter: 231
+          _idCounter: 237
           chronologyLength: 193913.21635040443
           chronology:
             points: [
@@ -4930,12 +4930,12 @@
               }
               {
                 t: 185482.04613728882
-                value: 0.5
+                value: 0.45
                 id: "no-id-Theatre-The Ball-Scale Y-point-202"
                 handler: [
                   55.34819030761719
                   -0.002972399117425084
-                  55.34819030761719
+                  55.34818649291992
                   -0.002972399117425084
                 ]
               }
@@ -5018,7 +5018,7 @@
               }
               {
                 t: 188549.90633018056
-                value: 0.5
+                value: 0.55
                 id: "no-id-Theatre-The Ball-Scale Y-point-202"
                 handler: [
                   55.34819030761719
@@ -5062,7 +5062,7 @@
               }
               {
                 t: 190082.98203065436
-                value: 0.5
+                value: 0.6
                 id: "no-id-Theatre-The Ball-Scale Y-point-202"
                 handler: [
                   47.76450729370117
@@ -5106,7 +5106,7 @@
               }
               {
                 t: 191613.67037699762
-                value: 0.5
+                value: 0.65
                 id: "no-id-Theatre-The Ball-Scale Y-point-202"
                 handler: [
                   37.04275131225586
@@ -5138,34 +5138,34 @@
                 ]
               }
               {
-                t: 193095.41634682805
+                t: 193124.7050497569
                 value: 1.2
                 id: "no-id-Theatre-The Ball-Scale Y-point-182"
                 handler: [
                   225.31881713867188
                   -0.00023520067043136805
-                  55.57011413574219
-                  -0.0029850208666175604
+                  25.235387802124023
+                  0
                 ]
               }
               {
                 t: 193152.3272049065
-                value: 0.5
+                value: 0.7
                 id: "no-id-Theatre-The Ball-Scale Y-point-202"
                 handler: [
-                  55.34819030761719
-                  -0.002972399117425084
+                  25.536474227905273
+                  0
                   25.536474227905273
                   0
                 ]
               }
               {
-                t: 193180.73387888452
-                value: 1.2
+                t: 193181.25689143682
+                value: 1.1869819926089364
                 id: "no-id-Theatre-The Ball-Scale Y-point-182"
                 handler: [
                   22.861265182495117
-                  -0.013018007390201092
+                  0
                   213.5364990234375
                   0
                 ]
@@ -5261,19 +5261,19 @@
               }
               {
                 t: 192374.55952249555
-                id: "no-id-Theatre-The Ball-Scale Y-connector-219"
+                id: "no-id-Theatre-The Ball-Scale Y-connector-236"
               }
               {
-                t: 193095.41634682805
-                id: "no-id-Theatre-The Ball-Scale Y-connector-210"
+                t: 193124.7050497569
+                id: "no-id-Theatre-The Ball-Scale Y-connector-237"
               }
               {
                 t: 193152.3272049065
-                id: "no-id-Theatre-The Ball-Scale Y-connector-230"
+                id: "no-id-Theatre-The Ball-Scale Y-connector-234"
               }
               {
-                t: 193180.73387888452
-                id: "no-id-Theatre-The Ball-Scale Y-connector-231"
+                t: 193181.25689143682
+                id: "no-id-Theatre-The Ball-Scale Y-connector-235"
               }
             ]
 
