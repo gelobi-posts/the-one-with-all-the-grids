@@ -23,4 +23,4 @@ if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
 
 header("Content-Type: application/json");
 
-echo '{"updateAvailable":"yes"}';
+echo '{"updateAvailable":"no"}';
