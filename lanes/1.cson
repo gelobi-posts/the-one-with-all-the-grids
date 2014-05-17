@@ -1,13 +1,13 @@
 {
   mainBox:
-    height: 291
+    height: 90
     _isVisible: true
 
   timeControl:
-    t: 219096.24561669
+    t: 219708.85341325533
     _focus:
-      from: 217096.24561669
-      to: 229858.5462811607
+      from: 211643.6993355293
+      to: 224406
 
     _lastPlayedTickAt: 0
 
@@ -13644,50 +13644,6 @@
                   0.00800000037997961
                 ]
               }
-              {
-                t: 414838.495314879
-                value: 0
-                id: "no-id-Ending-Created By-Opacity-point-0"
-                handler: [
-                  100
-                  0.10000000149011612
-                  339.1397705078125
-                  0
-                ]
-              }
-              {
-                t: 415265.89672749565
-                value: 1
-                id: "no-id-Ending-Created By-Opacity-point-1"
-                handler: [
-                  170.81436157226562
-                  0.027499999850988388
-                  100
-                  0.00800000037997961
-                ]
-              }
-              {
-                t: 415596.17689964746
-                value: 1
-                id: "no-id-Ending-Created By-Opacity-point-0"
-                handler: [
-                  100
-                  0.10000000149011612
-                  234.16001892089844
-                  0
-                ]
-              }
-              {
-                t: 416111.9411544091
-                value: 0
-                id: "no-id-Ending-Created By-Opacity-point-1"
-                handler: [
-                  227.77145385742188
-                  0
-                  100
-                  0.00800000037997961
-                ]
-              }
             ]
             connectors: [
               {
@@ -13697,14 +13653,6 @@
               {
                 t: 208922.43950023904
                 id: "no-id-Ending-Created By-Opacity-connector-2"
-              }
-              {
-                t: 414838.495314879
-                id: "no-id-Ending-Created By-Opacity-connector-2"
-              }
-              {
-                t: 415596.17689964746
-                id: "no-id-Ending-gelobi-Opacity-connector-1"
               }
             ]
 
@@ -14351,38 +14299,10 @@
                   0.05711791291832924
                 ]
               }
-              {
-                t: 256337.92586298543
-                value: 0
-                id: "no-id-More Tools - 1-More-Prog-point-0"
-                handler: [
-                  242.00575256347656
-                  0.15714286267757416
-                  100.08837890625
-                  0.4123319089412689
-                ]
-              }
-              {
-                t: 256966.76436115778
-                value: 1
-                id: "no-id-More Tools - 1-More-Prog-point-1"
-                handler: [
-                  510.2388610839844
-                  0
-                  967.8129272460938
-                  0.05711791291832924
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 128307.87625588679
-                id: "no-id-More Tools - 1-Works-Prog-connector-8"
-              }
-              {
-                t: 256337.92586298543
-                id: "no-id-More Tools - 1-More-Prog-connector-27"
-              }
+              t: 128307.87625588679
+              id: "no-id-More Tools - 1-Works-Prog-connector-8"
             ]
 
       "no-id-More Tools - 1-The-Prog":
@@ -14413,64 +14333,10 @@
                   0.05711791291832924
                 ]
               }
-              {
-                t: 255794.1579047509
-                value: 0
-                id: "no-id-More Tools - 1-More-Prog-point-0"
-                handler: [
-                  242.00575256347656
-                  0.15714286267757416
-                  464.49444580078125
-                  0.027925392612814903
-                ]
-              }
-              {
-                t: 256422.99640292325
-                value: 1
-                id: "no-id-More Tools - 1-More-Prog-point-1"
-                handler: [
-                  282.4850769042969
-                  -0.03844065219163895
-                  967.8129272460938
-                  0.05711791291832924
-                ]
-              }
-              {
-                t: 256753.92586298543
-                value: 0
-                id: "no-id-More Tools - 1-More-Prog-point-0"
-                handler: [
-                  242.00575256347656
-                  0.15714286267757416
-                  100.08837890625
-                  0.4123319089412689
-                ]
-              }
-              {
-                t: 257382.76436115778
-                value: 1
-                id: "no-id-More Tools - 1-More-Prog-point-1"
-                handler: [
-                  510.2388610839844
-                  0
-                  967.8129272460938
-                  0.05711791291832924
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 128075.22397847855
-                id: "no-id-More Tools - 1-The-Prog-connector-4"
-              }
-              {
-                t: 255794.1579047509
-                id: "no-id-More Tools - 1-More-Prog-connector-27"
-              }
-              {
-                t: 256753.92586298543
-                id: "no-id-More Tools - 1-More-Prog-connector-27"
-              }
+              t: 128075.22397847855
+              id: "no-id-More Tools - 1-The-Prog-connector-4"
             ]
 
       "no-id-More Tools - 2-Photoshop-Prog":
@@ -14705,38 +14571,10 @@
                   -0.011308792047202587
                 ]
               }
-              {
-                t: 265742.06420776015
-                value: 0
-                id: "no-id-More Tools - 2-Photoshop-Prog-point-0"
-                handler: [
-                  191.10150146484375
-                  0.2398132085800171
-                  178.08702087402344
-                  0.7743591666221619
-                ]
-              }
-              {
-                t: 266640.06488787144
-                value: 1
-                id: "no-id-More Tools - 2-Photoshop-Prog-point-1"
-                handler: [
-                  483.9278259277344
-                  0
-                  100
-                  -0.011308792047202587
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 133082.51777129763
-                id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
-              }
-              {
-                t: 265742.06420776015
-                id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
-              }
+              t: 133082.51777129763
+              id: "no-id-More Tools - 2-Photoshop-Prog-connector-3"
             ]
 
       "no-id-More Tools - 2-Among-Prog":
@@ -15345,38 +15183,10 @@
                   -0.24895374476909637
                 ]
               }
-              {
-                t: 302671.6834551514
-                value: 0
-                id: "no-id-Gelobi-A-Prog-point-0"
-                handler: [
-                  49.24379348754883
-                  1.160865068435669
-                  80.47837829589844
-                  0.7878579497337341
-                ]
-              }
-              {
-                t: 303030.8811938068
-                value: 1
-                id: "no-id-Gelobi-A-Prog-point-1"
-                handler: [
-                  162.4691619873047
-                  0
-                  103.9043197631836
-                  -0.24895374476909637
-                ]
-              }
             ]
             connectors: [
-              {
-                t: 149728.5627034789
-                id: "no-id-Gelobi-Blog-Prog-connector-9"
-              }
-              {
-                t: 302671.6834551514
-                id: "no-id-Gelobi-A-Prog-connector-2"
-              }
+              t: 149728.5627034789
+              id: "no-id-Gelobi-Blog-Prog-connector-9"
             ]
 
       "no-id-Gelobi-The-Prog":
