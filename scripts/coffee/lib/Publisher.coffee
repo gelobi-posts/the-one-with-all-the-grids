@@ -8,18 +8,18 @@ UglifyJs = require 'uglify-js'
 
 module.exports = class Publisher
 
-	constructor: (modulePath, publishPath) ->
+	constructor: (modulePath, publishPath, @analytics) ->
 
 		@modulePath = path.resolve modulePath
 		@publishPath = path.resolve publishPath
 
 	publish: ->
 
-		# do @_copyDirectories
+		do @_copyDirectories
 
-		# do @_doTheCss
+		do @_doTheCss
 
-		# do @_doTheJs
+		do @_doTheJs
 
 		do @_doTheHtml
 
@@ -58,6 +58,8 @@ module.exports = class Publisher
 		.then (source) =>
 
 			source.replace /(\")(\.\.\/)([a-zA-Z0-9\-\.\_\/]+\.)(css|js)/g, '$1./$3$4'
+			.replace "postBase = '..'", "postBase = '.'"
+			.replace "</body>", @analytics + "\n</body>"
 
 		.then (fixed) =>
 

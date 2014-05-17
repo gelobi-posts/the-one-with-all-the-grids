@@ -10,8 +10,8 @@ module.exports = class ThePanelSet extends Set
 		@id = 'thePanel'
 
 		@film.loader
-		.loadImage '../images/thePanel/bg.png', 2276
-		.loadImage '../images/thePanel/direction.png', 1030
+		.loadImage window.postBase + '/images/thePanel/bg.png', 2276
+		.loadImage window.postBase + '/images/thePanel/direction.png', 1030
 
 		@container = @makeSetContainer [12001, 119000]
 		.transformStyle 'flat !important'
