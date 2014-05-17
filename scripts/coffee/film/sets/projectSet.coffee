@@ -17,9 +17,9 @@ module.exports = class ProjectSet extends Set
 
 			<span class="project-github-icon icon-github-squared"></span>
 
-			<a target="_blank" class="project-github-a" href="https://github.com/Pixana/griddify">
+			<a target="_blank" class="project-github-a" href="https://github.com/pixana/griddify">
 
-				github.com/Pixana/griddify
+				github.com/pixana/griddify
 
 			</a>
 
