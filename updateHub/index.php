@@ -21,6 +21,6 @@ if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
 	exit(0);
 }
 
-header("Content-Type", "application/json");
+header("Content-Type: application/json");
 
 echo '{"updateAvailable":"yes"}';
