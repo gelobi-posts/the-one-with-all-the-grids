@@ -1,7 +1,7 @@
 {
   mainBox:
     height: 202
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
     t: 16402.56800000005
@@ -151,26 +151,7 @@
       }
       {
         name: "The Ball"
-        propHolders: [
-          {
-            id: "no-id-The Panel-Griddify Section-Opacity"
-            _expanded: true
-            actorPropId: "no-id-The Panel-Griddify Section-Opacity"
-            _height: 169
-          }
-          {
-            id: "no-id-Photoshop-Units Panel-Z"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Units Panel-Z"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Pixel Highlight-Z"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Pixel Highlight-Z"
-            _height: 80
-          }
-        ]
+        propHolders: []
       }
       {
         name: "Theatre"
@@ -736,12 +717,6 @@
         name: "Credits"
         propHolders: [
           {
-            id: "no-id-Ending-CC-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Ending-CC-Opacity"
-            _height: 80
-          }
-          {
             id: "no-id-Ending-Pixana-Opacity"
             _expanded: true
             actorPropId: "no-id-Ending-Pixana-Opacity"
@@ -786,7 +761,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Credits"
+    _activeWorkspaceName: "The Ball"
 
   timeline:
     _allProps:
