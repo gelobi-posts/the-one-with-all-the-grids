@@ -92,9 +92,9 @@ module.exports = class ThePanelSet extends Set
 		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
 		.perspective 800
 
-		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity']
-		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity']
-		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity']
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity', 'rotationY']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity', 'rotationY']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity', 'rotationY']
 
 		Rotator.applyTo @panelBody.node
 
