@@ -4,10 +4,10 @@
     _isVisible: true
 
   timeControl:
-    t: 24434.061563108655
+    t: 204055.0329773563
     _focus:
-      from: 16240.800066383075
-      to: 29003.100730853774
+      from: 200613.15082886524
+      to: 205799.02842375485
 
     _lastPlayedTickAt: 0
 
@@ -780,7 +780,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "The Ball"
+    _activeWorkspaceName: "Ending"
 
   timeline:
     _allProps:
@@ -15789,8 +15789,8 @@
 
       "no-id-Ending-Twitter-Opacity":
         pacs:
-          _idCounter: 4
-          chronologyLength: 203124.5667002237
+          _idCounter: 7
+          chronologyLength: 202983.71993103588
           chronology:
             points: [
               {
@@ -15805,12 +15805,12 @@
                 ]
               }
               {
-                t: 203124.5667002237
+                t: 202983.71993103588
                 value: 1
                 id: "no-id-Ending-Facebook-Opacity-point-1"
                 handler: [
-                  100
-                  0.003082228358834982
+                  132.14413452148438
+                  0
                   100
                   0.003082228358834982
                 ]
@@ -15818,7 +15818,7 @@
             ]
             connectors: [
               t: 202596.3274354047
-              id: "no-id-Ending-Twitter-Opacity-connector-4"
+              id: "no-id-Ending-Twitter-Opacity-connector-7"
             ]
 
       "no-id-Ending-Newsletter-Opacity":
