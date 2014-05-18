@@ -32,6 +32,8 @@ film.run()
 
 do ->
 
+	page = El document.querySelector '.pageContainer'
+
 	el = El document.getElementById 'film-preview'
 	.z 1
 
@@ -62,6 +64,15 @@ do ->
 			.y display.currentDims.top
 
 		faded = no
+
+	display.on 'fullscreen', ->
+
+		page.css pointerEvents: 'none'
+
+	display.on 'restore', ->
+
+		page.css pointerEvents: 'auto'
+
 
 	times = 0
 
