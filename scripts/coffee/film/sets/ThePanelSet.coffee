@@ -85,8 +85,6 @@ module.exports = class ThePanelSet extends Set
 
 		@griddifySection = @_makeEl @panelBody.node.querySelector '.griddify-section'
 		.perspective 800
-		.css
-			transformOrigin: 'center left'
 
 		@divideSection = @_makeEl @panelBody.node.querySelector '.divide-section'
 		.perspective 800
@@ -94,9 +92,9 @@ module.exports = class ThePanelSet extends Set
 		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
 		.perspective 800
 
-		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity', 'rotationY']
-		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity', 'rotationY']
-		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity', 'rotationY']
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity', 'z']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity', 'z']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity', 'z']
 
 		Rotator.applyTo @panelBody.node
 
