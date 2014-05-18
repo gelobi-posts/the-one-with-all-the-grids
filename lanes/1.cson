@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24854.66863823226
+    t: 25234.60757709162
     _focus:
       from: 23477.70292320915
       to: 28489.406116931015
@@ -8279,7 +8279,7 @@
               }
               {
                 t: 24282.40631257767
-                value: 50
+                value: 35
                 id: "no-id-The Panel-Griddify Section-Z-point-7"
                 handler: [
                   100
@@ -15761,7 +15761,7 @@
               }
               {
                 t: 24611.58455635973
-                value: 50
+                value: 35
                 id: "no-id-The Panel-Griddify Section-Z-point-7"
                 handler: [
                   100
@@ -15812,7 +15812,7 @@
               }
               {
                 t: 24936.611332521607
-                value: 25
+                value: 35
                 id: "no-id-The Panel-Griddify Section-Z-point-7"
                 handler: [
                   100
