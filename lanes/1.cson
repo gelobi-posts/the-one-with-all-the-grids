@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 511
+    height: 302
     _isVisible: true
 
   timeControl:
-    t: 25420.568568593677
+    t: 23810.77789176336
     _focus:
-      from: 23410.580431633218
-      to: 28788.56549724843
+      from: 22274.31483701968
+      to: 29785.911993544338
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: 32
     guides:
       _list: [
         7944.070887026577
@@ -787,25 +787,19 @@
             id: "no-id-The Panel-Griddify Section-Z"
             _expanded: true
             actorPropId: "no-id-The Panel-Griddify Section-Z"
-            _height: 252
+            _height: 90
           }
           {
             id: "no-id-The Panel-Divide Section-Z"
             _expanded: true
             actorPropId: "no-id-The Panel-Divide Section-Z"
-            _height: 236
+            _height: 84
           }
           {
             id: "no-id-The Panel-Wrap Section-Z"
             _expanded: true
             actorPropId: "no-id-The Panel-Wrap Section-Z"
-            _height: 131
-          }
-          {
-            id: "no-id-Mouse-Mousify-Move"
-            _expanded: true
-            actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 80
+            _height: 88
           }
         ]
       }
@@ -8263,7 +8257,7 @@
 
       "no-id-The Panel-Griddify Section-Z":
         pacs:
-          _idCounter: 31
+          _idCounter: 35
           chronologyLength: 154185.2706377239
           chronology:
             points: [
@@ -8274,17 +8268,17 @@
                 handler: [
                   100
                   -0.14174751937389374
-                  480.0872497558594
-                  61.96678924560547
+                  264.4433288574219
+                  140.58621215820312
                 ]
               }
               {
-                t: 25260.778428243448
+                t: 24807.027643070607
                 value: 0
                 id: "no-id-The Panel-Griddify Section-Z-point-26"
                 handler: [
-                  199.23675537109375
-                  130.4494171142578
+                  392.4178466796875
+                  -22.30133819580078
                   100
                   0.14174751937389374
                 ]
@@ -8315,7 +8309,7 @@
             connectors: [
               {
                 t: 24217.167481305434
-                id: "no-id-The Panel-Griddify Section-Z-connector-31"
+                id: "no-id-The Panel-Griddify Section-Z-connector-35"
               }
               {
                 t: 153888.61760199876
@@ -15731,36 +15725,10 @@
       "no-id-The Panel-Divide Section-Z":
         pacs:
           _idCounter: 13
-          chronologyLength: 25251.430370710168
+          chronologyLength: 24795.985272292986
           chronology:
-            points: [
-              {
-                t: 24451.044879000983
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-27"
-                handler: [
-                  100
-                  -0.14174751937389374
-                  459.8184814453125
-                  92.90921020507812
-                ]
-              }
-              {
-                t: 25251.430370710168
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-26"
-                handler: [
-                  148.56478881835938
-                  154.57037353515625
-                  100
-                  0.14174751937389374
-                ]
-              }
-            ]
-            connectors: [
-              t: 24451.044879000983
-              id: "no-id-The Panel-Divide Section-Z-connector-13"
-            ]
+            points: []
+            connectors: []
 
       "no-id-The Panel-Wrap Section-Z":
         pacs:
@@ -15768,28 +15736,6 @@
           chronologyLength: 50073.278166521544
           chronology:
             points: [
-              {
-                t: 24765.211092004887
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-27"
-                handler: [
-                  100
-                  -0.14174751937389374
-                  209.83677673339844
-                  83.68077087402344
-                ]
-              }
-              {
-                t: 25261.564764678034
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-26"
-                handler: [
-                  124.9178695678711
-                  146.42762756347656
-                  100
-                  0.14174751937389374
-                ]
-              }
               {
                 t: 49110.74237132647
                 value: 0
@@ -15847,10 +15793,6 @@
               }
             ]
             connectors: [
-              {
-                t: 24765.211092004887
-                id: "no-id-The Panel-Wrap Section-Z-connector-16"
-              }
               {
                 t: 49110.74237132647
                 id: "no-id-The Panel-Griddify Section-Z-connector-29"
