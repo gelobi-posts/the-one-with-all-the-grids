@@ -25,6 +25,8 @@ module.exports = class Qwertify
 		@_lengths = []
 		@_totalLength = 0
 
+		@focus = if isMobile then @_touchFocus else @_desktopFocus
+
 		return
 
 	addInput: (@_input) ->
@@ -43,7 +45,15 @@ module.exports = class Qwertify
 
 	focus: (state) ->
 
+	_desktopFocus: (state) ->
+
 		if state is 1 then @_input.focus() else @_input.blur()
+
+		return
+
+	_touchFocus: (state) ->
+
+		if state is 1 then @_input.classList.add 'focus' else @_input.classList.remove 'focus'
 
 		return
 
@@ -65,11 +75,21 @@ module.exports = class Qwertify
 
 		return
 
+`function detectmob() {
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+    return true;
+  }
+ else {
+    return false;
+  }
+}`
 
-
-
-
-
-
-
+isMobile = detectmob()
 

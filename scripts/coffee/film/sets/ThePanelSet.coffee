@@ -22,9 +22,9 @@ module.exports = class ThePanelSet extends Set
 		panelHtml = """
 		<div style="width: 246px">
 
-		<section class="griddify-section">
+		<section>
 
-			<div>
+			<div class="griddify-section">
 
 				<input id="griddify-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
@@ -38,9 +38,9 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section class="divide-section">
+		<section>
 
-			<div>
+			<div class="divide-section">
 
 				<input id="divide-input" type="text" name="divisions" placeholder="Divisions" class="big">
 
@@ -55,9 +55,9 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section class="wrap-section">
+		<section>
 
-			<div>
+			<div class="wrap-section">
 
 				<input id="wrap-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
@@ -92,9 +92,9 @@ module.exports = class ThePanelSet extends Set
 		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
 		.perspective 800
 
-		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity']
-		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity']
-		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity']
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['z']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['z']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['z']
 
 		Rotator.applyTo @panelBody.node
 

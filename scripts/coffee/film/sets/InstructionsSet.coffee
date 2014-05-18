@@ -50,7 +50,7 @@ module.exports = class InstructionsSet extends Set
 		return unless articleNode?
 
 		@_article = @_makeEl articleNode
-		.z 0.5
+
 		@_dai = @_makeEl document.getElementById 'downloadAndInstall'
 
 		@_centralPoint = 0
