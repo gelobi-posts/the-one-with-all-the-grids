@@ -109,14 +109,16 @@
 	height: $height
 
 	left: calc(50% - #{$width/2})
+	left: -webkit-calc(50% - #{$width/2})
 	top: calc(50% - #{$height/2})
+	top: -webkit-calc(50% - #{$height/2})
 
 @mixin centralizeY($height)
 
 	position: absolute
 	height: $height
 	top: calc(50% - #{$height/2})
-
+	top: -webkit-calc(50% - #{$height/2})
 
 @mixin centralizeX($width)
 
@@ -124,5 +126,5 @@
 
 	width: $width
 
-
 	left: calc(50% - #{$width/2})
+	left: -webkit-calc(50% - #{$width/2})

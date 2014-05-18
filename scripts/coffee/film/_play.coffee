@@ -35,6 +35,25 @@ do ->
 	el = El document.getElementById 'film-preview'
 	.z 1
 
+	mob = do ->
+
+		if navigator.userAgent.match(/Android/i) or navigator.userAgent.match(/webOS/i) or navigator.userAgent.match(/iPhone/i) or navigator.userAgent.match(/iPad/i) or navigator.userAgent.match(/iPod/i) or navigator.userAgent.match(/BlackBerry/i) or navigator.userAgent.match(/Windows Phone/i)
+
+			return true
+
+		else
+
+			return false
+
+	if mob
+
+		el.node.querySelector('.film-preview-title')
+		.innerHTML += """
+
+			</br><span style="font-size: 12px">( Video might not play in your browser )</span>
+
+		"""
+
 	display.on 'layout', ->
 
 		if display.state is 'restored'
