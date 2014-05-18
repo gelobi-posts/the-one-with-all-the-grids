@@ -24,7 +24,6 @@
 
 	position: relative
 
-	// top: 2px
 	left: 4px
 
 	font-size: 25px
@@ -43,46 +42,12 @@
 	display: inline-block
 	position: relative
 
-	&:before
+	border-bottom: 1px solid #636363
 
-		@include psuedo
-
-		position: absolute
-		left: 0
-		right: 0
-		top: -4px
-		bottom: 4px
-
-		border-bottom: 1px solid #636363
-
-		z-index: -1
-
-	&:after
-
-		@include psuedo
-
-		position: absolute
-		left: -3px
-		right: -3px
-		top: -4px
-		bottom: -4px
-
-		z-index: -1
-
-		background: #FFF
-
-		@include transform(scale(0.9) translateZ(-1px))
-
-		@include transition(all 0.15s)
-
-		opacity: 0
+	@include transition(color .25s)
+	@include transition(background .25s)
 
 	&:hover
 
 		color: #333
-
-		&:after
-
-			@include transform(scale(1) translateZ(-1px))
-
-			opacity: 1
+		background: #FFF
