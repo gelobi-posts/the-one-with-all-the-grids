@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24180.564444867883
+    t: 25403.56444486567
     _focus:
       from: 23590.7981171548
       to: 28602.501310876636
@@ -8266,17 +8266,6 @@
           chronologyLength: 154185.2706377239
           chronology:
             points: [
-              {
-                t: 24177.94326118916
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-24"
-                handler: [
-                  100
-                  0.7441744804382324
-                  100
-                  0.7441744804382324
-                ]
-              }
               {
                 t: 153888.61760199876
                 value: 0
