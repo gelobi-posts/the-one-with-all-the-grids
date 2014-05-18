@@ -31,6 +31,10 @@ module.exports = class InstructionsSet extends Set
 
 			progress: (prog) =>
 
+				if @film.display.state isnt 'fullscreen'
+
+					prog = 0
+
 				@view.rotateX -45 * prog
 
 				return
@@ -46,7 +50,7 @@ module.exports = class InstructionsSet extends Set
 		return unless articleNode?
 
 		@_article = @_makeEl articleNode
-		.z -1
+		.z 0.5
 		@_dai = @_makeEl document.getElementById 'downloadAndInstall'
 
 		@_centralPoint = 0
@@ -75,11 +79,17 @@ module.exports = class InstructionsSet extends Set
 
 	_scroll: ->
 
+		prog = @_scrollProg
+
+		if @film.display.state isnt 'fullscreen'
+
+			prog = 0
+
 		targetPoint = (window.scrollY or window.pageYOffset) + (window.innerHeight * 11 / 16)
 
 		diff = @_centralPoint - targetPoint
 
-		@_article.y -diff * @_scrollProg
+		@_article.y -diff * prog
 
 	_setupFocus: ->
 

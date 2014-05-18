@@ -2,8 +2,22 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Play in Post</title>
-	<link rel="stylesheet" href="../styles/css/playInPost.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<script>
+		window.onerror = function(err, file, line){
+			alert(err + "  #" + line);
+		};
+	</script>
+
+	<script src="http://192.168.1.2:6853/target/target-script-min.js#anonymous"></script>
+
+	<title>Griddify, a Tiny Photoshop Panel for Guides and Grids</title>
+	<link rel="stylesheet" href="../styles/css/public.css">
 	<link rel="stylesheet" href="../icons/css/icons.css">
 	<script>window.postBase = '..';</script>
 </head>
@@ -35,9 +49,7 @@
 				Watch the short tutorial to learn how it works:
 			</p>
 
-			<div id="filmSpace">
-
-			</div>
+			<div id="filmSpace"></div>
 
 			<div id="downloadAndInstall">
 
@@ -77,8 +89,6 @@
 		</div>
 
 	</article>
-
-
 
 	<div class="footer">
 
@@ -142,7 +152,7 @@
 		</div>
 	</div>
 
-	<script src="../scripts/dist/playInPost.js"></script>
+	<script src="../scripts/dist/public.js"></script>
 
 </body>
 </html>

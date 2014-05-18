@@ -10,8 +10,8 @@ module.exports = class ThePanelSet extends Set
 		@id = 'thePanel'
 
 		@film.loader
-		.loadImage '../images/thePanel/bg.png', 2276
-		.loadImage '../images/thePanel/direction.png', 1030
+		.loadImage window.postBase + '/images/thePanel/bg.png', 2276
+		.loadImage window.postBase + '/images/thePanel/direction.png', 1030
 
 		@container = @makeSetContainer [12001, 119000]
 		.transformStyle 'flat !important'
@@ -92,9 +92,9 @@ module.exports = class ThePanelSet extends Set
 		@wrapSection = @_makeEl @panelBody.node.querySelector '.wrap-section'
 		.perspective 800
 
-		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['opacity', 'z']
-		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['opacity', 'z']
-		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['opacity', 'z']
+		@_setupDomEl 'The Panel', 'Griddify Section', @griddifySection, ['z']
+		@_setupDomEl 'The Panel', 'Divide Section', @divideSection, ['z']
+		@_setupDomEl 'The Panel', 'Wrap Section', @wrapSection, ['z']
 
 		Rotator.applyTo @panelBody.node
 
