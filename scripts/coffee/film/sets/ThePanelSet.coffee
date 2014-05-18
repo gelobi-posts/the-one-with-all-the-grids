@@ -22,9 +22,9 @@ module.exports = class ThePanelSet extends Set
 		panelHtml = """
 		<div style="width: 246px">
 
-		<section class="griddify-section">
+		<section>
 
-			<div>
+			<div class="griddify-section">
 
 				<input id="griddify-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
@@ -38,9 +38,9 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section class="divide-section">
+		<section>
 
-			<div>
+			<div class="divide-section">
 
 				<input id="divide-input" type="text" name="divisions" placeholder="Divisions" class="big">
 
@@ -55,9 +55,9 @@ module.exports = class ThePanelSet extends Set
 
 		</section>
 
-		<section class="wrap-section">
+		<section>
 
-			<div>
+			<div class="wrap-section">
 
 				<input id="wrap-input" type="text" name="spacing" placeholder="Spacing" class="big">
 
@@ -85,6 +85,8 @@ module.exports = class ThePanelSet extends Set
 
 		@griddifySection = @_makeEl @panelBody.node.querySelector '.griddify-section'
 		.perspective 800
+		.css
+			transformOrigin: 'center left'
 
 		@divideSection = @_makeEl @panelBody.node.querySelector '.divide-section'
 		.perspective 800

@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 24508.97418187134
+    t: 23875.809251716328
     _focus:
       from: 20417.653428764293
       to: 25603.531023653934
@@ -10941,7 +10941,7 @@
               }
               {
                 t: 24169.915041463617
-                value: 10
+                value: -10
                 id: "no-id-The Panel-Divide Section-Opacity-point-1"
                 handler: [
                   116.88451385498047
