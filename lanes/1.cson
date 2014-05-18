@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 23891.849944447673
+    t: 24180.564444867883
     _focus:
-      from: 23469.839372172977
-      to: 28481.54256589484
+      from: 23590.7981171548
+      to: 28602.501310876636
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 4
+    scrollTop: 0
     guides:
       _list: [
         7944.070887026577
@@ -8262,41 +8262,19 @@
 
       "no-id-The Panel-Griddify Section-Z":
         pacs:
-          _idCounter: 23
+          _idCounter: 24
           chronologyLength: 154185.2706377239
           chronology:
             points: [
               {
-                t: 24037.10594651481
+                t: 24177.94326118916
                 value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-6"
+                id: "no-id-The Panel-Griddify Section-Z-point-24"
                 handler: [
                   100
-                  0.9390773773193359
-                  155.0448455810547
-                  41.106781005859375
-                ]
-              }
-              {
-                t: 24898.384477078005
-                value: 70
-                id: "no-id-The Panel-Griddify Section-Z-point-7"
-                handler: [
-                  280.8616638183594
-                  0
-                  280.8616638183594
-                  0
-                ]
-              }
-              {
-                t: 25239.138355312232
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-20"
-                handler: [
+                  0.7441744804382324
                   100
-                  1.5592228174209595
-                  100
-                  1.5592228174209595
+                  0.7441744804382324
                 ]
               }
               {
@@ -8323,18 +8301,8 @@
               }
             ]
             connectors: [
-              {
-                t: 24037.10594651481
-                id: "no-id-The Panel-Griddify Section-Z-connector-22"
-              }
-              {
-                t: 24898.384477078005
-                id: "no-id-The Panel-Griddify Section-Z-connector-23"
-              }
-              {
-                t: 153888.61760199876
-                id: "no-id-The Panel-Griddify Section-Z-connector-5"
-              }
+              t: 153888.61760199876
+              id: "no-id-The Panel-Griddify Section-Z-connector-5"
             ]
 
       "no-id-Array Panel-Panel-Opacity":
@@ -15747,51 +15715,8 @@
           _idCounter: 12
           chronologyLength: 25236.51717163351
           chronology:
-            points: [
-              {
-                t: 24471.13153744586
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-6"
-                handler: [
-                  100
-                  0.9390773773193359
-                  110.4847183227539
-                  52.89374923706055
-                ]
-              }
-              {
-                t: 24952.338434593952
-                value: 70
-                id: "no-id-The Panel-Griddify Section-Z-point-7"
-                handler: [
-                  231.05918884277344
-                  0
-                  231.05918884277344
-                  0
-                ]
-              }
-              {
-                t: 25236.51717163351
-                value: 0
-                id: "no-id-The Panel-Divide Section-Z-point-5"
-                handler: [
-                  100
-                  -0.5249999761581421
-                  100
-                  -0.5249999761581421
-                ]
-              }
-            ]
-            connectors: [
-              {
-                t: 24471.13153744586
-                id: "no-id-The Panel-Divide Section-Z-connector-11"
-              }
-              {
-                t: 24952.338434593952
-                id: "no-id-The Panel-Divide Section-Z-connector-12"
-              }
-            ]
+            points: []
+            connectors: []
 
       "no-id-The Panel-Wrap Section-Z":
         pacs:
@@ -15799,39 +15724,6 @@
           chronologyLength: 49837.61699327834
           chronology:
             points: [
-              {
-                t: 24680.82623174385
-                value: 0
-                id: "no-id-The Panel-Griddify Section-Z-point-6"
-                handler: [
-                  100
-                  0.9390773773193359
-                  42.333961486816406
-                  40.6875
-                ]
-              }
-              {
-                t: 24994.27737345355
-                value: 70
-                id: "no-id-The Panel-Griddify Section-Z-point-7"
-                handler: [
-                  76.40934753417969
-                  4.812500476837158
-                  157.66604614257812
-                  0
-                ]
-              }
-              {
-                t: 25233.895987954784
-                value: 0
-                id: "no-id-The Panel-Wrap Section-Z-point-7"
-                handler: [
-                  100
-                  0.3499999940395355
-                  100
-                  0.3499999940395355
-                ]
-              }
               {
                 t: 49408.83376970474
                 value: 0
@@ -15867,14 +15759,6 @@
               }
             ]
             connectors: [
-              {
-                t: 24680.82623174385
-                id: "no-id-The Panel-Wrap Section-Z-connector-14"
-              }
-              {
-                t: 24994.27737345355
-                id: "no-id-The Panel-Wrap Section-Z-connector-13"
-              }
               {
                 t: 49408.83376970474
                 id: "no-id-The Panel-Griddify Section-Z-connector-11"
