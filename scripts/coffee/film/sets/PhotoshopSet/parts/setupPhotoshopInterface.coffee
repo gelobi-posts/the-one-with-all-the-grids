@@ -1,17 +1,17 @@
 module.exports = (set) ->
 
-	container = set._makeEl '#interface'
-	.inside set.container
+	# container = set._makeEl '#interface'
+	# .inside set.container
 
 	bg = set._makeEl '#photoshop-bg'
-	.inside container
+	.inside set.container
 
 	set._setupDomEl 'Photoshop', 'BG', bg, [
 		'translation', 'scaleAll', 'opacity', 'rotation'
 	]
 
 	tools = set._makeEl '#photoshop-tools'
-	.inside container
+	.inside set.container
 	.perspective 1000
 
 	set._setupDomEl 'Photoshop', 'Tools', tools, [
@@ -19,7 +19,7 @@ module.exports = (set) ->
 	]
 
 	layers = set._makeEl '#photoshop-layers'
-	.inside container
+	.inside set.container
 	.perspective 1000
 
 	set._setupDomEl 'Photoshop', 'Layers', layers, [
