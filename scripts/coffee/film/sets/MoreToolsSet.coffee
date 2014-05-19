@@ -10,7 +10,7 @@ module.exports = class MoreToolsSet extends Set
 
 		@container = @makeSetContainer([125000, 146000])
 		.set 'id', 'moreTools-container'
-		.z 2
+		.z 5
 		.zIndex -50
 
 		@linesContainer = @_makeEl '.moreTools-lines'

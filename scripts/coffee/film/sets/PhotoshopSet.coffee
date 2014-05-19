@@ -13,6 +13,7 @@ module.exports = class PhotoshopSet extends Set
 		@container = @makeSetContainer()
 		.set 'id', 'photoshop-container'
 		.zIndex -100
+		.addClass 'photoshopContainer'
 
 		@blackifier = @_makeEl '.photoshop-blackifier'
 		.inside @film.display.stageContainer

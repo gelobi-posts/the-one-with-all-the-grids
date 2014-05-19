@@ -12,6 +12,7 @@ module.exports = class GelobiSet extends Set
 		.set 'id', 'gelobi-container'
 		.transformStyle 'flat !important'
 		.zIndex -50
+		.z 5
 
 		@_setupDomEl 'Gelobi', 'Container', @container, ['opacity']
 

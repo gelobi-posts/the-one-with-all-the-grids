@@ -11,7 +11,7 @@ module.exports = class TheatreSet extends Set
 		@container = @makeSetContainer([167000])
 		.set 'id', 'theatre-container'
 		.zIndex -50
-		.z 1
+		.z 5
 
 		do @_prepareTypography
 
@@ -28,6 +28,7 @@ module.exports = class TheatreSet extends Set
 		@typoContainer = @makeSetContainer([166000, 183000])
 		.set 'id', 'theatre-typoContainer'
 		.zIndex -50
+		.z 5
 
 		@_theatreTypo = @_makeEl '#theatre-theatre-typo'
 		.html 'theatre'
