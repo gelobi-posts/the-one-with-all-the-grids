@@ -49,7 +49,7 @@ module.exports = class PhotoshopSet extends Set
 	_setupBg: ->
 
 		bg = @_makeEl '#photoshop-bg'
-		.inside @container
+		.inside @film.display.stageContainer
 
 		@_setupDomEl 'Photoshop', 'BG', bg, [
 			'translation', 'scaleAll', 'opacity', 'rotation'
