@@ -10,12 +10,12 @@ module.exports = class PhotoshopSet extends Set
 
 		@id = 'photoshop'
 
+		do @_setupBg
+
 		@container = @makeSetContainer()
 		.attr 'id', 'photoshop-container'
 		.zIndex -100
 		.addClass 'photoshopContainer'
-
-		console.log @container.node
 
 		@blackifier = @_makeEl '.photoshop-blackifier'
 		.inside @film.display.stageContainer
@@ -45,3 +45,12 @@ module.exports = class PhotoshopSet extends Set
 		.loadImage window.postBase + '/images/photoshop/grids/2.png', 1000
 		.loadImage window.postBase + '/images/photoshop/grids/3.png', 1000
 		.loadImage window.postBase + '/images/photoshop/grids/4.png', 1000
+
+	_setupBg: ->
+
+		bg = @_makeEl '#photoshop-bg'
+		.inside @container
+
+		@_setupDomEl 'Photoshop', 'BG', bg, [
+			'translation', 'scaleAll', 'opacity', 'rotation'
+		]
