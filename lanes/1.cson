@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 51989.297846890855
+    t: 52232.65071770437
     _focus:
       from: 0
       to: 224406
@@ -3245,7 +3245,7 @@
       "no-id-Grids-Selection-Scale Y":
         pacs:
           _idCounter: 1
-          chronologyLength: 162106.6353036401
+          chronologyLength: 80725.01054001025
           chronology:
             points: [
               {
@@ -3292,28 +3292,6 @@
                   0.01531249936670065
                 ]
               }
-              {
-                t: 161380.48582067832
-                value: 0
-                id: "no-id-Grids-Selection-Scale X-point-0"
-                handler: [
-                  100
-                  0.17499999701976776
-                  393.0648193359375
-                  0
-                ]
-              }
-              {
-                t: 162106.6353036401
-                value: 1
-                id: "no-id-Grids-Selection-Scale X-point-1"
-                handler: [
-                  350.73321533203125
-                  0
-                  100
-                  0.01531249936670065
-                ]
-              }
             ]
             connectors: [
               {
@@ -3322,10 +3300,6 @@
               }
               {
                 t: 79998.86105704849
-                id: "no-id-Grids-Selection-Scale X-connector-4"
-              }
-              {
-                t: 161380.48582067832
                 id: "no-id-Grids-Selection-Scale X-connector-4"
               }
             ]
