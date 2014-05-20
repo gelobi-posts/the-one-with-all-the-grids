@@ -44,15 +44,17 @@ module.exports = class PhotoshopSet extends Set
 
 		bg = @_makeEl '#photoshop-bg'
 		.inside @film.display.stageContainer
+		.z -200
 
 		@_setupDomEl 'Photoshop', 'BG', bg, [
-			'translation', 'scaleAll', 'opacity', 'rotation'
+			'scaleAll', 'opacity'
 		]
 
 	_setupTheTwoPanels: ->
 
 		twoPanelsContainer = @makeSetContainer()
 		.attr 'id', 'photoshop-twoPanelsContainer'
+		.z -198
 
 		tools = @_makeEl '#photoshop-tools'
 		.inside twoPanelsContainer
@@ -74,17 +76,19 @@ module.exports = class PhotoshopSet extends Set
 
 		@pointer = @_makeEl '#photoshop-pointer .icon-up-open-big'
 		.inside @film.display.stageContainer
+		.z 2
 
 		@_appendElementOnTime @pointer, @film.display.stageContainer, [0, 118000]
 
 		@_setupDomEl 'Mouse', 'domEl', @pointer, [
-			'opacity', 'translation'
+			'opacity', 'xy'
 		]
 
 	_setupGridsAndSelection: ->
 
 		@gridsAndSelectionContainer = @makeSetContainer([27000, 118001])
 		.attr 'id', 'photoshop-gridsAndSelectionContainer'
+		.z -199
 
 		setupGrids @
 
@@ -92,5 +96,6 @@ module.exports = class PhotoshopSet extends Set
 
 		@menusContainer = @makeSetContainer([null, 65137])
 		.attr 'id', 'photoshop-menusContainer'
+		.z 1
 
 		setupPhotoshopInterface @
