@@ -9,7 +9,7 @@ module.exports = class TheatreSet extends Set
 		@id = "theatre"
 
 		@container = @makeSetContainer([167000])
-		.set 'id', 'theatre-container'
+		.attr 'id', 'theatre-container'
 		.zIndex -50
 		.z 5
 
@@ -26,7 +26,7 @@ module.exports = class TheatreSet extends Set
 	_prepareTypography: ->
 
 		@typoContainer = @makeSetContainer([166000, 183000])
-		.set 'id', 'theatre-typoContainer'
+		.attr 'id', 'theatre-typoContainer'
 		.zIndex -50
 		.z 5
 
@@ -215,7 +215,7 @@ module.exports = class TheatreSet extends Set
 	_prepareMore: ->
 
 		@moreContainer = @makeSetContainer([194000])
-		.set 'id', 'theatre-moreContainer'
+		.attr 'id', 'theatre-moreContainer'
 		.zIndex -50
 		.z 1
 

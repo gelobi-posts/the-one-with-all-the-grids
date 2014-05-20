@@ -9,7 +9,7 @@ module.exports = class ProjectSet extends Set
 		@id = 'project'
 
 		@container = @makeSetContainer([112000, 129000])
-		.set 'id', 'project-container'
+		.attr 'id', 'project-container'
 		.zIndex 0
 		.z 5
 

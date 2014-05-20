@@ -11,7 +11,7 @@ module.exports = class PhotoshopSet extends Set
 		@id = 'photoshop'
 
 		@container = @makeSetContainer()
-		.set 'id', 'photoshop-container'
+		.attr 'id', 'photoshop-container'
 		.zIndex -100
 		.addClass 'photoshopContainer'
 
@@ -24,7 +24,7 @@ module.exports = class PhotoshopSet extends Set
 		@_setupDomEl 'Photoshop', 'Blackifier', @blackifier, ['opacity']
 
 		@dynamicContainer = @makeSetContainer [12000, 113000]
-		.set 'id', 'photoshop-dynamicContainer'
+		.attr 'id', 'photoshop-dynamicContainer'
 		.zIndex -98
 
 		setupPhotoshopInterface @

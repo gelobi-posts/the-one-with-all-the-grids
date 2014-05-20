@@ -9,7 +9,7 @@ module.exports = class EndingSet extends Set
 		@id = 'ending'
 
 		@container = @makeSetContainer([200000])
-		.set 'id', 'ending-container'
+		.attr 'id', 'ending-container'
 		.zIndex 0
 		.z 5
 

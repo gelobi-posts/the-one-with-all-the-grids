@@ -9,7 +9,7 @@ module.exports = class MoreToolsSet extends Set
 		@id = 'moreTools'
 
 		@container = @makeSetContainer([125000, 146000])
-		.set 'id', 'moreTools-container'
+		.attr 'id', 'moreTools-container'
 		.z 5
 		.zIndex -50
 

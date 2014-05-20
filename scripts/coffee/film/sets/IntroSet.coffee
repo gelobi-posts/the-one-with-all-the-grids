@@ -9,7 +9,7 @@ module.exports = class IntroSet extends Set
 		@id = 'intro'
 
 		@container = @makeSetContainer([100, 30000])
-		.set 'id', 'intro-container'
+		.attr 'id', 'intro-container'
 		.zIndex -50
 		.z 5
 
