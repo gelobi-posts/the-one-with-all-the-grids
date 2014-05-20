@@ -3,13 +3,6 @@ module.exports = (set) ->
 	# container = set._makeEl '#interface'
 	# .inside set.container
 
-	bg = set._makeEl '#photoshop-bg'
-	.inside set.container
-
-	set._setupDomEl 'Photoshop', 'BG', bg, [
-		'translation', 'scaleAll', 'opacity', 'rotation'
-	]
-
 	tools = set._makeEl '#photoshop-tools'
 	.inside set.container
 	.perspective 1000

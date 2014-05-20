@@ -1,0 +1,21 @@
+@mixin layer
+
+	position: absolute
+
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+
+	@include transform-style(flat !important)
+
+#photoshop-bg
+
+	@include layer
+
+	background: url('../../images/photoshop/bg.jpg') #000 no-repeat center center
+	background-size: 100%
+
+	z-index: -200
+	pointer-events: none
+
