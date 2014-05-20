@@ -73,12 +73,3 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Photoshop', 'Guides', guides, ['opacity']
 
-	set.cursor = set._makeEl '#photoshop-pointer-container'
-	.inside set.film.sets.thePanel.container
-
-	pointer = set._makeEl '#photoshop-pointer .icon-up-open-big'
-	.inside set.cursor
-
-	set._setupDomEl 'Mouse', 'domEl', pointer, [
-		'opacity', 'translation'
-	]

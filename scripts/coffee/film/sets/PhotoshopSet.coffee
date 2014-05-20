@@ -76,3 +76,15 @@ module.exports = class PhotoshopSet extends Set
 		@_setupDomEl 'Photoshop', 'Layers', layers, [
 			'translation', 'scaleAll', 'opacity', 'rotation'
 		]
+
+	_setupCursor: ->
+
+		# @cursor = @_makeEl '#photoshop-pointer-container'
+		# .inside @film.sets.thePanel.container
+
+		pointer = @_makeEl '#photoshop-pointer .icon-up-open-big'
+		.inside @film.display.stageContainer
+
+		@_setupDomEl 'Mouse', 'domEl', pointer, [
+			'opacity', 'translation'
+		]
