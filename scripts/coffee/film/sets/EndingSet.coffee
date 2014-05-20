@@ -11,7 +11,6 @@ module.exports = class EndingSet extends Set
 		@container = @makeSetContainer([200000])
 		.attr 'id', 'ending-container'
 		.zIndex 0
-		.z 5
 
 		do @_prepareLinks
 

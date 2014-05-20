@@ -10,8 +10,6 @@ module.exports = class ProjectSet extends Set
 
 		@container = @makeSetContainer([112000, 129000])
 		.attr 'id', 'project-container'
-		.zIndex 0
-		.z 5
 
 		@_github = @_makeEl '#project-github'
 		.html """

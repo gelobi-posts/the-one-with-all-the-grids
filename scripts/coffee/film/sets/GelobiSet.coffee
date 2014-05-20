@@ -11,8 +11,6 @@ module.exports = class GelobiSet extends Set
 		@container = @makeSetContainer [125500, 161000]
 		.attr 'id', 'gelobi-container'
 		.transformStyle 'flat !important'
-		.zIndex -50
-		.z 5
 
 		@_setupDomEl 'Gelobi', 'Container', @container, ['opacity']
 

@@ -10,8 +10,6 @@ module.exports = class TheatreSet extends Set
 
 		@container = @makeSetContainer([167000])
 		.attr 'id', 'theatre-container'
-		.zIndex -50
-		.z 5
 
 		do @_prepareTypography
 

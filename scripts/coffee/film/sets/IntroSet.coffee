@@ -10,8 +10,6 @@ module.exports = class IntroSet extends Set
 
 		@container = @makeSetContainer([100, 30000])
 		.attr 'id', 'intro-container'
-		.zIndex -50
-		.z 5
 
 		im = @_makeEl '#intro-im'
 		.html 'Aria Minaei'
