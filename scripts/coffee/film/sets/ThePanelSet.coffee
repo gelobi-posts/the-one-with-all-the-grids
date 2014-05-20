@@ -14,6 +14,7 @@ module.exports = class ThePanelSet extends Set
 		.loadImage window.postBase + '/images/thePanel/direction.png', 1030
 
 		@container = @makeSetContainer [12001, 119000]
+		.attr 'id', 'thePanel-container'
 		.transformStyle 'flat !important'
 		.zIndex 0
 		.z 6

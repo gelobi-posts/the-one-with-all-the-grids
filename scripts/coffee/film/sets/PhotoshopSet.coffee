@@ -18,6 +18,8 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupGridsAndSelection
 
+		do @_setupMenus
+
 		@container = @makeSetContainer()
 		.attr 'id', 'photoshop-container'
 		.zIndex -100
@@ -31,8 +33,6 @@ module.exports = class PhotoshopSet extends Set
 		@dynamicContainer = @makeSetContainer [12000, 113000]
 		.attr 'id', 'photoshop-dynamicContainer'
 		.zIndex -98
-
-		setupPhotoshopInterface @
 
 		@film.loader
 		.loadImage window.postBase + '/images/photoshop/bg.jpg', 369857
@@ -94,3 +94,10 @@ module.exports = class PhotoshopSet extends Set
 		.attr 'id', 'photoshop-gridsAndSelectionContainer'
 
 		setupGrids @
+
+	_setupMenus: ->
+
+		@menusContainer = @makeSetContainer()
+		.attr 'id', 'photoshop-menusContainer'
+
+		setupPhotoshopInterface @
