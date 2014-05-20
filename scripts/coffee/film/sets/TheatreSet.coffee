@@ -8,8 +8,7 @@ module.exports = class TheatreSet extends Set
 
 		@id = "theatre"
 
-		@container = @makeSetContainer([167000])
-		.attr 'id', 'theatre-container'
+
 
 		do @_prepareTypography
 
@@ -167,6 +166,9 @@ module.exports = class TheatreSet extends Set
 
 	_prepareBrowserMockup: ->
 
+		@theatreContainer = @makeSetContainer([167000, 197000])
+		.attr 'id', 'theatre-container'
+
 		@_browserMockup = @_makeEl '#theatre-browserMockup'
 		.html """
 
@@ -179,7 +181,7 @@ module.exports = class TheatreSet extends Set
 			</div>
 
 			"""
-		.inside @container
+		.inside @theatreContainer
 
 		@browserViewport = @_makeEl "#theatre-browserViewport"
 		.inside @_browserMockup
