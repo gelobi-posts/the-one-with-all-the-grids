@@ -34,8 +34,6 @@ module.exports = class PhotoshopSet extends Set
 
 		setupPhotoshopInterface @
 
-
-
 		@film.loader
 		.loadImage window.postBase + '/images/photoshop/bg.jpg', 369857
 		.loadImage window.postBase + '/images/photoshop/pspanels-extensions-selected.png', 930
