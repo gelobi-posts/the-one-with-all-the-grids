@@ -1,10 +1,10 @@
 {
   mainBox:
     height: 278
-    _isVisible: false
+    _isVisible: true
 
   timeControl:
-    t: 111397.71531100478
+    t: 88849.74401913876
     _focus:
       from: 0
       to: 224406
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -57
+    scrollTop: -86
     guides:
       _list: [
         7944.070887026577
@@ -4097,17 +4097,7 @@
           _idCounter: 0
           chronologyLength: 88862.46261155675
           chronology:
-            points: [
-              t: 88862.46261155675
-              value: 0
-              id: "no-id-Grids-Wrap 50 v-Opacity-point-0"
-              handler: [
-                100
-                -1.25
-                100
-                -1.25
-              ]
-            ]
+            points: []
             connectors: []
 
       "no-id-Grids-Wrap 50 h-Opacity":

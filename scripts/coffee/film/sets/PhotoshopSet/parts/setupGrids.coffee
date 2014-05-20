@@ -140,16 +140,16 @@ module.exports = (set) ->
 
 	set._setupDomEl 'Grids', 'Wrap 10 h', wrap10Hor, ['opacity']
 
-	wrap50Ver = set._makeEl '#wrap-fifty-v'
-	.inside selection
-	.html """
+	# wrap50Ver = set._makeEl '#wrap-fifty-v'
+	# .inside selection
+	# .html """
 
-		<div class="l"></div>
-		<div class="r"></div>
+	# 	<div class="l"></div>
+	# 	<div class="r"></div>
 
-	"""
+	# """
 
-	set._setupDomEl 'Grids', 'Wrap 50 v', wrap50Ver, ['opacity']
+	# set._setupDomEl 'Grids', 'Wrap 50 v', wrap50Ver, ['opacity']
 
 	wrap50Hor = set._makeEl '#wrap-fifty-h'
 	.inside theContainer
