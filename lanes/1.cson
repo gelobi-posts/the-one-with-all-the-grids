@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 215674.02360337158
+    t: 0
     _focus:
-      from: 131608.41233148272
-      to: 222290.80074864283
+      from: 0
+      to: 90682.38841716011
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 129
+    scrollTop: 36
     guides:
       _list: [
         7944.070887026577
@@ -830,7 +830,7 @@
             id: "no-id-Mouse-Mousify-Move"
             _expanded: true
             actorPropId: "no-id-Mouse-Mousify-Move"
-            _height: 80
+            _height: 90
           }
           {
             id: "no-id-Grids-Wrap 0-Opacity"

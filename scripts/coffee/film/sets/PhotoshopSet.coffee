@@ -20,19 +20,10 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupMenus
 
-		# @container = @makeSetContainer()
-		# .attr 'id', 'photoshop-container'
-		# .zIndex -100
-		# .addClass 'photoshopContainer'
-
 		@blackifier = @_makeEl '#photoshop-blackifier'
 		.inside @film.display.stageContainer
 
 		@_setupDomEl 'Photoshop', 'Blackifier', @blackifier, ['opacity']
-
-		@dynamicContainer = @makeSetContainer [12000, 113000]
-		.attr 'id', 'photoshop-dynamicContainer'
-		.zIndex -98
 
 		@film.loader
 		.loadImage window.postBase + '/images/photoshop/bg.jpg', 369857
@@ -84,13 +75,15 @@ module.exports = class PhotoshopSet extends Set
 		@pointer = @_makeEl '#photoshop-pointer .icon-up-open-big'
 		.inside @film.display.stageContainer
 
+		@_appendElementOnTime @pointer, @film.display.stageContainer, [0, 118000]
+
 		@_setupDomEl 'Mouse', 'domEl', @pointer, [
 			'opacity', 'translation'
 		]
 
 	_setupGridsAndSelection: ->
 
-		@gridsAndSelectionContainer = @makeSetContainer()
+		@gridsAndSelectionContainer = @makeSetContainer([27000, 118001])
 		.attr 'id', 'photoshop-gridsAndSelectionContainer'
 
 		setupGrids @
