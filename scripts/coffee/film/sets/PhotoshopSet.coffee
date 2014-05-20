@@ -14,6 +14,8 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupTheTwoPanels
 
+		do @_setupCursor
+
 		@container = @makeSetContainer()
 		.attr 'id', 'photoshop-container'
 		.zIndex -100
@@ -79,12 +81,9 @@ module.exports = class PhotoshopSet extends Set
 
 	_setupCursor: ->
 
-		# @cursor = @_makeEl '#photoshop-pointer-container'
-		# .inside @film.sets.thePanel.container
-
-		pointer = @_makeEl '#photoshop-pointer .icon-up-open-big'
+		@pointer = @_makeEl '#photoshop-pointer .icon-up-open-big'
 		.inside @film.display.stageContainer
 
-		@_setupDomEl 'Mouse', 'domEl', pointer, [
+		@_setupDomEl 'Mouse', 'domEl', @pointer, [
 			'opacity', 'translation'
 		]

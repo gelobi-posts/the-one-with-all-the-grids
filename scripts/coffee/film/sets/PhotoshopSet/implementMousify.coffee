@@ -2,7 +2,7 @@ Mousify = require './tools/Mousify'
 
 module.exports = (film) ->
 
-	m = new Mousify film.sets.photoshop.cursor, film, 'Mouse', 'Mousify', [
+	m = new Mousify film.sets.photoshop.pointer, film, 'Mouse', 'Mousify', [
 
 		() -> {x: window.innerWidth * .5, y: window.innerHeight * .5},
 
