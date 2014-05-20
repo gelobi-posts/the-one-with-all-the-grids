@@ -19,9 +19,8 @@ module.exports = class PhotoshopSet extends Set
 		.zIndex -100
 		.addClass 'photoshopContainer'
 
-		@blackifier = @_makeEl '.photoshop-blackifier'
+		@blackifier = @_makeEl '#photoshop-blackifier'
 		.inside @film.display.stageContainer
-		.zIndex -90
 
 		@_setupDomEl 'Photoshop', 'Blackifier', @blackifier, ['opacity']
 
