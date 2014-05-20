@@ -9,6 +9,8 @@
 
 
 $selectionWidth: 360px
+$selectionLeft: 7%
+$selectionTop: 20%
 
 #selection
 
@@ -17,8 +19,8 @@ $selectionWidth: 360px
 	width: $selectionWidth
 	height: $selectionWidth
 
-	top: 20%
-	left: 7%
+	top: $selectionTop
+	left: $selectionLeft
 
 	border: 1px dashed #FFF
 
@@ -45,6 +47,11 @@ $selectionWidth: 360px
 
 	> .v
 
+		position: absolute
+		height: 100%
+		width: $selectionWidth
+		left: $selectionLeft
+
 		> div
 
 			float: left
@@ -54,11 +61,12 @@ $selectionWidth: 360px
 			width: 25%
 			height: 100%
 
-			margin-top: -20vh
-
 	> .h
 
-		@include fullSize
+		position: absolute
+		width: 100%
+		height: $selectionWidth
+		top: $selectionTop
 
 		> div
 
@@ -67,16 +75,13 @@ $selectionWidth: 360px
 			width: 100%
 			height: 25%
 
-			margin-left: -7vw
-
 #wrap-zero
 
 	position: absolute
 
-	width: 100%
-	height: 100vh
-
-	top: -20vh
+	left: $selectionLeft
+	width: $selectionWidth
+	height: 100%
 
 	border-left: 1px solid #00ffcc
 	border-right: 1px solid #00ffcc

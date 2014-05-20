@@ -114,7 +114,7 @@ module.exports = (set) ->
 	# set._setupDomEl 'Grids', 'Divide 3', divideRuleOgThird, ['opacity']
 
 	wrapZero = set._makeEl '#wrap-zero'
-	.inside selection
+	.inside theContainer
 
 	set._setupDomEl 'Grids', 'Wrap 0', wrapZero, ['opacity']
 
