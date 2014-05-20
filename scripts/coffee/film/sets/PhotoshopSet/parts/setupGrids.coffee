@@ -61,7 +61,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Divide 4 v', divideFourVer, ['opacity']
 
 	divideFourSel = set._makeEl '#divide-four'
-	.inside selection
+	.inside theContainer
 	.html """
 
 			<div class="h">
