@@ -12,6 +12,8 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupBg
 
+		do @_setupTheTwoPanels
+
 		@container = @makeSetContainer()
 		.attr 'id', 'photoshop-container'
 		.zIndex -100
@@ -52,5 +54,26 @@ module.exports = class PhotoshopSet extends Set
 		.inside @film.display.stageContainer
 
 		@_setupDomEl 'Photoshop', 'BG', bg, [
+			'translation', 'scaleAll', 'opacity', 'rotation'
+		]
+
+	_setupTheTwoPanels: ->
+
+		twoPanelsContainer = @makeSetContainer()
+		.attr 'id', 'photoshop-twoPanelsContainer'
+
+		tools = @_makeEl '#photoshop-tools'
+		.inside twoPanelsContainer
+		.perspective 1000
+
+		@_setupDomEl 'Photoshop', 'Tools', tools, [
+			'translation', 'scaleAll', 'opacity', 'rotation'
+		]
+
+		layers = @_makeEl '#photoshop-layers'
+		.inside twoPanelsContainer
+		.perspective 1000
+
+		@_setupDomEl 'Photoshop', 'Layers', layers, [
 			'translation', 'scaleAll', 'opacity', 'rotation'
 		]

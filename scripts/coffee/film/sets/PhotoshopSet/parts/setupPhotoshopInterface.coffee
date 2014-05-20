@@ -3,22 +3,6 @@ module.exports = (set) ->
 	# container = set._makeEl '#interface'
 	# .inside set.container
 
-	tools = set._makeEl '#photoshop-tools'
-	.inside set.container
-	.perspective 1000
-
-	set._setupDomEl 'Photoshop', 'Tools', tools, [
-		'translation', 'scaleAll', 'opacity', 'rotation'
-	]
-
-	layers = set._makeEl '#photoshop-layers'
-	.inside set.container
-	.perspective 1000
-
-	set._setupDomEl 'Photoshop', 'Layers', layers, [
-		'translation', 'scaleAll', 'opacity', 'rotation'
-	]
-
 	dynamicContainer = set._makeEl '#interface'
 	.inside set.dynamicContainer
 
