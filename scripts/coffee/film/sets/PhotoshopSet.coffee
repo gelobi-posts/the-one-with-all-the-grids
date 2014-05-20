@@ -20,10 +20,10 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupMenus
 
-		@container = @makeSetContainer()
-		.attr 'id', 'photoshop-container'
-		.zIndex -100
-		.addClass 'photoshopContainer'
+		# @container = @makeSetContainer()
+		# .attr 'id', 'photoshop-container'
+		# .zIndex -100
+		# .addClass 'photoshopContainer'
 
 		@blackifier = @_makeEl '#photoshop-blackifier'
 		.inside @film.display.stageContainer

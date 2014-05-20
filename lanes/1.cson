@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 114144.4595382257
+    t: 215674.02360337158
     _focus:
-      from: 48410.575111432634
-      to: 139092.9635285927
+      from: 131608.41233148272
+      to: 222290.80074864283
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 55
+    scrollTop: 129
     guides:
       _list: [
         7944.070887026577
@@ -830,6 +830,18 @@
             id: "no-id-Mouse-Mousify-Move"
             _expanded: true
             actorPropId: "no-id-Mouse-Mousify-Move"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Wrap 0-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Wrap 0-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Wrap 10 v-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Wrap 10 v-Opacity"
             _height: 80
           }
         ]
@@ -3946,7 +3958,7 @@
       "no-id-Grids-Wrap 10 v-Opacity":
         pacs:
           _idCounter: 0
-          chronologyLength: 197949.14799498516
+          chronologyLength: 104441.85496717504
           chronology:
             points: [
               {
@@ -4004,28 +4016,6 @@
                   0.01353750005364418
                 ]
               }
-              {
-                t: 197630.03297556698
-                value: 0
-                id: "no-id-Grids-Wrap 0-Opacity-point-0"
-                handler: [
-                  100
-                  0.14249999821186066
-                  197.6882781982422
-                  0
-                ]
-              }
-              {
-                t: 197949.14799498516
-                value: 1
-                id: "no-id-Grids-Wrap 0-Opacity-point-1"
-                handler: [
-                  155.356689453125
-                  0
-                  100
-                  0.01353750005364418
-                ]
-              }
             ]
             connectors: [
               {
@@ -4035,10 +4025,6 @@
               {
                 t: 104122.73994775685
                 id: "no-id-Grids-Wrap 0-Opacity-connector-3"
-              }
-              {
-                t: 197630.03297556698
-                id: "no-id-Grids-Wrap 0-Opacity-connector-2"
               }
             ]
 
