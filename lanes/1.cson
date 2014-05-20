@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 89
+    height: 295
     _isVisible: true
 
   timeControl:
-    t: 70018.51880774743
+    t: 20016.11957964374
     _focus:
-      from: 0
-      to: 90682.38841716011
+      from: 5665.166400507882
+      to: 58517.13493688486
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 36
+    scrollTop: 199
     guides:
       _list: [
         7944.070887026577
@@ -842,6 +842,48 @@
             id: "no-id-Grids-Wrap 10 v-Opacity"
             _expanded: true
             actorPropId: "no-id-Grids-Wrap 10 v-Opacity"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Z"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Scale"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Scale"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-X"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Rotation Z"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Rotation Z"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Rotation Y"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Rotation Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Rotation X"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Rotation X"
+            _height: 80
+          }
+          {
+            id: "no-id-Photoshop-BG-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Photoshop-BG-Opacity"
             _height: 80
           }
         ]
