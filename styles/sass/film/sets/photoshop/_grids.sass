@@ -1,17 +1,21 @@
-@mixin full-screen
-
-	width: 100%
-	height: 100%
+@mixin fullSize
 
 	position: absolute
 
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+
+
+$selectionWidth: 360px
 
 #selection
 
 	position: absolute
 
-	width: 385px
-	height: 385px
+	width: $selectionWidth
+	height: $selectionWidth
 
 	top: 20%
 	left: 7%
@@ -27,7 +31,7 @@
 	position: absolute
 
 	width: 100%
-	height: 385px
+	height: $selectionWidth
 
 	top: 20%
 
@@ -37,7 +41,7 @@
 
 #divide-four
 
-	@include full-screen
+	@include fullSize
 
 	> .v
 
@@ -48,19 +52,19 @@
 			border-right: 1px solid #00ffcc
 
 			width: 25%
-			height: 100vw
+			height: 100%
 
 			margin-top: -20vh
 
 	> .h
 
-		@include full-screen
+		@include fullSize
 
 		> div
 
 			border-bottom: 1px solid #00ffcc
 
-			width: 100vw
+			width: 100%
 			height: 25%
 
 			margin-left: -7vw
@@ -79,7 +83,7 @@
 
 #wrap-ten-v
 
-	@include full-screen
+	@include fullSize
 
 	> .l
 
@@ -106,7 +110,7 @@
 
 #wrap-ten-h
 
-	@include full-screen
+	@include fullSize
 
 	> .t
 
@@ -133,7 +137,7 @@
 
 #wrap-fifty-v
 
-	@include full-screen
+	@include fullSize
 
 	> .l
 
@@ -160,7 +164,7 @@
 
 #wrap-fifty-h
 
-	@include full-screen
+	@include fullSize
 
 	> .t
 
@@ -188,7 +192,7 @@
 
 #hundred-v
 
-	@include full-screen
+	@include fullSize
 
 	background: url('../../images/photoshop/grids/1.png')
 
@@ -196,19 +200,19 @@
 
 #hundred-h
 
-	@include full-screen
+	@include fullSize
 
 	background: url('../../images/photoshop/grids/2.png')
 
 #twenty
 
-	@include full-screen
+	@include fullSize
 
 	background: url('../../images/photoshop/grids/3.png')
 
 #eighty
 
-	@include full-screen
+	@include fullSize
 
 	background: url('../../images/photoshop/grids/4.png')
 
@@ -216,7 +220,7 @@
 
 #four-v
 
-	@include full-screen
+	@include fullSize
 
 	> div
 

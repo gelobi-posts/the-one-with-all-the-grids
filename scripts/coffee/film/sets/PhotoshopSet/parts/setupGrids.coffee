@@ -41,7 +41,7 @@ module.exports = (set) ->
 	]
 
 	griddifyForty = set._makeEl '#griddify-forty'
-	.inside selection
+	.inside theContainer
 
 	set._setupDomEl 'Grids', 'Griddify 40 -s', griddifyForty, [ 'opacity' ]
 
