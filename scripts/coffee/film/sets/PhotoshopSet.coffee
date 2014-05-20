@@ -16,6 +16,8 @@ module.exports = class PhotoshopSet extends Set
 
 		do @_setupCursor
 
+		do @_setupGridsAndSelection
+
 		@container = @makeSetContainer()
 		.attr 'id', 'photoshop-container'
 		.zIndex -100
@@ -32,7 +34,7 @@ module.exports = class PhotoshopSet extends Set
 
 		setupPhotoshopInterface @
 
-		setupGrids @
+
 
 		@film.loader
 		.loadImage window.postBase + '/images/photoshop/bg.jpg', 369857
@@ -87,3 +89,10 @@ module.exports = class PhotoshopSet extends Set
 		@_setupDomEl 'Mouse', 'domEl', @pointer, [
 			'opacity', 'translation'
 		]
+
+	_setupGridsAndSelection: ->
+
+		@gridsAndSelectionContainer = @makeSetContainer()
+		.attr 'id', 'photoshop-gridsAndSelectionContainer'
+
+		setupGrids @

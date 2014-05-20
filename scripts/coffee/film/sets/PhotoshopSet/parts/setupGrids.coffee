@@ -1,17 +1,16 @@
 module.exports = (set) ->
 
-	container = set._makeEl '#gridsContainer'
-	.inside set.dynamicContainer
+	theContainer = set.theContainerContainer
 
 	selection = set._makeEl '#selection'
-	.inside container
+	.inside theContainer
 
 	set._setupDomEl 'Grids', 'Selection', selection, [
 		'opacity', 'scale'
 	]
 
 	griddifyContainer = set._makeEl '#griddify-container'
-	.inside container
+	.inside theContainer
 
 	griddifyHundredVer = set._makeEl '#hundred-v'
 	.inside griddifyContainer
@@ -47,7 +46,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Griddify 40 -s', griddifyForty, [ 'opacity' ]
 
 	divideContainer = set._makeEl '#divide-container'
-	.inside container
+	.inside theContainer
 
 	# divideFourHor = set._makeEl '#four-h'
 	# .inside divideContainer
