@@ -4,6 +4,8 @@ module.exports = (set) ->
 
 	selection = set._makeEl '#selection'
 	.inside theContainer
+	.z 50
+	.zIndex 50
 
 	set._setupDomEl 'Grids', 'Selection', selection, [
 		'opacity', 'scale'
