@@ -88,30 +88,34 @@ $selectionTop: 20%
 
 #wrap-ten-v
 
-	@include fullSize
+	position: absolute
+	height: 100%
+	width: $selectionWidth
+	left: $selectionLeft
 
 	> .l
 
 		position: absolute
 
 		width: 10px
-		height: 100vh
-
-		top: -20vh
+		height: 100%
 
 		border-right: 1px solid #00ffcc
+		border-left: 1px solid #00ffcc
+
+		left: 0
 
 	> .r
 
 		position: absolute
 
 		width: 10px
-		height: 100vh
+		height: 100%
 
-		top: -20vh
 		right: 0
 
 		border-left: 1px solid #00ffcc
+		border-right: 1px solid #00ffcc
 
 #wrap-ten-h
 

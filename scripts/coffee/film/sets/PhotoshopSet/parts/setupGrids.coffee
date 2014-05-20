@@ -130,7 +130,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Wrap 10 v', wrap10Ver, ['opacity']
 
 	wrap10Hor = set._makeEl '#wrap-ten-h'
-	.inside selection
+	.inside theContainer
 	.html """
 
 		<div class="t"></div>
