@@ -15,6 +15,8 @@ module.exports = class PhotoshopSet extends Set
 		.zIndex -100
 		.addClass 'photoshopContainer'
 
+		console.log @container.node
+
 		@blackifier = @_makeEl '.photoshop-blackifier'
 		.inside @film.display.stageContainer
 		.zIndex -90
