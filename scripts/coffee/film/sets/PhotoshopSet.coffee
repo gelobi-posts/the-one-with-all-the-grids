@@ -90,7 +90,7 @@ module.exports = class PhotoshopSet extends Set
 
 	_setupMenus: ->
 
-		@menusContainer = @makeSetContainer()
+		@menusContainer = @makeSetContainer([null, 65137])
 		.attr 'id', 'photoshop-menusContainer'
 
 		setupPhotoshopInterface @
