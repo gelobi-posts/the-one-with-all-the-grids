@@ -6,7 +6,7 @@ module.exports = (film) ->
 
 		() -> {x: window.innerWidth * .5, y: window.innerHeight * .5},
 
-		(prev) -> {x: -prev.x + 430, y: -prev.y + 20 },
+		(prev) -> {x: -prev.x + 440, y: -prev.y + 19 },
 
 		() -> {x: 0, y: 70},
 
@@ -14,7 +14,7 @@ module.exports = (film) ->
 
 		() -> {x: 0, y: 40},
 
-		(prev) -> {x:  -prev.x + window.innerWidth * .4 + 100, y: -prev.y +  window.innerHeight * .2 + 40},
+		(prev) -> {x:  -prev.x + window.innerWidth * .4 + 110, y: -prev.y +  window.innerHeight * .2 + 40},
 
 		() -> {x: 0, y: 44},
 
@@ -37,7 +37,7 @@ module.exports = (film) ->
 		() -> {x: 50, y:0},
 
 		# first selection
-		(prev) -> {x: -prev.x + .07 * window.innerWidth - 8, y: -prev.y + .2 * window.innerHeight + 3},
+		(prev) -> {x: -prev.x + .07 * window.innerWidth - 0, y: -prev.y + .2 * window.innerHeight + 0},
 
 		() -> {x: 360, y: 360},
 
