@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 90
+    height: 253
     _isVisible: true
 
   timeControl:
-    t: 50724.314569347785
+    t: 49957.18976370658
     _focus:
-      from: 14094.550368969793
-      to: 59293.78707969452
+      from: 49836.25063782464
+      to: 50776.76328189253
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -98
+    scrollTop: -72
     guides:
       _list: [
         7944.070887026577
@@ -811,8 +811,31 @@
           }
         ]
       }
+      {
+        name: "Regrid"
+        propHolders: [
+          {
+            id: "no-id-Grids-Selection-Scale X"
+            _expanded: true
+            actorPropId: "no-id-Grids-Selection-Scale X"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Selection-Scale Y"
+            _expanded: true
+            actorPropId: "no-id-Grids-Selection-Scale Y"
+            _height: 80
+          }
+          {
+            id: "no-id-Mouse-Mousify-Move"
+            _expanded: true
+            actorPropId: "no-id-Mouse-Mousify-Move"
+            _height: 80
+          }
+        ]
+      }
     ]
-    _activeWorkspaceName: "EMPTY"
+    _activeWorkspaceName: "Regrid"
 
   timeline:
     _allProps:
@@ -3249,7 +3272,7 @@
           chronology:
             points: [
               {
-                t: 49942.2468306746
+                t: 49957.18976370658
                 value: 0
                 id: "no-id-Grids-Selection-Scale X-point-0"
                 handler: [
@@ -3260,11 +3283,11 @@
                 ]
               }
               {
-                t: 50668.39631363635
+                t: 50683.339246668336
                 value: 1
                 id: "no-id-Grids-Selection-Scale X-point-1"
                 handler: [
-                  314.9141845703125
+                  350.73321533203125
                   0
                   100
                   0.01531249936670065
@@ -3295,8 +3318,8 @@
             ]
             connectors: [
               {
-                t: 49942.2468306746
-                id: "no-id-Grids-Selection-Scale Y-connector-1"
+                t: 49957.18976370658
+                id: "no-id-Grids-Selection-Scale X-connector-4"
               }
               {
                 t: 79998.86105704849
