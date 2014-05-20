@@ -37,7 +37,7 @@ module.exports = (film) ->
 		() -> {x: 50, y:0},
 
 		# first selection
-		(prev) -> {x: -prev.x + .07 * window.innerWidth, y: -prev.y + .2 * window.innerHeight},
+		(prev) -> {x: -prev.x + .07 * window.innerWidth - 8, y: -prev.y + .2 * window.innerHeight + 3},
 
 		() -> {x: 360, y: 360},
 
