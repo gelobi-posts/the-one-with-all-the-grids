@@ -101,7 +101,6 @@ $selectionTop: 20%
 		height: 100%
 
 		border-right: 1px solid #00ffcc
-		border-left: 1px solid #00ffcc
 
 		left: 0
 
@@ -115,20 +114,20 @@ $selectionTop: 20%
 		right: 0
 
 		border-left: 1px solid #00ffcc
-		border-right: 1px solid #00ffcc
 
 #wrap-ten-h
 
-	@include fullSize
+	position: absolute
+	width: 100%
+	height: $selectionWidth
+	top: $selectionTop
 
 	> .t
 
 		position: absolute
 
-		width: 100vw
+		width: 100%
 		height: 10px
-
-		left: -7vw
 
 		border-bottom: 1px solid #00ffcc
 
@@ -136,10 +135,9 @@ $selectionTop: 20%
 
 		position: absolute
 
-		width: 100vw
+		width: 100%
 		height: 10px
 
-		left: -7vw
 		bottom: 0
 
 		border-top: 1px solid #00ffcc
