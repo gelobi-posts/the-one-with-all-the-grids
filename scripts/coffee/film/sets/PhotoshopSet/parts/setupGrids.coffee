@@ -152,7 +152,7 @@ module.exports = (set) ->
 	set._setupDomEl 'Grids', 'Wrap 50 v', wrap50Ver, ['opacity']
 
 	wrap50Hor = set._makeEl '#wrap-fifty-h'
-	.inside selection
+	.inside theContainer
 	.html """
 
 		<div class="t"></div>
