@@ -1,6 +1,6 @@
 module.exports = (set) ->
 
-	theContainer = set.theContainerContainer
+	theContainer = set.gridsAndSelectionContainer
 
 	selection = set._makeEl '#selection'
 	.inside theContainer

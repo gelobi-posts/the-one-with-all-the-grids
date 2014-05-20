@@ -5,292 +5,224 @@
 
 	position: absolute
 
-#grids
 
-	z-index: -199
+#selection
 
-	> #selection
+	position: absolute
+
+	width: 50vh
+	height: 50vh
+
+	top: 20%
+	left: 7%
+
+	border: 1px dashed #FFF
+
+	opacity: 0
+
+	@include transform-origin(left top)
+
+#griddify-forty
+
+	position: absolute
+
+	width: 100vw
+	height: 100%
+
+	left: -7vw
+
+	background: url('../../images/photoshop/grids/4.png')
+
+	opacity: 0
+
+#divide-four
+
+	@include full-screen
+
+	> .v
+
+		> div
+
+			float: left
+
+			border-right: 1px solid #00ffcc
+
+			width: 25%
+			height: 100vw
+
+			margin-top: -20vh
+
+	> .h
+
+		@include full-screen
+
+		> div
+
+			border-bottom: 1px solid #00ffcc
+
+			width: 100vw
+			height: 25%
+
+			margin-left: -7vw
+
+#wrap-zero
+
+	position: absolute
+
+	width: 100%
+	height: 100vh
+
+	top: -20vh
+
+	border-left: 1px solid #00ffcc
+	border-right: 1px solid #00ffcc
+
+#wrap-ten-v
+
+	@include full-screen
+
+	> .l
 
 		position: absolute
 
-		width: 50vh
-		height: 50vh
+		width: 10px
+		height: 100vh
 
-		top: 20%
-		left: 7%
+		top: -20vh
 
-		border: 1px dashed #FFF
+		border-right: 1px solid #00ffcc
 
-		opacity: 0
+	> .r
 
-		@include transform-origin(left top)
+		position: absolute
 
-		> #griddify-forty
+		width: 10px
+		height: 100vh
 
-			position: absolute
+		top: -20vh
+		right: 0
 
-			width: 100vw
-			height: 100%
+		border-left: 1px solid #00ffcc
 
-			left: -7vw
+#wrap-ten-h
 
-			background: url('../../images/photoshop/grids/4.png')
+	@include full-screen
 
-			opacity: 0
+	> .t
 
-		> #divide-four
+		position: absolute
 
-			@include full-screen
+		width: 100vw
+		height: 10px
 
-			> .v
+		left: -7vw
 
-				> div
+		border-bottom: 1px solid #00ffcc
 
-					float: left
+	> .b
 
-					border-right: 1px solid #00ffcc
+		position: absolute
 
-					width: 25%
-					height: 100vw
+		width: 100vw
+		height: 10px
 
-					margin-top: -20vh
+		left: -7vw
+		bottom: 0
 
-			> .h
+		border-top: 1px solid #00ffcc
 
-				@include full-screen
+#wrap-fifty-v
 
-				> div
+	@include full-screen
 
-					border-bottom: 1px solid #00ffcc
+	> .l
 
-					width: 100vw
-					height: 25%
+		position: absolute
 
-					margin-left: -7vw
+		width: 50px
+		height: 100vh
 
-		> #wrap-zero
+		top: -20vh
 
-			position: absolute
+		border-right: 1px solid #00ffcc
 
-			width: 100%
-			height: 100vh
+	> .r
 
-			top: -20vh
+		position: absolute
 
-			border-left: 1px solid #00ffcc
-			border-right: 1px solid #00ffcc
+		width: 50px
+		height: 100vh
 
-		> #wrap-ten-v
+		top: -20vh
+		right: 0
 
-			@include full-screen
+		border-left: 1px solid #00ffcc
 
-			> .l
+#wrap-fifty-h
 
-				position: absolute
+	@include full-screen
 
-				width: 10px
-				height: 100vh
+	> .t
 
-				top: -20vh
+		position: absolute
 
-				border-right: 1px solid #00ffcc
+		width: 100vw
+		height: 50px
 
-			> .r
+		left: -7vw
+		top: -100px
 
-				position: absolute
+		border-bottom: 1px solid #00ffcc
 
-				width: 10px
-				height: 100vh
+	> .b
 
-				top: -20vh
-				right: 0
+		position: absolute
 
-				border-left: 1px solid #00ffcc
+		width: 100vw
+		height: 50px
 
-		> #wrap-ten-h
+		left: -7vw
+		bottom: -100px
 
-			@include full-screen
+		border-top: 1px solid #00ffcc
 
-			> .t
+#hundred-v
 
-				position: absolute
+	@include full-screen
 
-				width: 100vw
-				height: 10px
+	background: url('../../images/photoshop/grids/1.png')
 
-				left: -7vw
+	opacity: 0
 
-				border-bottom: 1px solid #00ffcc
+#hundred-h
 
-			> .b
+	@include full-screen
 
-				position: absolute
+	background: url('../../images/photoshop/grids/2.png')
 
-				width: 100vw
-				height: 10px
+#twenty
 
-				left: -7vw
-				bottom: 0
+	@include full-screen
 
-				border-top: 1px solid #00ffcc
+	background: url('../../images/photoshop/grids/3.png')
 
-		> #wrap-fifty-v
+#eighty
 
-			@include full-screen
+	@include full-screen
 
-			> .l
+	background: url('../../images/photoshop/grids/4.png')
 
-				position: absolute
+#divide-container
 
-				width: 50px
-				height: 100vh
+#four-v
 
-				top: -20vh
+	@include full-screen
 
-				border-right: 1px solid #00ffcc
+	> div
 
-			> .r
+		float: left
 
-				position: absolute
+		border-right: 1px solid #00ffcc
 
-				width: 50px
-				height: 100vh
-
-				top: -20vh
-				right: 0
-
-				border-left: 1px solid #00ffcc
-
-		> #wrap-fifty-h
-
-			@include full-screen
-
-			> .t
-
-				position: absolute
-
-				width: 100vw
-				height: 50px
-
-				left: -7vw
-				top: -100px
-
-				border-bottom: 1px solid #00ffcc
-
-			> .b
-
-				position: absolute
-
-				width: 100vw
-				height: 50px
-
-				left: -7vw
-				bottom: -100px
-
-				border-top: 1px solid #00ffcc
-
-	> #griddify-container
-
-		> #hundred-v
-
-			@include full-screen
-
-			background: url('../../images/photoshop/grids/1.png')
-
-			opacity: 0
-
-		> #hundred-h
-
-			@include full-screen
-
-			background: url('../../images/photoshop/grids/2.png')
-
-		> #twenty
-
-			@include full-screen
-
-			background: url('../../images/photoshop/grids/3.png')
-
-		> #eighty
-
-			@include full-screen
-
-			background: url('../../images/photoshop/grids/4.png')
-
-	> #divide-container
-
-		// > #four-h
-
-		// 	@include full-screen
-
-		// 	opacity: 0
-
-		// 	> div
-
-		// 		border-bottom: 1px solid #00ffcc
-
-		// 		width: 100%
-		// 		height: 25vh
-
-		> #four-v
-
-			@include full-screen
-
-			> div
-
-				float: left
-
-				border-right: 1px solid #00ffcc
-
-				width: 25vw
-				height: 100%
-
-		// > #two
-
-		// 	@include full-screen
-
-		// 	> .v
-
-		// 		position: absolute
-
-		// 		width: 50vw
-		// 		height: 100%
-
-		// 		border-right: 1px solid #00ffcc
-
-		// 	> .h
-
-		// 		position: absolute
-
-		// 		width: 100%
-		// 		height: 50vh
-
-		// 		border-bottom: 1px solid #00ffcc
-
-		// > #three
-
-		// 	@include full-screen
-
-		// 	> .v
-
-		// 		@include full-screen
-
-		// 		> div
-
-		// 			float: left
-
-		// 			width: 33.3vw
-		// 			height: 100%
-
-		// 			border-right: 1px solid #00ffcc
-
-		// 	> .h
-
-		// 		@include full-screen
-
-		// 		> div
-
-		// 			width: 100%
-		// 			height: 33.3vh
-
-		// 			border-bottom: 1px solid #00ffcc
+		width: 25vw
+		height: 100%
