@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 217292.6519138756
+    t: 213175.16267942515
     _focus:
       from: 0
       to: 224406
@@ -7962,7 +7962,7 @@
       "no-id-Photoshop-Edit Menu-Opacity":
         pacs:
           _idCounter: 2
-          chronologyLength: 186102.91961434152
+          chronologyLength: 60798.314097399256
           chronology:
             points: [
               {
@@ -8042,28 +8042,6 @@
                   -0.011091499589383602
                 ]
               }
-              {
-                t: 185862.31532338745
-                value: 0.3
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-5"
-                handler: [
-                  0
-                  0.23735810816287994
-                  188.64369201660156
-                  0
-                ]
-              }
-              {
-                t: 186102.91961434152
-                value: 0
-                id: "no-id-Photoshop-Menu Bar-Opacity-point-6"
-                handler: [
-                  146.43240356445312
-                  0
-                  100
-                  -0.011091499589383602
-                ]
-              }
             ]
             connectors: [
               {
@@ -8077,10 +8055,6 @@
               {
                 t: 60470.829329134285
                 id: "no-id-Photoshop-Edit Menu-Opacity-connector-1"
-              }
-              {
-                t: 185862.31532338745
-                id: "no-id-Photoshop-Menu Bar-Opacity-connector-8"
               }
             ]
 
