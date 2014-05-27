@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Pragma" content="no-cache">
 	<title>Griddify, a Tiny Photoshop Panel for Guides and Grids</title>
-	<link rel="stylesheet" href="./styles/css/public.css?v=3">
+	<link rel="stylesheet" href="./styles/css/public.css?v=4">
 	<link rel="stylesheet" href="./icons/css/icons.css">
 	<script>window.postBase = '.';</script>
 </head>
@@ -48,10 +48,10 @@
 
 				<ol>
 					<li>
-						Make sure you have <a href="http://www.adobe.com/exchange/em_download/">Adobe Extension Manager</a> installed.
+						Make sure you have <a href="http://www.adobe.com/exchange/em_download/">Adobe Extension Manager</a> installed. You can also get it via Creative Cloud app.
 					</li>
 					<li>
-						<a href="https://github.com/pixana/griddify/releases/download/0.1.0-beta.1/Griddify.zxp">Download</a> Griddify, and install using Adobe Extension Manager.
+						<a href="https://github.com/pixana/griddify/releases/download/1.0.0-beta.3/Griddify-1.0.0-beta.3.zxp">Download</a> Griddify, and install using Adobe Extension Manager.
 					</li>
 					<li>
 						Once installed, open your Photoshop CC. You can find the panel in the &ldquo;Window&rdquo; menu, under &ldquo;Extensions&rdquo;.
@@ -61,28 +61,60 @@
 
 			<h2>Download and Install (Photoshop CS6)</h2>
 
-			<p>
-				The CS6 version is now ready! Please note that HTML panels in Photoshop CS6 don't work as well as they do in Photoshop CC, because CC uses an embedded version of Chromium to render HTML content while CS6 uses Flash, which is significantly less stable. So the panel will look and act a bit different than the one we showed you in the demo.
-			</p>
-
 			<ol>
 				<li>
-					Download the CS6 version of Griddify <a href="https://github.com/pixana/griddify/releases/download/0.1.0-beta.1/Griddify-0.1.0-cs6-beta.1.zip">here</a>.
+					Download the CS6 version of Griddify <a href="https://github.com/pixana/griddify/releases/download/1.0.0-beta.3/GriddifyCS6-1.0.0-beta.3.zip">here</a> and extract the zip file.
 				</li>
 				<li>
-					Extract the zip file.
-				</li>
-				<li>
-					If you're on windows, put the "Griddify" folder in "C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Plug-ins\Panels". If you're on Mac, put the "Griddify" folder in "Macintosh HD/Applications/Adobe Photoshop CS6/Plug-Ins/Panels"
-				</li>
+					Put the "Griddify" folder where you installed Photoshop, under "Plugins/Panels"
 				<li>
 					Restart Photoshop CS6, and hopefully you can see the panel in the &ldquo;Window&rdquo; menu, under &ldquo;Extensions&rdquo;.
 				</li>
 
-
 			</ol>
+
+			<h2>What's new?</h2>
+
+			Griddify Beta 3 comes with a few bug fixes and improvements, including:
+
+			<ul>
+				<li>A timestamp, which is supposed to fix the "This extension does not contain a valid signature" issue.</li>
+				<li>
+					Better <a href="https://github.com/pixana/griddify/issues/9">support</a> for larger UI font sizes.
+				</li>
+				<li>
+					No more <a href="https://github.com/pixana/griddify/issues/5">misplaced guides</a> when using non-pixel ruler units.
+				</li>
+				<li>
+					An actually clickable "Remind Me Later" button for the update notifier.
+				</li>
+				<li>
+					Minor improvements to the UI.
+				</li>
+				<li>
+					And a smarter updater notifier.
+				</li>
+			</ul>
+
+			<h2>Known issues</h2>
+
+			<ul>
+				<li>
+					"This functionality may not be available in this version of Photoshop" is an error you might sometimes see. Closing and re-opening the panel seems to fix this error.
+				</li>
+				<li>
+					The panel <a href="https://github.com/pixana/griddify/issues/2">looks blurry</a> in Retina displays.
+				</li>
+			</ul>
+
+			<h2>Issues regarding Photoshop CS6</h2>
+
 			<p>
-					We just released CS6, so we do expect it to be less stable for now. If you encounter any issues, please report them on <a href="https://github.com/pixana/griddify/issues">github</a>.
+				HTML panels in Photoshop CS6 don't work as well as they do in Photoshop CC, because CC uses an embedded version of Chromium to render HTML content while CS6 uses Flash, which is significantly less stable. So the panel will look and act a bit differently than the one we showed you in the demo.
+			</p>
+
+			<p>
+				We just released CS6, so we do expect it to be less stable for now. If you encounter any issues, please report them on <a href="https://github.com/pixana/griddify">github</a>.
 			</p>
 
 			<h2>What about CS4/5?</h2>
@@ -96,13 +128,6 @@
 			<p>
 				Griddify is free and open-source. The project is hosted on <a href="https://github.com/pixana/griddify">github</a>.
 			</p>
-
-			<h2>Updates</h2>
-			<ol>
-				<li>
-					Griddify comes with an update notifier that sends an empty request to gelobi.org/griddify/updateHub to check for new versions. We don't use cookies or collect any information. The <a href="https://github.com/gelobi/the-one-with-all-the-grids/blob/public/updateHub/index.php">UpdateHub</a> is  a simple php file that currently responds with "no." We should have written about this earlier &mdash; our apologies :)
-				</li>
-			</ol>
 
 		</div>
 
