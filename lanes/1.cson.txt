@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 415
+    height: 295
     _isVisible: true
 
   timeControl:
-    t: 143854.5849126394
+    t: 199307.9605263158
     _focus:
-      from: 141784.39943483297
-      to: 144962.86602702062
+      from: 0
+      to: 224406
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -98
+    scrollTop: 359
     guides:
       _list: [
         7944.070887026577
@@ -478,7 +478,7 @@
             id: "no-id-Gelobi-gelobi-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-X"
-            _height: 235
+            _height: 79
           }
           {
             id: "no-id-More Tools-Lines Container-X"
@@ -733,18 +733,6 @@
             actorPropId: "no-id-Ending-Newsletter-Opacity"
             _height: 80
           }
-          {
-            id: "no-id-Grids-Griddify 100 h-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Griddify 100 h-Opacity"
-            _height: 80
-          }
-          {
-            id: "no-id-Photoshop-Pref Highlight-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Photoshop-Pref Highlight-Opacity"
-            _height: 80
-          }
         ]
       }
       {
@@ -877,7 +865,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Gelobi Transition"
+    _activeWorkspaceName: "Regrid"
 
   timeline:
     _allProps:
@@ -10545,7 +10533,7 @@
             points: [
               {
                 t: 140575.37437297273
-                value: 356.8
+                value: 356.79999999999995
                 id: "no-id-Gelobi-gelobi-X-point-1"
                 handler: [
                   100
@@ -10572,8 +10560,8 @@
                 handler: [
                   100
                   -50.029998779296875
-                  629.9652099609375
-                  -27.934864044189453
+                  331.5086975097656
+                  0
                 ]
               }
               {
@@ -15510,8 +15498,8 @@
                 handler: [
                   100
                   0.09552986174821854
-                  147.3751678466797
-                  0.9124049544334412
+                  147.37518310546875
+                  0.6482486724853516
                 ]
               }
               {

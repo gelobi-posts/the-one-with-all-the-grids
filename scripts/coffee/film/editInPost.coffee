@@ -9,7 +9,7 @@ film = new EditingFilm
 
 	lane: '1'
 
-	pass: 'qwerty'
+	passphrase: 'qwerty'
 
 	aspectRatio: no
 
