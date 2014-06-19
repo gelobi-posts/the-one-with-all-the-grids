@@ -8,7 +8,7 @@ module.exports = class IntroSet extends Set
 
 		@id = 'audio'
 
-		el = @film.theatre.model.audio.add(window.postBase + '/audio/narration.mp3', 0)._el
+		el = @film.theatre.model.audio.set(window.postBase + '/audio/narration.mp3')._el
 
 		@film.loader.loadAudio el, 2960142
 

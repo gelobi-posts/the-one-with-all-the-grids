@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 143924.29365204688
+    t: 37855.643000000004
     _focus:
-      from: 142066.3753539871
-      to: 145358.0004400008
+      from: 0
+      to: 186935.30153998447
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -161
+    scrollTop: -145
     guides:
       _list: [
         7944.070887026577
@@ -484,7 +484,7 @@
             id: "no-id-More Tools-Lines Container-X"
             _expanded: true
             actorPropId: "no-id-More Tools-Lines Container-X"
-            _height: 80
+            _height: 85
           }
           {
             id: "no-id-Gelobi-gelobi-Y"
