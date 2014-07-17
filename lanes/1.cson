@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 35553.484383800875
+    t: 3509.578914287823
     _focus:
-      from: 0
-      to: 186935.30153998447
+      from: 37.11658076215089
+      to: 6932.55247346396
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -145
+    scrollTop: -148
     guides:
       _list: [
         7944.070887026577
@@ -478,7 +478,7 @@
             id: "no-id-Gelobi-gelobi-X"
             _expanded: true
             actorPropId: "no-id-Gelobi-gelobi-X"
-            _height: 88
+            _height: 107
           }
           {
             id: "no-id-More Tools-Lines Container-X"
@@ -877,7 +877,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Gelobi Transition"
+    _activeWorkspaceName: "Intro"
 
   timeline:
     _allProps:
@@ -5299,8 +5299,8 @@
                 handler: [
                   100
                   9.178082466125488
-                  383.3457946777344
-                  0.5404391288757324
+                  387.4698486328125
+                  723.1953735351562
                 ]
               }
               {
