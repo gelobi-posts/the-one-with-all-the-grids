@@ -1,20 +1,21 @@
 {
   mainBox:
-    height: 315
+    height: 95
     _isVisible: true
 
   timeControl:
-    t: 3068.30400967114
+    t: 3400.798636980494
     _focus:
-      from: 37.11658076215089
-      to: 6932.55247346396
+      from: 1502.214561990385
+      to: 4519.736019579227
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -148
+    scrollTop: 0
     guides:
       _list: [
+        2618.7809759962015
         7944.070887026577
         12037.83637582346
         15677.829482161707
@@ -76,13 +77,13 @@
             id: "no-id-Intro-Gelobi Letter e-X"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Letter e-X"
-            _height: 54
+            _height: 126
           }
           {
             id: "no-id-Intro-Gelobi Letter l-X"
             _expanded: true
             actorPropId: "no-id-Intro-Gelobi Letter l-X"
-            _height: 59
+            _height: 157
           }
           {
             id: "no-id-Intro-Gelobi Letter o-X"
@@ -5571,35 +5572,35 @@
       "no-id-Intro-Gelobi Letter l-X":
         pacs:
           _idCounter: 12
-          chronologyLength: 3348.9838571380265
+          chronologyLength: 3402.125342005127
           chronology:
             points: [
               {
-                t: 2611.6529502459384
+                t: 2610.0695644814687
                 value: 100
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
                   9.178082466125488
-                  309.1126403808594
-                  -332.7400207519531
+                  383.3457946777344
+                  0.5404391288757324
                 ]
               }
               {
-                t: 3348.9838571380265
+                t: 3402.125342005127
                 value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
-                  409.2556457519531
-                  161.96121215820312
+                  692.0059204101562
+                  0
                   100
                   2.016763687133789
                 ]
               }
             ]
             connectors: [
-              t: 2611.6529502459384
-              id: "no-id-Intro-Gelobi Letter l-X-connector-12"
+              t: 2610.0695644814687
+              id: "no-id-Intro-Gelobi Letter e-X-connector-13"
             ]
 
       "no-id-Intro-Gelobi Letter o-X":
