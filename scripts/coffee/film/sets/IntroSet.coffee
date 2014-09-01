@@ -27,18 +27,6 @@ module.exports = class IntroSet extends Set
 			'opacity', 'scaleAll'
 		]
 
-		# aft = ['', '', ' 1', ' 1', ' 2', ' 2', '', '']
-
-		# for letter, i in 'Griddify'
-
-		# 	el = @_makeEl '.letter'
-		# 	.html letter
-		# 	.inside griddify
-
-			# @_setupDomEl 'Intro', 'Griddify Letter ' + letter + aft[i], el, [
-			# 	'opacity', 'translation'
-			# ]
-
 		gelobiContainer = @_makeEl '#intro-gelobiContainer'
 		.inside @container
 
@@ -55,17 +43,5 @@ module.exports = class IntroSet extends Set
 			@_setupDomEl 'Intro', 'Gelobi Letter ' + letter, el, [
 				'opacity', 'translation'
 			]
-
-		# alaki = @_makeEl '#intro-alaki'
-		# .html 'alaki'
-		# .inside @container
-
-		# @_setupTangled 'Intro', 'Alaki', 'Prog', alaki,
-
-		# 	y: [0, 100]
-
-		# 	scale: [1, 3]
-
-		# 	rotateY: [0, 45]
 
 		return
