@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 9503.79276122627
+    t: 130770.57079601883
     _focus:
-      from: 5217.661737641829
-      to: 18663.085886672197
+      from: 129655.51621138635
+      to: 132051.88030586645
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 17
+    scrollTop: -80
     guides:
       _list: [
         2618.7809759962015
@@ -884,7 +884,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "EMPTY"
+    _activeWorkspaceName: "More Tools 2"
 
   timeline:
     _allProps:
@@ -14293,8 +14293,8 @@
                 handler: [
                   191.10150146484375
                   0.2398132085800171
-                  178.08702087402344
-                  0.7743591666221619
+                  0
+                  3.324359178543091
                 ]
               }
               {
