@@ -4,7 +4,7 @@
     _isVisible: true
 
   timeControl:
-    t: 17740.581443392297
+    t: 17783.467619323143
     _focus:
       from: 9006.096945477153
       to: 32907.99233093398
@@ -12,7 +12,7 @@
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -26
+    scrollTop: 0
     guides:
       _list: [
         2618.7809759962015
@@ -884,7 +884,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "Intro"
+    _activeWorkspaceName: "EMPTY"
 
   timeline:
     _allProps:
