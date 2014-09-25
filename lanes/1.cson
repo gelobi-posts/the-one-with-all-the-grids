@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 95
+    height: 293
     _isVisible: true
 
   timeControl:
-    t: 3400.798636980494
+    t: 17740.581443392297
     _focus:
-      from: 1502.214561990385
-      to: 4519.736019579227
+      from: 9006.096945477153
+      to: 32907.99233093398
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: 0
+    scrollTop: -26
     guides:
       _list: [
         2618.7809759962015
@@ -155,6 +155,12 @@
             id: "no-id-Intro-I'm-X"
             _expanded: true
             actorPropId: "no-id-Intro-I'm-X"
+            _height: 80
+          }
+          {
+            id: "no-id-Grids-Griddify 40 -s-Opacity"
+            _expanded: true
+            actorPropId: "no-id-Grids-Griddify 40 -s-Opacity"
             _height: 80
           }
         ]
@@ -5537,13 +5543,13 @@
 
       "no-id-Intro-Gelobi Letter e-X":
         pacs:
-          _idCounter: 13
-          chronologyLength: 3349.4074647187886
+          _idCounter: 14
+          chronologyLength: 3829.9592140607256
           chronology:
             points: [
               {
                 t: 2557.35168719513
-                value: 100
+                value: 62.21947438436844
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
@@ -5553,12 +5559,12 @@
                 ]
               }
               {
-                t: 3349.4074647187886
-                value: 0
+                t: 3829.9592140607256
+                value: 48.80842440984793
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
-                  692.0059204101562
-                  0
+                  642.39794921875
+                  -3.6284329891204834
                   100
                   2.016763687133789
                 ]
@@ -5566,7 +5572,7 @@
             ]
             connectors: [
               t: 2557.35168719513
-              id: "no-id-Intro-Gelobi Letter e-X-connector-13"
+              id: "no-id-Intro-Gelobi Letter e-X-connector-14"
             ]
 
       "no-id-Intro-Gelobi Letter l-X":
