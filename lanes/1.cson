@@ -4,15 +4,15 @@
     _isVisible: true
 
   timeControl:
-    t: 131434.1572647654
+    t: 133859.31547795032
     _focus:
-      from: 129655.51621138635
-      to: 132051.88030586645
+      from: 123528.93647368414
+      to: 139731.9324353474
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -80
+    scrollTop: -164
     guides:
       _list: [
         2618.7809759962015
@@ -278,7 +278,7 @@
             id: "no-id-More Tools - 2-Photoshop-Prog"
             _expanded: true
             actorPropId: "no-id-More Tools - 2-Photoshop-Prog"
-            _height: 80
+            _height: 91
           }
           {
             id: "no-id-More Tools - 2-Panels-Prog"
@@ -14293,8 +14293,8 @@
                 handler: [
                   191.10150146484375
                   0.2398132085800171
-                  0
-                  1.1635257005691528
+                  263.1333312988281
+                  0.9441725015640259
                 ]
               }
               {
