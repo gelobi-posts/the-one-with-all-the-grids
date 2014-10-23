@@ -1,12 +1,12 @@
 module.exports = ->
 
-	container = document.querySelector 'div.pageContainer'
+	articleEl = document.querySelector '.pageContainer > .article'
 
 	comments = document.createElement 'div'
 	comments.classList.add 'comments'
 
-	# container.appendChild comments
-	container.insertBefore comments, container.querySelector '.footer'
+	# articleEl.appendChild comments
+	articleEl.appendChild comments
 
 	# showComments = document.createElement 'div'
 	# showComments.classList.add 'show-comments'

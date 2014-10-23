@@ -1,18 +1,18 @@
 {
   mainBox:
-    height: 304
+    height: 95
     _isVisible: true
 
   timeControl:
-    t: 133859.31547795032
+    t: 3804.8328581687997
     _focus:
-      from: 123528.93647368414
-      to: 139731.9324353474
+      from: 0
+      to: 47475.227901927115
 
     _lastPlayedTickAt: 0
 
   timelineEditor:
-    scrollTop: -164
+    scrollTop: 0
     guides:
       _list: [
         2618.7809759962015
@@ -157,12 +157,6 @@
             actorPropId: "no-id-Intro-I'm-X"
             _height: 80
           }
-          {
-            id: "no-id-Grids-Griddify 40 -s-Opacity"
-            _expanded: true
-            actorPropId: "no-id-Grids-Griddify 40 -s-Opacity"
-            _height: 80
-          }
         ]
       }
       {
@@ -278,7 +272,7 @@
             id: "no-id-More Tools - 2-Photoshop-Prog"
             _expanded: true
             actorPropId: "no-id-More Tools - 2-Photoshop-Prog"
-            _height: 91
+            _height: 80
           }
           {
             id: "no-id-More Tools - 2-Panels-Prog"
@@ -884,7 +878,7 @@
         ]
       }
     ]
-    _activeWorkspaceName: "More Tools 2"
+    _activeWorkspaceName: "Intro"
 
   timeline:
     _allProps:
@@ -5543,13 +5537,13 @@
 
       "no-id-Intro-Gelobi Letter e-X":
         pacs:
-          _idCounter: 14
-          chronologyLength: 3829.9592140607256
+          _idCounter: 13
+          chronologyLength: 3349.4074647187886
           chronology:
             points: [
               {
                 t: 2557.35168719513
-                value: 62.21947438436844
+                value: 100
                 id: "no-id-Intro-Gelobi Letter g-X-point-4"
                 handler: [
                   100
@@ -5559,12 +5553,12 @@
                 ]
               }
               {
-                t: 3829.9592140607256
-                value: 48.80842440984793
+                t: 3349.4074647187886
+                value: 0
                 id: "no-id-Intro-Gelobi Letter g-X-point-5"
                 handler: [
-                  642.39794921875
-                  -3.6284329891204834
+                  692.0059204101562
+                  0
                   100
                   2.016763687133789
                 ]
@@ -5572,7 +5566,7 @@
             ]
             connectors: [
               t: 2557.35168719513
-              id: "no-id-Intro-Gelobi Letter e-X-connector-14"
+              id: "no-id-Intro-Gelobi Letter e-X-connector-13"
             ]
 
       "no-id-Intro-Gelobi Letter l-X":
@@ -14293,8 +14287,8 @@
                 handler: [
                   191.10150146484375
                   0.2398132085800171
-                  263.1333312988281
-                  0.9441725015640259
+                  178.08702087402344
+                  0.7743591666221619
                 ]
               }
               {

@@ -2,28 +2,74 @@
 
 	position: relative
 	width: $totalWidth
-	margin-top: 120px
-
 	margin-right: auto
 	margin-left: auto
 
-.article-title
 
-	font-family: "Droid Sans", Helvetica, sans-serif
+
+.article-head > h1
+
+	margin: 0 $sideMargin
+
+	font-family: sans-serif
 	font-weight: 700
-	font-size: 40px
-	line-height: 48px
+	font-size: 36px
+	line-height: 46px
+	margin-bottom: 1em
+	margin-top: 4em
 
 .article-content
 
 	color: #1c1c1c
+	position: relative
+
+	h2, h3, h4, p, ul, ol
+
+		margin-left: $sideMargin
+		margin-right: $sideMargin
 
 	h2, h3, h4
 
-		font-family: "Droid Sans", Helvetica, sans-serif
+		font-family: sans-serif
 		font-weight: 700
+		margin-top: 1.5em
+		margin-bottom: 0.5em
 
-	position: relative
+	p, ul, ol
+
+		margin-bottom: 0.5em
+
+	ol
+
+		counter-reset: listNumbering
+
+		> li
+
+			counter-increment: listNumbering
+
+			&:before
+
+				content: counter(listNumbering, decimal) '.'
+
+	ul > li:before
+
+		content: "\2022"
+
+	ol, ul
+
+		list-style-type: none
+		position: relative
+
+		> li
+
+			margin-left: 24px
+
+			&:before
+
+				position: absolute
+				left: 0
+				font-size: 15px
+
 
 .article-content a
 
@@ -38,38 +84,20 @@
 		left: 0
 		right: 0
 		top: -4px
-		bottom: 1px
+		bottom: 0px
 
-		border-bottom: 1px solid #636363
-
-		z-index: -1
-
-	&:after
-
-		@include psuedo
-
-		position: absolute
-		left: -3px
-		right: -3px
-		top: -4px
-		bottom: -4px
+		border-bottom: 1px solid #A9A9A9
 
 		z-index: -1
-
-		background: #222
-
-		// @include transform(scale(0.9) translateZ(-1px))
-
-		@include transition(all 0.15s)
-
-		opacity: 0
 
 	&:hover
 
-		color: #FAFAFA
+		&:before
 
-		&:after
+			border-bottom-color: black
 
-			// @include transform(scale(1) translateZ(-1px))
+.article > .comments
 
-			opacity: 1
+	margin-left: $sideMargin
+	margin-right: $sideMargin
+	margin-top: 1em
