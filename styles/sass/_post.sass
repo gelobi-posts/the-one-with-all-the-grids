@@ -1,13 +1,3 @@
-$totalWidth: 730px
-$sideMargin: 40px
-
-@import "./post/parts/general"
-@import "./post/parts/header"
-@import "./post/parts/article"
-@import "./post/parts/film"
-@import "./post/parts/footer"
-@import "./post/parts/gelobi"
-
 #downloadAndInstall
 
 	position: relative
@@ -26,6 +16,29 @@ $sideMargin: 40px
 
 		opacity: 0.2
 
-.pageContainer
+#filmSpace
 
-	z-index: 1
+	height: 280px
+
+.film-display-view
+
+	background: #333
+
+	@include transform-origin(top center)
+
+.film-preview-title
+
+	font-family: "Droid Sans"
+	font-weight: 400
+	color: white
+	font-size: 22px
+	white-space: nowrap
+	opacity: 0
+
+	text-align: center
+
+	position: absolute
+
+	@include centralize(202px, 40px)
+
+@import "../../../post-commons/styles/css/post.css"

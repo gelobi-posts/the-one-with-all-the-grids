@@ -1,4 +1,3 @@
-require '../lib/shims'
 ResponsiveRestorableDisplay = require 'tiny-filmmaking-studio/scripts/js/lib/film/ResponsiveRestorableDisplay'
 SimplePlayer = require 'tiny-filmmaking-studio/scripts/js/lib/player/SimplePlayer'
 FinishedFilm = require 'tiny-filmmaking-studio/scripts/js/lib/FinishedFilm'

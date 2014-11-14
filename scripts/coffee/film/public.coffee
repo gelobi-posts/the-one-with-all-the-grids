@@ -1,4 +1,3 @@
 require './_play'
 
-setupDisqus = require '../post/setupDisqus'
-setupDisqus()
+require 'post-commons/lib/post'
