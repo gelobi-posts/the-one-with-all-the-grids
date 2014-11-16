@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Pragma" content="no-cache">
 	<title>Griddify, a Tiny Photoshop Panel for Guides and Grids</title>
-	<link rel="stylesheet" href="./styles/css/public.css?v=4">
-	<link rel="stylesheet" href="./icons/css/icons.css">
+	<link rel="stylesheet" href="./styles/css/public.css?v=5">
 	<script>window.postBase = '.';</script>
 </head>
 <body>
@@ -18,15 +17,22 @@
 
 	<article class="article">
 
-		<header>
+		<header class="article-head">
 
-			<h1 class="article-title">
-				Griddify: A Tiny Photoshop Panel to Make Guides and Grids
+			<h1>
+				Griddify: a Tiny Photoshop Panel for Guides and Grids
 			</h1>
 
 		</header>
 
 		<div class="article-content">
+
+			<div class="articleSide">
+				<a class="logo" href="http://gelobi.org" title="An upcoming blog about the web"></a>
+				<a class="date" href="http://gelobi.org/griddify">
+					08 May 2014
+				</a>
+			</div>
 
 			<p>
 				Griddify is tiny and fast. It helps you compose custom grid systems, vertical rhythm, and do a bunch of other stuff with guides in photoshop.
@@ -36,7 +42,7 @@
 				Watch the short tutorial to learn how it works:
 			</p>
 
-			<div id="filmSpace"></div>
+			<div id="filmSpace" class="filmSpace"></div>
 
 			<div id="downloadAndInstall">
 
@@ -48,13 +54,13 @@
 
 				<ol>
 					<li>
-						Make sure you have <a href="http://www.adobe.com/exchange/em_download/">Adobe Extension Manager</a> installed. You can also get it via Creative Cloud app.
+						Make sure you have <a href="http://www.adobe.com/exchange/em_download/">Adobe Extension Manager</a> installed. You can also get it via the Creative Cloud app.
 					</li>
 					<li>
 						<a href="https://github.com/pixana/griddify/releases/download/1.0.0-beta.3/Griddify-1.0.0-beta.3.zxp">Download</a> Griddify, and install using Adobe Extension Manager.
 					</li>
 					<li>
-						Once installed, open your Photoshop CC. You can find the panel in the &ldquo;Window&rdquo; menu, under &ldquo;Extensions&rdquo;.
+						Once installed, open your Photoshop CC. You can find the panel in the &lsquo;Window&rsquo; menu, under &lsquo;Extensions.&rsquo;
 					</li>
 				</ol>
 			</div>
@@ -66,19 +72,27 @@
 					Download the CS6 version of Griddify <a href="https://github.com/pixana/griddify/releases/download/1.0.0-beta.3/GriddifyCS6-1.0.0-beta.3.zip">here</a> and extract the zip file.
 				</li>
 				<li>
-					Put the "GriddifyCS6" folder where you installed Photoshop, under "Plugins/Panels"
+					Put the &lsquo;GriddifyCS6&rsquo; folder where you installed Photoshop, under "Plugins/Panels"
 				<li>
-					Restart Photoshop CS6, and hopefully you can see the panel in the &ldquo;Window&rdquo; menu, under &ldquo;Extensions&rdquo;.
+					Restart Photoshop CS6, and hopefully you can see the panel in the &lsquo;Window&rsquo; menu, under &lsquo;Extensions.&rsquo;
 				</li>
 
 			</ol>
 
+			<h2>Having trouble installing on CC 2014?</h2>
+
+			<p>
+				That has happened to a lot of our users. You can most likely fix this by installing Griddify <a href="https://github.com/pixana/griddify/blob/master/docs/manual-install.md">manually</a>.
+			</p>
+
 			<h2>What's new?</h2>
 
-			Griddify Beta 3 comes with a few bug fixes and improvements, including:
+			<p>
+				Griddify Beta 3 comes with a few bug fixes and improvements, including:
+			</p>
 
 			<ul>
-				<li>A timestamp, which is supposed to fix the "This extension does not contain a valid signature" issue.</li>
+				<li>A timestamp, which is supposed to fix the &lsquo;This extension does not contain a valid signature&rsquo; issue.</li>
 				<li>
 					Better <a href="https://github.com/pixana/griddify/issues/9">support</a> for larger UI font sizes.
 				</li>
@@ -100,7 +114,7 @@
 
 			<ul>
 				<li>
-					"This functionality may not be available in this version of Photoshop" is an error you might sometimes see. Closing and re-opening the panel seems to fix this error.
+					&lsquo;This functionality may not be available in this version of Photoshop&rsquo; is an error you might sometimes see. Closing and re-opening the panel seems to fix this error.
 				</li>
 				<li>
 					The panel <a href="https://github.com/pixana/griddify/issues/2">looks blurry</a> in Retina displays.
@@ -195,8 +209,7 @@
 		</div>
 	</div>
 
-	<script src="./scripts/dist/public.js?v=3"></script>
-
+	<script src="./scripts/dist/public.js?v=4"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
